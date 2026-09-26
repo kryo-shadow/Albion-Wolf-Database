@@ -1,0 +1,3539 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Head_Armor",
+  "family": "Head_Armor_Plate_Helmet",
+  "base_id": "T5_HEAD_PLATE_HELL",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T5_HEAD_PLATE_HELL",
+      "index": "3754",
+      "name_en": "Expert's Demon Helmet",
+      "name_ar": "الخوذة الشيطانية للأخصائي",
+      "name_de": "Dämonenhelm des Experten",
+      "name_fr": "Casque de démon de l'expert",
+      "name_es": "Casco de demonio del experto",
+      "name_ru": "Демонический шлем (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_HEAD_PLATE_HELL",
+        "description_variable": "@ITEMS_T5_HEAD_PLATE_HELL_DESC"
+      },
+      "category": "Head_Armor_Plate_Helmet",
+      "slot": "Head",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_HEAD_PLATE_HELL",
+        "facestate": "EMPTY",
+        "beardstate": "EMPTY",
+        "slottype": "head",
+        "shopcategory": "head",
+        "shopsubcategory1": "plate_helmet",
+        "tier": "5",
+        "maxqualitylevel": "5",
+        "itempower": "850",
+        "weight": "2.5",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "abilitypower": "100",
+        "healbonus": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "durability": "24300",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "head",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "plate_helmet",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_PLATE_HEADS_HELL",
+        "shopsubcategory2": "head_plate_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Demon Helmet",
+        "DE-DE": "Dämonenhelm des Experten",
+        "FR-FR": "Casque de démon de l'expert",
+        "RU-RU": "Демонический шлем (эксперт)",
+        "PL-PL": "Hełm Demona Znawcy",
+        "ES-ES": "Casco de demonio del experto",
+        "PT-BR": "Elmo Demônio do Perito",
+        "IT-IT": "Elmo demoniaco dell'esperto",
+        "ZH-CN": "专家级恶魔头盔",
+        "KO-KR": "전문가의 데몬 헬멧",
+        "JA-JP": "デーモンヘルメット（達人）",
+        "ZH-TW": "專家級惡魔頭盔",
+        "ID-ID": "Helm Iblis Ahli",
+        "TR-TR": "Uzman Şeytan Miğferi",
+        "AR-SA": "الخوذة الشيطانية للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.5,
+        "crafting_focus": 750,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 850,
+        "ability_power": 100,
+        "durability": 24300,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 2.5,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_PLATE_HEADS_HELL",
+        "itempower_progression": "head"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STONESKIN",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WEAPON_SILENCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STONESKIN",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WEAPON_SILENCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_HEAD_PLATE_HELL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 950,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1050,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1150,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1250,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 850,
+      "effective_durability": 24300,
+      "shop": {
+        "shop_category": "head",
+        "shop_subcategory1": "plate_helmet",
+        "crafting_category": "plate_helmet",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+          "name_artifact_en": "Expert's Demonic Scraps",
+          "name_artifact_ar": "بقايا شيطانية للأخصائي",
+          "name_artifact_de": "Dämonische Schrottfetzen des Experten",
+          "name_artifact_fr": "Lanières démoniaques de l'expert",
+          "name_artifact_es": "Esquirlas demoníacas del experto",
+          "name_artifact_ru": "Демонические лоскуты (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_HEAD_PLATE_HELL",
+        "item_database_index": "3754"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Demon Helmet",
+        "name_ar": "الخوذة الشيطانية للأخصائي",
+        "name_de": "Dämonenhelm des Experten",
+        "name_fr": "Casque de démon de l'expert",
+        "name_es": "Casco de demonio del experto",
+        "name_ru": "Демонический шлем (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_HEAD_PLATE_HELL",
+        "@facestate": "EMPTY",
+        "@beardstate": "EMPTY",
+        "@slottype": "head",
+        "@shopcategory": "head",
+        "@shopsubcategory1": "plate_helmet",
+        "@tier": "5",
+        "@maxqualitylevel": "5",
+        "@itempower": "850",
+        "@weight": "2.5",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@abilitypower": "100",
+        "@healbonus": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@durability": "24300",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "head",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "plate_helmet",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_PLATE_HEADS_HELL",
+        "@shopsubcategory2": "head_plate_hell",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.5",
+            "@craftingfocus": "750",
+            "craftresource": [
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.5",
+            "@craftingfocus": "750",
+            "craftresource": [
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_HEAD_PLATE_HELL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "950",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1050",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1150",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1250",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_HEAD_PLATE_HELL@1",
+      "index": "3755",
+      "name_en": "Expert's Demon Helmet",
+      "name_ar": "الخوذة الشيطانية للأخصائي",
+      "name_de": "Dämonenhelm des Experten",
+      "name_fr": "Casque de démon de l'expert",
+      "name_es": "Casco de demonio del experto",
+      "name_ru": "Демонический шлем (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_HEAD_PLATE_HELL",
+        "description_variable": "@ITEMS_T5_HEAD_PLATE_HELL_DESC"
+      },
+      "category": "Head_Armor_Plate_Helmet",
+      "slot": "Head",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_HEAD_PLATE_HELL",
+        "facestate": "EMPTY",
+        "beardstate": "EMPTY",
+        "slottype": "head",
+        "shopcategory": "head",
+        "shopsubcategory1": "plate_helmet",
+        "tier": "5",
+        "maxqualitylevel": "5",
+        "itempower": "850",
+        "weight": "2.5",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "abilitypower": "100",
+        "healbonus": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "durability": "24300",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "head",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "plate_helmet",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_PLATE_HEADS_HELL",
+        "shopsubcategory2": "head_plate_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Demon Helmet",
+        "DE-DE": "Dämonenhelm des Experten",
+        "FR-FR": "Casque de démon de l'expert",
+        "RU-RU": "Демонический шлем (эксперт)",
+        "PL-PL": "Hełm Demona Znawcy",
+        "ES-ES": "Casco de demonio del experto",
+        "PT-BR": "Elmo Demônio do Perito",
+        "IT-IT": "Elmo demoniaco dell'esperto",
+        "ZH-CN": "专家级恶魔头盔",
+        "KO-KR": "전문가의 데몬 헬멧",
+        "JA-JP": "デーモンヘルメット（達人）",
+        "ZH-TW": "專家級惡魔頭盔",
+        "ID-ID": "Helm Iblis Ahli",
+        "TR-TR": "Uzman Şeytan Miğferi",
+        "AR-SA": "الخوذة الشيطانية للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.5,
+        "crafting_focus": 750,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 850,
+        "ability_power": 100,
+        "durability": 24300,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 2.5,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_PLATE_HEADS_HELL",
+        "itempower_progression": "head"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STONESKIN",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WEAPON_SILENCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STONESKIN",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WEAPON_SILENCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_HEAD_PLATE_HELL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 950,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1050,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1150,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1250,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 950,
+        "durability": 36450,
+        "crafting_silver": 0,
+        "crafting_time": 0.667,
+        "crafting_focus": 1313,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RUNE",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 950,
+      "effective_durability": 36450,
+      "shop": {
+        "shop_category": "head",
+        "shop_subcategory1": "plate_helmet",
+        "crafting_category": "plate_helmet",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+          "name_artifact_en": "Expert's Demonic Scraps",
+          "name_artifact_ar": "بقايا شيطانية للأخصائي",
+          "name_artifact_de": "Dämonische Schrottfetzen des Experten",
+          "name_artifact_fr": "Lanières démoniaques de l'expert",
+          "name_artifact_es": "Esquirlas demoníacas del experto",
+          "name_artifact_ru": "Демонические лоскуты (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_HEAD_PLATE_HELL@1",
+        "item_database_index": "3755"
+      },
+      "tier": 5,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Expert's Demon Helmet",
+        "name_ar": "الخوذة الشيطانية للأخصائي",
+        "name_de": "Dämonenhelm des Experten",
+        "name_fr": "Casque de démon de l'expert",
+        "name_es": "Casco de demonio del experto",
+        "name_ru": "Демонический шлем (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_HEAD_PLATE_HELL",
+        "@facestate": "EMPTY",
+        "@beardstate": "EMPTY",
+        "@slottype": "head",
+        "@shopcategory": "head",
+        "@shopsubcategory1": "plate_helmet",
+        "@tier": "5",
+        "@maxqualitylevel": "5",
+        "@itempower": "850",
+        "@weight": "2.5",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@abilitypower": "100",
+        "@healbonus": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@durability": "24300",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "head",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "plate_helmet",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_PLATE_HEADS_HELL",
+        "@shopsubcategory2": "head_plate_hell",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.5",
+            "@craftingfocus": "750",
+            "craftresource": [
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.5",
+            "@craftingfocus": "750",
+            "craftresource": [
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_HEAD_PLATE_HELL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "950",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1050",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1150",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1250",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_HEAD_PLATE_HELL@2",
+      "index": "3756",
+      "name_en": "Expert's Demon Helmet",
+      "name_ar": "الخوذة الشيطانية للأخصائي",
+      "name_de": "Dämonenhelm des Experten",
+      "name_fr": "Casque de démon de l'expert",
+      "name_es": "Casco de demonio del experto",
+      "name_ru": "Демонический шлем (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_HEAD_PLATE_HELL",
+        "description_variable": "@ITEMS_T5_HEAD_PLATE_HELL_DESC"
+      },
+      "category": "Head_Armor_Plate_Helmet",
+      "slot": "Head",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_HEAD_PLATE_HELL",
+        "facestate": "EMPTY",
+        "beardstate": "EMPTY",
+        "slottype": "head",
+        "shopcategory": "head",
+        "shopsubcategory1": "plate_helmet",
+        "tier": "5",
+        "maxqualitylevel": "5",
+        "itempower": "850",
+        "weight": "2.5",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "abilitypower": "100",
+        "healbonus": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "durability": "24300",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "head",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "plate_helmet",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_PLATE_HEADS_HELL",
+        "shopsubcategory2": "head_plate_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Demon Helmet",
+        "DE-DE": "Dämonenhelm des Experten",
+        "FR-FR": "Casque de démon de l'expert",
+        "RU-RU": "Демонический шлем (эксперт)",
+        "PL-PL": "Hełm Demona Znawcy",
+        "ES-ES": "Casco de demonio del experto",
+        "PT-BR": "Elmo Demônio do Perito",
+        "IT-IT": "Elmo demoniaco dell'esperto",
+        "ZH-CN": "专家级恶魔头盔",
+        "KO-KR": "전문가의 데몬 헬멧",
+        "JA-JP": "デーモンヘルメット（達人）",
+        "ZH-TW": "專家級惡魔頭盔",
+        "ID-ID": "Helm Iblis Ahli",
+        "TR-TR": "Uzman Şeytan Miğferi",
+        "AR-SA": "الخوذة الشيطانية للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.5,
+        "crafting_focus": 750,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 850,
+        "ability_power": 100,
+        "durability": 24300,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 2.5,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_PLATE_HEADS_HELL",
+        "itempower_progression": "head"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STONESKIN",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WEAPON_SILENCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STONESKIN",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WEAPON_SILENCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_HEAD_PLATE_HELL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 950,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1050,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1150,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1250,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1050,
+        "durability": 54675,
+        "crafting_silver": 0,
+        "crafting_time": 0.833,
+        "crafting_focus": 2298,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_SOUL",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1050,
+      "effective_durability": 54675,
+      "shop": {
+        "shop_category": "head",
+        "shop_subcategory1": "plate_helmet",
+        "crafting_category": "plate_helmet",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+          "name_artifact_en": "Expert's Demonic Scraps",
+          "name_artifact_ar": "بقايا شيطانية للأخصائي",
+          "name_artifact_de": "Dämonische Schrottfetzen des Experten",
+          "name_artifact_fr": "Lanières démoniaques de l'expert",
+          "name_artifact_es": "Esquirlas demoníacas del experto",
+          "name_artifact_ru": "Демонические лоскуты (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_HEAD_PLATE_HELL@2",
+        "item_database_index": "3756"
+      },
+      "tier": 5,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Expert's Demon Helmet",
+        "name_ar": "الخوذة الشيطانية للأخصائي",
+        "name_de": "Dämonenhelm des Experten",
+        "name_fr": "Casque de démon de l'expert",
+        "name_es": "Casco de demonio del experto",
+        "name_ru": "Демонический шлем (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_HEAD_PLATE_HELL",
+        "@facestate": "EMPTY",
+        "@beardstate": "EMPTY",
+        "@slottype": "head",
+        "@shopcategory": "head",
+        "@shopsubcategory1": "plate_helmet",
+        "@tier": "5",
+        "@maxqualitylevel": "5",
+        "@itempower": "850",
+        "@weight": "2.5",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@abilitypower": "100",
+        "@healbonus": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@durability": "24300",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "head",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "plate_helmet",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_PLATE_HEADS_HELL",
+        "@shopsubcategory2": "head_plate_hell",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.5",
+            "@craftingfocus": "750",
+            "craftresource": [
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.5",
+            "@craftingfocus": "750",
+            "craftresource": [
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_HEAD_PLATE_HELL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "950",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1050",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1150",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1250",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_HEAD_PLATE_HELL@3",
+      "index": "3757",
+      "name_en": "Expert's Demon Helmet",
+      "name_ar": "الخوذة الشيطانية للأخصائي",
+      "name_de": "Dämonenhelm des Experten",
+      "name_fr": "Casque de démon de l'expert",
+      "name_es": "Casco de demonio del experto",
+      "name_ru": "Демонический шлем (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_HEAD_PLATE_HELL",
+        "description_variable": "@ITEMS_T5_HEAD_PLATE_HELL_DESC"
+      },
+      "category": "Head_Armor_Plate_Helmet",
+      "slot": "Head",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_HEAD_PLATE_HELL",
+        "facestate": "EMPTY",
+        "beardstate": "EMPTY",
+        "slottype": "head",
+        "shopcategory": "head",
+        "shopsubcategory1": "plate_helmet",
+        "tier": "5",
+        "maxqualitylevel": "5",
+        "itempower": "850",
+        "weight": "2.5",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "abilitypower": "100",
+        "healbonus": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "durability": "24300",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "head",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "plate_helmet",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_PLATE_HEADS_HELL",
+        "shopsubcategory2": "head_plate_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Demon Helmet",
+        "DE-DE": "Dämonenhelm des Experten",
+        "FR-FR": "Casque de démon de l'expert",
+        "RU-RU": "Демонический шлем (эксперт)",
+        "PL-PL": "Hełm Demona Znawcy",
+        "ES-ES": "Casco de demonio del experto",
+        "PT-BR": "Elmo Demônio do Perito",
+        "IT-IT": "Elmo demoniaco dell'esperto",
+        "ZH-CN": "专家级恶魔头盔",
+        "KO-KR": "전문가의 데몬 헬멧",
+        "JA-JP": "デーモンヘルメット（達人）",
+        "ZH-TW": "專家級惡魔頭盔",
+        "ID-ID": "Helm Iblis Ahli",
+        "TR-TR": "Uzman Şeytan Miğferi",
+        "AR-SA": "الخوذة الشيطانية للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.5,
+        "crafting_focus": 750,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 850,
+        "ability_power": 100,
+        "durability": 24300,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 2.5,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_PLATE_HEADS_HELL",
+        "itempower_progression": "head"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STONESKIN",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WEAPON_SILENCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STONESKIN",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WEAPON_SILENCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_HEAD_PLATE_HELL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 950,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1050,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1150,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1250,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1150,
+        "durability": 82013,
+        "crafting_silver": 0,
+        "crafting_time": 1.25,
+        "crafting_focus": 4021,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RELIC",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1150,
+      "effective_durability": 82013,
+      "shop": {
+        "shop_category": "head",
+        "shop_subcategory1": "plate_helmet",
+        "crafting_category": "plate_helmet",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+          "name_artifact_en": "Expert's Demonic Scraps",
+          "name_artifact_ar": "بقايا شيطانية للأخصائي",
+          "name_artifact_de": "Dämonische Schrottfetzen des Experten",
+          "name_artifact_fr": "Lanières démoniaques de l'expert",
+          "name_artifact_es": "Esquirlas demoníacas del experto",
+          "name_artifact_ru": "Демонические лоскуты (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_HEAD_PLATE_HELL@3",
+        "item_database_index": "3757"
+      },
+      "tier": 5,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Expert's Demon Helmet",
+        "name_ar": "الخوذة الشيطانية للأخصائي",
+        "name_de": "Dämonenhelm des Experten",
+        "name_fr": "Casque de démon de l'expert",
+        "name_es": "Casco de demonio del experto",
+        "name_ru": "Демонический шлем (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_HEAD_PLATE_HELL",
+        "@facestate": "EMPTY",
+        "@beardstate": "EMPTY",
+        "@slottype": "head",
+        "@shopcategory": "head",
+        "@shopsubcategory1": "plate_helmet",
+        "@tier": "5",
+        "@maxqualitylevel": "5",
+        "@itempower": "850",
+        "@weight": "2.5",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@abilitypower": "100",
+        "@healbonus": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@durability": "24300",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "head",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "plate_helmet",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_PLATE_HEADS_HELL",
+        "@shopsubcategory2": "head_plate_hell",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.5",
+            "@craftingfocus": "750",
+            "craftresource": [
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.5",
+            "@craftingfocus": "750",
+            "craftresource": [
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_HEAD_PLATE_HELL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "950",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1050",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1150",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1250",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_HEAD_PLATE_HELL@4",
+      "index": "3758",
+      "name_en": "Expert's Demon Helmet",
+      "name_ar": "الخوذة الشيطانية للأخصائي",
+      "name_de": "Dämonenhelm des Experten",
+      "name_fr": "Casque de démon de l'expert",
+      "name_es": "Casco de demonio del experto",
+      "name_ru": "Демонический шлем (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_HEAD_PLATE_HELL",
+        "description_variable": "@ITEMS_T5_HEAD_PLATE_HELL_DESC"
+      },
+      "category": "Head_Armor_Plate_Helmet",
+      "slot": "Head",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_HEAD_PLATE_HELL",
+        "facestate": "EMPTY",
+        "beardstate": "EMPTY",
+        "slottype": "head",
+        "shopcategory": "head",
+        "shopsubcategory1": "plate_helmet",
+        "tier": "5",
+        "maxqualitylevel": "5",
+        "itempower": "850",
+        "weight": "2.5",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "abilitypower": "100",
+        "healbonus": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "durability": "24300",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "head",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "plate_helmet",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_PLATE_HEADS_HELL",
+        "shopsubcategory2": "head_plate_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Demon Helmet",
+        "DE-DE": "Dämonenhelm des Experten",
+        "FR-FR": "Casque de démon de l'expert",
+        "RU-RU": "Демонический шлем (эксперт)",
+        "PL-PL": "Hełm Demona Znawcy",
+        "ES-ES": "Casco de demonio del experto",
+        "PT-BR": "Elmo Demônio do Perito",
+        "IT-IT": "Elmo demoniaco dell'esperto",
+        "ZH-CN": "专家级恶魔头盔",
+        "KO-KR": "전문가의 데몬 헬멧",
+        "JA-JP": "デーモンヘルメット（達人）",
+        "ZH-TW": "專家級惡魔頭盔",
+        "ID-ID": "Helm Iblis Ahli",
+        "TR-TR": "Uzman Şeytan Miğferi",
+        "AR-SA": "الخوذة الشيطانية للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.5,
+        "crafting_focus": 750,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 850,
+        "ability_power": 100,
+        "durability": 24300,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 2.5,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_PLATE_HEADS_HELL",
+        "itempower_progression": "head"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STONESKIN",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WEAPON_SILENCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STONESKIN",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WEAPON_SILENCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_HEAD_PLATE_HELL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 950,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1050,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1150,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1250,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1250,
+        "durability": 123019,
+        "crafting_silver": 0,
+        "crafting_time": 1.5,
+        "crafting_focus": 7037,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T5_ARTEFACT_HEAD_PLATE_HELL",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1250,
+      "effective_durability": 123019,
+      "shop": {
+        "shop_category": "head",
+        "shop_subcategory1": "plate_helmet",
+        "crafting_category": "plate_helmet",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_HEAD_PLATE_HELL",
+          "name_artifact_en": "Expert's Demonic Scraps",
+          "name_artifact_ar": "بقايا شيطانية للأخصائي",
+          "name_artifact_de": "Dämonische Schrottfetzen des Experten",
+          "name_artifact_fr": "Lanières démoniaques de l'expert",
+          "name_artifact_es": "Esquirlas demoníacas del experto",
+          "name_artifact_ru": "Демонические лоскуты (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_HEAD_PLATE_HELL@4",
+        "item_database_index": "3758"
+      },
+      "tier": 5,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Expert's Demon Helmet",
+        "name_ar": "الخوذة الشيطانية للأخصائي",
+        "name_de": "Dämonenhelm des Experten",
+        "name_fr": "Casque de démon de l'expert",
+        "name_es": "Casco de demonio del experto",
+        "name_ru": "Демонический шлем (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_HEAD_PLATE_HELL",
+        "@facestate": "EMPTY",
+        "@beardstate": "EMPTY",
+        "@slottype": "head",
+        "@shopcategory": "head",
+        "@shopsubcategory1": "plate_helmet",
+        "@tier": "5",
+        "@maxqualitylevel": "5",
+        "@itempower": "850",
+        "@weight": "2.5",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@abilitypower": "100",
+        "@healbonus": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@durability": "24300",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "head",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "plate_helmet",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_PLATE_HEADS_HELL",
+        "@shopsubcategory2": "head_plate_hell",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.5",
+            "@craftingfocus": "750",
+            "craftresource": [
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.5",
+            "@craftingfocus": "750",
+            "craftresource": [
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_HEAD_PLATE_HELL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "950",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1050",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1150",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1250",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_HEAD_PLATE_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T5_MEAL_OMELETTE_FISH",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_MEAL_OMELETTE_FISH",
+      "index": "804",
+      "name_en": "Drybrook Crab Omelette",
+      "name_ar": "عجة سلطعون Drybrook",
+      "name_de": "Bachkrabbenomelette",
+      "name_fr": "Omelette au crabe de rivière",
+      "name_es": "Tortilla de cangrejo de río",
+      "name_ru": "Омлет с сухопутным крабом",
+      "descriptions": {
+        "description_en": "Meal that reduces cooldowns, casting times, and Energy costs for a long period.",
+        "description_ar": "وجبة تقلل فترات الانتظار وأوقات الإلقاء وتكاليف الطاقة لفترة طويلة.",
+        "description_de": "Eine Mahlzeit, die deine Abklingzeiten, Zauberzeiten und Energiekosten für eine lange Zeit reduziert.",
+        "description_fr": "Repas qui réduit les temps de recharge, la vitesse d'incantation et les coûts en énergie pendant une longue période.",
+        "description_es": "Comida que reduce tiempos de espera, tiempos de lanzamiento y costes de energía por un largo periodo.",
+        "description_ru": "Блюдо, ускоряющее восстановление заклинаний, чтение заклинаний и снижающее расходы энергии в течение длительного периода времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MEAL_OMELETTE_FISH",
+        "description_variable": "@ITEMS_MEAL_OMELETTE_FISH_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_MEAL_OMELETTE_FISH",
+        "descriptionlocatag": "@ITEMS_MEAL_OMELETTE_FISH_DESC",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_P3",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "5",
+        "dummyitempower": "800",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "4.21",
+        "nutrition": "337",
+        "shopsubcategory2": "omelettes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Drybrook Crab Omelette",
+        "DE-DE": "Bachkrabbenomelette",
+        "FR-FR": "Omelette au crabe de rivière",
+        "RU-RU": "Омлет с сухопутным крабом",
+        "PL-PL": "Omlet z Kraba Potokowego",
+        "ES-ES": "Tortilla de cangrejo de río",
+        "PT-BR": "Omelete de Caranguejo de Riacho",
+        "IT-IT": "Frittata con granchio delle secche",
+        "ZH-CN": "干流螃蟹鸡蛋饼",
+        "KO-KR": "드라이브룩 게 오믈렛",
+        "JA-JP": "ドライブルッククラブオムレツ",
+        "ZH-TW": "荒溪螃蟹歐姆蛋",
+        "ID-ID": "Dadar Kepiting Sungai Kering",
+        "TR-TR": "Kurudere Yengeçli Omlet",
+        "AR-SA": "عجة سلطعون Drybrook"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Meal that reduces cooldowns, casting times, and Energy costs for a long period.",
+        "DE-DE": "Eine Mahlzeit, die deine Abklingzeiten, Zauberzeiten und Energiekosten für eine lange Zeit reduziert.",
+        "FR-FR": "Repas qui réduit les temps de recharge, la vitesse d'incantation et les coûts en énergie pendant une longue période.",
+        "RU-RU": "Блюдо, ускоряющее восстановление заклинаний, чтение заклинаний и снижающее расходы энергии в течение длительного периода времени.",
+        "PL-PL": "Posiłek, który zmniejsza czas odnowienia, czas czarowania i koszty energii przez długi okres czasu.",
+        "ES-ES": "Comida que reduce tiempos de espera, tiempos de lanzamiento y costes de energía por un largo periodo.",
+        "PT-BR": "Comida que reduz tempos de recarga, tempos de lançamento e custos de energia por um longo período.",
+        "IT-IT": "Pietanza che riduce tempi di ricarica, tempi di lancio e costi in energia per un lungo periodo.",
+        "ZH-CN": "餐食，可以长时间降低冷却时间、技能施放时间和能量耗费。",
+        "KO-KR": "오랫동안 대기 시간, 시전 시간, 에너지 소비를 낮추는 식사입니다.",
+        "JA-JP": "クールダウン、詠唱時間、エネルギーコストが長時間減少する料理。",
+        "ZH-TW": "一道料理，能長時間縮短冷卻時間和施法時間，並降低能量消耗。",
+        "ID-ID": "Makanan yang mengurangi cooldown, waktu rapal, dan Energi yang diperlukan untuk waktu lama.",
+        "TR-TR": "Uzun bir süreliğine bekleme sürelerini, gerçekleştirme sürelerini ve Enerji bedellerini düşüren bir yemek.",
+        "AR-SA": "وجبة تقلل فترات الانتظار وأوقات الإلقاء وتكاليف الطاقة لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_CABBAGE",
+        "primary_count": 2,
+        "secondary_resource": "T5_TEASEL",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T5_CABBAGE",
+            "count": 2
+          },
+          {
+            "id": "T5_TEASEL",
+            "count": 2
+          },
+          {
+            "id": "T5_EGG",
+            "count": 2
+          },
+          {
+            "id": "T5_FISH_FRESHWATER_STEPPE_RARE",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.1123,
+        "crafting_focus": 225,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_CABBAGE",
+            "count": 2
+          },
+          {
+            "id": "T5_TEASEL",
+            "count": 2
+          },
+          {
+            "id": "T5_EGG",
+            "count": 2
+          },
+          {
+            "id": "T5_FISH_FRESHWATER_STEPPE_RARE",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_CABBAGE",
+        "primary_count": 2,
+        "secondary_resource": "T5_TEASEL",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 4.21,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1123,
+          "crafting_focus": 425,
+          "crafting_resources": [
+            {
+              "id": "T5_FISH_FRESHWATER_STEPPE_RARE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CABBAGE",
+              "count": 2,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 2,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_EGG",
+              "count": 2,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 9,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1123,
+          "crafting_focus": 825,
+          "crafting_resources": [
+            {
+              "id": "T5_FISH_FRESHWATER_STEPPE_RARE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CABBAGE",
+              "count": 2,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 2,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_EGG",
+              "count": 2,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 9,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1123,
+          "crafting_focus": 2026,
+          "crafting_resources": [
+            {
+              "id": "T5_FISH_FRESHWATER_STEPPE_RARE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CABBAGE",
+              "count": 2,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 2,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_EGG",
+              "count": 2,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 9,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MEAL_OMELETTE_FISH",
+        "item_database_index": "804"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Drybrook Crab Omelette",
+        "name_ar": "عجة سلطعون Drybrook",
+        "name_de": "Bachkrabbenomelette",
+        "name_fr": "Omelette au crabe de rivière",
+        "name_es": "Tortilla de cangrejo de río",
+        "name_ru": "Омлет с сухопутным крабом"
+      },
+      "raw": {
+        "@uniquename": "T5_MEAL_OMELETTE_FISH",
+        "@descriptionlocatag": "@ITEMS_MEAL_OMELETTE_FISH_DESC",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_P3",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "5",
+        "@dummyitempower": "800",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "4.21",
+        "@nutrition": "337",
+        "@shopsubcategory2": "omelettes",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@forcesinglecraft": "false",
+          "@amountcrafted": "1",
+          "@craftingfocus": "225",
+          "@time": "0.1123",
+          "craftresource": [
+            {
+              "@uniquename": "T5_FISH_FRESHWATER_STEPPE_RARE",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T5_CABBAGE",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T5_TEASEL",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T5_EGG",
+              "@count": "2"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "900",
+              "@consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "425",
+                "@time": "0.1123",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_FISH_FRESHWATER_STEPPE_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "9"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "1000",
+              "@consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_P5",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "825",
+                "@time": "0.1123",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_FISH_FRESHWATER_STEPPE_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "9"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1100",
+              "@consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "2026",
+                "@time": "0.1123",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_FISH_FRESHWATER_STEPPE_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "9"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Pasture",
+  "base_id": "T6_FARM_HORSE_BABY",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_FARM_HORSE_BABY",
+      "index": "40",
+      "name_en": "Master's Foal",
+      "name_ar": "مهر للخبير",
+      "name_de": "Fohlen des Meisters",
+      "name_fr": "Poulain du maître",
+      "name_es": "Potro del maestro",
+      "name_ru": "Жеребенок (мастер)",
+      "descriptions": {
+        "description_en": "Grow into a Master's Horse which can be used to craft a Master's Riding Horse or a Master's Armored Horse.",
+        "description_ar": "ينمو ليصبح حصانًا للخبير، يمكن استخدامه لتصنيع حصان ركوب للخبير أو حصانًا مدرعًا للخبير.",
+        "description_de": "Wird zu einem Pferd des Meisters, woraus ein Reitpferd des Meisters oder ein Gepanzertes Pferd des Meisters gefertigt werden kann.",
+        "description_fr": "Devient un cheval du maître pouvant être utilisé pour fabriquer un cheval de monte du maître ou un cheval protégé du maître",
+        "description_es": "Se convierte en un caballo del maestro, que se puede utilizar para crear un caballo de montar del maestro o un caballo blindado del maestro.",
+        "description_ru": "Такие жеребята вырастают в лошадей мастера, которых можно превратить в ездовых животных."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_HORSE_BABY",
+        "description_variable": "@ITEMS_T6_FARM_HORSE_BABY_DESC"
+      },
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_FARM_HORSE_BABY",
+        "tier": "6",
+        "placefame": "0",
+        "pickupable": "true",
+        "destroyable": "false",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "pasture",
+        "kind": "animal",
+        "weight": "1.5",
+        "unlockedtocraft": "true",
+        "animationid": "breed",
+        "prefabname": "FARM_HORSE_BABY_04",
+        "prefabscale": "0.96",
+        "resourcevalue": "0",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "4",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "0.0593",
+        "shopsubcategory2": "babys",
+        "shopsubcategory3": "horse"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Foal",
+        "DE-DE": "Fohlen des Meisters",
+        "FR-FR": "Poulain du maître",
+        "RU-RU": "Жеребенок (мастер)",
+        "PL-PL": "Źrebak Mistrza",
+        "ES-ES": "Potro del maestro",
+        "PT-BR": "Potro do Mestre",
+        "IT-IT": "Puledro del maestro",
+        "ZH-CN": "大师级马驹",
+        "KO-KR": "마스터의 망아지",
+        "JA-JP": "子馬（マスター）",
+        "ZH-TW": "大師級小馬",
+        "ID-ID": "Anak Kuda Master",
+        "TR-TR": "Usta Tayı",
+        "AR-SA": "مهر للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grow into a Master's Horse which can be used to craft a Master's Riding Horse or a Master's Armored Horse.",
+        "DE-DE": "Wird zu einem Pferd des Meisters, woraus ein Reitpferd des Meisters oder ein Gepanzertes Pferd des Meisters gefertigt werden kann.",
+        "FR-FR": "Devient un cheval du maître pouvant être utilisé pour fabriquer un cheval de monte du maître ou un cheval protégé du maître",
+        "RU-RU": "Такие жеребята вырастают в лошадей мастера, которых можно превратить в ездовых животных.",
+        "PL-PL": "Z czasem staje się Koniem Mistrza, którego można użyć do stworzenia Konia Wierzchowego lub Konia w Zbroi Mistrza.",
+        "ES-ES": "Se convierte en un caballo del maestro, que se puede utilizar para crear un caballo de montar del maestro o un caballo blindado del maestro.",
+        "PT-BR": "Cresce e vira um Cavalo do Mestre, que pode ser usado para virar um Cavalo de Montar do Mestre ou um Cavalo Blindado do Mestre.",
+        "IT-IT": "Crescendo diventa un cavallo del maestro, che si può usare per creare un cavallo da sella del maestro o un cavallo corazzato del maestro.",
+        "ZH-CN": "可以长成大师级成年马，之后可以驯养成为大师级骑乘马或大师级铠马。",
+        "KO-KR": "자라면 마스터의 말이 되어, 마스터의 승용마 또는 마스터의 갑주마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長して馬（マスター）になります。乗用馬（マスター）または装甲馬（マスター）の製造に使用可能です。",
+        "ZH-TW": "長大後成為大師級成年馬，可訓練成大師級騎乘馬或大師級鐵甲馬。",
+        "ID-ID": "Tumbuh menjadi Kuda Master yang bisa digunakan untuk membuat Kuda Tunggangan Master atau Kuda Berzirah Master.",
+        "TR-TR": "Yetiştiğinde Usta Atı olur, bu da bir Usta Binek Atı ya da Usta Zırhlı Atı zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح حصانًا للخبير، يمكن استخدامه لتصنيع حصان ركوب للخبير أو حصانًا مدرعًا للخبير."
+      },
+      "crafting_requirements": null,
+      "crafting_full": {
+        "silver": 675000,
+        "time": 0,
+        "crafting_focus": 0,
+        "swap_transaction": true,
+        "resources": [],
+        "primary_resource": "",
+        "primary_count": 0,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 1.5,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "pasture",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_HORSE_BABY",
+        "item_database_index": "40"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Foal",
+        "name_ar": "مهر للخبير",
+        "name_de": "Fohlen des Meisters",
+        "name_fr": "Poulain du maître",
+        "name_es": "Potro del maestro",
+        "name_ru": "Жеребенок (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_FARM_HORSE_BABY",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_HORSE_BABY_04",
+        "@prefabscale": "0.96",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "4",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.0593",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "horse",
+        "craftingrequirements": {
+          "@silver": "675000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T6_FARM_HORSE_GROWN",
+          "@growtime": "676800",
+          "@fame": "400",
+          "offspring": {
+            "@chance": "0.8104",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "3312",
+            "@secondspernutrition": "52.22",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

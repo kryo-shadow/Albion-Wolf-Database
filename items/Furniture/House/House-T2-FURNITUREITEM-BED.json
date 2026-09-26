@@ -1,0 +1,222 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Furniture",
+  "family": "Furniture_House",
+  "base_id": "T2_FURNITUREITEM_BED",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T2_FURNITUREITEM_BED",
+      "index": "3167",
+      "name_en": "Novice's Bed",
+      "name_ar": "سرير المبتدئ",
+      "name_de": "Bett des Novizen",
+      "name_fr": "Lit de l'apprenti",
+      "name_es": "Cama del novato",
+      "name_ru": "Кровать (новичок)",
+      "descriptions": {
+        "description_en": "Increases maximum residents in the house by 1 and contributes to Laborer happiness. Item can only be placed indoors.",
+        "description_ar": "يزيد الحد الأقصى لساكني المنزل بمقدار 1 ويساهم في رفع مستوى سعادة العامل. عنصر لا يمكن وضعه إلا في مكان مغلق.",
+        "description_de": "Erhöht Bewohnermaximum im Haus um 1 und erhöht die Arbeiterzufriedenheit. Muss drinnen platziert werden.",
+        "description_fr": "Capacité maximale de résidents de la maison +1, contribue à la joie des travailleurs. À placer uniquement en intérieur.",
+        "description_es": "Aumenta en 1 los ocupantes que puede albergar la vivienda y mejora la felicidad de trabajadores. Objeto exclusivo de interiores.",
+        "description_ru": "Позволяет поселить еще 1 жильца и повышает счастье работников. Должна стоять в доме."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T2_FURNITUREITEM_BED",
+        "description_variable": "@ITEMS_T2_FURNITUREITEM_BED_DESC"
+      },
+      "category": "Furniture_House",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T2_FURNITUREITEM_BED",
+        "residencyslots": "1",
+        "shopcategory": "other",
+        "shopsubcategory1": "labourers",
+        "tier": "2",
+        "labourerfurnituretype": "bed",
+        "labourersaffected": "all",
+        "labourerhappiness": "100",
+        "labourersperfurnitureitem": "1",
+        "weight": "2.7",
+        "unlockedtocraft": "true",
+        "placeableindoors": "true",
+        "placeableoutdoors": "false",
+        "placeableindungeons": "false",
+        "placeableinexpeditions": "false",
+        "shopsubcategory2": "beds"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Novice's Bed",
+        "DE-DE": "Bett des Novizen",
+        "FR-FR": "Lit de l'apprenti",
+        "RU-RU": "Кровать (новичок)",
+        "PL-PL": "Łóżko Nowicjusza",
+        "ES-ES": "Cama del novato",
+        "PT-BR": "Cama do Novato",
+        "IT-IT": "Letto del novizio",
+        "ZH-CN": "新手级床铺",
+        "KO-KR": "초심자의 침대",
+        "JA-JP": "ベッド（見習い）",
+        "ZH-TW": "新手級床鋪",
+        "ID-ID": "Ranjang Pemula",
+        "TR-TR": "Acemi Yatağı",
+        "AR-SA": "سرير المبتدئ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Increases maximum residents in the house by 1 and contributes to Laborer happiness. Item can only be placed indoors.",
+        "DE-DE": "Erhöht Bewohnermaximum im Haus um 1 und erhöht die Arbeiterzufriedenheit. Muss drinnen platziert werden.",
+        "FR-FR": "Capacité maximale de résidents de la maison +1, contribue à la joie des travailleurs. À placer uniquement en intérieur.",
+        "RU-RU": "Позволяет поселить еще 1 жильца и повышает счастье работников. Должна стоять в доме.",
+        "PL-PL": "Zwiększa maksymalną liczbę mieszkańców domu o 1. Wpływa na zadowolenie pracowników. Przedmiot do pomieszczenia.",
+        "ES-ES": "Aumenta en 1 los ocupantes que puede albergar la vivienda y mejora la felicidad de trabajadores. Objeto exclusivo de interiores.",
+        "PT-BR": "Aumenta em 1 o máximo de residentes na casa e contribui para a felicidade do Trabalhador. Item somente para interiores.",
+        "IT-IT": "Aumenta di 1 il numero massimo di abitanti della casa e contribuisce alla felicità dei lavoratori. L'oggetto si può posizionare solo al chiuso.",
+        "ZH-CN": "房屋容纳人数加1，提升工人幸福指数，只能放在室内。",
+        "KO-KR": "주택 내의 거주자 상한을 1 늘리고 노동자 행복도에 기여합니다. 아이템은 실내에만 배치 가능합니다.",
+        "JA-JP": "家の中の居住者が1名増加し、労働者の幸福度に良い影響を与えます。アイテムは内部にのみ配置できます。",
+        "ZH-TW": "房屋可容納的居民人數上限+1，同時增加工人的幸福感。此物品只能放置於室內。",
+        "ID-ID": "Menambah 1 penduduk di dalam rumah dan berkontribusi pada kebahagiaan Pekerja. Item hanya bisa diletakkan dalam ruangan.",
+        "TR-TR": "Bir evde kalabilen kişi sayısını 1 artırır ve İşçilerin Mutluluk değerine katkı sağlar. Yalnızca kapalı alanlara yerleştirilebilir.",
+        "AR-SA": "يزيد الحد الأقصى لساكني المنزل بمقدار 1 ويساهم في رفع مستوى سعادة العامل. عنصر لا يمكن وضعه إلا في مكان مغلق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T2_CLOTH",
+        "primary_count": 20,
+        "secondary_resource": "T2_PLANKS",
+        "secondary_count": 10,
+        "resources": [
+          {
+            "id": "T2_CLOTH",
+            "count": 20
+          },
+          {
+            "id": "T2_PLANKS",
+            "count": 10
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.625,
+        "crafting_focus": 171,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T2_CLOTH",
+            "count": 20
+          },
+          {
+            "id": "T2_PLANKS",
+            "count": 10
+          }
+        ],
+        "primary_resource": "T2_CLOTH",
+        "primary_count": 20,
+        "secondary_resource": "T2_PLANKS",
+        "secondary_count": 10
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 2,
+        "weight": 2.7,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "other",
+        "shop_subcategory1": "labourers",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T2_FURNITUREITEM_BED",
+        "item_database_index": "3167"
+      },
+      "tier": 2,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Novice's Bed",
+        "name_ar": "سرير المبتدئ",
+        "name_de": "Bett des Novizen",
+        "name_fr": "Lit de l'apprenti",
+        "name_es": "Cama del novato",
+        "name_ru": "Кровать (новичок)"
+      },
+      "raw": {
+        "@uniquename": "T2_FURNITUREITEM_BED",
+        "@residencyslots": "1",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "labourers",
+        "@tier": "2",
+        "@labourerfurnituretype": "bed",
+        "@labourersaffected": "all",
+        "@labourerhappiness": "100",
+        "@labourersperfurnitureitem": "1",
+        "@weight": "2.7",
+        "@unlockedtocraft": "true",
+        "@placeableindoors": "true",
+        "@placeableoutdoors": "false",
+        "@placeableindungeons": "false",
+        "@placeableinexpeditions": "false",
+        "@shopsubcategory2": "beds",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.625",
+          "@craftingfocus": "171",
+          "craftresource": [
+            {
+              "@uniquename": "T2_PLANKS",
+              "@count": "10"
+            },
+            {
+              "@uniquename": "T2_CLOTH",
+              "@count": "20"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

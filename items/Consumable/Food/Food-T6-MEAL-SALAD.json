@@ -1,0 +1,415 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T6_MEAL_SALAD",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_MEAL_SALAD",
+      "index": "748",
+      "name_en": "Potato Salad",
+      "name_ar": "سلطة بطاطس",
+      "name_de": "Kartoffelsalat",
+      "name_fr": "Salade de patates",
+      "name_es": "Ensalada de patata",
+      "name_ru": "Картофельный салат",
+      "descriptions": {
+        "description_en": "Simple snack that increases crafting speed and quality for a short period.",
+        "description_ar": "وجبة خفيفة بسيطة تزيد سرعة التصنيع وجودته لفترة قصيرة.",
+        "description_de": "Ein einfacher Snack, der die Fertigungsgeschwindigkeit und -qualität für kurze Zeit erhöht.",
+        "description_fr": "Petit en-cas qui augmente vit. et qualité de fabrication pendant un instant",
+        "description_es": "Aperitivo simple que aumenta la velocidad y calidad de artesanía durante un momento",
+        "description_ru": "Простая закуска, ненадолго повышает скорость и качество крафтинга."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MEAL_SALAD",
+        "description_variable": "@ITEMS_MEAL_SALAD_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_MEAL_SALAD",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_CRAFTING_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "6",
+        "dummyitempower": "900",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "7.56",
+        "nutrition": "756",
+        "descriptionlocatag": "@ITEMS_MEAL_SALAD_DESC",
+        "shopsubcategory2": "salads"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Potato Salad",
+        "DE-DE": "Kartoffelsalat",
+        "FR-FR": "Salade de patates",
+        "RU-RU": "Картофельный салат",
+        "PL-PL": "Sałatka z Ziemniaków",
+        "ES-ES": "Ensalada de patata",
+        "PT-BR": "Salada de Batata",
+        "IT-IT": "Insalata di patate",
+        "ZH-CN": "土豆沙拉",
+        "KO-KR": "감자 샐러드",
+        "JA-JP": "ポテトサラダ",
+        "ZH-TW": "馬鈴薯沙拉",
+        "ID-ID": "Selada Kentang",
+        "TR-TR": "Patates Salatası",
+        "AR-SA": "سلطة بطاطس"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Simple snack that increases crafting speed and quality for a short period.",
+        "DE-DE": "Ein einfacher Snack, der die Fertigungsgeschwindigkeit und -qualität für kurze Zeit erhöht.",
+        "FR-FR": "Petit en-cas qui augmente vit. et qualité de fabrication pendant un instant",
+        "RU-RU": "Простая закуска, ненадолго повышает скорость и качество крафтинга.",
+        "PL-PL": "Prosta przekąska, która na krótko zwiększa jakość i szybkość wytwarzania.",
+        "ES-ES": "Aperitivo simple que aumenta la velocidad y calidad de artesanía durante un momento",
+        "PT-BR": "Lance simples que aumenta a velocidade e a qualidade da produção por um curto período",
+        "IT-IT": "Un semplice spuntino che aumenta velocità e qualità di creazione per un breve periodo.",
+        "ZH-CN": "简单的零食，可以短时提升制造速度和品质。",
+        "KO-KR": "제작 속도와 품질을 단기간 동안 올리는 간단한 스낵입니다",
+        "JA-JP": "製造速度と品質が短時間上昇するシンプルな軽食。",
+        "ZH-TW": "一道小點，能短時間提升製作物品的速度和品質。",
+        "ID-ID": "Kudapan sederhana yang meningkatkan kecepatan dan kualitas crafting untuk waktu singkat.",
+        "TR-TR": "Kısa bir süreliğine zanaat hızını ve kalitesini artıran basit bir atıştırmalık.",
+        "AR-SA": "وجبة خفيفة بسيطة تزيد سرعة التصنيع وجودته لفترة قصيرة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_POTATO",
+        "primary_count": 72,
+        "secondary_resource": "T5_CABBAGE",
+        "secondary_count": 72,
+        "resources": [
+          {
+            "id": "T6_POTATO",
+            "count": 72
+          },
+          {
+            "id": "T5_CABBAGE",
+            "count": 72
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.52,
+        "crafting_focus": 504,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_POTATO",
+            "count": 72
+          },
+          {
+            "id": "T5_CABBAGE",
+            "count": 72
+          }
+        ],
+        "primary_resource": "T6_POTATO",
+        "primary_count": 72,
+        "secondary_resource": "T5_CABBAGE",
+        "secondary_count": 72
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 7.56,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 704,
+          "crafting_resources": [
+            {
+              "id": "T6_POTATO",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CABBAGE",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 90,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 1105,
+          "crafting_resources": [
+            {
+              "id": "T6_POTATO",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CABBAGE",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 90,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 2306,
+          "crafting_resources": [
+            {
+              "id": "T6_POTATO",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CABBAGE",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 90,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MEAL_SALAD",
+        "item_database_index": "748"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Potato Salad",
+        "name_ar": "سلطة بطاطس",
+        "name_de": "Kartoffelsalat",
+        "name_fr": "Salade de patates",
+        "name_es": "Ensalada de patata",
+        "name_ru": "Картофельный салат"
+      },
+      "raw": {
+        "@uniquename": "T6_MEAL_SALAD",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_CRAFTING_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "6",
+        "@dummyitempower": "900",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "7.56",
+        "@nutrition": "756",
+        "@descriptionlocatag": "@ITEMS_MEAL_SALAD_DESC",
+        "@shopsubcategory2": "salads",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "504",
+          "@time": "2.52",
+          "craftresource": [
+            {
+              "@uniquename": "T6_POTATO",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T5_CABBAGE",
+              "@count": "72"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "1000",
+              "@consumespell": "FOOD_CRAFTING_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "704",
+                "@time": "2.52",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "1100",
+              "@consumespell": "FOOD_CRAFTING_P7",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "1105",
+                "@time": "2.52",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1200",
+              "@consumespell": "FOOD_CRAFTING_P8",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "2306",
+                "@time": "2.52",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Rare_Mounts",
+  "base_id": "T7_MOUNT_SWAMPDRAGON_AVALON_BASILISK",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T7_MOUNT_SWAMPDRAGON_AVALON_BASILISK",
+      "index": "3079",
+      "name_en": "Avalonian Basilisk",
+      "name_ar": "بازليسك أفالوني",
+      "name_de": "Avalonischer Basilisk",
+      "name_fr": "Basilic avalonien",
+      "name_es": "Basilisco avaloniano",
+      "name_ru": "Авалонский василиск",
+      "descriptions": {
+        "description_en": "A Swamp Dragon infused with Avalonian Energy. Can discharge energy to escape from attackers.",
+        "description_ar": "تنين مستنقع مفعم بالطاقة الأفالونية. يمكنه تفريغ الطاقة للهرب من المهاجمين.",
+        "description_de": "Ein mit avalonischer Energie beeinflusster Sumpfdrache. Gibt bei Angriffen Energiestöße als Fluchthilfe ab.",
+        "description_fr": "Un Dragon des marais infusé par la magie avalonienne. Peut libérer de l'énergie pour échapper à ses attaquants.",
+        "description_es": "Un dragón de pantano infundido con energía avaloniana. Puede descargar energía para escapar de los atacantes.",
+        "description_ru": "Болотный дракон, наполненный энергией Авалона. Может выпустить энергию, чтобы убежать от врагов."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_MOUNT_SWAMPDRAGON_AVALON_BASILISK",
+        "description_variable": "@ITEMS_T7_MOUNT_SWAMPDRAGON_AVALON_BASILISK_DESC"
+      },
+      "category": "Mount_Rare_Mounts",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_MOUNT_SWAMPDRAGON_AVALON_BASILISK",
+        "uisprite": "UNIQUE_MOUNT_AVALON_BASILISK",
+        "maxqualitylevel": "1",
+        "itempower": "1000",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "raremounts",
+        "mountedbuff": "T7_MOUNT_BASILISK_MOUNTED",
+        "halfmountedbuff": "T7_MOUNT_BASILISK_HALFMOUNTED",
+        "tier": "7",
+        "weight": "79.7",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "60750",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "true",
+        "mounttime": "3",
+        "dismounttime": "0",
+        "mounthitpointsmax": "1254",
+        "mounthitpointsregeneration": "12.54",
+        "prefabname": "MOUNT_AVALON_BASILISK_01",
+        "prefabscaling": "1.4",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "0.5",
+        "showinmarketplace": "true",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "canuseingvg": "false",
+        "itemvalue": "3781",
+        "canusetownportal": "true",
+        "shopsubcategory2": "swampdragon",
+        "nutrition": "18699",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": "3781",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Avalonian Basilisk",
+        "DE-DE": "Avalonischer Basilisk",
+        "FR-FR": "Basilic avalonien",
+        "RU-RU": "Авалонский василиск",
+        "PL-PL": "Awaloński Bazyliszek",
+        "ES-ES": "Basilisco avaloniano",
+        "PT-BR": "Basilisco Avaloniano",
+        "IT-IT": "Basilisco di Avalon",
+        "ZH-CN": "阿瓦隆蜥蜴",
+        "KO-KR": "아발로니안 바실리스크",
+        "JA-JP": "アバロニア人のバシリスク",
+        "ZH-TW": "阿瓦隆蜥蜴",
+        "ID-ID": "Basilisk Avalonian",
+        "TR-TR": "Avalon Basiliski",
+        "AR-SA": "بازليسك أفالوني"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A Swamp Dragon infused with Avalonian Energy. Can discharge energy to escape from attackers.",
+        "DE-DE": "Ein mit avalonischer Energie beeinflusster Sumpfdrache. Gibt bei Angriffen Energiestöße als Fluchthilfe ab.",
+        "FR-FR": "Un Dragon des marais infusé par la magie avalonienne. Peut libérer de l'énergie pour échapper à ses attaquants.",
+        "RU-RU": "Болотный дракон, наполненный энергией Авалона. Может выпустить энергию, чтобы убежать от врагов.",
+        "PL-PL": "Smok Bagienny nasycony Energią z Awalonu. Może używać wyładowań elektrycznych do ucieczki przed wrogami.",
+        "ES-ES": "Un dragón de pantano infundido con energía avaloniana. Puede descargar energía para escapar de los atacantes.",
+        "PT-BR": "Um Dragão do Pântano infundido com Energia Avaloniana. Pode descarregar energia para escapar de atacantes.",
+        "IT-IT": "Un drago di palude infuso di energia di Avalon. Può rilasciare una scarica di energia per sfuggire agli aggressori.",
+        "ZH-CN": "注入阿瓦隆能量的沼泽龙。能释放能量以躲避攻击者。",
+        "KO-KR": "아발로니안 에너지가 스며든 늪지 용. 공격자로부터 탈출하기위해 방출할 수 있다.",
+        "JA-JP": "アバロニア人のエネルギーが注ぎ込まれたスワンプドラゴン。エネルギーを放出して攻撃してきた者から逃れることができます。",
+        "ZH-TW": "注入了阿瓦隆能量的沼澤龍。可釋放能量，逃離攻擊者。",
+        "ID-ID": "Naga Rawa yang menyerap Energi Avalonian Bisa menghilangkan energi untuk melepaskan diri dari penyerang.",
+        "TR-TR": "Avalon Enerjisi'ne maruz kalmış bir Bataklık Ejderhası. Bu enerjiyi salarak düşmanlardan kaçabilir.",
+        "AR-SA": "تنين مستنقع مفعم بالطاقة الأفالونية. يمكنه تفريغ الطاقة للهرب من المهاجمين."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 5000,
+        "secondary_resource": "T7_MOUNT_SWAMPDRAGON",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 5000
+          },
+          {
+            "id": "T7_MOUNT_SWAMPDRAGON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 5000
+          },
+          {
+            "id": "T7_MOUNT_SWAMPDRAGON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 5000,
+        "secondary_resource": "T7_MOUNT_SWAMPDRAGON",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1000,
+        "ability_power": 100,
+        "durability": 60750,
+        "max_quality_level": 1,
+        "tier_raw": 7,
+        "weight": 79.7,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SWAMPDRAGON",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SWAMPDRAGON",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1,
+        "resolved_from": "T7_MOUNT_SWAMPDRAGON"
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 1000,
+      "effective_durability": 60750,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "raremounts",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": true,
+        "uisprite": "UNIQUE_MOUNT_AVALON_BASILISK"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_MOUNT_SWAMPDRAGON_AVALON_BASILISK",
+        "item_database_index": "3079"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Avalonian Basilisk",
+        "name_ar": "بازليسك أفالوني",
+        "name_de": "Avalonischer Basilisk",
+        "name_fr": "Basilic avalonien",
+        "name_es": "Basilisco avaloniano",
+        "name_ru": "Авалонский василиск"
+      },
+      "raw": {
+        "@uniquename": "T7_MOUNT_SWAMPDRAGON_AVALON_BASILISK",
+        "@uisprite": "UNIQUE_MOUNT_AVALON_BASILISK",
+        "@maxqualitylevel": "1",
+        "@itempower": "1000",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "raremounts",
+        "@mountedbuff": "T7_MOUNT_BASILISK_MOUNTED",
+        "@halfmountedbuff": "T7_MOUNT_BASILISK_HALFMOUNTED",
+        "@tier": "7",
+        "@weight": "79.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "60750",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@mounttime": "3",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "1254",
+        "@mounthitpointsregeneration": "12.54",
+        "@prefabname": "MOUNT_AVALON_BASILISK_01",
+        "@prefabscaling": "1.4",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "0.5",
+        "@showinmarketplace": "true",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@canuseingvg": "false",
+        "@itemvalue": "3781",
+        "@canusetownportal": "true",
+        "@shopsubcategory2": "swampdragon",
+        "@nutrition": "18699",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0",
+          "craftresource": [
+            {
+              "@uniquename": "T7_MOUNT_SWAMPDRAGON",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "QUESTITEM_TOKEN_AVALON",
+              "@maxreturnamount": "0",
+              "@count": "5000"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_MOUNT_SWAMPDRAGON"
+        },
+        "mountspelllist": {
+          "mountspell": {
+            "@uniquename": "MOUNTSPELL_BASILISK_CHARGEUP",
+            "@spellslot": "offhandormainhand3"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

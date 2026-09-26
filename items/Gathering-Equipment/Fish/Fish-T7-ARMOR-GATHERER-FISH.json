@@ -1,0 +1,2344 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Fish",
+  "base_id": "T7_ARMOR_GATHERER_FISH",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T7_ARMOR_GATHERER_FISH",
+      "index": "6104",
+      "name_en": "Grandmaster's Fisherman Garb",
+      "name_ar": "ملابس صياد السمك للأستاذ",
+      "name_de": "Anglerkleidung des Großmeisters",
+      "name_fr": "Tenue de pêcheur de grand maître",
+      "name_es": "Atuendo de pescador del gran maestro",
+      "name_ru": "Одежда рыбака (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item\nGatherer Gear helps you gather more of its resource type",
+        "description_ar": "عنصر معدات\nيساعدك عتاد الجامع على جمع أكثر من نوع مورد منه",
+        "description_de": "Ausrüstungsgegenstand\nSammlerausrüstung hilft dir dabei, mehr Ressourcen dieses Typs zu sammeln",
+        "description_fr": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "description_es": "Objeto de equipo\nEl equipo de recolector te ayuda a recoger más de tu tipo de recurso",
+        "description_ru": "Снаряжение\n Предметы собирателя помогают вам добывать больше ресурсов данного типа"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ARMOR_GATHERER_FISH",
+        "description_variable": "@ITEMS_T7_ARMOR_GATHERER_FISH_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_ARMOR_GATHERER_FISH",
+        "uisprite": "FISHING_GEAR_ARMOR",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "tier": "7",
+        "weight": "11.4",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "150",
+        "hitpointsregenerationbonus": "2.15",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "100",
+        "magicresistance": "100",
+        "crowdcontrolresistance": "50",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1000",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_armor"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Fisherman Garb",
+        "DE-DE": "Anglerkleidung des Großmeisters",
+        "FR-FR": "Tenue de pêcheur de grand maître",
+        "RU-RU": "Одежда рыбака (магистр)",
+        "PL-PL": "Odzienie Rybaka Wszechmistrza",
+        "ES-ES": "Atuendo de pescador del gran maestro",
+        "PT-BR": "Traje do Pescador Grão-mestre",
+        "IT-IT": "Indumenti da pescatore del gran maestro",
+        "ZH-CN": "宗师级渔夫工装",
+        "KO-KR": "그랜드 마스터 낚시꾼 의상",
+        "JA-JP": "漁師の服（グランドマスター）",
+        "ZH-TW": "宗師級漁夫工作服",
+        "ID-ID": "Pakaian Nelayan Grandmaster",
+        "TR-TR": "Büyük Usta Balıkçı Giysisi",
+        "AR-SA": "ملابس صياد السمك للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nGatherer Gear helps you gather more of its resource type",
+        "DE-DE": "Ausrüstungsgegenstand\nSammlerausrüstung hilft dir dabei, mehr Ressourcen dieses Typs zu sammeln",
+        "FR-FR": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "RU-RU": "Снаряжение\n Предметы собирателя помогают вам добывать больше ресурсов данного типа",
+        "PL-PL": "Przedmiot do wyposażenia\nSprzęt dla zbieraczy pomoże ci zebrać więcej odpowiadającego rodzaju surowców",
+        "ES-ES": "Objeto de equipo\nEl equipo de recolector te ayuda a recoger más de tu tipo de recurso",
+        "PT-BR": "Item de Equipamento\nEquipamento de coleta te ajuda a coletar mais do seu tipo de recurso",
+        "IT-IT": "Oggetto d'equipaggiamento\nL'equipaggiamento da raccoglitore permette di recuperare più risorse del tipo corrispondente.",
+        "ZH-CN": "装备物品\n采集者装备能帮助你采集更多与其同类的资源",
+        "KO-KR": "장비 아이템\n채집 도구는 해당 자원 유형을 더 많이 채집할 수 있게 합니다",
+        "JA-JP": "装備アイテム\n採集家の装備は、同じタイプの資源をさらに多く採集する役に立ちます。",
+        "ZH-TW": "裝備物品\n採集者裝備能提升該資源類型的採集量",
+        "ID-ID": "Item Perlengkapan\nAlat Pengumpul membantumu mengumpulkan lebih banyak jenis sumber dayanya",
+        "TR-TR": "Ekipman Eşyası\nToplayıcı teçhizatı, ilgili kaynak türünden daha fazla kaynak toplama olanağı sağlar.",
+        "AR-SA": "عنصر معدات\nيساعدك عتاد الجامع على جمع أكثر من نوع مورد منه"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 16
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.667,
+        "crafting_focus": 4596,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 16
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1000,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 11.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_YIELD_FISH_T7",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_YIELD_FISH_T7",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 8042,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 3,
+          "crafting_focus": 14074,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 3.6,
+          "crafting_focus": 24630,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 4.32,
+          "crafting_focus": 43102,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1000,
+      "effective_durability": 36450,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "FISHING_GEAR_ARMOR"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ARMOR_GATHERER_FISH",
+        "item_database_index": "6104"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Fisherman Garb",
+        "name_ar": "ملابس صياد السمك للأستاذ",
+        "name_de": "Anglerkleidung des Großmeisters",
+        "name_fr": "Tenue de pêcheur du grand maître",
+        "name_es": "Atuendo de pescador del gran maestro",
+        "name_ru": "Одежда рыбака (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_ARMOR_GATHERER_FISH",
+        "@uisprite": "FISHING_GEAR_ARMOR",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@tier": "7",
+        "@weight": "11.4",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "150",
+        "@hitpointsregenerationbonus": "2.15",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "100",
+        "@magicresistance": "100",
+        "@crowdcontrolresistance": "50",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1000",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_armor",
+        "craftingspelllist": {
+          "@reference": "T4_ARMOR_GATHERER_FISH",
+          "removespell": {
+            "@uniquename": "PASSIVE_YIELD_FISH_T4"
+          },
+          "craftspell": {
+            "@uniquename": "PASSIVE_YIELD_FISH_T7"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.667",
+          "@craftingfocus": "4596",
+          "craftresource": {
+            "@uniquename": "T7_LEATHER",
+            "@count": "16"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "54675",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "8042",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3",
+                "@craftingfocus": "14074",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.6",
+                "@craftingfocus": "24630",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.32",
+                "@craftingfocus": "43102",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "16"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_ARMOR_GATHERER_FISH@1",
+      "index": "6105",
+      "name_en": "Grandmaster's Fisherman Garb",
+      "name_ar": "ملابس صياد السمك للأستاذ",
+      "name_de": "Anglerkleidung des Großmeisters",
+      "name_fr": "Tenue de pêcheur de grand maître",
+      "name_es": "Atuendo de pescador del gran maestro",
+      "name_ru": "Одежда рыбака (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item\nGatherer Gear helps you gather more of its resource type",
+        "description_ar": "عنصر معدات\nيساعدك عتاد الجامع على جمع أكثر من نوع مورد منه",
+        "description_de": "Ausrüstungsgegenstand\nSammlerausrüstung hilft dir dabei, mehr Ressourcen dieses Typs zu sammeln",
+        "description_fr": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "description_es": "Objeto de equipo\nEl equipo de recolector te ayuda a recoger más de tu tipo de recurso",
+        "description_ru": "Снаряжение\n Предметы собирателя помогают вам добывать больше ресурсов данного типа"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ARMOR_GATHERER_FISH",
+        "description_variable": "@ITEMS_T7_ARMOR_GATHERER_FISH_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_ARMOR_GATHERER_FISH",
+        "uisprite": "FISHING_GEAR_ARMOR",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "tier": "7",
+        "weight": "11.4",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "150",
+        "hitpointsregenerationbonus": "2.15",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "100",
+        "magicresistance": "100",
+        "crowdcontrolresistance": "50",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1000",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_armor"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Fisherman Garb",
+        "DE-DE": "Anglerkleidung des Großmeisters",
+        "FR-FR": "Tenue de pêcheur de grand maître",
+        "RU-RU": "Одежда рыбака (магистр)",
+        "PL-PL": "Odzienie Rybaka Wszechmistrza",
+        "ES-ES": "Atuendo de pescador del gran maestro",
+        "PT-BR": "Traje do Pescador Grão-mestre",
+        "IT-IT": "Indumenti da pescatore del gran maestro",
+        "ZH-CN": "宗师级渔夫工装",
+        "KO-KR": "그랜드 마스터 낚시꾼 의상",
+        "JA-JP": "漁師の服（グランドマスター）",
+        "ZH-TW": "宗師級漁夫工作服",
+        "ID-ID": "Pakaian Nelayan Grandmaster",
+        "TR-TR": "Büyük Usta Balıkçı Giysisi",
+        "AR-SA": "ملابس صياد السمك للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nGatherer Gear helps you gather more of its resource type",
+        "DE-DE": "Ausrüstungsgegenstand\nSammlerausrüstung hilft dir dabei, mehr Ressourcen dieses Typs zu sammeln",
+        "FR-FR": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "RU-RU": "Снаряжение\n Предметы собирателя помогают вам добывать больше ресурсов данного типа",
+        "PL-PL": "Przedmiot do wyposażenia\nSprzęt dla zbieraczy pomoże ci zebrać więcej odpowiadającego rodzaju surowców",
+        "ES-ES": "Objeto de equipo\nEl equipo de recolector te ayuda a recoger más de tu tipo de recurso",
+        "PT-BR": "Item de Equipamento\nEquipamento de coleta te ajuda a coletar mais do seu tipo de recurso",
+        "IT-IT": "Oggetto d'equipaggiamento\nL'equipaggiamento da raccoglitore permette di recuperare più risorse del tipo corrispondente.",
+        "ZH-CN": "装备物品\n采集者装备能帮助你采集更多与其同类的资源",
+        "KO-KR": "장비 아이템\n채집 도구는 해당 자원 유형을 더 많이 채집할 수 있게 합니다",
+        "JA-JP": "装備アイテム\n採集家の装備は、同じタイプの資源をさらに多く採集する役に立ちます。",
+        "ZH-TW": "裝備物品\n採集者裝備能提升該資源類型的採集量",
+        "ID-ID": "Item Perlengkapan\nAlat Pengumpul membantumu mengumpulkan lebih banyak jenis sumber dayanya",
+        "TR-TR": "Ekipman Eşyası\nToplayıcı teçhizatı, ilgili kaynak türünden daha fazla kaynak toplama olanağı sağlar.",
+        "AR-SA": "عنصر معدات\nيساعدك عتاد الجامع على جمع أكثر من نوع مورد منه"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 16
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.667,
+        "crafting_focus": 4596,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 16
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1000,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 11.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_YIELD_FISH_T7",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_YIELD_FISH_T7",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 8042,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 3,
+          "crafting_focus": 14074,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 3.6,
+          "crafting_focus": 24630,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 4.32,
+          "crafting_focus": 43102,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1100,
+        "durability": 54675,
+        "crafting_silver": 0,
+        "crafting_time": 2.5,
+        "crafting_focus": 8042,
+        "crafting_resources": [
+          {
+            "id": "T7_LEATHER_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RUNE",
+            "count": 192
+          }
+        ]
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 54675,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "FISHING_GEAR_ARMOR"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ARMOR_GATHERER_FISH@1",
+        "item_database_index": "6105"
+      },
+      "tier": 7,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Grandmaster's Fisherman Garb",
+        "name_ar": "ملابس صياد السمك للأستاذ",
+        "name_de": "Anglerkleidung des Großmeisters",
+        "name_fr": "Tenue de pêcheur du grand maître",
+        "name_es": "Atuendo de pescador del gran maestro",
+        "name_ru": "Одежда рыбака (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_ARMOR_GATHERER_FISH",
+        "@uisprite": "FISHING_GEAR_ARMOR",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@tier": "7",
+        "@weight": "11.4",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "150",
+        "@hitpointsregenerationbonus": "2.15",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "100",
+        "@magicresistance": "100",
+        "@crowdcontrolresistance": "50",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1000",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_armor",
+        "craftingspelllist": {
+          "@reference": "T4_ARMOR_GATHERER_FISH",
+          "removespell": {
+            "@uniquename": "PASSIVE_YIELD_FISH_T4"
+          },
+          "craftspell": {
+            "@uniquename": "PASSIVE_YIELD_FISH_T7"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.667",
+          "@craftingfocus": "4596",
+          "craftresource": {
+            "@uniquename": "T7_LEATHER",
+            "@count": "16"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "54675",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "8042",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3",
+                "@craftingfocus": "14074",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.6",
+                "@craftingfocus": "24630",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.32",
+                "@craftingfocus": "43102",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "16"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_ARMOR_GATHERER_FISH@2",
+      "index": "6106",
+      "name_en": "Grandmaster's Fisherman Garb",
+      "name_ar": "ملابس صياد السمك للأستاذ",
+      "name_de": "Anglerkleidung des Großmeisters",
+      "name_fr": "Tenue de pêcheur de grand maître",
+      "name_es": "Atuendo de pescador del gran maestro",
+      "name_ru": "Одежда рыбака (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item\nGatherer Gear helps you gather more of its resource type",
+        "description_ar": "عنصر معدات\nيساعدك عتاد الجامع على جمع أكثر من نوع مورد منه",
+        "description_de": "Ausrüstungsgegenstand\nSammlerausrüstung hilft dir dabei, mehr Ressourcen dieses Typs zu sammeln",
+        "description_fr": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "description_es": "Objeto de equipo\nEl equipo de recolector te ayuda a recoger más de tu tipo de recurso",
+        "description_ru": "Снаряжение\n Предметы собирателя помогают вам добывать больше ресурсов данного типа"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ARMOR_GATHERER_FISH",
+        "description_variable": "@ITEMS_T7_ARMOR_GATHERER_FISH_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_ARMOR_GATHERER_FISH",
+        "uisprite": "FISHING_GEAR_ARMOR",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "tier": "7",
+        "weight": "11.4",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "150",
+        "hitpointsregenerationbonus": "2.15",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "100",
+        "magicresistance": "100",
+        "crowdcontrolresistance": "50",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1000",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_armor"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Fisherman Garb",
+        "DE-DE": "Anglerkleidung des Großmeisters",
+        "FR-FR": "Tenue de pêcheur de grand maître",
+        "RU-RU": "Одежда рыбака (магистр)",
+        "PL-PL": "Odzienie Rybaka Wszechmistrza",
+        "ES-ES": "Atuendo de pescador del gran maestro",
+        "PT-BR": "Traje do Pescador Grão-mestre",
+        "IT-IT": "Indumenti da pescatore del gran maestro",
+        "ZH-CN": "宗师级渔夫工装",
+        "KO-KR": "그랜드 마스터 낚시꾼 의상",
+        "JA-JP": "漁師の服（グランドマスター）",
+        "ZH-TW": "宗師級漁夫工作服",
+        "ID-ID": "Pakaian Nelayan Grandmaster",
+        "TR-TR": "Büyük Usta Balıkçı Giysisi",
+        "AR-SA": "ملابس صياد السمك للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nGatherer Gear helps you gather more of its resource type",
+        "DE-DE": "Ausrüstungsgegenstand\nSammlerausrüstung hilft dir dabei, mehr Ressourcen dieses Typs zu sammeln",
+        "FR-FR": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "RU-RU": "Снаряжение\n Предметы собирателя помогают вам добывать больше ресурсов данного типа",
+        "PL-PL": "Przedmiot do wyposażenia\nSprzęt dla zbieraczy pomoże ci zebrać więcej odpowiadającego rodzaju surowców",
+        "ES-ES": "Objeto de equipo\nEl equipo de recolector te ayuda a recoger más de tu tipo de recurso",
+        "PT-BR": "Item de Equipamento\nEquipamento de coleta te ajuda a coletar mais do seu tipo de recurso",
+        "IT-IT": "Oggetto d'equipaggiamento\nL'equipaggiamento da raccoglitore permette di recuperare più risorse del tipo corrispondente.",
+        "ZH-CN": "装备物品\n采集者装备能帮助你采集更多与其同类的资源",
+        "KO-KR": "장비 아이템\n채집 도구는 해당 자원 유형을 더 많이 채집할 수 있게 합니다",
+        "JA-JP": "装備アイテム\n採集家の装備は、同じタイプの資源をさらに多く採集する役に立ちます。",
+        "ZH-TW": "裝備物品\n採集者裝備能提升該資源類型的採集量",
+        "ID-ID": "Item Perlengkapan\nAlat Pengumpul membantumu mengumpulkan lebih banyak jenis sumber dayanya",
+        "TR-TR": "Ekipman Eşyası\nToplayıcı teçhizatı, ilgili kaynak türünden daha fazla kaynak toplama olanağı sağlar.",
+        "AR-SA": "عنصر معدات\nيساعدك عتاد الجامع على جمع أكثر من نوع مورد منه"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 16
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.667,
+        "crafting_focus": 4596,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 16
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1000,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 11.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_YIELD_FISH_T7",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_YIELD_FISH_T7",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 8042,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 3,
+          "crafting_focus": 14074,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 3.6,
+          "crafting_focus": 24630,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 4.32,
+          "crafting_focus": 43102,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1200,
+        "durability": 82013,
+        "crafting_silver": 0,
+        "crafting_time": 3,
+        "crafting_focus": 14074,
+        "crafting_resources": [
+          {
+            "id": "T7_LEATHER_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_SOUL",
+            "count": 192
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 82013,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "FISHING_GEAR_ARMOR"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ARMOR_GATHERER_FISH@2",
+        "item_database_index": "6106"
+      },
+      "tier": 7,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Grandmaster's Fisherman Garb",
+        "name_ar": "ملابس صياد السمك للأستاذ",
+        "name_de": "Anglerkleidung des Großmeisters",
+        "name_fr": "Tenue de pêcheur du grand maître",
+        "name_es": "Atuendo de pescador del gran maestro",
+        "name_ru": "Одежда рыбака (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_ARMOR_GATHERER_FISH",
+        "@uisprite": "FISHING_GEAR_ARMOR",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@tier": "7",
+        "@weight": "11.4",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "150",
+        "@hitpointsregenerationbonus": "2.15",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "100",
+        "@magicresistance": "100",
+        "@crowdcontrolresistance": "50",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1000",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_armor",
+        "craftingspelllist": {
+          "@reference": "T4_ARMOR_GATHERER_FISH",
+          "removespell": {
+            "@uniquename": "PASSIVE_YIELD_FISH_T4"
+          },
+          "craftspell": {
+            "@uniquename": "PASSIVE_YIELD_FISH_T7"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.667",
+          "@craftingfocus": "4596",
+          "craftresource": {
+            "@uniquename": "T7_LEATHER",
+            "@count": "16"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "54675",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "8042",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3",
+                "@craftingfocus": "14074",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.6",
+                "@craftingfocus": "24630",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.32",
+                "@craftingfocus": "43102",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "16"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_ARMOR_GATHERER_FISH@3",
+      "index": "6107",
+      "name_en": "Grandmaster's Fisherman Garb",
+      "name_ar": "ملابس صياد السمك للأستاذ",
+      "name_de": "Anglerkleidung des Großmeisters",
+      "name_fr": "Tenue de pêcheur de grand maître",
+      "name_es": "Atuendo de pescador del gran maestro",
+      "name_ru": "Одежда рыбака (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item\nGatherer Gear helps you gather more of its resource type",
+        "description_ar": "عنصر معدات\nيساعدك عتاد الجامع على جمع أكثر من نوع مورد منه",
+        "description_de": "Ausrüstungsgegenstand\nSammlerausrüstung hilft dir dabei, mehr Ressourcen dieses Typs zu sammeln",
+        "description_fr": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "description_es": "Objeto de equipo\nEl equipo de recolector te ayuda a recoger más de tu tipo de recurso",
+        "description_ru": "Снаряжение\n Предметы собирателя помогают вам добывать больше ресурсов данного типа"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ARMOR_GATHERER_FISH",
+        "description_variable": "@ITEMS_T7_ARMOR_GATHERER_FISH_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_ARMOR_GATHERER_FISH",
+        "uisprite": "FISHING_GEAR_ARMOR",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "tier": "7",
+        "weight": "11.4",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "150",
+        "hitpointsregenerationbonus": "2.15",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "100",
+        "magicresistance": "100",
+        "crowdcontrolresistance": "50",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1000",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_armor"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Fisherman Garb",
+        "DE-DE": "Anglerkleidung des Großmeisters",
+        "FR-FR": "Tenue de pêcheur de grand maître",
+        "RU-RU": "Одежда рыбака (магистр)",
+        "PL-PL": "Odzienie Rybaka Wszechmistrza",
+        "ES-ES": "Atuendo de pescador del gran maestro",
+        "PT-BR": "Traje do Pescador Grão-mestre",
+        "IT-IT": "Indumenti da pescatore del gran maestro",
+        "ZH-CN": "宗师级渔夫工装",
+        "KO-KR": "그랜드 마스터 낚시꾼 의상",
+        "JA-JP": "漁師の服（グランドマスター）",
+        "ZH-TW": "宗師級漁夫工作服",
+        "ID-ID": "Pakaian Nelayan Grandmaster",
+        "TR-TR": "Büyük Usta Balıkçı Giysisi",
+        "AR-SA": "ملابس صياد السمك للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nGatherer Gear helps you gather more of its resource type",
+        "DE-DE": "Ausrüstungsgegenstand\nSammlerausrüstung hilft dir dabei, mehr Ressourcen dieses Typs zu sammeln",
+        "FR-FR": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "RU-RU": "Снаряжение\n Предметы собирателя помогают вам добывать больше ресурсов данного типа",
+        "PL-PL": "Przedmiot do wyposażenia\nSprzęt dla zbieraczy pomoże ci zebrać więcej odpowiadającego rodzaju surowców",
+        "ES-ES": "Objeto de equipo\nEl equipo de recolector te ayuda a recoger más de tu tipo de recurso",
+        "PT-BR": "Item de Equipamento\nEquipamento de coleta te ajuda a coletar mais do seu tipo de recurso",
+        "IT-IT": "Oggetto d'equipaggiamento\nL'equipaggiamento da raccoglitore permette di recuperare più risorse del tipo corrispondente.",
+        "ZH-CN": "装备物品\n采集者装备能帮助你采集更多与其同类的资源",
+        "KO-KR": "장비 아이템\n채집 도구는 해당 자원 유형을 더 많이 채집할 수 있게 합니다",
+        "JA-JP": "装備アイテム\n採集家の装備は、同じタイプの資源をさらに多く採集する役に立ちます。",
+        "ZH-TW": "裝備物品\n採集者裝備能提升該資源類型的採集量",
+        "ID-ID": "Item Perlengkapan\nAlat Pengumpul membantumu mengumpulkan lebih banyak jenis sumber dayanya",
+        "TR-TR": "Ekipman Eşyası\nToplayıcı teçhizatı, ilgili kaynak türünden daha fazla kaynak toplama olanağı sağlar.",
+        "AR-SA": "عنصر معدات\nيساعدك عتاد الجامع على جمع أكثر من نوع مورد منه"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 16
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.667,
+        "crafting_focus": 4596,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 16
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1000,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 11.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_YIELD_FISH_T7",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_YIELD_FISH_T7",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 8042,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 3,
+          "crafting_focus": 14074,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 3.6,
+          "crafting_focus": 24630,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 4.32,
+          "crafting_focus": 43102,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1300,
+        "durability": 123019,
+        "crafting_silver": 0,
+        "crafting_time": 3.6,
+        "crafting_focus": 24630,
+        "crafting_resources": [
+          {
+            "id": "T7_LEATHER_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RELIC",
+            "count": 192
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 123019,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "FISHING_GEAR_ARMOR"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ARMOR_GATHERER_FISH@3",
+        "item_database_index": "6107"
+      },
+      "tier": 7,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Grandmaster's Fisherman Garb",
+        "name_ar": "ملابس صياد السمك للأستاذ",
+        "name_de": "Anglerkleidung des Großmeisters",
+        "name_fr": "Tenue de pêcheur du grand maître",
+        "name_es": "Atuendo de pescador del gran maestro",
+        "name_ru": "Одежда рыбака (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_ARMOR_GATHERER_FISH",
+        "@uisprite": "FISHING_GEAR_ARMOR",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@tier": "7",
+        "@weight": "11.4",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "150",
+        "@hitpointsregenerationbonus": "2.15",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "100",
+        "@magicresistance": "100",
+        "@crowdcontrolresistance": "50",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1000",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_armor",
+        "craftingspelllist": {
+          "@reference": "T4_ARMOR_GATHERER_FISH",
+          "removespell": {
+            "@uniquename": "PASSIVE_YIELD_FISH_T4"
+          },
+          "craftspell": {
+            "@uniquename": "PASSIVE_YIELD_FISH_T7"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.667",
+          "@craftingfocus": "4596",
+          "craftresource": {
+            "@uniquename": "T7_LEATHER",
+            "@count": "16"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "54675",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "8042",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3",
+                "@craftingfocus": "14074",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.6",
+                "@craftingfocus": "24630",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.32",
+                "@craftingfocus": "43102",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "16"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_ARMOR_GATHERER_FISH@4",
+      "index": "6108",
+      "name_en": "Grandmaster's Fisherman Garb",
+      "name_ar": "ملابس صياد السمك للأستاذ",
+      "name_de": "Anglerkleidung des Großmeisters",
+      "name_fr": "Tenue de pêcheur de grand maître",
+      "name_es": "Atuendo de pescador del gran maestro",
+      "name_ru": "Одежда рыбака (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item\nGatherer Gear helps you gather more of its resource type",
+        "description_ar": "عنصر معدات\nيساعدك عتاد الجامع على جمع أكثر من نوع مورد منه",
+        "description_de": "Ausrüstungsgegenstand\nSammlerausrüstung hilft dir dabei, mehr Ressourcen dieses Typs zu sammeln",
+        "description_fr": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "description_es": "Objeto de equipo\nEl equipo de recolector te ayuda a recoger más de tu tipo de recurso",
+        "description_ru": "Снаряжение\n Предметы собирателя помогают вам добывать больше ресурсов данного типа"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ARMOR_GATHERER_FISH",
+        "description_variable": "@ITEMS_T7_ARMOR_GATHERER_FISH_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_ARMOR_GATHERER_FISH",
+        "uisprite": "FISHING_GEAR_ARMOR",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "tier": "7",
+        "weight": "11.4",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "150",
+        "hitpointsregenerationbonus": "2.15",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "100",
+        "magicresistance": "100",
+        "crowdcontrolresistance": "50",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1000",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_armor"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Fisherman Garb",
+        "DE-DE": "Anglerkleidung des Großmeisters",
+        "FR-FR": "Tenue de pêcheur de grand maître",
+        "RU-RU": "Одежда рыбака (магистр)",
+        "PL-PL": "Odzienie Rybaka Wszechmistrza",
+        "ES-ES": "Atuendo de pescador del gran maestro",
+        "PT-BR": "Traje do Pescador Grão-mestre",
+        "IT-IT": "Indumenti da pescatore del gran maestro",
+        "ZH-CN": "宗师级渔夫工装",
+        "KO-KR": "그랜드 마스터 낚시꾼 의상",
+        "JA-JP": "漁師の服（グランドマスター）",
+        "ZH-TW": "宗師級漁夫工作服",
+        "ID-ID": "Pakaian Nelayan Grandmaster",
+        "TR-TR": "Büyük Usta Balıkçı Giysisi",
+        "AR-SA": "ملابس صياد السمك للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nGatherer Gear helps you gather more of its resource type",
+        "DE-DE": "Ausrüstungsgegenstand\nSammlerausrüstung hilft dir dabei, mehr Ressourcen dieses Typs zu sammeln",
+        "FR-FR": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "RU-RU": "Снаряжение\n Предметы собирателя помогают вам добывать больше ресурсов данного типа",
+        "PL-PL": "Przedmiot do wyposażenia\nSprzęt dla zbieraczy pomoże ci zebrać więcej odpowiadającego rodzaju surowców",
+        "ES-ES": "Objeto de equipo\nEl equipo de recolector te ayuda a recoger más de tu tipo de recurso",
+        "PT-BR": "Item de Equipamento\nEquipamento de coleta te ajuda a coletar mais do seu tipo de recurso",
+        "IT-IT": "Oggetto d'equipaggiamento\nL'equipaggiamento da raccoglitore permette di recuperare più risorse del tipo corrispondente.",
+        "ZH-CN": "装备物品\n采集者装备能帮助你采集更多与其同类的资源",
+        "KO-KR": "장비 아이템\n채집 도구는 해당 자원 유형을 더 많이 채집할 수 있게 합니다",
+        "JA-JP": "装備アイテム\n採集家の装備は、同じタイプの資源をさらに多く採集する役に立ちます。",
+        "ZH-TW": "裝備物品\n採集者裝備能提升該資源類型的採集量",
+        "ID-ID": "Item Perlengkapan\nAlat Pengumpul membantumu mengumpulkan lebih banyak jenis sumber dayanya",
+        "TR-TR": "Ekipman Eşyası\nToplayıcı teçhizatı, ilgili kaynak türünden daha fazla kaynak toplama olanağı sağlar.",
+        "AR-SA": "عنصر معدات\nيساعدك عتاد الجامع على جمع أكثر من نوع مورد منه"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 16
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.667,
+        "crafting_focus": 4596,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 16
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1000,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 11.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_YIELD_FISH_T7",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_YIELD_FISH_T7",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 8042,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 3,
+          "crafting_focus": 14074,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 3.6,
+          "crafting_focus": 24630,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 4.32,
+          "crafting_focus": 43102,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1400,
+        "durability": 184528,
+        "crafting_silver": 0,
+        "crafting_time": 4.32,
+        "crafting_focus": 43102,
+        "crafting_resources": [
+          {
+            "id": "T7_LEATHER_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 184528,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "FISHING_GEAR_ARMOR"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ARMOR_GATHERER_FISH@4",
+        "item_database_index": "6108"
+      },
+      "tier": 7,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Grandmaster's Fisherman Garb",
+        "name_ar": "ملابس صياد السمك للأستاذ",
+        "name_de": "Anglerkleidung des Großmeisters",
+        "name_fr": "Tenue de pêcheur du grand maître",
+        "name_es": "Atuendo de pescador del gran maestro",
+        "name_ru": "Одежда рыбака (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_ARMOR_GATHERER_FISH",
+        "@uisprite": "FISHING_GEAR_ARMOR",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@tier": "7",
+        "@weight": "11.4",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "150",
+        "@hitpointsregenerationbonus": "2.15",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "100",
+        "@magicresistance": "100",
+        "@crowdcontrolresistance": "50",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1000",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_armor",
+        "craftingspelllist": {
+          "@reference": "T4_ARMOR_GATHERER_FISH",
+          "removespell": {
+            "@uniquename": "PASSIVE_YIELD_FISH_T4"
+          },
+          "craftspell": {
+            "@uniquename": "PASSIVE_YIELD_FISH_T7"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.667",
+          "@craftingfocus": "4596",
+          "craftresource": {
+            "@uniquename": "T7_LEATHER",
+            "@count": "16"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "54675",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "8042",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3",
+                "@craftingfocus": "14074",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.6",
+                "@craftingfocus": "24630",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.32",
+                "@craftingfocus": "43102",
+                "craftresource": {
+                  "@uniquename": "T7_LEATHER_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "16"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

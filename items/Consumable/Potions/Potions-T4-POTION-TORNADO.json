@@ -1,0 +1,415 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T4_POTION_TORNADO",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_POTION_TORNADO",
+      "index": "686",
+      "name_en": "Minor Tornado in a Bottle",
+      "name_ar": "زجاجة إعصار ثانوية",
+      "name_de": "Kleiner Tornado in der Flasche",
+      "name_fr": "Tornade en bouteille mineure",
+      "name_es": "Tornado en botella menor",
+      "name_ru": "Малая Буря в стакане",
+      "descriptions": {
+        "description_en": "Bottled wind. Can be thrown at a ground location to create a Tornado that knocks back enemies.",
+        "description_ar": "زجاجة الرياح. يمكن إلقاؤها على موقع أرضي لإنشاء إعصار لصد الأعداء.",
+        "description_de": "Wind in einer Flasche. Wirf ihn auf den Boden, um dort einen Tornado zu erzeugen, der deine Gegner wegstößt.",
+        "description_fr": "Du vent en bouteille. Lancez-la au sol pour créer une tornade qui repousse les ennemis.",
+        "description_es": "Viento embotellado. Se lanza al suelo para crear un tornado que derriba a los enemigos.",
+        "description_ru": "Ветер, заточенный в бутылке. Бросьте ее на землю, чтобы создать бурю, отбрасывающую врагов назад."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_POTION_TORNADO",
+        "description_variable": "@ITEMS_POTION_TORNADO_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_POTION_TORNADO",
+        "slottype": "potion",
+        "weight": "0.1",
+        "consumespell": "POTION_TORNADO_P1",
+        "dummyitempower": "700",
+        "abilitypower": "186",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "tier": "4",
+        "craftingcategory": "potion",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "maxstacksize": "999",
+        "descriptionlocatag": "@ITEMS_POTION_TORNADO_DESC",
+        "shopsubcategory2": "tornado"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Minor Tornado in a Bottle",
+        "DE-DE": "Kleiner Tornado in der Flasche",
+        "FR-FR": "Tornade en bouteille mineure",
+        "RU-RU": "Малая Буря в стакане",
+        "PL-PL": "Mniejsze Tornado w Butelce",
+        "ES-ES": "Tornado en botella menor",
+        "PT-BR": "Tornado Engarrafado Menor",
+        "IT-IT": "Tornado in bottiglia minore",
+        "ZH-CN": "初级瓶中龙卷",
+        "KO-KR": "소형 병 속의 폭풍",
+        "JA-JP": "竜巻瓶（小）",
+        "ZH-TW": "初級瓶中龍捲",
+        "ID-ID": "Tornado dalam Botol Minor",
+        "TR-TR": "Zayıf Şişelenmiş Hortum",
+        "AR-SA": "زجاجة إعصار ثانوية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Bottled wind. Can be thrown at a ground location to create a Tornado that knocks back enemies.",
+        "DE-DE": "Wind in einer Flasche. Wirf ihn auf den Boden, um dort einen Tornado zu erzeugen, der deine Gegner wegstößt.",
+        "FR-FR": "Du vent en bouteille. Lancez-la au sol pour créer une tornade qui repousse les ennemis.",
+        "RU-RU": "Ветер, заточенный в бутылке. Бросьте ее на землю, чтобы создать бурю, отбрасывающую врагов назад.",
+        "PL-PL": "Zabutelkowany wiatr. Rzuć na ziemię, aby stworzyć Tornado odrzucające wrogów do tyłu.",
+        "ES-ES": "Viento embotellado. Se lanza al suelo para crear un tornado que derriba a los enemigos.",
+        "PT-BR": "Vento engarrafado. Jogue-o no chão para criar um Tornado que joga os inimigos para trás.",
+        "IT-IT": "Vento in bottiglia. Lanciandola sul terreno, si crea un Tornado che fa indietreggiare i nemici.",
+        "ZH-CN": "被装到小瓶中的风之元素。扔到地上后会形成一个龙卷风，击退接触到它的敌人。",
+        "KO-KR": "병 속에 담긴 바람. 바닥에 던져, 적을 뒤로 밀쳐내는 토네이도를 생성합니다.",
+        "JA-JP": "瓶詰めの風。地面に投げつけるとトルネードが発生し、敵をノックバックさせる。",
+        "ZH-TW": "被裝到小瓶中的風之元素。扔到地上後會形成一個龍捲風，擊退接觸到它的敵人。",
+        "ID-ID": "Angin yang dibotolkan. Lemparkan ke lokasi tanah untuk menciptakan Tornado yang memukul mundur musuh.",
+        "TR-TR": "Şişelenmiş rüzgâr. Düşmanları geri savuran bir hortum oluşturmak için yere fırlatılabilir.",
+        "AR-SA": "زجاجة الرياح. يمكن إلقاؤها على موقع أرضي لإنشاء إعصار لصد الأعداء."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_BURDOCK",
+        "primary_count": 16,
+        "secondary_resource": "T3_ALCHEMY_RARE_EAGLE",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T4_BURDOCK",
+            "count": 16
+          },
+          {
+            "id": "T3_ALCHEMY_RARE_EAGLE",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.257,
+        "crafting_focus": 56,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_BURDOCK",
+            "count": 16
+          },
+          {
+            "id": "T3_ALCHEMY_RARE_EAGLE",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_BURDOCK",
+        "primary_count": 16,
+        "secondary_resource": "T3_ALCHEMY_RARE_EAGLE",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 0.1,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 78,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_EAGLE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 10,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 123,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_EAGLE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 10,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 256,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_EAGLE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 10,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_POTION_TORNADO",
+        "item_database_index": "686"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Minor Tornado in a Bottle",
+        "name_ar": "زجاجة إعصار ثانوية",
+        "name_de": "Kleiner Tornado in der Flasche",
+        "name_fr": "Tornade en bouteille mineure",
+        "name_es": "Tornado en botella menor",
+        "name_ru": "Малая Буря в стакане"
+      },
+      "raw": {
+        "@uniquename": "T4_POTION_TORNADO",
+        "@slottype": "potion",
+        "@weight": "0.1",
+        "@consumespell": "POTION_TORNADO_P1",
+        "@dummyitempower": "700",
+        "@abilitypower": "186",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@tier": "4",
+        "@craftingcategory": "potion",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@maxstacksize": "999",
+        "@descriptionlocatag": "@ITEMS_POTION_TORNADO_DESC",
+        "@shopsubcategory2": "tornado",
+        "craftingrequirements": {
+          "@time": "0.257",
+          "@amountcrafted": "10",
+          "@craftingfocus": "56",
+          "craftresource": [
+            {
+              "@uniquename": "T3_ALCHEMY_RARE_EAGLE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "16"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_TORNADO_P2",
+              "@dummyitempower": "800",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "78",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_EAGLE",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_TORNADO_P3",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "123",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_EAGLE",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_TORNADO_P4",
+              "@dummyitempower": "1000",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "256",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_EAGLE",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

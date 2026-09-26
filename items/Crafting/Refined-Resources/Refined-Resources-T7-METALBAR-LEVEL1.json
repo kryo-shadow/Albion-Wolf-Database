@@ -1,0 +1,243 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Refined_Resources",
+  "base_id": "T7_METALBAR_LEVEL1",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T7_METALBAR_LEVEL1",
+      "index": "1124",
+      "name_en": "Uncommon Meteorite Steel Bar",
+      "name_ar": "قضيب نيزكي فولاذي غير شائع",
+      "name_de": "Ungewöhnlicher Meteoritstahlbarren",
+      "name_fr": "Barre de météorite peu commune",
+      "name_es": "Lingote de meteorito poco común",
+      "name_ru": "Необычный слиток метеоритной стали",
+      "descriptions": {
+        "description_en": "Refined material used in crafting.",
+        "description_ar": "مادة معالجة تُستخدم في التصنيع.",
+        "description_de": "Weiterverarbeitetes Material das im Handwerk genutzt wird.",
+        "description_fr": "Matériau raffiné utilisé dans l'artisanat.",
+        "description_es": "Material refinado utilizado para la fabricación.",
+        "description_ru": "Обработанный материал, используемый в ремесле."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_METALBAR_LEVEL1",
+        "description_variable": "@ITEMS_REFINED_RESOURCE_DESC"
+      },
+      "category": "Crafting_Refined_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_METALBAR_LEVEL1",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "refinedresources",
+        "craftingcategory": "ore",
+        "tier": "7",
+        "enchantmentlevel": "1",
+        "weight": "1.71",
+        "maxstacksize": "999",
+        "fasttravelfactor": "32",
+        "itemvalue": "256",
+        "descriptionlocatag": "@ITEMS_REFINED_RESOURCE_DESC",
+        "shopsubcategory2": "metalbars"
+      },
+      "item_stats": {
+        "itemvalue": "256",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Uncommon Meteorite Steel Bar",
+        "DE-DE": "Ungewöhnlicher Meteoritstahlbarren",
+        "FR-FR": "Barre de météorite peu commune",
+        "RU-RU": "Необычный слиток метеоритной стали",
+        "PL-PL": "Niepospolita Sztabka Meteorytowej Stali",
+        "ES-ES": "Lingote de meteorito poco común",
+        "PT-BR": "Barra de Aço Meteorito Incomum",
+        "IT-IT": "Lingotto di acciaio di meteorite non comune",
+        "ZH-CN": "罕见陨钢条",
+        "KO-KR": "특수 운석 강철 막대",
+        "JA-JP": "メテオライト鋼の延べ棒（非凡）",
+        "ZH-TW": "非凡隕石鋼條",
+        "ID-ID": "Batang Baja Meteorit Tidak Biasa",
+        "TR-TR": "Sıra Dışı Meteoritli Çelik Külçe",
+        "AR-SA": "قضيب نيزكي فولاذي غير شائع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Refined material used in crafting.",
+        "DE-DE": "Weiterverarbeitetes Material das im Handwerk genutzt wird.",
+        "FR-FR": "Matériau raffiné utilisé dans l'artisanat.",
+        "RU-RU": "Обработанный материал, используемый в ремесле.",
+        "PL-PL": "Ulepszony materiał wykorzystywany w rzemiośle.",
+        "ES-ES": "Material refinado utilizado para la fabricación.",
+        "PT-BR": "Material refinado usado em fabricação.",
+        "IT-IT": "Materiale raffinato usato nella creazione.",
+        "ZH-CN": "用于制造的精制材料。",
+        "KO-KR": "제작에 사용되는 일반적인 정제 원료.",
+        "JA-JP": "クラフトに使用される精製材料。",
+        "ZH-TW": "用於製作的精煉材料。",
+        "ID-ID": "Material yang telah disempurnakan dan digunakan dalam crafting.",
+        "TR-TR": "Zanaat işlemlerinde kullanılan, işlenmiş bir malzeme.",
+        "AR-SA": "مادة معالجة تُستخدم في التصنيع."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_ORE_LEVEL1",
+        "primary_count": 5,
+        "secondary_resource": "T6_METALBAR_LEVEL1",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T7_ORE_LEVEL1",
+            "count": 5
+          },
+          {
+            "id": "T6_METALBAR_LEVEL1",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.15625,
+        "crafting_focus": 503,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_ORE_LEVEL1",
+            "count": 5
+          },
+          {
+            "id": "T6_METALBAR_LEVEL1",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_ORE_LEVEL1",
+        "primary_count": 5,
+        "secondary_resource": "T6_METALBAR_LEVEL1",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 7,
+        "weight": 1.71,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "refinedresources",
+        "crafting_category": "ore",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_METALBAR_LEVEL1",
+        "item_database_index": "1124"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Uncommon Meteorite Steel Bar",
+        "name_ar": "قضيب نيزكي فولاذي غير شائع",
+        "name_de": "Ungewöhnlicher Meteoritstahlbarren",
+        "name_fr": "Barre de météorite peu commune",
+        "name_es": "Lingote de meteorito poco común",
+        "name_ru": "Необычный слиток метеоритной стали"
+      },
+      "raw": {
+        "@uniquename": "T7_METALBAR_LEVEL1",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "refinedresources",
+        "@craftingcategory": "ore",
+        "@tier": "7",
+        "@enchantmentlevel": "1",
+        "@weight": "1.71",
+        "@maxstacksize": "999",
+        "@fasttravelfactor": "32",
+        "@itemvalue": "256",
+        "@descriptionlocatag": "@ITEMS_REFINED_RESOURCE_DESC",
+        "@shopsubcategory2": "metalbars",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.15625",
+            "@craftingfocus": "503",
+            "@amountcrafted": "1",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T7_ORE_LEVEL1",
+                "@enchantmentlevel": "1",
+                "@count": "5"
+              },
+              {
+                "@uniquename": "T6_METALBAR_LEVEL1",
+                "@enchantmentlevel": "1",
+                "@count": "1"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.15625",
+            "@craftingfocus": "503",
+            "@amountcrafted": "1",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T7_ORE_LEVEL1",
+                "@enchantmentlevel": "1",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T1_FACTION_MOUNTAIN_TOKEN_1",
+                "@count": "1"
+              },
+              {
+                "@uniquename": "T6_METALBAR_LEVEL1",
+                "@enchantmentlevel": "1",
+                "@count": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

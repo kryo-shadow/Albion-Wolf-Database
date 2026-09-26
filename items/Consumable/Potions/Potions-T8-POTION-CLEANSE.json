@@ -1,0 +1,532 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T8_POTION_CLEANSE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_POTION_CLEANSE",
+      "index": "610",
+      "name_en": "Invisibility Potion",
+      "name_ar": "جرعة الاختفاء",
+      "name_de": "Trank der Unsichtbarkeit",
+      "name_fr": "Potion d'invisibilité",
+      "name_es": "Poción de invisibilidad",
+      "name_ru": "Эликсир невидимости",
+      "descriptions": {
+        "description_en": "Clear potion. Makes you temporarily invisible after drinking.",
+        "description_ar": "جرعة نقية. تجعلك في حالة اختفاء مؤقتًا بعد شربها.",
+        "description_de": "Klarer Trank. Macht dich mit der Einnahme kurzzeitig unsichtbar.",
+        "description_fr": "Potion transparente. Vous rends invisible quand vous la buvez.",
+        "description_es": "Poción transparente. Te hace invisible después de tomarla.",
+        "description_ru": "Прозрачный эликсир. Выпейте его, чтобы стать невидимым на время."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_POTION_CLEANSE",
+        "description_variable": "@ITEMS_POTION_CLEANSE_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_POTION_CLEANSE",
+        "uisprite": "POTION_INVISIBILITY",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_INVISIBILITY_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "8",
+        "dummyitempower": "1100",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.44",
+        "descriptionlocatag": "@ITEMS_POTION_CLEANSE_DESC",
+        "shopsubcategory2": "invisibility"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Invisibility Potion",
+        "DE-DE": "Trank der Unsichtbarkeit",
+        "FR-FR": "Potion d'invisibilité",
+        "RU-RU": "Эликсир невидимости",
+        "PL-PL": "Mikstura Niewidzialności",
+        "ES-ES": "Poción de invisibilidad",
+        "PT-BR": "Poção de Invisibilidade",
+        "IT-IT": "Pozione dell'invisibilità",
+        "ZH-CN": "隐形药水",
+        "KO-KR": "투명 포션",
+        "JA-JP": "透明化ポーション",
+        "ZH-TW": "隱形藥水",
+        "ID-ID": "Ramuan Limunan",
+        "TR-TR": "Görünmezlik İksiri",
+        "AR-SA": "جرعة الاختفاء"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Clear potion. Makes you temporarily invisible after drinking.",
+        "DE-DE": "Klarer Trank. Macht dich mit der Einnahme kurzzeitig unsichtbar.",
+        "FR-FR": "Potion transparente. Vous rends invisible quand vous la buvez.",
+        "RU-RU": "Прозрачный эликсир. Выпейте его, чтобы стать невидимым на время.",
+        "PL-PL": "Przezroczysta mikstura. Po wypiciu czyni cię niewidzialnym przez pewien czas.",
+        "ES-ES": "Poción transparente. Te hace invisible después de tomarla.",
+        "PT-BR": "Poção límpida. Te faz invisível temporariamente após tomá-la.",
+        "IT-IT": "Contiene un liquido chiaro. Al consumo rende temporaneamente invisibili.",
+        "ZH-CN": "无色的药水，喝下之后可以短时隐形。",
+        "KO-KR": "맑은 포션. 마시면 일시적으로 투명해집니다.",
+        "JA-JP": "透明なポーション。飲んだ後、一時的に姿が透明になります。",
+        "ZH-TW": "澄澈的藥水。飲用後可暫時隱形。",
+        "ID-ID": "Ramuan transparan. Membuatmu tak terlihat untuk sementara setelah meminumnya.",
+        "TR-TR": "Şeffaf bir iksir. İçtikten sonra geçici olarak görünmez olursun.",
+        "AR-SA": "جرعة نقية. تجعلك في حالة اختفاء مؤقتًا بعد شربها."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_YARROW",
+        "primary_count": 72,
+        "secondary_resource": "T7_MULLEIN",
+        "secondary_count": 36,
+        "resources": [
+          {
+            "id": "T8_YARROW",
+            "count": 72
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 36
+          },
+          {
+            "id": "T5_TEASEL",
+            "count": 36
+          },
+          {
+            "id": "T8_MILK",
+            "count": 18
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 18
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.9035,
+        "crafting_focus": 1272,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_YARROW",
+            "count": 72
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 36
+          },
+          {
+            "id": "T5_TEASEL",
+            "count": 36
+          },
+          {
+            "id": "T8_MILK",
+            "count": 18
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 18
+          }
+        ],
+        "primary_resource": "T8_YARROW",
+        "primary_count": 72,
+        "secondary_resource": "T7_MULLEIN",
+        "secondary_count": 36
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 1.44,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.9035,
+          "crafting_focus": 1472,
+          "crafting_resources": [
+            {
+              "id": "T8_YARROW",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_MILK",
+              "count": 18,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 45,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.9035,
+          "crafting_focus": 1873,
+          "crafting_resources": [
+            {
+              "id": "T8_YARROW",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_MILK",
+              "count": 18,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 45,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.9035,
+          "crafting_focus": 3073,
+          "crafting_resources": [
+            {
+              "id": "T8_YARROW",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_MILK",
+              "count": 18,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 45,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_INVISIBILITY"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_POTION_CLEANSE",
+        "item_database_index": "610"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Invisibility Potion",
+        "name_ar": "جرعة الاختفاء",
+        "name_de": "Trank der Unsichtbarkeit",
+        "name_fr": "Potion d'invisibilité",
+        "name_es": "Poción de invisibilidad",
+        "name_ru": "Зелье невидимости"
+      },
+      "raw": {
+        "@uniquename": "T8_POTION_CLEANSE",
+        "@uisprite": "POTION_INVISIBILITY",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_INVISIBILITY_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "8",
+        "@dummyitempower": "1100",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.44",
+        "@descriptionlocatag": "@ITEMS_POTION_CLEANSE_DESC",
+        "@shopsubcategory2": "invisibility",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "1272",
+          "@time": "2.9035",
+          "craftresource": [
+            {
+              "@uniquename": "T8_YARROW",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T7_MULLEIN",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T5_TEASEL",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T8_MILK",
+              "@count": "18"
+            },
+            {
+              "@uniquename": "T8_ALCOHOL",
+              "@count": "18"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_INVISIBILITY_P6",
+              "@dummyitempower": "1200",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "2.9035",
+                "@amountcrafted": "5",
+                "@craftingfocus": "1472",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_MILK",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_INVISIBILITY_P7",
+              "@dummyitempower": "1300",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "2.9035",
+                "@amountcrafted": "5",
+                "@craftingfocus": "1873",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_MILK",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_INVISIBILITY_P8",
+              "@dummyitempower": "1400",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "2.9035",
+                "@amountcrafted": "5",
+                "@craftingfocus": "3073",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_MILK",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

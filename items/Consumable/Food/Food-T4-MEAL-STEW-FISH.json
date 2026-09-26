@@ -1,0 +1,454 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T4_MEAL_STEW_FISH",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_MEAL_STEW_FISH",
+      "index": "848",
+      "name_en": "Greenriver Eel Stew",
+      "name_ar": "يخنة سمك ثعبان Greenriver",
+      "name_de": "Grünflossenaal-Eintopf",
+      "name_fr": "Ragoût d'anguille verte",
+      "name_es": "Guiso de anguila de agua verdosa",
+      "name_ru": "Жаркое из речного угря",
+      "descriptions": {
+        "description_en": "Meal that increases combat damage and reduces cooldowns for a long period.",
+        "description_ar": "وجبة تزيد ضرر القتال وتقلل فترات الانتظار لفترة طويلة.",
+        "description_de": "Eine Mahlzeit, die für eine lange Zeit deinen Kampfschaden erhöht und deine Abklingzeiten reduziert.",
+        "description_fr": "Repas qui augmente les dégâts en combat et qui réduit les temps de recharge pendant une longue période.",
+        "description_es": "Comida que incrementa tu daño de combate y reduce los tiempos de espera por un largo periodo.",
+        "description_ru": "Блюдо, повышающее наносимый урон и ускоряющее восстановление заклинаний в течение длительного периода времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MEAL_STEW_FISH",
+        "description_variable": "@ITEMS_MEAL_STEW_FISH_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_MEAL_STEW_FISH",
+        "descriptionlocatag": "@ITEMS_MEAL_STEW_FISH_DESC",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_FISH_BUFF_DMG_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "4",
+        "dummyitempower": "700",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.74",
+        "nutrition": "116",
+        "shopsubcategory2": "stews"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Greenriver Eel Stew",
+        "DE-DE": "Grünflossenaal-Eintopf",
+        "FR-FR": "Ragoût d'anguille verte",
+        "RU-RU": "Жаркое из речного угря",
+        "PL-PL": "Gulasz z Węgorza Rzecznego",
+        "ES-ES": "Guiso de anguila de agua verdosa",
+        "PT-BR": "Guisado de Enguia Esverdeada",
+        "IT-IT": "Stufato di anguilla delle foreste",
+        "ZH-CN": "炖绿河鳗鱼",
+        "KO-KR": "그린리버 장어 스튜",
+        "JA-JP": "グリーンリバー・ウナギのシチュー",
+        "ZH-TW": "燉綠川鰻魚",
+        "ID-ID": "Rebusan Belut Sungai Hijau",
+        "TR-TR": "Yeşilırmak Yılan Balığı Yahnisi",
+        "AR-SA": "يخنة سمك ثعبان Greenriver"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Meal that increases combat damage and reduces cooldowns for a long period.",
+        "DE-DE": "Eine Mahlzeit, die für eine lange Zeit deinen Kampfschaden erhöht und deine Abklingzeiten reduziert.",
+        "FR-FR": "Repas qui augmente les dégâts en combat et qui réduit les temps de recharge pendant une longue période.",
+        "RU-RU": "Блюдо, повышающее наносимый урон и ускоряющее восстановление заклинаний в течение длительного периода времени.",
+        "PL-PL": "Posiłek, który zwiększa obrażenia zadawane w walce i zmniejsza czasy odnowienia przez długi okres czasu.",
+        "ES-ES": "Comida que incrementa tu daño de combate y reduce los tiempos de espera por un largo periodo.",
+        "PT-BR": "Comida que aumenta o dano de combate e reduz o tempo de recarga por um longo período.",
+        "IT-IT": "Pietanza che aumenta il danno in combattimento e riduce i tempi di ricarica per un lungo periodo.",
+        "ZH-CN": "餐食，可以长时间提高战斗伤害并降低冷却时间。",
+        "KO-KR": "오랫동안 전투 대미지를 증가시키고 대기 시간을 단축시키는 식사입니다.",
+        "JA-JP": "長時間にわたり戦闘ダメージが上昇し、クールダウンが減少する料理。",
+        "ZH-TW": "一道料理，能長時間提升戰鬥傷害，並縮短冷卻時間。",
+        "ID-ID": "Makanan yang meningkatkan damage pertempuran dan mengurangi cooldown untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine savaş hasarını artıran ve bekleme sürelerini azaltan bir yemek.",
+        "AR-SA": "وجبة تزيد ضرر القتال وتقلل فترات الانتظار لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_FISH_FRESHWATER_FOREST_RARE",
+        "primary_count": 1,
+        "secondary_resource": "T4_TURNIP",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T3_FISH_FRESHWATER_FOREST_RARE",
+            "count": 1
+          },
+          {
+            "id": "T4_TURNIP",
+            "count": 1
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.0387,
+        "crafting_focus": 77,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_FISH_FRESHWATER_FOREST_RARE",
+            "count": 1
+          },
+          {
+            "id": "T4_TURNIP",
+            "count": 1
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_FISH_FRESHWATER_FOREST_RARE",
+        "primary_count": 1,
+        "secondary_resource": "T4_TURNIP",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 1.74,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 144,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_FOREST_RARE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_TURNIP",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 278,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_FOREST_RARE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_TURNIP",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 678,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_FOREST_RARE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_TURNIP",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MEAL_STEW_FISH",
+        "item_database_index": "848"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Greenriver Eel Stew",
+        "name_ar": "يخنة سمك ثعبان Greenriver",
+        "name_de": "Grünflossenaal-Eintopf",
+        "name_fr": "Ragoût d'anguille verte",
+        "name_es": "Guiso de anguila de agua verdosa",
+        "name_ru": "Жаркое из речного угря"
+      },
+      "raw": {
+        "@uniquename": "T4_MEAL_STEW_FISH",
+        "@descriptionlocatag": "@ITEMS_MEAL_STEW_FISH_DESC",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_DMG_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "4",
+        "@dummyitempower": "700",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.74",
+        "@nutrition": "116",
+        "@shopsubcategory2": "stews",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@forcesinglecraft": "false",
+          "@amountcrafted": "1",
+          "@craftingfocus": "77",
+          "@time": "0.0387",
+          "craftresource": [
+            {
+              "@uniquename": "T3_FISH_FRESHWATER_FOREST_RARE",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T4_TURNIP",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "1"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "800",
+              "@consumespell": "FOOD_FISH_BUFF_DMG_P2",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "144",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_FOREST_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_TURNIP",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "900",
+              "@consumespell": "FOOD_FISH_BUFF_DMG_P3",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "278",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_FOREST_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_TURNIP",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1000",
+              "@consumespell": "FOOD_FISH_BUFF_DMG_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "678",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_FOREST_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_TURNIP",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

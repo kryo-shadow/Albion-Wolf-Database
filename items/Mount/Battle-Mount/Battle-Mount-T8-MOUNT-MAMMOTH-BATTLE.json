@@ -1,0 +1,597 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Battle_Mount",
+  "base_id": "T8_MOUNT_MAMMOTH_BATTLE",
+  "item_count": 2,
+  "items": [
+    {
+      "id": "T8_MOUNT_MAMMOTH_BATTLE",
+      "index": null,
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "localization_variables": null,
+      "category": "Mount_Battle_Mount",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_MOUNT_MAMMOTH_BATTLE",
+        "maxqualitylevel": "1",
+        "enchantmentlevel": "1",
+        "itempower": "1100",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "battle_mount",
+        "mountedbuff": "T8_MOUNT_MAMMOTH_BATTLE_MOUNTED",
+        "halfmountedbuff": "T8_MOUNT_MAMMOTH_BATTLE_HALFMOUNTED",
+        "tier": "8",
+        "weight": "179.4",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "136687.5",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "false",
+        "mounttime": "10",
+        "dismounttime": "0",
+        "mounthitpointsmax": "40244",
+        "mounthitpointsregeneration": "50.31",
+        "prefabname": "MOUNT_MAMMOTH_BATTLE_01",
+        "prefabscaling": "1.2",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "12",
+        "forceddismountcooldown": "90",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "90",
+        "remounttime": "5",
+        "showinmarketplace": "true",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "canuseingvg": "false",
+        "canuseinfactionwarfare": "false"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {},
+      "localized_all_descriptions": {},
+      "crafting_requirements": {
+        "resources": [
+          {
+            "id": "UNIQUE_GVGTOKEN_GENERIC",
+            "count": 10000
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T8_MOUNT_MAMMOTH_TRANSPORT",
+            "count": 1
+          }
+        ],
+        "primary": {
+          "id": "UNIQUE_GVGTOKEN_GENERIC",
+          "count": 10000
+        },
+        "secondary": {
+          "id": "T8_LEATHER",
+          "count": 20
+        }
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.125,
+        "crafting_focus": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_GVGTOKEN_GENERIC",
+            "count": 10000
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T8_MOUNT_MAMMOTH_TRANSPORT",
+            "count": 1
+          }
+        ]
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 136687.5,
+        "max_quality_level": 1,
+        "tier_raw": 8,
+        "weight": 179.4,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 136687.5,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "battle_mount",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MOUNT_MAMMOTH_BATTLE",
+        "item_database_index": ""
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "",
+        "name_ar": ""
+      },
+      "raw": {
+        "@uniquename": "T8_MOUNT_MAMMOTH_BATTLE",
+        "@maxqualitylevel": "1",
+        "@enchantmentlevel": "1",
+        "@itempower": "1100",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "battle_mount",
+        "@mountedbuff": "T8_MOUNT_MAMMOTH_BATTLE_MOUNTED",
+        "@halfmountedbuff": "T8_MOUNT_MAMMOTH_BATTLE_HALFMOUNTED",
+        "@tier": "8",
+        "@weight": "179.4",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "136687.5",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "false",
+        "@mounttime": "10",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "40244",
+        "@mounthitpointsregeneration": "50.31",
+        "@prefabname": "MOUNT_MAMMOTH_BATTLE_01",
+        "@prefabscaling": "1.2",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "12",
+        "@forceddismountcooldown": "90",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "90",
+        "@remounttime": "5",
+        "@showinmarketplace": "true",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@canuseingvg": "false",
+        "@canuseinfactionwarfare": "false",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.125",
+          "craftresource": [
+            {
+              "@uniquename": "T8_MOUNT_MAMMOTH_TRANSPORT",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "10000",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "mountspelllist": {
+          "mountspell": [
+            {
+              "@uniquename": "MOUNTSPELL_PROTECTIONAURA",
+              "@spellslot": "mainhand1"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_OFFENSIVEAURA",
+              "@spellslot": "mainhand2"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_TURBOBUFF",
+              "@spellslot": "offhandormainhand3"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_BIGCLEAVE",
+              "@spellslot": "armor"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_SPRINT_MAMMOTH",
+              "@spellslot": "shoes"
+            }
+          ]
+        }
+      },
+      "source": "local"
+    },
+    {
+      "id": "T8_MOUNT_MAMMOTH_BATTLE@1",
+      "index": "3068",
+      "name_en": "Elder's Command Mammoth",
+      "name_ar": "ماموث القيادة للحكيم",
+      "name_de": "Kommandeursmammut des Ältesten",
+      "name_fr": "Mammouth de commandement de sage",
+      "name_es": "Mamut de comando del anciano",
+      "name_ru": "Боевой мамонт (старейшина)",
+      "descriptions": {
+        "description_en": "Battle Mount - This war mammoth's command platform allows its rider to direct and bolster allies. Immune to crowd control.",
+        "description_ar": "مطية معركة - تسمح منصة قيادة ماموث الحرب هذه لراكبيه بتوجيه الحلفاء وتعزيزهم. حصانة ضد السيطرة على الحشود.",
+        "description_de": "Kampfreittier - Dieses Kriegsmammut trägt eine Kommandoplattform, durch die der Reiter Alliierte koordinieren und unterstützen kann. Immun gegen Crowd Control-Effekte.",
+        "description_fr": "Monture de bataille - La plateforme de commandement de ce mammouth de guerre permet au cavalier de diriger et haranguer ses alliés. Insensible à tous les contrôles de foule.",
+        "description_es": "Montura de batalla - Este mamut de guerra carga una plataforma de mando que permite a quien lo monta dirigir a los aliados. Inmune al control de multitudes.",
+        "description_ru": "Боевой скакун - у этого могучего существа на спине закреплена платформа, с которой наездник может контролировать действия союзников и обеспечивать им преимущество в битве. Невосприимчив ко всем видам контроля."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MOUNT_MAMMOTH_BATTLE",
+        "description_variable": "@ITEMS_T8_MOUNT_MAMMOTH_BATTLE_DESC"
+      },
+      "category": "Mount_Battle_Mount",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_MOUNT_MAMMOTH_BATTLE",
+        "maxqualitylevel": "1",
+        "enchantmentlevel": "1",
+        "itempower": "1100",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "battle_mount",
+        "mountedbuff": "T8_MOUNT_MAMMOTH_BATTLE_MOUNTED",
+        "halfmountedbuff": "T8_MOUNT_MAMMOTH_BATTLE_HALFMOUNTED",
+        "tier": "8",
+        "weight": "179.4",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "136687.5",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "false",
+        "mounttime": "10",
+        "dismounttime": "0",
+        "mounthitpointsmax": "40244",
+        "mounthitpointsregeneration": "50.31",
+        "prefabname": "MOUNT_MAMMOTH_BATTLE_01",
+        "prefabscaling": "1.2",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "90",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "90",
+        "remounttime": "5",
+        "showinmarketplace": "true",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "canuseingvg": "false",
+        "canuseinfactionwarfare": "false",
+        "shopsubcategory2": "mammoth",
+        "mountzergdisarraylevels": "5",
+        "nutrition": "59049",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Command Mammoth",
+        "DE-DE": "Kommandeursmammut des Ältesten",
+        "FR-FR": "Mammouth de commandement de sage",
+        "RU-RU": "Боевой мамонт (старейшина)",
+        "PL-PL": "Mamut Dowódczy Starszego",
+        "ES-ES": "Mamut de comando del anciano",
+        "PT-BR": "Mamute de Comando do Ancião",
+        "IT-IT": "Mammut da comandante dell'anziano",
+        "ZH-CN": "禅师级号令猛犸象",
+        "KO-KR": "장로의 지휘 맘모스",
+        "JA-JP": "コマンドマンモス（老熟）",
+        "ZH-TW": "禪師級指揮猛獁象",
+        "ID-ID": "Mamut Komando Tetua",
+        "TR-TR": "Yüce Komuta Mamutu",
+        "AR-SA": "ماموث القيادة للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Battle Mount - This war mammoth's command platform allows its rider to direct and bolster allies. Immune to crowd control.",
+        "DE-DE": "Kampfreittier - Dieses Kriegsmammut trägt eine Kommandoplattform, durch die der Reiter Alliierte koordinieren und unterstützen kann. Immun gegen Crowd Control-Effekte.",
+        "FR-FR": "Monture de bataille - La plateforme de commandement de ce mammouth de guerre permet au cavalier de diriger et haranguer ses alliés. Insensible à tous les contrôles de foule.",
+        "RU-RU": "Боевой маунт - у этого могучего существа на спине закреплена платформа, с которой наездник может контролировать действия союзников и обеспечивать им преимущество в битве. Невосприимчив ко всем видам контроля.",
+        "PL-PL": "Wierzchowiec Bitewny - Ten mamut bojowy ma na sobie platformę dowodzenia i pozwala jeźdźcowi na dowodzenie swoimi sojusznikami i zwiększenie ich szans na zwycięstwo.",
+        "ES-ES": "Montura de batalla - Este mamut de guerra carga una plataforma de mando que permite a quien lo monta dirigir a los aliados. Inmune al control de multitudes.",
+        "PT-BR": "Montaria de Batalha - Esse mamute de guerra carrega uma plataforma de comando, permitindo o montador a direcionar os aliados e aumentar suas chances de vitória.",
+        "IT-IT": "Cavalcatura da battaglia - La piattaforma installata sul dorso di questo mammut da guerra permette al suo cavaliere di dare ordini agli alleati e di fornire loro supporto. Immune agli effetti di controllo.",
+        "ZH-CN": "战斗坐骑。将帅骑在这只战斗猛犸象背上，即可发号施令，援助友方。免疫群体控制。",
+        "KO-KR": "전투 탈것 - 이 전투 맘모스의 지휘 플랫폼에 오르면 아군의 사기를 북돋우며 지휘할 수 있게 됩니다. 군중 통제에 면역이 있습니다.",
+        "JA-JP": "バトル騎獣 - この戦争用マンモスの司令プラットフォームで、乗り手が味方を指揮したり激励することが可能になります。クラウドコントロールの影響を受けません。",
+        "ZH-TW": "戰爭坐騎 - 戰爭猛獁象的指揮台可讓騎士指揮調度、鼓舞盟友。對群體控制免疫。",
+        "ID-ID": "Tunggangan Tempur - Platform Komando mamut perang ini memungkinkan penunggangnya mengarahkan dan memerintah sekutu. Kebal terhadap Kontrol Kerumunan.",
+        "TR-TR": "Savaş Bineği - Bu savaş mamutunun komuta platformu sayesinde binici kolaylıkla müttefiklerini yönlendirebilir. Kitle kontrol etkilerine karşı bağışıklığı vardır.",
+        "AR-SA": "مطية معركة - تسمح منصة قيادة ماموث الحرب هذه لراكبيه بتوجيه الحلفاء وتعزيزهم. حصانة ضد السيطرة على الحشود."
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_GVGTOKEN_GENERIC",
+        "primary_count": 10000,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 20,
+        "resources": [
+          {
+            "id": "UNIQUE_GVGTOKEN_GENERIC",
+            "count": 10000
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T8_MOUNT_MAMMOTH_TRANSPORT",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.125,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "UNIQUE_GVGTOKEN_GENERIC",
+            "count": 10000
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T8_MOUNT_MAMMOTH_TRANSPORT",
+            "count": 1
+          }
+        ],
+        "primary_resource": "UNIQUE_GVGTOKEN_GENERIC",
+        "primary_count": 10000,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 20
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 136687.5,
+        "max_quality_level": 1,
+        "tier_raw": 8,
+        "weight": 179.4,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 136687.5,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "battle_mount",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MOUNT_MAMMOTH_BATTLE@1",
+        "item_database_index": "3068"
+      },
+      "tier": 8,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Elder's Command Mammoth",
+        "name_ar": "ماموث القيادة للحكيم",
+        "name_de": "Kommandeursmammut des Ältesten",
+        "name_fr": "Mammouth de commandement du sage",
+        "name_es": "Mamut de comando del anciano",
+        "name_ru": "Боевой мамонт (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MOUNT_MAMMOTH_BATTLE",
+        "@maxqualitylevel": "1",
+        "@enchantmentlevel": "1",
+        "@itempower": "1100",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "battle_mount",
+        "@mountedbuff": "T8_MOUNT_MAMMOTH_BATTLE_MOUNTED",
+        "@halfmountedbuff": "T8_MOUNT_MAMMOTH_BATTLE_HALFMOUNTED",
+        "@tier": "8",
+        "@weight": "179.4",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "136687.5",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "false",
+        "@mounttime": "10",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "40244",
+        "@mounthitpointsregeneration": "50.31",
+        "@prefabname": "MOUNT_MAMMOTH_BATTLE_01",
+        "@prefabscaling": "1.2",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "90",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "90",
+        "@remounttime": "5",
+        "@showinmarketplace": "true",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@canuseingvg": "false",
+        "@canuseinfactionwarfare": "false",
+        "@shopsubcategory2": "mammoth",
+        "@mountzergdisarraylevels": "5",
+        "@nutrition": "59049",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.125",
+          "craftresource": [
+            {
+              "@uniquename": "T8_MOUNT_MAMMOTH_TRANSPORT",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "10000",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "mountspelllist": {
+          "mountspell": [
+            {
+              "@uniquename": "MOUNTSPELL_PROTECTIONAURA",
+              "@spellslot": "mainhand1"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_OFFENSIVEAURA",
+              "@spellslot": "mainhand2"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_TURBOBUFF",
+              "@spellslot": "offhandormainhand3"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_BIGCLEAVE",
+              "@spellslot": "armor"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_SPRINT_MAMMOTH",
+              "@spellslot": "shoes"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

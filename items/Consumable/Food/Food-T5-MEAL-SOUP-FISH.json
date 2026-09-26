@@ -1,0 +1,493 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T5_MEAL_SOUP_FISH",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_MEAL_SOUP_FISH",
+      "index": "736",
+      "name_en": "Blackbog Clam Soup",
+      "name_ar": "حساء محار بلاك بوج",
+      "name_de": "Schwarzsumpfmuschelsuppe",
+      "name_fr": "Soupe de palourdes noirebières",
+      "name_es": "Sopa de almeja de pantano negro",
+      "name_ru": "Суп из черноводных моллюсков",
+      "descriptions": {
+        "description_en": "Meal that increases Health Regeneration outside of combat (and general Energy Regeneration) for a long period.",
+        "description_ar": "وجبة تزيد تجديد الصحة خارج القتال (وتجديد الطاقة العام) لفترة طويلة.",
+        "description_de": "Eine Mahlzeit, die deine Lebensregeneration außerhalb des Kampfes (und die allgemeine Energieregeneration) für eine lange Zeit erhöht.",
+        "description_fr": "Repas qui augmente la régénération de santé en dehors du combat (et la régénération générale d'énergie) pour une longue période.",
+        "description_es": "Comida que aumenta la regeneración de salud fuera de combate (y la generación total de energía) por un largo periodo.",
+        "description_ru": "Блюдо, повышающее восстановление здоровья и энергии вне боя в течение длительного периода времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MEAL_SOUP_FISH",
+        "description_variable": "@ITEMS_MEAL_SOUP_FISH_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_MEAL_SOUP_FISH",
+        "descriptionlocatag": "@ITEMS_MEAL_SOUP_FISH_DESC",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_FISH_HEALTH_REG_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "5",
+        "dummyitempower": "800",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "10.02",
+        "nutrition": "1002",
+        "shopsubcategory2": "soups"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Blackbog Clam Soup",
+        "DE-DE": "Schwarzsumpfmuschelsuppe",
+        "FR-FR": "Soupe de palourdes noirebières",
+        "RU-RU": "Суп из черноводных моллюсков",
+        "PL-PL": "Zupa z Małża Bagiennego",
+        "ES-ES": "Sopa de almeja de pantano negro",
+        "PT-BR": "Sopa de Mexilhão do Brejo",
+        "IT-IT": "Zuppa di arselle torbanera",
+        "ZH-CN": "黑沼蛤蜊汤",
+        "KO-KR": "블랙보그 조개 수프",
+        "JA-JP": "ブラックボグクラムのスープ",
+        "ZH-TW": "黑沼蛤蜊湯",
+        "ID-ID": "Sup Kerang Rawa Hitam",
+        "TR-TR": "Karabataklık İstiridyesi Çorbası",
+        "AR-SA": "حساء محار بلاك بوج"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Meal that increases Health Regeneration outside of combat (and general Energy Regeneration) for a long period.",
+        "DE-DE": "Eine Mahlzeit, die deine Lebensregeneration außerhalb des Kampfes (und die allgemeine Energieregeneration) für eine lange Zeit erhöht.",
+        "FR-FR": "Repas qui augmente la régénération de santé en dehors du combat (et la régénération générale d'énergie) pour une longue période.",
+        "RU-RU": "Блюдо, повышающее восстановление здоровья и энергии вне боя в течение длительного периода времени.",
+        "PL-PL": "Posiłek, który zwiększa regenerację zdrowia poza walką (i ogólną regenerację energii) przez długi okres czasu.",
+        "ES-ES": "Comida que aumenta la regeneración de salud fuera de combate (y la generación total de energía) por un largo periodo.",
+        "PT-BR": "Comida que aumenta a regeneração de vida fora de combate (e regeneração geral de energia) por um longo período.",
+        "IT-IT": "Pietanza che aumenta la rigenerazione della salute fuori dal combattimento (e la rigenerazione dell'energia in generale) per un lungo periodo.",
+        "ZH-CN": "餐食，可以长时间提高战斗外的生命恢复（和总能量恢复）。",
+        "KO-KR": "전투 종료 후 (및 일반 에너지 회복 시) 오랫동안 생명력 회복을 증가시키는 식사입니다.",
+        "JA-JP": "戦闘外での体力再生量（および通常のエネルギー再生量）が上昇する料理。",
+        "ZH-TW": "一道料理，能長時間提升非戰鬥時的生命值回復速度和一般能量回復速度。",
+        "ID-ID": "Makanan yang meningkatkan Regenerasi HP di luar pertempuran (dan Regenerasi Energi umum) untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine, savaş dışındayken sağlık yenilemesini ve genel Enerji yenilemesini artıran bir yemek.",
+        "AR-SA": "وجبة تزيد تجديد الصحة خارج القتال (وتجديد الطاقة العام) لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_CABBAGE",
+        "primary_count": 6,
+        "secondary_resource": "T5_TEASEL",
+        "secondary_count": 6,
+        "resources": [
+          {
+            "id": "T5_CABBAGE",
+            "count": 6
+          },
+          {
+            "id": "T5_TEASEL",
+            "count": 6
+          },
+          {
+            "id": "T5_MEAT",
+            "count": 6
+          },
+          {
+            "id": "T7_FISH_FRESHWATER_SWAMP_RARE",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.334,
+        "crafting_focus": 672,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_CABBAGE",
+            "count": 6
+          },
+          {
+            "id": "T5_TEASEL",
+            "count": 6
+          },
+          {
+            "id": "T5_MEAT",
+            "count": 6
+          },
+          {
+            "id": "T7_FISH_FRESHWATER_SWAMP_RARE",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_CABBAGE",
+        "primary_count": 6,
+        "secondary_resource": "T5_TEASEL",
+        "secondary_count": 6
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 10.02,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.334,
+          "crafting_focus": 1272,
+          "crafting_resources": [
+            {
+              "id": "T7_FISH_FRESHWATER_SWAMP_RARE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CABBAGE",
+              "count": 6,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 6,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_MEAT",
+              "count": 6,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 27,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 27
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.334,
+          "crafting_focus": 2473,
+          "crafting_resources": [
+            {
+              "id": "T7_FISH_FRESHWATER_SWAMP_RARE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CABBAGE",
+              "count": 6,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 6,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_MEAT",
+              "count": 6,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 27,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 27
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.334,
+          "crafting_focus": 6076,
+          "crafting_resources": [
+            {
+              "id": "T7_FISH_FRESHWATER_SWAMP_RARE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CABBAGE",
+              "count": 6,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 6,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_MEAT",
+              "count": 6,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 27,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 27
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MEAL_SOUP_FISH",
+        "item_database_index": "736"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Blackbog Clam Soup",
+        "name_ar": "حساء محار بلاك بوج",
+        "name_de": "Schwarzsumpfmuschelsuppe",
+        "name_fr": "Soupe de palourdes noirebières",
+        "name_es": "Sopa de almeja de pantano negro",
+        "name_ru": "Суп из черноводных моллюсков"
+      },
+      "raw": {
+        "@uniquename": "T5_MEAL_SOUP_FISH",
+        "@descriptionlocatag": "@ITEMS_MEAL_SOUP_FISH_DESC",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_HEALTH_REG_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "5",
+        "@dummyitempower": "800",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "10.02",
+        "@nutrition": "1002",
+        "@shopsubcategory2": "soups",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@forcesinglecraft": "false",
+          "@amountcrafted": "1",
+          "@craftingfocus": "672",
+          "@time": "0.334",
+          "craftresource": [
+            {
+              "@uniquename": "T7_FISH_FRESHWATER_SWAMP_RARE",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T5_CABBAGE",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T5_TEASEL",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T5_MEAT",
+              "@count": "6"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "900",
+              "@consumespell": "FOOD_FISH_HEALTH_REG_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "1272",
+                "@time": "0.334",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_FISH_FRESHWATER_SWAMP_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T5_MEAT",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "27"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "27"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "1000",
+              "@consumespell": "FOOD_FISH_HEALTH_REG_P7",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "2473",
+                "@time": "0.334",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_FISH_FRESHWATER_SWAMP_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T5_MEAT",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "27"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "27"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1100",
+              "@consumespell": "FOOD_FISH_HEALTH_REG_P8",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "6076",
+                "@time": "0.334",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_FISH_FRESHWATER_SWAMP_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T5_MEAT",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "27"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "27"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Pasture",
+  "base_id": "T8_FARM_COW_GROWN",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_FARM_COW_GROWN",
+      "index": "116",
+      "name_en": "Cow",
+      "name_ar": "بقرة",
+      "name_de": "Kuh",
+      "name_fr": "Vache",
+      "name_es": "Vaca",
+      "name_ru": "Корова",
+      "descriptions": {
+        "description_en": "Cows can be slaughtered to produce Raw Beef, or left alive to produce Cow's Milk",
+        "description_ar": "يمكن ذبح الأبقار لإنتاج لحم بقر نيئ، أو تركها حية لإنتاج حليب البقر",
+        "description_de": "Schlachte Kühe für rohes Rind oder lass sie am Leben und erhalte Kuhmilch.",
+        "description_fr": "Tuez une vache pour obtenir du bœuf cru ou gardez-la en vie pour son lait de vache",
+        "description_es": "Puedes sacrificar vacas para conseguir carne de ternera o dejarlas vivas y obtener leche",
+        "description_ru": "Забейте корову ради мяса или оставьте в живых - пусть дает молоко."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_FARM_COW_GROWN",
+        "description_variable": "@ITEMS_T8_FARM_COW_GROWN_DESC"
+      },
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_FARM_COW_GROWN",
+        "tier": "8",
+        "placefame": "0",
+        "pickupable": "true",
+        "destroyable": "false",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "pasture",
+        "kind": "animal",
+        "weight": "10.83",
+        "unlockedtocraft": "false",
+        "tile": "T8_FARM_COW_BABY",
+        "prefabname": "FARM_COW_GROWN_01",
+        "prefabscale": "1",
+        "resourcevalue": "931",
+        "animationid": "breed",
+        "itemvalue": "720",
+        "shopsubcategory2": "animals",
+        "shopsubcategory3": "cow"
+      },
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "931",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Cow",
+        "DE-DE": "Kuh",
+        "FR-FR": "Vache",
+        "RU-RU": "Корова",
+        "PL-PL": "Krowa",
+        "ES-ES": "Vaca",
+        "PT-BR": "Vaca",
+        "IT-IT": "Mucca",
+        "ZH-CN": "奶牛",
+        "KO-KR": "암소",
+        "JA-JP": "雌牛",
+        "ZH-TW": "乳牛",
+        "ID-ID": "Sapi",
+        "TR-TR": "İnek",
+        "AR-SA": "بقرة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cows can be slaughtered to produce Raw Beef, or left alive to produce Cow's Milk",
+        "DE-DE": "Schlachte Kühe für rohes Rind oder lass sie am Leben und erhalte Kuhmilch.",
+        "FR-FR": "Tuez une vache pour obtenir du bœuf cru ou gardez-la en vie pour son lait de vache",
+        "RU-RU": "Забейте корову ради мяса или оставьте в живых - пусть дает молоко.",
+        "PL-PL": "Krowy można zabić, aby otrzymać Surową Wołowinę, albo pozostawić przy życiu, aby otrzymywać Krowie Mleko",
+        "ES-ES": "Puedes sacrificar vacas para conseguir carne de ternera o dejarlas vivas y obtener leche",
+        "PT-BR": "Abata Vacas para produzir Carne Crua ou deixe-as vivas para produzirem Leite de Vaca",
+        "IT-IT": "Una mucca può essere macellata per produrre carne di manzo cruda, oppure può essere lasciata in vita per ottenerne latte di mucca.",
+        "ZH-CN": "奶牛可以宰杀变成牛肉，或者留着生产牛奶",
+        "KO-KR": "암소는 도살해서 생 쇠고기를 만들거나, 살려 두면 우유를 생산합니다.",
+        "JA-JP": "雌牛は屠殺して生の牛肉に加工できます。生かしておけば、雌牛のミルクが取れます。",
+        "ZH-TW": "乳牛可經屠宰製成生牛肉，或留著持續生產牛奶",
+        "ID-ID": "Sapi bisa disembelih untuk menghasilkan Daging Sapi Mentah, atau dipelihara agar menghasilkan Susu Sapi",
+        "TR-TR": "İnekler, Çiğ Sığır Eti elde etmek üzere kesilebilir ya da sağ bırakılarak İnek Sütü üretmeleri sağlanabilir.",
+        "AR-SA": "يمكن ذبح الأبقار لإنتاج لحم بقر نيئ، أو تركها حية لإنتاج حليب البقر"
+      },
+      "crafting_requirements": null,
+      "crafting_full": null,
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 10.83,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "pasture",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_FARM_COW_GROWN",
+        "item_database_index": "116"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Cow",
+        "name_ar": "بقرة",
+        "name_de": "Kuh",
+        "name_fr": "Vache",
+        "name_es": "Vaca",
+        "name_ru": "Корова"
+      },
+      "raw": {
+        "@uniquename": "T8_FARM_COW_GROWN",
+        "@tier": "8",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "10.83",
+        "@unlockedtocraft": "false",
+        "@tile": "T8_FARM_COW_BABY",
+        "@prefabname": "FARM_COW_GROWN_01",
+        "@prefabscale": "1",
+        "@resourcevalue": "931",
+        "@animationid": "breed",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "cow",
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "91.67",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_pumpkin",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T8_PUMPKIN",
+              "@favoritebonus": "1"
+            }
+          }
+        },
+        "products": {
+          "product": {
+            "@productiontime": "79200",
+            "@actionname": "@FARMABLE_GETPRODUCT_BUTTON_MILK",
+            "@lootlist": "T8_COW_LOOT",
+            "@lootchance": "1",
+            "@fame": "100"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

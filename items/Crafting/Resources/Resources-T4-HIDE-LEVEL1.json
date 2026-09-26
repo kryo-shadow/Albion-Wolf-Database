@@ -1,0 +1,209 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Resources",
+  "base_id": "T4_HIDE_LEVEL1",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_HIDE_LEVEL1",
+      "index": "1033",
+      "name_en": "Uncommon Medium Hide",
+      "name_ar": "جلد متوسط غير شائع",
+      "name_de": "Ungewöhnliches mittelschweres Fell",
+      "name_fr": "Peau de bête moyenne peu commune",
+      "name_es": "Piel media poco común",
+      "name_ru": "Необычная средняя шкура",
+      "descriptions": {
+        "description_en": "Raw material. Can be refined into leather or transmuted into higher-level hide.",
+        "description_ar": "مادة خام. يمكن معالجتها إلى جلد أو تحويلها إلى جلد من مستوى أعلى.",
+        "description_de": "Rohmaterial. Kann zu Leder verarbeitet oder in Fell höherer Qualität verwandelt werden.",
+        "description_fr": "Matière première. Peut être raffiné en cuir ou transmuté en peau de niveau supérieur.",
+        "description_es": "Materia prima. Se puede refinar para obtener cuero o transmutar en piel de nivel superior.",
+        "description_ru": "Сырье. Может быть переработано в кожу или улучшено до более высокого уровня."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_HIDE_LEVEL1",
+        "description_variable": "@ITEMS_HIDE_DESC"
+      },
+      "category": "Crafting_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_HIDE_LEVEL1",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "resources",
+        "tier": "4",
+        "enchantmentlevel": "1",
+        "resourcetype": "HIDE_LEVEL1",
+        "weight": "0.51",
+        "maxstacksize": "999",
+        "unlockedtocraft": "true",
+        "fasttravelfactor": "4",
+        "itemvalue": "12",
+        "famevalue": "15",
+        "dontgivefameoncraft": "true",
+        "descriptionlocatag": "@ITEMS_HIDE_DESC",
+        "shopsubcategory2": "hide"
+      },
+      "item_stats": {
+        "itemvalue": "12",
+        "resourcevalue": null,
+        "famevalue": "15",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Uncommon Medium Hide",
+        "DE-DE": "Ungewöhnliches mittelschweres Fell",
+        "FR-FR": "Peau de bête moyenne peu commune",
+        "RU-RU": "Необычная средняя шкура",
+        "PL-PL": "Niepospolita Średnia Skóra",
+        "ES-ES": "Piel media poco común",
+        "PT-BR": "Pelego Médio Incomum",
+        "IT-IT": "Pelle media non comune",
+        "ZH-CN": "罕见中等兽皮",
+        "KO-KR": "특수 중간 가죽",
+        "JA-JP": "中くらいの生皮（非凡）",
+        "ZH-TW": "非凡中型獸皮",
+        "ID-ID": "Kulit Mentah Medium Tidak Biasa",
+        "TR-TR": "Sıra Dışı Orta Kürk",
+        "AR-SA": "جلد متوسط غير شائع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Raw material. Can be refined into leather or transmuted into higher-level hide.",
+        "DE-DE": "Rohmaterial. Kann zu Leder verarbeitet oder in Fell höherer Qualität verwandelt werden.",
+        "FR-FR": "Matière première. Peut être raffiné en cuir ou transmuté en peau de niveau supérieur.",
+        "RU-RU": "Сырье. Может быть переработано в кожу или улучшено до более высокого уровня.",
+        "PL-PL": "Surowiec. Może być przerobiony na skóry garbowane lub transmutowany w skóry wyższego stopnia.",
+        "ES-ES": "Materia prima. Se puede refinar para obtener cuero o transmutar en piel de nivel superior.",
+        "PT-BR": "Material bruto. Pode ser refinado em couro ou transmutado em pelego de nível maior.",
+        "IT-IT": "Materiale grezzo. Può essere raffinato in cuoio o trasmutato in pelle di livello superiore",
+        "ZH-CN": "基础资源。可以加工成皮革或转化成等级更高的兽皮。",
+        "KO-KR": "원자재. 피혁으로 제련하거나 더 높은 레벨의 가죽으로 변형될 수 있습니다.",
+        "JA-JP": "原材料。強化革に精製可、もしくはより高いティアの生皮に変換できます。",
+        "ZH-TW": "一種原料。可精煉成皮革，或轉換成更高等級的獸皮。",
+        "ID-ID": "Material mentah. Bisa disempurnakan menjadi kulit atau ditingkatkan menjadi kulit mentah level lebih tinggi.",
+        "TR-TR": "Ham madde. Deri elde etmek için işlenebilir veya yüksek seviye kürke dönüştürülebilir.",
+        "AR-SA": "مادة خام. يمكن معالجتها إلى جلد أو تحويلها إلى جلد من مستوى أعلى."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_HIDE",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_HIDE",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 1500,
+        "time": 0.00625,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_HIDE",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_HIDE",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 0.51,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "resources",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_HIDE_LEVEL1",
+        "item_database_index": "1033"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Uncommon Medium Hide",
+        "name_ar": "جلد متوسط غير شائع",
+        "name_de": "Ungewöhnliches mittelschweres Fell",
+        "name_fr": "Peau de bête moyenne peu commune",
+        "name_es": "Piel media poco común",
+        "name_ru": "Необычная средняя шкура"
+      },
+      "raw": {
+        "@uniquename": "T4_HIDE_LEVEL1",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "resources",
+        "@tier": "4",
+        "@enchantmentlevel": "1",
+        "@resourcetype": "HIDE_LEVEL1",
+        "@weight": "0.51",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@fasttravelfactor": "4",
+        "@itemvalue": "12",
+        "@famevalue": "15",
+        "@dontgivefameoncraft": "true",
+        "@descriptionlocatag": "@ITEMS_HIDE_DESC",
+        "@shopsubcategory2": "hide",
+        "craftingrequirements": {
+          "@silver": "1500",
+          "@time": "0.00625",
+          "@craftingfocus": "0",
+          "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_TRANSMUTE",
+          "craftresource": {
+            "@uniquename": "T4_HIDE",
+            "@count": "1",
+            "@maxreturnamount": "0",
+            "@enchantmentlevel": "0"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

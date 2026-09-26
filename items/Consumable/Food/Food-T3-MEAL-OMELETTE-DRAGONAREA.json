@@ -1,0 +1,495 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T3_MEAL_OMELETTE_DRAGONAREA",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_MEAL_OMELETTE_DRAGONAREA",
+      "index": "824",
+      "name_en": "Carefree Leyfin Omelette",
+      "name_ar": "عجة ليفين المدهشة",
+      "name_de": "Unbekümmerte-Leyflosse-Omelett",
+      "name_fr": "Omelette au Tellurfin Serein",
+      "name_es": "Tortilla de Leyaleta Serena",
+      "name_ru": "Омлет из Беззаботного лейфина",
+      "descriptions": {
+        "description_en": "A meal that reduces cooldowns and casting times while also increasing healing cast for a long period.",
+        "description_ar": "وجبة تقلل من فترات الانتظار ومدة إلقاء التعويذات، كما تزيد من فعالية التعويذات العلاجية لفترة طويلة.",
+        "description_de": "Eine Mahlzeit, die für einen langen Zeitraum die Abkling- und Wirkzeit reduziert und die Gewirkte Heilung steigert.",
+        "description_fr": "Un repas qui réduit les temps de recharge et les temps d'incantation tout en augmentant l'incantation de soins pendant une longue période.",
+        "description_es": "Una comida que reduce los tiempos de espera y los tiempos de lanzamiento, además de aumentar el lanzamiento de cura durante un largo periodo.",
+        "description_ru": "Блюдо, которое сокращает время восстановления навыков, время сотворения навыков и повышает исходящее лечение на длительное время."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_MEAL_OMELETTE_DRAGONAREA",
+        "description_variable": "@ITEMS_MEAL_OMELETTE_DRAGONAREA_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_MEAL_OMELETTE_DRAGONAREA",
+        "uisprite": "MEAL_OMELETTE_DRAGONAREA",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_BUFF_CASTSPEED_CDR_HEALBONUS_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "3",
+        "dummyitempower": "600",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.26",
+        "nutrition": "84",
+        "descriptionlocatag": "@ITEMS_MEAL_OMELETTE_DRAGONAREA_DESC",
+        "shopsubcategory2": "omelettes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Carefree Leyfin Omelette",
+        "DE-DE": "Unbekümmerte-Leyflosse-Omelett",
+        "FR-FR": "Omelette au Tellurfin Serein",
+        "RU-RU": "Омлет из Беззаботного лейфина",
+        "PL-PL": "Omlet z Beztroską Liniopłetwą",
+        "ES-ES": "Tortilla de Leyaleta Serena",
+        "PT-BR": "Omelete de Leybatana Mansa",
+        "IT-IT": "Frittata con Pinnarcana Spensierata",
+        "ZH-CN": "无忧灵芬鱼蛋饼",
+        "KO-KR": "자유로운 레이핀 오믈렛",
+        "JA-JP": "ケアフリー・レイフィンのオムレツ",
+        "ZH-TW": "悠然靈芬魚歐姆蛋",
+        "ID-ID": "Dadar Leyfin Bebas",
+        "TR-TR": "Gamsız Ley Balığı Omleti",
+        "AR-SA": "عجة ليفين المدهشة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A meal that reduces cooldowns and casting times while also increasing healing cast for a long period.",
+        "DE-DE": "Eine Mahlzeit, die für einen langen Zeitraum die Abkling- und Wirkzeit reduziert und die Gewirkte Heilung steigert.",
+        "FR-FR": "Un repas qui réduit les temps de recharge et les temps d'incantation tout en augmentant l'incantation de soins pendant une longue période.",
+        "RU-RU": "Блюдо, которое сокращает время восстановления навыков, время сотворения навыков и повышает исходящее лечение на длительное время.",
+        "PL-PL": "Posiłek, który na długi czas skraca czasy odnowienia i rzucania zaklęć, a także zwiększa zadawane leczenie.",
+        "ES-ES": "Una comida que reduce los tiempos de espera y los tiempos de lanzamiento, además de aumentar el lanzamiento de cura durante un largo periodo.",
+        "PT-BR": "Uma comida que reduz recargas e tempos de canalização enquanto também aumenta a cura lançada por um longo período.",
+        "IT-IT": "Un pasto che riduce i tempi di ricarica e di lancio degli incantesimi, aumentando al contempo le cure fornite per un lungo periodo.",
+        "ZH-CN": "食用后长时间降低冷却时间与施法时间，同时提升治疗效果。",
+        "KO-KR": "재사용 대기 시간을 줄이고 시전 시간을 단축하며, 장시간 동안 회복 시전량도 증가시키는 음식입니다.",
+        "JA-JP": "クールダウンと詠唱時間を短縮し、長時間にわたって回復力を強化する料理。",
+        "ZH-TW": "長時間縮短技能冷卻時間與施法時間，同時提升治療效果的餐點。",
+        "ID-ID": "Makanan yang mengurangi cooldown dan waktu rapal serta meningkatkan rapal pemulihan untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süre boyunca bekleme ve gerçekleştirme sürelerini azaltan ancak aynı zamanda iyileştirme gerçekleştirmeyi artıran bir yemek.",
+        "AR-SA": "وجبة تقلل من فترات الانتظار ومدة إلقاء التعويذات، كما تزيد من فعالية التعويذات العلاجية لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "primary_count": 1,
+        "secondary_resource": "T4_MILK",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+            "count": 1
+          },
+          {
+            "id": "T4_MILK",
+            "count": 1
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 1
+          },
+          {
+            "id": "T3_EGG",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.0387,
+        "crafting_focus": 77,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+            "count": 1
+          },
+          {
+            "id": "T4_MILK",
+            "count": 1
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 1
+          },
+          {
+            "id": "T3_EGG",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "primary_count": 1,
+        "secondary_resource": "T4_MILK",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 1.26,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 144,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_MILK",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_EGG",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 278,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_MILK",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_EGG",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 678,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_MILK",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_EGG",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "MEAL_OMELETTE_DRAGONAREA"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_MEAL_OMELETTE_DRAGONAREA",
+        "item_database_index": "824"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Carefree Leyfin Omelette",
+        "name_ar": "عجة ليفين المدهشة",
+        "name_de": "Unbekümmerte-Leyflosse-Omelett",
+        "name_fr": "Omelette au Tellurfin Serein",
+        "name_es": "Tortilla de Leyaleta Serena",
+        "name_ru": "Омлет из Беззаботного лейфина"
+      },
+      "raw": {
+        "@uniquename": "T3_MEAL_OMELETTE_DRAGONAREA",
+        "@uisprite": "MEAL_OMELETTE_DRAGONAREA",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_HEALBONUS_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "3",
+        "@dummyitempower": "600",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.26",
+        "@nutrition": "84",
+        "@descriptionlocatag": "@ITEMS_MEAL_OMELETTE_DRAGONAREA_DESC",
+        "@shopsubcategory2": "omelettes",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@forcesinglecraft": "false",
+          "@amountcrafted": "1",
+          "@craftingfocus": "77",
+          "@time": "0.0387",
+          "craftresource": [
+            {
+              "@uniquename": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T4_MILK",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T3_COMFREY",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T3_EGG",
+              "@count": "1"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "700",
+              "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_HEALBONUS_P2",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "144",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "800",
+              "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_HEALBONUS_P3",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "278",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "900",
+              "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_HEALBONUS_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "678",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

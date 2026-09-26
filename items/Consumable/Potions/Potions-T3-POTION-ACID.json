@@ -1,0 +1,415 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T3_POTION_ACID",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_POTION_ACID",
+      "index": "638",
+      "name_en": "Minor Acid Potion",
+      "name_ar": "جرعة حمض ثانوية",
+      "name_de": "Kleiner Säurehaltiger Trank",
+      "name_fr": "Potion d'acide mineure",
+      "name_es": "Poción de ácido menor",
+      "name_ru": "Малое кислотное зелье",
+      "descriptions": {
+        "description_en": "Sizzling potion. Can be thrown at a ground location to reduce the damage resistances of all enemies hit.",
+        "description_ar": "جرعة حارقة. يمكن إلقاؤها على مواقع أرضية لتقليل مقاومة الضرر لكل الهجمات ضد الأعداء.",
+        "description_de": "Knisternder Trank. Wirf ihn auf den Boden, um damit die Schadensresistenzen aller getroffenen Gegner zu reduzieren.",
+        "description_fr": "Potion crépitante. Lancez-la au sol pour réduire les résistances aux dégâts de tous les ennemis touchés.",
+        "description_es": "Poción chisporroteante. Se lanza al suelo para reducir la resistencia al daño de todos los enemigos alcanzados.",
+        "description_ru": "Обжигающее зелье. Бросьте его на землю, чтобы снизить сопротивление урону у всех задетых врагов."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_POTION_ACID",
+        "description_variable": "@ITEMS_POTION_ACID_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_POTION_ACID",
+        "slottype": "potion",
+        "weight": "0.1",
+        "consumespell": "POTION_ACID_P1",
+        "dummyitempower": "600",
+        "abilitypower": "186",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "tier": "3",
+        "craftingcategory": "potion",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "maxstacksize": "999",
+        "descriptionlocatag": "@ITEMS_POTION_ACID_DESC",
+        "shopsubcategory2": "acid"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Minor Acid Potion",
+        "DE-DE": "Kleiner Säurehaltiger Trank",
+        "FR-FR": "Potion d'acide mineure",
+        "RU-RU": "Малое кислотное зелье",
+        "PL-PL": "Mniejsza Mikstura z Kwasu",
+        "ES-ES": "Poción de ácido menor",
+        "PT-BR": "Poção Ácida Menor",
+        "IT-IT": "Pozione acida minore",
+        "ZH-CN": "初级酸性药水",
+        "KO-KR": "소형 산성 포션",
+        "JA-JP": "酸ポーション（小）",
+        "ZH-TW": "初級酸性藥水",
+        "ID-ID": "Ramuan Asam Minor",
+        "TR-TR": "Zayıf Asit İksiri",
+        "AR-SA": "جرعة حمض ثانوية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sizzling potion. Can be thrown at a ground location to reduce the damage resistances of all enemies hit.",
+        "DE-DE": "Knisternder Trank. Wirf ihn auf den Boden, um damit die Schadensresistenzen aller getroffenen Gegner zu reduzieren.",
+        "FR-FR": "Potion crépitante. Lancez-la au sol pour réduire les résistances aux dégâts de tous les ennemis touchés.",
+        "RU-RU": "Обжигающее зелье. Бросьте его на землю, чтобы снизить сопротивление урону у всех задетых врагов.",
+        "PL-PL": "Skwiercząca mikstura. Rzuć na ziemię, aby zmniejszyć odporności  na obrażenia wszystkich uderzonych wrogów.",
+        "ES-ES": "Poción chisporroteante. Se lanza al suelo para reducir la resistencia al daño de todos los enemigos alcanzados.",
+        "PT-BR": "Poção escaldante. Jogue-a no chão para reduzir as resistências a dano de todos os inimigos atingidos.",
+        "IT-IT": "Pozione ustionante. Lancia a terra per ridurre le resistenze ai danni di tutti i nemici colpiti.",
+        "ZH-CN": "发出滋滋声的药水。朝地上投掷后，会使所有被击中的敌人伤害抗性降低。",
+        "KO-KR": "굉장히 뜨거운 포션. 바닥에 던지면, 적중한 모든 적의 대미지 저항력을 감소시킵니다.",
+        "JA-JP": "焼けるポーション。地面に投げつけると、命中した全ての敵のダメージ耐性を減少させる。",
+        "ZH-TW": "發出滋滋聲的藥水。朝地上投擲後，會使所有被擊中的敵人傷害抗性下降。",
+        "ID-ID": "Ramuan mendesis-desis. Lempar ke lokasi di tanah untuk mengurangi resistansi damage semua musuh yang terkena.",
+        "TR-TR": "Cızırdayan bir iksir. Yere fırlatılıp isabet alan düşmanların hasar dirençleri azaltılabilir.",
+        "AR-SA": "جرعة حارقة. يمكن إلقاؤها على مواقع أرضية لتقليل مقاومة الضرر لكل الهجمات ضد الأعداء."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_COMFREY",
+        "primary_count": 16,
+        "secondary_resource": "T3_ALCHEMY_RARE_DIREBEAR",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T3_COMFREY",
+            "count": 16
+          },
+          {
+            "id": "T3_ALCHEMY_RARE_DIREBEAR",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.257,
+        "crafting_focus": 56,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_COMFREY",
+            "count": 16
+          },
+          {
+            "id": "T3_ALCHEMY_RARE_DIREBEAR",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_COMFREY",
+        "primary_count": 16,
+        "secondary_resource": "T3_ALCHEMY_RARE_DIREBEAR",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 0.1,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 78,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_DIREBEAR",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 10,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 123,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_DIREBEAR",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 10,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 256,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_DIREBEAR",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 10,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_POTION_ACID",
+        "item_database_index": "638"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Minor Acid Potion",
+        "name_ar": "جرعة حمض ثانوية",
+        "name_de": "Kleiner Säurehaltiger Trank",
+        "name_fr": "Potion d'acide mineure",
+        "name_es": "Poción de ácido menor",
+        "name_ru": "Малое кислотное зелье"
+      },
+      "raw": {
+        "@uniquename": "T3_POTION_ACID",
+        "@slottype": "potion",
+        "@weight": "0.1",
+        "@consumespell": "POTION_ACID_P1",
+        "@dummyitempower": "600",
+        "@abilitypower": "186",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@tier": "3",
+        "@craftingcategory": "potion",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@maxstacksize": "999",
+        "@descriptionlocatag": "@ITEMS_POTION_ACID_DESC",
+        "@shopsubcategory2": "acid",
+        "craftingrequirements": {
+          "@time": "0.257",
+          "@amountcrafted": "10",
+          "@craftingfocus": "56",
+          "craftresource": [
+            {
+              "@uniquename": "T3_ALCHEMY_RARE_DIREBEAR",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T3_COMFREY",
+              "@count": "16"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_ACID_P2",
+              "@dummyitempower": "700",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "78",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_DIREBEAR",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_ACID_P3",
+              "@dummyitempower": "800",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "123",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_DIREBEAR",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_ACID_P4",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "256",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_DIREBEAR",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

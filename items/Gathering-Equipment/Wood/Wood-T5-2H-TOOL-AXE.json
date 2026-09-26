@@ -1,0 +1,253 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Wood",
+  "base_id": "T5_2H_TOOL_AXE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_2H_TOOL_AXE",
+      "index": "2968",
+      "name_en": "Expert's Axe",
+      "name_ar": "فأس الأخصائي",
+      "name_de": "Axt des Experten",
+      "name_fr": "Hache de l'expert",
+      "name_es": "Hacha del experto",
+      "name_ru": "Топор (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_2H_TOOL_AXE",
+        "description_variable": "@ITEMS_T5_2H_TOOL_AXE_DESC"
+      },
+      "category": "Gathering_Wood",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_2H_TOOL_AXE",
+        "mesh": "T5_TOOL_AXE",
+        "uisprite": "TOOL_AXE",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "wood",
+        "attacktype": "melee",
+        "attackdamage": "37",
+        "attackspeed": "1",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "5",
+        "weight": "2.53",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "6000",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_axe",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "800",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "axes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Axe",
+        "DE-DE": "Axt des Experten",
+        "FR-FR": "Hache de l'expert",
+        "RU-RU": "Топор (эксперт)",
+        "PL-PL": "Siekiera Znawcy",
+        "ES-ES": "Hacha del experto",
+        "PT-BR": "Machado do Perito",
+        "IT-IT": "Ascia dell'esperto",
+        "ZH-CN": "专家级斧头",
+        "KO-KR": "전문가의 도끼",
+        "JA-JP": "斧（達人）",
+        "ZH-TW": "專家級斧頭",
+        "ID-ID": "Kapak Ahli",
+        "TR-TR": "Uzman Baltası",
+        "AR-SA": "فأس الأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.5,
+        "crafting_focus": 750,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 2
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_axe",
+        "item_power": 800,
+        "ability_power": 100,
+        "durability": 6000,
+        "max_quality_level": 1,
+        "tier_raw": 5,
+        "weight": 2.53,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 800,
+      "effective_durability": 6000,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "wood",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "TOOL_AXE"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_2H_TOOL_AXE",
+        "item_database_index": "2968"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Axe",
+        "name_ar": "فأس الأخصائي",
+        "name_de": "Axt des Experten",
+        "name_fr": "Hache de l'expert",
+        "name_es": "Hacha del experto",
+        "name_ru": "Топор (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_2H_TOOL_AXE",
+        "@mesh": "T5_TOOL_AXE",
+        "@uisprite": "TOOL_AXE",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "wood",
+        "@attacktype": "melee",
+        "@attackdamage": "37",
+        "@attackspeed": "1",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "5",
+        "@weight": "2.53",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "6000",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_axe",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "800",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "axes",
+        "canharvest": {
+          "@resourcetype": "WOOD"
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.5",
+          "@craftingfocus": "750",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "2"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

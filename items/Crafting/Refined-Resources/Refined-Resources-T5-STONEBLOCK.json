@@ -1,0 +1,300 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Refined_Resources",
+  "base_id": "T5_STONEBLOCK",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_STONEBLOCK",
+      "index": "1110",
+      "name_en": "Granite Block",
+      "name_ar": "كتلة من الغرانيت",
+      "name_de": "Granitblock",
+      "name_fr": "Bloc de granite",
+      "name_es": "Bloque de granito",
+      "name_ru": "Блок гранита",
+      "descriptions": {
+        "description_en": "Common refined material used to build structures.",
+        "description_ar": "مادة معالجة شائعة تُستخدم في بناء الأبنية.",
+        "description_de": "Normal weiterverarbeitetes Material zum Bau von Gebäuden.",
+        "description_fr": "Matériau raffiné commun utilisé pour construire des structures.",
+        "description_es": "Material refinado común utilizado para construir estructuras.",
+        "description_ru": "Обычный обработанный материал, используемый для строительства зданиий."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_STONEBLOCK",
+        "description_variable": "@ITEMS_STONEBLOCKS_DESC"
+      },
+      "category": "Crafting_Refined_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_STONEBLOCK",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "refinedresources",
+        "craftingcategory": "rock",
+        "tier": "5",
+        "weight": "0.76",
+        "maxstacksize": "999",
+        "fasttravelfactor": "4",
+        "itemvalue": "32",
+        "enchantmentlevel": "0",
+        "descriptionlocatag": "@ITEMS_STONEBLOCKS_DESC",
+        "shopsubcategory2": "stoneblock"
+      },
+      "item_stats": {
+        "itemvalue": "32",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Granite Block",
+        "DE-DE": "Granitblock",
+        "FR-FR": "Bloc de granite",
+        "RU-RU": "Блок гранита",
+        "PL-PL": "Blok Granitu",
+        "ES-ES": "Bloque de granito",
+        "PT-BR": "Bloco de Granito",
+        "IT-IT": "Blocco di granito",
+        "ZH-CN": "花岗岩砌块",
+        "KO-KR": "화강암 석괴",
+        "JA-JP": "グラナイトのブロック",
+        "ZH-TW": "花崗岩砌塊",
+        "ID-ID": "Balok Granit",
+        "TR-TR": "Granit Bloğu",
+        "AR-SA": "كتلة من الغرانيت"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Common refined material used to build structures.",
+        "DE-DE": "Normal weiterverarbeitetes Material zum Bau von Gebäuden.",
+        "FR-FR": "Matériau raffiné commun utilisé pour construire des structures.",
+        "RU-RU": "Обычный обработанный материал, используемый для строительства зданиий.",
+        "PL-PL": "Materiał powszechnie używany do stawiania budynków.",
+        "ES-ES": "Material refinado común utilizado para construir estructuras.",
+        "PT-BR": "Material refinado comum usado para construir estruturas.",
+        "IT-IT": "Materiale raffinato comune, usato per costruire edifici.",
+        "ZH-CN": "用于建造建筑的普通精制材料。",
+        "KO-KR": "구조물을 만드는데 사용되는 일반적인 정제 원료.",
+        "JA-JP": "構造物に使用される一般的な精製材料。",
+        "ZH-TW": "用來建造建築物的普通精煉材料。",
+        "ID-ID": "Material biasa yang telah disempurnakan dan digunakan untuk membangun struktur.",
+        "TR-TR": "Yapı inşa etmek için kullanılan sıradan bir işlenmiş malzeme.",
+        "AR-SA": "مادة معالجة شائعة تُستخدم في بناء الأبنية."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_ROCK",
+        "primary_count": 3,
+        "secondary_resource": "T4_STONEBLOCK",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T5_ROCK",
+            "count": 3
+          },
+          {
+            "id": "T4_STONEBLOCK",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.0625,
+        "crafting_focus": 94,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_ROCK",
+            "count": 3
+          },
+          {
+            "id": "T4_STONEBLOCK",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_ROCK",
+        "primary_count": 3,
+        "secondary_resource": "T4_STONEBLOCK",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 0.76,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "refinedresources",
+        "crafting_category": "rock",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_STONEBLOCK",
+        "item_database_index": "1110"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Granite Block",
+        "name_ar": "كتلة من الغرانيت",
+        "name_de": "Granitblock",
+        "name_fr": "Bloc de granite",
+        "name_es": "Bloque de granito",
+        "name_ru": "Блок гранита"
+      },
+      "raw": {
+        "@uniquename": "T5_STONEBLOCK",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "refinedresources",
+        "@craftingcategory": "rock",
+        "@tier": "5",
+        "@weight": "0.76",
+        "@maxstacksize": "999",
+        "@fasttravelfactor": "4",
+        "@itemvalue": "32",
+        "@enchantmentlevel": "0",
+        "@descriptionlocatag": "@ITEMS_STONEBLOCKS_DESC",
+        "@shopsubcategory2": "stoneblock",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.0625",
+            "@craftingfocus": "94",
+            "@amountcrafted": "1",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T5_ROCK",
+                "@count": "3",
+                "@enchantmentlevel": "0"
+              },
+              {
+                "@uniquename": "T4_STONEBLOCK",
+                "@count": "1",
+                "@enchantmentlevel": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.0625",
+            "@craftingfocus": "94",
+            "@amountcrafted": "1",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T5_ROCK",
+                "@enchantmentlevel": "0",
+                "@count": "2"
+              },
+              {
+                "@uniquename": "T1_FACTION_HIGHLAND_TOKEN_1",
+                "@count": "1"
+              },
+              {
+                "@uniquename": "T4_STONEBLOCK",
+                "@enchantmentlevel": "0",
+                "@count": "1"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.125",
+            "@craftingfocus": "94",
+            "@amountcrafted": "2",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T5_ROCK_LEVEL1",
+                "@enchantmentlevel": "1",
+                "@count": "3"
+              },
+              {
+                "@uniquename": "T4_STONEBLOCK",
+                "@count": "2",
+                "@enchantmentlevel": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.25",
+            "@craftingfocus": "94",
+            "@amountcrafted": "4",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T5_ROCK_LEVEL2",
+                "@enchantmentlevel": "2",
+                "@count": "3"
+              },
+              {
+                "@uniquename": "T4_STONEBLOCK",
+                "@count": "4",
+                "@enchantmentlevel": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.5",
+            "@craftingfocus": "94",
+            "@amountcrafted": "8",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T5_ROCK_LEVEL3",
+                "@count": "3",
+                "@enchantmentlevel": "3"
+              },
+              {
+                "@uniquename": "T4_STONEBLOCK",
+                "@count": "8",
+                "@enchantmentlevel": "0"
+              }
+            ]
+          }
+        ]
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

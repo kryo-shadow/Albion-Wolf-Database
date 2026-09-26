@@ -1,0 +1,218 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Furniture",
+  "family": "Furniture_Chest",
+  "base_id": "T4_FURNITUREITEM_CHEST",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_FURNITUREITEM_CHEST",
+      "index": "3176",
+      "name_en": "Adept's Chest",
+      "name_ar": "صندوق البارع",
+      "name_de": "Truhe des Adepten",
+      "name_fr": "Coffre de l'adepte",
+      "name_es": "Cofre del iniciado",
+      "name_ru": "Сундук (знаток)",
+      "descriptions": {
+        "description_en": "A 64-slot inventory with a 16304 kg limit. Must be placed indoors.",
+        "description_ar": "صندوق معركة مكون من 64 بقعة بحد أقصى 16304 كجم. يجب أن يتم وضعه في مكان مغلق.",
+        "description_de": "Ein Inventar mit 64 Plätzen und einem Limit von 16304 kg. Muss drinnen platziert werden.",
+        "description_fr": "Inventaire de 64 emplacements, 16304kg max. À placer en intérieur.",
+        "description_es": "Inventario con 64 espacios y capacidad para 16304 kg. Exclusivo para interiores.",
+        "description_ru": "Хранилище на 64 ячейки, ограничение по весу - 16304 кг. Ставится в помещении."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FURNITUREITEM_CHEST",
+        "description_variable": "@ITEMS_T4_FURNITUREITEM_CHEST_DESC"
+      },
+      "category": "Furniture_Chest",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_FURNITUREITEM_CHEST",
+        "shopcategory": "furniture",
+        "shopsubcategory1": "chest",
+        "tier": "4",
+        "durability": "30",
+        "weight": "6.08",
+        "unlockedtocraft": "true",
+        "placeableindoors": "true",
+        "placeableoutdoors": "false",
+        "placeableindungeons": "false",
+        "placeableinexpeditions": "false",
+        "shopsubcategory2": "house"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Chest",
+        "DE-DE": "Truhe des Adepten",
+        "FR-FR": "Coffre de l'adepte",
+        "RU-RU": "Сундук (знаток)",
+        "PL-PL": "Skrzynia Adepta",
+        "ES-ES": "Cofre del iniciado",
+        "PT-BR": "Baú do Adepto",
+        "IT-IT": "Forziere del sapiente",
+        "ZH-CN": "老手级箱子",
+        "KO-KR": "숙련자의 보물상자",
+        "JA-JP": "チェスト（名人）",
+        "ZH-TW": "老手級寶箱",
+        "ID-ID": "Peti Mahir",
+        "TR-TR": "Ehil Sandığı",
+        "AR-SA": "صندوق البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A 64-slot inventory with a 16304 kg limit. Must be placed indoors.",
+        "DE-DE": "Ein Inventar mit 64 Plätzen und einem Limit von 16304 kg. Muss drinnen platziert werden.",
+        "FR-FR": "Inventaire de 64emplacements, 16304kg max. À placer en intérieur.",
+        "RU-RU": "Хранилище на 64 ячейки, ограничение по весу - 16304 кг. Ставится в помещении.",
+        "PL-PL": "Ekwipunek z 64 miejscami i limitem 16304 kg. Należy umieścić we wnętrzu.",
+        "ES-ES": "Inventario con 64 espacios y capacidad para 16304 kg. Exclusivo para interiores.",
+        "PT-BR": "Inventário com 64 espaços e capacidade para 16304 kg. Deve ser colocado em interiores.",
+        "IT-IT": "Ha un inventario da 64 slot e un limite di peso di 16.304 kg. Da posizionare al chiuso.",
+        "ZH-CN": "共有64个槽位，最多承受16304公斤，必须放在室内。",
+        "KO-KR": "슬롯 64개, 중량 제한 16304kg인 인벤토리입니다. 실내에만 배치 가능합니다.",
+        "JA-JP": "64スロットのインベントリ（上限は16304kg）。内部に配置する必要があります。",
+        "ZH-TW": "一個具有64個欄位的物品欄，承重上限為16,304公斤。必須放置於室內。",
+        "ID-ID": "Inventaris 64 slot dengan batas 16304 kg. Harus diletakkan dalam ruangan.",
+        "TR-TR": "64 yuvalı ve 16.304 kg kapasiteli bir envanter. Kapalı alanlara yerleştirilmelidir.",
+        "AR-SA": "صندوق معركة مكون من 64 بقعة بحد أقصى 16304 كجم. يجب أن يتم وضعه في مكان مغلق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 10,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 10
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 525,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 10
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 10
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": 30,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 6.08,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": 30,
+      "shop": {
+        "shop_category": "furniture",
+        "shop_subcategory1": "chest",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FURNITUREITEM_CHEST",
+        "item_database_index": "3176"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Chest",
+        "name_ar": "صندوق البارع",
+        "name_de": "Truhe des Adepten",
+        "name_fr": "Coffre de l'adepte",
+        "name_es": "Cofre del iniciado",
+        "name_ru": "Сундук (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_FURNITUREITEM_CHEST",
+        "@shopcategory": "furniture",
+        "@shopsubcategory1": "chest",
+        "@tier": "4",
+        "@durability": "30",
+        "@weight": "6.08",
+        "@unlockedtocraft": "true",
+        "@placeableindoors": "true",
+        "@placeableoutdoors": "false",
+        "@placeableindungeons": "false",
+        "@placeableinexpeditions": "false",
+        "@shopsubcategory2": "house",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "525",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "10"
+            }
+          ]
+        },
+        "container": {
+          "@capacity": "64",
+          "@weightlimit": "16303.69"
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

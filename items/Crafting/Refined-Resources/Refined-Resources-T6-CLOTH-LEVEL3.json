@@ -1,0 +1,243 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Refined_Resources",
+  "base_id": "T6_CLOTH_LEVEL3",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_CLOTH_LEVEL3",
+      "index": "1187",
+      "name_en": "Exceptional Lavish Cloth",
+      "name_ar": "القماش الفاخر الاستثنائي",
+      "name_de": "Außergewöhnlicher Qualitätsstoff",
+      "name_fr": "Tissu somptueux exceptionnel",
+      "name_es": "Tela suntuosa excepcional",
+      "name_ru": "Уникальная дорогая ткань",
+      "descriptions": {
+        "description_en": "Refined material used in crafting.",
+        "description_ar": "مادة معالجة تُستخدم في التصنيع.",
+        "description_de": "Weiterverarbeitetes Material das im Handwerk genutzt wird.",
+        "description_fr": "Matériau raffiné utilisé dans l'artisanat.",
+        "description_es": "Material refinado utilizado para la fabricación.",
+        "description_ru": "Обработанный материал, используемый в ремесле."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_CLOTH_LEVEL3",
+        "description_variable": "@ITEMS_REFINED_RESOURCE_DESC"
+      },
+      "category": "Crafting_Refined_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_CLOTH_LEVEL3",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "refinedresources",
+        "craftingcategory": "fiber",
+        "tier": "6",
+        "enchantmentlevel": "3",
+        "weight": "1.14",
+        "maxstacksize": "999",
+        "fasttravelfactor": "64",
+        "itemvalue": "512",
+        "descriptionlocatag": "@ITEMS_REFINED_RESOURCE_DESC",
+        "shopsubcategory2": "cloth"
+      },
+      "item_stats": {
+        "itemvalue": "512",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Exceptional Lavish Cloth",
+        "DE-DE": "Außergewöhnlicher Qualitätsstoff",
+        "FR-FR": "Tissu somptueux exceptionnel",
+        "RU-RU": "Уникальная дорогая ткань",
+        "PL-PL": "Wyjątkowa Bogata Tkanina",
+        "ES-ES": "Tela suntuosa excepcional",
+        "PT-BR": "Tecido Rico Excepcional",
+        "IT-IT": "Stoffa sontuosa eccezionale",
+        "ZH-CN": "特异华布",
+        "KO-KR": "특출한 호화로운 직물",
+        "JA-JP": "贅沢な布（特別）",
+        "ZH-TW": "卓越豪華布料",
+        "ID-ID": "Kain Mewah Istimewa",
+        "TR-TR": "Fevkalade Lüks Kumaş",
+        "AR-SA": "القماش الفاخر الاستثنائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Refined material used in crafting.",
+        "DE-DE": "Weiterverarbeitetes Material das im Handwerk genutzt wird.",
+        "FR-FR": "Matériau raffiné utilisé dans l'artisanat.",
+        "RU-RU": "Обработанный материал, используемый в ремесле.",
+        "PL-PL": "Ulepszony materiał wykorzystywany w rzemiośle.",
+        "ES-ES": "Material refinado utilizado para la fabricación.",
+        "PT-BR": "Material refinado usado em fabricação.",
+        "IT-IT": "Materiale raffinato usato nella creazione.",
+        "ZH-CN": "用于制造的精制材料。",
+        "KO-KR": "제작에 사용되는 일반적인 정제 원료.",
+        "JA-JP": "クラフトに使用される精製材料。",
+        "ZH-TW": "用於製作的精煉材料。",
+        "ID-ID": "Material yang telah disempurnakan dan digunakan dalam crafting.",
+        "TR-TR": "Zanaat işlemlerinde kullanılan, işlenmiş bir malzeme.",
+        "AR-SA": "مادة معالجة تُستخدم في التصنيع."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_FIBER_LEVEL3",
+        "primary_count": 4,
+        "secondary_resource": "T5_CLOTH_LEVEL3",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T6_FIBER_LEVEL3",
+            "count": 4
+          },
+          {
+            "id": "T5_CLOTH_LEVEL3",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.1875,
+        "crafting_focus": 880,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_FIBER_LEVEL3",
+            "count": 4
+          },
+          {
+            "id": "T5_CLOTH_LEVEL3",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_FIBER_LEVEL3",
+        "primary_count": 4,
+        "secondary_resource": "T5_CLOTH_LEVEL3",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 1.14,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "refinedresources",
+        "crafting_category": "fiber",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_CLOTH_LEVEL3",
+        "item_database_index": "1187"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Exceptional Lavish Cloth",
+        "name_ar": "القماش الفاخر الاستثنائي",
+        "name_de": "Außergewöhnlicher Qualitätsstoff",
+        "name_fr": "Tissu somptueux exceptionnel",
+        "name_es": "Tela suntuosa excepcional",
+        "name_ru": "Уникальная дорогая ткань"
+      },
+      "raw": {
+        "@uniquename": "T6_CLOTH_LEVEL3",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "refinedresources",
+        "@craftingcategory": "fiber",
+        "@tier": "6",
+        "@enchantmentlevel": "3",
+        "@weight": "1.14",
+        "@maxstacksize": "999",
+        "@fasttravelfactor": "64",
+        "@itemvalue": "512",
+        "@descriptionlocatag": "@ITEMS_REFINED_RESOURCE_DESC",
+        "@shopsubcategory2": "cloth",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.1875",
+            "@craftingfocus": "880",
+            "@amountcrafted": "1",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T6_FIBER_LEVEL3",
+                "@enchantmentlevel": "3",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T5_CLOTH_LEVEL3",
+                "@enchantmentlevel": "3",
+                "@count": "1"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.1875",
+            "@craftingfocus": "880",
+            "@amountcrafted": "1",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T6_FIBER_LEVEL3",
+                "@enchantmentlevel": "3",
+                "@count": "3"
+              },
+              {
+                "@uniquename": "T1_FACTION_SWAMP_TOKEN_1",
+                "@count": "1"
+              },
+              {
+                "@uniquename": "T5_CLOTH_LEVEL3",
+                "@enchantmentlevel": "3",
+                "@count": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

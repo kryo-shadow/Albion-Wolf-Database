@@ -1,0 +1,455 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T5_POTION_REVIVE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_POTION_REVIVE",
+      "index": "566",
+      "name_en": "Gigantify Potion",
+      "name_ar": "جرعة تضخيم",
+      "name_de": "Trank des Riesenwuchses",
+      "name_fr": "Potion de gigantisme",
+      "name_es": "Poción de gigantismo",
+      "name_ru": "Зелье гиганта",
+      "descriptions": {
+        "description_en": "Mystical Potion. Temporarily increases your Max Carry Weight and Max Health and makes you immune to forced movement effects.",
+        "description_ar": "جرعة سحرية. تزيد مؤقتًا الحد الأقصى للوزن المحمول والحد الأقصى للصحة وتجعلك في حصانة ضد تأثيرات الحركة الإجبارية.",
+        "description_de": "Mystischer Trank. Erhöht für eine gewisse Zeit deine maximale Tragkraft und maximales Leben und macht dich immun gegen erzwungene Bewegungseffekte.",
+        "description_fr": "Potion mystique. Augmente temporairement votre poids maximal de portage et votre santé maximale et vous immunise contre les effets de mouvement forcé.",
+        "description_es": "Poción mística. Incrementa temporalmente tu capacidad de carga y tu salud máxima y te hace inmune a los efectos de movimiento forzado.",
+        "description_ru": "Мистическое зелье. Временно увеличивает максимальную грузоподъемность и максимальное здоровье, а также делает вас невосприимчивым к эффектам принудительного перемещения."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_POTION_REVIVE",
+        "description_variable": "@ITEMS_POTION_REVIVE_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_POTION_REVIVE",
+        "descriptionlocatag": "@ITEMS_POTION_REVIVE_DESC",
+        "uisprite": "POTION_GIGANTIFY",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_MAXHP_P3",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "5",
+        "dummyitempower": "800",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.42",
+        "shopsubcategory2": "gigantify"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Gigantify Potion",
+        "DE-DE": "Trank des Riesenwuchses",
+        "FR-FR": "Potion de gigantisme",
+        "RU-RU": "Зелье гиганта",
+        "PL-PL": "Mikstura Powiększenia",
+        "ES-ES": "Poción de gigantismo",
+        "PT-BR": "Poção de Crescimento",
+        "IT-IT": "Pozione ingrandente",
+        "ZH-CN": "巨化药水",
+        "KO-KR": "거대화 포션",
+        "JA-JP": "巨人化ポーション",
+        "ZH-TW": "巨大化藥水",
+        "ID-ID": "Ramuan Pembesar",
+        "TR-TR": "Devleştirme İksiri",
+        "AR-SA": "جرعة تضخيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Mystical Potion. Temporarily increases your Max Carry Weight and Max Health and makes you immune to forced movement effects.",
+        "DE-DE": "Mystischer Trank. Erhöht für eine gewisse Zeit deine maximale Tragkraft und maximales Leben und macht dich immun gegen erzwungene Bewegungseffekte.",
+        "FR-FR": "Potion mystique. Augmente temporairement votre poids maximal de portage et votre santé maximale et vous immunise contre les effets de mouvement forcé.",
+        "RU-RU": "Мистическое зелье. Временно увеличивает максимальную грузоподъемность и максимальное здоровье, а также делает вас невосприимчивым к эффектам принудительного перемещения.",
+        "PL-PL": "Mistyczna Mikstura. Tymczasowo zwiększa twój maksymalny udźwig i maksymalne Zdrowie i czyni cię odpornym na efekty wymuszonego ruchu.",
+        "ES-ES": "Poción mística. Incrementa temporalmente tu capacidad de carga y tu salud máxima y te hace inmune a los efectos de movimiento forzado.",
+        "PT-BR": "Poção Mística. Aumenta temporariamente seu peso máximo de carga e saúde máxima e o torna imune a efeitos de movimento forçado.",
+        "IT-IT": "Pozione Mistica. Aumenta temporaneamente la tua Capacità di Carico Massima e la tua Salute Massima e ti rende immune agli effetti di movimento forzato.",
+        "ZH-CN": "神秘的药水。暂时提高你的最大负重量和最大生命值，且使你免疫强制位移效果。",
+        "KO-KR": "신비로운 물약. 일시적으로 최대 적재 무게와 최대 체력을 증가시키고, 강제 이동 효과에 대한 면역을 부여합니다.",
+        "JA-JP": "神秘のポーション。一時的に最大重量と最大HPが増加し、強制移動の効果を受けなくなる。",
+        "ZH-TW": "神祕莫測的藥水。使用後能暫時提升負重上限和生命值上限，並對強制位移效果免疫。",
+        "ID-ID": "Ramuan Mistis. Meningkatkan Bobot Angkut Maks dan HP Maks untuk sementara dan membuatmu kebal terhadap efek gerakan paksaan.",
+        "TR-TR": "Mistik İksir. Geçici olarak azami yük taşıma kapasiteni ve azami sağlığını artırıp zorunlu hareket etkilerine karşı bağışıklı kılar.",
+        "AR-SA": "جرعة سحرية. تزيد مؤقتًا الحد الأقصى للوزن المحمول والحد الأقصى للصحة وتجعلك في حصانة ضد تأثيرات الحركة الإجبارية."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_TEASEL",
+        "primary_count": 24,
+        "secondary_resource": "T4_BURDOCK",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T5_TEASEL",
+            "count": 24
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 12
+          },
+          {
+            "id": "T5_EGG",
+            "count": 6
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.6715,
+        "crafting_focus": 294,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_TEASEL",
+            "count": 24
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 12
+          },
+          {
+            "id": "T5_EGG",
+            "count": 6
+          }
+        ],
+        "primary_resource": "T5_TEASEL",
+        "primary_count": 24,
+        "secondary_resource": "T4_BURDOCK",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 0.42,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.6715,
+          "crafting_focus": 361,
+          "crafting_resources": [
+            {
+              "id": "T5_TEASEL",
+              "count": 24,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_EGG",
+              "count": 6,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 15,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.6715,
+          "crafting_focus": 494,
+          "crafting_resources": [
+            {
+              "id": "T5_TEASEL",
+              "count": 24,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_EGG",
+              "count": 6,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 15,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.6715,
+          "crafting_focus": 895,
+          "crafting_resources": [
+            {
+              "id": "T5_TEASEL",
+              "count": 24,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_EGG",
+              "count": 6,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 15,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_GIGANTIFY"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_POTION_REVIVE",
+        "item_database_index": "566"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Gigantify Potion",
+        "name_ar": "جرعة تضخيم",
+        "name_de": "Trank des Riesenwuchses",
+        "name_fr": "Potion de gigantisme",
+        "name_es": "Poción de gigantismo",
+        "name_ru": "Зелье гиганта"
+      },
+      "raw": {
+        "@uniquename": "T5_POTION_REVIVE",
+        "@descriptionlocatag": "@ITEMS_POTION_REVIVE_DESC",
+        "@uisprite": "POTION_GIGANTIFY",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_MAXHP_P3",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "5",
+        "@dummyitempower": "800",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.42",
+        "@shopsubcategory2": "gigantify",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "294",
+          "@time": "0.6715",
+          "craftresource": [
+            {
+              "@uniquename": "T5_TEASEL",
+              "@count": "24"
+            },
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T5_EGG",
+              "@count": "6"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_MAXHP_P4",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.6715",
+                "@amountcrafted": "5",
+                "@craftingfocus": "361",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_MAXHP_P5",
+              "@dummyitempower": "1000",
+              "@abilitypower": "186",
+              "@weight": "0.7",
+              "craftingrequirements": {
+                "@time": "0.6715",
+                "@amountcrafted": "5",
+                "@craftingfocus": "494",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_MAXHP_P6",
+              "@dummyitempower": "1100",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.6715",
+                "@amountcrafted": "5",
+                "@craftingfocus": "895",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Tracking",
+  "base_id": "T3_2H_TOOL_TRACKING",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_2H_TOOL_TRACKING",
+      "index": "2",
+      "name_en": "Journeyman's Tracking Toolkit",
+      "name_ar": "أدوات تتبع الموثوق",
+      "name_de": "Fährtensucher-Ausrüstung des Gesellen",
+      "name_fr": "Boîte à outils de pistage du compagnon",
+      "name_es": "Kit de rastreo del obrero",
+      "name_ru": "Инструменты следопыта (странник)",
+      "descriptions": {
+        "description_en": "Use this tool to search for tracks in the open world.",
+        "description_ar": "يمكنك استخدام هذه الأداة للبحث عن الآثار في العالم المفتوح.",
+        "description_de": "Nutze dieses Werkzeug, um in der Open World nach Fährten zu suchen.",
+        "description_fr": "Utilisez cet outil pour rechercher des pistes dans le monde ouvert.",
+        "description_es": "Utiliza esta herramienta para buscar rastros en el mundo abierto.",
+        "description_ru": "Используйте этот инструмент для поиска следов в открытом мире."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_2H_TOOL_TRACKING",
+        "description_variable": "@ITEMS_T3_2H_TOOL_TRACKING_DESC"
+      },
+      "category": "Gathering_Tracking",
+      "slot": "MainHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_2H_TOOL_TRACKING",
+        "uisprite": "TOOL_TRACKING",
+        "findtrackspell": "T3_FIND_TRACK",
+        "trackingtimereduction": "0.11",
+        "trackingfamebonus": "0",
+        "durability": "1200",
+        "itempower": "500",
+        "durabilityloss_inspecttrack": "16",
+        "durabilityloss_findtrack": "17",
+        "tier": "3",
+        "craftingcategory": "tools",
+        "maxstacksize": "999",
+        "weight": "1.13",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "tracking",
+        "slottype": "mainhand",
+        "passivespellslots": "0",
+        "activespellslots": "0",
+        "descriptionlocatag": "@ITEMS_T3_2H_TOOL_TRACKING_DESC",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "abilitypower": "100",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "toolkit"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Journeyman's Tracking Toolkit",
+        "DE-DE": "Fährtensucher-Ausrüstung des Gesellen",
+        "FR-FR": "Boîte à outils de pistage du compagnon",
+        "RU-RU": "Инструменты следопыта (странник)",
+        "PL-PL": "Zestaw Tropiciela Czeladnika",
+        "ES-ES": "Kit de rastreo del obrero",
+        "PT-BR": "Kit de Rastreamento do Iniciante",
+        "IT-IT": "Kit di strumenti traccianti dell'apprendista",
+        "ZH-CN": "学徒级追踪工具包",
+        "KO-KR": "장인의 추적 키트",
+        "JA-JP": "追跡ツールキット（熟練）",
+        "ZH-TW": "學徒級追蹤工具組",
+        "ID-ID": "Peralatan Pelacakan Pengembara",
+        "TR-TR": "Kalfa İz Sürme Alet Seti",
+        "AR-SA": "أدوات تتبع الموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Use this tool to search for tracks in the open world.",
+        "DE-DE": "Nutze dieses Werkzeug, um in der Open World nach Fährten zu suchen.",
+        "FR-FR": "Utilisez cet outil pour rechercher des pistes dans le monde ouvert.",
+        "RU-RU": "Используйте этот инструмент для поиска следов в открытом мире.",
+        "PL-PL": "Użyj tego narzędzia do poszukiwania tropów w otwartym świecie.",
+        "ES-ES": "Utiliza esta herramienta para buscar rastros en el mundo abierto.",
+        "PT-BR": "Use esta ferramenta para procurar por pistas no mundo aberto.",
+        "IT-IT": "Usa questo strumento per cercare tracce nel mondo aperto.",
+        "ZH-CN": "使用这个工具在开放世界中搜寻足迹。",
+        "KO-KR": "오픈 월드에서 흔적을 찾으려면, 해당 도구를 사용하세요.",
+        "JA-JP": "このツールを使って、オープンワールドの追跡を検索する。",
+        "ZH-TW": "使用這個工具在開放世界中搜尋足跡。",
+        "ID-ID": "Gunakan alat ini untuk mencari jejak di dunia terbuka.",
+        "TR-TR": "Açık dünyada iz sürmek için kullanılır.",
+        "AR-SA": "يمكنك استخدام هذه الأداة للبحث عن الآثار في العالم المفتوح."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_LEATHER",
+        "primary_count": 6,
+        "secondary_resource": "T3_PLANKS",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T3_LEATHER",
+            "count": 6
+          },
+          {
+            "id": "T3_PLANKS",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.25,
+        "crafting_focus": 245,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_LEATHER",
+            "count": 6
+          },
+          {
+            "id": "T3_PLANKS",
+            "count": 2
+          }
+        ],
+        "primary_resource": "T3_LEATHER",
+        "primary_count": 6,
+        "secondary_resource": "T3_PLANKS",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 500,
+        "ability_power": 100,
+        "durability": 1200,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 1.13,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 500,
+      "effective_durability": 1200,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "tracking",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "TOOL_TRACKING"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_2H_TOOL_TRACKING",
+        "item_database_index": "2"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Journeyman's Tracking Toolkit",
+        "name_ar": "أدوات تتبع الموثوق",
+        "name_de": "Fährtensucher-Ausrüstung des Gesellen",
+        "name_fr": "Boîte à outils de pistage du compagnon",
+        "name_es": "Kit de rastreo del obrero",
+        "name_ru": "Инструменты следопыта (странник)"
+      },
+      "raw": {
+        "@uniquename": "T3_2H_TOOL_TRACKING",
+        "@uisprite": "TOOL_TRACKING",
+        "@findtrackspell": "T3_FIND_TRACK",
+        "@trackingtimereduction": "0.11",
+        "@trackingfamebonus": "0",
+        "@durability": "1200",
+        "@itempower": "500",
+        "@durabilityloss_inspecttrack": "16",
+        "@durabilityloss_findtrack": "17",
+        "@tier": "3",
+        "@craftingcategory": "tools",
+        "@maxstacksize": "999",
+        "@weight": "1.13",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "tracking",
+        "@slottype": "mainhand",
+        "@passivespellslots": "0",
+        "@activespellslots": "0",
+        "@descriptionlocatag": "@ITEMS_T3_2H_TOOL_TRACKING_DESC",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@abilitypower": "100",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "toolkit",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.25",
+          "@craftingfocus": "245",
+          "craftresource": [
+            {
+              "@uniquename": "T3_PLANKS",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T3_LEATHER",
+              "@count": "6"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

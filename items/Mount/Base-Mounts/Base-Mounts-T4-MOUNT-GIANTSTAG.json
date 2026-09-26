@@ -1,0 +1,308 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Base_Mounts",
+  "base_id": "T4_MOUNT_GIANTSTAG",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_MOUNT_GIANTSTAG",
+      "index": "3044",
+      "name_en": "Adept's Giant Stag",
+      "name_ar": "الأيل العملاق للبارع",
+      "name_de": "Riesenhirsch des Adepten",
+      "name_fr": "Cerf géant de l'adepte",
+      "name_es": "Ciervo gigante del iniciado",
+      "name_ru": "Гигантский олень (знаток)",
+      "descriptions": {
+        "description_en": "Stags are fast and strong, making them favored mounts of gatherers and couriers.",
+        "description_ar": "حيوانات الأيل سريعة وقوية، ما يجعلها مطيات مُفضّلة للجامعين والموصّلين.",
+        "description_de": "Hirsche sind schnell und stark, was sie zum bevorzugten Reittier von Sammlern und Boten macht",
+        "description_fr": "Les cerfs sont grands et forts, ce qui fait d'eux des montures de choix pour les collecteurs et les messagers",
+        "description_es": "Los ciervos son rápidos y fuertes, por lo que son la montura favorita de los recolectores y los mensajeros",
+        "description_ru": "Благодаря своей силе и скорости олени стали любимыми скакунами собирателей и посыльных."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MOUNT_GIANTSTAG",
+        "description_variable": "@ITEMS_T4_MOUNT_GIANTSTAG_DESC"
+      },
+      "category": "Mount_Base_Mounts",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_MOUNT_GIANTSTAG",
+        "mountcategory": "STAGS",
+        "uisprite": "MOUNT_GIANTSTAG_01",
+        "prefabname": "MOUNT_GIANTSTAG_01",
+        "prefabscaling": "1.65",
+        "maxqualitylevel": "5",
+        "itempower": "700",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "basemounts",
+        "mountedbuff": "T4_MOUNT_GIANTSTAG_MOUNTED",
+        "halfmountedbuff": "T4_MOUNT_GIANTSTAG_HALFMOUNTED",
+        "tier": "4",
+        "weight": "23.6",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "18000",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "mounttime": "3",
+        "dismounttime": "0",
+        "mounthitpointsmax": "902",
+        "mounthitpointsregeneration": "9.02",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "0.5",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "canusetownportal": "true",
+        "shopsubcategory2": "stag",
+        "nutrition": "583",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Giant Stag",
+        "DE-DE": "Riesenhirsch des Adepten",
+        "FR-FR": "Cerf géant de l'adepte",
+        "RU-RU": "Гигантский олень (знаток)",
+        "PL-PL": "Jeleń Olbrzymi Adepta",
+        "ES-ES": "Ciervo gigante del iniciado",
+        "PT-BR": "Veado-gigante do Adepto",
+        "IT-IT": "Cervo gigante del sapiente",
+        "ZH-CN": "老手级巨鹿",
+        "KO-KR": "숙련자의 거대 숫사슴",
+        "JA-JP": "巨大雄ジカ（名人）",
+        "ZH-TW": "老手級巨鹿",
+        "ID-ID": "Rusa Raksasa Mahir",
+        "TR-TR": "Ehil Dev Geyiği",
+        "AR-SA": "الأيل العملاق للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Stags are fast and strong, making them favored mounts of gatherers and couriers.",
+        "DE-DE": "Hirsche sind schnell und stark, was sie zum bevorzugten Reittier von Sammlern und Boten macht",
+        "FR-FR": "Les cerfs sont grands et forts, ce qui fait d'eux des montures de choix pour les collecteurs et les messagers",
+        "RU-RU": "Благодаря своей силе и скорости олени стали любимыми ездовыми животными собирателей и посыльных.",
+        "PL-PL": "Jelenie są szybkie i silne, co czyni je ulubionymi wierzchowcami zbieraczy i posłańców",
+        "ES-ES": "Los ciervos son rápidos y fuertes, por lo que son la montura favorita de los recolectores y los mensajeros",
+        "PT-BR": "Os veados são rápidos e fortes, por isso são preferidos entre os coletores e mensageiros.",
+        "IT-IT": "I cervi sono veloci e tenaci, ragione per cui sono la cavalcatura preferita di raccoglitori e corrieri.",
+        "ZH-CN": "雄鹿强大健壮，跑动快速，采集的人和运货的人非常青睐这种坐骑。",
+        "KO-KR": "숫사슴은 빠르고 튼튼하기 때문에, 채집자나 수송인들이 선호하는 탈것입니다.",
+        "JA-JP": "素早く頑強な騎獣である雄ジカは、採集家やクーリエの間で人気が高い騎獣です。",
+        "ZH-TW": "雄鹿勇猛飛快，是採集者和信差愛用的坐騎。",
+        "ID-ID": "Rusa cepat dan kuat, menjadikan mereka tunggangan favorit pengumpul dan kurir.",
+        "TR-TR": "Geyikler gayet hızlı ve güçlü canlılardır, bu da onları toplayıcılar ve kuryeler için gözde binek hâline getirir.",
+        "AR-SA": "حيوانات الأيل سريعة وقوية، ما يجعلها مطيات مُفضّلة للجامعين والموصّلين."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_FARM_GIANTSTAG_GROWN",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_FARM_GIANTSTAG_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.83333,
+        "crafting_focus": 1072,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_FARM_GIANTSTAG_GROWN",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_FARM_GIANTSTAG_GROWN",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 18000,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 23.6,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_GIANTSTAG",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_GIANTSTAG",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 18000,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "basemounts",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "MOUNT_GIANTSTAG_01"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MOUNT_GIANTSTAG",
+        "item_database_index": "3044"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Giant Stag",
+        "name_ar": "الأيل العملاق للبارع",
+        "name_de": "Riesenhirsch des Adepten",
+        "name_fr": "Cerf géant de l'adepte",
+        "name_es": "Ciervo gigante del iniciado",
+        "name_ru": "Гигантский олень (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MOUNT_GIANTSTAG",
+        "@mountcategory": "STAGS",
+        "@uisprite": "MOUNT_GIANTSTAG_01",
+        "@prefabname": "MOUNT_GIANTSTAG_01",
+        "@prefabscaling": "1.65",
+        "@maxqualitylevel": "5",
+        "@itempower": "700",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "basemounts",
+        "@mountedbuff": "T4_MOUNT_GIANTSTAG_MOUNTED",
+        "@halfmountedbuff": "T4_MOUNT_GIANTSTAG_HALFMOUNTED",
+        "@tier": "4",
+        "@weight": "23.6",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "18000",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@mounttime": "3",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "902",
+        "@mounthitpointsregeneration": "9.02",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "0.5",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@canusetownportal": "true",
+        "@shopsubcategory2": "stag",
+        "@nutrition": "583",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.83333",
+          "@craftingfocus": "1072",
+          "craftresource": [
+            {
+              "@uniquename": "T4_FARM_GIANTSTAG_GROWN",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_MAXLOAD_GIANTSTAG"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

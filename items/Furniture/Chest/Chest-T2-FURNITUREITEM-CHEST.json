@@ -1,0 +1,218 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Furniture",
+  "family": "Furniture_Chest",
+  "base_id": "T2_FURNITUREITEM_CHEST",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T2_FURNITUREITEM_CHEST",
+      "index": "3174",
+      "name_en": "Novice's Chest",
+      "name_ar": "صندوق المبتدئ",
+      "name_de": "Truhe des Novizen",
+      "name_fr": "Coffre de l'apprenti",
+      "name_es": "Cofre del novato",
+      "name_ru": "Сундук (новичок)",
+      "descriptions": {
+        "description_en": "A 64-slot inventory with a 7353 kg limit. Must be placed indoors.",
+        "description_ar": "صندوق معركة مكون من 64 بقعة بحد أقصى 7353 كجم. يجب أن يتم وضعه في مكان مغلق.",
+        "description_de": "Ein Inventar mit 64 Plätzen und einem Limit von 7353 kg. Muss drinnen platziert werden.",
+        "description_fr": "Inventaire de 64 emplacements, 7353kg max. À placer en intérieur.",
+        "description_es": "Inventario con 64 espacios y capacidad para 7353 kg. Exclusivo para interiores.",
+        "description_ru": "Хранилище на 64 ячейки, ограничение по весу - 7353 кг. Ставится в помещении."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T2_FURNITUREITEM_CHEST",
+        "description_variable": "@ITEMS_T2_FURNITUREITEM_CHEST_DESC"
+      },
+      "category": "Furniture_Chest",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T2_FURNITUREITEM_CHEST",
+        "shopcategory": "furniture",
+        "shopsubcategory1": "chest",
+        "tier": "2",
+        "durability": "30",
+        "weight": "2.7",
+        "unlockedtocraft": "true",
+        "placeableindoors": "true",
+        "placeableoutdoors": "false",
+        "placeableindungeons": "false",
+        "placeableinexpeditions": "false",
+        "shopsubcategory2": "house"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Novice's Chest",
+        "DE-DE": "Truhe des Novizen",
+        "FR-FR": "Coffre de l'apprenti",
+        "RU-RU": "Сундук (новичок)",
+        "PL-PL": "Skrzynia Nowicjusza",
+        "ES-ES": "Cofre del novato",
+        "PT-BR": "Baú do Novato",
+        "IT-IT": "Forziere del novizio",
+        "ZH-CN": "新手级箱子",
+        "KO-KR": "초심자의 보물상자",
+        "JA-JP": "チェスト（見習い）",
+        "ZH-TW": "新手級寶箱",
+        "ID-ID": "Peti Pemula",
+        "TR-TR": "Acemi Sandığı",
+        "AR-SA": "صندوق المبتدئ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A 64-slot inventory with a 7353 kg limit. Must be placed indoors.",
+        "DE-DE": "Ein Inventar mit 64 Plätzen und einem Limit von 7353 kg. Muss drinnen platziert werden.",
+        "FR-FR": "Inventaire de 64 emplacements, 7353kg max. À placer en intérieur.",
+        "RU-RU": "Хранилище на 64 ячейки, ограничение по весу - 7353 кг. Ставится в помещении.",
+        "PL-PL": "Ekwipunek z 64 miejscami i limitem 7353 kg. Do pomieszczenia.",
+        "ES-ES": "Inventario con 64 espacios y capacidad para 7353 kg. Exclusivo para interiores.",
+        "PT-BR": "Inventário com 64 espaços e capacidade para 7353 kg. Item somente para interiores.",
+        "IT-IT": "Ha un inventario da 64 slot e un limite di peso di 7.353 kg. Da posizionare al chiuso.",
+        "ZH-CN": "共有64个槽位，最多承受7353公斤，必须放在室内。",
+        "KO-KR": "슬롯 64개, 중량 제한 7353kg인 인벤토리입니다. 실내에만 배치 가능합니다.",
+        "JA-JP": "64スロットのインベントリ（上限は7353kg）。内部に配置する必要があります。",
+        "ZH-TW": "一個具有64個欄位的物品欄，承重上限為7,353公斤。必須放置於室內。",
+        "ID-ID": "Inventaris 64 slot dengan batas 7353 kg. Harus diletakkan dalam ruangan.",
+        "TR-TR": "64 yuvalı ve 7.353 kg kapasiteli bir envanter. Kapalı alanlara yerleştirilmelidir.",
+        "AR-SA": "صندوق معركة مكون من 64 بقعة بحد أقصى 7353 كجم. يجب أن يتم وضعه في مكان مغلق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T2_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T2_METALBAR",
+        "secondary_count": 10,
+        "resources": [
+          {
+            "id": "T2_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T2_METALBAR",
+            "count": 10
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.625,
+        "crafting_focus": 171,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T2_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T2_METALBAR",
+            "count": 10
+          }
+        ],
+        "primary_resource": "T2_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T2_METALBAR",
+        "secondary_count": 10
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": 30,
+        "max_quality_level": null,
+        "tier_raw": 2,
+        "weight": 2.7,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": 30,
+      "shop": {
+        "shop_category": "furniture",
+        "shop_subcategory1": "chest",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T2_FURNITUREITEM_CHEST",
+        "item_database_index": "3174"
+      },
+      "tier": 2,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Novice's Chest",
+        "name_ar": "صندوق المبتدئ",
+        "name_de": "Truhe des Novizen",
+        "name_fr": "Coffre de l'apprenti",
+        "name_es": "Cofre del novato",
+        "name_ru": "Сундук (новичок)"
+      },
+      "raw": {
+        "@uniquename": "T2_FURNITUREITEM_CHEST",
+        "@shopcategory": "furniture",
+        "@shopsubcategory1": "chest",
+        "@tier": "2",
+        "@durability": "30",
+        "@weight": "2.7",
+        "@unlockedtocraft": "true",
+        "@placeableindoors": "true",
+        "@placeableoutdoors": "false",
+        "@placeableindungeons": "false",
+        "@placeableinexpeditions": "false",
+        "@shopsubcategory2": "house",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.625",
+          "@craftingfocus": "171",
+          "craftresource": [
+            {
+              "@uniquename": "T2_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T2_METALBAR",
+              "@count": "10"
+            }
+          ]
+        },
+        "container": {
+          "@capacity": "64",
+          "@weightlimit": "7352.65"
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

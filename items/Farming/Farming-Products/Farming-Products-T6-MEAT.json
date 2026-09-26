@@ -1,0 +1,207 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Farming_Products",
+  "base_id": "T6_MEAT",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_MEAT",
+      "index": "936",
+      "name_en": "Raw Mutton",
+      "name_ar": "لحم ضأن نيء",
+      "name_de": "Rohes Hammelfleisch",
+      "name_fr": "Mouton cru",
+      "name_es": "Carne de carnero",
+      "name_ru": "Баранина",
+      "descriptions": {
+        "description_en": "Cooking ingredient, used in various recipes.",
+        "description_ar": "مكون للطبخ، يُستخدم في وصفات عديدة.",
+        "description_de": "Kochzutat für verschiedene Rezepte.",
+        "description_fr": "Ingrédient de cuisine, utilisé dans divers recettes.",
+        "description_es": "Ingrediente de cocina, utilizado en varias recetas.",
+        "description_ru": "Ингредиент для приготовления блюд, используется в различных рецептах."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MEAT",
+        "description_variable": "@ITEMS_T6_MEAT_DESC"
+      },
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_MEAT",
+        "shopcategory": "farming",
+        "nutrition": "52",
+        "shopsubcategory1": "farmingproducts",
+        "tier": "6",
+        "weight": "0.65",
+        "maxstacksize": "999",
+        "resourcetype": "MEAT",
+        "unlockedtocraft": "false",
+        "foodcategory": "meat",
+        "itemvalue": "40",
+        "famevalue": "20",
+        "craftingcategory": "meat_sheep",
+        "shopsubcategory2": "meat"
+      },
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Raw Mutton",
+        "DE-DE": "Rohes Hammelfleisch",
+        "FR-FR": "Mouton cru",
+        "RU-RU": "Баранина",
+        "PL-PL": "Surowa baranina",
+        "ES-ES": "Carne de carnero",
+        "PT-BR": "Carneiro Cru",
+        "IT-IT": "Carne di montone cruda",
+        "ZH-CN": "绵羊肉",
+        "KO-KR": "생 양고기",
+        "JA-JP": "生のマトン",
+        "ZH-TW": "生綿羊肉",
+        "ID-ID": "Daging Domba Mentah",
+        "TR-TR": "Çiğ Koyun Eti",
+        "AR-SA": "لحم ضأن نيء"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cooking ingredient, used in various recipes.",
+        "DE-DE": "Kochzutat für verschiedene Rezepte.",
+        "FR-FR": "Ingrédient de cuisine, utilisé dans divers recettes.",
+        "RU-RU": "Ингредиент для приготовления блюд, используется в различных рецептах.",
+        "PL-PL": "Składnik kuchenny używany w wielu przepisach.",
+        "ES-ES": "Ingrediente de cocina, utilizado en varias recetas.",
+        "PT-BR": "Ingrediente de cozinha, usado em várias receitas.",
+        "IT-IT": "Ingrediente utilizzato per cucinare varie ricette.",
+        "ZH-CN": "烹饪原料，用于烹饪多种食物。",
+        "KO-KR": "여러 레시피에 쓰이는 요리 재료.",
+        "JA-JP": "様々なレシピに使われる調理の原料。",
+        "ZH-TW": "料理食材，可用於各式各樣的料理。",
+        "ID-ID": "Bahan memasak, digunakan di berbagai resep.",
+        "TR-TR": "Çeşitli tariflerde kullanılan bir yemek malzemesi.",
+        "AR-SA": "مكون للطبخ، يُستخدم في وصفات عديدة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_FARM_SHEEP_GROWN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T6_FARM_SHEEP_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.02,
+        "crafting_focus": 38,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_FARM_SHEEP_GROWN",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_FARM_SHEEP_GROWN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 0.65,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "farmingproducts",
+        "crafting_category": "meat_sheep",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MEAT",
+        "item_database_index": "936"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Raw Mutton",
+        "name_ar": "لحم ضأن نيء",
+        "name_de": "Rohes Hammelfleisch",
+        "name_fr": "Mouton cru",
+        "name_es": "Carne de carnero",
+        "name_ru": "Баранина"
+      },
+      "raw": {
+        "@uniquename": "T6_MEAT",
+        "@shopcategory": "farming",
+        "@nutrition": "52",
+        "@shopsubcategory1": "farmingproducts",
+        "@tier": "6",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@resourcetype": "MEAT",
+        "@unlockedtocraft": "false",
+        "@foodcategory": "meat",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@craftingcategory": "meat_sheep",
+        "@shopsubcategory2": "meat",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "18",
+          "@craftingfocus": "38",
+          "@returnproductnotresource": "true",
+          "craftresource": {
+            "@uniquename": "T6_FARM_SHEEP_GROWN",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

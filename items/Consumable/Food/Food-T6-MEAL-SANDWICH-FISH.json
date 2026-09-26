@@ -1,0 +1,493 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T6_MEAL_SANDWICH_FISH",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_MEAL_SANDWICH_FISH",
+      "index": "888",
+      "name_en": "Rushwater Lurcher Sandwich",
+      "name_ar": "شطيرة مترصد Rushwater",
+      "name_de": "Schnellwasserlurch-Sandwich",
+      "name_fr": "Sandwich à la loche franche",
+      "name_es": "Bocadillo de locha de agua corriente",
+      "name_ru": "Сэндвич с камышовым подкаменщиком",
+      "descriptions": {
+        "description_en": "Meal that increases Maximum Health and Healing Received for a long period.",
+        "description_ar": "وجبة تزيد الحد الأقصى للصحة والعلاج المُتلقى لفترة طويلة.",
+        "description_de": "Eine Mahlzeit, die deine maximale Lebensenergie und deine empfangene Heilung für lange Zeit erhöht.",
+        "description_fr": "Repas qui augmente la santé maximale et les soins reçus pendant une longue période.",
+        "description_es": "Comida que aumenta la salud máxima y la curación recibida por un largo periodo.",
+        "description_ru": "Блюдо, повышающее максимальное количество здоровья и получаемое исцеление в течение длительного периода времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MEAL_SANDWICH_FISH",
+        "description_variable": "@ITEMS_MEAL_SANDWICH_FISH_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_MEAL_SANDWICH_FISH",
+        "descriptionlocatag": "@ITEMS_MEAL_SANDWICH_FISH_DESC",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_FISH_BUFF_MAXHP_P3",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "6",
+        "dummyitempower": "900",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "4.31",
+        "nutrition": "345",
+        "shopsubcategory2": "sandwiches"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Rushwater Lurcher Sandwich",
+        "DE-DE": "Schnellwasserlurch-Sandwich",
+        "FR-FR": "Sandwich à la loche franche",
+        "RU-RU": "Сэндвич с камышовым подкаменщиком",
+        "PL-PL": "Kanapka z Salamandry Bystrej",
+        "ES-ES": "Bocadillo de locha de agua corriente",
+        "PT-BR": "Sanduíche de Larápio de Água corrente",
+        "IT-IT": "Panino con assolotto dei torrenti",
+        "ZH-CN": "急流勒车鱼三明治",
+        "KO-KR": "러시워터 떠돌이 샌드위치",
+        "JA-JP": "ラッシュウォーターラーチャーサンドイッチ",
+        "ZH-TW": "激流鈍口螈三明治",
+        "ID-ID": "Roti Lapis Pengintai Aliran Deras",
+        "TR-TR": "İvedigöl Balığı Sandviçi",
+        "AR-SA": "شطيرة مترصد Rushwater"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Meal that increases Maximum Health and Healing Received for a long period.",
+        "DE-DE": "Eine Mahlzeit, die deine maximale Lebensenergie und deine empfangene Heilung für lange Zeit erhöht.",
+        "FR-FR": "Repas qui augmente la santé maximale et les soins reçus pendant une longue période.",
+        "RU-RU": "Блюдо, повышающее максимальное количество здоровья и получаемое исцеление в течение длительного периода времени.",
+        "PL-PL": "Posiłek, który zwiększa maksymalne zdrowie i otrzymywane leczenie przez długi okres czasu.",
+        "ES-ES": "Comida que aumenta la salud máxima y la curación recibida por un largo periodo.",
+        "PT-BR": "Comida que aumenta a vida máxima e a cura recebida por um longo período.",
+        "IT-IT": "Pietanza che aumenta salute massima e guarigione ricevuta per un lungo periodo.",
+        "ZH-CN": "餐食，可以长时间提高最大生命值和受到治疗量。",
+        "KO-KR": "오랫동안 최대 생명력과 받는 치유량을 증가시키는 식사입니다.",
+        "JA-JP": "最大体力と治癒回復量が長時間増加する料理。",
+        "ZH-TW": "一道料理，能長時間提升生命值上限和受治療效果。",
+        "ID-ID": "Makanan yang meningkatkan HP Maksimum dan Penyembuhan yang Diterima untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine azami sağlığı ve alınan iyileştirmeyi artıran bir yemek.",
+        "AR-SA": "وجبة تزيد الحد الأقصى للصحة والعلاج المُتلقى لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_POTATO",
+        "primary_count": 2,
+        "secondary_resource": "T6_FOXGLOVE",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T6_POTATO",
+            "count": 2
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 2
+          },
+          {
+            "id": "T6_BUTTER",
+            "count": 2
+          },
+          {
+            "id": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.115,
+        "crafting_focus": 231,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_POTATO",
+            "count": 2
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 2
+          },
+          {
+            "id": "T6_BUTTER",
+            "count": 2
+          },
+          {
+            "id": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_POTATO",
+        "primary_count": 2,
+        "secondary_resource": "T6_FOXGLOVE",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 4.31,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.115,
+          "crafting_focus": 432,
+          "crafting_resources": [
+            {
+              "id": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_POTATO",
+              "count": 2,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 2,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_BUTTER",
+              "count": 2,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 9,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.115,
+          "crafting_focus": 832,
+          "crafting_resources": [
+            {
+              "id": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_POTATO",
+              "count": 2,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 2,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_BUTTER",
+              "count": 2,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 9,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.115,
+          "crafting_focus": 2033,
+          "crafting_resources": [
+            {
+              "id": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_POTATO",
+              "count": 2,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 2,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_BUTTER",
+              "count": 2,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 9,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MEAL_SANDWICH_FISH",
+        "item_database_index": "888"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Rushwater Lurcher Sandwich",
+        "name_ar": "شطيرة مترصد Rushwater",
+        "name_de": "Schnellwasserlurch-Sandwich",
+        "name_fr": "Sandwich à la loche franche",
+        "name_es": "Bocadillo de locha de agua corriente",
+        "name_ru": "Сэндвич с камышовым подкаменщиком"
+      },
+      "raw": {
+        "@uniquename": "T6_MEAL_SANDWICH_FISH",
+        "@descriptionlocatag": "@ITEMS_MEAL_SANDWICH_FISH_DESC",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_MAXHP_P3",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "6",
+        "@dummyitempower": "900",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "4.31",
+        "@nutrition": "345",
+        "@shopsubcategory2": "sandwiches",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@forcesinglecraft": "false",
+          "@amountcrafted": "1",
+          "@craftingfocus": "231",
+          "@time": "0.115",
+          "craftresource": [
+            {
+              "@uniquename": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T6_POTATO",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T6_FOXGLOVE",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T6_BUTTER",
+              "@count": "2"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "1000",
+              "@consumespell": "FOOD_FISH_BUFF_MAXHP_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "432",
+                "@time": "0.115",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T6_BUTTER",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "9"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "1100",
+              "@consumespell": "FOOD_FISH_BUFF_MAXHP_P5",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "832",
+                "@time": "0.115",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T6_BUTTER",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "9"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1200",
+              "@consumespell": "FOOD_FISH_BUFF_MAXHP_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "2033",
+                "@time": "0.115",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T6_BUTTER",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "9"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

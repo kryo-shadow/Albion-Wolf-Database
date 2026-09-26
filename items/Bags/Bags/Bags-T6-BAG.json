@@ -1,0 +1,510 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Bags",
+  "family": "Bags",
+  "base_id": "T6_BAG",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_BAG",
+      "index": "2898",
+      "name_en": "Master's Bag",
+      "name_ar": "حقيبة الخبير",
+      "name_de": "Tasche des Meisters",
+      "name_fr": "Sac du maître",
+      "name_es": "Bolsa del maestro",
+      "name_ru": "Сумка (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_BAG",
+        "description_variable": "@ITEMS_T6_BAG_DESC"
+      },
+      "category": "Bags",
+      "slot": "Bag",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_BAG",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "bag",
+        "craftingcategory": "bag",
+        "shopcategory": "bags",
+        "shopsubcategory1": "bags",
+        "tier": "6",
+        "weight": "7.6",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "itempower": "900",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "bag",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Bag",
+        "DE-DE": "Tasche des Meisters",
+        "FR-FR": "Sac du maître",
+        "RU-RU": "Сумка (мастер)",
+        "PL-PL": "Sakwa Mistrza",
+        "ES-ES": "Bolsa del maestro",
+        "PT-BR": "Bolsa do Mestre",
+        "IT-IT": "Borsa del maestro",
+        "ZH-CN": "大师级背包",
+        "KO-KR": "마스터의 가방",
+        "JA-JP": "袋（マスター）",
+        "ZH-TW": "大師級背包",
+        "ID-ID": "Tas Master",
+        "TR-TR": "Usta Çantası",
+        "AR-SA": "حقيبة الخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_CLOTH",
+        "primary_count": 8,
+        "secondary_resource": "T6_LEATHER",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T6_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T6_LEATHER",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 2626,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T6_LEATHER",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T6_CLOTH",
+        "primary_count": 8,
+        "secondary_resource": "T6_LEATHER",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 900,
+        "ability_power": 100,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "bag"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1,
+        "resolved_from": "T2_BAG"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 1.667,
+          "crafting_focus": 4596,
+          "crafting_resources": [
+            {
+              "id": "T6_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 8042,
+          "crafting_resources": [
+            {
+              "id": "T6_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3,
+          "crafting_focus": 14074,
+          "crafting_resources": [
+            {
+              "id": "T6_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 3.6,
+          "crafting_focus": 24630,
+          "crafting_resources": [
+            {
+              "id": "T6_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 900,
+      "effective_durability": 20250,
+      "shop": {
+        "shop_category": "bags",
+        "shop_subcategory1": "bags",
+        "crafting_category": "bag",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_BAG",
+        "item_database_index": "2898"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Bag",
+        "name_ar": "حقيبة الخبير",
+        "name_de": "Tasche des Meisters",
+        "name_fr": "Sac du maître",
+        "name_es": "Bolsa del maestro",
+        "name_ru": "Сумка (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_BAG",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "bag",
+        "@craftingcategory": "bag",
+        "@shopcategory": "bags",
+        "@shopsubcategory1": "bags",
+        "@tier": "6",
+        "@weight": "7.6",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@itempower": "900",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "bag",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "2626",
+          "craftresource": [
+            {
+              "@uniquename": "T6_CLOTH",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T6_LEATHER",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T2_BAG"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.667",
+                "@craftingfocus": "4596",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T6_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "8042",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T6_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3",
+                "@craftingfocus": "14074",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T6_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.6",
+                "@craftingfocus": "24630",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T6_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

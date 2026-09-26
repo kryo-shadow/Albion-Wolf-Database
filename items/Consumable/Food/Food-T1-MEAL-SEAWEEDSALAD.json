@@ -1,0 +1,214 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T1_MEAL_SEAWEEDSALAD",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T1_MEAL_SEAWEEDSALAD",
+      "index": "715",
+      "name_en": "Seaweed Salad",
+      "name_ar": "سلطة طحالب",
+      "name_de": "Seegras-Salat",
+      "name_fr": "Salade d'algues",
+      "name_es": "Ensalada de alga",
+      "name_ru": "Салат из водорослей",
+      "descriptions": {
+        "description_en": "A meal that increases fishing speed.",
+        "description_ar": "وجبة تزيد سرعة الصيد.",
+        "description_de": "Ein Mahl, das deine Geschwindigkeit beim Angeln erhöht.",
+        "description_fr": "Repas qui augmente la vitesse de pêche.",
+        "description_es": "Comida simple que aumenta tu velocidad de pesca.",
+        "description_ru": "Простое блюдо, повышающее скорость рыбалки."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_MEAL_SEAWEEDSALAD",
+        "description_variable": "@ITEMS_MEAL_SEAWEEDSALAD_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T1_MEAL_SEAWEEDSALAD",
+        "uisprite": "MEAL_SALAD_SEAWEED",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_FISH_SEAWEEDSALAD_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "1",
+        "dummyitempower": "100",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "famevalue": "100",
+        "weight": "0.08",
+        "nutrition": "5",
+        "descriptionlocatag": "@ITEMS_MEAL_SEAWEEDSALAD_DESC",
+        "shopsubcategory2": "salads"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": "100",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Seaweed Salad",
+        "DE-DE": "Seegras-Salat",
+        "FR-FR": "Salade d'algues",
+        "RU-RU": "Салат из водорослей",
+        "PL-PL": "Sałatka z wodorostów",
+        "ES-ES": "Ensalada de alga",
+        "PT-BR": "Salada de Algas",
+        "IT-IT": "Insalata di alghe",
+        "ZH-CN": "海草沙拉",
+        "KO-KR": "해조 샐러드",
+        "JA-JP": "海藻サラダ",
+        "ZH-TW": "海藻沙拉",
+        "ID-ID": "Selada Rumput Laut",
+        "TR-TR": "Su Yosunu Salatası",
+        "AR-SA": "سلطة طحالب"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Simple meal that increases fishing speed.",
+        "DE-DE": "Ein einfaches Mahl, das deine Geschwindigkeit beim Angeln erhöht.",
+        "FR-FR": "Repas simple qui augmente la vitesse de pêche.",
+        "RU-RU": "Простое блюдо, повышающее скорость рыбалки.",
+        "PL-PL": "Prosty posiłek zwiększający szybkość łowienia ryb.",
+        "ES-ES": "Comida simple que aumenta tu velocidad de pesca.",
+        "PT-BR": "Comida simples que aumenta a velocidade de pesca.",
+        "IT-IT": "Una pietanza semplice che aumenta la velocità di pesca.",
+        "ZH-CN": "简单的餐食，可以提高钓鱼速度。",
+        "KO-KR": "낚시 속도를 높여 주는 간단한 식사입니다.",
+        "JA-JP": "漁獲速度が上昇するシンプルな料理。",
+        "ZH-TW": "一道輕食，能提升釣魚速度。",
+        "ID-ID": "Makanan sederhana yang meningkatkan kecepatan memancing.",
+        "TR-TR": "Balık tutma hızını artıran bir yemek.",
+        "AR-SA": "وجبة تزيد سرعة الصيد."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_SEAWEED",
+        "primary_count": 10,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T1_SEAWEED",
+            "count": 10
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.01,
+        "crafting_focus": 4,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T1_SEAWEED",
+            "count": 10
+          }
+        ],
+        "primary_resource": "T1_SEAWEED",
+        "primary_count": 10,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 1,
+        "weight": 0.08,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "MEAL_SALAD_SEAWEED"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_MEAL_SEAWEEDSALAD",
+        "item_database_index": "715"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Seaweed Salad",
+        "name_ar": "سلطة طحالب",
+        "name_de": "Seegras-Salat",
+        "name_fr": "Salade d'algues",
+        "name_es": "Ensalada de alga",
+        "name_ru": "Салат из водорослей"
+      },
+      "raw": {
+        "@uniquename": "T1_MEAL_SEAWEEDSALAD",
+        "@uisprite": "MEAL_SALAD_SEAWEED",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_SEAWEEDSALAD_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "1",
+        "@dummyitempower": "100",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@famevalue": "100",
+        "@weight": "0.08",
+        "@nutrition": "5",
+        "@descriptionlocatag": "@ITEMS_MEAL_SEAWEEDSALAD_DESC",
+        "@shopsubcategory2": "salads",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "1",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "4",
+          "@time": "0.01",
+          "craftresource": {
+            "@uniquename": "T1_SEAWEED",
+            "@count": "10"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

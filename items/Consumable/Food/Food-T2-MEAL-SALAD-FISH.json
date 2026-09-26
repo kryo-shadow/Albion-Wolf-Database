@@ -1,0 +1,454 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T2_MEAL_SALAD_FISH",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T2_MEAL_SALAD_FISH",
+      "index": "752",
+      "name_en": "Shallowshore Squid Salad",
+      "name_ar": "سلطة حبار المياه الضحلة",
+      "name_de": "Flachwassertintenfischsalat",
+      "name_fr": "Salade de calamars des récifs",
+      "name_es": "Ensalada de calamar de aguas poco profundas",
+      "name_ru": "Салат с мелководным кальмаром",
+      "descriptions": {
+        "description_en": "Snack that increases crafting speed and quality for a short period.",
+        "description_ar": "وجبة خفيفة تزيد سرعة التصنيع وجودته لفترة قصيرة.",
+        "description_de": "Ein Snack, der deine Handwerksgeschwindigkeit und -Qualität für eine kurze Zeit erhöht.",
+        "description_fr": "Encas qui augmente la vitesse et la qualité de fabrication pendant une courte période.",
+        "description_es": "Comida que incrementa la velocidad de fabricación por un corto periodo.",
+        "description_ru": "Закуска, повышающая скорость и качество создания предметов в течение короткого периода времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T2_MEAL_SALAD_FISH",
+        "description_variable": "@ITEMS_MEAL_SALAD_FISH_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T2_MEAL_SALAD_FISH",
+        "descriptionlocatag": "@ITEMS_MEAL_SALAD_FISH_DESC",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_FISH_CRAFTING_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "2",
+        "dummyitempower": "500",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.59",
+        "nutrition": "106",
+        "shopsubcategory2": "salads"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Shallowshore Squid Salad",
+        "DE-DE": "Flachwassertintenfischsalat",
+        "FR-FR": "Salade de calamars des récifs",
+        "RU-RU": "Салат с мелководным кальмаром",
+        "PL-PL": "Sałatka z Kałamarnicy Płyciznowej",
+        "ES-ES": "Ensalada de calamar de aguas poco profundas",
+        "PT-BR": "Salada de Lula das Águas rasas",
+        "IT-IT": "Insalata di calamari di costa",
+        "ZH-CN": "浅岸鱿鱼沙拉",
+        "KO-KR": "섈로쇼어 오징어 샐러드",
+        "JA-JP": "スワローショア・イカのサラダ",
+        "ZH-TW": "淺岸魷魚沙拉",
+        "ID-ID": "Selada Cumi-Cumi Pantai Dangkal",
+        "TR-TR": "Sığsahil Kalamarı Salatası",
+        "AR-SA": "سلطة حبار المياه الضحلة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Snack that increases crafting speed and quality for a short period.",
+        "DE-DE": "Ein Snack, der deine Handwerksgeschwindigkeit und -Qualität für eine kurze Zeit erhöht.",
+        "FR-FR": "Encas qui augmente la vitesse et la qualité de fabrication pendant une courte période.",
+        "RU-RU": "Закуска, повышающая скорость и качество создания предметов в течение короткого периода времени.",
+        "PL-PL": "Przekąska, która na krótko zwiększa jakość i szybkość wytwarzania.",
+        "ES-ES": "Comida que incrementa la velocidad de fabricación por un corto periodo.",
+        "PT-BR": "Lanche que aumenta a velocidade e qualidade de fabricação por um curto período.",
+        "IT-IT": "Spuntino che aumenta velocità e qualità di creazione per un breve periodo.",
+        "ZH-CN": "零食，可以短时提高制造速度和品质。",
+        "KO-KR": "제작 속도와 품질을 단기간에 올려 주는 간식입니다.",
+        "JA-JP": "製造速度と品質が短時間上昇する軽食。",
+        "ZH-TW": "一道點心，能短時間提升製作物品的速度和品質。",
+        "ID-ID": "Kudapan yang meningkatkan kecepatan crafting dan kualitas untuk waktu yang singkat.",
+        "TR-TR": "Kısa bir süreliğine zanaat hızını ve kalitesini artıran bir atıştırmalık.",
+        "AR-SA": "وجبة خفيفة تزيد سرعة التصنيع وجودته لفترة قصيرة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_FISH_SALTWATER_ALL_RARE",
+        "primary_count": 1,
+        "secondary_resource": "T2_BEAN",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T3_FISH_SALTWATER_ALL_RARE",
+            "count": 1
+          },
+          {
+            "id": "T2_BEAN",
+            "count": 1
+          },
+          {
+            "id": "T2_AGARIC",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.0353,
+        "crafting_focus": 77,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_FISH_SALTWATER_ALL_RARE",
+            "count": 1
+          },
+          {
+            "id": "T2_BEAN",
+            "count": 1
+          },
+          {
+            "id": "T2_AGARIC",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_FISH_SALTWATER_ALL_RARE",
+        "primary_count": 1,
+        "secondary_resource": "T2_BEAN",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 2,
+        "weight": 1.59,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0353,
+          "crafting_focus": 144,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_SALTWATER_ALL_RARE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T2_BEAN",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T2_AGARIC",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0353,
+          "crafting_focus": 278,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_SALTWATER_ALL_RARE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T2_BEAN",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T2_AGARIC",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0353,
+          "crafting_focus": 678,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_SALTWATER_ALL_RARE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T2_BEAN",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T2_AGARIC",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T2_MEAL_SALAD_FISH",
+        "item_database_index": "752"
+      },
+      "tier": 2,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Shallowshore Squid Salad",
+        "name_ar": "سلطة حبار المياه الضحلة",
+        "name_de": "Flachwassertintenfischsalat",
+        "name_fr": "Salade de calamars des récifs",
+        "name_es": "Ensalada de calamar de aguas poco profundas",
+        "name_ru": "Салат с мелководным кальмаром"
+      },
+      "raw": {
+        "@uniquename": "T2_MEAL_SALAD_FISH",
+        "@descriptionlocatag": "@ITEMS_MEAL_SALAD_FISH_DESC",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_CRAFTING_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "2",
+        "@dummyitempower": "500",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.59",
+        "@nutrition": "106",
+        "@shopsubcategory2": "salads",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@forcesinglecraft": "false",
+          "@amountcrafted": "1",
+          "@craftingfocus": "77",
+          "@time": "0.0353",
+          "craftresource": [
+            {
+              "@uniquename": "T3_FISH_SALTWATER_ALL_RARE",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T2_BEAN",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T2_AGARIC",
+              "@count": "1"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "600",
+              "@consumespell": "FOOD_FISH_CRAFTING_P2",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "144",
+                "@time": "0.0353",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_SALTWATER_ALL_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T2_BEAN",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T2_AGARIC",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "700",
+              "@consumespell": "FOOD_FISH_CRAFTING_P3",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "278",
+                "@time": "0.0353",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_SALTWATER_ALL_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T2_BEAN",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T2_AGARIC",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "800",
+              "@consumespell": "FOOD_FISH_CRAFTING_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "678",
+                "@time": "0.0353",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_SALTWATER_ALL_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T2_BEAN",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T2_AGARIC",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

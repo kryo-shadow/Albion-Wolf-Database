@@ -1,0 +1,415 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T3_POTION_MOB_RESET",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_POTION_MOB_RESET",
+      "index": "614",
+      "name_en": "Minor Calming Potion",
+      "name_ar": "جرعة مهدئ ثانوية",
+      "name_de": "Kleiner Beruhigender Trank",
+      "name_fr": "Potion de calme mineure",
+      "name_es": "Poción de calma menor",
+      "name_ru": "Малое успокаивающее зелье",
+      "descriptions": {
+        "description_en": "Sparkling Potion. Can be thrown at a ground location to disengage mobs and provide a shield to all group members hit.",
+        "description_ar": "جرعة متلألئة. يمكن إلقاؤها على موقع أرضي لتفريق الحشود وتوفير درع حماية لجميع أعضاء المجموعة.",
+        "description_de": "Sprudelnder Trank. Wirf ihn auf den Boden, um damit getroffene Gegner zu vertreiben und Gruppenmitgliedern einen Schild zu verleihen.",
+        "description_fr": "Potion pétillante. Lancez-la au sol pour éloigner les monstres et fournir un bouclier à tous les membres du groupe touchés.",
+        "description_es": "Poción burbujeante. Se lanza al suelo para alejar a los monstruos y proporcionar un escudo a todos los miembros del grupo que sean alcanzados por la poción.",
+        "description_ru": "Искрящееся зелье. Бросьте его на землю, чтобы отвлечь монстров и дать щит всем участникам группы, попавшим под взрыв."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_POTION_MOB_RESET",
+        "description_variable": "@ITEMS_POTION_MOB_RESET_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_POTION_MOB_RESET",
+        "slottype": "potion",
+        "weight": "0.1",
+        "consumespell": "POTION_MOB_RESET_P1",
+        "dummyitempower": "600",
+        "abilitypower": "186",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "tier": "3",
+        "craftingcategory": "potion",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "maxstacksize": "999",
+        "descriptionlocatag": "@ITEMS_POTION_MOB_RESET_DESC",
+        "shopsubcategory2": "calming"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Minor Calming Potion",
+        "DE-DE": "Kleiner Beruhigender Trank",
+        "FR-FR": "Potion de calme mineure",
+        "RU-RU": "Малое успокаивающее зелье",
+        "PL-PL": "Mniejsza Mikstura Uspokajająca",
+        "ES-ES": "Poción de calma menor",
+        "PT-BR": "Poção Calmante Menor",
+        "IT-IT": "Pozione della calma minore",
+        "ZH-CN": "初级镇静药水",
+        "KO-KR": "소형 진정 포션",
+        "JA-JP": "落ち着きポーション（小）",
+        "ZH-TW": "初級鎮靜藥水",
+        "ID-ID": "Ramuan Penenang Minor",
+        "TR-TR": "Zayıf Sakinleştirici İksir",
+        "AR-SA": "جرعة مهدئ ثانوية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sparkling Potion. Can be thrown at a ground location to disengage mobs and provide a shield to all group members hit.",
+        "DE-DE": "Sprudelnder Trank. Wirf ihn auf den Boden, um damit getroffene Gegner zu vertreiben und Gruppenmitgliedern einen Schild zu verleihen.",
+        "FR-FR": "Potion pétillante. Lancez-la au sol pour éloigner les monstres et fournir un bouclier à tous les membres du groupe touchés.",
+        "RU-RU": "Искрящееся зелье. Бросьте его на землю, чтобы отвлечь монстров и дать щит всем участникам группы, попавшим под взрыв.",
+        "PL-PL": "Musująca Mikstura. Rzuć na ziemię, aby anulować agresję mobów i zapewnić tarczę wszystkim uderzonym członkom drużyny.",
+        "ES-ES": "Poción burbujeante. Se lanza al suelo para alejar a los monstruos y proporcionar un escudo a todos los miembros del grupo que sean alcanzados por la poción.",
+        "PT-BR": "Poção cintilante. Jogue-a no chão para desengajar monstros e fornecer um escudo para todos os membros do grupo atingidos.",
+        "IT-IT": "Pozione luccicante. Lanciandola sul terreno, si disingaggiano i mob e viene fornito uno scudo a tutti i membri del gruppo colpiti.",
+        "ZH-CN": "闪闪发光的药水。朝地上投掷后，会使野怪脱离战斗，且为所有被击中的队伍成员施加一个护盾。",
+        "KO-KR": "반짝거리는 포션. 바닥에 던지면 적중한 몹을 철수시키며, 적중한 모든 그룹원에게 방어막을 부여합니다.",
+        "JA-JP": "スパークリングポーション。地面に投げつけることでモブとの戦闘状態を解除し、攻撃を受けたグループ全員にシールドを与える。",
+        "ZH-TW": "閃閃發光的藥水。朝地上投擲後，會使怪物脫離戰鬥，且為所有被擊中的隊伍成員提供一個護盾。",
+        "ID-ID": "Ramuan berkilau. Lempar ke tanah untuk melepaskan diri dari mob dan memberikan perisai kepada semua anggota regu yang terkena.",
+        "TR-TR": "Işıl ışıl bir iksir. Düşmanları çatışmadan çıkarmak ve isabet alan tüm grup üyelerine kalkan sağlamak için yere fırlatılabilir.",
+        "AR-SA": "جرعة متلألئة. يمكن إلقاؤها على موقع أرضي لتفريق الحشود وتوفير درع حماية لجميع أعضاء المجموعة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_COMFREY",
+        "primary_count": 16,
+        "secondary_resource": "T3_ALCHEMY_RARE_PANTHER",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T3_COMFREY",
+            "count": 16
+          },
+          {
+            "id": "T3_ALCHEMY_RARE_PANTHER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.257,
+        "crafting_focus": 56,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_COMFREY",
+            "count": 16
+          },
+          {
+            "id": "T3_ALCHEMY_RARE_PANTHER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_COMFREY",
+        "primary_count": 16,
+        "secondary_resource": "T3_ALCHEMY_RARE_PANTHER",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 0.1,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 78,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_PANTHER",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 10,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 123,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_PANTHER",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 10,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 256,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_PANTHER",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 10,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_POTION_MOB_RESET",
+        "item_database_index": "614"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Minor Calming Potion",
+        "name_ar": "جرعة مهدئ ثانوية",
+        "name_de": "Kleiner Beruhigender Trank",
+        "name_fr": "Potion de calme mineure",
+        "name_es": "Poción de calma menor",
+        "name_ru": "Малое успокаивающее зелье"
+      },
+      "raw": {
+        "@uniquename": "T3_POTION_MOB_RESET",
+        "@slottype": "potion",
+        "@weight": "0.1",
+        "@consumespell": "POTION_MOB_RESET_P1",
+        "@dummyitempower": "600",
+        "@abilitypower": "186",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@tier": "3",
+        "@craftingcategory": "potion",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@maxstacksize": "999",
+        "@descriptionlocatag": "@ITEMS_POTION_MOB_RESET_DESC",
+        "@shopsubcategory2": "calming",
+        "craftingrequirements": {
+          "@time": "0.257",
+          "@amountcrafted": "10",
+          "@craftingfocus": "56",
+          "craftresource": [
+            {
+              "@uniquename": "T3_ALCHEMY_RARE_PANTHER",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T3_COMFREY",
+              "@count": "16"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_MOB_RESET_P2",
+              "@dummyitempower": "700",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "78",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_PANTHER",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_MOB_RESET_P3",
+              "@dummyitempower": "800",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "123",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_PANTHER",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_MOB_RESET_P4",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "256",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_PANTHER",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

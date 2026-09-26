@@ -1,0 +1,415 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T4_POTION_COOLDOWN",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_POTION_COOLDOWN",
+      "index": "598",
+      "name_en": "Minor Poison Potion",
+      "name_ar": "جرعة سم ثانوية",
+      "name_de": "Kleiner Gifttrank",
+      "name_fr": "Potion de poison mineure",
+      "name_es": "Poción de veneno menor",
+      "name_ru": "Малый эликсир яда",
+      "descriptions": {
+        "description_en": "Poisonous potion. Can be thrown at enemies to deal damage over time; also slows enemies if they take damage.",
+        "description_ar": "جرعة سامة. يمكن إلقاؤها على الأعداء لإلحاق الضرر بهم بمرور الوقت، كما أنها تبطئ حركتهم عند تلقيهم الضرر.",
+        "description_de": "Giftiger Trank. Wirf ihn auf Gegner, um bei ihnen längerfristig Schaden anzurichten; verlangsamt auch Feinde, die Schaden nehmen.",
+        "description_fr": "Potion empoisonnée.  Lancez-la sur les ennemis pour leur infliger des dégâts sur la durée ; elle ralentit également les ennemis qui subissent des dégâts.",
+        "description_es": "Poción venenosa. Se lanza a los enemigos para infligir daño a largo plazo; también ralentiza a los que reciben dicho daño.",
+        "description_ru": "Ядовитое зелье. Бросьте его во врагов, чтобы нанести им периодический урон; также замедляет врагов, получающих урон."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_POTION_COOLDOWN",
+        "description_variable": "@ITEMS_POTION_COOLDOWN_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_POTION_COOLDOWN",
+        "uisprite": "POTION_POISON",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_POISON_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "4",
+        "dummyitempower": "700",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.14",
+        "descriptionlocatag": "@ITEMS_POTION_COOLDOWN_DESC",
+        "shopsubcategory2": "poison"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Minor Poison Potion",
+        "DE-DE": "Kleiner Gifttrank",
+        "FR-FR": "Potion de poison mineure",
+        "RU-RU": "Малый эликсир яда",
+        "PL-PL": "Mniejsza Trująca Mikstura",
+        "ES-ES": "Poción de veneno menor",
+        "PT-BR": "Poção Venenosa Menor",
+        "IT-IT": "Pozione velenosa minore",
+        "ZH-CN": "初级毒药",
+        "KO-KR": "소형 독 포션",
+        "JA-JP": "毒ポーション（小）",
+        "ZH-TW": "初級毒藥",
+        "ID-ID": "Ramuan Racun Minor",
+        "TR-TR": "Zayıf Zehir İksiri",
+        "AR-SA": "جرعة سم ثانوية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Poisonous potion. Can be thrown at enemies to poison them.",
+        "DE-DE": "Vergifteter Trank. Kann auf Gegner geworfen werden, um sie zu vergiften.",
+        "FR-FR": "Potion empoisonnée. Peut être lancée sur des ennemis pour les empoisonner.",
+        "RU-RU": "Отравленный эликсир. Можно бросить во врага, чтобы отравить.",
+        "PL-PL": "Zatruta mikstura. Można rzucić nią we wrogów, aby ich zatruć.",
+        "ES-ES": "Poción de veneno. Puede ser usada en los enemigos para envenenarlos.",
+        "PT-BR": "Poção envenenada. Pode ser jogada nos inimigos para envenená-los.",
+        "IT-IT": "Pozione tossica. Si può lanciare addosso ai nemici per avvelenarli.",
+        "ZH-CN": "毒药，可以扔向敌人，令其中毒。",
+        "KO-KR": "유독 포션. 적을 향해 던져서 중독시킬 수 있습니다.",
+        "JA-JP": "毒性のあるポーション。敵に投げつけて毒状態にします。",
+        "ZH-TW": "毒性極強的藥水。扔中敵人可使對方中毒。",
+        "ID-ID": "Ramuan beracun. Bisa dilemparkan pada musuh untuk meracuni mereka.",
+        "TR-TR": "Zehirli bir iksir. Zamanla hasar vermek üzere düşmanlara fırlatılabilir. Hasar alan düşmanlar aynı zamanda yavaşlatılırlar.",
+        "AR-SA": "جرعة سامة. يمكن إلقاؤها على الأعداء لإلحاق الضرر بهم بمرور الوقت، كما أنها تبطئ حركتهم عند تلقيهم الضرر."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_BURDOCK",
+        "primary_count": 8,
+        "secondary_resource": "T3_COMFREY",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_BURDOCK",
+            "count": 8
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.1915,
+        "crafting_focus": 84,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_BURDOCK",
+            "count": 8
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T4_BURDOCK",
+        "primary_count": 8,
+        "secondary_resource": "T3_COMFREY",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 0.14,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1915,
+          "crafting_focus": 106,
+          "crafting_resources": [
+            {
+              "id": "T4_BURDOCK",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 5,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1915,
+          "crafting_focus": 151,
+          "crafting_resources": [
+            {
+              "id": "T4_BURDOCK",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 5,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1915,
+          "crafting_focus": 284,
+          "crafting_resources": [
+            {
+              "id": "T4_BURDOCK",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 5,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_POISON"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_POTION_COOLDOWN",
+        "item_database_index": "598"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Minor Poison Potion",
+        "name_ar": "جرعة سم ثانوية",
+        "name_de": "Kleiner Gifttrank",
+        "name_fr": "Potion de poison mineure",
+        "name_es": "Poción de veneno menor",
+        "name_ru": "Малый эликсир яда"
+      },
+      "raw": {
+        "@uniquename": "T4_POTION_COOLDOWN",
+        "@uisprite": "POTION_POISON",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_POISON_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "4",
+        "@dummyitempower": "700",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.14",
+        "@descriptionlocatag": "@ITEMS_POTION_COOLDOWN_DESC",
+        "@shopsubcategory2": "poison",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "84",
+          "@time": "0.1915",
+          "craftresource": [
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T3_COMFREY",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_POISON_P2",
+              "@dummyitempower": "800",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1915",
+                "@amountcrafted": "5",
+                "@craftingfocus": "106",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_POISON_P3",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1915",
+                "@amountcrafted": "5",
+                "@craftingfocus": "151",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_POISON_P4",
+              "@dummyitempower": "1000",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1915",
+                "@amountcrafted": "5",
+                "@craftingfocus": "284",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

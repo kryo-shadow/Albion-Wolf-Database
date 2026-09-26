@@ -1,0 +1,299 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Base_Mounts",
+  "base_id": "T7_MOUNT_ARMORED_HORSE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T7_MOUNT_ARMORED_HORSE",
+      "index": "3036",
+      "name_en": "Grandmaster's Armored Horse",
+      "name_ar": "حصان مدرّع للأستاذ",
+      "name_de": "Gepanzertes Pferd des Großmeisters",
+      "name_fr": "Cheval protégé du grand maître",
+      "name_es": "Caballo blindado del gran maestro",
+      "name_ru": "Боевой конь (магистр)",
+      "descriptions": {
+        "description_en": "Protected by thick plating, an armored horse is ideal for traveling through Albion's more dangerous regions at speed.",
+        "description_ar": "حصان مدرّع محمي بتصفيح سميك هو الخيار الأمثل للانتقال بسرعة عبر مناطق Albion الأشد خطرًا.",
+        "description_de": "Gepanzerte Pferde sind ideal, um die gefährlicheren Teile von Albion zu bereisen. Sie sind der sicherste Weg, um sich in Albion fortzubewegen.",
+        "description_fr": "Les chevaux protégés servent à se déplacer dans les zones les plus dangereuses d'Albion sans trop d'encombres.",
+        "description_es": "Los caballos blindados son perfectos para viajar en Albion. Son el medio de transporte más seguro que hay.",
+        "description_ru": "Путешествуйте по опасным территориям на боевом коне. Это безопаснее всего."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_MOUNT_ARMORED_HORSE",
+        "description_variable": "@ITEMS_T7_MOUNT_ARMORED_HORSE_DESC"
+      },
+      "category": "Mount_Base_Mounts",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_MOUNT_ARMORED_HORSE",
+        "mountcategory": "ARMORED_HORSES",
+        "maxqualitylevel": "5",
+        "itempower": "1000",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "basemounts",
+        "mountedbuff": "T7_MOUNT_ARMORED_HORSE_MOUNTED",
+        "halfmountedbuff": "T7_MOUNT_ARMORED_HORSE_HALFMOUNTED",
+        "tier": "7",
+        "weight": "79.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "60750",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "mounttime": "3",
+        "dismounttime": "0",
+        "mounthitpointsmax": "1433",
+        "mounthitpointsregeneration": "14.33",
+        "prefabname": "MOUNT_HORSE_05_ARMORED",
+        "prefabscaling": "1.56",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "0.5",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "canusetownportal": "true",
+        "shopsubcategory2": "armoredhorse",
+        "nutrition": "18699",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Armored Horse",
+        "DE-DE": "Gepanzertes Pferd des Großmeisters",
+        "FR-FR": "Cheval protégé du grand maître",
+        "RU-RU": "Боевой конь (магистр)",
+        "PL-PL": "Koń w Zbroi Wszechmistrza",
+        "ES-ES": "Caballo blindado del gran maestro",
+        "PT-BR": "Cavalo Blindado do Grão-mestre",
+        "IT-IT": "Cavallo corazzato del gran maestro",
+        "ZH-CN": "宗师级铠马",
+        "KO-KR": "그랜드 마스터의 갑주마",
+        "JA-JP": "装甲馬（グランドマスター）",
+        "ZH-TW": "宗師級鐵甲馬",
+        "ID-ID": "Kuda Berzirah Grandmaster",
+        "TR-TR": "Büyük Usta Zırhlı Atı",
+        "AR-SA": "حصان مدرّع للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Protected by thick plating, an armored horse is ideal for traveling through Albion's more dangerous regions at speed.",
+        "DE-DE": "Gepanzerte Pferde sind ideal, um die gefährlicheren Teile von Albion zu bereisen. Sie sind der sicherste Weg, um sich in Albion fortzubewegen.",
+        "FR-FR": "Les chevaux protégés servent à se déplacer dans les zones les plus dangereuses d'Albion sans trop d'encombres.",
+        "RU-RU": "Путешествуйте по опасным территориям на боевом коне. Это безопаснее всего.",
+        "PL-PL": "Konie w Zbroi to najlepszy i najbezpieczniejszy środek transportu przez niebezpieczne tereny Albionu.",
+        "ES-ES": "Los caballos blindados son perfectos para viajar en Albion. Son el medio de transporte más seguro que hay.",
+        "PT-BR": "Cavalos Blindados são ideais para atravessar as partes mais perigosas de Albion e se deslocam de forma rápida e segura por Albion.",
+        "IT-IT": "Grazie alla spessa armatura che li proteggono, i cavalli corazzati sono l'ideale per spostarsi nelle regioni più pericolose di Albion.",
+        "ZH-CN": "铠马身披厚重的板甲，适合快速经过阿尔比恩危险的地区。",
+        "KO-KR": "두꺼운 플레이트 갑주로 보호된 갑주마는 알비온의 위험한 지역을 빠르게 여행하는 데 이상적인 탈것입니다.",
+        "JA-JP": "分厚い板金鎧で保護された装甲馬は、アルビオンでも危険な地域を旅するのに理想的な高速移動手段です。",
+        "ZH-TW": "鐵甲馬全身包覆著厚實的金屬護甲，是飛速穿越阿爾比恩危險區域的理想選擇。",
+        "ID-ID": "Dilindungi dengan pelapisan tebal, kuda berzirah ideal untuk menjelajahi wilayah berbahaya Albion dengan cepat.",
+        "TR-TR": "Kalın plakalarla korunan bu zırhlı at, Albion'un tehlikeleri bölgelerinde hızlıca seyahat etmek için idealdir.",
+        "AR-SA": "حصان مدرّع محمي بتصفيح سميك هو الخيار الأمثل للانتقال بسرعة عبر مناطق Albion الأشد خطرًا."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 10,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 10
+          },
+          {
+            "id": "T7_FARM_HORSE_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.125,
+        "crafting_focus": 8617,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 10
+          },
+          {
+            "id": "T7_FARM_HORSE_GROWN",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 10
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1000,
+        "ability_power": 100,
+        "durability": 60750,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 79.7,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 1000,
+      "effective_durability": 60750,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "basemounts",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_MOUNT_ARMORED_HORSE",
+        "item_database_index": "3036"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Armored Horse",
+        "name_ar": "حصان مدرّع للأستاذ",
+        "name_de": "Gepanzertes Pferd des Großmeisters",
+        "name_fr": "Cheval protégé du grand maître",
+        "name_es": "Caballo blindado del gran maestro",
+        "name_ru": "Боевой конь (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_MOUNT_ARMORED_HORSE",
+        "@mountcategory": "ARMORED_HORSES",
+        "@maxqualitylevel": "5",
+        "@itempower": "1000",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "basemounts",
+        "@mountedbuff": "T7_MOUNT_ARMORED_HORSE_MOUNTED",
+        "@halfmountedbuff": "T7_MOUNT_ARMORED_HORSE_HALFMOUNTED",
+        "@tier": "7",
+        "@weight": "79.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "60750",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@mounttime": "3",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "1433",
+        "@mounthitpointsregeneration": "14.33",
+        "@prefabname": "MOUNT_HORSE_05_ARMORED",
+        "@prefabscaling": "1.56",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "0.5",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@canusetownportal": "true",
+        "@shopsubcategory2": "armoredhorse",
+        "@nutrition": "18699",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.125",
+          "@craftingfocus": "8617",
+          "craftresource": [
+            {
+              "@uniquename": "T7_FARM_HORSE_GROWN",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T7_CLOTH",
+              "@count": "10"
+            },
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "20"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

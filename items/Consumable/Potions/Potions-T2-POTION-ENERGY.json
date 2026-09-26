@@ -1,0 +1,374 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T2_POTION_ENERGY",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T2_POTION_ENERGY",
+      "index": "550",
+      "name_en": "Minor Energy Potion",
+      "name_ar": "جرعة طاقة ثانوية",
+      "name_de": "Kleiner Energietrank",
+      "name_fr": "Potion d'énergie mineure",
+      "name_es": "Poción de energía menor",
+      "name_ru": "Малый эликсир энергии",
+      "descriptions": {
+        "description_en": "Fizzing potion. Increases your Cooldown Rate while restoring Energy over a short period.",
+        "description_ar": "جرعة فوارة. تزيد معدل فترات الانتظار الخاصة بك وتستعيد الطاقة لفترة قصيرة من الوقت.",
+        "description_de": "Zischender Trank. Stellt sofort wieder etwas Energie her und verbessert die Abklingzeit.",
+        "description_fr": "Potion effervescente. Augmente la vitesse de recharge tout en restaurant de l'énergie sur une courte période.",
+        "description_es": "Poción efervescente. Incrementa el ritmo de tiempo de espera mientras restaura energía durante un corto periodo.",
+        "description_ru": "Шипучее зелье. Увеличивает скорость восстановления навыков, восстанавливая энергию в течение короткого времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T2_POTION_ENERGY",
+        "description_variable": "@ITEMS_POTION_ENERGY_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T2_POTION_ENERGY",
+        "uisprite": "POTION_ENERGY",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_ENERGY_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "2",
+        "dummyitempower": "500",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.1",
+        "descriptionlocatag": "@ITEMS_POTION_ENERGY_DESC",
+        "shopsubcategory2": "energy"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Minor Energy Potion",
+        "DE-DE": "Kleiner Energietrank",
+        "FR-FR": "Potion d'énergie mineure",
+        "RU-RU": "Малый эликсир энергии",
+        "PL-PL": "Mniejsza Mikstura Energii",
+        "ES-ES": "Poción de energía menor",
+        "PT-BR": "Poção de Energia Menor",
+        "IT-IT": "Pozione energetica minore",
+        "ZH-CN": "初级能量药水",
+        "KO-KR": "소형 에너지 포션",
+        "JA-JP": "エネルギーポーション（小）",
+        "ZH-TW": "初級能量藥水",
+        "ID-ID": "Ramuan Energi Minor",
+        "TR-TR": "Zayıf Enerji İksiri",
+        "AR-SA": "جرعة طاقة ثانوية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Fizzing potion. Instantly restores some Energy.",
+        "DE-DE": "Zischender Trank. Stellt sofort wieder etwas Energie her.",
+        "FR-FR": "Potion pétillante. Restaure instantanément votre énergie.",
+        "RU-RU": "Шипучий эликсир. Мгновенно восстанавливает часть энергии.",
+        "PL-PL": "Musująca mikstura. Natychmiastowo przywraca część energii.",
+        "ES-ES": "Poción burbujeante. Restaura energía mientras se bebe.",
+        "PT-BR": "Poção Efervescente. Restaura a energia imediatamente.",
+        "IT-IT": "Pozione frizzante. Rigenera all'istante parte dell'energia.",
+        "ZH-CN": "咕嘟冒泡的药水，可以迅速恢复部分能量。",
+        "KO-KR": "거품이 이는 포션. 일정 정도의 에너지를 즉시 회복합니다.",
+        "JA-JP": "シュッと泡立つポーション。即座にエネルギーが少し回復します。",
+        "ZH-TW": "滋滋冒泡的藥水。使用後能立即回復一些能量。",
+        "ID-ID": "Ramuan berbuih. Seketika memulihkan sebagian Energi.",
+        "TR-TR": "Fışırdayan bir iksir. Kısa bir süreliğine Enerji yenilerken bekleme dolma hızını artırır.",
+        "AR-SA": "جرعة فوارة. تزيد معدل فترات الانتظار الخاصة بك وتستعيد الطاقة لفترة قصيرة من الوقت."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T2_AGARIC",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T2_AGARIC",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.1285,
+        "crafting_focus": 56,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T2_AGARIC",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T2_AGARIC",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 2,
+        "weight": 0.1,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1285,
+          "crafting_focus": 78,
+          "crafting_resources": [
+            {
+              "id": "T2_AGARIC",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 5,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1285,
+          "crafting_focus": 123,
+          "crafting_resources": [
+            {
+              "id": "T2_AGARIC",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 5,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1285,
+          "crafting_focus": 256,
+          "crafting_resources": [
+            {
+              "id": "T2_AGARIC",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 5,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_ENERGY"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T2_POTION_ENERGY",
+        "item_database_index": "550"
+      },
+      "tier": 2,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Minor Energy Potion",
+        "name_ar": "جرعة طاقة ثانوية",
+        "name_de": "Kleiner Energietrank",
+        "name_fr": "Potion d'énergie mineure",
+        "name_es": "Poción de energía menor",
+        "name_ru": "Малый эликсир энергии"
+      },
+      "raw": {
+        "@uniquename": "T2_POTION_ENERGY",
+        "@uisprite": "POTION_ENERGY",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_ENERGY_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "2",
+        "@dummyitempower": "500",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.1",
+        "@descriptionlocatag": "@ITEMS_POTION_ENERGY_DESC",
+        "@shopsubcategory2": "energy",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "56",
+          "@time": "0.1285",
+          "craftresource": {
+            "@uniquename": "T2_AGARIC",
+            "@count": "8"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_ENERGY_P2",
+              "@dummyitempower": "600",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1285",
+                "@amountcrafted": "5",
+                "@craftingfocus": "78",
+                "craftresource": [
+                  {
+                    "@uniquename": "T2_AGARIC",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_ENERGY_P3",
+              "@dummyitempower": "700",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1285",
+                "@amountcrafted": "5",
+                "@craftingfocus": "123",
+                "craftresource": [
+                  {
+                    "@uniquename": "T2_AGARIC",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_ENERGY_P4",
+              "@dummyitempower": "800",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1285",
+                "@amountcrafted": "5",
+                "@craftingfocus": "256",
+                "craftresource": [
+                  {
+                    "@uniquename": "T2_AGARIC",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

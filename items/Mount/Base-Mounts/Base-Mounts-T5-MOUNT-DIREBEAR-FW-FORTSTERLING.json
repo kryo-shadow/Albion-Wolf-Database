@@ -1,0 +1,321 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Base_Mounts",
+  "base_id": "T5_MOUNT_DIREBEAR_FW_FORTSTERLING",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_MOUNT_DIREBEAR_FW_FORTSTERLING",
+      "index": "3052",
+      "name_en": "Saddled Winter Bear",
+      "name_ar": "دب شتوي مُسرج",
+      "name_de": "Gesattelter Winterbär",
+      "name_fr": "Ours de l'hiver sellé",
+      "name_es": "Oso de invierno ensillado",
+      "name_ru": "Оседланный белый медведь",
+      "descriptions": {
+        "description_en": "Mount - A special breed originally from the mountains around Fort Sterling.",
+        "description_ar": "مطية - سلالة خاصة تنحدر من الجبال حول Fort Sterling.",
+        "description_de": "Reittier - Eine besondere Zuchtlinie, ursprünglich aus den Bergen bei Fort Sterling.",
+        "description_fr": "Monture - Une espèce rare originaire des montagnes ceinturant Fort Sterling.",
+        "description_es": "Montura - Una raza especial originaria de las montañas de los alrededores de Fort Sterling.",
+        "description_ru": "Маунт - особая порода из гор, окружающих город Fort Sterling."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MOUNT_DIREBEAR_FW_FORTSTERLING",
+        "description_variable": "@ITEMS_T5_MOUNT_DIREBEAR_FW_FORTSTERLING_DESC"
+      },
+      "category": "Mount_Base_Mounts",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_MOUNT_DIREBEAR_FW_FORTSTERLING",
+        "uisprite": "MOUNT_DIREBEAR_FW_FORTSTERLING",
+        "mountcategory": "DIREBEARS",
+        "maxqualitylevel": "5",
+        "itempower": "800",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "basemounts",
+        "mountedbuff": "T6_MOUNT_DIREBEAR_MOUNTED",
+        "halfmountedbuff": "T6_MOUNT_DIREBEAR_HALFMOUNTED",
+        "tier": "5",
+        "weight": "35.4",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "40500",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "mounttime": "3",
+        "dismounttime": "0",
+        "mounthitpointsmax": "3379",
+        "mounthitpointsregeneration": "33.79",
+        "prefabname": "MOUNT_DIREBEAR_FW_FORTSTERLING_01",
+        "prefabscaling": "1.44",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "0.5",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "canusetownportal": "true",
+        "shopsubcategory2": "direbear",
+        "nutrition": "1859",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Saddled Winter Bear",
+        "DE-DE": "Gesattelter Winterbär",
+        "FR-FR": "Ours de l'hiver sellé",
+        "RU-RU": "Оседланный белый медведь",
+        "PL-PL": "Osiodłany Zimowy Niedźwiedź",
+        "ES-ES": "Oso de invierno ensillado",
+        "PT-BR": "Urso das Neves Selado",
+        "IT-IT": "Orso polare sellato",
+        "ZH-CN": "配鞍冬熊",
+        "KO-KR": "안장 달린 겨울 곰",
+        "JA-JP": "鞍付きウィンターベア",
+        "ZH-TW": "配鞍冬熊",
+        "ID-ID": "Beruang Salju Berpelana",
+        "TR-TR": "Eyerli Kış Ayısı",
+        "AR-SA": "دب شتوي مُسرج"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Mount - A special breed originally from the mountains around Fort Sterling.",
+        "DE-DE": "Reittier - Eine besondere Zuchtlinie, ursprünglich aus den Bergen bei Fort Sterling.",
+        "FR-FR": "Monture - Une espèce rare originaire des montagnes ceinturant Fort Sterling.",
+        "RU-RU": "Маунт - особая порода из гор, окружающих город Fort Sterling.",
+        "PL-PL": "Wierzchowiec - specjalny gatunek z gór w pobliżu Fort Sterling.",
+        "ES-ES": "Montura - Una raza especial originaria de las montañas de los alrededores de Fort Sterling.",
+        "PT-BR": "Montaria - uma raça especial original das montanhas ao redor de Fort Sterling.",
+        "IT-IT": "Cavalcatura - Una specie unica, originaria delle montagne intorno a Fort Sterling.",
+        "ZH-CN": "坐骑 - 一种特殊品种，原产于Fort Sterling附近的山地。",
+        "KO-KR": "탈것 - 본래 Fort Sterling의 산에서 살며 특별히 사육되었습니다.",
+        "JA-JP": "騎獣 - Fort Sterling周辺の山岳を原産とする特殊な品種。",
+        "ZH-TW": "坐騎 - 來自Fort Sterling附近山脈的特殊原生種。",
+        "ID-ID": "Tunggangan - Ras khusus yang berasal dari pegunungan di sekitar Fort Sterling.",
+        "TR-TR": "Binek. Kökeni Fort Sterling etrafındaki dağlara dayanan özel bir ırk.",
+        "AR-SA": "مطية - سلالة خاصة تنحدر من الجبال حول Fort Sterling."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T1_FACTION_MOUNTAIN_TOKEN_1",
+        "secondary_count": 5,
+        "resources": [
+          {
+            "id": "T5_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T1_FACTION_MOUNTAIN_TOKEN_1",
+            "count": 5
+          },
+          {
+            "id": "T5_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 1876,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T1_FACTION_MOUNTAIN_TOKEN_1",
+            "count": 5
+          },
+          {
+            "id": "T5_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T1_FACTION_MOUNTAIN_TOKEN_1",
+        "secondary_count": 5
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 800,
+        "ability_power": 100,
+        "durability": 40500,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 35.4,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_DIREBEAR_FW_FORTSTERLING_WINTERLORD",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_DIREBEAR_FW_FORTSTERLING_WINTERLORD",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 800,
+      "effective_durability": 40500,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "basemounts",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "MOUNT_DIREBEAR_FW_FORTSTERLING"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MOUNT_DIREBEAR_FW_FORTSTERLING",
+        "item_database_index": "3052"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Saddled Winter Bear",
+        "name_ar": "دب شتوي مُسرج",
+        "name_de": "Gesattelter Winterbär",
+        "name_fr": "Ours de l'hiver sellé",
+        "name_es": "Oso de invierno ensillado",
+        "name_ru": "Оседланный белый медведь"
+      },
+      "raw": {
+        "@uniquename": "T5_MOUNT_DIREBEAR_FW_FORTSTERLING",
+        "@uisprite": "MOUNT_DIREBEAR_FW_FORTSTERLING",
+        "@mountcategory": "DIREBEARS",
+        "@maxqualitylevel": "5",
+        "@itempower": "800",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "basemounts",
+        "@mountedbuff": "T6_MOUNT_DIREBEAR_MOUNTED",
+        "@halfmountedbuff": "T6_MOUNT_DIREBEAR_HALFMOUNTED",
+        "@tier": "5",
+        "@weight": "35.4",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "40500",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@mounttime": "3",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "3379",
+        "@mounthitpointsregeneration": "33.79",
+        "@prefabname": "MOUNT_DIREBEAR_FW_FORTSTERLING_01",
+        "@prefabscaling": "1.44",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "0.5",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@canusetownportal": "true",
+        "@shopsubcategory2": "direbear",
+        "@nutrition": "1859",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "1876",
+          "craftresource": [
+            {
+              "@uniquename": "T5_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T5_LEATHER",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T1_FACTION_MOUNTAIN_TOKEN_1",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_DIREBEAR_FW_FORTSTERLING_WINTERLORD"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

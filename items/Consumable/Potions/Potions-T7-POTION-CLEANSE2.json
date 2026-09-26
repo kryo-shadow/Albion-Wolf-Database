@@ -1,0 +1,572 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T7_POTION_CLEANSE2",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T7_POTION_CLEANSE2",
+      "index": "634",
+      "name_en": "Major Cleansing Potion",
+      "name_ar": "جرعة تطهير رئيسية",
+      "name_de": "Großer Reinigungstrank",
+      "name_fr": "Potion de purification majeure",
+      "name_es": "Poción de limpieza mayor",
+      "name_ru": "Большое очищающее зелье",
+      "descriptions": {
+        "description_en": "Invigorating potion. Cleanses you and makes you immune to Crowd Control effects for short period.",
+        "description_ar": "جرعة التنشيط تطهرك وتكسبك مناعة ضد تأثيرات التحكم في الحشود لمدة قصيرة.",
+        "description_de": "Erfrischender Trank. Reinigt dich und macht dich für eine kurze Zeit immun gegen CC-Effekte.",
+        "description_fr": "Potion revigorante. Elle vous purifie et vous immunise contre les effets de contrôle de foule pendant une courte période.",
+        "description_es": "Poción vigorizante. Te limpia y te hace inmune a los efectos de control de multitudes durante un corto periodo.",
+        "description_ru": "Бодрящее зелье. Очищает вас и на короткое время наделяет невосприимчивостью к эффектам контроля."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_POTION_CLEANSE2",
+        "description_variable": "@ITEMS_POTION_CLEANSE2_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_POTION_CLEANSE2",
+        "slottype": "potion",
+        "weight": "1.45",
+        "consumespell": "POTION_CLEANSE2_P5",
+        "dummyitempower": "1000",
+        "abilitypower": "186",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "tier": "7",
+        "craftingcategory": "potion",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "maxstacksize": "999",
+        "descriptionlocatag": "@ITEMS_POTION_CLEANSE2_DESC",
+        "shopsubcategory2": "cleanse"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Major Cleansing Potion",
+        "DE-DE": "Großer Reinigungstrank",
+        "FR-FR": "Potion de purification majeure",
+        "RU-RU": "Большое очищающее зелье",
+        "PL-PL": "Większa Mikstura Oczyszczająca",
+        "ES-ES": "Poción de limpieza mayor",
+        "PT-BR": "Poção Purificadora Maior",
+        "IT-IT": "Pozione purificante maggiore",
+        "ZH-CN": "高级净化药水",
+        "KO-KR": "대형 정화 포션",
+        "JA-JP": "浄化ポーション（大）",
+        "ZH-TW": "頂級淨化藥水",
+        "ID-ID": "Ramuan Pembersih Mayor",
+        "TR-TR": "Güçlü Arındırma İksiri",
+        "AR-SA": "جرعة تطهير رئيسية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Invigorating potion. Cleanses you and makes you immune to Crowd Control effects for short period.",
+        "DE-DE": "Erfrischender Trank. Reinigt dich und macht dich für eine kurze Zeit immun gegen CC-Effekte.",
+        "FR-FR": "Potion revigorante. Elle vous purifie et vous immunise contre les effets de contrôle de foule pendant une courte période.",
+        "RU-RU": "Бодрящее зелье. Очищает вас и на короткое время наделяет невосприимчивостью к эффектам контроля.",
+        "PL-PL": "Odżywiająca mikstura. Oczyszcza cię i czyni odpornym na efekty kontroli tłumu na krótki okres czasu.",
+        "ES-ES": "Poción vigorizante. Te limpia y te hace inmune a los efectos de control de multitudes durante un corto periodo.",
+        "PT-BR": "Poção revigorante. Lhe purifica e lhe deixa imune a efeitos de Controle de Grupo por um curto período.",
+        "IT-IT": "Pozione rinvigorente. Purifica e rende immuni agli effetti di Controllo sulla Folla per un breve periodo.",
+        "ZH-CN": "提神醒脑的药水。净化你的减益状态并使你在短时间内免疫群体控制效果。",
+        "KO-KR": "활력을 돋우는 포션. 자신을 정화시키며, 짧은 시간 동안 군중 제어 효과에 대한 면역을 부여합니다.",
+        "JA-JP": "活性化のポーション。体を浄化し、短時間CCの効果を受けなくなる。",
+        "ZH-TW": "提神醒腦的藥水。淨化您的減益狀態並使您在短時間內免疫群體控制效果。",
+        "ID-ID": "Ramuan yang menyegarkan. Membersihkan dan menjadikanmu kebal terhadap efek Kontrol Kerumunan untuk waktu yang singkat.",
+        "TR-TR": "Canlandırıcı bir iksir. Seni arındırır ve kısa bir süreliğine kitle kontrol etkilerine karşı bağışık yapar.",
+        "AR-SA": "جرعة التنشيط تطهرك وتكسبك مناعة ضد تأثيرات التحكم في الحشود لمدة قصيرة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_MULLEIN",
+        "primary_count": 144,
+        "secondary_resource": "T4_BURDOCK",
+        "secondary_count": 72,
+        "resources": [
+          {
+            "id": "T7_MULLEIN",
+            "count": 144
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 72
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 72
+          },
+          {
+            "id": "T6_BUTTER",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCHEMY_RARE_ENT",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5.857,
+        "crafting_focus": 1283,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_MULLEIN",
+            "count": 144
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 72
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 72
+          },
+          {
+            "id": "T6_BUTTER",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCHEMY_RARE_ENT",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_MULLEIN",
+        "primary_count": 144,
+        "secondary_resource": "T4_BURDOCK",
+        "secondary_count": 72
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 7,
+        "weight": 1.45,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.857,
+          "crafting_focus": 1484,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_ENT",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 144,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_BUTTER",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 90,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.857,
+          "crafting_focus": 1884,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_ENT",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 144,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_BUTTER",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 90,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.857,
+          "crafting_focus": 3085,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_ENT",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 144,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_BUTTER",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 90,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_POTION_CLEANSE2",
+        "item_database_index": "634"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Major Cleansing Potion",
+        "name_ar": "جرعة تطهير رئيسية",
+        "name_de": "Großer Reinigungstrank",
+        "name_fr": "Potion de purification majeure",
+        "name_es": "Poción de limpieza mayor",
+        "name_ru": "Большое очищающее зелье"
+      },
+      "raw": {
+        "@uniquename": "T7_POTION_CLEANSE2",
+        "@slottype": "potion",
+        "@weight": "1.45",
+        "@consumespell": "POTION_CLEANSE2_P5",
+        "@dummyitempower": "1000",
+        "@abilitypower": "186",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@tier": "7",
+        "@craftingcategory": "potion",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@maxstacksize": "999",
+        "@descriptionlocatag": "@ITEMS_POTION_CLEANSE2_DESC",
+        "@shopsubcategory2": "cleanse",
+        "craftingrequirements": {
+          "@time": "5.857",
+          "@amountcrafted": "10",
+          "@craftingfocus": "1283",
+          "craftresource": [
+            {
+              "@uniquename": "T7_ALCHEMY_RARE_ENT",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T7_MULLEIN",
+              "@count": "144"
+            },
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T3_COMFREY",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T6_BUTTER",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T7_ALCOHOL",
+              "@count": "36"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_CLEANSE2_P6",
+              "@dummyitempower": "1100",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.857",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1484",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_ENT",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_BUTTER",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_CLEANSE2_P7",
+              "@dummyitempower": "1200",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.857",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1884",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_ENT",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_BUTTER",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_CLEANSE2_P8",
+              "@dummyitempower": "1300",
+              "@abilitypower": "186",
+              "@weight": "3.5",
+              "craftingrequirements": {
+                "@time": "5.857",
+                "@amountcrafted": "10",
+                "@craftingfocus": "3085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_ENT",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_BUTTER",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

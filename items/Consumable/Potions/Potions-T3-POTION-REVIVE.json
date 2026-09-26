@@ -1,0 +1,374 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T3_POTION_REVIVE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_POTION_REVIVE",
+      "index": "562",
+      "name_en": "Minor Gigantify Potion",
+      "name_ar": "جرعة تضخيم ثانوية",
+      "name_de": "Kleiner Trank des Riesenwuchses",
+      "name_fr": "Potion de gigantisme mineure",
+      "name_es": "Poción de gigantismo menor",
+      "name_ru": "Малое зелье гиганта",
+      "descriptions": {
+        "description_en": "Mystical Potion. Temporarily increases your Max Carry Weight and Max Health and makes you immune to forced movement effects.",
+        "description_ar": "جرعة سحرية. تزيد مؤقتًا الحد الأقصى للوزن المحمول والحد الأقصى للصحة وتجعلك في حصانة ضد تأثيرات الحركة الإجبارية.",
+        "description_de": "Mystischer Trank. Erhöht für eine gewisse Zeit deine maximale Tragkraft und maximales Leben und macht dich immun gegen erzwungene Bewegungseffekte.",
+        "description_fr": "Potion mystique. Augmente temporairement votre poids maximal de portage et votre santé maximale et vous immunise contre les effets de mouvement forcé.",
+        "description_es": "Poción mística. Incrementa temporalmente tu capacidad de carga y tu salud máxima y te hace inmune a los efectos de movimiento forzado.",
+        "description_ru": "Мистическое зелье. Временно увеличивает максимальную грузоподъемность и максимальное здоровье, а также делает вас невосприимчивым к эффектам принудительного перемещения."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_POTION_REVIVE",
+        "description_variable": "@ITEMS_POTION_REVIVE_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_POTION_REVIVE",
+        "descriptionlocatag": "@ITEMS_POTION_REVIVE_DESC",
+        "uisprite": "POTION_GIGANTIFY",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_MAXHP_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "3",
+        "dummyitempower": "600",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.1",
+        "shopsubcategory2": "gigantify"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Minor Gigantify Potion",
+        "DE-DE": "Kleiner Trank des Riesenwuchses",
+        "FR-FR": "Potion de gigantisme mineure",
+        "RU-RU": "Малое зелье гиганта",
+        "PL-PL": "Mniejsza Mikstura Powiększenia",
+        "ES-ES": "Poción de gigantismo menor",
+        "PT-BR": "Poção de Crescimento Menor",
+        "IT-IT": "Pozione ingrandente minore",
+        "ZH-CN": "初级巨化药水",
+        "KO-KR": "소형 거대화 포션",
+        "JA-JP": "巨人化ポーション（小）",
+        "ZH-TW": "初級巨大化藥水",
+        "ID-ID": "Ramuan Pembesar Minor",
+        "TR-TR": "Zayıf Devleştirme İksiri",
+        "AR-SA": "جرعة تضخيم ثانوية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Mystical Potion. Temporarily increases your Max Carry Weight and Max Health and makes you immune to forced movement effects.",
+        "DE-DE": "Mystischer Trank. Erhöht für eine gewisse Zeit deine maximale Tragkraft und maximales Leben und macht dich immun gegen erzwungene Bewegungseffekte.",
+        "FR-FR": "Potion mystique. Augmente temporairement votre poids maximal de portage et votre santé maximale et vous immunise contre les effets de mouvement forcé.",
+        "RU-RU": "Мистическое зелье. Временно увеличивает максимальную грузоподъемность и максимальное здоровье, а также делает вас невосприимчивым к эффектам принудительного перемещения.",
+        "PL-PL": "Mistyczna Mikstura. Tymczasowo zwiększa twój maksymalny udźwig i maksymalne Zdrowie i czyni cię odpornym na efekty wymuszonego ruchu.",
+        "ES-ES": "Poción mística. Incrementa temporalmente tu capacidad de carga y tu salud máxima y te hace inmune a los efectos de movimiento forzado.",
+        "PT-BR": "Poção Mística. Aumenta temporariamente seu peso máximo de carga e saúde máxima e o torna imune a efeitos de movimento forçado.",
+        "IT-IT": "Pozione Mistica. Aumenta temporaneamente la tua Capacità di Carico Massima e la tua Salute Massima e ti rende immune agli effetti di movimento forzato.",
+        "ZH-CN": "神秘的药水。暂时提高你的最大负重量和最大生命值，且使你免疫强制位移效果。",
+        "KO-KR": "신비로운 물약. 일시적으로 최대 적재 무게와 최대 체력을 증가시키고, 강제 이동 효과에 대한 면역을 부여합니다.",
+        "JA-JP": "神秘のポーション。一時的に最大重量と最大HPが増加し、強制移動の効果を受けなくなる。",
+        "ZH-TW": "神祕莫測的藥水。使用後能暫時提升負重上限和生命值上限，並對強制位移效果免疫。",
+        "ID-ID": "Ramuan Mistis. Meningkatkan Bobot Angkut Maks dan HP Maks untuk sementara dan membuatmu kebal terhadap efek gerakan paksaan.",
+        "TR-TR": "Mistik İksir. Geçici olarak azami yük taşıma kapasiteni ve azami sağlığını artırıp zorunlu hareket etkilerine karşı bağışıklı kılar.",
+        "AR-SA": "جرعة سحرية. تزيد مؤقتًا الحد الأقصى للوزن المحمول والحد الأقصى للصحة وتجعلك في حصانة ضد تأثيرات الحركة الإجبارية."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_COMFREY",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T3_COMFREY",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.1285,
+        "crafting_focus": 56,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_COMFREY",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T3_COMFREY",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 0.1,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1285,
+          "crafting_focus": 78,
+          "crafting_resources": [
+            {
+              "id": "T3_COMFREY",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 5,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1285,
+          "crafting_focus": 123,
+          "crafting_resources": [
+            {
+              "id": "T3_COMFREY",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 5,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1285,
+          "crafting_focus": 256,
+          "crafting_resources": [
+            {
+              "id": "T3_COMFREY",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 5,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_GIGANTIFY"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_POTION_REVIVE",
+        "item_database_index": "562"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Minor Gigantify Potion",
+        "name_ar": "جرعة تضخيم ثانوية",
+        "name_de": "Kleiner Trank des Riesenwuchses",
+        "name_fr": "Potion de gigantisme mineure",
+        "name_es": "Poción de gigantismo menor",
+        "name_ru": "Малое зелье гиганта"
+      },
+      "raw": {
+        "@uniquename": "T3_POTION_REVIVE",
+        "@descriptionlocatag": "@ITEMS_POTION_REVIVE_DESC",
+        "@uisprite": "POTION_GIGANTIFY",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_MAXHP_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "3",
+        "@dummyitempower": "600",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.1",
+        "@shopsubcategory2": "gigantify",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "56",
+          "@time": "0.1285",
+          "craftresource": {
+            "@uniquename": "T3_COMFREY",
+            "@count": "8"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_MAXHP_P2",
+              "@dummyitempower": "700",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1285",
+                "@amountcrafted": "5",
+                "@craftingfocus": "78",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_MAXHP_P3",
+              "@dummyitempower": "800",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1285",
+                "@amountcrafted": "5",
+                "@craftingfocus": "123",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_MAXHP_P4",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1285",
+                "@amountcrafted": "5",
+                "@craftingfocus": "256",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

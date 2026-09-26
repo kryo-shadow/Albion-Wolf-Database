@@ -1,0 +1,3209 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Hammer",
+  "base_id": "T4_MAIN_HAMMER",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_MAIN_HAMMER",
+      "index": "9012",
+      "name_en": "Adept's Hammer",
+      "name_ar": "مطرقة البارع",
+      "name_de": "Hammer des Adepten",
+      "name_fr": "Marteau de l'adepte",
+      "name_es": "Martillo del iniciado",
+      "name_ru": "Молот (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_HAMMER",
+        "description_variable": "@ITEMS_T4_MAIN_HAMMER_DESC"
+      },
+      "category": "Weapons_Hammer",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_HAMMER",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "hammer",
+        "attacktype": "melee",
+        "mainhandanimationtype": "hammer",
+        "attackdamage": "39",
+        "attackspeed": "1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "13500",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0.2",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "hammer",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_HAMMERS_HAMMER",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "hammer_main_hammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Hammer",
+        "DE-DE": "Hammer des Adepten",
+        "FR-FR": "Marteau de l'adepte",
+        "RU-RU": "Молот (знаток)",
+        "PL-PL": "Młot Adepta",
+        "ES-ES": "Martillo del iniciado",
+        "PT-BR": "Martelo do Adepto",
+        "IT-IT": "Martello del sapiente",
+        "ZH-CN": "老手级锤子",
+        "KO-KR": "숙련자의 해머",
+        "JA-JP": "ハンマー（名人）",
+        "ZH-TW": "老手級鎚子",
+        "ID-ID": "Palu Mahir",
+        "TR-TR": "Ehil Çekici",
+        "AR-SA": "مطرقة البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_METALBAR",
+        "primary_count": 24,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_METALBAR",
+            "count": 24
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_METALBAR",
+            "count": 24
+          }
+        ],
+        "primary_resource": "T4_METALBAR",
+        "primary_count": 24,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": 39,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "hammer",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 13500,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HAMMERS_HAMMER",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HAMMER_SHOVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMER_TREMOR",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSTRIKE_HAMMER",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGESLOWAE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GEYSER",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKOUT",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "IRONBREAKER",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "TAR_RING",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMERWHIRLWIND2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HAMMER_SHOVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMER_TREMOR",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSTRIKE_HAMMER",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGESLOWAE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GEYSER",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKOUT",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "IRONBREAKER",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "TAR_RING",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMERWHIRLWIND2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 24,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 24,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 24,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 24,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 13500,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "hammer",
+        "crafting_category": "hammer",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_HAMMER",
+        "item_database_index": "9012"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Hammer",
+        "name_ar": "مطرقة البارع",
+        "name_de": "Hammer des Adepten",
+        "name_fr": "Marteau de l'adepte",
+        "name_es": "Martillo del iniciado",
+        "name_ru": "Молот (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_HAMMER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "hammer",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "hammer",
+        "@attackdamage": "39",
+        "@attackspeed": "1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "13500",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0.2",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "hammer",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_HAMMERS_HAMMER",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "hammer_main_hammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "1286",
+          "craftresource": {
+            "@uniquename": "T4_METALBAR",
+            "@count": "24"
+          }
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "HAMMER_SHOVE",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "HAMMER_TREMOR",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "THREATENINGSTRIKE_HAMMER",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "CHARGESLOWAE",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "GEYSER",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "KNOCKOUT",
+              "@slots": "2",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "IRONBREAKER",
+              "@slots": "1",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "TAR_RING",
+              "@slots": "2",
+              "@tag": "I"
+            },
+            {
+              "@uniquename": "HAMMERWHIRLWIND2",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_STUNCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "2251",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "24"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_HAMMER@1",
+      "index": "9013",
+      "name_en": "Adept's Hammer",
+      "name_ar": "مطرقة البارع",
+      "name_de": "Hammer des Adepten",
+      "name_fr": "Marteau de l'adepte",
+      "name_es": "Martillo del iniciado",
+      "name_ru": "Молот (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_HAMMER",
+        "description_variable": "@ITEMS_T4_MAIN_HAMMER_DESC"
+      },
+      "category": "Weapons_Hammer",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_HAMMER",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "hammer",
+        "attacktype": "melee",
+        "mainhandanimationtype": "hammer",
+        "attackdamage": "39",
+        "attackspeed": "1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "13500",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0.2",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "hammer",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_HAMMERS_HAMMER",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "hammer_main_hammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Hammer",
+        "DE-DE": "Hammer des Adepten",
+        "FR-FR": "Marteau de l'adepte",
+        "RU-RU": "Молот (знаток)",
+        "PL-PL": "Młot Adepta",
+        "ES-ES": "Martillo del iniciado",
+        "PT-BR": "Martelo do Adepto",
+        "IT-IT": "Martello del sapiente",
+        "ZH-CN": "老手级锤子",
+        "KO-KR": "숙련자의 해머",
+        "JA-JP": "ハンマー（名人）",
+        "ZH-TW": "老手級鎚子",
+        "ID-ID": "Palu Mahir",
+        "TR-TR": "Ehil Çekici",
+        "AR-SA": "مطرقة البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_METALBAR",
+        "primary_count": 24,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_METALBAR",
+            "count": 24
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_METALBAR",
+            "count": 24
+          }
+        ],
+        "primary_resource": "T4_METALBAR",
+        "primary_count": 24,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": 39,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "hammer",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 13500,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HAMMERS_HAMMER",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HAMMER_SHOVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMER_TREMOR",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSTRIKE_HAMMER",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGESLOWAE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GEYSER",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKOUT",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "IRONBREAKER",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "TAR_RING",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMERWHIRLWIND2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HAMMER_SHOVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMER_TREMOR",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSTRIKE_HAMMER",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGESLOWAE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GEYSER",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKOUT",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "IRONBREAKER",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "TAR_RING",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMERWHIRLWIND2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 24,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 24,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 24,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 24,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 800,
+        "durability": 20250,
+        "crafting_silver": 0,
+        "crafting_time": 1.5,
+        "crafting_focus": 2251,
+        "crafting_resources": [
+          {
+            "id": "T4_METALBAR_LEVEL1",
+            "count": 24,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 800,
+      "effective_durability": 20250,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "hammer",
+        "crafting_category": "hammer",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_HAMMER@1",
+        "item_database_index": "9013"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Hammer",
+        "name_ar": "مطرقة البارع",
+        "name_de": "Hammer des Adepten",
+        "name_fr": "Marteau de l'adepte",
+        "name_es": "Martillo del iniciado",
+        "name_ru": "Молот (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_HAMMER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "hammer",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "hammer",
+        "@attackdamage": "39",
+        "@attackspeed": "1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "13500",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0.2",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "hammer",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_HAMMERS_HAMMER",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "hammer_main_hammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "1286",
+          "craftresource": {
+            "@uniquename": "T4_METALBAR",
+            "@count": "24"
+          }
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "HAMMER_SHOVE",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "HAMMER_TREMOR",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "THREATENINGSTRIKE_HAMMER",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "CHARGESLOWAE",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "GEYSER",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "KNOCKOUT",
+              "@slots": "2",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "IRONBREAKER",
+              "@slots": "1",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "TAR_RING",
+              "@slots": "2",
+              "@tag": "I"
+            },
+            {
+              "@uniquename": "HAMMERWHIRLWIND2",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_STUNCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "2251",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "24"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_HAMMER@2",
+      "index": "9014",
+      "name_en": "Adept's Hammer",
+      "name_ar": "مطرقة البارع",
+      "name_de": "Hammer des Adepten",
+      "name_fr": "Marteau de l'adepte",
+      "name_es": "Martillo del iniciado",
+      "name_ru": "Молот (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_HAMMER",
+        "description_variable": "@ITEMS_T4_MAIN_HAMMER_DESC"
+      },
+      "category": "Weapons_Hammer",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_HAMMER",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "hammer",
+        "attacktype": "melee",
+        "mainhandanimationtype": "hammer",
+        "attackdamage": "39",
+        "attackspeed": "1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "13500",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0.2",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "hammer",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_HAMMERS_HAMMER",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "hammer_main_hammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Hammer",
+        "DE-DE": "Hammer des Adepten",
+        "FR-FR": "Marteau de l'adepte",
+        "RU-RU": "Молот (знаток)",
+        "PL-PL": "Młot Adepta",
+        "ES-ES": "Martillo del iniciado",
+        "PT-BR": "Martelo do Adepto",
+        "IT-IT": "Martello del sapiente",
+        "ZH-CN": "老手级锤子",
+        "KO-KR": "숙련자의 해머",
+        "JA-JP": "ハンマー（名人）",
+        "ZH-TW": "老手級鎚子",
+        "ID-ID": "Palu Mahir",
+        "TR-TR": "Ehil Çekici",
+        "AR-SA": "مطرقة البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_METALBAR",
+        "primary_count": 24,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_METALBAR",
+            "count": 24
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_METALBAR",
+            "count": 24
+          }
+        ],
+        "primary_resource": "T4_METALBAR",
+        "primary_count": 24,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": 39,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "hammer",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 13500,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HAMMERS_HAMMER",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HAMMER_SHOVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMER_TREMOR",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSTRIKE_HAMMER",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGESLOWAE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GEYSER",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKOUT",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "IRONBREAKER",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "TAR_RING",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMERWHIRLWIND2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HAMMER_SHOVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMER_TREMOR",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSTRIKE_HAMMER",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGESLOWAE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GEYSER",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKOUT",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "IRONBREAKER",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "TAR_RING",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMERWHIRLWIND2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 24,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 24,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 24,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 24,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 900,
+        "durability": 30375,
+        "crafting_silver": 0,
+        "crafting_time": 2,
+        "crafting_focus": 3939,
+        "crafting_resources": [
+          {
+            "id": "T4_METALBAR_LEVEL2",
+            "count": 24,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 900,
+      "effective_durability": 30375,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "hammer",
+        "crafting_category": "hammer",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_HAMMER@2",
+        "item_database_index": "9014"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Hammer",
+        "name_ar": "مطرقة البارع",
+        "name_de": "Hammer des Adepten",
+        "name_fr": "Marteau de l'adepte",
+        "name_es": "Martillo del iniciado",
+        "name_ru": "Молот (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_HAMMER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "hammer",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "hammer",
+        "@attackdamage": "39",
+        "@attackspeed": "1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "13500",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0.2",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "hammer",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_HAMMERS_HAMMER",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "hammer_main_hammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "1286",
+          "craftresource": {
+            "@uniquename": "T4_METALBAR",
+            "@count": "24"
+          }
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "HAMMER_SHOVE",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "HAMMER_TREMOR",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "THREATENINGSTRIKE_HAMMER",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "CHARGESLOWAE",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "GEYSER",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "KNOCKOUT",
+              "@slots": "2",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "IRONBREAKER",
+              "@slots": "1",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "TAR_RING",
+              "@slots": "2",
+              "@tag": "I"
+            },
+            {
+              "@uniquename": "HAMMERWHIRLWIND2",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_STUNCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "2251",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "24"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_HAMMER@3",
+      "index": "9015",
+      "name_en": "Adept's Hammer",
+      "name_ar": "مطرقة البارع",
+      "name_de": "Hammer des Adepten",
+      "name_fr": "Marteau de l'adepte",
+      "name_es": "Martillo del iniciado",
+      "name_ru": "Молот (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_HAMMER",
+        "description_variable": "@ITEMS_T4_MAIN_HAMMER_DESC"
+      },
+      "category": "Weapons_Hammer",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_HAMMER",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "hammer",
+        "attacktype": "melee",
+        "mainhandanimationtype": "hammer",
+        "attackdamage": "39",
+        "attackspeed": "1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "13500",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0.2",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "hammer",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_HAMMERS_HAMMER",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "hammer_main_hammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Hammer",
+        "DE-DE": "Hammer des Adepten",
+        "FR-FR": "Marteau de l'adepte",
+        "RU-RU": "Молот (знаток)",
+        "PL-PL": "Młot Adepta",
+        "ES-ES": "Martillo del iniciado",
+        "PT-BR": "Martelo do Adepto",
+        "IT-IT": "Martello del sapiente",
+        "ZH-CN": "老手级锤子",
+        "KO-KR": "숙련자의 해머",
+        "JA-JP": "ハンマー（名人）",
+        "ZH-TW": "老手級鎚子",
+        "ID-ID": "Palu Mahir",
+        "TR-TR": "Ehil Çekici",
+        "AR-SA": "مطرقة البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_METALBAR",
+        "primary_count": 24,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_METALBAR",
+            "count": 24
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_METALBAR",
+            "count": 24
+          }
+        ],
+        "primary_resource": "T4_METALBAR",
+        "primary_count": 24,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": 39,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "hammer",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 13500,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HAMMERS_HAMMER",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HAMMER_SHOVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMER_TREMOR",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSTRIKE_HAMMER",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGESLOWAE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GEYSER",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKOUT",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "IRONBREAKER",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "TAR_RING",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMERWHIRLWIND2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HAMMER_SHOVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMER_TREMOR",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSTRIKE_HAMMER",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGESLOWAE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GEYSER",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKOUT",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "IRONBREAKER",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "TAR_RING",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMERWHIRLWIND2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 24,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 24,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 24,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 24,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1000,
+        "durability": 45563,
+        "crafting_silver": 0,
+        "crafting_time": 2.5,
+        "crafting_focus": 6893,
+        "crafting_resources": [
+          {
+            "id": "T4_METALBAR_LEVEL3",
+            "count": 24,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 45563,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "hammer",
+        "crafting_category": "hammer",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_HAMMER@3",
+        "item_database_index": "9015"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Hammer",
+        "name_ar": "مطرقة البارع",
+        "name_de": "Hammer des Adepten",
+        "name_fr": "Marteau de l'adepte",
+        "name_es": "Martillo del iniciado",
+        "name_ru": "Молот (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_HAMMER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "hammer",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "hammer",
+        "@attackdamage": "39",
+        "@attackspeed": "1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "13500",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0.2",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "hammer",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_HAMMERS_HAMMER",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "hammer_main_hammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "1286",
+          "craftresource": {
+            "@uniquename": "T4_METALBAR",
+            "@count": "24"
+          }
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "HAMMER_SHOVE",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "HAMMER_TREMOR",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "THREATENINGSTRIKE_HAMMER",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "CHARGESLOWAE",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "GEYSER",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "KNOCKOUT",
+              "@slots": "2",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "IRONBREAKER",
+              "@slots": "1",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "TAR_RING",
+              "@slots": "2",
+              "@tag": "I"
+            },
+            {
+              "@uniquename": "HAMMERWHIRLWIND2",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_STUNCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "2251",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "24"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_HAMMER@4",
+      "index": "9016",
+      "name_en": "Adept's Hammer",
+      "name_ar": "مطرقة البارع",
+      "name_de": "Hammer des Adepten",
+      "name_fr": "Marteau de l'adepte",
+      "name_es": "Martillo del iniciado",
+      "name_ru": "Молот (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_HAMMER",
+        "description_variable": "@ITEMS_T4_MAIN_HAMMER_DESC"
+      },
+      "category": "Weapons_Hammer",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_HAMMER",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "hammer",
+        "attacktype": "melee",
+        "mainhandanimationtype": "hammer",
+        "attackdamage": "39",
+        "attackspeed": "1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "13500",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0.2",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "hammer",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_HAMMERS_HAMMER",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "hammer_main_hammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Hammer",
+        "DE-DE": "Hammer des Adepten",
+        "FR-FR": "Marteau de l'adepte",
+        "RU-RU": "Молот (знаток)",
+        "PL-PL": "Młot Adepta",
+        "ES-ES": "Martillo del iniciado",
+        "PT-BR": "Martelo do Adepto",
+        "IT-IT": "Martello del sapiente",
+        "ZH-CN": "老手级锤子",
+        "KO-KR": "숙련자의 해머",
+        "JA-JP": "ハンマー（名人）",
+        "ZH-TW": "老手級鎚子",
+        "ID-ID": "Palu Mahir",
+        "TR-TR": "Ehil Çekici",
+        "AR-SA": "مطرقة البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_METALBAR",
+        "primary_count": 24,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_METALBAR",
+            "count": 24
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_METALBAR",
+            "count": 24
+          }
+        ],
+        "primary_resource": "T4_METALBAR",
+        "primary_count": 24,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": 39,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "hammer",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 13500,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HAMMERS_HAMMER",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HAMMER_SHOVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMER_TREMOR",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSTRIKE_HAMMER",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGESLOWAE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GEYSER",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKOUT",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "IRONBREAKER",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "TAR_RING",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMERWHIRLWIND2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HAMMER_SHOVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMER_TREMOR",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSTRIKE_HAMMER",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGESLOWAE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GEYSER",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKOUT",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "IRONBREAKER",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "TAR_RING",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMMERWHIRLWIND2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 24,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 24,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 24,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 24,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1100,
+        "durability": 68344,
+        "crafting_silver": 0,
+        "crafting_time": 3.75,
+        "crafting_focus": 12064,
+        "crafting_resources": [
+          {
+            "id": "T4_METALBAR_LEVEL4",
+            "count": 24,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 68344,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "hammer",
+        "crafting_category": "hammer",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_HAMMER@4",
+        "item_database_index": "9016"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Hammer",
+        "name_ar": "مطرقة البارع",
+        "name_de": "Hammer des Adepten",
+        "name_fr": "Marteau de l'adepte",
+        "name_es": "Martillo del iniciado",
+        "name_ru": "Молот (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_HAMMER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "hammer",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "hammer",
+        "@attackdamage": "39",
+        "@attackspeed": "1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "13500",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0.2",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "hammer",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_HAMMERS_HAMMER",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "hammer_main_hammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "1286",
+          "craftresource": {
+            "@uniquename": "T4_METALBAR",
+            "@count": "24"
+          }
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "HAMMER_SHOVE",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "HAMMER_TREMOR",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "THREATENINGSTRIKE_HAMMER",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "CHARGESLOWAE",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "GEYSER",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "KNOCKOUT",
+              "@slots": "2",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "IRONBREAKER",
+              "@slots": "1",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "TAR_RING",
+              "@slots": "2",
+              "@tag": "I"
+            },
+            {
+              "@uniquename": "HAMMERWHIRLWIND2",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_STUNCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_HAMMER",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "PASSIVE_HEALTHCHANCE_HAMMER",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_CCDURATION_CHANCE_HAMMER",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "2251",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "24"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": {
+                  "@uniquename": "T4_METALBAR_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "24"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

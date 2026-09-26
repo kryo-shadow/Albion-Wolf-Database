@@ -1,0 +1,223 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Resources",
+  "base_id": "T5_FIBER_LEVEL2",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_FIBER_LEVEL2",
+      "index": "1066",
+      "name_en": "Rare Skyflower",
+      "name_ar": "زهور دورانتا نادرة",
+      "name_de": "Seltene Himmelsblume",
+      "name_fr": "Vanillier de Cayenne rare",
+      "name_es": "Duranta rara",
+      "name_ru": "Редкий звездоцвет",
+      "descriptions": {
+        "description_en": "Raw material. Can be refined into cloth or transmuted into higher-level fiber.",
+        "description_ar": "مادة خام. يمكن معالجتها إلى قماش أو تحويلها إلى ألياف من مستوى أعلى.",
+        "description_de": "Rohmaterial. Kann zu Stoff verarbeitet oder in Fasern höherer Qualität verwandelt werden.",
+        "description_fr": "Matière première. Peut être raffiné en tissu ou transmuté en fibre de niveau supérieur.",
+        "description_es": "Materia prima. Se puede refinar para obtener tela o transmutar en fibra de nivel superior.",
+        "description_ru": "Сырье. Может быть переработано в ткань или улучшено до более высокого уровня."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FIBER_LEVEL2",
+        "description_variable": "@ITEMS_FIBER_DESC"
+      },
+      "category": "Crafting_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_FIBER_LEVEL2",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "resources",
+        "tier": "5",
+        "enchantmentlevel": "2",
+        "resourcetype": "FIBER_LEVEL2",
+        "weight": "0.76",
+        "maxstacksize": "999",
+        "unlockedtocraft": "true",
+        "fasttravelfactor": "16",
+        "itemvalue": "21.34",
+        "famevalue": "90",
+        "dontgivefameoncraft": "true",
+        "descriptionlocatag": "@ITEMS_FIBER_DESC",
+        "shopsubcategory2": "fiber"
+      },
+      "item_stats": {
+        "itemvalue": "21.34",
+        "resourcevalue": null,
+        "famevalue": "90",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Rare Skyflower",
+        "DE-DE": "Seltene Himmelsblume",
+        "FR-FR": "Vanillier de Cayenne rare",
+        "RU-RU": "Редкий звездоцвет",
+        "PL-PL": "Rzadka Witułka",
+        "ES-ES": "Duranta rara",
+        "PT-BR": "Verbena Rara",
+        "IT-IT": "Fioreterei rari",
+        "ZH-CN": "稀有金露花",
+        "KO-KR": "레어 스카이플라워",
+        "JA-JP": "スカイフラワー（レア）",
+        "ZH-TW": "稀有金露花",
+        "ID-ID": "Bunga Langit Langka",
+        "TR-TR": "Nadir Gökçiçeği",
+        "AR-SA": "زهور دورانتا نادرة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Raw material. Can be refined into cloth or transmuted into higher-level fiber.",
+        "DE-DE": "Rohmaterial. Kann zu Stoff verarbeitet oder in Fasern höherer Qualität verwandelt werden.",
+        "FR-FR": "Matière première. Peut être raffiné en tissu ou transmuté en fibre de niveau supérieur.",
+        "RU-RU": "Сырье. Может быть переработано в ткань или улучшено до более высокого уровня.",
+        "PL-PL": "Surowiec. Może być przerobiony na materiał lub transmutowany w włókno wyższego stopnia.",
+        "ES-ES": "Materia prima. Se puede refinar para obtener tela o transmutar en fibra de nivel superior.",
+        "PT-BR": "Material bruto. Pode ser refinado em tecido ou transmutado em fibra de nível maior.",
+        "IT-IT": "Materiale grezzo. Può essere raffinato in stoffa o trasmutato in fibre di livello superiore",
+        "ZH-CN": "基础资源。可以加工成布或转化成等级更高的纤维作物。",
+        "KO-KR": "원자재. 직물로 제련하거나 더 높은 레벨의 섬유로 변형될 수 있습니다.",
+        "JA-JP": "原材料。布に精製可、もしくはより高いティアのヘンプに変換できます。",
+        "ZH-TW": "一種原料。可精煉成布料，或轉換成更高等級的纖維。",
+        "ID-ID": "Material mentah. Bisa disempurnakan menjadi kain atau ditingkatkan menjadi serat level lebih tinggi.",
+        "TR-TR": "Ham madde. Kumaş elde etmek için işlenebilir veya yüksek seviye life dönüştürülebilir.",
+        "AR-SA": "مادة خام. يمكن معالجتها إلى قماش أو تحويلها إلى ألياف من مستوى أعلى."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_FIBER_LEVEL2",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_FIBER_LEVEL2",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 3125,
+        "time": 0.01042,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_FIBER_LEVEL2",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_FIBER_LEVEL2",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 0.76,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "resources",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FIBER_LEVEL2",
+        "item_database_index": "1066"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Rare Skyflower",
+        "name_ar": "زهور دورانتا نادرة",
+        "name_de": "Seltene Himmelsblume",
+        "name_fr": "Vanillier de Cayenne rare",
+        "name_es": "Duranta rara",
+        "name_ru": "Редкий звездоцвет"
+      },
+      "raw": {
+        "@uniquename": "T5_FIBER_LEVEL2",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "resources",
+        "@tier": "5",
+        "@enchantmentlevel": "2",
+        "@resourcetype": "FIBER_LEVEL2",
+        "@weight": "0.76",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@fasttravelfactor": "16",
+        "@itemvalue": "21.34",
+        "@famevalue": "90",
+        "@dontgivefameoncraft": "true",
+        "@descriptionlocatag": "@ITEMS_FIBER_DESC",
+        "@shopsubcategory2": "fiber",
+        "craftingrequirements": [
+          {
+            "@silver": "3125",
+            "@time": "0.01042",
+            "@craftingfocus": "0",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_TRANSMUTE",
+            "craftresource": {
+              "@uniquename": "T4_FIBER_LEVEL2",
+              "@enchantmentlevel": "2",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@silver": "4000",
+            "@time": "0.01042",
+            "@craftingfocus": "0",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_TRANSMUTE",
+            "craftresource": {
+              "@uniquename": "T5_FIBER_LEVEL1",
+              "@enchantmentlevel": "1",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

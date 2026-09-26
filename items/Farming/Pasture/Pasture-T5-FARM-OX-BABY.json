@@ -1,0 +1,222 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Pasture",
+  "base_id": "T5_FARM_OX_BABY",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_FARM_OX_BABY",
+      "index": "27",
+      "name_en": "Expert's Ox Calf",
+      "name_ar": "عجل الثور للأخصائي",
+      "name_de": "Ochsenkalb des Experten",
+      "name_fr": "Veau de l'expert",
+      "name_es": "Becerro del experto",
+      "name_ru": "Бычок (эксперт)",
+      "descriptions": {
+        "description_en": "Grows into an Expert's Ox, which can be used to craft an Expert's Transport Ox.",
+        "description_ar": "ينمو ليصبح ثور الأخصائي، والذي يمكن استخدامه لتصنيع ثور نقل للأخصائي.",
+        "description_de": "Wird zu einem Ochsen des Experten, woraus ein Transportochse des Experten gefertigt werden kann.",
+        "description_fr": "Devient un bœuf de l'expert pouvant être utilisé pour fabriquer un bœuf de transport de l'expert",
+        "description_es": "Se convierte en un buey del experto, que se puede utilizar para crear un buey de transporte del experto.",
+        "description_ru": "Вырастет в быка эксперта, которого можно сделать ездовым."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FARM_OX_BABY",
+        "description_variable": "@ITEMS_T5_FARM_OX_BABY_DESC"
+      },
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_FARM_OX_BABY",
+        "tier": "5",
+        "placefame": "0",
+        "pickupable": "true",
+        "destroyable": "false",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "pasture",
+        "kind": "animal",
+        "weight": "1.5",
+        "unlockedtocraft": "true",
+        "animationid": "breed",
+        "prefabname": "FARM_OX_BABY_03",
+        "prefabscale": "0.72",
+        "resourcevalue": "0",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "3",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "0.0889",
+        "shopsubcategory2": "babys",
+        "shopsubcategory3": "ox"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Ox Calf",
+        "DE-DE": "Ochsenkalb des Experten",
+        "FR-FR": "Veau de l'expert",
+        "RU-RU": "Бычок (эксперт)",
+        "PL-PL": "Cielę Wołu Znawcy",
+        "ES-ES": "Becerro del experto",
+        "PT-BR": "Novilho do Perito",
+        "IT-IT": "Vitello di bue dell'esperto",
+        "ZH-CN": "专家级牛犊",
+        "KO-KR": "전문가의 황소 송아지",
+        "JA-JP": "子牛（達人）",
+        "ZH-TW": "專家級小公牛",
+        "ID-ID": "Anak Lembu Ahli",
+        "TR-TR": "Uzman Buzağısı",
+        "AR-SA": "عجل الثور للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grows into an Expert's Ox, which can be used to craft an Expert's Transport Ox.",
+        "DE-DE": "Wird zu einem Ochsen des Experten, woraus ein Transportochse des Experten gefertigt werden kann.",
+        "FR-FR": "Devient un bœuf de l'expert pouvant être utilisé pour fabriquer un bœuf de transport de l'expert",
+        "RU-RU": "Вырастет в быка эксперта, которого можно сделать ездовым.",
+        "PL-PL": "Z czasem staje się Wołem Znawcy, którego można użyć do stworzenia Wołu Pociągowego Znawcy.",
+        "ES-ES": "Se convierte en un buey del experto, que se puede utilizar para crear un buey de transporte del experto.",
+        "PT-BR": "Cresce e vira um Boi do Perito, que pode ser usado para virar um Boi de Transporte do Perito.",
+        "IT-IT": "Crescendo diventa un bue dell'esperto, che si può usare per creare un Bue da Soma dell'esperto.",
+        "ZH-CN": "可以长成专家级成年牛，之后可以驯养成为专家级役牛。",
+        "KO-KR": "자라면 전문가의 황소가 되어, 전문가의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると牛（達人）になります。荷運び牛（達人）の製造に使用可能です。",
+        "ZH-TW": "長大後成為專家級公牛，可訓練成專家級運輸公牛。",
+        "ID-ID": "Tumbuh menjadi Lembu Ahli, yang bisa digunakan untuk membuat Lembu Pengangkut Ahli.",
+        "TR-TR": "Yetiştiğinde Uzman Öküzü olur ve bir Uzman Yük Öküzü zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح ثور الأخصائي، والذي يمكن استخدامه لتصنيع ثور نقل للأخصائي."
+      },
+      "crafting_requirements": null,
+      "crafting_full": {
+        "silver": 225000,
+        "time": 0,
+        "crafting_focus": 0,
+        "swap_transaction": true,
+        "resources": [],
+        "primary_resource": "",
+        "primary_count": 0,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 1.5,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "pasture",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FARM_OX_BABY",
+        "item_database_index": "27"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Ox Calf",
+        "name_ar": "عجل الثور للأخصائي",
+        "name_de": "Ochsenkalb des Experten",
+        "name_fr": "Veau de l'expert",
+        "name_es": "Becerro del experto",
+        "name_ru": "Бычок (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_FARM_OX_BABY",
+        "@tier": "5",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_OX_BABY_03",
+        "@prefabscale": "0.72",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "3",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.0889",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "ox",
+        "craftingrequirements": {
+          "@silver": "225000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T5_FARM_OX_GROWN",
+          "@growtime": "504000",
+          "@fame": "300",
+          "offspring": {
+            "@chance": "0.7867",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "1488",
+            "@secondspernutrition": "116.67",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

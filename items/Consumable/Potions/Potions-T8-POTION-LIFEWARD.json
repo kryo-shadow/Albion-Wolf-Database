@@ -1,0 +1,571 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T8_POTION_LIFEWARD",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_POTION_LIFEWARD",
+      "index": "706",
+      "name_en": "Major Lifeward Potion",
+      "name_ar": "جرعة نحو الحياة الكبرى",
+      "name_de": "Großer Lebensschutztrank",
+      "name_fr": "Potion de Garde-Vie Majeure",
+      "name_es": "Poción Guardavida Mayor",
+      "name_ru": "Большое зелье оберега",
+      "descriptions": {
+        "description_en": "Ethereal Potion. Can be thrown at targeted ground location to create an area that protects allies from death.",
+        "description_ar": "جرعة روحية. يمكن إلقاؤها على موقع محدد على الأرض لإنشاء منطقة تحمي الحلفاء من الموت.",
+        "description_de": "Ätherischer Trank. Kann auf den Boden geworfen werden, um einen Bereich zu schaffen, der Verbündete vor dem Tod schützt.",
+        "description_fr": "Potion Éthérée. Peut être lancée sur le sol à l'endroit visé pour créer une zone protégeant les alliés de la mort.",
+        "description_es": "Poción Etérea. Se puede lanzar a un punto específico del terreno para crear una zona que protege a los aliados de la muerte.",
+        "description_ru": "Эфирное зелье. Можно бросить в выбранную точку, чтобы создать область, защищающую союзников от смерти."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_POTION_LIFEWARD",
+        "description_variable": "@ITEMS_POTION_LIFEWARD_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_POTION_LIFEWARD",
+        "slottype": "potion",
+        "weight": "1.46",
+        "consumespell": "POTION_REVIVE_P5",
+        "dummyitempower": "1100",
+        "abilitypower": "186",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "tier": "8",
+        "craftingcategory": "potion",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "maxstacksize": "999",
+        "descriptionlocatag": "@ITEMS_POTION_LIFEWARD_DESC",
+        "shopsubcategory2": "lifeward"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Major Lifeward Potion",
+        "DE-DE": "Großer Lebensschutztrank",
+        "FR-FR": "Potion de Garde-Vie Majeure",
+        "RU-RU": "Большое зелье оберега",
+        "PL-PL": "Wielka Mikstura Ochrony Życia",
+        "ES-ES": "Poción Guardavida Mayor",
+        "PT-BR": "Poção Salva-vidas Maior",
+        "IT-IT": "Pozione Salvavita Maggiore",
+        "ZH-CN": "高级生命守护药水",
+        "KO-KR": "대형 생명의 수호 포션",
+        "JA-JP": "ライフワードのポーション（大）",
+        "ZH-TW": "高級生命守護藥水",
+        "ID-ID": "Ramuan Tamengnyawa Minor",
+        "TR-TR": "Büyük Yaşamkalkanı İksiri",
+        "AR-SA": "جرعة نحو الحياة الكبرى"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Ethereal Potion. Can be thrown at targeted ground location to create an area that protects allies from death.",
+        "DE-DE": "Ätherischer Trank. Kann auf den Boden geworfen werden, um einen Bereich zu schaffen, der Verbündete vor dem Tod schützt.",
+        "FR-FR": "Potion Éthérée. Peut être lancée sur le sol à l'endroit visé pour créer une zone protégeant les alliés de la mort.",
+        "RU-RU": "Эфирное зелье. Можно бросить в выбранную точку, чтобы создать область, защищающую союзников от смерти.",
+        "PL-PL": "Eteryczna mikstura. Można nią rzucić we wskazane miejsce na ziemi, aby stworzyć obszar chroniący sojuszników przed śmiercią.",
+        "ES-ES": "Poción Etérea. Se puede lanzar a un punto específico del terreno para crear una zona que protege a los aliados de la muerte.",
+        "PT-BR": "Poção Etérea. Pode ser jogada num local alvo no chão para criar uma área que protege os aliados da morte.",
+        "IT-IT": "Pozione Eterea. Può essere lanciata su un punto specifico del terreno per creare un'area che protegge gli alleati dalla morte.",
+        "ZH-CN": "空灵药水。可投掷至攻击目标地面位置，创建一片区域，保护友方免于阵亡。",
+        "KO-KR": "천상의 포션. 특정 위치의 바닥에 던지면 아군을 죽지 않게 보호하는 영역을 만듭니다.",
+        "JA-JP": "エーテルのポーション。指定した地面に投げることで、味方を死亡から守るエリアを作成する。",
+        "ZH-TW": "虛無藥水。可投擲至指定目標地面，建立一片領域，庇佑友軍免於陣亡。",
+        "ID-ID": "Ramuan Surgawi. Dapat dilemparkan ke lokasi target untuk membentuk area yang melindungi sekutu dari kematian.",
+        "TR-TR": "Ulvi İksir. Müttefikleri ölmekten koruyan bir alan oluşturmak üzere hedeflenen konuma atılabilir.",
+        "AR-SA": "جرعة روحية. يمكن إلقاؤها على موقع محدد على الأرض لإنشاء منطقة تحمي الحلفاء من الموت."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_YARROW",
+        "primary_count": 144,
+        "secondary_resource": "T7_MULLEIN",
+        "secondary_count": 72,
+        "resources": [
+          {
+            "id": "T8_YARROW",
+            "count": 144
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 72
+          },
+          {
+            "id": "T5_TEASEL",
+            "count": 72
+          },
+          {
+            "id": "T2_AGARIC",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCHEMY_RARE_DRAGONAREA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5.903,
+        "crafting_focus": 1296,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_YARROW",
+            "count": 144
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 72
+          },
+          {
+            "id": "T5_TEASEL",
+            "count": 72
+          },
+          {
+            "id": "T2_AGARIC",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCHEMY_RARE_DRAGONAREA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_YARROW",
+        "primary_count": 144,
+        "secondary_resource": "T7_MULLEIN",
+        "secondary_count": 72
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 1.46,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.903,
+          "crafting_focus": 1496,
+          "crafting_resources": [
+            {
+              "id": "T8_ALCHEMY_RARE_DRAGONAREA",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 144,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T2_AGARIC",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 90,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.903,
+          "crafting_focus": 1896,
+          "crafting_resources": [
+            {
+              "id": "T8_ALCHEMY_RARE_DRAGONAREA",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 144,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T2_AGARIC",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 90,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.903,
+          "crafting_focus": 3097,
+          "crafting_resources": [
+            {
+              "id": "T8_ALCHEMY_RARE_DRAGONAREA",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 144,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_TEASEL",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T2_AGARIC",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 90,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_POTION_LIFEWARD",
+        "item_database_index": "706"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Major Lifeward Potion",
+        "name_ar": "جرعة نحو الحياة الكبرى",
+        "name_de": "Großer Lebensschutztrank",
+        "name_fr": "Potion de Garde-Vie Majeure",
+        "name_es": "Poción Guardavida Mayor",
+        "name_ru": "Большое зелье оберега"
+      },
+      "raw": {
+        "@uniquename": "T8_POTION_LIFEWARD",
+        "@slottype": "potion",
+        "@weight": "1.46",
+        "@consumespell": "POTION_REVIVE_P5",
+        "@dummyitempower": "1100",
+        "@abilitypower": "186",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@tier": "8",
+        "@craftingcategory": "potion",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@maxstacksize": "999",
+        "@descriptionlocatag": "@ITEMS_POTION_LIFEWARD_DESC",
+        "@shopsubcategory2": "lifeward",
+        "craftingrequirements": {
+          "@time": "5.903",
+          "@amountcrafted": "10",
+          "@craftingfocus": "1296",
+          "craftresource": [
+            {
+              "@uniquename": "T8_ALCHEMY_RARE_DRAGONAREA",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T8_YARROW",
+              "@count": "144"
+            },
+            {
+              "@uniquename": "T7_MULLEIN",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T5_TEASEL",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T2_AGARIC",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T8_ALCOHOL",
+              "@count": "36"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_REVIVE_P6",
+              "@dummyitempower": "1200",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.903",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1496",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_ALCHEMY_RARE_DRAGONAREA",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T2_AGARIC",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_REVIVE_P7",
+              "@dummyitempower": "1300",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.903",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1896",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_ALCHEMY_RARE_DRAGONAREA",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T2_AGARIC",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_REVIVE_P8",
+              "@dummyitempower": "1400",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.903",
+                "@amountcrafted": "10",
+                "@craftingfocus": "3097",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_ALCHEMY_RARE_DRAGONAREA",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T2_AGARIC",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,4104 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Chest_Armor",
+  "family": "Chest_Armor_Leather_Jackets",
+  "base_id": "T4_ARMOR_LEATHER_ROYAL",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_ARMOR_LEATHER_ROYAL",
+      "index": "5439",
+      "name_en": "Adept's Royal Jacket",
+      "name_ar": "سترة ملكية للبارع",
+      "name_de": "Königliche Jacke des Adepten",
+      "name_fr": "Veste royale d'adepte",
+      "name_es": "Chaqueta real del iniciado",
+      "name_ru": "Королевская куртка (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item\nLeather Armors are balanced between defense and offense.",
+        "description_ar": "عنصر معدات\nتوازن الدروع الجلدية بين الدفاع والهجوم.",
+        "description_de": "Ausrüstungsgegenstand\nLederrüstungen sind ausgewogen zwischen Verteidigung und Angriff",
+        "description_fr": "Pièce d'équipement\n Les armures en cuir sont équilibrées entre défense et attaque",
+        "description_es": "Objeto de equipo\n Las armaduras de cuero están equilibradas entre ataque y defensa",
+        "description_ru": "Снаряжение\n Кожаная броня хороша и в обороне, и в наступлении"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_ARMOR_LEATHER_ROYAL",
+        "description_variable": "@ITEMS_T4_ARMOR_LEATHER_ROYAL_DESC"
+      },
+      "category": "Chest_Armor_Leather_Jackets",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_ARMOR_LEATHER_ROYAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "armors",
+        "shopsubcategory1": "leather_armor",
+        "tier": "4",
+        "weight": "3.4",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "1.5",
+        "energymax": "0",
+        "energyregenerationbonus": "0.08",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "100",
+        "magicresistance": "100",
+        "crowdcontrolresistance": "28",
+        "durability": "16200",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0.25",
+        "magicspelldamagebonus": "0.25",
+        "healbonus": "0.25",
+        "itempower": "725",
+        "physicalattackdamagebonus": "0.25",
+        "magicattackdamagebonus": "0.25",
+        "bonusccdurationvsplayers": "0.15",
+        "bonusccdurationvsmobs": "0.15",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "famevalue": "0",
+        "combatspecachievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "shopsubcategory2": "armors_leather_royal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": "0",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Royal Jacket",
+        "DE-DE": "Königliche Jacke des Adepten",
+        "FR-FR": "Veste royale d'adepte",
+        "RU-RU": "Королевская куртка (знаток)",
+        "PL-PL": "Królewska Kurtka Adepta",
+        "ES-ES": "Chaqueta real del iniciado",
+        "PT-BR": "Casaco Real do Adepto",
+        "IT-IT": "Giacca regale del sapiente",
+        "ZH-CN": "老手级皇家外套",
+        "KO-KR": "숙련자의 왕실 재킷",
+        "JA-JP": "王家のジャケット（名人）",
+        "ZH-TW": "老手級皇家外套",
+        "ID-ID": "Jaket Kerajaan Mahir",
+        "TR-TR": "Ehil Kraliyet Ceketi",
+        "AR-SA": "سترة ملكية للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nLeather Armors are balanced between defense and offense.",
+        "DE-DE": "Ausrüstungsgegenstand\nLederrüstungen sind ausgewogen zwischen Verteidigung und Angriff",
+        "FR-FR": "Pièce d'équipement\n Les armures en cuir sont équilibrées entre défense et attaque",
+        "RU-RU": "Снаряжение\n Кожаная броня хороша и в обороне, и в наступлении",
+        "PL-PL": "Przedmiot do wyposażenia\n Skórzane zbroje oferują zrównoważoną obronę i atak",
+        "ES-ES": "Objeto de equipo\n Las armaduras de cuero están equilibradas entre ataque y defensa",
+        "PT-BR": "Item de Equipamento\nArmaduras de Couro são equilibradas entre defesa e ataque",
+        "IT-IT": "Oggetto d'equipaggiamento\nLe armature di cuoio offrono un buon equilibrio tra potenziale offensivo e difensivo.",
+        "ZH-CN": "装备物品\n皮甲攻守兼顾。",
+        "KO-KR": "장비 아이템\n피혁 아머는 방어와 공격의 균형이 잡혀 있습니다.",
+        "JA-JP": "装備アイテム\n革アーマーは防御力と攻撃力のバランスが取れています。",
+        "ZH-TW": "裝備物品\n皮革護甲的特點是攻守能力相對平衡。",
+        "ID-ID": "Item Perlengkapan\nArmor Kulit memiliki pertahanan dan serangan yang seimbang.",
+        "TR-TR": "Ekipman Eşyası\nDeri Zırhlar, savunma ve saldırı özellikleri konusunda dengelidir.",
+        "AR-SA": "عنصر معدات\nتوازن الدروع الجلدية بين الدفاع والهجوم."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_ROYAL_T4",
+        "primary_count": 4,
+        "secondary_resource": "T4_ARMOR_LEATHER_SET1",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4
+          },
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.667,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4
+          },
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_ROYAL_T4",
+        "primary_count": 4,
+        "secondary_resource": "T4_ARMOR_LEATHER_SET1",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 725,
+        "ability_power": 100,
+        "durability": 16200,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 3.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0.25,
+        "magic_attack_bonus": 0.25,
+        "physical_spell_bonus": 0.25,
+        "magic_spell_bonus": 0.25,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "OUTOFCOMBATHEAL",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FLAMESHIELD",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ROYAL_BANNER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "OUTOFCOMBATHEAL",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FLAMESHIELD",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ROYAL_BANNER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_ARMOR_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 825,
+          "durability": 24300,
+          "crafting_silver": 0,
+          "crafting_time": 1,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 925,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 1.333,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1025,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.667,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1125,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 4
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 725,
+      "effective_durability": 16200,
+      "shop": {
+        "shop_category": "armors",
+        "shop_subcategory1": "leather_armor",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_ARMOR_LEATHER_ROYAL",
+        "item_database_index": "5439"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Royal Jacket",
+        "name_ar": "سترة ملكية للبارع",
+        "name_de": "Königliche Jacke des Adepten",
+        "name_fr": "Veste royale de l'adepte",
+        "name_es": "Chaqueta real del iniciado",
+        "name_ru": "Королевская куртка (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_ARMOR_LEATHER_ROYAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "armors",
+        "@shopsubcategory1": "leather_armor",
+        "@tier": "4",
+        "@weight": "3.4",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "1.5",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0.08",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "100",
+        "@magicresistance": "100",
+        "@crowdcontrolresistance": "28",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0.25",
+        "@magicspelldamagebonus": "0.25",
+        "@healbonus": "0.25",
+        "@itempower": "725",
+        "@physicalattackdamagebonus": "0.25",
+        "@magicattackdamagebonus": "0.25",
+        "@bonusccdurationvsplayers": "0.15",
+        "@bonusccdurationvsmobs": "0.15",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@famevalue": "0",
+        "@combatspecachievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "@shopsubcategory2": "armors_leather_royal",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "OUTOFCOMBATHEAL"
+            },
+            {
+              "@uniquename": "FLAMESHIELD"
+            },
+            {
+              "@uniquename": "ROYAL_BANNER"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_BALANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_CD_REDUCTION"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "825",
+              "@durability": "24300",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "925",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1025",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1125",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_ARMOR_LEATHER_ROYAL@1",
+      "index": "5440",
+      "name_en": "Adept's Royal Jacket",
+      "name_ar": "سترة ملكية للبارع",
+      "name_de": "Königliche Jacke des Adepten",
+      "name_fr": "Veste royale d'adepte",
+      "name_es": "Chaqueta real del iniciado",
+      "name_ru": "Королевская куртка (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item\nLeather Armors are balanced between defense and offense.",
+        "description_ar": "عنصر معدات\nتوازن الدروع الجلدية بين الدفاع والهجوم.",
+        "description_de": "Ausrüstungsgegenstand\nLederrüstungen sind ausgewogen zwischen Verteidigung und Angriff",
+        "description_fr": "Pièce d'équipement\n Les armures en cuir sont équilibrées entre défense et attaque",
+        "description_es": "Objeto de equipo\n Las armaduras de cuero están equilibradas entre ataque y defensa",
+        "description_ru": "Снаряжение\n Кожаная броня хороша и в обороне, и в наступлении"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_ARMOR_LEATHER_ROYAL",
+        "description_variable": "@ITEMS_T4_ARMOR_LEATHER_ROYAL_DESC"
+      },
+      "category": "Chest_Armor_Leather_Jackets",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_ARMOR_LEATHER_ROYAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "armors",
+        "shopsubcategory1": "leather_armor",
+        "tier": "4",
+        "weight": "3.4",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "1.5",
+        "energymax": "0",
+        "energyregenerationbonus": "0.08",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "100",
+        "magicresistance": "100",
+        "crowdcontrolresistance": "28",
+        "durability": "16200",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0.25",
+        "magicspelldamagebonus": "0.25",
+        "healbonus": "0.25",
+        "itempower": "725",
+        "physicalattackdamagebonus": "0.25",
+        "magicattackdamagebonus": "0.25",
+        "bonusccdurationvsplayers": "0.15",
+        "bonusccdurationvsmobs": "0.15",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "famevalue": "0",
+        "combatspecachievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "shopsubcategory2": "armors_leather_royal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": "0",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Royal Jacket",
+        "DE-DE": "Königliche Jacke des Adepten",
+        "FR-FR": "Veste royale d'adepte",
+        "RU-RU": "Королевская куртка (знаток)",
+        "PL-PL": "Królewska Kurtka Adepta",
+        "ES-ES": "Chaqueta real del iniciado",
+        "PT-BR": "Casaco Real do Adepto",
+        "IT-IT": "Giacca regale del sapiente",
+        "ZH-CN": "老手级皇家外套",
+        "KO-KR": "숙련자의 왕실 재킷",
+        "JA-JP": "王家のジャケット（名人）",
+        "ZH-TW": "老手級皇家外套",
+        "ID-ID": "Jaket Kerajaan Mahir",
+        "TR-TR": "Ehil Kraliyet Ceketi",
+        "AR-SA": "سترة ملكية للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nLeather Armors are balanced between defense and offense.",
+        "DE-DE": "Ausrüstungsgegenstand\nLederrüstungen sind ausgewogen zwischen Verteidigung und Angriff",
+        "FR-FR": "Pièce d'équipement\n Les armures en cuir sont équilibrées entre défense et attaque",
+        "RU-RU": "Снаряжение\n Кожаная броня хороша и в обороне, и в наступлении",
+        "PL-PL": "Przedmiot do wyposażenia\n Skórzane zbroje oferują zrównoważoną obronę i atak",
+        "ES-ES": "Objeto de equipo\n Las armaduras de cuero están equilibradas entre ataque y defensa",
+        "PT-BR": "Item de Equipamento\nArmaduras de Couro são equilibradas entre defesa e ataque",
+        "IT-IT": "Oggetto d'equipaggiamento\nLe armature di cuoio offrono un buon equilibrio tra potenziale offensivo e difensivo.",
+        "ZH-CN": "装备物品\n皮甲攻守兼顾。",
+        "KO-KR": "장비 아이템\n피혁 아머는 방어와 공격의 균형이 잡혀 있습니다.",
+        "JA-JP": "装備アイテム\n革アーマーは防御力と攻撃力のバランスが取れています。",
+        "ZH-TW": "裝備物品\n皮革護甲的特點是攻守能力相對平衡。",
+        "ID-ID": "Item Perlengkapan\nArmor Kulit memiliki pertahanan dan serangan yang seimbang.",
+        "TR-TR": "Ekipman Eşyası\nDeri Zırhlar, savunma ve saldırı özellikleri konusunda dengelidir.",
+        "AR-SA": "عنصر معدات\nتوازن الدروع الجلدية بين الدفاع والهجوم."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_ROYAL_T4",
+        "primary_count": 4,
+        "secondary_resource": "T4_ARMOR_LEATHER_SET1",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4
+          },
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.667,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4
+          },
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_ROYAL_T4",
+        "primary_count": 4,
+        "secondary_resource": "T4_ARMOR_LEATHER_SET1",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 725,
+        "ability_power": 100,
+        "durability": 16200,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 3.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0.25,
+        "magic_attack_bonus": 0.25,
+        "physical_spell_bonus": 0.25,
+        "magic_spell_bonus": 0.25,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "OUTOFCOMBATHEAL",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FLAMESHIELD",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ROYAL_BANNER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "OUTOFCOMBATHEAL",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FLAMESHIELD",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ROYAL_BANNER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_ARMOR_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 825,
+          "durability": 24300,
+          "crafting_silver": 0,
+          "crafting_time": 1,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 925,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 1.333,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1025,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.667,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1125,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 4
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 825,
+        "durability": 24300,
+        "crafting_silver": 0,
+        "crafting_time": 1,
+        "crafting_focus": 0,
+        "crafting_resources": [
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1,
+            "enchantment_level": 1
+          },
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 192
+          }
+        ]
+      },
+      "effective_item_power": 825,
+      "effective_durability": 24300,
+      "shop": {
+        "shop_category": "armors",
+        "shop_subcategory1": "leather_armor",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_ARMOR_LEATHER_ROYAL@1",
+        "item_database_index": "5440"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Royal Jacket",
+        "name_ar": "سترة ملكية للبارع",
+        "name_de": "Königliche Jacke des Adepten",
+        "name_fr": "Veste royale de l'adepte",
+        "name_es": "Chaqueta real del iniciado",
+        "name_ru": "Королевская куртка (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_ARMOR_LEATHER_ROYAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "armors",
+        "@shopsubcategory1": "leather_armor",
+        "@tier": "4",
+        "@weight": "3.4",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "1.5",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0.08",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "100",
+        "@magicresistance": "100",
+        "@crowdcontrolresistance": "28",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0.25",
+        "@magicspelldamagebonus": "0.25",
+        "@healbonus": "0.25",
+        "@itempower": "725",
+        "@physicalattackdamagebonus": "0.25",
+        "@magicattackdamagebonus": "0.25",
+        "@bonusccdurationvsplayers": "0.15",
+        "@bonusccdurationvsmobs": "0.15",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@famevalue": "0",
+        "@combatspecachievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "@shopsubcategory2": "armors_leather_royal",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "OUTOFCOMBATHEAL"
+            },
+            {
+              "@uniquename": "FLAMESHIELD"
+            },
+            {
+              "@uniquename": "ROYAL_BANNER"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_BALANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_CD_REDUCTION"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "825",
+              "@durability": "24300",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "925",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1025",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1125",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_ARMOR_LEATHER_ROYAL@2",
+      "index": "5441",
+      "name_en": "Adept's Royal Jacket",
+      "name_ar": "سترة ملكية للبارع",
+      "name_de": "Königliche Jacke des Adepten",
+      "name_fr": "Veste royale d'adepte",
+      "name_es": "Chaqueta real del iniciado",
+      "name_ru": "Королевская куртка (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item\nLeather Armors are balanced between defense and offense.",
+        "description_ar": "عنصر معدات\nتوازن الدروع الجلدية بين الدفاع والهجوم.",
+        "description_de": "Ausrüstungsgegenstand\nLederrüstungen sind ausgewogen zwischen Verteidigung und Angriff",
+        "description_fr": "Pièce d'équipement\n Les armures en cuir sont équilibrées entre défense et attaque",
+        "description_es": "Objeto de equipo\n Las armaduras de cuero están equilibradas entre ataque y defensa",
+        "description_ru": "Снаряжение\n Кожаная броня хороша и в обороне, и в наступлении"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_ARMOR_LEATHER_ROYAL",
+        "description_variable": "@ITEMS_T4_ARMOR_LEATHER_ROYAL_DESC"
+      },
+      "category": "Chest_Armor_Leather_Jackets",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_ARMOR_LEATHER_ROYAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "armors",
+        "shopsubcategory1": "leather_armor",
+        "tier": "4",
+        "weight": "3.4",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "1.5",
+        "energymax": "0",
+        "energyregenerationbonus": "0.08",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "100",
+        "magicresistance": "100",
+        "crowdcontrolresistance": "28",
+        "durability": "16200",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0.25",
+        "magicspelldamagebonus": "0.25",
+        "healbonus": "0.25",
+        "itempower": "725",
+        "physicalattackdamagebonus": "0.25",
+        "magicattackdamagebonus": "0.25",
+        "bonusccdurationvsplayers": "0.15",
+        "bonusccdurationvsmobs": "0.15",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "famevalue": "0",
+        "combatspecachievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "shopsubcategory2": "armors_leather_royal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": "0",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Royal Jacket",
+        "DE-DE": "Königliche Jacke des Adepten",
+        "FR-FR": "Veste royale d'adepte",
+        "RU-RU": "Королевская куртка (знаток)",
+        "PL-PL": "Królewska Kurtka Adepta",
+        "ES-ES": "Chaqueta real del iniciado",
+        "PT-BR": "Casaco Real do Adepto",
+        "IT-IT": "Giacca regale del sapiente",
+        "ZH-CN": "老手级皇家外套",
+        "KO-KR": "숙련자의 왕실 재킷",
+        "JA-JP": "王家のジャケット（名人）",
+        "ZH-TW": "老手級皇家外套",
+        "ID-ID": "Jaket Kerajaan Mahir",
+        "TR-TR": "Ehil Kraliyet Ceketi",
+        "AR-SA": "سترة ملكية للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nLeather Armors are balanced between defense and offense.",
+        "DE-DE": "Ausrüstungsgegenstand\nLederrüstungen sind ausgewogen zwischen Verteidigung und Angriff",
+        "FR-FR": "Pièce d'équipement\n Les armures en cuir sont équilibrées entre défense et attaque",
+        "RU-RU": "Снаряжение\n Кожаная броня хороша и в обороне, и в наступлении",
+        "PL-PL": "Przedmiot do wyposażenia\n Skórzane zbroje oferują zrównoważoną obronę i atak",
+        "ES-ES": "Objeto de equipo\n Las armaduras de cuero están equilibradas entre ataque y defensa",
+        "PT-BR": "Item de Equipamento\nArmaduras de Couro são equilibradas entre defesa e ataque",
+        "IT-IT": "Oggetto d'equipaggiamento\nLe armature di cuoio offrono un buon equilibrio tra potenziale offensivo e difensivo.",
+        "ZH-CN": "装备物品\n皮甲攻守兼顾。",
+        "KO-KR": "장비 아이템\n피혁 아머는 방어와 공격의 균형이 잡혀 있습니다.",
+        "JA-JP": "装備アイテム\n革アーマーは防御力と攻撃力のバランスが取れています。",
+        "ZH-TW": "裝備物品\n皮革護甲的特點是攻守能力相對平衡。",
+        "ID-ID": "Item Perlengkapan\nArmor Kulit memiliki pertahanan dan serangan yang seimbang.",
+        "TR-TR": "Ekipman Eşyası\nDeri Zırhlar, savunma ve saldırı özellikleri konusunda dengelidir.",
+        "AR-SA": "عنصر معدات\nتوازن الدروع الجلدية بين الدفاع والهجوم."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_ROYAL_T4",
+        "primary_count": 4,
+        "secondary_resource": "T4_ARMOR_LEATHER_SET1",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4
+          },
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.667,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4
+          },
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_ROYAL_T4",
+        "primary_count": 4,
+        "secondary_resource": "T4_ARMOR_LEATHER_SET1",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 725,
+        "ability_power": 100,
+        "durability": 16200,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 3.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0.25,
+        "magic_attack_bonus": 0.25,
+        "physical_spell_bonus": 0.25,
+        "magic_spell_bonus": 0.25,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "OUTOFCOMBATHEAL",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FLAMESHIELD",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ROYAL_BANNER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "OUTOFCOMBATHEAL",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FLAMESHIELD",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ROYAL_BANNER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_ARMOR_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 825,
+          "durability": 24300,
+          "crafting_silver": 0,
+          "crafting_time": 1,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 925,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 1.333,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1025,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.667,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1125,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 4
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 925,
+        "durability": 36450,
+        "crafting_silver": 0,
+        "crafting_time": 1.333,
+        "crafting_focus": 0,
+        "crafting_resources": [
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1,
+            "enchantment_level": 2
+          },
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 192
+          }
+        ]
+      },
+      "effective_item_power": 925,
+      "effective_durability": 36450,
+      "shop": {
+        "shop_category": "armors",
+        "shop_subcategory1": "leather_armor",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_ARMOR_LEATHER_ROYAL@2",
+        "item_database_index": "5441"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Royal Jacket",
+        "name_ar": "سترة ملكية للبارع",
+        "name_de": "Königliche Jacke des Adepten",
+        "name_fr": "Veste royale de l'adepte",
+        "name_es": "Chaqueta real del iniciado",
+        "name_ru": "Королевская куртка (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_ARMOR_LEATHER_ROYAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "armors",
+        "@shopsubcategory1": "leather_armor",
+        "@tier": "4",
+        "@weight": "3.4",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "1.5",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0.08",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "100",
+        "@magicresistance": "100",
+        "@crowdcontrolresistance": "28",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0.25",
+        "@magicspelldamagebonus": "0.25",
+        "@healbonus": "0.25",
+        "@itempower": "725",
+        "@physicalattackdamagebonus": "0.25",
+        "@magicattackdamagebonus": "0.25",
+        "@bonusccdurationvsplayers": "0.15",
+        "@bonusccdurationvsmobs": "0.15",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@famevalue": "0",
+        "@combatspecachievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "@shopsubcategory2": "armors_leather_royal",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "OUTOFCOMBATHEAL"
+            },
+            {
+              "@uniquename": "FLAMESHIELD"
+            },
+            {
+              "@uniquename": "ROYAL_BANNER"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_BALANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_CD_REDUCTION"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "825",
+              "@durability": "24300",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "925",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1025",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1125",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_ARMOR_LEATHER_ROYAL@3",
+      "index": "5442",
+      "name_en": "Adept's Royal Jacket",
+      "name_ar": "سترة ملكية للبارع",
+      "name_de": "Königliche Jacke des Adepten",
+      "name_fr": "Veste royale d'adepte",
+      "name_es": "Chaqueta real del iniciado",
+      "name_ru": "Королевская куртка (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item\nLeather Armors are balanced between defense and offense.",
+        "description_ar": "عنصر معدات\nتوازن الدروع الجلدية بين الدفاع والهجوم.",
+        "description_de": "Ausrüstungsgegenstand\nLederrüstungen sind ausgewogen zwischen Verteidigung und Angriff",
+        "description_fr": "Pièce d'équipement\n Les armures en cuir sont équilibrées entre défense et attaque",
+        "description_es": "Objeto de equipo\n Las armaduras de cuero están equilibradas entre ataque y defensa",
+        "description_ru": "Снаряжение\n Кожаная броня хороша и в обороне, и в наступлении"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_ARMOR_LEATHER_ROYAL",
+        "description_variable": "@ITEMS_T4_ARMOR_LEATHER_ROYAL_DESC"
+      },
+      "category": "Chest_Armor_Leather_Jackets",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_ARMOR_LEATHER_ROYAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "armors",
+        "shopsubcategory1": "leather_armor",
+        "tier": "4",
+        "weight": "3.4",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "1.5",
+        "energymax": "0",
+        "energyregenerationbonus": "0.08",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "100",
+        "magicresistance": "100",
+        "crowdcontrolresistance": "28",
+        "durability": "16200",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0.25",
+        "magicspelldamagebonus": "0.25",
+        "healbonus": "0.25",
+        "itempower": "725",
+        "physicalattackdamagebonus": "0.25",
+        "magicattackdamagebonus": "0.25",
+        "bonusccdurationvsplayers": "0.15",
+        "bonusccdurationvsmobs": "0.15",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "famevalue": "0",
+        "combatspecachievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "shopsubcategory2": "armors_leather_royal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": "0",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Royal Jacket",
+        "DE-DE": "Königliche Jacke des Adepten",
+        "FR-FR": "Veste royale d'adepte",
+        "RU-RU": "Королевская куртка (знаток)",
+        "PL-PL": "Królewska Kurtka Adepta",
+        "ES-ES": "Chaqueta real del iniciado",
+        "PT-BR": "Casaco Real do Adepto",
+        "IT-IT": "Giacca regale del sapiente",
+        "ZH-CN": "老手级皇家外套",
+        "KO-KR": "숙련자의 왕실 재킷",
+        "JA-JP": "王家のジャケット（名人）",
+        "ZH-TW": "老手級皇家外套",
+        "ID-ID": "Jaket Kerajaan Mahir",
+        "TR-TR": "Ehil Kraliyet Ceketi",
+        "AR-SA": "سترة ملكية للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nLeather Armors are balanced between defense and offense.",
+        "DE-DE": "Ausrüstungsgegenstand\nLederrüstungen sind ausgewogen zwischen Verteidigung und Angriff",
+        "FR-FR": "Pièce d'équipement\n Les armures en cuir sont équilibrées entre défense et attaque",
+        "RU-RU": "Снаряжение\n Кожаная броня хороша и в обороне, и в наступлении",
+        "PL-PL": "Przedmiot do wyposażenia\n Skórzane zbroje oferują zrównoważoną obronę i atak",
+        "ES-ES": "Objeto de equipo\n Las armaduras de cuero están equilibradas entre ataque y defensa",
+        "PT-BR": "Item de Equipamento\nArmaduras de Couro são equilibradas entre defesa e ataque",
+        "IT-IT": "Oggetto d'equipaggiamento\nLe armature di cuoio offrono un buon equilibrio tra potenziale offensivo e difensivo.",
+        "ZH-CN": "装备物品\n皮甲攻守兼顾。",
+        "KO-KR": "장비 아이템\n피혁 아머는 방어와 공격의 균형이 잡혀 있습니다.",
+        "JA-JP": "装備アイテム\n革アーマーは防御力と攻撃力のバランスが取れています。",
+        "ZH-TW": "裝備物品\n皮革護甲的特點是攻守能力相對平衡。",
+        "ID-ID": "Item Perlengkapan\nArmor Kulit memiliki pertahanan dan serangan yang seimbang.",
+        "TR-TR": "Ekipman Eşyası\nDeri Zırhlar, savunma ve saldırı özellikleri konusunda dengelidir.",
+        "AR-SA": "عنصر معدات\nتوازن الدروع الجلدية بين الدفاع والهجوم."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_ROYAL_T4",
+        "primary_count": 4,
+        "secondary_resource": "T4_ARMOR_LEATHER_SET1",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4
+          },
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.667,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4
+          },
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_ROYAL_T4",
+        "primary_count": 4,
+        "secondary_resource": "T4_ARMOR_LEATHER_SET1",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 725,
+        "ability_power": 100,
+        "durability": 16200,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 3.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0.25,
+        "magic_attack_bonus": 0.25,
+        "physical_spell_bonus": 0.25,
+        "magic_spell_bonus": 0.25,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "OUTOFCOMBATHEAL",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FLAMESHIELD",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ROYAL_BANNER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "OUTOFCOMBATHEAL",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FLAMESHIELD",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ROYAL_BANNER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_ARMOR_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 825,
+          "durability": 24300,
+          "crafting_silver": 0,
+          "crafting_time": 1,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 925,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 1.333,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1025,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.667,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1125,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 4
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1025,
+        "durability": 54675,
+        "crafting_silver": 0,
+        "crafting_time": 1.667,
+        "crafting_focus": 0,
+        "crafting_resources": [
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1,
+            "enchantment_level": 3
+          },
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 192
+          }
+        ]
+      },
+      "effective_item_power": 1025,
+      "effective_durability": 54675,
+      "shop": {
+        "shop_category": "armors",
+        "shop_subcategory1": "leather_armor",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_ARMOR_LEATHER_ROYAL@3",
+        "item_database_index": "5442"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Royal Jacket",
+        "name_ar": "سترة ملكية للبارع",
+        "name_de": "Königliche Jacke des Adepten",
+        "name_fr": "Veste royale de l'adepte",
+        "name_es": "Chaqueta real del iniciado",
+        "name_ru": "Королевская куртка (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_ARMOR_LEATHER_ROYAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "armors",
+        "@shopsubcategory1": "leather_armor",
+        "@tier": "4",
+        "@weight": "3.4",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "1.5",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0.08",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "100",
+        "@magicresistance": "100",
+        "@crowdcontrolresistance": "28",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0.25",
+        "@magicspelldamagebonus": "0.25",
+        "@healbonus": "0.25",
+        "@itempower": "725",
+        "@physicalattackdamagebonus": "0.25",
+        "@magicattackdamagebonus": "0.25",
+        "@bonusccdurationvsplayers": "0.15",
+        "@bonusccdurationvsmobs": "0.15",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@famevalue": "0",
+        "@combatspecachievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "@shopsubcategory2": "armors_leather_royal",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "OUTOFCOMBATHEAL"
+            },
+            {
+              "@uniquename": "FLAMESHIELD"
+            },
+            {
+              "@uniquename": "ROYAL_BANNER"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_BALANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_CD_REDUCTION"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "825",
+              "@durability": "24300",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "925",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1025",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1125",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_ARMOR_LEATHER_ROYAL@4",
+      "index": "5443",
+      "name_en": "Adept's Royal Jacket",
+      "name_ar": "سترة ملكية للبارع",
+      "name_de": "Königliche Jacke des Adepten",
+      "name_fr": "Veste royale d'adepte",
+      "name_es": "Chaqueta real del iniciado",
+      "name_ru": "Королевская куртка (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item\nLeather Armors are balanced between defense and offense.",
+        "description_ar": "عنصر معدات\nتوازن الدروع الجلدية بين الدفاع والهجوم.",
+        "description_de": "Ausrüstungsgegenstand\nLederrüstungen sind ausgewogen zwischen Verteidigung und Angriff",
+        "description_fr": "Pièce d'équipement\n Les armures en cuir sont équilibrées entre défense et attaque",
+        "description_es": "Objeto de equipo\n Las armaduras de cuero están equilibradas entre ataque y defensa",
+        "description_ru": "Снаряжение\n Кожаная броня хороша и в обороне, и в наступлении"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_ARMOR_LEATHER_ROYAL",
+        "description_variable": "@ITEMS_T4_ARMOR_LEATHER_ROYAL_DESC"
+      },
+      "category": "Chest_Armor_Leather_Jackets",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_ARMOR_LEATHER_ROYAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "armors",
+        "shopsubcategory1": "leather_armor",
+        "tier": "4",
+        "weight": "3.4",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "1.5",
+        "energymax": "0",
+        "energyregenerationbonus": "0.08",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "100",
+        "magicresistance": "100",
+        "crowdcontrolresistance": "28",
+        "durability": "16200",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0.25",
+        "magicspelldamagebonus": "0.25",
+        "healbonus": "0.25",
+        "itempower": "725",
+        "physicalattackdamagebonus": "0.25",
+        "magicattackdamagebonus": "0.25",
+        "bonusccdurationvsplayers": "0.15",
+        "bonusccdurationvsmobs": "0.15",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "famevalue": "0",
+        "combatspecachievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "shopsubcategory2": "armors_leather_royal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": "0",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Royal Jacket",
+        "DE-DE": "Königliche Jacke des Adepten",
+        "FR-FR": "Veste royale d'adepte",
+        "RU-RU": "Королевская куртка (знаток)",
+        "PL-PL": "Królewska Kurtka Adepta",
+        "ES-ES": "Chaqueta real del iniciado",
+        "PT-BR": "Casaco Real do Adepto",
+        "IT-IT": "Giacca regale del sapiente",
+        "ZH-CN": "老手级皇家外套",
+        "KO-KR": "숙련자의 왕실 재킷",
+        "JA-JP": "王家のジャケット（名人）",
+        "ZH-TW": "老手級皇家外套",
+        "ID-ID": "Jaket Kerajaan Mahir",
+        "TR-TR": "Ehil Kraliyet Ceketi",
+        "AR-SA": "سترة ملكية للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nLeather Armors are balanced between defense and offense.",
+        "DE-DE": "Ausrüstungsgegenstand\nLederrüstungen sind ausgewogen zwischen Verteidigung und Angriff",
+        "FR-FR": "Pièce d'équipement\n Les armures en cuir sont équilibrées entre défense et attaque",
+        "RU-RU": "Снаряжение\n Кожаная броня хороша и в обороне, и в наступлении",
+        "PL-PL": "Przedmiot do wyposażenia\n Skórzane zbroje oferują zrównoważoną obronę i atak",
+        "ES-ES": "Objeto de equipo\n Las armaduras de cuero están equilibradas entre ataque y defensa",
+        "PT-BR": "Item de Equipamento\nArmaduras de Couro são equilibradas entre defesa e ataque",
+        "IT-IT": "Oggetto d'equipaggiamento\nLe armature di cuoio offrono un buon equilibrio tra potenziale offensivo e difensivo.",
+        "ZH-CN": "装备物品\n皮甲攻守兼顾。",
+        "KO-KR": "장비 아이템\n피혁 아머는 방어와 공격의 균형이 잡혀 있습니다.",
+        "JA-JP": "装備アイテム\n革アーマーは防御力と攻撃力のバランスが取れています。",
+        "ZH-TW": "裝備物品\n皮革護甲的特點是攻守能力相對平衡。",
+        "ID-ID": "Item Perlengkapan\nArmor Kulit memiliki pertahanan dan serangan yang seimbang.",
+        "TR-TR": "Ekipman Eşyası\nDeri Zırhlar, savunma ve saldırı özellikleri konusunda dengelidir.",
+        "AR-SA": "عنصر معدات\nتوازن الدروع الجلدية بين الدفاع والهجوم."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_ROYAL_T4",
+        "primary_count": 4,
+        "secondary_resource": "T4_ARMOR_LEATHER_SET1",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4
+          },
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.667,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4
+          },
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_ROYAL_T4",
+        "primary_count": 4,
+        "secondary_resource": "T4_ARMOR_LEATHER_SET1",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 725,
+        "ability_power": 100,
+        "durability": 16200,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 3.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0.25,
+        "magic_attack_bonus": 0.25,
+        "physical_spell_bonus": 0.25,
+        "magic_spell_bonus": 0.25,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "OUTOFCOMBATHEAL",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FLAMESHIELD",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ROYAL_BANNER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "OUTOFCOMBATHEAL",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FLAMESHIELD",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ROYAL_BANNER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_ARMOR_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 825,
+          "durability": 24300,
+          "crafting_silver": 0,
+          "crafting_time": 1,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 925,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 1.333,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1025,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.667,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1125,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 0,
+          "crafting_resources": [
+            {
+              "id": "T4_ARMOR_LEATHER_SET1",
+              "count": 1,
+              "enchantment_level": 4
+            },
+            {
+              "id": "QUESTITEM_TOKEN_ROYAL_T4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1125,
+        "durability": 82013,
+        "crafting_silver": 0,
+        "crafting_time": 2.5,
+        "crafting_focus": 0,
+        "crafting_resources": [
+          {
+            "id": "T4_ARMOR_LEATHER_SET1",
+            "count": 1,
+            "enchantment_level": 4
+          },
+          {
+            "id": "QUESTITEM_TOKEN_ROYAL_T4",
+            "count": 4,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1125,
+      "effective_durability": 82013,
+      "shop": {
+        "shop_category": "armors",
+        "shop_subcategory1": "leather_armor",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_ARMOR_LEATHER_ROYAL@4",
+        "item_database_index": "5443"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Royal Jacket",
+        "name_ar": "سترة ملكية للبارع",
+        "name_de": "Königliche Jacke des Adepten",
+        "name_fr": "Veste royale de l'adepte",
+        "name_es": "Chaqueta real del iniciado",
+        "name_ru": "Королевская куртка (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_ARMOR_LEATHER_ROYAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "armors",
+        "@shopsubcategory1": "leather_armor",
+        "@tier": "4",
+        "@weight": "3.4",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "1.5",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0.08",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "100",
+        "@magicresistance": "100",
+        "@crowdcontrolresistance": "28",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0.25",
+        "@magicspelldamagebonus": "0.25",
+        "@healbonus": "0.25",
+        "@itempower": "725",
+        "@physicalattackdamagebonus": "0.25",
+        "@magicattackdamagebonus": "0.25",
+        "@bonusccdurationvsplayers": "0.15",
+        "@bonusccdurationvsmobs": "0.15",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@famevalue": "0",
+        "@combatspecachievement": "COMBAT_LEATHER_ARMORS_ROYAL",
+        "@shopsubcategory2": "armors_leather_royal",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "OUTOFCOMBATHEAL"
+            },
+            {
+              "@uniquename": "FLAMESHIELD"
+            },
+            {
+              "@uniquename": "ROYAL_BANNER"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_BALANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_INCREASED_AASPEED"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_CD_REDUCTION"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "0",
+            "craftresource": [
+              {
+                "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                "@count": "1",
+                "@maxreturnamount": "0",
+                "@enchantmentlevel": "0",
+                "@preservequality": "true"
+              },
+              {
+                "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                "@count": "4",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "825",
+              "@durability": "24300",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "1",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "925",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.333",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "2",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1025",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.667",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "3",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1125",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET1",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET2",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "0",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_ARMOR_LEATHER_SET3",
+                      "@enchantmentlevel": "4",
+                      "@count": "1",
+                      "@maxreturnamount": "0",
+                      "@preservequality": "true"
+                    },
+                    {
+                      "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
+                      "@count": "4",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

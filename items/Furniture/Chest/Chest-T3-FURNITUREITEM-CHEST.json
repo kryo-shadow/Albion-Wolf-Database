@@ -1,0 +1,218 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Furniture",
+  "family": "Furniture_Chest",
+  "base_id": "T3_FURNITUREITEM_CHEST",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_FURNITUREITEM_CHEST",
+      "index": "3175",
+      "name_en": "Journeyman's Chest",
+      "name_ar": "صندوق الموثوق",
+      "name_de": "Truhe des Gesellen",
+      "name_fr": "Coffre du compagnon",
+      "name_es": "Cofre del obrero",
+      "name_ru": "Сундук (странник)",
+      "descriptions": {
+        "description_en": "A 64-slot inventory with a 10869 kg limit. Can only be placed indoors.",
+        "description_ar": "صندوق معركة مكون من 64 بقعة بحد أقصى 10869 كجم. لا يمكن وضعه إلا في منزلك.",
+        "description_de": "Ein Inventar mit 64 Plätzen und einem Limit von 10869 kg. Muss drinnen platziert werden.",
+        "description_fr": "Inventaire de 64emplacements, 10869kg max. À placer uniquement en intérieur.",
+        "description_es": "Inventario con 64 espacios y capacidad para 10869 kg. Solo puede ser colocado en el interior.",
+        "description_ru": "Хранилище на 64 ячейки, ограничение по весу - 10869 кг. Ставится в помещении."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FURNITUREITEM_CHEST",
+        "description_variable": "@ITEMS_T3_FURNITUREITEM_CHEST_DESC"
+      },
+      "category": "Furniture_Chest",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_FURNITUREITEM_CHEST",
+        "shopcategory": "furniture",
+        "shopsubcategory1": "chest",
+        "tier": "3",
+        "durability": "30",
+        "weight": "4.05",
+        "unlockedtocraft": "true",
+        "placeableindoors": "true",
+        "placeableoutdoors": "false",
+        "placeableindungeons": "false",
+        "placeableinexpeditions": "false",
+        "shopsubcategory2": "house"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Journeyman's Chest",
+        "DE-DE": "Truhe des Gesellen",
+        "FR-FR": "Coffre du compagnon",
+        "RU-RU": "Сундук (странник)",
+        "PL-PL": "Skrzynia Czeladnika",
+        "ES-ES": "Cofre del obrero",
+        "PT-BR": "Baú do Iniciante",
+        "IT-IT": "Forziere dell'apprendista",
+        "ZH-CN": "学徒级箱子",
+        "KO-KR": "장인의 보물상자",
+        "JA-JP": "チェスト（熟練）",
+        "ZH-TW": "學徒級寶箱",
+        "ID-ID": "Peti Pengembara",
+        "TR-TR": "Kalfa Sandığı",
+        "AR-SA": "صندوق الموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A 64-slot inventory with a 10869 kg limit. Can only be placed indoors.",
+        "DE-DE": "Ein Inventar mit 64 Plätzen und einem Limit von 10869 kg. Muss drinnen platziert werden.",
+        "FR-FR": "Inventaire de 64emplacements, 10869kg max. À placer uniquement en intérieur.",
+        "RU-RU": "Хранилище на 64 ячейки, ограничение по весу - 10869 кг. Ставится в помещении.",
+        "PL-PL": "Ekwipunek z 64 miejscami i limitem 10869 kg. Przedmiot do pomieszczenia.",
+        "ES-ES": "Inventario con 64 espacios y capacidad para 10869 kg. Solo puede ser colocado en el interior.",
+        "PT-BR": "Inventário com 64 espaços e capacidade para 10869 kg. Só para interiores.",
+        "IT-IT": "Ha un inventario da 64 slot e un limite di peso di 10.869 kg. Si può posizionare solo al chiuso.",
+        "ZH-CN": "共有64个槽位，最多承受10869公斤，只能放在室内。",
+        "KO-KR": "슬롯 64개, 중량 제한 10869kg인 인벤토리입니다. 실내에만 배치 가능합니다.",
+        "JA-JP": "64スロットのインベントリ（上限は10869kg）。内部にのみ配置できます。",
+        "ZH-TW": "一個具有64個欄位的物品欄，承重上限為10,869公斤。只能放置於室內。",
+        "ID-ID": "Inventaris 64 slot dengan batas 10869 kg. Hanya bisa diletakkan dalam ruangan.",
+        "TR-TR": "64 yuvalı ve 10.869 kg kapasiteli bir envanter. Yalnızca kapalı alanlara yerleştirilebilir.",
+        "AR-SA": "صندوق معركة مكون من 64 بقعة بحد أقصى 10869 كجم. لا يمكن وضعه إلا في منزلك."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T3_METALBAR",
+        "secondary_count": 10,
+        "resources": [
+          {
+            "id": "T3_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T3_METALBAR",
+            "count": 10
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.9375,
+        "crafting_focus": 300,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T3_METALBAR",
+            "count": 10
+          }
+        ],
+        "primary_resource": "T3_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T3_METALBAR",
+        "secondary_count": 10
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": 30,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 4.05,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": 30,
+      "shop": {
+        "shop_category": "furniture",
+        "shop_subcategory1": "chest",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FURNITUREITEM_CHEST",
+        "item_database_index": "3175"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Journeyman's Chest",
+        "name_ar": "صندوق الموثوق",
+        "name_de": "Truhe des Gesellen",
+        "name_fr": "Coffre du compagnon",
+        "name_es": "Cofre del obrero",
+        "name_ru": "Сундук (странник)"
+      },
+      "raw": {
+        "@uniquename": "T3_FURNITUREITEM_CHEST",
+        "@shopcategory": "furniture",
+        "@shopsubcategory1": "chest",
+        "@tier": "3",
+        "@durability": "30",
+        "@weight": "4.05",
+        "@unlockedtocraft": "true",
+        "@placeableindoors": "true",
+        "@placeableoutdoors": "false",
+        "@placeableindungeons": "false",
+        "@placeableinexpeditions": "false",
+        "@shopsubcategory2": "house",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.9375",
+          "@craftingfocus": "300",
+          "craftresource": [
+            {
+              "@uniquename": "T3_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T3_METALBAR",
+              "@count": "10"
+            }
+          ]
+        },
+        "container": {
+          "@capacity": "64",
+          "@weightlimit": "10869.13"
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,2529 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Crossbow",
+  "base_id": "T6_MAIN_1HCROSSBOW",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T6_MAIN_1HCROSSBOW",
+      "index": "6637",
+      "name_en": "Master's Light Crossbow",
+      "name_ar": "قوس مستعرض خفيف للخبير",
+      "name_de": "Leichte Armbrust des Meisters",
+      "name_fr": "Arbalète légère du maître",
+      "name_es": "Ballesta ligera del maestro",
+      "name_ru": "Легкий арбалет (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MAIN_1HCROSSBOW",
+        "description_variable": "@ITEMS_T6_MAIN_1HCROSSBOW_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_MAIN_1HCROSSBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow1h",
+        "attackdamage": "29",
+        "attackspeed": "1",
+        "twohanded": "false",
+        "attackrange": "11",
+        "tier": "6",
+        "weight": "11.4",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "30375",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "combatspecachievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_1hcrossbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Light Crossbow",
+        "DE-DE": "Leichte Armbrust des Meisters",
+        "FR-FR": "Arbalète légère du maître",
+        "RU-RU": "Легкий арбалет (мастер)",
+        "PL-PL": "Lekka Kusza Mistrza",
+        "ES-ES": "Ballesta ligera del maestro",
+        "PT-BR": "Besta Leve do Mestre",
+        "IT-IT": "Balestra leggera del maestro",
+        "ZH-CN": "大师级轻便十字弓",
+        "KO-KR": "마스터의 경량 크로스보우",
+        "JA-JP": "ライトクロスボウ（マスター）",
+        "ZH-TW": "大師級輕型十字弓",
+        "ID-ID": "Busur Silang Ringan Master",
+        "TR-TR": "Usta Hafif Arbaleti",
+        "AR-SA": "قوس مستعرض خفيف للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2,
+        "crafting_focus": 3939,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 29,
+        "attack_speed": 1,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow1h",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 30375,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 11.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "EXPLODING_SHOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "EXPLODING_SHOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_1HCROSSBOW"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 153773,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 900,
+      "effective_durability": 30375,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MAIN_1HCROSSBOW",
+        "item_database_index": "6637"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Light Crossbow",
+        "name_ar": "قوس مستعرض خفيف للخبير",
+        "name_de": "Leichte Armbrust des Meisters",
+        "name_fr": "Arbalète légère du maître",
+        "name_es": "Ballesta ligera del maestro",
+        "name_ru": "Легкий арбалет (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_MAIN_1HCROSSBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow1h",
+        "@attackdamage": "29",
+        "@attackspeed": "1",
+        "@twohanded": "false",
+        "@attackrange": "11",
+        "@tier": "6",
+        "@weight": "11.4",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "30375",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_1hcrossbow",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2",
+          "@craftingfocus": "3939",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T6_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_1HCROSSBOW"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "153773",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_MAIN_1HCROSSBOW@1",
+      "index": "6638",
+      "name_en": "Master's Light Crossbow",
+      "name_ar": "قوس مستعرض خفيف للخبير",
+      "name_de": "Leichte Armbrust des Meisters",
+      "name_fr": "Arbalète légère du maître",
+      "name_es": "Ballesta ligera del maestro",
+      "name_ru": "Легкий арбалет (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MAIN_1HCROSSBOW",
+        "description_variable": "@ITEMS_T6_MAIN_1HCROSSBOW_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_MAIN_1HCROSSBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow1h",
+        "attackdamage": "29",
+        "attackspeed": "1",
+        "twohanded": "false",
+        "attackrange": "11",
+        "tier": "6",
+        "weight": "11.4",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "30375",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "combatspecachievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_1hcrossbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Light Crossbow",
+        "DE-DE": "Leichte Armbrust des Meisters",
+        "FR-FR": "Arbalète légère du maître",
+        "RU-RU": "Легкий арбалет (мастер)",
+        "PL-PL": "Lekka Kusza Mistrza",
+        "ES-ES": "Ballesta ligera del maestro",
+        "PT-BR": "Besta Leve do Mestre",
+        "IT-IT": "Balestra leggera del maestro",
+        "ZH-CN": "大师级轻便十字弓",
+        "KO-KR": "마스터의 경량 크로스보우",
+        "JA-JP": "ライトクロスボウ（マスター）",
+        "ZH-TW": "大師級輕型十字弓",
+        "ID-ID": "Busur Silang Ringan Master",
+        "TR-TR": "Usta Hafif Arbaleti",
+        "AR-SA": "قوس مستعرض خفيف للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2,
+        "crafting_focus": 3939,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 29,
+        "attack_speed": 1,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow1h",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 30375,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 11.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "EXPLODING_SHOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "EXPLODING_SHOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_1HCROSSBOW"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 153773,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1000,
+        "durability": 45563,
+        "crafting_silver": 0,
+        "crafting_time": 2.5,
+        "crafting_focus": 6893,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T6_METALBAR_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 45563,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MAIN_1HCROSSBOW@1",
+        "item_database_index": "6638"
+      },
+      "tier": 6,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Master's Light Crossbow",
+        "name_ar": "قوس مستعرض خفيف للخبير",
+        "name_de": "Leichte Armbrust des Meisters",
+        "name_fr": "Arbalète légère du maître",
+        "name_es": "Ballesta ligera del maestro",
+        "name_ru": "Легкий арбалет (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_MAIN_1HCROSSBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow1h",
+        "@attackdamage": "29",
+        "@attackspeed": "1",
+        "@twohanded": "false",
+        "@attackrange": "11",
+        "@tier": "6",
+        "@weight": "11.4",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "30375",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_1hcrossbow",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2",
+          "@craftingfocus": "3939",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T6_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_1HCROSSBOW"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "153773",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_MAIN_1HCROSSBOW@2",
+      "index": "6639",
+      "name_en": "Master's Light Crossbow",
+      "name_ar": "قوس مستعرض خفيف للخبير",
+      "name_de": "Leichte Armbrust des Meisters",
+      "name_fr": "Arbalète légère du maître",
+      "name_es": "Ballesta ligera del maestro",
+      "name_ru": "Легкий арбалет (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MAIN_1HCROSSBOW",
+        "description_variable": "@ITEMS_T6_MAIN_1HCROSSBOW_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_MAIN_1HCROSSBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow1h",
+        "attackdamage": "29",
+        "attackspeed": "1",
+        "twohanded": "false",
+        "attackrange": "11",
+        "tier": "6",
+        "weight": "11.4",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "30375",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "combatspecachievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_1hcrossbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Light Crossbow",
+        "DE-DE": "Leichte Armbrust des Meisters",
+        "FR-FR": "Arbalète légère du maître",
+        "RU-RU": "Легкий арбалет (мастер)",
+        "PL-PL": "Lekka Kusza Mistrza",
+        "ES-ES": "Ballesta ligera del maestro",
+        "PT-BR": "Besta Leve do Mestre",
+        "IT-IT": "Balestra leggera del maestro",
+        "ZH-CN": "大师级轻便十字弓",
+        "KO-KR": "마스터의 경량 크로스보우",
+        "JA-JP": "ライトクロスボウ（マスター）",
+        "ZH-TW": "大師級輕型十字弓",
+        "ID-ID": "Busur Silang Ringan Master",
+        "TR-TR": "Usta Hafif Arbaleti",
+        "AR-SA": "قوس مستعرض خفيف للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2,
+        "crafting_focus": 3939,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 29,
+        "attack_speed": 1,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow1h",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 30375,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 11.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "EXPLODING_SHOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "EXPLODING_SHOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_1HCROSSBOW"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 153773,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1100,
+        "durability": 68344,
+        "crafting_silver": 0,
+        "crafting_time": 3.75,
+        "crafting_focus": 12064,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T6_METALBAR_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 68344,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MAIN_1HCROSSBOW@2",
+        "item_database_index": "6639"
+      },
+      "tier": 6,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Master's Light Crossbow",
+        "name_ar": "قوس مستعرض خفيف للخبير",
+        "name_de": "Leichte Armbrust des Meisters",
+        "name_fr": "Arbalète légère du maître",
+        "name_es": "Ballesta ligera del maestro",
+        "name_ru": "Легкий арбалет (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_MAIN_1HCROSSBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow1h",
+        "@attackdamage": "29",
+        "@attackspeed": "1",
+        "@twohanded": "false",
+        "@attackrange": "11",
+        "@tier": "6",
+        "@weight": "11.4",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "30375",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_1hcrossbow",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2",
+          "@craftingfocus": "3939",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T6_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_1HCROSSBOW"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "153773",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_MAIN_1HCROSSBOW@3",
+      "index": "6640",
+      "name_en": "Master's Light Crossbow",
+      "name_ar": "قوس مستعرض خفيف للخبير",
+      "name_de": "Leichte Armbrust des Meisters",
+      "name_fr": "Arbalète légère du maître",
+      "name_es": "Ballesta ligera del maestro",
+      "name_ru": "Легкий арбалет (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MAIN_1HCROSSBOW",
+        "description_variable": "@ITEMS_T6_MAIN_1HCROSSBOW_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_MAIN_1HCROSSBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow1h",
+        "attackdamage": "29",
+        "attackspeed": "1",
+        "twohanded": "false",
+        "attackrange": "11",
+        "tier": "6",
+        "weight": "11.4",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "30375",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "combatspecachievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_1hcrossbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Light Crossbow",
+        "DE-DE": "Leichte Armbrust des Meisters",
+        "FR-FR": "Arbalète légère du maître",
+        "RU-RU": "Легкий арбалет (мастер)",
+        "PL-PL": "Lekka Kusza Mistrza",
+        "ES-ES": "Ballesta ligera del maestro",
+        "PT-BR": "Besta Leve do Mestre",
+        "IT-IT": "Balestra leggera del maestro",
+        "ZH-CN": "大师级轻便十字弓",
+        "KO-KR": "마스터의 경량 크로스보우",
+        "JA-JP": "ライトクロスボウ（マスター）",
+        "ZH-TW": "大師級輕型十字弓",
+        "ID-ID": "Busur Silang Ringan Master",
+        "TR-TR": "Usta Hafif Arbaleti",
+        "AR-SA": "قوس مستعرض خفيف للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2,
+        "crafting_focus": 3939,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 29,
+        "attack_speed": 1,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow1h",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 30375,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 11.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "EXPLODING_SHOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "EXPLODING_SHOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_1HCROSSBOW"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 153773,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1200,
+        "durability": 102516,
+        "crafting_silver": 0,
+        "crafting_time": 4.5,
+        "crafting_focus": 21111,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T6_METALBAR_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 102516,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MAIN_1HCROSSBOW@3",
+        "item_database_index": "6640"
+      },
+      "tier": 6,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Master's Light Crossbow",
+        "name_ar": "قوس مستعرض خفيف للخبير",
+        "name_de": "Leichte Armbrust des Meisters",
+        "name_fr": "Arbalète légère du maître",
+        "name_es": "Ballesta ligera del maestro",
+        "name_ru": "Легкий арбалет (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_MAIN_1HCROSSBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow1h",
+        "@attackdamage": "29",
+        "@attackspeed": "1",
+        "@twohanded": "false",
+        "@attackrange": "11",
+        "@tier": "6",
+        "@weight": "11.4",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "30375",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_1hcrossbow",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2",
+          "@craftingfocus": "3939",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T6_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_1HCROSSBOW"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "153773",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_MAIN_1HCROSSBOW@4",
+      "index": "6641",
+      "name_en": "Master's Light Crossbow",
+      "name_ar": "قوس مستعرض خفيف للخبير",
+      "name_de": "Leichte Armbrust des Meisters",
+      "name_fr": "Arbalète légère du maître",
+      "name_es": "Ballesta ligera del maestro",
+      "name_ru": "Легкий арбалет (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MAIN_1HCROSSBOW",
+        "description_variable": "@ITEMS_T6_MAIN_1HCROSSBOW_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_MAIN_1HCROSSBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow1h",
+        "attackdamage": "29",
+        "attackspeed": "1",
+        "twohanded": "false",
+        "attackrange": "11",
+        "tier": "6",
+        "weight": "11.4",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "30375",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "combatspecachievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_1hcrossbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Light Crossbow",
+        "DE-DE": "Leichte Armbrust des Meisters",
+        "FR-FR": "Arbalète légère du maître",
+        "RU-RU": "Легкий арбалет (мастер)",
+        "PL-PL": "Lekka Kusza Mistrza",
+        "ES-ES": "Ballesta ligera del maestro",
+        "PT-BR": "Besta Leve do Mestre",
+        "IT-IT": "Balestra leggera del maestro",
+        "ZH-CN": "大师级轻便十字弓",
+        "KO-KR": "마스터의 경량 크로스보우",
+        "JA-JP": "ライトクロスボウ（マスター）",
+        "ZH-TW": "大師級輕型十字弓",
+        "ID-ID": "Busur Silang Ringan Master",
+        "TR-TR": "Usta Hafif Arbaleti",
+        "AR-SA": "قوس مستعرض خفيف للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2,
+        "crafting_focus": 3939,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 29,
+        "attack_speed": 1,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow1h",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 30375,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 11.4,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "EXPLODING_SHOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "EXPLODING_SHOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_1HCROSSBOW"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 153773,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1300,
+        "durability": 153773,
+        "crafting_silver": 0,
+        "crafting_time": 5.4,
+        "crafting_focus": 36945,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T6_METALBAR_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 153773,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MAIN_1HCROSSBOW@4",
+        "item_database_index": "6641"
+      },
+      "tier": 6,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Master's Light Crossbow",
+        "name_ar": "قوس مستعرض خفيف للخبير",
+        "name_de": "Leichte Armbrust des Meisters",
+        "name_fr": "Arbalète légère du maître",
+        "name_es": "Ballesta ligera del maestro",
+        "name_ru": "Легкий арбалет (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_MAIN_1HCROSSBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow1h",
+        "@attackdamage": "29",
+        "@attackspeed": "1",
+        "@twohanded": "false",
+        "@attackrange": "11",
+        "@tier": "6",
+        "@weight": "11.4",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "30375",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_ONEHAND",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_1hcrossbow",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2",
+          "@craftingfocus": "3939",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T6_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_1HCROSSBOW"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "153773",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T6_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

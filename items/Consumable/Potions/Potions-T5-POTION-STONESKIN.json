@@ -1,0 +1,455 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T5_POTION_STONESKIN",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_POTION_STONESKIN",
+      "index": "578",
+      "name_en": "Resistance Potion",
+      "name_ar": "جرعة مقاومة",
+      "name_de": "Resistenztrank",
+      "name_fr": "Potion de résistance",
+      "name_es": "Poción de resistencia",
+      "name_ru": "Эликсир защиты",
+      "descriptions": {
+        "description_en": "Sluggish potion. Increases defenses substantially for a short period.",
+        "description_ar": "جرعة بطيئة. تزيد الدفاعات زيادة هائلة لفترة قصيرة.",
+        "description_de": "Dickflüssiger Trank. Erhöht die Verteidigung für kurze Zeit beträchtlich.",
+        "description_fr": "Potion molle. Augmente considérablement les défenses pendant un instant.",
+        "description_es": "Poción lenta. Refuerza notablemente las defensas durante unos momentos.",
+        "description_ru": "Густой эликсир. На короткое время значительно усиливает защиту."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_POTION_STONESKIN",
+        "description_variable": "@ITEMS_POTION_STONESKIN_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_POTION_STONESKIN",
+        "uisprite": "POTION_RESISTANCE",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_RESISTANCE_P3",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "5",
+        "dummyitempower": "800",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.42",
+        "descriptionlocatag": "@ITEMS_POTION_STONESKIN_DESC",
+        "shopsubcategory2": "resistance"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Resistance Potion",
+        "DE-DE": "Resistenztrank",
+        "FR-FR": "Potion de résistance",
+        "RU-RU": "Эликсир защиты",
+        "PL-PL": "Mikstura Odporności",
+        "ES-ES": "Poción de resistencia",
+        "PT-BR": "Poção de Resistência",
+        "IT-IT": "Pozione della resistenza",
+        "ZH-CN": "抗性药水",
+        "KO-KR": "저항 포션",
+        "JA-JP": "耐性ポーション",
+        "ZH-TW": "抗性藥水",
+        "ID-ID": "Ramuan Daya Tahan",
+        "TR-TR": "Direnç İksiri",
+        "AR-SA": "جرعة مقاومة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sluggish potion. Increases defenses substantially for a short period.",
+        "DE-DE": "Dickflüssiger Trank. Erhöht die Verteidigung für kurze Zeit beträchtlich.",
+        "FR-FR": "Potion molle. Augmente considérablement les défenses pendant un instant.",
+        "RU-RU": "Густой эликсир. На короткое время значительно усиливает защиту.",
+        "PL-PL": "Mikstura ospałości. Na krótko znacznie wzmacnia obronę.",
+        "ES-ES": "Poción lenta. Refuerza notablemente las defensas durante unos momentos.",
+        "PT-BR": "Poção espessa. Aumenta substancialmente as defesas por um curto período.",
+        "IT-IT": "Pozione torbida. Aumenta notevolmente le difese per un breve periodo.",
+        "ZH-CN": "毫无生气的药水，短时大幅提升防御。",
+        "KO-KR": "진득한 포션. 단기간 동안 방어를 상당히 증가시킵니다.",
+        "JA-JP": "不活性ポーション。短時間、防御力が大幅に上昇します。",
+        "ZH-TW": "平平無奇的藥水。使用後能短時間大幅提升防禦力。",
+        "ID-ID": "Ramuan lamban. Memberi peningkatan besar untuk pertahanan untuk waktu singkat.",
+        "TR-TR": "Ağır bir iksir. Kısa bir süreliğine savunmayı önemli miktarda artırır.",
+        "AR-SA": "جرعة بطيئة. تزيد الدفاعات زيادة هائلة لفترة قصيرة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_TEASEL",
+        "primary_count": 24,
+        "secondary_resource": "T4_BURDOCK",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T5_TEASEL",
+            "count": 24
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 12
+          },
+          {
+            "id": "T4_MILK",
+            "count": 6
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.6715,
+        "crafting_focus": 294,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_TEASEL",
+            "count": 24
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 12
+          },
+          {
+            "id": "T4_MILK",
+            "count": 6
+          }
+        ],
+        "primary_resource": "T5_TEASEL",
+        "primary_count": 24,
+        "secondary_resource": "T4_BURDOCK",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 0.42,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.6715,
+          "crafting_focus": 361,
+          "crafting_resources": [
+            {
+              "id": "T5_TEASEL",
+              "count": 24,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_MILK",
+              "count": 6,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 15,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.6715,
+          "crafting_focus": 494,
+          "crafting_resources": [
+            {
+              "id": "T5_TEASEL",
+              "count": 24,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_MILK",
+              "count": 6,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 15,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.6715,
+          "crafting_focus": 895,
+          "crafting_resources": [
+            {
+              "id": "T5_TEASEL",
+              "count": 24,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_MILK",
+              "count": 6,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 15,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_RESISTANCE"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_POTION_STONESKIN",
+        "item_database_index": "578"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Resistance Potion",
+        "name_ar": "جرعة مقاومة",
+        "name_de": "Resistenztrank",
+        "name_fr": "Potion de résistance",
+        "name_es": "Poción de resistencia",
+        "name_ru": "Эликсир защиты"
+      },
+      "raw": {
+        "@uniquename": "T5_POTION_STONESKIN",
+        "@uisprite": "POTION_RESISTANCE",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_RESISTANCE_P3",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "5",
+        "@dummyitempower": "800",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.42",
+        "@descriptionlocatag": "@ITEMS_POTION_STONESKIN_DESC",
+        "@shopsubcategory2": "resistance",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "294",
+          "@time": "0.6715",
+          "craftresource": [
+            {
+              "@uniquename": "T5_TEASEL",
+              "@count": "24"
+            },
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T4_MILK",
+              "@count": "6"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_RESISTANCE_P4",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.6715",
+                "@amountcrafted": "5",
+                "@craftingfocus": "361",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_RESISTANCE_P5",
+              "@dummyitempower": "1000",
+              "@abilitypower": "186",
+              "@weight": "0.7",
+              "craftingrequirements": {
+                "@time": "0.6715",
+                "@amountcrafted": "5",
+                "@craftingfocus": "494",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_RESISTANCE_P6",
+              "@dummyitempower": "1100",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.6715",
+                "@amountcrafted": "5",
+                "@craftingfocus": "895",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

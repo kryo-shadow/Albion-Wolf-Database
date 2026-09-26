@@ -1,0 +1,2624 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Fiber",
+  "base_id": "T4_BACKPACK_GATHERER_FIBER",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_BACKPACK_GATHERER_FIBER",
+      "index": "5639",
+      "name_en": "Adept's Harvester Backpack",
+      "name_ar": "حقيبة ظهر الحاصد للبارع",
+      "name_de": "Erntehelferrucksack des Adepten",
+      "name_fr": "Sac à dos de récolteur d'adepte",
+      "name_es": "Mochila de cosechador del iniciado",
+      "name_ru": "Рюкзак жнеца (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_BACKPACK_GATHERER_FIBER",
+        "description_variable": "@ITEMS_T4_BACKPACK_GATHERER_FIBER_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "Cape",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_BACKPACK_GATHERER_FIBER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "cape",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "9900",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "700",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "bag",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_capes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Harvester Backpack",
+        "DE-DE": "Erntehelferrucksack des Adepten",
+        "FR-FR": "Sac à dos de récolteur d'adepte",
+        "RU-RU": "Рюкзак жнеца (знаток)",
+        "PL-PL": "Plecak Zbieracza Adepta",
+        "ES-ES": "Mochila de cosechador del iniciado",
+        "PT-BR": "Mochila do Ceifeiro Adepto",
+        "IT-IT": "Zaino da raccoglitore del sapiente",
+        "ZH-CN": "老手级收割双肩包",
+        "KO-KR": "숙련자의 추수꾼 백팩",
+        "JA-JP": "収穫人のバックパック（名人）",
+        "ZH-TW": "老手級採收者後背包",
+        "ID-ID": "Tas Punggung Pemanen Mahir",
+        "TR-TR": "Ehil Hasatçı Sırt Çantası",
+        "AR-SA": "حقيبة ظهر الحاصد للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 9900,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "bag"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 14850,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 22275,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 33413,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 50119,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 9900,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_BACKPACK_GATHERER_FIBER",
+        "item_database_index": "5639"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Harvester Backpack",
+        "name_ar": "حقيبة ظهر الحاصد للبارع",
+        "name_de": "Erntehelferrucksack des Adepten",
+        "name_fr": "Sac à dos de récolteur de l'adepte",
+        "name_es": "Mochila de cosechador del iniciado",
+        "name_ru": "Рюкзак жнеца (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_BACKPACK_GATHERER_FIBER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "cape",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "9900",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "700",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "bag",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_capes",
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_BACKPACK_FIBER_T4"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.333",
+          "@craftingfocus": "429",
+          "craftresource": [
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "14850",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.5",
+                "@craftingfocus": "750",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "22275",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.667",
+                "@craftingfocus": "1313",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "33413",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.833",
+                "@craftingfocus": "2298",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "50119",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.25",
+                "@craftingfocus": "4021",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_BACKPACK_GATHERER_FIBER@1",
+      "index": "5640",
+      "name_en": "Adept's Harvester Backpack",
+      "name_ar": "حقيبة ظهر الحاصد للبارع",
+      "name_de": "Erntehelferrucksack des Adepten",
+      "name_fr": "Sac à dos de récolteur d'adepte",
+      "name_es": "Mochila de cosechador del iniciado",
+      "name_ru": "Рюкзак жнеца (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_BACKPACK_GATHERER_FIBER",
+        "description_variable": "@ITEMS_T4_BACKPACK_GATHERER_FIBER_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "Cape",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_BACKPACK_GATHERER_FIBER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "cape",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "9900",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "700",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "bag",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_capes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Harvester Backpack",
+        "DE-DE": "Erntehelferrucksack des Adepten",
+        "FR-FR": "Sac à dos de récolteur d'adepte",
+        "RU-RU": "Рюкзак жнеца (знаток)",
+        "PL-PL": "Plecak Zbieracza Adepta",
+        "ES-ES": "Mochila de cosechador del iniciado",
+        "PT-BR": "Mochila do Ceifeiro Adepto",
+        "IT-IT": "Zaino da raccoglitore del sapiente",
+        "ZH-CN": "老手级收割双肩包",
+        "KO-KR": "숙련자의 추수꾼 백팩",
+        "JA-JP": "収穫人のバックパック（名人）",
+        "ZH-TW": "老手級採收者後背包",
+        "ID-ID": "Tas Punggung Pemanen Mahir",
+        "TR-TR": "Ehil Hasatçı Sırt Çantası",
+        "AR-SA": "حقيبة ظهر الحاصد للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 9900,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "bag"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 14850,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 22275,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 33413,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 50119,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 800,
+        "durability": 14850,
+        "crafting_silver": 0,
+        "crafting_time": 0.5,
+        "crafting_focus": 750,
+        "crafting_resources": [
+          {
+            "id": "T4_CLOTH_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_LEATHER_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 800,
+      "effective_durability": 14850,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_BACKPACK_GATHERER_FIBER@1",
+        "item_database_index": "5640"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Harvester Backpack",
+        "name_ar": "حقيبة ظهر الحاصد للبارع",
+        "name_de": "Erntehelferrucksack des Adepten",
+        "name_fr": "Sac à dos de récolteur de l'adepte",
+        "name_es": "Mochila de cosechador del iniciado",
+        "name_ru": "Рюкзак жнеца (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_BACKPACK_GATHERER_FIBER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "cape",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "9900",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "700",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "bag",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_capes",
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_BACKPACK_FIBER_T4"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.333",
+          "@craftingfocus": "429",
+          "craftresource": [
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "14850",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.5",
+                "@craftingfocus": "750",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "22275",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.667",
+                "@craftingfocus": "1313",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "33413",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.833",
+                "@craftingfocus": "2298",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "50119",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.25",
+                "@craftingfocus": "4021",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_BACKPACK_GATHERER_FIBER@2",
+      "index": "5641",
+      "name_en": "Adept's Harvester Backpack",
+      "name_ar": "حقيبة ظهر الحاصد للبارع",
+      "name_de": "Erntehelferrucksack des Adepten",
+      "name_fr": "Sac à dos de récolteur d'adepte",
+      "name_es": "Mochila de cosechador del iniciado",
+      "name_ru": "Рюкзак жнеца (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_BACKPACK_GATHERER_FIBER",
+        "description_variable": "@ITEMS_T4_BACKPACK_GATHERER_FIBER_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "Cape",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_BACKPACK_GATHERER_FIBER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "cape",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "9900",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "700",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "bag",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_capes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Harvester Backpack",
+        "DE-DE": "Erntehelferrucksack des Adepten",
+        "FR-FR": "Sac à dos de récolteur d'adepte",
+        "RU-RU": "Рюкзак жнеца (знаток)",
+        "PL-PL": "Plecak Zbieracza Adepta",
+        "ES-ES": "Mochila de cosechador del iniciado",
+        "PT-BR": "Mochila do Ceifeiro Adepto",
+        "IT-IT": "Zaino da raccoglitore del sapiente",
+        "ZH-CN": "老手级收割双肩包",
+        "KO-KR": "숙련자의 추수꾼 백팩",
+        "JA-JP": "収穫人のバックパック（名人）",
+        "ZH-TW": "老手級採收者後背包",
+        "ID-ID": "Tas Punggung Pemanen Mahir",
+        "TR-TR": "Ehil Hasatçı Sırt Çantası",
+        "AR-SA": "حقيبة ظهر الحاصد للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 9900,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "bag"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 14850,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 22275,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 33413,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 50119,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 900,
+        "durability": 22275,
+        "crafting_silver": 0,
+        "crafting_time": 0.667,
+        "crafting_focus": 1313,
+        "crafting_resources": [
+          {
+            "id": "T4_CLOTH_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_LEATHER_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 900,
+      "effective_durability": 22275,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_BACKPACK_GATHERER_FIBER@2",
+        "item_database_index": "5641"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Harvester Backpack",
+        "name_ar": "حقيبة ظهر الحاصد للبارع",
+        "name_de": "Erntehelferrucksack des Adepten",
+        "name_fr": "Sac à dos de récolteur de l'adepte",
+        "name_es": "Mochila de cosechador del iniciado",
+        "name_ru": "Рюкзак жнеца (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_BACKPACK_GATHERER_FIBER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "cape",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "9900",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "700",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "bag",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_capes",
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_BACKPACK_FIBER_T4"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.333",
+          "@craftingfocus": "429",
+          "craftresource": [
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "14850",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.5",
+                "@craftingfocus": "750",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "22275",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.667",
+                "@craftingfocus": "1313",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "33413",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.833",
+                "@craftingfocus": "2298",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "50119",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.25",
+                "@craftingfocus": "4021",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_BACKPACK_GATHERER_FIBER@3",
+      "index": "5642",
+      "name_en": "Adept's Harvester Backpack",
+      "name_ar": "حقيبة ظهر الحاصد للبارع",
+      "name_de": "Erntehelferrucksack des Adepten",
+      "name_fr": "Sac à dos de récolteur d'adepte",
+      "name_es": "Mochila de cosechador del iniciado",
+      "name_ru": "Рюкзак жнеца (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_BACKPACK_GATHERER_FIBER",
+        "description_variable": "@ITEMS_T4_BACKPACK_GATHERER_FIBER_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "Cape",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_BACKPACK_GATHERER_FIBER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "cape",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "9900",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "700",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "bag",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_capes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Harvester Backpack",
+        "DE-DE": "Erntehelferrucksack des Adepten",
+        "FR-FR": "Sac à dos de récolteur d'adepte",
+        "RU-RU": "Рюкзак жнеца (знаток)",
+        "PL-PL": "Plecak Zbieracza Adepta",
+        "ES-ES": "Mochila de cosechador del iniciado",
+        "PT-BR": "Mochila do Ceifeiro Adepto",
+        "IT-IT": "Zaino da raccoglitore del sapiente",
+        "ZH-CN": "老手级收割双肩包",
+        "KO-KR": "숙련자의 추수꾼 백팩",
+        "JA-JP": "収穫人のバックパック（名人）",
+        "ZH-TW": "老手級採收者後背包",
+        "ID-ID": "Tas Punggung Pemanen Mahir",
+        "TR-TR": "Ehil Hasatçı Sırt Çantası",
+        "AR-SA": "حقيبة ظهر الحاصد للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 9900,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "bag"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 14850,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 22275,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 33413,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 50119,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1000,
+        "durability": 33413,
+        "crafting_silver": 0,
+        "crafting_time": 0.833,
+        "crafting_focus": 2298,
+        "crafting_resources": [
+          {
+            "id": "T4_CLOTH_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_LEATHER_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 33413,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_BACKPACK_GATHERER_FIBER@3",
+        "item_database_index": "5642"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Harvester Backpack",
+        "name_ar": "حقيبة ظهر الحاصد للبارع",
+        "name_de": "Erntehelferrucksack des Adepten",
+        "name_fr": "Sac à dos de récolteur de l'adepte",
+        "name_es": "Mochila de cosechador del iniciado",
+        "name_ru": "Рюкзак жнеца (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_BACKPACK_GATHERER_FIBER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "cape",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "9900",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "700",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "bag",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_capes",
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_BACKPACK_FIBER_T4"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.333",
+          "@craftingfocus": "429",
+          "craftresource": [
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "14850",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.5",
+                "@craftingfocus": "750",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "22275",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.667",
+                "@craftingfocus": "1313",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "33413",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.833",
+                "@craftingfocus": "2298",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "50119",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.25",
+                "@craftingfocus": "4021",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_BACKPACK_GATHERER_FIBER@4",
+      "index": "5643",
+      "name_en": "Adept's Harvester Backpack",
+      "name_ar": "حقيبة ظهر الحاصد للبارع",
+      "name_de": "Erntehelferrucksack des Adepten",
+      "name_fr": "Sac à dos de récolteur d'adepte",
+      "name_es": "Mochila de cosechador del iniciado",
+      "name_ru": "Рюкзак жнеца (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_BACKPACK_GATHERER_FIBER",
+        "description_variable": "@ITEMS_T4_BACKPACK_GATHERER_FIBER_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "Cape",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_BACKPACK_GATHERER_FIBER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "cape",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "9900",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "700",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "bag",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_capes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Harvester Backpack",
+        "DE-DE": "Erntehelferrucksack des Adepten",
+        "FR-FR": "Sac à dos de récolteur d'adepte",
+        "RU-RU": "Рюкзак жнеца (знаток)",
+        "PL-PL": "Plecak Zbieracza Adepta",
+        "ES-ES": "Mochila de cosechador del iniciado",
+        "PT-BR": "Mochila do Ceifeiro Adepto",
+        "IT-IT": "Zaino da raccoglitore del sapiente",
+        "ZH-CN": "老手级收割双肩包",
+        "KO-KR": "숙련자의 추수꾼 백팩",
+        "JA-JP": "収穫人のバックパック（名人）",
+        "ZH-TW": "老手級採收者後背包",
+        "ID-ID": "Tas Punggung Pemanen Mahir",
+        "TR-TR": "Ehil Hasatçı Sırt Çantası",
+        "AR-SA": "حقيبة ظهر الحاصد للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 9900,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "bag"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 14850,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 22275,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 33413,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 50119,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1100,
+        "durability": 50119,
+        "crafting_silver": 0,
+        "crafting_time": 1.25,
+        "crafting_focus": 4021,
+        "crafting_resources": [
+          {
+            "id": "T4_CLOTH_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_LEATHER_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 50119,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_BACKPACK_GATHERER_FIBER@4",
+        "item_database_index": "5643"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Harvester Backpack",
+        "name_ar": "حقيبة ظهر الحاصد للبارع",
+        "name_de": "Erntehelferrucksack des Adepten",
+        "name_fr": "Sac à dos de récolteur de l'adepte",
+        "name_es": "Mochila de cosechador del iniciado",
+        "name_ru": "Рюкзак жнеца (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_BACKPACK_GATHERER_FIBER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "cape",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "9900",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "700",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "bag",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_capes",
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_BACKPACK_FIBER_T4"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.333",
+          "@craftingfocus": "429",
+          "craftresource": [
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "14850",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.5",
+                "@craftingfocus": "750",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "22275",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.667",
+                "@craftingfocus": "1313",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "33413",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.833",
+                "@craftingfocus": "2298",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "50119",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.25",
+                "@craftingfocus": "4021",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Furniture",
+  "family": "Furniture_Chest",
+  "base_id": "T5_FURNITUREITEM_CHEST",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_FURNITUREITEM_CHEST",
+      "index": "3177",
+      "name_en": "Expert's Chest",
+      "name_ar": "صندوق الأخصائي",
+      "name_de": "Truhe des Experten",
+      "name_fr": "Coffre de l'expert",
+      "name_es": "Cofre del experto",
+      "name_ru": "Сундук (эксперт)",
+      "descriptions": {
+        "description_en": "A 64-slot inventory with a 24296 kg limit. Must be placed indoors.",
+        "description_ar": "صندوق معركة مكون من 64 بقعة بحد أقصى 24296 كجم. يجب أن يتم وضعه في مكان مغلق.",
+        "description_de": "Ein Inventar mit 64 Plätzen und einem Limit von 24296 kg. Muss drinnen platziert werden.",
+        "description_fr": "Inventaire de 64emplacements, 24296kg max. À placer en intérieur.",
+        "description_es": "Inventario con 64 espacios y capacidad para 24269 kg. Exclusivo para interiores.",
+        "description_ru": "Хранилище на 64 ячейки, ограничение по весу - 24296 кг. Ставится в помещении."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FURNITUREITEM_CHEST",
+        "description_variable": "@ITEMS_T5_FURNITUREITEM_CHEST_DESC"
+      },
+      "category": "Furniture_Chest",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_FURNITUREITEM_CHEST",
+        "shopcategory": "furniture",
+        "shopsubcategory1": "chest",
+        "tier": "5",
+        "durability": "30",
+        "weight": "9.11",
+        "unlockedtocraft": "true",
+        "placeableindoors": "true",
+        "placeableoutdoors": "false",
+        "placeableindungeons": "false",
+        "placeableinexpeditions": "false",
+        "shopsubcategory2": "house"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Chest",
+        "DE-DE": "Truhe des Experten",
+        "FR-FR": "Coffre de l'expert",
+        "RU-RU": "Сундук (эксперт)",
+        "PL-PL": "Skrzynia Znawcy",
+        "ES-ES": "Cofre del experto",
+        "PT-BR": "Baú do Perito",
+        "IT-IT": "Forziere dell'esperto",
+        "ZH-CN": "专家级箱子",
+        "KO-KR": "전문가의 보물상자",
+        "JA-JP": "チェスト（達人）",
+        "ZH-TW": "專家級寶箱",
+        "ID-ID": "Peti Ahli",
+        "TR-TR": "Uzman Sandığı",
+        "AR-SA": "صندوق الأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A 64-slot inventory with a 24296 kg limit. Must be placed indoors.",
+        "DE-DE": "Ein Inventar mit 64 Plätzen und einem Limit von 24296 kg. Muss drinnen platziert werden.",
+        "FR-FR": "Inventaire de 64emplacements, 24296kg max. À placer en intérieur.",
+        "RU-RU": "Хранилище на 64 ячейки, ограничение по весу - 24296 кг. Ставится в помещении.",
+        "PL-PL": "Ekwipunek z 64 miejscami i limitem 24296 kg. Do pomieszczenia.",
+        "ES-ES": "Inventario con 64 espacios y capacidad para 24269 kg. Exclusivo para interiores.",
+        "PT-BR": "Inventário com 64 espaços e capacidade para 24296 kg. Deve ser colocado em interiores.",
+        "IT-IT": "Ha un inventario da 64 slot e un limite di peso di 24.296 kg. Da posizionare al chiuso.",
+        "ZH-CN": "共有64个槽位，最多承受24296公斤，必须放在室内。",
+        "KO-KR": "슬롯 64개, 중량 제한 24296kg인 인벤토리입니다. 실내에만 배치 가능합니다.",
+        "JA-JP": "64スロットのインベントリ（上限は24296kg）。内部に配置する必要があります。",
+        "ZH-TW": "一個具有64個欄位的物品欄，承重上限為24,296公斤。必須放置於室內。",
+        "ID-ID": "Inventaris 64 slot dengan batas 24296 kg. Harus diletakkan dalam ruangan.",
+        "TR-TR": "64 yuvalı ve 24.296 kg kapasiteli bir envanter. Kapalı alanlara yerleştirilmelidir.",
+        "AR-SA": "صندوق معركة مكون من 64 بقعة بحد أقصى 24296 كجم. يجب أن يتم وضعه في مكان مغلق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 10,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 10
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.875,
+        "crafting_focus": 919,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 10
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 10
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": 30,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 9.11,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": 30,
+      "shop": {
+        "shop_category": "furniture",
+        "shop_subcategory1": "chest",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FURNITUREITEM_CHEST",
+        "item_database_index": "3177"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Chest",
+        "name_ar": "صندوق الأخصائي",
+        "name_de": "Truhe des Experten",
+        "name_fr": "Coffre de l'expert",
+        "name_es": "Cofre del experto",
+        "name_ru": "Сундук (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_FURNITUREITEM_CHEST",
+        "@shopcategory": "furniture",
+        "@shopsubcategory1": "chest",
+        "@tier": "5",
+        "@durability": "30",
+        "@weight": "9.11",
+        "@unlockedtocraft": "true",
+        "@placeableindoors": "true",
+        "@placeableoutdoors": "false",
+        "@placeableindungeons": "false",
+        "@placeableinexpeditions": "false",
+        "@shopsubcategory2": "house",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.875",
+          "@craftingfocus": "919",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "10"
+            }
+          ]
+        },
+        "container": {
+          "@capacity": "64",
+          "@weightlimit": "24295.69"
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

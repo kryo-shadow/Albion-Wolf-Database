@@ -1,0 +1,254 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Fish",
+  "base_id": "T5_2H_TOOL_FISHINGROD",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_2H_TOOL_FISHINGROD",
+      "index": "3017",
+      "name_en": "Expert's Fishing Rod",
+      "name_ar": "صنارة صيد للأخصائي",
+      "name_de": "Angel des Experten",
+      "name_fr": "Canne à pêche de l'expert",
+      "name_es": "Caña de pescar del experto",
+      "name_ru": "Удочка (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_2H_TOOL_FISHINGROD",
+        "description_variable": "@ITEMS_T5_2H_TOOL_FISHINGROD_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_2H_TOOL_FISHINGROD",
+        "fishing": "true",
+        "fishingspeed": "0.05",
+        "mesh": "T5_FISHINGROD",
+        "uisprite": "FISHING_ROD",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "attacktype": "melee",
+        "attackdamage": "37",
+        "attackspeed": "0.5",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "5",
+        "weight": "2.53",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "1500",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_fishingrod",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "800",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "fishingrods"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Fishing Rod",
+        "DE-DE": "Angel des Experten",
+        "FR-FR": "Canne à pêche de l'expert",
+        "RU-RU": "Удочка (эксперт)",
+        "PL-PL": "Wędka Znawcy",
+        "ES-ES": "Caña de pescar del experto",
+        "PT-BR": "Vara de Pescar do Perito",
+        "IT-IT": "Canna da pesca dell'esperto",
+        "ZH-CN": "专家级鱼竿",
+        "KO-KR": "전문가의 낚싯대",
+        "JA-JP": "釣り竿（達人）",
+        "ZH-TW": "專家級釣竿",
+        "ID-ID": "Joran Ahli",
+        "TR-TR": "Uzman Oltası",
+        "AR-SA": "صنارة صيد للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.5,
+        "crafting_focus": 750,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 2
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 0.5,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_fishingrod",
+        "item_power": 800,
+        "ability_power": 100,
+        "durability": 1500,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 2.53,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 800,
+      "effective_durability": 1500,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "FISHING_ROD"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_2H_TOOL_FISHINGROD",
+        "item_database_index": "3017"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Fishing Rod",
+        "name_ar": "صنارة صيد للأخصائي",
+        "name_de": "Angel des Experten",
+        "name_fr": "Canne à pêche de l'expert",
+        "name_es": "Caña de pescar del experto",
+        "name_ru": "Удочка (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_2H_TOOL_FISHINGROD",
+        "@fishing": "true",
+        "@fishingspeed": "0.05",
+        "@mesh": "T5_FISHINGROD",
+        "@uisprite": "FISHING_ROD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@attacktype": "melee",
+        "@attackdamage": "37",
+        "@attackspeed": "0.5",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "5",
+        "@weight": "2.53",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "1500",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_fishingrod",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "800",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "fishingrods",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.5",
+          "@craftingfocus": "750",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T5_CLOTH",
+              "@count": "2"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

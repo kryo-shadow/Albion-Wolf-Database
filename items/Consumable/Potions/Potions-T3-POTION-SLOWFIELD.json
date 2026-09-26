@@ -1,0 +1,374 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T3_POTION_SLOWFIELD",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_POTION_SLOWFIELD",
+      "index": "586",
+      "name_en": "Minor Sticky Potion",
+      "name_ar": "جرعة لزجة ثانوية",
+      "name_de": "Kleiner klebriger Trank",
+      "name_fr": "Potion collante mineure",
+      "name_es": "Poción pegajosa menor",
+      "name_ru": "Малая вязкая настойка",
+      "descriptions": {
+        "description_en": "A viscous potion. Throw it on a ground location to create an area that slows enemies and reduces their damage.",
+        "description_ar": "جرعة لزجة. يمكنك إلقاءها على موقع أرضي لإنشاء منطقة تبطئ الأعداء وتقلل ضررهم.",
+        "description_de": "Ein zäher Trank. Wirf ihn auf den Boden und erzeuge dort eine Fläche, die verlangsamt und den Schaden des Gegners reduziert.",
+        "description_fr": "Une potion visqueuse. Lancez-la à un endroit ciblé pour créer une zone qui réduira la vitesse et les dégâts ennemis.",
+        "description_es": "Una poción viscosa. Tírala al suelo para crear un área que ralentiza y reduce el daño del enemigo.",
+        "description_ru": "Бутыль со льдом. Бросьте на землю, чтобы создать область замедляющую врагов, снижающую урон противника."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_POTION_SLOWFIELD",
+        "description_variable": "@ITEMS_POTION_SLOWFIELD_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_POTION_SLOWFIELD",
+        "uisprite": "POTION_STICKY",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_AOE_SLOW_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "3",
+        "dummyitempower": "600",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.1",
+        "descriptionlocatag": "@ITEMS_POTION_SLOWFIELD_DESC",
+        "shopsubcategory2": "slowfield"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Minor Sticky Potion",
+        "DE-DE": "Kleiner klebriger Trank",
+        "FR-FR": "Potion collante mineure",
+        "RU-RU": "Малая вязкая настойка",
+        "PL-PL": "Mniejsza Kleista Mikstura",
+        "ES-ES": "Poción pegajosa menor",
+        "PT-BR": "Poção Pegajosa Menor",
+        "IT-IT": "Pozione appiccicosa minore",
+        "ZH-CN": "初级黏性药水",
+        "KO-KR": "소형 끈끈이 포션",
+        "JA-JP": "ねばねばポーション（小）",
+        "ZH-TW": "初級黏性藥水",
+        "ID-ID": "Ramuan Lengket Minor",
+        "TR-TR": "Zayıf Yapışkan İksir",
+        "AR-SA": "جرعة لزجة ثانوية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A viscous potion. Throw it on a ground location to create an area that slows enemies and reduces their damage.",
+        "DE-DE": "Ein zäher Trank. Wirf ihn auf den Boden und erzeuge dort eine Fläche, die verlangsamt und den Schaden des Gegners reduziert.",
+        "FR-FR": "Une potion visqueuse. Lancez-la à un endroit ciblé pour créer une zone qui réduira la vitesse et les dégâts ennemis.",
+        "RU-RU": "Бутыль со льдом. Бросьте на землю, чтобы создать область замедляющую врагов, снижающую урон противника.",
+        "PL-PL": "Lepka mikstura. Rzuć ją w punkt na ziemi, tworząc obszar spowalniający wrogów i obniżający ich zadawane obrażenia",
+        "ES-ES": "Una poción viscosa. Tírala al suelo para crear un área que ralentiza y reduce el daño del enemigo",
+        "PT-BR": "Uma poção pegajosa. Jogue a no chão para criar uma área que desacelera e reduz o dano do inimigo.",
+        "IT-IT": "Una pozione viscosa. Lanciala sul terreno per creare una zona che rallenta i nemici e ne riduce il danno.",
+        "ZH-CN": "黏糊糊的药水，扔到地上之后，药水会形成一个区域，减缓区域内敌人的移动速度，同时降低敌人造成的伤害。",
+        "KO-KR": "끈적한 포션. 특정 위치의 바닥에 던지면 그 주위에 적을 둔화시키고 대미지를 증가시키는 영역을 만듭니다.",
+        "JA-JP": "粘性のあるポーション。地面に投げると、敵のスピードを低下させて敵のダメージを減少させるエリアを作り出します。",
+        "ZH-TW": "黏稠無比的藥水。扔到地上後會形成一個區域，且區域內敵人的移動速度及其造成的傷害均會下降。",
+        "ID-ID": "Ramuan yang kental. Lemparkan ke tanah untuk membuat area yang memperlambat musuh dan mengurangi damage yang mereka hasilkan.",
+        "TR-TR": "Yoğun bir iksir. Düşmanları yavaşlatan ve hasarlarını azaltan bir zemin oluşturmak için yere fırlatılabilir.",
+        "AR-SA": "جرعة لزجة. يمكنك إلقاءها على موقع أرضي لإنشاء منطقة تبطئ الأعداء وتقلل ضررهم."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_COMFREY",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T3_COMFREY",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.1285,
+        "crafting_focus": 56,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_COMFREY",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T3_COMFREY",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 0.1,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1285,
+          "crafting_focus": 78,
+          "crafting_resources": [
+            {
+              "id": "T3_COMFREY",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 5,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1285,
+          "crafting_focus": 123,
+          "crafting_resources": [
+            {
+              "id": "T3_COMFREY",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 5,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.1285,
+          "crafting_focus": 256,
+          "crafting_resources": [
+            {
+              "id": "T3_COMFREY",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 5,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_STICKY"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_POTION_SLOWFIELD",
+        "item_database_index": "586"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Minor Sticky Potion",
+        "name_ar": "جرعة لزجة ثانوية",
+        "name_de": "Kleiner klebriger Trank",
+        "name_fr": "Potion collante mineure",
+        "name_es": "Poción pegajosa menor",
+        "name_ru": "Малая вязкая настойка"
+      },
+      "raw": {
+        "@uniquename": "T3_POTION_SLOWFIELD",
+        "@uisprite": "POTION_STICKY",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_AOE_SLOW_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "3",
+        "@dummyitempower": "600",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.1",
+        "@descriptionlocatag": "@ITEMS_POTION_SLOWFIELD_DESC",
+        "@shopsubcategory2": "slowfield",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "56",
+          "@time": "0.1285",
+          "craftresource": {
+            "@uniquename": "T3_COMFREY",
+            "@count": "8"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_AOE_SLOW_P2",
+              "@dummyitempower": "700",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1285",
+                "@amountcrafted": "5",
+                "@craftingfocus": "78",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_AOE_SLOW_P3",
+              "@dummyitempower": "800",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1285",
+                "@amountcrafted": "5",
+                "@craftingfocus": "123",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_AOE_SLOW_P4",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.1285",
+                "@amountcrafted": "5",
+                "@craftingfocus": "256",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "5"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

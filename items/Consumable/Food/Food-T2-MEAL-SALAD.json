@@ -1,0 +1,415 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T2_MEAL_SALAD",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T2_MEAL_SALAD",
+      "index": "740",
+      "name_en": "Bean Salad",
+      "name_ar": "سلطة الفاصولياء",
+      "name_de": "Bohnensalat",
+      "name_fr": "Salade de haricots",
+      "name_es": "Ensalada de frijoles",
+      "name_ru": "Салат с бобами",
+      "descriptions": {
+        "description_en": "Simple snack that increases crafting speed and quality for a short period.",
+        "description_ar": "وجبة خفيفة بسيطة تزيد سرعة التصنيع وجودته لفترة قصيرة.",
+        "description_de": "Ein einfacher Snack, der die Fertigungsgeschwindigkeit und -qualität für kurze Zeit erhöht.",
+        "description_fr": "Petit en-cas qui augmente vit. et qualité de fabrication pendant un instant",
+        "description_es": "Aperitivo simple que aumenta la velocidad y calidad de artesanía durante un momento",
+        "description_ru": "Простая закуска, ненадолго повышает скорость и качество крафтинга."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T2_MEAL_SALAD",
+        "description_variable": "@ITEMS_MEAL_SALAD_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T2_MEAL_SALAD",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_CRAFTING_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "2",
+        "dummyitempower": "500",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.16",
+        "nutrition": "77",
+        "descriptionlocatag": "@ITEMS_MEAL_SALAD_DESC",
+        "shopsubcategory2": "salads"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Bean Salad",
+        "DE-DE": "Bohnensalat",
+        "FR-FR": "Salade de haricots",
+        "RU-RU": "Салат с бобами",
+        "PL-PL": "Sałatka z Fasoli",
+        "ES-ES": "Ensalada de frijoles",
+        "PT-BR": "Salada de Feijão",
+        "IT-IT": "Insalata di fagioli",
+        "ZH-CN": "豌豆沙拉",
+        "KO-KR": "콩 샐러드",
+        "JA-JP": "マメサラダ",
+        "ZH-TW": "青豆沙拉",
+        "ID-ID": "Selada Buncis",
+        "TR-TR": "Fasulye Salatası",
+        "AR-SA": "سلطة الفاصولياء"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Simple snack that increases crafting speed and quality for a short period.",
+        "DE-DE": "Ein einfacher Snack, der die Fertigungsgeschwindigkeit und -qualität für kurze Zeit erhöht.",
+        "FR-FR": "Petit en-cas qui augmente vit. et qualité de fabrication pendant un instant",
+        "RU-RU": "Простая закуска, ненадолго повышает скорость и качество крафтинга.",
+        "PL-PL": "Prosta przekąska, która na krótko zwiększa jakość i szybkość wytwarzania.",
+        "ES-ES": "Aperitivo simple que aumenta la velocidad y calidad de artesanía durante un momento",
+        "PT-BR": "Lance simples que aumenta a velocidade e a qualidade da produção por um curto período",
+        "IT-IT": "Un semplice spuntino che aumenta velocità e qualità di creazione per un breve periodo.",
+        "ZH-CN": "简单的零食，可以短时提升制造速度和品质。",
+        "KO-KR": "제작 속도와 품질을 단기간 동안 올리는 간단한 스낵입니다.",
+        "JA-JP": "製造速度と品質が短時間上昇するシンプルな軽食。",
+        "ZH-TW": "一道小點，能短時間提升製作物品的速度和品質。",
+        "ID-ID": "Kudapan sederhana yang meningkatkan kecepatan dan kualitas crafting untuk waktu singkat.",
+        "TR-TR": "Kısa bir süreliğine zanaat hızını ve kalitesini artıran basit bir atıştırmalık.",
+        "AR-SA": "وجبة خفيفة بسيطة تزيد سرعة التصنيع وجودته لفترة قصيرة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T2_BEAN",
+        "primary_count": 8,
+        "secondary_resource": "T1_CARROT",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T2_BEAN",
+            "count": 8
+          },
+          {
+            "id": "T1_CARROT",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.257,
+        "crafting_focus": 56,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T2_BEAN",
+            "count": 8
+          },
+          {
+            "id": "T1_CARROT",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T2_BEAN",
+        "primary_count": 8,
+        "secondary_resource": "T1_CARROT",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 2,
+        "weight": 1.16,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 78,
+          "crafting_resources": [
+            {
+              "id": "T2_BEAN",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_CARROT",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 10,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 123,
+          "crafting_resources": [
+            {
+              "id": "T2_BEAN",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_CARROT",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 10,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 256,
+          "crafting_resources": [
+            {
+              "id": "T2_BEAN",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_CARROT",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 10,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T2_MEAL_SALAD",
+        "item_database_index": "740"
+      },
+      "tier": 2,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Bean Salad",
+        "name_ar": "سلطة الفاصولياء",
+        "name_de": "Bohnensalat",
+        "name_fr": "Salade de haricots",
+        "name_es": "Ensalada de frijoles",
+        "name_ru": "Салат с бобами"
+      },
+      "raw": {
+        "@uniquename": "T2_MEAL_SALAD",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_CRAFTING_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "2",
+        "@dummyitempower": "500",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.16",
+        "@nutrition": "77",
+        "@descriptionlocatag": "@ITEMS_MEAL_SALAD_DESC",
+        "@shopsubcategory2": "salads",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "56",
+          "@time": "0.257",
+          "craftresource": [
+            {
+              "@uniquename": "T2_BEAN",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T1_CARROT",
+              "@count": "8"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "600",
+              "@consumespell": "FOOD_CRAFTING_P2",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "78",
+                "@time": "0.257",
+                "craftresource": [
+                  {
+                    "@uniquename": "T2_BEAN",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_CARROT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "700",
+              "@consumespell": "FOOD_CRAFTING_P3",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "123",
+                "@time": "0.257",
+                "craftresource": [
+                  {
+                    "@uniquename": "T2_BEAN",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_CARROT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "800",
+              "@consumespell": "FOOD_CRAFTING_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "256",
+                "@time": "0.257",
+                "craftresource": [
+                  {
+                    "@uniquename": "T2_BEAN",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_CARROT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

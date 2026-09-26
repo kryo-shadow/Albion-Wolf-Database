@@ -1,0 +1,3539 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Spear",
+  "base_id": "T4_MAIN_SPEAR_LANCE_AVALON",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_MAIN_SPEAR_LANCE_AVALON",
+      "index": "8356",
+      "name_en": "Adept's Daybreaker",
+      "name_ar": "رمح السقوط المباشر للبارع",
+      "name_de": "Tagesbringer des Adepten",
+      "name_fr": "Diurnebris de l'adepte",
+      "name_es": "Portador del alba del iniciado",
+      "name_ru": "Копье рассвета (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_SPEAR_LANCE_AVALON",
+        "description_variable": "@ITEMS_T4_MAIN_SPEAR_LANCE_AVALON_DESC"
+      },
+      "category": "Weapons_Spear",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_SPEAR_LANCE_AVALON",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "spear",
+        "attacktype": "melee",
+        "mainhandanimationtype": "spear1h",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "spear",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_SPEARS_AVALON",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "spear_avalon"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Daybreaker",
+        "DE-DE": "Tagesbringer des Adepten",
+        "FR-FR": "Diurnebris de l'adepte",
+        "RU-RU": "Копье рассвета (знаток)",
+        "PL-PL": "Upadek Dnia Adepta",
+        "ES-ES": "Portador del alba del iniciado",
+        "PT-BR": "Alvorada do Adepto",
+        "IT-IT": "Albeggiatrice del sapiente",
+        "ZH-CN": "老手级破晓尖枪",
+        "KO-KR": "숙련자의 데이브레이커",
+        "JA-JP": "デイブレイカー（名人）",
+        "ZH-TW": "老手級破曉者",
+        "ID-ID": "Fajar Mahir",
+        "TR-TR": "Ehil Seherkeseri",
+        "AR-SA": "رمح السقوط المباشر للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "spear1h",
+        "item_power": 800,
+        "ability_power": 138,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SPEARS_AVALON",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "LANCE_CHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "LANCE_CHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 800,
+      "effective_durability": 68344,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "spear",
+        "crafting_category": "spear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+          "name_artifact_en": "Adept's Ruined Ancestral Vamplate",
+          "name_artifact_ar": "مقبض الرمح الموروث التالف للبارع",
+          "name_artifact_de": "Zerstörter antiker Handschutz des Adepten",
+          "name_artifact_fr": "Garde ancestrale ruinée de l'adepte",
+          "name_artifact_es": "Vamplate ancestral arruinado del iniciado",
+          "name_artifact_ru": "Обломок рукояти предков (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_SPEAR_LANCE_AVALON",
+        "item_database_index": "8356"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Daybreaker",
+        "name_ar": "رمح السقوط المباشر للبارع",
+        "name_de": "Tagesbringer des Adepten",
+        "name_fr": "Diurnebris de l'adepte",
+        "name_es": "Portador del alba del iniciado",
+        "name_ru": "Копье рассвета (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_SPEAR_LANCE_AVALON",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "spear",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "spear1h",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "spear",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_SPEARS_AVALON",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "spear_avalon",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1",
+            "@craftingfocus": "1286",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "1286",
+            "@time": "1",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SPEAR",
+          "removespell": {
+            "@uniquename": "DASHDMG"
+          },
+          "craftspell": {
+            "@uniquename": "LANCE_CHARGE",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_SPEAR_LANCE_AVALON@1",
+      "index": "8357",
+      "name_en": "Adept's Daybreaker",
+      "name_ar": "رمح السقوط المباشر للبارع",
+      "name_de": "Tagesbringer des Adepten",
+      "name_fr": "Diurnebris de l'adepte",
+      "name_es": "Portador del alba del iniciado",
+      "name_ru": "Копье рассвета (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_SPEAR_LANCE_AVALON",
+        "description_variable": "@ITEMS_T4_MAIN_SPEAR_LANCE_AVALON_DESC"
+      },
+      "category": "Weapons_Spear",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_SPEAR_LANCE_AVALON",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "spear",
+        "attacktype": "melee",
+        "mainhandanimationtype": "spear1h",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "spear",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_SPEARS_AVALON",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "spear_avalon"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Daybreaker",
+        "DE-DE": "Tagesbringer des Adepten",
+        "FR-FR": "Diurnebris de l'adepte",
+        "RU-RU": "Копье рассвета (знаток)",
+        "PL-PL": "Upadek Dnia Adepta",
+        "ES-ES": "Portador del alba del iniciado",
+        "PT-BR": "Alvorada do Adepto",
+        "IT-IT": "Albeggiatrice del sapiente",
+        "ZH-CN": "老手级破晓尖枪",
+        "KO-KR": "숙련자의 데이브레이커",
+        "JA-JP": "デイブレイカー（名人）",
+        "ZH-TW": "老手級破曉者",
+        "ID-ID": "Fajar Mahir",
+        "TR-TR": "Ehil Seherkeseri",
+        "AR-SA": "رمح السقوط المباشر للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "spear1h",
+        "item_power": 800,
+        "ability_power": 138,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SPEARS_AVALON",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "LANCE_CHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "LANCE_CHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 900,
+        "durability": 102516,
+        "crafting_silver": 0,
+        "crafting_time": 1.5,
+        "crafting_focus": 2251,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_METALBAR_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 900,
+      "effective_durability": 102516,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "spear",
+        "crafting_category": "spear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+          "name_artifact_en": "Adept's Ruined Ancestral Vamplate",
+          "name_artifact_ar": "مقبض الرمح الموروث التالف للبارع",
+          "name_artifact_de": "Zerstörter antiker Handschutz des Adepten",
+          "name_artifact_fr": "Garde ancestrale ruinée de l'adepte",
+          "name_artifact_es": "Vamplate ancestral arruinado del iniciado",
+          "name_artifact_ru": "Обломок рукояти предков (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_SPEAR_LANCE_AVALON@1",
+        "item_database_index": "8357"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Daybreaker",
+        "name_ar": "رمح السقوط المباشر للبارع",
+        "name_de": "Tagesbringer des Adepten",
+        "name_fr": "Diurnebris de l'adepte",
+        "name_es": "Portador del alba del iniciado",
+        "name_ru": "Копье рассвета (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_SPEAR_LANCE_AVALON",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "spear",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "spear1h",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "spear",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_SPEARS_AVALON",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "spear_avalon",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1",
+            "@craftingfocus": "1286",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "1286",
+            "@time": "1",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SPEAR",
+          "removespell": {
+            "@uniquename": "DASHDMG"
+          },
+          "craftspell": {
+            "@uniquename": "LANCE_CHARGE",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_SPEAR_LANCE_AVALON@2",
+      "index": "8358",
+      "name_en": "Adept's Daybreaker",
+      "name_ar": "رمح السقوط المباشر للبارع",
+      "name_de": "Tagesbringer des Adepten",
+      "name_fr": "Diurnebris de l'adepte",
+      "name_es": "Portador del alba del iniciado",
+      "name_ru": "Копье рассвета (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_SPEAR_LANCE_AVALON",
+        "description_variable": "@ITEMS_T4_MAIN_SPEAR_LANCE_AVALON_DESC"
+      },
+      "category": "Weapons_Spear",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_SPEAR_LANCE_AVALON",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "spear",
+        "attacktype": "melee",
+        "mainhandanimationtype": "spear1h",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "spear",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_SPEARS_AVALON",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "spear_avalon"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Daybreaker",
+        "DE-DE": "Tagesbringer des Adepten",
+        "FR-FR": "Diurnebris de l'adepte",
+        "RU-RU": "Копье рассвета (знаток)",
+        "PL-PL": "Upadek Dnia Adepta",
+        "ES-ES": "Portador del alba del iniciado",
+        "PT-BR": "Alvorada do Adepto",
+        "IT-IT": "Albeggiatrice del sapiente",
+        "ZH-CN": "老手级破晓尖枪",
+        "KO-KR": "숙련자의 데이브레이커",
+        "JA-JP": "デイブレイカー（名人）",
+        "ZH-TW": "老手級破曉者",
+        "ID-ID": "Fajar Mahir",
+        "TR-TR": "Ehil Seherkeseri",
+        "AR-SA": "رمح السقوط المباشر للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "spear1h",
+        "item_power": 800,
+        "ability_power": 138,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SPEARS_AVALON",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "LANCE_CHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "LANCE_CHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1000,
+        "durability": 153774,
+        "crafting_silver": 0,
+        "crafting_time": 2,
+        "crafting_focus": 3939,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_METALBAR_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 153774,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "spear",
+        "crafting_category": "spear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+          "name_artifact_en": "Adept's Ruined Ancestral Vamplate",
+          "name_artifact_ar": "مقبض الرمح الموروث التالف للبارع",
+          "name_artifact_de": "Zerstörter antiker Handschutz des Adepten",
+          "name_artifact_fr": "Garde ancestrale ruinée de l'adepte",
+          "name_artifact_es": "Vamplate ancestral arruinado del iniciado",
+          "name_artifact_ru": "Обломок рукояти предков (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_SPEAR_LANCE_AVALON@2",
+        "item_database_index": "8358"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Daybreaker",
+        "name_ar": "رمح السقوط المباشر للبارع",
+        "name_de": "Tagesbringer des Adepten",
+        "name_fr": "Diurnebris de l'adepte",
+        "name_es": "Portador del alba del iniciado",
+        "name_ru": "Копье рассвета (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_SPEAR_LANCE_AVALON",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "spear",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "spear1h",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "spear",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_SPEARS_AVALON",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "spear_avalon",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1",
+            "@craftingfocus": "1286",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "1286",
+            "@time": "1",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SPEAR",
+          "removespell": {
+            "@uniquename": "DASHDMG"
+          },
+          "craftspell": {
+            "@uniquename": "LANCE_CHARGE",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_SPEAR_LANCE_AVALON@3",
+      "index": "8359",
+      "name_en": "Adept's Daybreaker",
+      "name_ar": "رمح السقوط المباشر للبارع",
+      "name_de": "Tagesbringer des Adepten",
+      "name_fr": "Diurnebris de l'adepte",
+      "name_es": "Portador del alba del iniciado",
+      "name_ru": "Копье рассвета (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_SPEAR_LANCE_AVALON",
+        "description_variable": "@ITEMS_T4_MAIN_SPEAR_LANCE_AVALON_DESC"
+      },
+      "category": "Weapons_Spear",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_SPEAR_LANCE_AVALON",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "spear",
+        "attacktype": "melee",
+        "mainhandanimationtype": "spear1h",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "spear",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_SPEARS_AVALON",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "spear_avalon"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Daybreaker",
+        "DE-DE": "Tagesbringer des Adepten",
+        "FR-FR": "Diurnebris de l'adepte",
+        "RU-RU": "Копье рассвета (знаток)",
+        "PL-PL": "Upadek Dnia Adepta",
+        "ES-ES": "Portador del alba del iniciado",
+        "PT-BR": "Alvorada do Adepto",
+        "IT-IT": "Albeggiatrice del sapiente",
+        "ZH-CN": "老手级破晓尖枪",
+        "KO-KR": "숙련자의 데이브레이커",
+        "JA-JP": "デイブレイカー（名人）",
+        "ZH-TW": "老手級破曉者",
+        "ID-ID": "Fajar Mahir",
+        "TR-TR": "Ehil Seherkeseri",
+        "AR-SA": "رمح السقوط المباشر للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "spear1h",
+        "item_power": 800,
+        "ability_power": 138,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SPEARS_AVALON",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "LANCE_CHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "LANCE_CHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1100,
+        "durability": 230661,
+        "crafting_silver": 0,
+        "crafting_time": 2.5,
+        "crafting_focus": 6893,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_METALBAR_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 230661,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "spear",
+        "crafting_category": "spear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+          "name_artifact_en": "Adept's Ruined Ancestral Vamplate",
+          "name_artifact_ar": "مقبض الرمح الموروث التالف للبارع",
+          "name_artifact_de": "Zerstörter antiker Handschutz des Adepten",
+          "name_artifact_fr": "Garde ancestrale ruinée de l'adepte",
+          "name_artifact_es": "Vamplate ancestral arruinado del iniciado",
+          "name_artifact_ru": "Обломок рукояти предков (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_SPEAR_LANCE_AVALON@3",
+        "item_database_index": "8359"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Daybreaker",
+        "name_ar": "رمح السقوط المباشر للبارع",
+        "name_de": "Tagesbringer des Adepten",
+        "name_fr": "Diurnebris de l'adepte",
+        "name_es": "Portador del alba del iniciado",
+        "name_ru": "Копье рассвета (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_SPEAR_LANCE_AVALON",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "spear",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "spear1h",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "spear",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_SPEARS_AVALON",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "spear_avalon",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1",
+            "@craftingfocus": "1286",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "1286",
+            "@time": "1",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SPEAR",
+          "removespell": {
+            "@uniquename": "DASHDMG"
+          },
+          "craftspell": {
+            "@uniquename": "LANCE_CHARGE",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_SPEAR_LANCE_AVALON@4",
+      "index": "8360",
+      "name_en": "Adept's Daybreaker",
+      "name_ar": "رمح السقوط المباشر للبارع",
+      "name_de": "Tagesbringer des Adepten",
+      "name_fr": "Diurnebris de l'adepte",
+      "name_es": "Portador del alba del iniciado",
+      "name_ru": "Копье рассвета (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_SPEAR_LANCE_AVALON",
+        "description_variable": "@ITEMS_T4_MAIN_SPEAR_LANCE_AVALON_DESC"
+      },
+      "category": "Weapons_Spear",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_SPEAR_LANCE_AVALON",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "spear",
+        "attacktype": "melee",
+        "mainhandanimationtype": "spear1h",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "spear",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_SPEARS_AVALON",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "spear_avalon"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Daybreaker",
+        "DE-DE": "Tagesbringer des Adepten",
+        "FR-FR": "Diurnebris de l'adepte",
+        "RU-RU": "Копье рассвета (знаток)",
+        "PL-PL": "Upadek Dnia Adepta",
+        "ES-ES": "Portador del alba del iniciado",
+        "PT-BR": "Alvorada do Adepto",
+        "IT-IT": "Albeggiatrice del sapiente",
+        "ZH-CN": "老手级破晓尖枪",
+        "KO-KR": "숙련자의 데이브레이커",
+        "JA-JP": "デイブレイカー（名人）",
+        "ZH-TW": "老手級破曉者",
+        "ID-ID": "Fajar Mahir",
+        "TR-TR": "Ehil Seherkeseri",
+        "AR-SA": "رمح السقوط المباشر للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "spear1h",
+        "item_power": 800,
+        "ability_power": 138,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SPEARS_AVALON",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "LANCE_CHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "LANCE_CHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1200,
+        "durability": 345992,
+        "crafting_silver": 0,
+        "crafting_time": 3.75,
+        "crafting_focus": 12064,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_METALBAR_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 345992,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "spear",
+        "crafting_category": "spear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+          "name_artifact_en": "Adept's Ruined Ancestral Vamplate",
+          "name_artifact_ar": "مقبض الرمح الموروث التالف للبارع",
+          "name_artifact_de": "Zerstörter antiker Handschutz des Adepten",
+          "name_artifact_fr": "Garde ancestrale ruinée de l'adepte",
+          "name_artifact_es": "Vamplate ancestral arruinado del iniciado",
+          "name_artifact_ru": "Обломок рукояти предков (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_SPEAR_LANCE_AVALON@4",
+        "item_database_index": "8360"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Daybreaker",
+        "name_ar": "رمح السقوط المباشر للبارع",
+        "name_de": "Tagesbringer des Adepten",
+        "name_fr": "Diurnebris de l'adepte",
+        "name_es": "Portador del alba del iniciado",
+        "name_ru": "Копье рассвета (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_SPEAR_LANCE_AVALON",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "spear",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "spear1h",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "spear",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_SPEARS_AVALON",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "spear_avalon",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1",
+            "@craftingfocus": "1286",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "1286",
+            "@time": "1",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SPEAR",
+          "removespell": {
+            "@uniquename": "DASHDMG"
+          },
+          "craftspell": {
+            "@uniquename": "LANCE_CHARGE",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

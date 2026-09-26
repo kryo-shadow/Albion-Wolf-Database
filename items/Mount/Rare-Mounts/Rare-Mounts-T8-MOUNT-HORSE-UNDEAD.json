@@ -1,0 +1,574 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Rare_Mounts",
+  "base_id": "T8_MOUNT_HORSE_UNDEAD",
+  "item_count": 2,
+  "items": [
+    {
+      "id": "T8_MOUNT_HORSE_UNDEAD",
+      "index": null,
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "localization_variables": null,
+      "category": "Mount_Rare_Mounts",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_MOUNT_HORSE_UNDEAD",
+        "enchantmentlevel": "1",
+        "uisprite": "MOUNT_HORSE_UNDEAD_02",
+        "prefabname": "MOUNT_HORSE_UNDEAD_02",
+        "prefabscaling": "1.6",
+        "maxqualitylevel": "5",
+        "itempower": "1100",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "rare_mount",
+        "mountedbuff": "T8_MOUNT_HORSE_UNDEAD_MOUNTED",
+        "halfmountedbuff": "T8_MOUNT_HORSE_UNDEAD_HALFMOUNTED",
+        "tier": "8",
+        "weight": "179.4",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "136687.5",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "false",
+        "mounttime": "3",
+        "dismounttime": "0",
+        "mounthitpointsmax": "1509",
+        "mounthitpointsregeneration": "15.09",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "12",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "0.5",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "canuseingvg": "false",
+        "canusetownportal": "true"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {},
+      "localized_all_descriptions": {},
+      "crafting_requirements": {
+        "resources": [
+          {
+            "id": "T8_MOUNT_HORSE",
+            "count": 1
+          },
+          {
+            "id": "T8_MOUNTUPGRADE_HORSE_CURSE",
+            "count": 1
+          }
+        ],
+        "primary": {
+          "id": "T8_MOUNT_HORSE",
+          "count": 1
+        },
+        "secondary": {
+          "id": "T8_MOUNTUPGRADE_HORSE_CURSE",
+          "count": 1
+        }
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0,
+        "crafting_focus": 0,
+        "resources": [
+          {
+            "id": "T8_MOUNT_HORSE",
+            "count": 1
+          },
+          {
+            "id": "T8_MOUNTUPGRADE_HORSE_CURSE",
+            "count": 1
+          }
+        ]
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 136687.5,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 179.4,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_HORSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_HORSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 136687.5,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "rare_mount",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": "MOUNT_HORSE_UNDEAD_02"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MOUNT_HORSE_UNDEAD",
+        "item_database_index": ""
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "",
+        "name_ar": ""
+      },
+      "raw": {
+        "@uniquename": "T8_MOUNT_HORSE_UNDEAD",
+        "@enchantmentlevel": "1",
+        "@uisprite": "MOUNT_HORSE_UNDEAD_02",
+        "@prefabname": "MOUNT_HORSE_UNDEAD_02",
+        "@prefabscaling": "1.6",
+        "@maxqualitylevel": "5",
+        "@itempower": "1100",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "rare_mount",
+        "@mountedbuff": "T8_MOUNT_HORSE_UNDEAD_MOUNTED",
+        "@halfmountedbuff": "T8_MOUNT_HORSE_UNDEAD_HALFMOUNTED",
+        "@tier": "8",
+        "@weight": "179.4",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "136687.5",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "false",
+        "@mounttime": "3",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "1509",
+        "@mounthitpointsregeneration": "15.09",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "12",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "0.5",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@canuseingvg": "false",
+        "@canusetownportal": "true",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0",
+          "craftresource": [
+            {
+              "@uniquename": "T8_MOUNT_HORSE",
+              "@enchantmentlevel": "0",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T8_MOUNTUPGRADE_HORSE_CURSE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_MAXLOAD_HORSE"
+          }
+        },
+        "mountspelllist": {
+          "mountspell": {
+            "@spellslot": "shoes",
+            "@uniquename": "MOUNTSPELL_UNDEAD_STEALTH"
+          }
+        }
+      },
+      "source": "local"
+    },
+    {
+      "id": "T8_MOUNT_HORSE_UNDEAD@1",
+      "index": "3072",
+      "name_en": "Spectral Bonehorse",
+      "name_ar": "حصان عظمي طيفي",
+      "name_de": "Spektrales Knochenpferd",
+      "name_fr": "Cheval squelettique spectral",
+      "name_es": "Caballo huesudo espectral",
+      "name_ru": "Смертоконь",
+      "descriptions": {
+        "description_en": "Secret rituals allow the spirit of an ancient knight's mount to animate the cooling corpse of a sacrificial horse. Loyal and obedient, its appearance nevertheless strikes fear into its foes.",
+        "description_ar": "الطقوس السرية تحرر روح حصان يعود لفارس قديم لتحل في جثة متجمدة لحصان قربان. ورغم أنه مخلص ومطيع، فإن ظهوره يدب الخوف في أعدائه.",
+        "description_de": "Durch geheime Rituale kann der Geist des Reittiers eines uralten Ritters dem erkaltenden Körper eines Opferpferdes Leben einhauchen. Dem Reiter treu und ergeben, erfüllt die Erscheinung des Pferdes die Herzen seiner Feinde mit Furcht.",
+        "description_fr": "Des rituels secrets permettent à l'esprit d'une ancienne monture de chevalier de ranimer le cadavre encore tiède d'un cheval sacrifié. Loyal et obéissant, son apparition sème néanmoins la terreur parmi ses ennemis.",
+        "description_es": "Rituales secretos permiten al espíritu de la montura de un antiguo caballero reanimar el cadáver de un caballo sacrificial. Aunque fiel y obediente al jinete, su apariencia infunde miedo en sus enemigos.",
+        "description_ru": "С помощью тайных ритуалов можно призвать дух древнего рыцарского коня и вселить его в еще теплый труп жертвенной лошади. Смертокони верны своему хозяину и послушно исполняют его приказы, но врагам эти жуткие скакуны внушают подлинный ужас."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MOUNT_HORSE_UNDEAD",
+        "description_variable": "@ITEMS_T8_MOUNT_HORSE_UNDEAD_DESC"
+      },
+      "category": "Mount_Rare_Mounts",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_MOUNT_HORSE_UNDEAD",
+        "enchantmentlevel": "1",
+        "uisprite": "MOUNT_HORSE_UNDEAD_02",
+        "prefabname": "MOUNT_HORSE_UNDEAD_02",
+        "prefabscaling": "1.6",
+        "maxqualitylevel": "5",
+        "itempower": "1100",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "raremounts",
+        "mountedbuff": "T8_MOUNT_HORSE_UNDEAD_MOUNTED",
+        "halfmountedbuff": "T8_MOUNT_HORSE_UNDEAD_HALFMOUNTED",
+        "tier": "8",
+        "weight": "179.4",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "136687.5",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "false",
+        "mounttime": "3",
+        "dismounttime": "0",
+        "mounthitpointsmax": "1509",
+        "mounthitpointsregeneration": "15.09",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "0.5",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "canuseingvg": "false",
+        "canusetownportal": "true",
+        "shopsubcategory2": "horse",
+        "nutrition": "59049",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Spectral Bonehorse",
+        "DE-DE": "Spektrales Knochenpferd",
+        "FR-FR": "Cheval squelettique spectral",
+        "RU-RU": "Смертоконь",
+        "PL-PL": "Upiorny Przeklęty Koń",
+        "ES-ES": "Caballo huesudo espectral",
+        "PT-BR": "Cavalo Amaldiçoado Espectral",
+        "IT-IT": "Cavallo d'ossa spettrale",
+        "ZH-CN": "幽灵白骨马",
+        "KO-KR": "유령 본호스",
+        "JA-JP": "妖魔の骨馬",
+        "ZH-TW": "幽靈骸馬",
+        "ID-ID": "Kuda Tengkorak Momok",
+        "TR-TR": "Tayf İskelet Atı",
+        "AR-SA": "حصان عظمي طيفي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Secret rituals allow the spirit of an ancient knight's mount to animate the cooling corpse of a sacrificial horse. Loyal and obedient, its appearance nevertheless strikes fear into its foes.",
+        "DE-DE": "Durch geheime Rituale kann der Geist des Reittiers eines uralten Ritters dem erkaltenden Körper eines Opferpferdes Leben einhauchen. Dem Reiter treu und ergeben, erfüllt die Erscheinung des Pferdes die Herzen seiner Feinde mit Furcht.",
+        "FR-FR": "Des rituels secrets permettent à l'esprit d'une ancienne monture de chevalier de ranimer le cadavre encore tiède d'un cheval sacrifié. Loyal et obéissant, son apparition sème néanmoins la terreur parmi ses ennemis.",
+        "RU-RU": "С помощью тайных ритуалов можно призвать дух древнего рыцарского коня и вселить его в еще теплый труп жертвенной лошади. Смертокони верны своему хозяину и послушно исполняют его приказы, но врагам эти жуткие скакуны внушают подлинный ужас.",
+        "PL-PL": "Tajemne rytuały pozwalają przenieść ducha wierzchowca rycerza z zamierzchłych czasów w stygnące zwłoki konia ofiarnego. Pomimo wierności i posłuszeństwa wygląd zmory sieje strach w sercach wrogów.",
+        "ES-ES": "Rituales secretos permiten al espíritu de la montura de un antiguo caballero reanimar el cadáver de un caballo sacrificial. Aunque fiel y obediente al jinete, su apariencia infunde miedo en sus enemigos.",
+        "PT-BR": "Rituais secretos revivem o espírito de uma antiga montaria de cavaleiros no cadáver gelado de um cavalo sacrificado. Leal e obediente, a aparição desse cavalo sempre incute medo aos inimigos.",
+        "IT-IT": "Rituali segreti hanno permesso allo spirito del destriero di un antico cavaliere di animare la carcassa di un cavallo sacrificale. È leale e obbediente, tuttavia il suo aspetto incute timore nel cuore dei nemici.",
+        "ZH-CN": "秘密的仪式可以唤回古代骑士坐骑的灵魂，附身于祭祀用马即将冰冷的尸体，即可重现昔日雄姿。幽灵白骨马忠诚顺服，然而外表却能够震慑对手。",
+        "KO-KR": "숨겨진 의식을 통해 고대의 기사가 타던 말의 영혼을 제물로 바쳐진 말의 사체에 빙의시켜 만듭니다. 충성스럽고 순종적이지만, 그 외모를 본 적들은 공포에 떨게 됩니다.",
+        "JA-JP": "秘密の儀式により、古の騎士の騎獣の魂が、生贄にされた馬の冷たい死骸に命を吹き込みました。忠実かつ従順ではありますが、その容貌は敵を恐怖に陥れます。",
+        "ZH-TW": "透過祕密儀式召喚的古代騎士坐騎靈魂，附身於獻祭馬匹逐漸冰冷的遺體，藉此重獲新生。忠心且順從，不過牠的外觀依然能令敵人心生恐懼。",
+        "ID-ID": "Ritual rahasia memungkinkan jiwa tunggangan kesatria kuno untuk menghidupkan bangkai kuda pengorbanan. Setia dan patuh, namun tampilannya memicu rasa takut lawan.",
+        "TR-TR": "Gizemli ayinler sonucu kadim bir şövalyenin bineğinin ruhu kullanılarak, kurban edilen başka bir atın soğumakta olan cesedi yeniden canlandırılır. Sadık ve itaatkâr olmasının yanı sıra görünüşüyle düşmanlarına korku salar.",
+        "AR-SA": "الطقوس السرية تحرر روح حصان يعود لفارس قديم لتحل في جثة متجمدة لحصان قربان. ورغم أنه مخلص ومطيع، فإن ظهوره يدب الخوف في أعدائه."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_MOUNT_HORSE",
+        "primary_count": 1,
+        "secondary_resource": "T8_MOUNTUPGRADE_HORSE_CURSE",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T8_MOUNT_HORSE",
+            "count": 1
+          },
+          {
+            "id": "T8_MOUNTUPGRADE_HORSE_CURSE",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_MOUNT_HORSE",
+            "count": 1
+          },
+          {
+            "id": "T8_MOUNTUPGRADE_HORSE_CURSE",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_MOUNT_HORSE",
+        "primary_count": 1,
+        "secondary_resource": "T8_MOUNTUPGRADE_HORSE_CURSE",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 136687.5,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 179.4,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_HORSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_HORSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1,
+        "resolved_from": "UNIQUE_MOUNT_ARMORED_HORSE_KNIGHT_01_TEST"
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 136687.5,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "raremounts",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": "MOUNT_HORSE_UNDEAD_02"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MOUNT_HORSE_UNDEAD@1",
+        "item_database_index": "3072"
+      },
+      "tier": 8,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Spectral Bonehorse",
+        "name_ar": "حصان عظمي طيفي",
+        "name_de": "Spektrales Knochenpferd",
+        "name_fr": "Cheval squelettique spectral",
+        "name_es": "Caballo huesudo espectral",
+        "name_ru": "Смертоконь"
+      },
+      "raw": {
+        "@uniquename": "T8_MOUNT_HORSE_UNDEAD",
+        "@enchantmentlevel": "1",
+        "@uisprite": "MOUNT_HORSE_UNDEAD_02",
+        "@prefabname": "MOUNT_HORSE_UNDEAD_02",
+        "@prefabscaling": "1.6",
+        "@maxqualitylevel": "5",
+        "@itempower": "1100",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "raremounts",
+        "@mountedbuff": "T8_MOUNT_HORSE_UNDEAD_MOUNTED",
+        "@halfmountedbuff": "T8_MOUNT_HORSE_UNDEAD_HALFMOUNTED",
+        "@tier": "8",
+        "@weight": "179.4",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "136687.5",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "false",
+        "@mounttime": "3",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "1509",
+        "@mounthitpointsregeneration": "15.09",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "0.5",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@canuseingvg": "false",
+        "@canusetownportal": "true",
+        "@shopsubcategory2": "horse",
+        "@nutrition": "59049",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0",
+          "craftresource": [
+            {
+              "@uniquename": "T8_MOUNT_HORSE",
+              "@enchantmentlevel": "0",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T8_MOUNTUPGRADE_HORSE_CURSE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "UNIQUE_MOUNT_ARMORED_HORSE_KNIGHT_01_TEST"
+        },
+        "mountspelllist": {
+          "mountspell": {
+            "@spellslot": "shoes",
+            "@uniquename": "MOUNTSPELL_UNDEAD_STEALTH_T8_HORSE"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

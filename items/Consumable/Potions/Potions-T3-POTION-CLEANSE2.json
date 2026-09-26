@@ -1,0 +1,415 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T3_POTION_CLEANSE2",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_POTION_CLEANSE2",
+      "index": "626",
+      "name_en": "Minor Cleansing Potion",
+      "name_ar": "جرعة تطهير ثانوية",
+      "name_de": "Kleiner Reinigungstrank",
+      "name_fr": "Potion de purification mineure",
+      "name_es": "Poción de limpieza menor",
+      "name_ru": "Малое очищающее зелье",
+      "descriptions": {
+        "description_en": "Invigorating potion. Cleanses you and makes you immune to Crowd Control effects for short period.",
+        "description_ar": "جرعة التنشيط تطهرك وتكسبك مناعة ضد تأثيرات التحكم في الحشود لمدة قصيرة.",
+        "description_de": "Erfrischender Trank. Reinigt dich und macht dich für eine kurze Zeit immun gegen CC-Effekte.",
+        "description_fr": "Potion revigorante. Elle vous purifie et vous immunise contre les effets de contrôle de foule pendant une courte période.",
+        "description_es": "Poción vigorizante. Te limpia y te hace inmune a los efectos de control de multitudes durante un corto periodo.",
+        "description_ru": "Бодрящее зелье. Очищает вас и на короткое время наделяет невосприимчивостью к эффектам контроля."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_POTION_CLEANSE2",
+        "description_variable": "@ITEMS_POTION_CLEANSE2_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_POTION_CLEANSE2",
+        "slottype": "potion",
+        "weight": "0.1",
+        "consumespell": "POTION_CLEANSE2_P1",
+        "dummyitempower": "600",
+        "abilitypower": "186",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "tier": "3",
+        "craftingcategory": "potion",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "maxstacksize": "999",
+        "descriptionlocatag": "@ITEMS_POTION_CLEANSE2_DESC",
+        "shopsubcategory2": "cleanse"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Minor Cleansing Potion",
+        "DE-DE": "Kleiner Reinigungstrank",
+        "FR-FR": "Potion de purification mineure",
+        "RU-RU": "Малое очищающее зелье",
+        "PL-PL": "Mniejsza Mikstura Oczyszczająca",
+        "ES-ES": "Poción de limpieza menor",
+        "PT-BR": "Poção Purificadora Menor",
+        "IT-IT": "Pozione purificante minore",
+        "ZH-CN": "初级净化药水",
+        "KO-KR": "소형 정화 포션",
+        "JA-JP": "浄化ポーション（小）",
+        "ZH-TW": "初級淨化藥水",
+        "ID-ID": "Ramuan Pembersih Minor",
+        "TR-TR": "Zayıf Arındırma İksiri",
+        "AR-SA": "جرعة تطهير ثانوية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Invigorating potion. Cleanses you and makes you immune to Crowd Control effects for short period.",
+        "DE-DE": "Erfrischender Trank. Reinigt dich und macht dich für eine kurze Zeit immun gegen CC-Effekte.",
+        "FR-FR": "Potion revigorante. Elle vous purifie et vous immunise contre les effets de contrôle de foule pendant une courte période.",
+        "RU-RU": "Бодрящее зелье. Очищает вас и на короткое время наделяет невосприимчивостью к эффектам контроля.",
+        "PL-PL": "Odżywiająca mikstura. Oczyszcza cię i czyni odpornym na efekty kontroli tłumu na krótki okres czasu.",
+        "ES-ES": "Poción vigorizante. Te limpia y te hace inmune a los efectos de control de multitudes durante un corto periodo.",
+        "PT-BR": "Poção revigorante. Lhe purifica e lhe deixa imune a efeitos de Controle de Grupo por um curto período.",
+        "IT-IT": "Pozione rinvigorente. Purifica e rende immuni agli effetti di Controllo sulla Folla per un breve periodo.",
+        "ZH-CN": "提神醒脑的药水。净化你的减益状态并使你在短时间内免疫群体控制效果。",
+        "KO-KR": "활력을 돋우는 포션. 자신을 정화시키며, 짧은 시간 동안 군중 제어 효과에 대한 면역을 부여합니다.",
+        "JA-JP": "活性化のポーション。体を浄化し、短時間CCの効果を受けなくなる。",
+        "ZH-TW": "提神醒腦的藥水。淨化您的減益狀態並使您在短時間內免疫群體控制效果。",
+        "ID-ID": "Ramuan yang menyegarkan. Membersihkan dan menjadikanmu kebal terhadap efek Kontrol Kerumunan untuk waktu yang singkat.",
+        "TR-TR": "Canlandırıcı bir iksir. Seni arındırır ve kısa bir süreliğine kitle kontrol etkilerine karşı bağışık yapar.",
+        "AR-SA": "جرعة التنشيط تطهرك وتكسبك مناعة ضد تأثيرات التحكم في الحشود لمدة قصيرة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_COMFREY",
+        "primary_count": 16,
+        "secondary_resource": "T3_ALCHEMY_RARE_ENT",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T3_COMFREY",
+            "count": 16
+          },
+          {
+            "id": "T3_ALCHEMY_RARE_ENT",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.257,
+        "crafting_focus": 56,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_COMFREY",
+            "count": 16
+          },
+          {
+            "id": "T3_ALCHEMY_RARE_ENT",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_COMFREY",
+        "primary_count": 16,
+        "secondary_resource": "T3_ALCHEMY_RARE_ENT",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 0.1,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 78,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_ENT",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 10,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 123,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_ENT",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 10,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 256,
+          "crafting_resources": [
+            {
+              "id": "T3_ALCHEMY_RARE_ENT",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 10,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_POTION_CLEANSE2",
+        "item_database_index": "626"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Minor Cleansing Potion",
+        "name_ar": "جرعة تطهير ثانوية",
+        "name_de": "Kleiner Reinigungstrank",
+        "name_fr": "Potion de purification mineure",
+        "name_es": "Poción de limpieza menor",
+        "name_ru": "Малое очищающее зелье"
+      },
+      "raw": {
+        "@uniquename": "T3_POTION_CLEANSE2",
+        "@slottype": "potion",
+        "@weight": "0.1",
+        "@consumespell": "POTION_CLEANSE2_P1",
+        "@dummyitempower": "600",
+        "@abilitypower": "186",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@tier": "3",
+        "@craftingcategory": "potion",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@maxstacksize": "999",
+        "@descriptionlocatag": "@ITEMS_POTION_CLEANSE2_DESC",
+        "@shopsubcategory2": "cleanse",
+        "craftingrequirements": {
+          "@time": "0.257",
+          "@amountcrafted": "10",
+          "@craftingfocus": "56",
+          "craftresource": [
+            {
+              "@uniquename": "T3_ALCHEMY_RARE_ENT",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T3_COMFREY",
+              "@count": "16"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_CLEANSE2_P2",
+              "@dummyitempower": "700",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "78",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_ENT",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_CLEANSE2_P3",
+              "@dummyitempower": "800",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "123",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_ENT",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_CLEANSE2_P4",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "256",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_ALCHEMY_RARE_ENT",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

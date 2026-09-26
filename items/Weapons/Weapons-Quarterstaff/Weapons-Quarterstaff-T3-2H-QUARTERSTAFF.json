@@ -1,0 +1,417 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Quarterstaff",
+  "base_id": "T3_2H_QUARTERSTAFF",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_2H_QUARTERSTAFF",
+      "index": "8810",
+      "name_en": "Journeyman's Quarterstaff",
+      "name_ar": "عصا الموثوق القتالية القصيرة",
+      "name_de": "Kampfstab des Gesellen",
+      "name_fr": "Long bâton du compagnon",
+      "name_es": "Vara del obrero",
+      "name_ru": "Боевой посох (странник)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objetos de equipo",
+        "description_ru": "Предмет снаряжения"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_2H_QUARTERSTAFF",
+        "description_variable": "@ITEMS_T3_2H_QUARTERSTAFF_DESC"
+      },
+      "category": "Weapons_Quarterstaff",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T3_2H_QUARTERSTAFF",
+        "attackupperbodyblendtime": "0.0735",
+        "scaleattackendanimmode": "true",
+        "attackendanimscalemode": "fit",
+        "uisprite": "2H_QUARTERSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "126",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "quarterstaff",
+        "attacktype": "melee",
+        "mainhandanimationtype": "quarterstaff",
+        "attackdamage": "20",
+        "attackspeed": "2",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "3",
+        "weight": "4.5",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "8471",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "150",
+        "itempower": "600",
+        "hitpointsregenerationbonus": "0.15",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "quarterstaff",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "masterymodifier": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "quarterstaff_quarterstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Journeyman's Quarterstaff",
+        "DE-DE": "Kampfstab des Gesellen",
+        "FR-FR": "Long bâton du compagnon",
+        "RU-RU": "Боевой посох (странник)",
+        "PL-PL": "Kij Czeladnika",
+        "ES-ES": "Vara del obrero",
+        "PT-BR": "Bordão do Iniciante",
+        "IT-IT": "Asta ferrata dell'apprendista",
+        "ZH-CN": "学徒级铁头棒",
+        "KO-KR": "장인의 쿼터스태프",
+        "JA-JP": "六尺杖（熟練）",
+        "ZH-TW": "學徒級鐵頭棍",
+        "ID-ID": "Tongkat Pemukul Pengembara",
+        "TR-TR": "Kalfa Sopası",
+        "AR-SA": "عصا الموثوق القتالية القصيرة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет снаряжения",
+        "PL-PL": "Przedmiot ekwipunku",
+        "ES-ES": "Objetos de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T3_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T3_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T3_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 980,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T3_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T3_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T3_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 20,
+        "attack_speed": 2,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "quarterstaff",
+        "item_power": 600,
+        "ability_power": 126,
+        "durability": 8471,
+        "max_quality_level": 5,
+        "tier_raw": 3,
+        "weight": 4.5,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 600,
+      "effective_durability": 8471,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "quarterstaff",
+        "crafting_category": "quarterstaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_QUARTERSTAFF"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_2H_QUARTERSTAFF",
+        "item_database_index": "8810"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Journeyman's Quarterstaff",
+        "name_ar": "عصا الموثوق القتالية القصيرة",
+        "name_de": "Kampfstab des Gesellen",
+        "name_fr": "Long bâton du compagnon",
+        "name_es": "Vara del obrero",
+        "name_ru": "Боевой посох (странник)"
+      },
+      "raw": {
+        "@uniquename": "T3_2H_QUARTERSTAFF",
+        "@attackupperbodyblendtime": "0.0735",
+        "@scaleattackendanimmode": "true",
+        "@attackendanimscalemode": "fit",
+        "@uisprite": "2H_QUARTERSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "126",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "quarterstaff",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "quarterstaff",
+        "@attackdamage": "20",
+        "@attackspeed": "2",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "3",
+        "@weight": "4.5",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "8471",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "150",
+        "@itempower": "600",
+        "@hitpointsregenerationbonus": "0.15",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "quarterstaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@masterymodifier": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "quarterstaff_quarterstaff",
+        "attackvariations": {
+          "@attackchaintime": "1",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.55",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.53",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "3",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.935",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "980",
+          "craftresource": [
+            {
+              "@uniquename": "T3_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T3_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "CONCUSSIVEBLOW_MULTI_1",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "WHIRLING_STAFF",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "QSTAFF_COMBO",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "STUNRUN",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "VAULT_ATTACK",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+              "@tag": "B"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Farming_Products",
+  "base_id": "T7_ALCOHOL",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T7_ALCOHOL",
+      "index": "943",
+      "name_en": "Corn Hooch",
+      "name_ar": "مشروب الذرة",
+      "name_de": "Klarer Fusel",
+      "name_fr": "Gnôle de maïs",
+      "name_es": "Orujo de maíz",
+      "name_ru": "Кукурузный самогон",
+      "descriptions": {
+        "description_en": "Corn Hooch is brewed from Corn, and used in various alchemical decoctions",
+        "description_ar": "يُحضّر مشروب الذرة من الذرة، ويمكن استخدامه في العديد من المستحضرات الكيميائية",
+        "description_de": "Klarer Fusel wird aus Korn gebraut und wird in alchemistischen Tränken verwendet.",
+        "description_fr": "Distillé à partir de maïs et utilisé pour des décoctions alchimiques",
+        "description_es": "El orujo de maíz se elabora con maíz y varias decocciones alquímicas",
+        "description_ru": "Делается из кукурузы и используется в эликсирах."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ALCOHOL",
+        "description_variable": "@ITEMS_T7_ALCOHOL_DESC"
+      },
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_ALCOHOL",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farmingproducts",
+        "craftingcategory": "food",
+        "tier": "7",
+        "weight": "0.65",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "nutrition": "52",
+        "shopsubcategory2": "alcohol"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Corn Hooch",
+        "DE-DE": "Klarer Fusel",
+        "FR-FR": "Gnôle de maïs",
+        "RU-RU": "Кукурузный самогон",
+        "PL-PL": "Bimber z Kukurydzy",
+        "ES-ES": "Orujo de maíz",
+        "PT-BR": "Carraspana de Milho",
+        "IT-IT": "Liquore di mais",
+        "ZH-CN": "玉米烈酒",
+        "KO-KR": "옥수수 밀주",
+        "JA-JP": "トウモロコシの密造酒",
+        "ZH-TW": "玉米烈酒",
+        "ID-ID": "Bir Jagung",
+        "TR-TR": "Mısır İçkisi",
+        "AR-SA": "مشروب الذرة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Corn Hooch is brewed from Corn, and used in various alchemical decoctions",
+        "DE-DE": "Klarer Fusel wird aus Korn gebraut und wird in alchemistischen Tränken verwendet.",
+        "FR-FR": "Distillé à partir de maïs et utilisé pour des décoctions alchimiques",
+        "RU-RU": "Делается из кукурузы и используется в эликсирах.",
+        "PL-PL": "Bimber z kukurydzy wytwarza się z kukurydzy i używa się go w alchemii",
+        "ES-ES": "El orujo de maíz se elabora con maíz y varias decocciones alquímicas",
+        "PT-BR": "A Carraspana de Milho é feita de Milho e usada em várias decocções alquímicas",
+        "IT-IT": "Questo liquore di mais è un ingrediente di molti preparati alchemici.",
+        "ZH-CN": "玉米烈酒采用玉米酿造而成，可以用于配制多重炼金煎剂。",
+        "KO-KR": "옥수수 밀주는 옥수수를 양조해서 만들며, 다양한 연금술 탕약에 쓰입니다.",
+        "JA-JP": "トウモロコシの密造酒はトウモロコシから醸造され、様々な錬金の煎じ薬に使われています。",
+        "ZH-TW": "玉米烈酒是由玉米釀製而成，可作為多種鍊金藥劑的原料",
+        "ID-ID": "Bir Jagung diseduh dari Jagung, dan digunakan dalam berbagai rebusan alkemi.",
+        "TR-TR": "Mısır İçkisi, Mısır kullanılarak hazırlanır ve çeşitli simyasal kaynatma işlemlerinde kullanılır.",
+        "AR-SA": "يُحضّر مشروب الذرة من الذرة، ويمكن استخدامه في العديد من المستحضرات الكيميائية"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_CORN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_CORN",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.02,
+        "crafting_focus": 38,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_CORN",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_CORN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 7,
+        "weight": 0.65,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "farmingproducts",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ALCOHOL",
+        "item_database_index": "943"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Corn Hooch",
+        "name_ar": "مشروب الذرة",
+        "name_de": "Klarer Fusel",
+        "name_fr": "Gnôle de maïs",
+        "name_es": "Orujo de maíz",
+        "name_ru": "Кукурузный самогон"
+      },
+      "raw": {
+        "@uniquename": "T7_ALCOHOL",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "7",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@nutrition": "52",
+        "@shopsubcategory2": "alcohol",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T7_CORN",
+            "@count": "1"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

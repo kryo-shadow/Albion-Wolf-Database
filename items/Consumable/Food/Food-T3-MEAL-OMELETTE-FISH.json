@@ -1,0 +1,454 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T3_MEAL_OMELETTE_FISH",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_MEAL_OMELETTE_FISH",
+      "index": "800",
+      "name_en": "Lowriver Crab Omelette",
+      "name_ar": "عجة السلطعون النهر المنخفض",
+      "name_de": "Uferkrabbenomelette",
+      "name_fr": "Omelette de crabe fouisseur",
+      "name_es": "Tortilla de cangrejo de río abajo",
+      "name_ru": "Омлет с мелководным крабом",
+      "descriptions": {
+        "description_en": "Meal that reduces cooldowns, casting times, and Energy costs for a long period.",
+        "description_ar": "وجبة تقلل فترات الانتظار وأوقات الإلقاء وتكاليف الطاقة لفترة طويلة.",
+        "description_de": "Eine Mahlzeit, die deine Abklingzeiten, Zauberzeiten und Energiekosten für eine lange Zeit reduziert.",
+        "description_fr": "Repas qui réduit les temps de recharge, la vitesse d'incantation et les coûts en énergie pendant une longue période.",
+        "description_es": "Comida que reduce tiempos de espera, tiempos de lanzamiento y costes de energía por un largo periodo.",
+        "description_ru": "Блюдо, ускоряющее восстановление заклинаний, чтение заклинаний и снижающее расходы энергии в течение длительного периода времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_MEAL_OMELETTE_FISH",
+        "description_variable": "@ITEMS_MEAL_OMELETTE_FISH_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_MEAL_OMELETTE_FISH",
+        "descriptionlocatag": "@ITEMS_MEAL_OMELETTE_FISH_DESC",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "3",
+        "dummyitempower": "600",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.74",
+        "nutrition": "116",
+        "shopsubcategory2": "omelettes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Lowriver Crab Omelette",
+        "DE-DE": "Uferkrabbenomelette",
+        "FR-FR": "Omelette de crabe fouisseur",
+        "RU-RU": "Омлет с мелководным крабом",
+        "PL-PL": "Omlet z Kraba Rzecznego",
+        "ES-ES": "Tortilla de cangrejo de río abajo",
+        "PT-BR": "Omelete de Caranguejo do Rio-baixo",
+        "IT-IT": "Frittata con granchio degli argini",
+        "ZH-CN": "浅水螃蟹鸡蛋饼",
+        "KO-KR": "로우리버 게 오믈렛",
+        "JA-JP": "ロウリバー・クラブのオムレツ",
+        "ZH-TW": "淺川螃蟹歐姆蛋",
+        "ID-ID": "Dadar Kepiting Hilir",
+        "TR-TR": "Sığnehir Yengeçli Omlet",
+        "AR-SA": "عجة السلطعون النهر المنخفض"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Meal that reduces cooldowns, casting times, and Energy costs for a long period.",
+        "DE-DE": "Eine Mahlzeit, die deine Abklingzeiten, Zauberzeiten und Energiekosten für eine lange Zeit reduziert.",
+        "FR-FR": "Repas qui réduit les temps de recharge, la vitesse d'incantation et les coûts en énergie pendant une longue période.",
+        "RU-RU": "Блюдо, ускоряющее восстановление заклинаний, чтение заклинаний и снижающее расходы энергии в течение длительного периода времени.",
+        "PL-PL": "Posiłek, który zmniejsza czas odnowienia, czas czarowania i koszty energii przez długi okres czasu.",
+        "ES-ES": "Comida que reduce tiempos de espera, tiempos de lanzamiento y costes de energía por un largo periodo.",
+        "PT-BR": "Comida que reduz tempos de recarga, tempos de lançamento e custos de energia por um longo período.",
+        "IT-IT": "Pietanza che riduce tempi di ricarica, tempi di lancio e costi in energia per un lungo periodo.",
+        "ZH-CN": "餐食，可以长时间降低冷却时间、技能施放时间和能量耗费。",
+        "KO-KR": "오랫동안 대기 시간, 시전 시간, 에너지 소비를 낮추는 식사입니다.",
+        "JA-JP": "クールダウン、詠唱時間、エネルギーコストが長時間減少する料理。",
+        "ZH-TW": "一道料理，能長時間縮短冷卻時間和施法時間，並降低能量消耗。",
+        "ID-ID": "Makanan yang mengurangi cooldown, waktu rapal, dan Energi yang diperlukan untuk waktu lama.",
+        "TR-TR": "Uzun bir süreliğine bekleme sürelerini, gerçekleştirme sürelerini ve Enerji bedellerini düşüren bir yemek.",
+        "AR-SA": "وجبة تقلل فترات الانتظار وأوقات الإلقاء وتكاليف الطاقة لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_FISH_FRESHWATER_STEPPE_RARE",
+        "primary_count": 1,
+        "secondary_resource": "T3_COMFREY",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T3_FISH_FRESHWATER_STEPPE_RARE",
+            "count": 1
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 1
+          },
+          {
+            "id": "T3_EGG",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.0387,
+        "crafting_focus": 77,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_FISH_FRESHWATER_STEPPE_RARE",
+            "count": 1
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 1
+          },
+          {
+            "id": "T3_EGG",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_FISH_FRESHWATER_STEPPE_RARE",
+        "primary_count": 1,
+        "secondary_resource": "T3_COMFREY",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 1.74,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 144,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_STEPPE_RARE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_EGG",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 278,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_STEPPE_RARE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_EGG",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 678,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_STEPPE_RARE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_EGG",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_MEAL_OMELETTE_FISH",
+        "item_database_index": "800"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Lowriver Crab Omelette",
+        "name_ar": "عجة السلطعون النهر المنخفض",
+        "name_de": "Uferkrabbenomelette",
+        "name_fr": "Omelette au crabe fouisseur",
+        "name_es": "Tortilla de cangrejo de río abajo",
+        "name_ru": "Омлет с мелководным крабом"
+      },
+      "raw": {
+        "@uniquename": "T3_MEAL_OMELETTE_FISH",
+        "@descriptionlocatag": "@ITEMS_MEAL_OMELETTE_FISH_DESC",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "3",
+        "@dummyitempower": "600",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.74",
+        "@nutrition": "116",
+        "@shopsubcategory2": "omelettes",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@forcesinglecraft": "false",
+          "@amountcrafted": "1",
+          "@craftingfocus": "77",
+          "@time": "0.0387",
+          "craftresource": [
+            {
+              "@uniquename": "T3_FISH_FRESHWATER_STEPPE_RARE",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T3_COMFREY",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T3_EGG",
+              "@count": "1"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "700",
+              "@consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_P2",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "144",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_STEPPE_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "800",
+              "@consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_P3",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "278",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_STEPPE_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "900",
+              "@consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "678",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_STEPPE_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

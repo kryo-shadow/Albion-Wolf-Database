@@ -1,0 +1,2639 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Fish",
+  "base_id": "T4_SHOES_GATHERER_FISH",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_SHOES_GATHERER_FISH",
+      "index": "6114",
+      "name_en": "Adept's Fisherman Workboots",
+      "name_ar": "حذاء عمل صياد السمك للبارع",
+      "name_de": "Anglerstiefel des Adepten",
+      "name_fr": "Bottes de pêcheur d'adepte",
+      "name_es": "Botas de trabajo de pescador del iniciado",
+      "name_ru": "Рабочие сапоги рыбака (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_SHOES_GATHERER_FISH",
+        "description_variable": "@ITEMS_T4_SHOES_GATHERER_FISH_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "Shoes",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_SHOES_GATHERER_FISH",
+        "uisprite": "SHOES_GATHERER_FISH",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "shoes",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "9000",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "700",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "shoes",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_shoes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Fisherman Workboots",
+        "DE-DE": "Anglerstiefel des Adepten",
+        "FR-FR": "Bottes de pêcheur d'adepte",
+        "RU-RU": "Рабочие сапоги рыбака (знаток)",
+        "PL-PL": "Buty Robocze Rybaka Adepta",
+        "ES-ES": "Botas de trabajo de pescador del iniciado",
+        "PT-BR": "Botas do Pescador Adepto",
+        "IT-IT": "Stivali da pescatore del sapiente",
+        "ZH-CN": "老手级渔夫工作靴",
+        "KO-KR": "숙련된 낚시꾼 작업화",
+        "JA-JP": "漁師のワークブーツ（名人）",
+        "ZH-TW": "老手級漁夫工作靴",
+        "ID-ID": "Bot Nelayan Mahir",
+        "TR-TR": "Ehil Balıkçı İş Çizmesi",
+        "AR-SA": "حذاء عمل صياد السمك للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 9000,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "shoes"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WANDERLUST",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLASHWAVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_SHOES_YIELD_FISH_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WANDERLUST",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLASHWAVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_SHOES_YIELD_FISH_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 13500,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 9000,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "SHOES_GATHERER_FISH"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_SHOES_GATHERER_FISH",
+        "item_database_index": "6114"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Fisherman Workboots",
+        "name_ar": "حذاء عمل صياد السمك للبارع",
+        "name_de": "Anglerstiefel des Adepten",
+        "name_fr": "Bottes de pêcheur de l'adepte",
+        "name_es": "Botas de trabajo de pescador del iniciado",
+        "name_ru": "Рабочие сапоги рыбака (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_SHOES_GATHERER_FISH",
+        "@uisprite": "SHOES_GATHERER_FISH",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "shoes",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "9000",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "700",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "shoes",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_shoes",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "DODGE"
+            },
+            {
+              "@uniquename": "SPRINTHOT"
+            },
+            {
+              "@uniquename": "WANDERLUST"
+            },
+            {
+              "@uniquename": "SPLASHWAVE"
+            },
+            {
+              "@uniquename": "PASSIVE_SHOES_YIELD_FISH_T4"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.333",
+          "@craftingfocus": "429",
+          "craftresource": {
+            "@uniquename": "T4_LEATHER",
+            "@count": "8"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "13500",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.5",
+                "@craftingfocus": "750",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.667",
+                "@craftingfocus": "1313",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.833",
+                "@craftingfocus": "2298",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.25",
+                "@craftingfocus": "4021",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "8"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_SHOES_GATHERER_FISH@1",
+      "index": "6115",
+      "name_en": "Adept's Fisherman Workboots",
+      "name_ar": "حذاء عمل صياد السمك للبارع",
+      "name_de": "Anglerstiefel des Adepten",
+      "name_fr": "Bottes de pêcheur d'adepte",
+      "name_es": "Botas de trabajo de pescador del iniciado",
+      "name_ru": "Рабочие сапоги рыбака (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_SHOES_GATHERER_FISH",
+        "description_variable": "@ITEMS_T4_SHOES_GATHERER_FISH_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "Shoes",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_SHOES_GATHERER_FISH",
+        "uisprite": "SHOES_GATHERER_FISH",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "shoes",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "9000",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "700",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "shoes",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_shoes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Fisherman Workboots",
+        "DE-DE": "Anglerstiefel des Adepten",
+        "FR-FR": "Bottes de pêcheur d'adepte",
+        "RU-RU": "Рабочие сапоги рыбака (знаток)",
+        "PL-PL": "Buty Robocze Rybaka Adepta",
+        "ES-ES": "Botas de trabajo de pescador del iniciado",
+        "PT-BR": "Botas do Pescador Adepto",
+        "IT-IT": "Stivali da pescatore del sapiente",
+        "ZH-CN": "老手级渔夫工作靴",
+        "KO-KR": "숙련된 낚시꾼 작업화",
+        "JA-JP": "漁師のワークブーツ（名人）",
+        "ZH-TW": "老手級漁夫工作靴",
+        "ID-ID": "Bot Nelayan Mahir",
+        "TR-TR": "Ehil Balıkçı İş Çizmesi",
+        "AR-SA": "حذاء عمل صياد السمك للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 9000,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "shoes"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WANDERLUST",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLASHWAVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_SHOES_YIELD_FISH_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WANDERLUST",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLASHWAVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_SHOES_YIELD_FISH_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 13500,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 800,
+        "durability": 13500,
+        "crafting_silver": 0,
+        "crafting_time": 0.5,
+        "crafting_focus": 750,
+        "crafting_resources": [
+          {
+            "id": "T4_LEATHER_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 800,
+      "effective_durability": 13500,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "SHOES_GATHERER_FISH"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_SHOES_GATHERER_FISH@1",
+        "item_database_index": "6115"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Fisherman Workboots",
+        "name_ar": "حذاء عمل صياد السمك للبارع",
+        "name_de": "Anglerstiefel des Adepten",
+        "name_fr": "Bottes de pêcheur de l'adepte",
+        "name_es": "Botas de trabajo de pescador del iniciado",
+        "name_ru": "Рабочие сапоги рыбака (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_SHOES_GATHERER_FISH",
+        "@uisprite": "SHOES_GATHERER_FISH",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "shoes",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "9000",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "700",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "shoes",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_shoes",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "DODGE"
+            },
+            {
+              "@uniquename": "SPRINTHOT"
+            },
+            {
+              "@uniquename": "WANDERLUST"
+            },
+            {
+              "@uniquename": "SPLASHWAVE"
+            },
+            {
+              "@uniquename": "PASSIVE_SHOES_YIELD_FISH_T4"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.333",
+          "@craftingfocus": "429",
+          "craftresource": {
+            "@uniquename": "T4_LEATHER",
+            "@count": "8"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "13500",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.5",
+                "@craftingfocus": "750",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.667",
+                "@craftingfocus": "1313",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.833",
+                "@craftingfocus": "2298",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.25",
+                "@craftingfocus": "4021",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "8"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_SHOES_GATHERER_FISH@2",
+      "index": "6116",
+      "name_en": "Adept's Fisherman Workboots",
+      "name_ar": "حذاء عمل صياد السمك للبارع",
+      "name_de": "Anglerstiefel des Adepten",
+      "name_fr": "Bottes de pêcheur d'adepte",
+      "name_es": "Botas de trabajo de pescador del iniciado",
+      "name_ru": "Рабочие сапоги рыбака (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_SHOES_GATHERER_FISH",
+        "description_variable": "@ITEMS_T4_SHOES_GATHERER_FISH_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "Shoes",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_SHOES_GATHERER_FISH",
+        "uisprite": "SHOES_GATHERER_FISH",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "shoes",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "9000",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "700",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "shoes",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_shoes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Fisherman Workboots",
+        "DE-DE": "Anglerstiefel des Adepten",
+        "FR-FR": "Bottes de pêcheur d'adepte",
+        "RU-RU": "Рабочие сапоги рыбака (знаток)",
+        "PL-PL": "Buty Robocze Rybaka Adepta",
+        "ES-ES": "Botas de trabajo de pescador del iniciado",
+        "PT-BR": "Botas do Pescador Adepto",
+        "IT-IT": "Stivali da pescatore del sapiente",
+        "ZH-CN": "老手级渔夫工作靴",
+        "KO-KR": "숙련된 낚시꾼 작업화",
+        "JA-JP": "漁師のワークブーツ（名人）",
+        "ZH-TW": "老手級漁夫工作靴",
+        "ID-ID": "Bot Nelayan Mahir",
+        "TR-TR": "Ehil Balıkçı İş Çizmesi",
+        "AR-SA": "حذاء عمل صياد السمك للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 9000,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "shoes"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WANDERLUST",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLASHWAVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_SHOES_YIELD_FISH_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WANDERLUST",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLASHWAVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_SHOES_YIELD_FISH_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 13500,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 900,
+        "durability": 20250,
+        "crafting_silver": 0,
+        "crafting_time": 0.667,
+        "crafting_focus": 1313,
+        "crafting_resources": [
+          {
+            "id": "T4_LEATHER_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 900,
+      "effective_durability": 20250,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "SHOES_GATHERER_FISH"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_SHOES_GATHERER_FISH@2",
+        "item_database_index": "6116"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Fisherman Workboots",
+        "name_ar": "حذاء عمل صياد السمك للبارع",
+        "name_de": "Anglerstiefel des Adepten",
+        "name_fr": "Bottes de pêcheur de l'adepte",
+        "name_es": "Botas de trabajo de pescador del iniciado",
+        "name_ru": "Рабочие сапоги рыбака (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_SHOES_GATHERER_FISH",
+        "@uisprite": "SHOES_GATHERER_FISH",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "shoes",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "9000",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "700",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "shoes",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_shoes",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "DODGE"
+            },
+            {
+              "@uniquename": "SPRINTHOT"
+            },
+            {
+              "@uniquename": "WANDERLUST"
+            },
+            {
+              "@uniquename": "SPLASHWAVE"
+            },
+            {
+              "@uniquename": "PASSIVE_SHOES_YIELD_FISH_T4"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.333",
+          "@craftingfocus": "429",
+          "craftresource": {
+            "@uniquename": "T4_LEATHER",
+            "@count": "8"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "13500",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.5",
+                "@craftingfocus": "750",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.667",
+                "@craftingfocus": "1313",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.833",
+                "@craftingfocus": "2298",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.25",
+                "@craftingfocus": "4021",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "8"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_SHOES_GATHERER_FISH@3",
+      "index": "6117",
+      "name_en": "Adept's Fisherman Workboots",
+      "name_ar": "حذاء عمل صياد السمك للبارع",
+      "name_de": "Anglerstiefel des Adepten",
+      "name_fr": "Bottes de pêcheur d'adepte",
+      "name_es": "Botas de trabajo de pescador del iniciado",
+      "name_ru": "Рабочие сапоги рыбака (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_SHOES_GATHERER_FISH",
+        "description_variable": "@ITEMS_T4_SHOES_GATHERER_FISH_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "Shoes",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_SHOES_GATHERER_FISH",
+        "uisprite": "SHOES_GATHERER_FISH",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "shoes",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "9000",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "700",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "shoes",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_shoes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Fisherman Workboots",
+        "DE-DE": "Anglerstiefel des Adepten",
+        "FR-FR": "Bottes de pêcheur d'adepte",
+        "RU-RU": "Рабочие сапоги рыбака (знаток)",
+        "PL-PL": "Buty Robocze Rybaka Adepta",
+        "ES-ES": "Botas de trabajo de pescador del iniciado",
+        "PT-BR": "Botas do Pescador Adepto",
+        "IT-IT": "Stivali da pescatore del sapiente",
+        "ZH-CN": "老手级渔夫工作靴",
+        "KO-KR": "숙련된 낚시꾼 작업화",
+        "JA-JP": "漁師のワークブーツ（名人）",
+        "ZH-TW": "老手級漁夫工作靴",
+        "ID-ID": "Bot Nelayan Mahir",
+        "TR-TR": "Ehil Balıkçı İş Çizmesi",
+        "AR-SA": "حذاء عمل صياد السمك للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 9000,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "shoes"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WANDERLUST",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLASHWAVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_SHOES_YIELD_FISH_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WANDERLUST",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLASHWAVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_SHOES_YIELD_FISH_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 13500,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1000,
+        "durability": 30375,
+        "crafting_silver": 0,
+        "crafting_time": 0.833,
+        "crafting_focus": 2298,
+        "crafting_resources": [
+          {
+            "id": "T4_LEATHER_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 30375,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "SHOES_GATHERER_FISH"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_SHOES_GATHERER_FISH@3",
+        "item_database_index": "6117"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Fisherman Workboots",
+        "name_ar": "حذاء عمل صياد السمك للبارع",
+        "name_de": "Anglerstiefel des Adepten",
+        "name_fr": "Bottes de pêcheur de l'adepte",
+        "name_es": "Botas de trabajo de pescador del iniciado",
+        "name_ru": "Рабочие сапоги рыбака (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_SHOES_GATHERER_FISH",
+        "@uisprite": "SHOES_GATHERER_FISH",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "shoes",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "9000",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "700",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "shoes",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_shoes",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "DODGE"
+            },
+            {
+              "@uniquename": "SPRINTHOT"
+            },
+            {
+              "@uniquename": "WANDERLUST"
+            },
+            {
+              "@uniquename": "SPLASHWAVE"
+            },
+            {
+              "@uniquename": "PASSIVE_SHOES_YIELD_FISH_T4"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.333",
+          "@craftingfocus": "429",
+          "craftresource": {
+            "@uniquename": "T4_LEATHER",
+            "@count": "8"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "13500",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.5",
+                "@craftingfocus": "750",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.667",
+                "@craftingfocus": "1313",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.833",
+                "@craftingfocus": "2298",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.25",
+                "@craftingfocus": "4021",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "8"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_SHOES_GATHERER_FISH@4",
+      "index": "6118",
+      "name_en": "Adept's Fisherman Workboots",
+      "name_ar": "حذاء عمل صياد السمك للبارع",
+      "name_de": "Anglerstiefel des Adepten",
+      "name_fr": "Bottes de pêcheur d'adepte",
+      "name_es": "Botas de trabajo de pescador del iniciado",
+      "name_ru": "Рабочие сапоги рыбака (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_SHOES_GATHERER_FISH",
+        "description_variable": "@ITEMS_T4_SHOES_GATHERER_FISH_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "Shoes",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_SHOES_GATHERER_FISH",
+        "uisprite": "SHOES_GATHERER_FISH",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "shoes",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "9000",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "700",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "shoes",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_shoes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Fisherman Workboots",
+        "DE-DE": "Anglerstiefel des Adepten",
+        "FR-FR": "Bottes de pêcheur d'adepte",
+        "RU-RU": "Рабочие сапоги рыбака (знаток)",
+        "PL-PL": "Buty Robocze Rybaka Adepta",
+        "ES-ES": "Botas de trabajo de pescador del iniciado",
+        "PT-BR": "Botas do Pescador Adepto",
+        "IT-IT": "Stivali da pescatore del sapiente",
+        "ZH-CN": "老手级渔夫工作靴",
+        "KO-KR": "숙련된 낚시꾼 작업화",
+        "JA-JP": "漁師のワークブーツ（名人）",
+        "ZH-TW": "老手級漁夫工作靴",
+        "ID-ID": "Bot Nelayan Mahir",
+        "TR-TR": "Ehil Balıkçı İş Çizmesi",
+        "AR-SA": "حذاء عمل صياد السمك للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 9000,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "shoes"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WANDERLUST",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLASHWAVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_SHOES_YIELD_FISH_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WANDERLUST",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLASHWAVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_SHOES_YIELD_FISH_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 13500,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1100,
+        "durability": 45563,
+        "crafting_silver": 0,
+        "crafting_time": 1.25,
+        "crafting_focus": 4021,
+        "crafting_resources": [
+          {
+            "id": "T4_LEATHER_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 45563,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "SHOES_GATHERER_FISH"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_SHOES_GATHERER_FISH@4",
+        "item_database_index": "6118"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Fisherman Workboots",
+        "name_ar": "حذاء عمل صياد السمك للبارع",
+        "name_de": "Anglerstiefel des Adepten",
+        "name_fr": "Bottes de pêcheur de l'adepte",
+        "name_es": "Botas de trabajo de pescador del iniciado",
+        "name_ru": "Рабочие сапоги рыбака (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_SHOES_GATHERER_FISH",
+        "@uisprite": "SHOES_GATHERER_FISH",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "shoes",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "9000",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "700",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "shoes",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_shoes",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "DODGE"
+            },
+            {
+              "@uniquename": "SPRINTHOT"
+            },
+            {
+              "@uniquename": "WANDERLUST"
+            },
+            {
+              "@uniquename": "SPLASHWAVE"
+            },
+            {
+              "@uniquename": "PASSIVE_SHOES_YIELD_FISH_T4"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.333",
+          "@craftingfocus": "429",
+          "craftresource": {
+            "@uniquename": "T4_LEATHER",
+            "@count": "8"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "13500",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.5",
+                "@craftingfocus": "750",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.667",
+                "@craftingfocus": "1313",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "0.833",
+                "@craftingfocus": "2298",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "8"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.25",
+                "@craftingfocus": "4021",
+                "craftresource": {
+                  "@uniquename": "T4_LEATHER_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "8"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

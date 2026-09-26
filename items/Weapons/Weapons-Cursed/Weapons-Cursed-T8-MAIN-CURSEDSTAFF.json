@@ -1,0 +1,3369 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Cursed",
+  "base_id": "T8_MAIN_CURSEDSTAFF",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T8_MAIN_CURSEDSTAFF",
+      "index": "6798",
+      "name_en": "Elder's Cursed Staff",
+      "name_ar": "العصا الملعونة للحكيم",
+      "name_de": "Verfluchter Stab des Ältesten",
+      "name_fr": "Bâton damné du sage",
+      "name_es": "Bastón maldito del anciano",
+      "name_ru": "Проклятый посох (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_CURSEDSTAFF",
+        "description_variable": "@ITEMS_T8_MAIN_CURSEDSTAFF_DESC"
+      },
+      "category": "Weapons_Cursed",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_CURSEDSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "cursestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "cursestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "cursestaff_main_cursedstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Cursed Staff",
+        "DE-DE": "Verfluchter Stab des Ältesten",
+        "FR-FR": "Bâton damné du sage",
+        "RU-RU": "Проклятый посох (старейшина)",
+        "PL-PL": "Przeklęty Kostur Starszego",
+        "ES-ES": "Bastón maldito del anciano",
+        "PT-BR": "Cajado Amaldiçoado do Ancião",
+        "IT-IT": "Bastone maledetto dell'anziano",
+        "ZH-CN": "禅师级诅咒法杖",
+        "KO-KR": "장로의 저주받은 스태프",
+        "JA-JP": "呪いの杖（老熟）",
+        "ZH-TW": "禪師級詛咒法杖",
+        "ID-ID": "Tongkat Terkutuk Tetua",
+        "TR-TR": "Yüce Lanetli Asası",
+        "AR-SA": "العصا الملعونة للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 1100,
+        "ability_power": 120,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CURSEDOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEBLADE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMORPIERCER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSENOVA",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDHANDS_STACKUP",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSED_SPLAT",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDBEAM",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DARKMATTER",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEATHCURSE2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_CURSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CURSEDOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEBLADE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMORPIERCER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSENOVA",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDHANDS_STACKUP",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSED_SPLAT",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDBEAM",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DARKMATTER",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEATHCURSE2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_CURSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_CURSEDSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 68344,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "cursestaff",
+        "crafting_category": "cursestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_CURSEDSTAFF",
+        "item_database_index": "6798"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Cursed Staff",
+        "name_ar": "العصا الملعونة للحكيم",
+        "name_de": "Verfluchter Stab des Ältesten",
+        "name_fr": "Bâton damné du sage",
+        "name_es": "Bastón maldito del anciano",
+        "name_ru": "Проклятый посох (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_CURSEDSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "cursestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "cursestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "cursestaff_main_cursedstaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.75",
+          "@craftingfocus": "12064",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_MAIN_CURSEDSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "153774",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "230661",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "345992",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.56",
+                "@craftingfocus": "113144",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_CURSEDSTAFF@1",
+      "index": "6799",
+      "name_en": "Elder's Cursed Staff",
+      "name_ar": "العصا الملعونة للحكيم",
+      "name_de": "Verfluchter Stab des Ältesten",
+      "name_fr": "Bâton damné du sage",
+      "name_es": "Bastón maldito del anciano",
+      "name_ru": "Проклятый посох (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_CURSEDSTAFF",
+        "description_variable": "@ITEMS_T8_MAIN_CURSEDSTAFF_DESC"
+      },
+      "category": "Weapons_Cursed",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_CURSEDSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "cursestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "cursestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "cursestaff_main_cursedstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Cursed Staff",
+        "DE-DE": "Verfluchter Stab des Ältesten",
+        "FR-FR": "Bâton damné du sage",
+        "RU-RU": "Проклятый посох (старейшина)",
+        "PL-PL": "Przeklęty Kostur Starszego",
+        "ES-ES": "Bastón maldito del anciano",
+        "PT-BR": "Cajado Amaldiçoado do Ancião",
+        "IT-IT": "Bastone maledetto dell'anziano",
+        "ZH-CN": "禅师级诅咒法杖",
+        "KO-KR": "장로의 저주받은 스태프",
+        "JA-JP": "呪いの杖（老熟）",
+        "ZH-TW": "禪師級詛咒法杖",
+        "ID-ID": "Tongkat Terkutuk Tetua",
+        "TR-TR": "Yüce Lanetli Asası",
+        "AR-SA": "العصا الملعونة للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 1100,
+        "ability_power": 120,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CURSEDOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEBLADE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMORPIERCER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSENOVA",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDHANDS_STACKUP",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSED_SPLAT",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDBEAM",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DARKMATTER",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEATHCURSE2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_CURSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CURSEDOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEBLADE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMORPIERCER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSENOVA",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDHANDS_STACKUP",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSED_SPLAT",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDBEAM",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DARKMATTER",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEATHCURSE2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_CURSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_CURSEDSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1200,
+        "durability": 102516,
+        "crafting_silver": 0,
+        "crafting_time": 4.5,
+        "crafting_focus": 21111,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T8_METALBAR_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 102516,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "cursestaff",
+        "crafting_category": "cursestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_CURSEDSTAFF@1",
+        "item_database_index": "6799"
+      },
+      "tier": 8,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Elder's Cursed Staff",
+        "name_ar": "العصا الملعونة للحكيم",
+        "name_de": "Verfluchter Stab des Ältesten",
+        "name_fr": "Bâton damné du sage",
+        "name_es": "Bastón maldito del anciano",
+        "name_ru": "Проклятый посох (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_CURSEDSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "cursestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "cursestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "cursestaff_main_cursedstaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.75",
+          "@craftingfocus": "12064",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_MAIN_CURSEDSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "153774",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "230661",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "345992",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.56",
+                "@craftingfocus": "113144",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_CURSEDSTAFF@2",
+      "index": "6800",
+      "name_en": "Elder's Cursed Staff",
+      "name_ar": "العصا الملعونة للحكيم",
+      "name_de": "Verfluchter Stab des Ältesten",
+      "name_fr": "Bâton damné du sage",
+      "name_es": "Bastón maldito del anciano",
+      "name_ru": "Проклятый посох (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_CURSEDSTAFF",
+        "description_variable": "@ITEMS_T8_MAIN_CURSEDSTAFF_DESC"
+      },
+      "category": "Weapons_Cursed",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_CURSEDSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "cursestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "cursestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "cursestaff_main_cursedstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Cursed Staff",
+        "DE-DE": "Verfluchter Stab des Ältesten",
+        "FR-FR": "Bâton damné du sage",
+        "RU-RU": "Проклятый посох (старейшина)",
+        "PL-PL": "Przeklęty Kostur Starszego",
+        "ES-ES": "Bastón maldito del anciano",
+        "PT-BR": "Cajado Amaldiçoado do Ancião",
+        "IT-IT": "Bastone maledetto dell'anziano",
+        "ZH-CN": "禅师级诅咒法杖",
+        "KO-KR": "장로의 저주받은 스태프",
+        "JA-JP": "呪いの杖（老熟）",
+        "ZH-TW": "禪師級詛咒法杖",
+        "ID-ID": "Tongkat Terkutuk Tetua",
+        "TR-TR": "Yüce Lanetli Asası",
+        "AR-SA": "العصا الملعونة للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 1100,
+        "ability_power": 120,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CURSEDOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEBLADE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMORPIERCER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSENOVA",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDHANDS_STACKUP",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSED_SPLAT",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDBEAM",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DARKMATTER",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEATHCURSE2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_CURSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CURSEDOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEBLADE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMORPIERCER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSENOVA",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDHANDS_STACKUP",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSED_SPLAT",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDBEAM",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DARKMATTER",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEATHCURSE2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_CURSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_CURSEDSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1300,
+        "durability": 153774,
+        "crafting_silver": 0,
+        "crafting_time": 5.4,
+        "crafting_focus": 36945,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T8_METALBAR_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 153774,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "cursestaff",
+        "crafting_category": "cursestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_CURSEDSTAFF@2",
+        "item_database_index": "6800"
+      },
+      "tier": 8,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Elder's Cursed Staff",
+        "name_ar": "العصا الملعونة للحكيم",
+        "name_de": "Verfluchter Stab des Ältesten",
+        "name_fr": "Bâton damné du sage",
+        "name_es": "Bastón maldito del anciano",
+        "name_ru": "Проклятый посох (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_CURSEDSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "cursestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "cursestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "cursestaff_main_cursedstaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.75",
+          "@craftingfocus": "12064",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_MAIN_CURSEDSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "153774",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "230661",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "345992",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.56",
+                "@craftingfocus": "113144",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_CURSEDSTAFF@3",
+      "index": "6801",
+      "name_en": "Elder's Cursed Staff",
+      "name_ar": "العصا الملعونة للحكيم",
+      "name_de": "Verfluchter Stab des Ältesten",
+      "name_fr": "Bâton damné du sage",
+      "name_es": "Bastón maldito del anciano",
+      "name_ru": "Проклятый посох (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_CURSEDSTAFF",
+        "description_variable": "@ITEMS_T8_MAIN_CURSEDSTAFF_DESC"
+      },
+      "category": "Weapons_Cursed",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_CURSEDSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "cursestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "cursestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "cursestaff_main_cursedstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Cursed Staff",
+        "DE-DE": "Verfluchter Stab des Ältesten",
+        "FR-FR": "Bâton damné du sage",
+        "RU-RU": "Проклятый посох (старейшина)",
+        "PL-PL": "Przeklęty Kostur Starszego",
+        "ES-ES": "Bastón maldito del anciano",
+        "PT-BR": "Cajado Amaldiçoado do Ancião",
+        "IT-IT": "Bastone maledetto dell'anziano",
+        "ZH-CN": "禅师级诅咒法杖",
+        "KO-KR": "장로의 저주받은 스태프",
+        "JA-JP": "呪いの杖（老熟）",
+        "ZH-TW": "禪師級詛咒法杖",
+        "ID-ID": "Tongkat Terkutuk Tetua",
+        "TR-TR": "Yüce Lanetli Asası",
+        "AR-SA": "العصا الملعونة للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 1100,
+        "ability_power": 120,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CURSEDOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEBLADE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMORPIERCER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSENOVA",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDHANDS_STACKUP",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSED_SPLAT",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDBEAM",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DARKMATTER",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEATHCURSE2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_CURSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CURSEDOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEBLADE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMORPIERCER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSENOVA",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDHANDS_STACKUP",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSED_SPLAT",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDBEAM",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DARKMATTER",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEATHCURSE2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_CURSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_CURSEDSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1400,
+        "durability": 230661,
+        "crafting_silver": 0,
+        "crafting_time": 6.48,
+        "crafting_focus": 64653,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T8_METALBAR_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 230661,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "cursestaff",
+        "crafting_category": "cursestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_CURSEDSTAFF@3",
+        "item_database_index": "6801"
+      },
+      "tier": 8,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Elder's Cursed Staff",
+        "name_ar": "العصا الملعونة للحكيم",
+        "name_de": "Verfluchter Stab des Ältesten",
+        "name_fr": "Bâton damné du sage",
+        "name_es": "Bastón maldito del anciano",
+        "name_ru": "Проклятый посох (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_CURSEDSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "cursestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "cursestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "cursestaff_main_cursedstaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.75",
+          "@craftingfocus": "12064",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_MAIN_CURSEDSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "153774",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "230661",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "345992",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.56",
+                "@craftingfocus": "113144",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_CURSEDSTAFF@4",
+      "index": "6802",
+      "name_en": "Elder's Cursed Staff",
+      "name_ar": "العصا الملعونة للحكيم",
+      "name_de": "Verfluchter Stab des Ältesten",
+      "name_fr": "Bâton damné du sage",
+      "name_es": "Bastón maldito del anciano",
+      "name_ru": "Проклятый посох (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_CURSEDSTAFF",
+        "description_variable": "@ITEMS_T8_MAIN_CURSEDSTAFF_DESC"
+      },
+      "category": "Weapons_Cursed",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_CURSEDSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "cursestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "cursestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "cursestaff_main_cursedstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Cursed Staff",
+        "DE-DE": "Verfluchter Stab des Ältesten",
+        "FR-FR": "Bâton damné du sage",
+        "RU-RU": "Проклятый посох (старейшина)",
+        "PL-PL": "Przeklęty Kostur Starszego",
+        "ES-ES": "Bastón maldito del anciano",
+        "PT-BR": "Cajado Amaldiçoado do Ancião",
+        "IT-IT": "Bastone maledetto dell'anziano",
+        "ZH-CN": "禅师级诅咒法杖",
+        "KO-KR": "장로의 저주받은 스태프",
+        "JA-JP": "呪いの杖（老熟）",
+        "ZH-TW": "禪師級詛咒法杖",
+        "ID-ID": "Tongkat Terkutuk Tetua",
+        "TR-TR": "Yüce Lanetli Asası",
+        "AR-SA": "العصا الملعونة للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 1100,
+        "ability_power": 120,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CURSEDOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEBLADE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMORPIERCER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSENOVA",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDHANDS_STACKUP",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSED_SPLAT",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDBEAM",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DARKMATTER",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEATHCURSE2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_CURSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CURSEDOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEBLADE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMORPIERCER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSENOVA",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDHANDS_STACKUP",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSED_SPLAT",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CURSEDBEAM",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DARKMATTER",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEATHCURSE2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_CURSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_CURSEDSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1500,
+        "durability": 345992,
+        "crafting_silver": 0,
+        "crafting_time": 7.56,
+        "crafting_focus": 113144,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T8_METALBAR_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1500,
+      "effective_durability": 345992,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "cursestaff",
+        "crafting_category": "cursestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_CURSEDSTAFF@4",
+        "item_database_index": "6802"
+      },
+      "tier": 8,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Elder's Cursed Staff",
+        "name_ar": "العصا الملعونة للحكيم",
+        "name_de": "Verfluchter Stab des Ältesten",
+        "name_fr": "Bâton damné du sage",
+        "name_es": "Bastón maldito del anciano",
+        "name_ru": "Проклятый посох (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_CURSEDSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "cursestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "cursestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_CURSEDSTAFFS_CURSED",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "cursestaff_main_cursedstaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.75",
+          "@craftingfocus": "12064",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_MAIN_CURSEDSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "153774",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "230661",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "345992",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.56",
+                "@craftingfocus": "113144",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

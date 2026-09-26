@@ -1,0 +1,3599 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Nature",
+  "base_id": "T5_2H_NATURESTAFF_KEEPER",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T5_2H_NATURESTAFF_KEEPER",
+      "index": "7914",
+      "name_en": "Expert's Rampant Staff",
+      "name_ar": "عصا التفشي للأخصائي",
+      "name_de": "Randalierender Stab des Experten",
+      "name_fr": "Bâton effréné de l'expert",
+      "name_es": "Bastón desenfrenado del experto",
+      "name_ru": "Неудержимый посох (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_2H_NATURESTAFF_KEEPER",
+        "description_variable": "@ITEMS_T5_2H_NATURESTAFF_KEEPER_DESC"
+      },
+      "category": "Weapons_Nature",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_2H_NATURESTAFF_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "naturestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "5",
+        "weight": "10.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "875",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "showinmarketplace": "true",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "naturestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "naturestaff_2h_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Rampant Staff",
+        "DE-DE": "Randalierender Stab des Experten",
+        "FR-FR": "Bâton effréné de l'expert",
+        "RU-RU": "Неудержимый посох (эксперт)",
+        "PL-PL": "Kostur Bujności Znawcy",
+        "ES-ES": "Bastón desenfrenado del experto",
+        "PT-BR": "Cajado Rampante do Perito",
+        "IT-IT": "Bastone rigoglioso dell'esperto",
+        "ZH-CN": "专家级灾荒法杖",
+        "KO-KR": "전문가의 램펀트 스태프",
+        "JA-JP": "蔓延の杖（達人）",
+        "ZH-TW": "專家級災禍法杖",
+        "ID-ID": "Tongkat Rampang Ahli",
+        "TR-TR": "Uzman Coşkun Asası",
+        "AR-SA": "عصا التفشي للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2,
+        "crafting_focus": 3001,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 875,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 10.1,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SPIRITANIMAL",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SPIRITANIMAL",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_NATURESTAFF_KEEPER"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 975,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1075,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1175,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1275,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 875,
+      "effective_durability": 64324,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "naturestaff",
+        "crafting_category": "naturestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+          "name_artifact_en": "Expert's Preserved Log",
+          "name_artifact_ar": "اللوح المحفوظ للأخصائي",
+          "name_artifact_de": "Aufbewahrtes Holz des Experten",
+          "name_artifact_fr": "Bâton préservé de l'expert",
+          "name_artifact_es": "Tronco preservado del experto",
+          "name_artifact_ru": "Древнее полено (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_2H_NATURESTAFF_KEEPER",
+        "item_database_index": "7914"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Rampant Staff",
+        "name_ar": "عصا التفشي للأخصائي",
+        "name_de": "Randalierender Stab des Experten",
+        "name_fr": "Bâton effréné de l'expert",
+        "name_es": "Bastón desenfrenado del experto",
+        "name_ru": "Неудержимый посох (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_2H_NATURESTAFF_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "naturestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "5",
+        "@weight": "10.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "875",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@showinmarketplace": "true",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "naturestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "naturestaff_2h_keeper",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2",
+            "@craftingfocus": "3001",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T5_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "3001",
+            "@time": "2",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T5_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_NATURESTAFF_KEEPER"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "975",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.667",
+                  "@craftingfocus": "5252",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.667",
+                  "@craftingfocus": "5252",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1075",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1175",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1275",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_2H_NATURESTAFF_KEEPER@1",
+      "index": "7915",
+      "name_en": "Expert's Rampant Staff",
+      "name_ar": "عصا التفشي للأخصائي",
+      "name_de": "Randalierender Stab des Experten",
+      "name_fr": "Bâton effréné de l'expert",
+      "name_es": "Bastón desenfrenado del experto",
+      "name_ru": "Неудержимый посох (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_2H_NATURESTAFF_KEEPER",
+        "description_variable": "@ITEMS_T5_2H_NATURESTAFF_KEEPER_DESC"
+      },
+      "category": "Weapons_Nature",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_2H_NATURESTAFF_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "naturestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "5",
+        "weight": "10.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "875",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "showinmarketplace": "true",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "naturestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "naturestaff_2h_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Rampant Staff",
+        "DE-DE": "Randalierender Stab des Experten",
+        "FR-FR": "Bâton effréné de l'expert",
+        "RU-RU": "Неудержимый посох (эксперт)",
+        "PL-PL": "Kostur Bujności Znawcy",
+        "ES-ES": "Bastón desenfrenado del experto",
+        "PT-BR": "Cajado Rampante do Perito",
+        "IT-IT": "Bastone rigoglioso dell'esperto",
+        "ZH-CN": "专家级灾荒法杖",
+        "KO-KR": "전문가의 램펀트 스태프",
+        "JA-JP": "蔓延の杖（達人）",
+        "ZH-TW": "專家級災禍法杖",
+        "ID-ID": "Tongkat Rampang Ahli",
+        "TR-TR": "Uzman Coşkun Asası",
+        "AR-SA": "عصا التفشي للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2,
+        "crafting_focus": 3001,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 875,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 10.1,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SPIRITANIMAL",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SPIRITANIMAL",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_NATURESTAFF_KEEPER"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 975,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1075,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1175,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1275,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 975,
+        "durability": 96486,
+        "crafting_silver": 0,
+        "crafting_time": 2.667,
+        "crafting_focus": 5252,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T5_CLOTH_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 975,
+      "effective_durability": 96486,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "naturestaff",
+        "crafting_category": "naturestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+          "name_artifact_en": "Expert's Preserved Log",
+          "name_artifact_ar": "اللوح المحفوظ للأخصائي",
+          "name_artifact_de": "Aufbewahrtes Holz des Experten",
+          "name_artifact_fr": "Bâton préservé de l'expert",
+          "name_artifact_es": "Tronco preservado del experto",
+          "name_artifact_ru": "Древнее полено (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_2H_NATURESTAFF_KEEPER@1",
+        "item_database_index": "7915"
+      },
+      "tier": 5,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Expert's Rampant Staff",
+        "name_ar": "عصا التفشي للأخصائي",
+        "name_de": "Randalierender Stab des Experten",
+        "name_fr": "Bâton effréné de l'expert",
+        "name_es": "Bastón desenfrenado del experto",
+        "name_ru": "Неудержимый посох (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_2H_NATURESTAFF_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "naturestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "5",
+        "@weight": "10.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "875",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@showinmarketplace": "true",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "naturestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "naturestaff_2h_keeper",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2",
+            "@craftingfocus": "3001",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T5_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "3001",
+            "@time": "2",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T5_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_NATURESTAFF_KEEPER"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "975",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.667",
+                  "@craftingfocus": "5252",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.667",
+                  "@craftingfocus": "5252",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1075",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1175",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1275",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_2H_NATURESTAFF_KEEPER@2",
+      "index": "7916",
+      "name_en": "Expert's Rampant Staff",
+      "name_ar": "عصا التفشي للأخصائي",
+      "name_de": "Randalierender Stab des Experten",
+      "name_fr": "Bâton effréné de l'expert",
+      "name_es": "Bastón desenfrenado del experto",
+      "name_ru": "Неудержимый посох (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_2H_NATURESTAFF_KEEPER",
+        "description_variable": "@ITEMS_T5_2H_NATURESTAFF_KEEPER_DESC"
+      },
+      "category": "Weapons_Nature",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_2H_NATURESTAFF_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "naturestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "5",
+        "weight": "10.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "875",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "showinmarketplace": "true",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "naturestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "naturestaff_2h_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Rampant Staff",
+        "DE-DE": "Randalierender Stab des Experten",
+        "FR-FR": "Bâton effréné de l'expert",
+        "RU-RU": "Неудержимый посох (эксперт)",
+        "PL-PL": "Kostur Bujności Znawcy",
+        "ES-ES": "Bastón desenfrenado del experto",
+        "PT-BR": "Cajado Rampante do Perito",
+        "IT-IT": "Bastone rigoglioso dell'esperto",
+        "ZH-CN": "专家级灾荒法杖",
+        "KO-KR": "전문가의 램펀트 스태프",
+        "JA-JP": "蔓延の杖（達人）",
+        "ZH-TW": "專家級災禍法杖",
+        "ID-ID": "Tongkat Rampang Ahli",
+        "TR-TR": "Uzman Coşkun Asası",
+        "AR-SA": "عصا التفشي للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2,
+        "crafting_focus": 3001,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 875,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 10.1,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SPIRITANIMAL",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SPIRITANIMAL",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_NATURESTAFF_KEEPER"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 975,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1075,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1175,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1275,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1075,
+        "durability": 144729,
+        "crafting_silver": 0,
+        "crafting_time": 3.333,
+        "crafting_focus": 9191,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T5_CLOTH_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1075,
+      "effective_durability": 144729,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "naturestaff",
+        "crafting_category": "naturestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+          "name_artifact_en": "Expert's Preserved Log",
+          "name_artifact_ar": "اللوح المحفوظ للأخصائي",
+          "name_artifact_de": "Aufbewahrtes Holz des Experten",
+          "name_artifact_fr": "Bâton préservé de l'expert",
+          "name_artifact_es": "Tronco preservado del experto",
+          "name_artifact_ru": "Древнее полено (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_2H_NATURESTAFF_KEEPER@2",
+        "item_database_index": "7916"
+      },
+      "tier": 5,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Expert's Rampant Staff",
+        "name_ar": "عصا التفشي للأخصائي",
+        "name_de": "Randalierender Stab des Experten",
+        "name_fr": "Bâton effréné de l'expert",
+        "name_es": "Bastón desenfrenado del experto",
+        "name_ru": "Неудержимый посох (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_2H_NATURESTAFF_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "naturestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "5",
+        "@weight": "10.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "875",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@showinmarketplace": "true",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "naturestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "naturestaff_2h_keeper",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2",
+            "@craftingfocus": "3001",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T5_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "3001",
+            "@time": "2",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T5_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_NATURESTAFF_KEEPER"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "975",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.667",
+                  "@craftingfocus": "5252",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.667",
+                  "@craftingfocus": "5252",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1075",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1175",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1275",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_2H_NATURESTAFF_KEEPER@3",
+      "index": "7917",
+      "name_en": "Expert's Rampant Staff",
+      "name_ar": "عصا التفشي للأخصائي",
+      "name_de": "Randalierender Stab des Experten",
+      "name_fr": "Bâton effréné de l'expert",
+      "name_es": "Bastón desenfrenado del experto",
+      "name_ru": "Неудержимый посох (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_2H_NATURESTAFF_KEEPER",
+        "description_variable": "@ITEMS_T5_2H_NATURESTAFF_KEEPER_DESC"
+      },
+      "category": "Weapons_Nature",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_2H_NATURESTAFF_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "naturestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "5",
+        "weight": "10.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "875",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "showinmarketplace": "true",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "naturestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "naturestaff_2h_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Rampant Staff",
+        "DE-DE": "Randalierender Stab des Experten",
+        "FR-FR": "Bâton effréné de l'expert",
+        "RU-RU": "Неудержимый посох (эксперт)",
+        "PL-PL": "Kostur Bujności Znawcy",
+        "ES-ES": "Bastón desenfrenado del experto",
+        "PT-BR": "Cajado Rampante do Perito",
+        "IT-IT": "Bastone rigoglioso dell'esperto",
+        "ZH-CN": "专家级灾荒法杖",
+        "KO-KR": "전문가의 램펀트 스태프",
+        "JA-JP": "蔓延の杖（達人）",
+        "ZH-TW": "專家級災禍法杖",
+        "ID-ID": "Tongkat Rampang Ahli",
+        "TR-TR": "Uzman Coşkun Asası",
+        "AR-SA": "عصا التفشي للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2,
+        "crafting_focus": 3001,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 875,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 10.1,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SPIRITANIMAL",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SPIRITANIMAL",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_NATURESTAFF_KEEPER"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 975,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1075,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1175,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1275,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1175,
+        "durability": 217094,
+        "crafting_silver": 0,
+        "crafting_time": 5,
+        "crafting_focus": 16085,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T5_CLOTH_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1175,
+      "effective_durability": 217094,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "naturestaff",
+        "crafting_category": "naturestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+          "name_artifact_en": "Expert's Preserved Log",
+          "name_artifact_ar": "اللوح المحفوظ للأخصائي",
+          "name_artifact_de": "Aufbewahrtes Holz des Experten",
+          "name_artifact_fr": "Bâton préservé de l'expert",
+          "name_artifact_es": "Tronco preservado del experto",
+          "name_artifact_ru": "Древнее полено (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_2H_NATURESTAFF_KEEPER@3",
+        "item_database_index": "7917"
+      },
+      "tier": 5,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Expert's Rampant Staff",
+        "name_ar": "عصا التفشي للأخصائي",
+        "name_de": "Randalierender Stab des Experten",
+        "name_fr": "Bâton effréné de l'expert",
+        "name_es": "Bastón desenfrenado del experto",
+        "name_ru": "Неудержимый посох (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_2H_NATURESTAFF_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "naturestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "5",
+        "@weight": "10.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "875",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@showinmarketplace": "true",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "naturestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "naturestaff_2h_keeper",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2",
+            "@craftingfocus": "3001",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T5_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "3001",
+            "@time": "2",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T5_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_NATURESTAFF_KEEPER"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "975",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.667",
+                  "@craftingfocus": "5252",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.667",
+                  "@craftingfocus": "5252",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1075",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1175",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1275",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_2H_NATURESTAFF_KEEPER@4",
+      "index": "7918",
+      "name_en": "Expert's Rampant Staff",
+      "name_ar": "عصا التفشي للأخصائي",
+      "name_de": "Randalierender Stab des Experten",
+      "name_fr": "Bâton effréné de l'expert",
+      "name_es": "Bastón desenfrenado del experto",
+      "name_ru": "Неудержимый посох (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_2H_NATURESTAFF_KEEPER",
+        "description_variable": "@ITEMS_T5_2H_NATURESTAFF_KEEPER_DESC"
+      },
+      "category": "Weapons_Nature",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_2H_NATURESTAFF_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "naturestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "5",
+        "weight": "10.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "875",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "showinmarketplace": "true",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "naturestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "naturestaff_2h_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Rampant Staff",
+        "DE-DE": "Randalierender Stab des Experten",
+        "FR-FR": "Bâton effréné de l'expert",
+        "RU-RU": "Неудержимый посох (эксперт)",
+        "PL-PL": "Kostur Bujności Znawcy",
+        "ES-ES": "Bastón desenfrenado del experto",
+        "PT-BR": "Cajado Rampante do Perito",
+        "IT-IT": "Bastone rigoglioso dell'esperto",
+        "ZH-CN": "专家级灾荒法杖",
+        "KO-KR": "전문가의 램펀트 스태프",
+        "JA-JP": "蔓延の杖（達人）",
+        "ZH-TW": "專家級災禍法杖",
+        "ID-ID": "Tongkat Rampang Ahli",
+        "TR-TR": "Uzman Coşkun Asası",
+        "AR-SA": "عصا التفشي للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2,
+        "crafting_focus": 3001,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 875,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 10.1,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SPIRITANIMAL",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SPIRITANIMAL",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_NATURESTAFF_KEEPER"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 975,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1075,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1175,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1275,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1275,
+        "durability": 325640,
+        "crafting_silver": 0,
+        "crafting_time": 6,
+        "crafting_focus": 28148,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T5_CLOTH_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1275,
+      "effective_durability": 325640,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "naturestaff",
+        "crafting_category": "naturestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+          "name_artifact_en": "Expert's Preserved Log",
+          "name_artifact_ar": "اللوح المحفوظ للأخصائي",
+          "name_artifact_de": "Aufbewahrtes Holz des Experten",
+          "name_artifact_fr": "Bâton préservé de l'expert",
+          "name_artifact_es": "Tronco preservado del experto",
+          "name_artifact_ru": "Древнее полено (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_2H_NATURESTAFF_KEEPER@4",
+        "item_database_index": "7918"
+      },
+      "tier": 5,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Expert's Rampant Staff",
+        "name_ar": "عصا التفشي للأخصائي",
+        "name_de": "Randalierender Stab des Experten",
+        "name_fr": "Bâton effréné de l'expert",
+        "name_es": "Bastón desenfrenado del experto",
+        "name_ru": "Неудержимый посох (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_2H_NATURESTAFF_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "naturestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "5",
+        "@weight": "10.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "875",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@showinmarketplace": "true",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "naturestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_NATURESTAFFS_KEEPER2",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "naturestaff_2h_keeper",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2",
+            "@craftingfocus": "3001",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T5_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "3001",
+            "@time": "2",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T5_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_NATURESTAFF_KEEPER"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "975",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.667",
+                  "@craftingfocus": "5252",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.667",
+                  "@craftingfocus": "5252",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1075",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1175",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1275",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T5_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

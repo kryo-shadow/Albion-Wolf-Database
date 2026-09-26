@@ -1,0 +1,2564 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Mace",
+  "base_id": "T7_2H_FLAIL",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T7_2H_FLAIL",
+      "index": "9278",
+      "name_en": "Grandmaster's Morning Star",
+      "name_ar": "صولجان نجم الصباح للأستاذ",
+      "name_de": "Morgenstern des Großmeisters",
+      "name_fr": "Morgenstern du grand maître",
+      "name_es": "Mangual del Gran Maestro",
+      "name_ru": "Моргенштерн (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_FLAIL",
+        "description_variable": "@ITEMS_T7_2H_FLAIL_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_FLAIL",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "mace2h",
+        "attackdamage": "59",
+        "attackspeed": "0.667",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "42882",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "1000",
+        "hitpointsregenerationbonus": "0.2",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "combatspecachievement": "COMBAT_MACES_FLAIL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_flail"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Morning Star",
+        "DE-DE": "Morgenstern des Großmeisters",
+        "FR-FR": "Morgenstern du grand maître",
+        "RU-RU": "Моргенштерн (магистр)",
+        "PL-PL": "Morgensztern Wszechmistrza",
+        "ES-ES": "Mangual del Gran Maestro",
+        "PT-BR": "Mangual do Grão-mestre",
+        "IT-IT": "Stella del mattino del gran maestro",
+        "ZH-CN": "宗师级晨星",
+        "KO-KR": "그랜드 마스터의 모닝 스타",
+        "JA-JP": "モーニングスター（グランドマスター）",
+        "ZH-TW": "宗師級晨星",
+        "ID-ID": "Bintang Kejora Grandmaster",
+        "TR-TR": "Büyük Usta Çivili Gürzü",
+        "AR-SA": "صولجان نجم الصباح للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 59,
+        "attack_speed": 0.667,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "mace2h",
+        "item_power": 1000,
+        "ability_power": 120,
+        "durability": 42882,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_FLAIL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ROOTFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ROOTFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 217090,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1000,
+      "effective_durability": 42882,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_FLAIL",
+        "item_database_index": "9278"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Morning Star",
+        "name_ar": "صولجان نجم الصباح للأستاذ",
+        "name_de": "Morgenstern des Großmeisters",
+        "name_fr": "Morgenstern du grand maître",
+        "name_es": "Mangual del Gran Maestro",
+        "name_ru": "Моргенштерн (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_FLAIL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "mace2h",
+        "@attackdamage": "59",
+        "@attackspeed": "0.667",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "42882",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "1000",
+        "@hitpointsregenerationbonus": "0.2",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@combatspecachievement": "COMBAT_MACES_FLAIL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_flail",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T7_CLOTH",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_MACE",
+          "removespell": {
+            "@uniquename": "MACELEAP"
+          },
+          "craftspell": {
+            "@uniquename": "ROOTFIELD",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "217090",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_FLAIL@1",
+      "index": "9279",
+      "name_en": "Grandmaster's Morning Star",
+      "name_ar": "صولجان نجم الصباح للأستاذ",
+      "name_de": "Morgenstern des Großmeisters",
+      "name_fr": "Morgenstern du grand maître",
+      "name_es": "Mangual del Gran Maestro",
+      "name_ru": "Моргенштерн (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_FLAIL",
+        "description_variable": "@ITEMS_T7_2H_FLAIL_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_FLAIL",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "mace2h",
+        "attackdamage": "59",
+        "attackspeed": "0.667",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "42882",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "1000",
+        "hitpointsregenerationbonus": "0.2",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "combatspecachievement": "COMBAT_MACES_FLAIL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_flail"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Morning Star",
+        "DE-DE": "Morgenstern des Großmeisters",
+        "FR-FR": "Morgenstern du grand maître",
+        "RU-RU": "Моргенштерн (магистр)",
+        "PL-PL": "Morgensztern Wszechmistrza",
+        "ES-ES": "Mangual del Gran Maestro",
+        "PT-BR": "Mangual do Grão-mestre",
+        "IT-IT": "Stella del mattino del gran maestro",
+        "ZH-CN": "宗师级晨星",
+        "KO-KR": "그랜드 마스터의 모닝 스타",
+        "JA-JP": "モーニングスター（グランドマスター）",
+        "ZH-TW": "宗師級晨星",
+        "ID-ID": "Bintang Kejora Grandmaster",
+        "TR-TR": "Büyük Usta Çivili Gürzü",
+        "AR-SA": "صولجان نجم الصباح للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 59,
+        "attack_speed": 0.667,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "mace2h",
+        "item_power": 1000,
+        "ability_power": 120,
+        "durability": 42882,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_FLAIL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ROOTFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ROOTFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 217090,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1100,
+        "durability": 64323,
+        "crafting_silver": 0,
+        "crafting_time": 5,
+        "crafting_focus": 16085,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T7_CLOTH_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 64323,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_FLAIL@1",
+        "item_database_index": "9279"
+      },
+      "tier": 7,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Grandmaster's Morning Star",
+        "name_ar": "صولجان نجم الصباح للأستاذ",
+        "name_de": "Morgenstern des Großmeisters",
+        "name_fr": "Morgenstern du grand maître",
+        "name_es": "Mangual del Gran Maestro",
+        "name_ru": "Моргенштерн (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_FLAIL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "mace2h",
+        "@attackdamage": "59",
+        "@attackspeed": "0.667",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "42882",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "1000",
+        "@hitpointsregenerationbonus": "0.2",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@combatspecachievement": "COMBAT_MACES_FLAIL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_flail",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T7_CLOTH",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_MACE",
+          "removespell": {
+            "@uniquename": "MACELEAP"
+          },
+          "craftspell": {
+            "@uniquename": "ROOTFIELD",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "217090",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_FLAIL@2",
+      "index": "9280",
+      "name_en": "Grandmaster's Morning Star",
+      "name_ar": "صولجان نجم الصباح للأستاذ",
+      "name_de": "Morgenstern des Großmeisters",
+      "name_fr": "Morgenstern du grand maître",
+      "name_es": "Mangual del Gran Maestro",
+      "name_ru": "Моргенштерн (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_FLAIL",
+        "description_variable": "@ITEMS_T7_2H_FLAIL_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_FLAIL",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "mace2h",
+        "attackdamage": "59",
+        "attackspeed": "0.667",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "42882",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "1000",
+        "hitpointsregenerationbonus": "0.2",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "combatspecachievement": "COMBAT_MACES_FLAIL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_flail"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Morning Star",
+        "DE-DE": "Morgenstern des Großmeisters",
+        "FR-FR": "Morgenstern du grand maître",
+        "RU-RU": "Моргенштерн (магистр)",
+        "PL-PL": "Morgensztern Wszechmistrza",
+        "ES-ES": "Mangual del Gran Maestro",
+        "PT-BR": "Mangual do Grão-mestre",
+        "IT-IT": "Stella del mattino del gran maestro",
+        "ZH-CN": "宗师级晨星",
+        "KO-KR": "그랜드 마스터의 모닝 스타",
+        "JA-JP": "モーニングスター（グランドマスター）",
+        "ZH-TW": "宗師級晨星",
+        "ID-ID": "Bintang Kejora Grandmaster",
+        "TR-TR": "Büyük Usta Çivili Gürzü",
+        "AR-SA": "صولجان نجم الصباح للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 59,
+        "attack_speed": 0.667,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "mace2h",
+        "item_power": 1000,
+        "ability_power": 120,
+        "durability": 42882,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_FLAIL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ROOTFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ROOTFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 217090,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1200,
+        "durability": 96485,
+        "crafting_silver": 0,
+        "crafting_time": 6,
+        "crafting_focus": 28148,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T7_CLOTH_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 96485,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_FLAIL@2",
+        "item_database_index": "9280"
+      },
+      "tier": 7,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Grandmaster's Morning Star",
+        "name_ar": "صولجان نجم الصباح للأستاذ",
+        "name_de": "Morgenstern des Großmeisters",
+        "name_fr": "Morgenstern du grand maître",
+        "name_es": "Mangual del Gran Maestro",
+        "name_ru": "Моргенштерн (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_FLAIL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "mace2h",
+        "@attackdamage": "59",
+        "@attackspeed": "0.667",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "42882",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "1000",
+        "@hitpointsregenerationbonus": "0.2",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@combatspecachievement": "COMBAT_MACES_FLAIL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_flail",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T7_CLOTH",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_MACE",
+          "removespell": {
+            "@uniquename": "MACELEAP"
+          },
+          "craftspell": {
+            "@uniquename": "ROOTFIELD",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "217090",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_FLAIL@3",
+      "index": "9281",
+      "name_en": "Grandmaster's Morning Star",
+      "name_ar": "صولجان نجم الصباح للأستاذ",
+      "name_de": "Morgenstern des Großmeisters",
+      "name_fr": "Morgenstern du grand maître",
+      "name_es": "Mangual del Gran Maestro",
+      "name_ru": "Моргенштерн (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_FLAIL",
+        "description_variable": "@ITEMS_T7_2H_FLAIL_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_FLAIL",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "mace2h",
+        "attackdamage": "59",
+        "attackspeed": "0.667",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "42882",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "1000",
+        "hitpointsregenerationbonus": "0.2",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "combatspecachievement": "COMBAT_MACES_FLAIL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_flail"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Morning Star",
+        "DE-DE": "Morgenstern des Großmeisters",
+        "FR-FR": "Morgenstern du grand maître",
+        "RU-RU": "Моргенштерн (магистр)",
+        "PL-PL": "Morgensztern Wszechmistrza",
+        "ES-ES": "Mangual del Gran Maestro",
+        "PT-BR": "Mangual do Grão-mestre",
+        "IT-IT": "Stella del mattino del gran maestro",
+        "ZH-CN": "宗师级晨星",
+        "KO-KR": "그랜드 마스터의 모닝 스타",
+        "JA-JP": "モーニングスター（グランドマスター）",
+        "ZH-TW": "宗師級晨星",
+        "ID-ID": "Bintang Kejora Grandmaster",
+        "TR-TR": "Büyük Usta Çivili Gürzü",
+        "AR-SA": "صولجان نجم الصباح للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 59,
+        "attack_speed": 0.667,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "mace2h",
+        "item_power": 1000,
+        "ability_power": 120,
+        "durability": 42882,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_FLAIL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ROOTFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ROOTFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 217090,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1300,
+        "durability": 144727,
+        "crafting_silver": 0,
+        "crafting_time": 7.2,
+        "crafting_focus": 49260,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T7_CLOTH_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 144727,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_FLAIL@3",
+        "item_database_index": "9281"
+      },
+      "tier": 7,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Grandmaster's Morning Star",
+        "name_ar": "صولجان نجم الصباح للأستاذ",
+        "name_de": "Morgenstern des Großmeisters",
+        "name_fr": "Morgenstern du grand maître",
+        "name_es": "Mangual del Gran Maestro",
+        "name_ru": "Моргенштерн (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_FLAIL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "mace2h",
+        "@attackdamage": "59",
+        "@attackspeed": "0.667",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "42882",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "1000",
+        "@hitpointsregenerationbonus": "0.2",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@combatspecachievement": "COMBAT_MACES_FLAIL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_flail",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T7_CLOTH",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_MACE",
+          "removespell": {
+            "@uniquename": "MACELEAP"
+          },
+          "craftspell": {
+            "@uniquename": "ROOTFIELD",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "217090",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_FLAIL@4",
+      "index": "9282",
+      "name_en": "Grandmaster's Morning Star",
+      "name_ar": "صولجان نجم الصباح للأستاذ",
+      "name_de": "Morgenstern des Großmeisters",
+      "name_fr": "Morgenstern du grand maître",
+      "name_es": "Mangual del Gran Maestro",
+      "name_ru": "Моргенштерн (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_FLAIL",
+        "description_variable": "@ITEMS_T7_2H_FLAIL_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_FLAIL",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "mace2h",
+        "attackdamage": "59",
+        "attackspeed": "0.667",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "42882",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "1000",
+        "hitpointsregenerationbonus": "0.2",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "combatspecachievement": "COMBAT_MACES_FLAIL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_flail"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Morning Star",
+        "DE-DE": "Morgenstern des Großmeisters",
+        "FR-FR": "Morgenstern du grand maître",
+        "RU-RU": "Моргенштерн (магистр)",
+        "PL-PL": "Morgensztern Wszechmistrza",
+        "ES-ES": "Mangual del Gran Maestro",
+        "PT-BR": "Mangual do Grão-mestre",
+        "IT-IT": "Stella del mattino del gran maestro",
+        "ZH-CN": "宗师级晨星",
+        "KO-KR": "그랜드 마스터의 모닝 스타",
+        "JA-JP": "モーニングスター（グランドマスター）",
+        "ZH-TW": "宗師級晨星",
+        "ID-ID": "Bintang Kejora Grandmaster",
+        "TR-TR": "Büyük Usta Çivili Gürzü",
+        "AR-SA": "صولجان نجم الصباح للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_CLOTH",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T7_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 59,
+        "attack_speed": 0.667,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "mace2h",
+        "item_power": 1000,
+        "ability_power": 120,
+        "durability": 42882,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_FLAIL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ROOTFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ROOTFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 217090,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1400,
+        "durability": 217090,
+        "crafting_silver": 0,
+        "crafting_time": 8.64,
+        "crafting_focus": 86205,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T7_CLOTH_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 217090,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_FLAIL@4",
+        "item_database_index": "9282"
+      },
+      "tier": 7,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Grandmaster's Morning Star",
+        "name_ar": "صولجان نجم الصباح للأستاذ",
+        "name_de": "Morgenstern des Großmeisters",
+        "name_fr": "Morgenstern du grand maître",
+        "name_es": "Mangual del Gran Maestro",
+        "name_ru": "Моргенштерн (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_FLAIL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "mace2h",
+        "@attackdamage": "59",
+        "@attackspeed": "0.667",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "42882",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "1000",
+        "@hitpointsregenerationbonus": "0.2",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@combatspecachievement": "COMBAT_MACES_FLAIL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_flail",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T7_CLOTH",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_MACE",
+          "removespell": {
+            "@uniquename": "MACELEAP"
+          },
+          "craftspell": {
+            "@uniquename": "ROOTFIELD",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "217090",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

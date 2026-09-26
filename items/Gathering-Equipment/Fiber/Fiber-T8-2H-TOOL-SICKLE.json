@@ -1,0 +1,253 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Fiber",
+  "base_id": "T8_2H_TOOL_SICKLE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_2H_TOOL_SICKLE",
+      "index": "2984",
+      "name_en": "Elder's Sickle",
+      "name_ar": "منجل معقوف للحكيم",
+      "name_de": "Sichel des Ältesten",
+      "name_fr": "Faucille du sage",
+      "name_es": "Hoz del anciano",
+      "name_ru": "Серп (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_TOOL_SICKLE",
+        "description_variable": "@ITEMS_T8_2H_TOOL_SICKLE_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_TOOL_SICKLE",
+        "mesh": "T8_MAIN_SICKLE",
+        "uisprite": "MAIN_SICKLE",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "attacktype": "melee",
+        "attackdamage": "48",
+        "attackspeed": "1",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "8",
+        "weight": "8.54",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "50800",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_sickle",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "1060",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "sickle"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Sickle",
+        "DE-DE": "Sichel des Ältesten",
+        "FR-FR": "Faucille du sage",
+        "RU-RU": "Серп (старейшина)",
+        "PL-PL": "Sierp Starszego",
+        "ES-ES": "Hoz del anciano",
+        "PT-BR": "Foice do Ancião",
+        "IT-IT": "Falcetto dell'anziano",
+        "ZH-CN": "禅师级镰刀",
+        "KO-KR": "장로의 낫",
+        "JA-JP": "小がま（老熟）",
+        "ZH-TW": "禪師級鐮刀",
+        "ID-ID": "Sabit Tetua",
+        "TR-TR": "Yüce Orağı",
+        "AR-SA": "منجل معقوف للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 2
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": 48,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_sickle",
+        "item_power": 1060,
+        "ability_power": 100,
+        "durability": 50800,
+        "max_quality_level": 1,
+        "tier_raw": 8,
+        "weight": 8.54,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 1060,
+      "effective_durability": 50800,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "MAIN_SICKLE"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_TOOL_SICKLE",
+        "item_database_index": "2984"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Sickle",
+        "name_ar": "منجل معقوف للحكيم",
+        "name_de": "Sichel des Ältesten",
+        "name_fr": "Faucille du sage",
+        "name_es": "Hoz del anciano",
+        "name_ru": "Серп (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_TOOL_SICKLE",
+        "@mesh": "T8_MAIN_SICKLE",
+        "@uisprite": "MAIN_SICKLE",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@attacktype": "melee",
+        "@attackdamage": "48",
+        "@attackspeed": "1",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "8",
+        "@weight": "8.54",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "50800",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_sickle",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "1060",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "sickle",
+        "canharvest": {
+          "@resourcetype": "FIBER"
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "2"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

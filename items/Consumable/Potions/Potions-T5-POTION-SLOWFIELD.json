@@ -1,0 +1,455 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T5_POTION_SLOWFIELD",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_POTION_SLOWFIELD",
+      "index": "590",
+      "name_en": "Sticky Potion",
+      "name_ar": "جرعة لزجة",
+      "name_de": "Klebriger Trank",
+      "name_fr": "Potion collante",
+      "name_es": "Poción pegajosa",
+      "name_ru": "Вязкая настойка",
+      "descriptions": {
+        "description_en": "A viscous potion. Throw it on a ground location to create an area that slows enemies and reduces their damage.",
+        "description_ar": "جرعة لزجة. يمكنك إلقاءها على موقع أرضي لإنشاء منطقة تبطئ الأعداء وتقلل ضررهم.",
+        "description_de": "Ein zäher Trank. Wirf ihn auf den Boden und erzeuge dort eine Fläche, die verlangsamt und den Schaden des Gegners reduziert.",
+        "description_fr": "Une potion visqueuse. Lancez-la à un endroit ciblé pour créer une zone qui réduira la vitesse et les dégâts ennemis.",
+        "description_es": "Una poción viscosa. Tírala al suelo para crear un área que ralentiza y reduce el daño del enemigo.",
+        "description_ru": "Бутыль со льдом. Бросьте на землю, чтобы создать область замедляющую врагов, снижающую урон противника."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_POTION_SLOWFIELD",
+        "description_variable": "@ITEMS_POTION_SLOWFIELD_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_POTION_SLOWFIELD",
+        "uisprite": "POTION_STICKY",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_AOE_SLOW_P3",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "5",
+        "dummyitempower": "800",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.42",
+        "descriptionlocatag": "@ITEMS_POTION_SLOWFIELD_DESC",
+        "shopsubcategory2": "slowfield"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Sticky Potion",
+        "DE-DE": "Klebriger Trank",
+        "FR-FR": "Potion collante",
+        "RU-RU": "Вязкая настойка",
+        "PL-PL": "Kleista Mikstura",
+        "ES-ES": "Poción pegajosa",
+        "PT-BR": "Poção Pegajosa",
+        "IT-IT": "Pozione appiccicosa",
+        "ZH-CN": "黏性药水",
+        "KO-KR": "끈끈이 포션",
+        "JA-JP": "ねばねばポーション",
+        "ZH-TW": "黏性藥水",
+        "ID-ID": "Ramuan Lengket",
+        "TR-TR": "Yapışkan İksir",
+        "AR-SA": "جرعة لزجة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A viscous potion. Throw it on a ground location to create an area that slows enemies and reduces their damage.",
+        "DE-DE": "Ein zäher Trank. Wirf ihn auf den Boden und erzeuge dort eine Fläche, die verlangsamt und den Schaden des Gegners reduziert.",
+        "FR-FR": "Une potion visqueuse. Lancez-la à un endroit ciblé pour créer une zone qui réduira la vitesse et les dégâts ennemis.",
+        "RU-RU": "Бутыль со льдом. Бросьте на землю, чтобы создать область замедляющую врагов, снижающую урон противника.",
+        "PL-PL": "Lepka mikstura. Rzuć ją w punkt na ziemi, tworząc obszar spowalniający wrogów i obniżający ich zadawane obrażenia",
+        "ES-ES": "Una poción viscosa. Tírala al suelo para crear un área que ralentiza y reduce el daño del enemigo.",
+        "PT-BR": "Uma poção pegajosa. Jogue a no chão para criar uma área que desacelera e reduz o dano do inimigo.",
+        "IT-IT": "Una pozione viscosa. Lanciala sul terreno per creare una zona che rallenta i nemici e ne riduce il danno.",
+        "ZH-CN": "黏糊糊的药水，扔到地上之后，药水会形成一个区域，减缓区域内敌人的移动速度，同时降低敌人造成的伤害。",
+        "KO-KR": "끈적한 포션. 특정 위치의 바닥에 던지면 그 주위에 적을 둔화시키고 대미지를 증가시키는 영역을 만듭니다.",
+        "JA-JP": "粘性のあるポーション。地面に投げると、敵のスピードを低下させて敵のダメージを減少させるエリアを作り出します。",
+        "ZH-TW": "黏稠無比的藥水。扔到地上後會形成一個區域，且區域內敵人的移動速度及其造成的傷害均會下降。",
+        "ID-ID": "Ramuan yang kental. Lemparkan ke tanah untuk membuat area yang memperlambat musuh dan mengurangi damage yang mereka hasilkan.",
+        "TR-TR": "Yoğun bir iksir. Düşmanları yavaşlatan ve hasarlarını azaltan bir zemin oluşturmak için yere fırlatılabilir.",
+        "AR-SA": "جرعة لزجة. يمكنك إلقاءها على موقع أرضي لإنشاء منطقة تبطئ الأعداء وتقلل ضررهم."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_TEASEL",
+        "primary_count": 24,
+        "secondary_resource": "T4_BURDOCK",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T5_TEASEL",
+            "count": 24
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 12
+          },
+          {
+            "id": "T5_EGG",
+            "count": 6
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.6715,
+        "crafting_focus": 294,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_TEASEL",
+            "count": 24
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 12
+          },
+          {
+            "id": "T5_EGG",
+            "count": 6
+          }
+        ],
+        "primary_resource": "T5_TEASEL",
+        "primary_count": 24,
+        "secondary_resource": "T4_BURDOCK",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 0.42,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.6715,
+          "crafting_focus": 361,
+          "crafting_resources": [
+            {
+              "id": "T5_TEASEL",
+              "count": 24,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_EGG",
+              "count": 6,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 15,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.6715,
+          "crafting_focus": 494,
+          "crafting_resources": [
+            {
+              "id": "T5_TEASEL",
+              "count": 24,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_EGG",
+              "count": 6,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 15,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.6715,
+          "crafting_focus": 895,
+          "crafting_resources": [
+            {
+              "id": "T5_TEASEL",
+              "count": 24,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_EGG",
+              "count": 6,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 15,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_STICKY"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_POTION_SLOWFIELD",
+        "item_database_index": "590"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Sticky Potion",
+        "name_ar": "جرعة لزجة",
+        "name_de": "Klebriger Trank",
+        "name_fr": "Potion collante",
+        "name_es": "Poción pegajosa",
+        "name_ru": "Вязкая настойка"
+      },
+      "raw": {
+        "@uniquename": "T5_POTION_SLOWFIELD",
+        "@uisprite": "POTION_STICKY",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_AOE_SLOW_P3",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "5",
+        "@dummyitempower": "800",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.42",
+        "@descriptionlocatag": "@ITEMS_POTION_SLOWFIELD_DESC",
+        "@shopsubcategory2": "slowfield",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "294",
+          "@time": "0.6715",
+          "craftresource": [
+            {
+              "@uniquename": "T5_TEASEL",
+              "@count": "24"
+            },
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T5_EGG",
+              "@count": "6"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_AOE_SLOW_P4",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.6715",
+                "@amountcrafted": "5",
+                "@craftingfocus": "361",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_AOE_SLOW_P5",
+              "@dummyitempower": "1000",
+              "@abilitypower": "186",
+              "@weight": "0.7",
+              "craftingrequirements": {
+                "@time": "0.6715",
+                "@amountcrafted": "5",
+                "@craftingfocus": "494",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_AOE_SLOW_P6",
+              "@dummyitempower": "1100",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.6715",
+                "@amountcrafted": "5",
+                "@craftingfocus": "895",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_TEASEL",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

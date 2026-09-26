@@ -1,0 +1,253 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Ore",
+  "base_id": "T3_2H_TOOL_PICK",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_2H_TOOL_PICK",
+      "index": "2940",
+      "name_en": "Journeyman's Pickaxe",
+      "name_ar": "مِعوَل الموثوق",
+      "name_de": "Spitzhacke des Gesellen",
+      "name_fr": "Pioche du compagnon",
+      "name_es": "Pico del obrero",
+      "name_ru": "Кирка (странник)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_2H_TOOL_PICK",
+        "description_variable": "@ITEMS_T3_2H_TOOL_PICK_DESC"
+      },
+      "category": "Gathering_Ore",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T3_2H_TOOL_PICK",
+        "mesh": "T3_2H_PICK",
+        "uisprite": "2H_PICK",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "ore",
+        "attacktype": "melee",
+        "attackdamage": "26",
+        "attackspeed": "1",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "3",
+        "weight": "1.13",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "1200",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_pick",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "500",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "picks"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Journeyman's Pickaxe",
+        "DE-DE": "Spitzhacke des Gesellen",
+        "FR-FR": "Pioche du compagnon",
+        "RU-RU": "Кирка (странник)",
+        "PL-PL": "Kilof Czeladnika",
+        "ES-ES": "Pico del obrero",
+        "PT-BR": "Picareta do Iniciante",
+        "IT-IT": "Piccone dell'apprendista",
+        "ZH-CN": "学徒级十字镐",
+        "KO-KR": "장인의 곡괭이",
+        "JA-JP": "つるはし（熟練）",
+        "ZH-TW": "學徒級十字鎬",
+        "ID-ID": "Beliung Pengembara",
+        "TR-TR": "Kalfa Kazması",
+        "AR-SA": "مِعوَل الموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T3_METALBAR",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T3_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T3_METALBAR",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.25,
+        "crafting_focus": 245,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T3_METALBAR",
+            "count": 2
+          }
+        ],
+        "primary_resource": "T3_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T3_METALBAR",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": 26,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_pick",
+        "item_power": 500,
+        "ability_power": 100,
+        "durability": 1200,
+        "max_quality_level": 1,
+        "tier_raw": 3,
+        "weight": 1.13,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 500,
+      "effective_durability": 1200,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "ore",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_PICK"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_2H_TOOL_PICK",
+        "item_database_index": "2940"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Journeyman's Pickaxe",
+        "name_ar": "مِعوَل الموثوق",
+        "name_de": "Spitzhacke des Gesellen",
+        "name_fr": "Pioche du compagnon",
+        "name_es": "Pico del obrero",
+        "name_ru": "Кирка (странник)"
+      },
+      "raw": {
+        "@uniquename": "T3_2H_TOOL_PICK",
+        "@mesh": "T3_2H_PICK",
+        "@uisprite": "2H_PICK",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "ore",
+        "@attacktype": "melee",
+        "@attackdamage": "26",
+        "@attackspeed": "1",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "3",
+        "@weight": "1.13",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "1200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_pick",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "500",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "picks",
+        "canharvest": {
+          "@resourcetype": "ORE"
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.25",
+          "@craftingfocus": "245",
+          "craftresource": [
+            {
+              "@uniquename": "T3_PLANKS",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T3_METALBAR",
+              "@count": "2"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

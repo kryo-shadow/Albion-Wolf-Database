@@ -1,0 +1,499 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T6_MEAL_STEW_AVALON",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_MEAL_STEW_AVALON",
+      "index": "864",
+      "name_en": "Avalonian Mutton Stew",
+      "name_ar": "يخنة لحم ضأن أفالوني",
+      "name_de": "Avalonischer Hammelfleischeintopf",
+      "name_fr": "Ragoût de mouton avalonien",
+      "name_es": "Guiso de cordero avaloniano",
+      "name_ru": "Авалонское жаркое из баранины",
+      "descriptions": {
+        "description_en": "Avalonian meal that increases combat damage and health regeneration for a long period.",
+        "description_ar": "وجبة أفالونية تزيد ضرر القتال وتجديد الصحة لفترة طويلة.",
+        "description_de": "Avalonische Speise, die für eine lange Zeit deinen Kampfschaden und deine Lebensregeneration steigert.",
+        "description_fr": "Nourriture avalonienne qui augmente vos dégâts en combat et votre régénération de santé pendant une longue période.",
+        "description_es": "Comida avaloniana que aumenta el daño de combate y la regeneración de salud durante mucho tiempo.",
+        "description_ru": "Авалонская еда, надолго увеличивающая урон и восстановление здоровья."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MEAL_STEW_AVALON",
+        "description_variable": "@ITEMS_MEAL_STEW_AVALON_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_MEAL_STEW_AVALON",
+        "uisprite": "MEAL_STEW_AVALON",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_BUFF_DMG_AVALON_P3",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "6",
+        "dummyitempower": "900",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "3.54",
+        "nutrition": "283",
+        "descriptionlocatag": "@ITEMS_MEAL_STEW_AVALON_DESC",
+        "shopsubcategory2": "stews"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Avalonian Mutton Stew",
+        "DE-DE": "Avalonischer Hammelfleischeintopf",
+        "FR-FR": "Ragoût de mouton avalonien",
+        "RU-RU": "Авалонское жаркое из баранины",
+        "PL-PL": "Awaloński Gulasz z Baraniny",
+        "ES-ES": "Guiso de cordero avaloniano",
+        "PT-BR": "Guisado de Carneiro Avaloniano",
+        "IT-IT": "Stufato di montone di Avalon",
+        "ZH-CN": "阿瓦隆炖绵羊肉",
+        "KO-KR": "아발로니안 양고기 스튜",
+        "JA-JP": "アバロニア人のマトンシチュー",
+        "ZH-TW": "阿瓦隆燉綿羊肉",
+        "ID-ID": "Daging Domba Rebus Avalonian",
+        "TR-TR": "Avalon Koyunu Yahnisi",
+        "AR-SA": "يخنة لحم ضأن أفالوني"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Avalonian meal that increases combat damage and health regeneration for a long period.",
+        "DE-DE": "Avalonische Speise, die für eine lange Zeit deinen Kampfschaden und deine Lebensregeneration steigert.",
+        "FR-FR": "Nourriture avalonienne qui augmente vos dégâts en combat et votre régénération de santé pendant une longue période.",
+        "RU-RU": "Авалонская еда, надолго увеличивающая урон и восстановление здоровья.",
+        "PL-PL": "Awaloński posiłek, który zwiększa obrażenia zadawane w walce i regenerację życia na długi okres czasu.",
+        "ES-ES": "Comida avaloniana que aumenta el daño de combate y la regeneración de salud durante mucho tiempo.",
+        "PT-BR": "Refeição avaloniana que aumenta o dano de combate e regeneração de vida por um longo período.",
+        "IT-IT": "Pietanza di Avalon che aumenta il danno e la rigenerazione della salute in combattimento per un lungo periodo.",
+        "ZH-CN": "阿瓦隆特色菜肴，可以长时间提高战斗伤害和加快生命恢复。",
+        "KO-KR": "긴 시간 동안 전투 대미지와 생명력 재생을 증가시켜주는 아발로니안 식사입니다.",
+        "JA-JP": "長時間にわたり戦闘ダメージと体力再生量が上昇するアバロニア人料理。",
+        "ZH-TW": "一道阿瓦隆料理，能長時間提升戰鬥傷害和生命值回復速度。",
+        "ID-ID": "Makanan Avalonian yang meningkatkan damage pertempuran dan regenerasi HP untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine savaş hasarını ve sağlık yenilemesini artıran bir Avalon yemeği.",
+        "AR-SA": "وجبة أفالونية تزيد ضرر القتال وتجديد الصحة لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 30,
+        "secondary_resource": "T6_MEAT",
+        "secondary_count": 24,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 30
+          },
+          {
+            "id": "T6_MEAT",
+            "count": 24
+          },
+          {
+            "id": "T5_CABBAGE",
+            "count": 12
+          },
+          {
+            "id": "T6_POTATO",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.943,
+        "crafting_focus": 176,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 30
+          },
+          {
+            "id": "T6_MEAT",
+            "count": 24
+          },
+          {
+            "id": "T5_CABBAGE",
+            "count": 12
+          },
+          {
+            "id": "T6_POTATO",
+            "count": 12
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 30,
+        "secondary_resource": "T6_MEAT",
+        "secondary_count": 24
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 3.54,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.943,
+          "crafting_focus": 243,
+          "crafting_resources": [
+            {
+              "id": "T5_CABBAGE",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_POTATO",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_MEAT",
+              "count": 24,
+              "enchantment_level": 1
+            },
+            {
+              "id": "QUESTITEM_TOKEN_AVALON",
+              "count": 30,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 30,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.943,
+          "crafting_focus": 376,
+          "crafting_resources": [
+            {
+              "id": "T5_CABBAGE",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_POTATO",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_MEAT",
+              "count": 24,
+              "enchantment_level": 2
+            },
+            {
+              "id": "QUESTITEM_TOKEN_AVALON",
+              "count": 30,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 30,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.943,
+          "crafting_focus": 777,
+          "crafting_resources": [
+            {
+              "id": "T5_CABBAGE",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_POTATO",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_MEAT",
+              "count": 24,
+              "enchantment_level": 3
+            },
+            {
+              "id": "QUESTITEM_TOKEN_AVALON",
+              "count": 30,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 30,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "MEAL_STEW_AVALON"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MEAL_STEW_AVALON",
+        "item_database_index": "864"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Avalonian Mutton Stew",
+        "name_ar": "يخنة لحم ضأن أفالوني",
+        "name_de": "Avalonischer Hammelfleischeintopf",
+        "name_fr": "Ragoût de mouton avalonien",
+        "name_es": "Guiso de cordero avaloniano",
+        "name_ru": "Авалонское жаркое из баранины"
+      },
+      "raw": {
+        "@uniquename": "T6_MEAL_STEW_AVALON",
+        "@uisprite": "MEAL_STEW_AVALON",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_BUFF_DMG_AVALON_P3",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "6",
+        "@dummyitempower": "900",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "3.54",
+        "@nutrition": "283",
+        "@descriptionlocatag": "@ITEMS_MEAL_STEW_AVALON_DESC",
+        "@shopsubcategory2": "stews",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "176",
+          "@time": "0.943",
+          "craftresource": [
+            {
+              "@uniquename": "T5_CABBAGE",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T6_POTATO",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T6_MEAT",
+              "@count": "24"
+            },
+            {
+              "@uniquename": "QUESTITEM_TOKEN_AVALON",
+              "@maxreturnamount": "0",
+              "@count": "30"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "1000",
+              "@consumespell": "FOOD_BUFF_DMG_AVALON_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "243",
+                "@time": "0.943",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T6_MEAT",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "QUESTITEM_TOKEN_AVALON",
+                    "@maxreturnamount": "0",
+                    "@count": "30"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "30"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "1100",
+              "@consumespell": "FOOD_BUFF_DMG_AVALON_P5",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "376",
+                "@time": "0.943",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T6_MEAT",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "QUESTITEM_TOKEN_AVALON",
+                    "@maxreturnamount": "0",
+                    "@count": "30"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "30"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1200",
+              "@consumespell": "FOOD_BUFF_DMG_AVALON_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "777",
+                "@time": "0.943",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T6_MEAT",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "QUESTITEM_TOKEN_AVALON",
+                    "@maxreturnamount": "0",
+                    "@count": "30"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "30"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

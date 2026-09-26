@@ -1,0 +1,3524 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Off_Hands",
+  "family": "Off_Hands_Mage",
+  "base_id": "T7_OFF_ORB_MORGANA",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T7_OFF_ORB_MORGANA",
+      "index": "2246",
+      "name_en": "Grandmaster's Eye of Secrets",
+      "name_ar": "كتب عيون الأسرار للأستاذ",
+      "name_de": "Geheimnisvolle Augen des Großmeisters",
+      "name_fr": "Œil des secrets du grand maître",
+      "name_es": "Ojo de los secretos del gran maestro",
+      "name_ru": "Око тайны (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_OFF_ORB_MORGANA",
+        "description_variable": "@ITEMS_T7_OFF_ORB_MORGANA_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_OFF_ORB_MORGANA",
+        "uisprite": "OFF_ORB",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "7",
+        "weight": "5.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "orb",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1025",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "orb",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_BOOKS_MORGANA",
+        "shopsubcategory2": "booktype_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Eye of Secrets",
+        "DE-DE": "Geheimnisvolle Augen des Großmeisters",
+        "FR-FR": "Œil des secrets du grand maître",
+        "RU-RU": "Око тайны (магистр)",
+        "PL-PL": "Oko Sekretów Wszechmistrza",
+        "ES-ES": "Ojo de los secretos del gran maestro",
+        "PT-BR": "Olho dos Segredos do Grão-mestre",
+        "IT-IT": "Occhio dei segreti del gran maestro",
+        "ZH-CN": "宗师级秘密之眼",
+        "KO-KR": "그랜드 마스터의 비밀의 눈",
+        "JA-JP": "アイズ・オブ・シークレット（グランドマスター）",
+        "ZH-TW": "宗師級祕密之眼",
+        "ID-ID": "Mata Rahasia Grandmaster",
+        "TR-TR": "Büyük Usta Sır Yuvarı",
+        "AR-SA": "كتب عيون الأسرار للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T7_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.833,
+        "crafting_focus": 2298,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1025,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 5.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_MORGANA",
+        "itempower_progression": "orb"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1125,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1225,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1325,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1425,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1025,
+      "effective_durability": 36450,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "OFF_ORB"
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_OFF_ORB_MORGANA",
+          "name_artifact_en": "Grandmaster's Alluring Crystal",
+          "name_artifact_ar": "بلورة جذابة للأستاذ",
+          "name_artifact_de": "Verlockender Kristall des Großmeisters",
+          "name_artifact_fr": "Cristal séduisant du grand maître",
+          "name_artifact_es": "Cristal tentador del gran maestro",
+          "name_artifact_ru": "Кристалл соблазнения (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_OFF_ORB_MORGANA",
+        "item_database_index": "2246"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Eye of Secrets",
+        "name_ar": "كتب عيون الأسرار للأستاذ",
+        "name_de": "Geheimnisvolle Augen des Großmeisters",
+        "name_fr": "Œil des secrets du grand maître",
+        "name_es": "Ojo de los secretos del gran maestro",
+        "name_ru": "Око тайны (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_OFF_ORB_MORGANA",
+        "@uisprite": "OFF_ORB",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "7",
+        "@weight": "5.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "orb",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1025",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "orb",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_BOOKS_MORGANA",
+        "@shopsubcategory2": "booktype_morgana",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1125",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1225",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1325",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1425",
+              "@durability": "184528",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_OFF_ORB_MORGANA@1",
+      "index": "2247",
+      "name_en": "Grandmaster's Eye of Secrets",
+      "name_ar": "كتب عيون الأسرار للأستاذ",
+      "name_de": "Geheimnisvolle Augen des Großmeisters",
+      "name_fr": "Œil des secrets du grand maître",
+      "name_es": "Ojo de los secretos del gran maestro",
+      "name_ru": "Око тайны (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_OFF_ORB_MORGANA",
+        "description_variable": "@ITEMS_T7_OFF_ORB_MORGANA_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_OFF_ORB_MORGANA",
+        "uisprite": "OFF_ORB",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "7",
+        "weight": "5.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "orb",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1025",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "orb",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_BOOKS_MORGANA",
+        "shopsubcategory2": "booktype_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Eye of Secrets",
+        "DE-DE": "Geheimnisvolle Augen des Großmeisters",
+        "FR-FR": "Œil des secrets du grand maître",
+        "RU-RU": "Око тайны (магистр)",
+        "PL-PL": "Oko Sekretów Wszechmistrza",
+        "ES-ES": "Ojo de los secretos del gran maestro",
+        "PT-BR": "Olho dos Segredos do Grão-mestre",
+        "IT-IT": "Occhio dei segreti del gran maestro",
+        "ZH-CN": "宗师级秘密之眼",
+        "KO-KR": "그랜드 마스터의 비밀의 눈",
+        "JA-JP": "アイズ・オブ・シークレット（グランドマスター）",
+        "ZH-TW": "宗師級祕密之眼",
+        "ID-ID": "Mata Rahasia Grandmaster",
+        "TR-TR": "Büyük Usta Sır Yuvarı",
+        "AR-SA": "كتب عيون الأسرار للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T7_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.833,
+        "crafting_focus": 2298,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1025,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 5.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_MORGANA",
+        "itempower_progression": "orb"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1125,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1225,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1325,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1425,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1125,
+        "durability": 54675,
+        "crafting_silver": 0,
+        "crafting_time": 1.25,
+        "crafting_focus": 4021,
+        "crafting_resources": [
+          {
+            "id": "T7_CLOTH_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T7_LEATHER_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RUNE",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1125,
+      "effective_durability": 54675,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "OFF_ORB"
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_OFF_ORB_MORGANA",
+          "name_artifact_en": "Grandmaster's Alluring Crystal",
+          "name_artifact_ar": "بلورة جذابة للأستاذ",
+          "name_artifact_de": "Verlockender Kristall des Großmeisters",
+          "name_artifact_fr": "Cristal séduisant du grand maître",
+          "name_artifact_es": "Cristal tentador del gran maestro",
+          "name_artifact_ru": "Кристалл соблазнения (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_OFF_ORB_MORGANA@1",
+        "item_database_index": "2247"
+      },
+      "tier": 7,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Grandmaster's Eye of Secrets",
+        "name_ar": "كتب عيون الأسرار للأستاذ",
+        "name_de": "Geheimnisvolle Augen des Großmeisters",
+        "name_fr": "Œil des secrets du grand maître",
+        "name_es": "Ojo de los secretos del gran maestro",
+        "name_ru": "Око тайны (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_OFF_ORB_MORGANA",
+        "@uisprite": "OFF_ORB",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "7",
+        "@weight": "5.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "orb",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1025",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "orb",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_BOOKS_MORGANA",
+        "@shopsubcategory2": "booktype_morgana",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1125",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1225",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1325",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1425",
+              "@durability": "184528",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_OFF_ORB_MORGANA@2",
+      "index": "2248",
+      "name_en": "Grandmaster's Eye of Secrets",
+      "name_ar": "كتب عيون الأسرار للأستاذ",
+      "name_de": "Geheimnisvolle Augen des Großmeisters",
+      "name_fr": "Œil des secrets du grand maître",
+      "name_es": "Ojo de los secretos del gran maestro",
+      "name_ru": "Око тайны (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_OFF_ORB_MORGANA",
+        "description_variable": "@ITEMS_T7_OFF_ORB_MORGANA_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_OFF_ORB_MORGANA",
+        "uisprite": "OFF_ORB",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "7",
+        "weight": "5.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "orb",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1025",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "orb",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_BOOKS_MORGANA",
+        "shopsubcategory2": "booktype_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Eye of Secrets",
+        "DE-DE": "Geheimnisvolle Augen des Großmeisters",
+        "FR-FR": "Œil des secrets du grand maître",
+        "RU-RU": "Око тайны (магистр)",
+        "PL-PL": "Oko Sekretów Wszechmistrza",
+        "ES-ES": "Ojo de los secretos del gran maestro",
+        "PT-BR": "Olho dos Segredos do Grão-mestre",
+        "IT-IT": "Occhio dei segreti del gran maestro",
+        "ZH-CN": "宗师级秘密之眼",
+        "KO-KR": "그랜드 마스터의 비밀의 눈",
+        "JA-JP": "アイズ・オブ・シークレット（グランドマスター）",
+        "ZH-TW": "宗師級祕密之眼",
+        "ID-ID": "Mata Rahasia Grandmaster",
+        "TR-TR": "Büyük Usta Sır Yuvarı",
+        "AR-SA": "كتب عيون الأسرار للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T7_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.833,
+        "crafting_focus": 2298,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1025,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 5.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_MORGANA",
+        "itempower_progression": "orb"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1125,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1225,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1325,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1425,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1225,
+        "durability": 82013,
+        "crafting_silver": 0,
+        "crafting_time": 1.5,
+        "crafting_focus": 7037,
+        "crafting_resources": [
+          {
+            "id": "T7_CLOTH_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T7_LEATHER_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_SOUL",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1225,
+      "effective_durability": 82013,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "OFF_ORB"
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_OFF_ORB_MORGANA",
+          "name_artifact_en": "Grandmaster's Alluring Crystal",
+          "name_artifact_ar": "بلورة جذابة للأستاذ",
+          "name_artifact_de": "Verlockender Kristall des Großmeisters",
+          "name_artifact_fr": "Cristal séduisant du grand maître",
+          "name_artifact_es": "Cristal tentador del gran maestro",
+          "name_artifact_ru": "Кристалл соблазнения (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_OFF_ORB_MORGANA@2",
+        "item_database_index": "2248"
+      },
+      "tier": 7,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Grandmaster's Eye of Secrets",
+        "name_ar": "كتب عيون الأسرار للأستاذ",
+        "name_de": "Geheimnisvolle Augen des Großmeisters",
+        "name_fr": "Œil des secrets du grand maître",
+        "name_es": "Ojo de los secretos del gran maestro",
+        "name_ru": "Око тайны (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_OFF_ORB_MORGANA",
+        "@uisprite": "OFF_ORB",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "7",
+        "@weight": "5.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "orb",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1025",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "orb",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_BOOKS_MORGANA",
+        "@shopsubcategory2": "booktype_morgana",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1125",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1225",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1325",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1425",
+              "@durability": "184528",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_OFF_ORB_MORGANA@3",
+      "index": "2249",
+      "name_en": "Grandmaster's Eye of Secrets",
+      "name_ar": "كتب عيون الأسرار للأستاذ",
+      "name_de": "Geheimnisvolle Augen des Großmeisters",
+      "name_fr": "Œil des secrets du grand maître",
+      "name_es": "Ojo de los secretos del gran maestro",
+      "name_ru": "Око тайны (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_OFF_ORB_MORGANA",
+        "description_variable": "@ITEMS_T7_OFF_ORB_MORGANA_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_OFF_ORB_MORGANA",
+        "uisprite": "OFF_ORB",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "7",
+        "weight": "5.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "orb",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1025",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "orb",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_BOOKS_MORGANA",
+        "shopsubcategory2": "booktype_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Eye of Secrets",
+        "DE-DE": "Geheimnisvolle Augen des Großmeisters",
+        "FR-FR": "Œil des secrets du grand maître",
+        "RU-RU": "Око тайны (магистр)",
+        "PL-PL": "Oko Sekretów Wszechmistrza",
+        "ES-ES": "Ojo de los secretos del gran maestro",
+        "PT-BR": "Olho dos Segredos do Grão-mestre",
+        "IT-IT": "Occhio dei segreti del gran maestro",
+        "ZH-CN": "宗师级秘密之眼",
+        "KO-KR": "그랜드 마스터의 비밀의 눈",
+        "JA-JP": "アイズ・オブ・シークレット（グランドマスター）",
+        "ZH-TW": "宗師級祕密之眼",
+        "ID-ID": "Mata Rahasia Grandmaster",
+        "TR-TR": "Büyük Usta Sır Yuvarı",
+        "AR-SA": "كتب عيون الأسرار للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T7_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.833,
+        "crafting_focus": 2298,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1025,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 5.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_MORGANA",
+        "itempower_progression": "orb"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1125,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1225,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1325,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1425,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1325,
+        "durability": 123019,
+        "crafting_silver": 0,
+        "crafting_time": 1.8,
+        "crafting_focus": 12315,
+        "crafting_resources": [
+          {
+            "id": "T7_CLOTH_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T7_LEATHER_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RELIC",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1325,
+      "effective_durability": 123019,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "OFF_ORB"
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_OFF_ORB_MORGANA",
+          "name_artifact_en": "Grandmaster's Alluring Crystal",
+          "name_artifact_ar": "بلورة جذابة للأستاذ",
+          "name_artifact_de": "Verlockender Kristall des Großmeisters",
+          "name_artifact_fr": "Cristal séduisant du grand maître",
+          "name_artifact_es": "Cristal tentador del gran maestro",
+          "name_artifact_ru": "Кристалл соблазнения (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_OFF_ORB_MORGANA@3",
+        "item_database_index": "2249"
+      },
+      "tier": 7,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Grandmaster's Eye of Secrets",
+        "name_ar": "كتب عيون الأسرار للأستاذ",
+        "name_de": "Geheimnisvolle Augen des Großmeisters",
+        "name_fr": "Œil des secrets du grand maître",
+        "name_es": "Ojo de los secretos del gran maestro",
+        "name_ru": "Око тайны (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_OFF_ORB_MORGANA",
+        "@uisprite": "OFF_ORB",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "7",
+        "@weight": "5.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "orb",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1025",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "orb",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_BOOKS_MORGANA",
+        "@shopsubcategory2": "booktype_morgana",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1125",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1225",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1325",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1425",
+              "@durability": "184528",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_OFF_ORB_MORGANA@4",
+      "index": "2250",
+      "name_en": "Grandmaster's Eye of Secrets",
+      "name_ar": "كتب عيون الأسرار للأستاذ",
+      "name_de": "Geheimnisvolle Augen des Großmeisters",
+      "name_fr": "Œil des secrets du grand maître",
+      "name_es": "Ojo de los secretos del gran maestro",
+      "name_ru": "Око тайны (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_OFF_ORB_MORGANA",
+        "description_variable": "@ITEMS_T7_OFF_ORB_MORGANA_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_OFF_ORB_MORGANA",
+        "uisprite": "OFF_ORB",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "7",
+        "weight": "5.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "orb",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1025",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "orb",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_BOOKS_MORGANA",
+        "shopsubcategory2": "booktype_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Eye of Secrets",
+        "DE-DE": "Geheimnisvolle Augen des Großmeisters",
+        "FR-FR": "Œil des secrets du grand maître",
+        "RU-RU": "Око тайны (магистр)",
+        "PL-PL": "Oko Sekretów Wszechmistrza",
+        "ES-ES": "Ojo de los secretos del gran maestro",
+        "PT-BR": "Olho dos Segredos do Grão-mestre",
+        "IT-IT": "Occhio dei segreti del gran maestro",
+        "ZH-CN": "宗师级秘密之眼",
+        "KO-KR": "그랜드 마스터의 비밀의 눈",
+        "JA-JP": "アイズ・オブ・シークレット（グランドマスター）",
+        "ZH-TW": "宗師級祕密之眼",
+        "ID-ID": "Mata Rahasia Grandmaster",
+        "TR-TR": "Büyük Usta Sır Yuvarı",
+        "AR-SA": "كتب عيون الأسرار للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T7_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.833,
+        "crafting_focus": 2298,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1025,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 5.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_MORGANA",
+        "itempower_progression": "orb"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1125,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1225,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1325,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1425,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T7_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1425,
+        "durability": 184528,
+        "crafting_silver": 0,
+        "crafting_time": 2.16,
+        "crafting_focus": 21551,
+        "crafting_resources": [
+          {
+            "id": "T7_CLOTH_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T7_LEATHER_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T7_ARTEFACT_OFF_ORB_MORGANA",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1425,
+      "effective_durability": 184528,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "OFF_ORB"
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_OFF_ORB_MORGANA",
+          "name_artifact_en": "Grandmaster's Alluring Crystal",
+          "name_artifact_ar": "بلورة جذابة للأستاذ",
+          "name_artifact_de": "Verlockender Kristall des Großmeisters",
+          "name_artifact_fr": "Cristal séduisant du grand maître",
+          "name_artifact_es": "Cristal tentador del gran maestro",
+          "name_artifact_ru": "Кристалл соблазнения (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_OFF_ORB_MORGANA@4",
+        "item_database_index": "2250"
+      },
+      "tier": 7,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Grandmaster's Eye of Secrets",
+        "name_ar": "كتب عيون الأسرار للأستاذ",
+        "name_de": "Geheimnisvolle Augen des Großmeisters",
+        "name_fr": "Œil des secrets du grand maître",
+        "name_es": "Ojo de los secretos del gran maestro",
+        "name_ru": "Око тайны (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_OFF_ORB_MORGANA",
+        "@uisprite": "OFF_ORB",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "7",
+        "@weight": "5.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "orb",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1025",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "orb",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_BOOKS_MORGANA",
+        "@shopsubcategory2": "booktype_morgana",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1125",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1225",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1325",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1425",
+              "@durability": "184528",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_OFF_ORB_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

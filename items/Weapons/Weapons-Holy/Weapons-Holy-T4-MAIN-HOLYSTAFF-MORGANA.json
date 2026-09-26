@@ -1,0 +1,3654 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Holy",
+  "base_id": "T4_MAIN_HOLYSTAFF_MORGANA",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_MAIN_HOLYSTAFF_MORGANA",
+      "index": "7658",
+      "name_en": "Adept's Lifetouch Staff",
+      "name_ar": "عصا لمسة الحياة للبارع",
+      "name_de": "Lebensgefühl-Stab des Adepten",
+      "name_fr": "Bâton de toucher de vie de l'adepte",
+      "name_es": "Bastón de toque de vida del iniciado",
+      "name_ru": "Посох жизни (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_HOLYSTAFF_MORGANA",
+        "description_variable": "@ITEMS_T4_MAIN_HOLYSTAFF_MORGANA_DESC"
+      },
+      "category": "Weapons_Holy",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_HOLYSTAFF_MORGANA",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "holystaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "725",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "holystaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "holystaff_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Lifetouch Staff",
+        "DE-DE": "Lebensgefühl-Stab des Adepten",
+        "FR-FR": "Bâton de toucher de vie de l'adepte",
+        "RU-RU": "Посох жизни (знаток)",
+        "PL-PL": "Kostur Dotyku Życia Adepta",
+        "ES-ES": "Bastón de toque de vida del iniciado",
+        "PT-BR": "Cajado Avivador do Adepto",
+        "IT-IT": "Bastone del tocco vitale del sapiente",
+        "ZH-CN": "老手级注魂法杖",
+        "KO-KR": "숙련자의 라이프터치 스태프",
+        "JA-JP": "触命の杖（名人）",
+        "ZH-TW": "老手級生命之觸法杖",
+        "ID-ID": "Tongkat Sentuhidup Mahir",
+        "TR-TR": "Ehil Hayat Dokunuşu Asası",
+        "AR-SA": "عصا لمسة الحياة للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 725,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HOLYTOUCH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HOLYTOUCH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 825,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 925,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1025,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1125,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 725,
+      "effective_durability": 20250,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "holystaff",
+        "crafting_category": "holystaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+          "name_artifact_en": "Adept's Possessed Scroll",
+          "name_artifact_ar": "المخطوطة المسكونة للبارع",
+          "name_artifact_de": "Besessene Schriftrolle des Adepten",
+          "name_artifact_fr": "Parchemin démoniaque de l'adepte",
+          "name_artifact_es": "Pergamino poseído del iniciado",
+          "name_artifact_ru": "Свиток одержимости (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_HOLYSTAFF_MORGANA",
+        "item_database_index": "7658"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Lifetouch Staff",
+        "name_ar": "عصا لمسة الحياة للبارع",
+        "name_de": "Lebensgefühl-Stab des Adepten",
+        "name_fr": "Bâton de toucher de vie de l'adepte",
+        "name_es": "Bastón de toque de vida del iniciado",
+        "name_ru": "Посох жизни (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_HOLYSTAFF_MORGANA",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "holystaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "725",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "holystaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "holystaff_morgana",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1",
+            "@craftingfocus": "1286",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "1286",
+            "@time": "1",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_HOLYSTAFF",
+          "removespell": {
+            "@uniquename": "HOLYDESPERATEPRAYER2"
+          },
+          "craftspell": {
+            "@uniquename": "HOLYTOUCH",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "825",
+              "@durability": "30375",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "925",
+              "@durability": "45563",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1025",
+              "@durability": "68344",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1125",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_HOLYSTAFF_MORGANA@1",
+      "index": "7659",
+      "name_en": "Adept's Lifetouch Staff",
+      "name_ar": "عصا لمسة الحياة للبارع",
+      "name_de": "Lebensgefühl-Stab des Adepten",
+      "name_fr": "Bâton de toucher de vie de l'adepte",
+      "name_es": "Bastón de toque de vida del iniciado",
+      "name_ru": "Посох жизни (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_HOLYSTAFF_MORGANA",
+        "description_variable": "@ITEMS_T4_MAIN_HOLYSTAFF_MORGANA_DESC"
+      },
+      "category": "Weapons_Holy",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_HOLYSTAFF_MORGANA",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "holystaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "725",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "holystaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "holystaff_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Lifetouch Staff",
+        "DE-DE": "Lebensgefühl-Stab des Adepten",
+        "FR-FR": "Bâton de toucher de vie de l'adepte",
+        "RU-RU": "Посох жизни (знаток)",
+        "PL-PL": "Kostur Dotyku Życia Adepta",
+        "ES-ES": "Bastón de toque de vida del iniciado",
+        "PT-BR": "Cajado Avivador do Adepto",
+        "IT-IT": "Bastone del tocco vitale del sapiente",
+        "ZH-CN": "老手级注魂法杖",
+        "KO-KR": "숙련자의 라이프터치 스태프",
+        "JA-JP": "触命の杖（名人）",
+        "ZH-TW": "老手級生命之觸法杖",
+        "ID-ID": "Tongkat Sentuhidup Mahir",
+        "TR-TR": "Ehil Hayat Dokunuşu Asası",
+        "AR-SA": "عصا لمسة الحياة للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 725,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HOLYTOUCH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HOLYTOUCH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 825,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 925,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1025,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1125,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 825,
+        "durability": 30375,
+        "crafting_silver": 0,
+        "crafting_time": 1.5,
+        "crafting_focus": 2251,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_CLOTH_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 825,
+      "effective_durability": 30375,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "holystaff",
+        "crafting_category": "holystaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+          "name_artifact_en": "Adept's Possessed Scroll",
+          "name_artifact_ar": "المخطوطة المسكونة للبارع",
+          "name_artifact_de": "Besessene Schriftrolle des Adepten",
+          "name_artifact_fr": "Parchemin démoniaque de l'adepte",
+          "name_artifact_es": "Pergamino poseído del iniciado",
+          "name_artifact_ru": "Свиток одержимости (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_HOLYSTAFF_MORGANA@1",
+        "item_database_index": "7659"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Lifetouch Staff",
+        "name_ar": "عصا لمسة الحياة للبارع",
+        "name_de": "Lebensgefühl-Stab des Adepten",
+        "name_fr": "Bâton de toucher de vie de l'adepte",
+        "name_es": "Bastón de toque de vida del iniciado",
+        "name_ru": "Посох жизни (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_HOLYSTAFF_MORGANA",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "holystaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "725",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "holystaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "holystaff_morgana",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1",
+            "@craftingfocus": "1286",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "1286",
+            "@time": "1",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_HOLYSTAFF",
+          "removespell": {
+            "@uniquename": "HOLYDESPERATEPRAYER2"
+          },
+          "craftspell": {
+            "@uniquename": "HOLYTOUCH",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "825",
+              "@durability": "30375",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "925",
+              "@durability": "45563",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1025",
+              "@durability": "68344",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1125",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_HOLYSTAFF_MORGANA@2",
+      "index": "7660",
+      "name_en": "Adept's Lifetouch Staff",
+      "name_ar": "عصا لمسة الحياة للبارع",
+      "name_de": "Lebensgefühl-Stab des Adepten",
+      "name_fr": "Bâton de toucher de vie de l'adepte",
+      "name_es": "Bastón de toque de vida del iniciado",
+      "name_ru": "Посох жизни (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_HOLYSTAFF_MORGANA",
+        "description_variable": "@ITEMS_T4_MAIN_HOLYSTAFF_MORGANA_DESC"
+      },
+      "category": "Weapons_Holy",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_HOLYSTAFF_MORGANA",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "holystaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "725",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "holystaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "holystaff_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Lifetouch Staff",
+        "DE-DE": "Lebensgefühl-Stab des Adepten",
+        "FR-FR": "Bâton de toucher de vie de l'adepte",
+        "RU-RU": "Посох жизни (знаток)",
+        "PL-PL": "Kostur Dotyku Życia Adepta",
+        "ES-ES": "Bastón de toque de vida del iniciado",
+        "PT-BR": "Cajado Avivador do Adepto",
+        "IT-IT": "Bastone del tocco vitale del sapiente",
+        "ZH-CN": "老手级注魂法杖",
+        "KO-KR": "숙련자의 라이프터치 스태프",
+        "JA-JP": "触命の杖（名人）",
+        "ZH-TW": "老手級生命之觸法杖",
+        "ID-ID": "Tongkat Sentuhidup Mahir",
+        "TR-TR": "Ehil Hayat Dokunuşu Asası",
+        "AR-SA": "عصا لمسة الحياة للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 725,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HOLYTOUCH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HOLYTOUCH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 825,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 925,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1025,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1125,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 925,
+        "durability": 45563,
+        "crafting_silver": 0,
+        "crafting_time": 2,
+        "crafting_focus": 3939,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_CLOTH_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 925,
+      "effective_durability": 45563,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "holystaff",
+        "crafting_category": "holystaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+          "name_artifact_en": "Adept's Possessed Scroll",
+          "name_artifact_ar": "المخطوطة المسكونة للبارع",
+          "name_artifact_de": "Besessene Schriftrolle des Adepten",
+          "name_artifact_fr": "Parchemin démoniaque de l'adepte",
+          "name_artifact_es": "Pergamino poseído del iniciado",
+          "name_artifact_ru": "Свиток одержимости (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_HOLYSTAFF_MORGANA@2",
+        "item_database_index": "7660"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Lifetouch Staff",
+        "name_ar": "عصا لمسة الحياة للبارع",
+        "name_de": "Lebensgefühl-Stab des Adepten",
+        "name_fr": "Bâton de toucher de vie de l'adepte",
+        "name_es": "Bastón de toque de vida del iniciado",
+        "name_ru": "Посох жизни (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_HOLYSTAFF_MORGANA",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "holystaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "725",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "holystaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "holystaff_morgana",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1",
+            "@craftingfocus": "1286",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "1286",
+            "@time": "1",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_HOLYSTAFF",
+          "removespell": {
+            "@uniquename": "HOLYDESPERATEPRAYER2"
+          },
+          "craftspell": {
+            "@uniquename": "HOLYTOUCH",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "825",
+              "@durability": "30375",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "925",
+              "@durability": "45563",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1025",
+              "@durability": "68344",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1125",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_HOLYSTAFF_MORGANA@3",
+      "index": "7661",
+      "name_en": "Adept's Lifetouch Staff",
+      "name_ar": "عصا لمسة الحياة للبارع",
+      "name_de": "Lebensgefühl-Stab des Adepten",
+      "name_fr": "Bâton de toucher de vie de l'adepte",
+      "name_es": "Bastón de toque de vida del iniciado",
+      "name_ru": "Посох жизни (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_HOLYSTAFF_MORGANA",
+        "description_variable": "@ITEMS_T4_MAIN_HOLYSTAFF_MORGANA_DESC"
+      },
+      "category": "Weapons_Holy",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_HOLYSTAFF_MORGANA",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "holystaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "725",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "holystaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "holystaff_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Lifetouch Staff",
+        "DE-DE": "Lebensgefühl-Stab des Adepten",
+        "FR-FR": "Bâton de toucher de vie de l'adepte",
+        "RU-RU": "Посох жизни (знаток)",
+        "PL-PL": "Kostur Dotyku Życia Adepta",
+        "ES-ES": "Bastón de toque de vida del iniciado",
+        "PT-BR": "Cajado Avivador do Adepto",
+        "IT-IT": "Bastone del tocco vitale del sapiente",
+        "ZH-CN": "老手级注魂法杖",
+        "KO-KR": "숙련자의 라이프터치 스태프",
+        "JA-JP": "触命の杖（名人）",
+        "ZH-TW": "老手級生命之觸法杖",
+        "ID-ID": "Tongkat Sentuhidup Mahir",
+        "TR-TR": "Ehil Hayat Dokunuşu Asası",
+        "AR-SA": "عصا لمسة الحياة للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 725,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HOLYTOUCH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HOLYTOUCH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 825,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 925,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1025,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1125,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1025,
+        "durability": 68344,
+        "crafting_silver": 0,
+        "crafting_time": 2.5,
+        "crafting_focus": 6893,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_CLOTH_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1025,
+      "effective_durability": 68344,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "holystaff",
+        "crafting_category": "holystaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+          "name_artifact_en": "Adept's Possessed Scroll",
+          "name_artifact_ar": "المخطوطة المسكونة للبارع",
+          "name_artifact_de": "Besessene Schriftrolle des Adepten",
+          "name_artifact_fr": "Parchemin démoniaque de l'adepte",
+          "name_artifact_es": "Pergamino poseído del iniciado",
+          "name_artifact_ru": "Свиток одержимости (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_HOLYSTAFF_MORGANA@3",
+        "item_database_index": "7661"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Lifetouch Staff",
+        "name_ar": "عصا لمسة الحياة للبارع",
+        "name_de": "Lebensgefühl-Stab des Adepten",
+        "name_fr": "Bâton de toucher de vie de l'adepte",
+        "name_es": "Bastón de toque de vida del iniciado",
+        "name_ru": "Посох жизни (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_HOLYSTAFF_MORGANA",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "holystaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "725",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "holystaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "holystaff_morgana",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1",
+            "@craftingfocus": "1286",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "1286",
+            "@time": "1",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_HOLYSTAFF",
+          "removespell": {
+            "@uniquename": "HOLYDESPERATEPRAYER2"
+          },
+          "craftspell": {
+            "@uniquename": "HOLYTOUCH",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "825",
+              "@durability": "30375",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "925",
+              "@durability": "45563",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1025",
+              "@durability": "68344",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1125",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_HOLYSTAFF_MORGANA@4",
+      "index": "7662",
+      "name_en": "Adept's Lifetouch Staff",
+      "name_ar": "عصا لمسة الحياة للبارع",
+      "name_de": "Lebensgefühl-Stab des Adepten",
+      "name_fr": "Bâton de toucher de vie de l'adepte",
+      "name_es": "Bastón de toque de vida del iniciado",
+      "name_ru": "Посох жизни (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_HOLYSTAFF_MORGANA",
+        "description_variable": "@ITEMS_T4_MAIN_HOLYSTAFF_MORGANA_DESC"
+      },
+      "category": "Weapons_Holy",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_HOLYSTAFF_MORGANA",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "holystaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "725",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "holystaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "holystaff_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Lifetouch Staff",
+        "DE-DE": "Lebensgefühl-Stab des Adepten",
+        "FR-FR": "Bâton de toucher de vie de l'adepte",
+        "RU-RU": "Посох жизни (знаток)",
+        "PL-PL": "Kostur Dotyku Życia Adepta",
+        "ES-ES": "Bastón de toque de vida del iniciado",
+        "PT-BR": "Cajado Avivador do Adepto",
+        "IT-IT": "Bastone del tocco vitale del sapiente",
+        "ZH-CN": "老手级注魂法杖",
+        "KO-KR": "숙련자의 라이프터치 스태프",
+        "JA-JP": "触命の杖（名人）",
+        "ZH-TW": "老手級生命之觸法杖",
+        "ID-ID": "Tongkat Sentuhidup Mahir",
+        "TR-TR": "Ehil Hayat Dokunuşu Asası",
+        "AR-SA": "عصا لمسة الحياة للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 725,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HOLYTOUCH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HOLYTOUCH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 825,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 925,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1025,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1125,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1125,
+        "durability": 102516,
+        "crafting_silver": 0,
+        "crafting_time": 3.75,
+        "crafting_focus": 12064,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_CLOTH_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1125,
+      "effective_durability": 102516,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "holystaff",
+        "crafting_category": "holystaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+          "name_artifact_en": "Adept's Possessed Scroll",
+          "name_artifact_ar": "المخطوطة المسكونة للبارع",
+          "name_artifact_de": "Besessene Schriftrolle des Adepten",
+          "name_artifact_fr": "Parchemin démoniaque de l'adepte",
+          "name_artifact_es": "Pergamino poseído del iniciado",
+          "name_artifact_ru": "Свиток одержимости (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_HOLYSTAFF_MORGANA@4",
+        "item_database_index": "7662"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Lifetouch Staff",
+        "name_ar": "عصا لمسة الحياة للبارع",
+        "name_de": "Lebensgefühl-Stab des Adepten",
+        "name_fr": "Bâton de toucher de vie de l'adepte",
+        "name_es": "Bastón de toque de vida del iniciado",
+        "name_ru": "Посох жизни (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_HOLYSTAFF_MORGANA",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "holystaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "725",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "holystaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_HOLYSTAFFS_MORGANA",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "holystaff_morgana",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1",
+            "@craftingfocus": "1286",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "1286",
+            "@time": "1",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_HOLYSTAFF",
+          "removespell": {
+            "@uniquename": "HOLYDESPERATEPRAYER2"
+          },
+          "craftspell": {
+            "@uniquename": "HOLYTOUCH",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "825",
+              "@durability": "30375",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "2251",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "925",
+              "@durability": "45563",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1025",
+              "@durability": "68344",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1125",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

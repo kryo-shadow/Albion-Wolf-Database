@@ -1,0 +1,197 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Farming_Products",
+  "base_id": "T6_ALCOHOL",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_ALCOHOL",
+      "index": "942",
+      "name_en": "Potato Schnapps",
+      "name_ar": "مشروبات البطاطس",
+      "name_de": "Kartoffelschnaps",
+      "name_fr": "Schnaps de patate",
+      "name_es": "Schnapps de patata",
+      "name_ru": "Картофельный самогон",
+      "descriptions": {
+        "description_en": "Potato Schnapps is brewed from Potatoes, and used in various alchemical decoctions.",
+        "description_ar": "تُحضر مشروبات البطاطس من البطاطس، وتُستخدم في العديد من المستحضرات الكيميائية.",
+        "description_de": "Kartoffelschnaps wird aus Kartoffeln gefertigt und wird in alchemistischen Tränken verwendet.",
+        "description_fr": "Distillé à partir de patates et utilisé pour des décoctions alchimiques",
+        "description_es": "El Schnapps de patata se elabora con patata y se usa en varias decocciones alquímicas",
+        "description_ru": "Делается из картофеля и используется в эликсирах."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_ALCOHOL",
+        "description_variable": "@ITEMS_T6_ALCOHOL_DESC"
+      },
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_ALCOHOL",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farmingproducts",
+        "craftingcategory": "food",
+        "tier": "6",
+        "weight": "0.65",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "nutrition": "52",
+        "shopsubcategory2": "alcohol"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Potato Schnapps",
+        "DE-DE": "Kartoffelschnaps",
+        "FR-FR": "Schnaps de patate",
+        "RU-RU": "Картофельный самогон",
+        "PL-PL": "Sznaps ziemniaczany",
+        "ES-ES": "Schnapps de patata",
+        "PT-BR": "Aguardente de Batata",
+        "IT-IT": "Distillato alle patate",
+        "ZH-CN": "土豆烈酒",
+        "KO-KR": "감자 슈냅스",
+        "JA-JP": "ポテトシュナップス",
+        "ZH-TW": "馬鈴薯烈酒",
+        "ID-ID": "Schnapps Kentang",
+        "TR-TR": "Patates Cini",
+        "AR-SA": "مشروبات البطاطس"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Potato Schnapps is brewed from Potatoes, and used in various alchemical decoctions.",
+        "DE-DE": "Kartoffelschnaps wird aus Kartoffeln gefertigt und wird in alchemistischen Tränken verwendet.",
+        "FR-FR": "Distillé à partir de patates et utilisé pour des décoctions alchimiques",
+        "RU-RU": "Делается из картофеля и используется в эликсирах.",
+        "PL-PL": "Sznaps ziemniaczany jest warzony z ziemniaków. Wykorzystuje się go w wielu alchemicznych wywarach",
+        "ES-ES": "El Schnapps de patata se elabora con patata y se usa en varias decocciones alquímicas",
+        "PT-BR": "A Aguardente de Batata é feita de Batatas e usada em várias decocções alquímicas",
+        "IT-IT": "Questo distillato di patate è un ingrediente di molti preparati alchemici.",
+        "ZH-CN": "土豆烈酒采用土豆酿造而成，可以用于配制多重炼金煎剂。",
+        "KO-KR": "감자 슈냅스는 감자를 양조해서 만들며, 다양한 연금술 탕약에 쓰입니다.",
+        "JA-JP": "ポテトシュナップスはじゃがいもから醸造され、様々な錬金の煎じ薬に使われています。",
+        "ZH-TW": "馬鈴薯烈酒是由馬鈴薯釀製而成，可作為多種鍊金藥劑的原料。",
+        "ID-ID": "Schnapps Kentang diseduh dari Kentang, dan digunakan dalam berbagai rebusan alkemi.",
+        "TR-TR": "Patates Cini, Patates kullanılarak hazırlanır ve çeşitli simyasal kaynatma işlemlerinde kullanılır.",
+        "AR-SA": "تُحضر مشروبات البطاطس من البطاطس، وتُستخدم في العديد من المستحضرات الكيميائية."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_POTATO",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T6_POTATO",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.02,
+        "crafting_focus": 38,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_POTATO",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_POTATO",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 0.65,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "farmingproducts",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_ALCOHOL",
+        "item_database_index": "942"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Potato Schnapps",
+        "name_ar": "مشروبات البطاطس",
+        "name_de": "Kartoffelschnaps",
+        "name_fr": "Schnaps de patate",
+        "name_es": "Schnapps de patata",
+        "name_ru": "Картофельный самогон"
+      },
+      "raw": {
+        "@uniquename": "T6_ALCOHOL",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "6",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@nutrition": "52",
+        "@shopsubcategory2": "alcohol",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T6_POTATO",
+            "@count": "1"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

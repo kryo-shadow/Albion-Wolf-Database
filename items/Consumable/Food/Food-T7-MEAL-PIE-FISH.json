@@ -1,0 +1,493 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T7_MEAL_PIE_FISH",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T7_MEAL_PIE_FISH",
+      "index": "784",
+      "name_en": "Frostpeak Deadeye Pie",
+      "name_ar": "فطيرة السمكة الميتة",
+      "name_de": "Froststarrer-Pastete",
+      "name_fr": "Tourte au sar boréal",
+      "name_es": "Pastel de ojo muerto dos picos",
+      "name_ru": "Пирог с морозным смертеглазом",
+      "descriptions": {
+        "description_en": "Meal that increases maximum load, gathering yield, and Crowd Control Resistance for a long period.",
+        "description_ar": "وجبة تزيد الحد الأقصى للحمولة وإنتاج الجمع ومقاومة التحكم في الحشود لفترة طويلة.",
+        "description_de": "Eine Mahlzeit, die deine maximale Traglast, Ressourcenertrag und Gruppenkontrollresistenz für eine lange Zeit erhöht.",
+        "description_fr": "Repas qui augmente la capacité de charge maximale, le rendement de récolte et la résistance aux contrôles de foule pendant une longue période.",
+        "description_es": "Comida que incrementa la carga máxima, la producción de recolección y la resistencia al control de multitudes por un largo periodo",
+        "description_ru": "Блюдо, повышающее максимальную грузоподъемность, добычу ресурсов и сопротивляемость контролю в течение длительного периода времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_MEAL_PIE_FISH",
+        "description_variable": "@ITEMS_MEAL_PIE_FISH_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_MEAL_PIE_FISH",
+        "descriptionlocatag": "@ITEMS_MEAL_PIE_FISH_DESC",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_FISH_LOAD_GATHER_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "7",
+        "dummyitempower": "1000",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "10.02",
+        "nutrition": "1002",
+        "shopsubcategory2": "pies"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Frostpeak Deadeye Pie",
+        "DE-DE": "Froststarrer-Pastete",
+        "FR-FR": "Tourte au sar boréal",
+        "RU-RU": "Пирог с морозным смертеглазом",
+        "PL-PL": "Pasztet z Martwooka Szczytowego",
+        "ES-ES": "Pastel de ojo muerto dos picos",
+        "PT-BR": "Torta de Olhomorto dos Picos",
+        "IT-IT": "Pasticcio di malocchio dei picchi",
+        "ZH-CN": "霜峰死眼鱼馅饼",
+        "KO-KR": "프로스트픽 명사수 파이",
+        "JA-JP": "フロストピークデッドアイパイ",
+        "ZH-TW": "霜峰銳眼魚派",
+        "ID-ID": "Pai Ikan Buta Puncak Es",
+        "TR-TR": "Buztepe Ölügözü Turtası",
+        "AR-SA": "فطيرة السمكة الميتة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Meal that increases maximum load, gathering yield, and Crowd Control Resistance for a long period.",
+        "DE-DE": "Eine Mahlzeit, die deine maximale Traglast, Ressourcenertrag und Gruppenkontrollresistenz für eine lange Zeit erhöht.",
+        "FR-FR": "Repas qui augmente la capacité de charge maximale, le rendement de récolte et la résistance aux contrôles de foule pendant une longue période.",
+        "RU-RU": "Блюдо, повышающее максимальную грузоподъемность, добычу ресурсов и сопротивляемость контролю в течение длительного периода времени.",
+        "PL-PL": "Posiłek, który zwiększa maksymalny udźwig, wydajność zbierania i odporność na kontrolę tłumu przez długi okres czasu.",
+        "ES-ES": "Comida que incrementa la carga máxima, la producción de recolección y la resistencia al control de multitudes por un largo periodo",
+        "PT-BR": "Comida que aumenta a capacidade de carga máxima, retorno de coleta e resistência a controle de grupo por um longo de período.",
+        "IT-IT": "Pietanza che aumenta capacità di carico massima, resa della raccolta e resistenza agli effetti di controllo della folla per un lungo periodo.",
+        "ZH-CN": "餐食，可以长时间提高最大负重、采集产出和群体控制抗性。",
+        "KO-KR": "최대 적재 및 채집량과 군중 제어 저항력을 오랫동안 증가시키는 식사입니다.",
+        "JA-JP": "最大荷物量、採集収量、クラウドコントロール耐性が長時間増加する料理。",
+        "ZH-TW": "一道料理，能長時間提升負重上限、採集收穫和控場抗性。",
+        "ID-ID": "Makanan yang meningkatkan muatan maksimum, hasil mengumpulkan, dan Resistansi Kontrol Kerumunan untuk waktu lama.",
+        "TR-TR": "Uzun bir süreliğine azami yükü, toplayıcılık verimini ve Kitle Kontrol Direnci değerini artıran bir yemek.",
+        "AR-SA": "وجبة تزيد الحد الأقصى للحمولة وإنتاج الجمع ومقاومة التحكم في الحشود لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_CORN",
+        "primary_count": 6,
+        "secondary_resource": "T7_MULLEIN",
+        "secondary_count": 6,
+        "resources": [
+          {
+            "id": "T7_CORN",
+            "count": 6
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 6
+          },
+          {
+            "id": "T7_MEAT",
+            "count": 6
+          },
+          {
+            "id": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.334,
+        "crafting_focus": 672,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_CORN",
+            "count": 6
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 6
+          },
+          {
+            "id": "T7_MEAT",
+            "count": 6
+          },
+          {
+            "id": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_CORN",
+        "primary_count": 6,
+        "secondary_resource": "T7_MULLEIN",
+        "secondary_count": 6
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 7,
+        "weight": 10.02,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.334,
+          "crafting_focus": 1272,
+          "crafting_resources": [
+            {
+              "id": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_CORN",
+              "count": 6,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 6,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_MEAT",
+              "count": 6,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 27,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 27
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.334,
+          "crafting_focus": 2473,
+          "crafting_resources": [
+            {
+              "id": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_CORN",
+              "count": 6,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 6,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_MEAT",
+              "count": 6,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 27,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 27
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.334,
+          "crafting_focus": 6076,
+          "crafting_resources": [
+            {
+              "id": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_CORN",
+              "count": 6,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 6,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_MEAT",
+              "count": 6,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 27,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 27
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_MEAL_PIE_FISH",
+        "item_database_index": "784"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Frostpeak Deadeye Pie",
+        "name_ar": "فطيرة السمكة الميتة",
+        "name_de": "Froststarrer-Pastete",
+        "name_fr": "Tourte au sar boréal",
+        "name_es": "Pastel de ojo muerto dos picos",
+        "name_ru": "Пирог с морозным смертеглазом"
+      },
+      "raw": {
+        "@uniquename": "T7_MEAL_PIE_FISH",
+        "@descriptionlocatag": "@ITEMS_MEAL_PIE_FISH_DESC",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_LOAD_GATHER_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "7",
+        "@dummyitempower": "1000",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "10.02",
+        "@nutrition": "1002",
+        "@shopsubcategory2": "pies",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@forcesinglecraft": "false",
+          "@amountcrafted": "1",
+          "@craftingfocus": "672",
+          "@time": "0.334",
+          "craftresource": [
+            {
+              "@uniquename": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T7_CORN",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T7_MULLEIN",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T7_MEAT",
+              "@count": "6"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "1100",
+              "@consumespell": "FOOD_FISH_LOAD_GATHER_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "1272",
+                "@time": "0.334",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T7_CORN",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T7_MEAT",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "27"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "27"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "1200",
+              "@consumespell": "FOOD_FISH_LOAD_GATHER_P7",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "2473",
+                "@time": "0.334",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T7_CORN",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T7_MEAT",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "27"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "27"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1300",
+              "@consumespell": "FOOD_FISH_LOAD_GATHER_P8",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "6076",
+                "@time": "0.334",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T7_CORN",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T7_MEAT",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "27"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "27"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

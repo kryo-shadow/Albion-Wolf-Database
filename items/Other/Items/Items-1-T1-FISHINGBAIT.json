@@ -1,0 +1,176 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Other",
+  "family": "Other_Items",
+  "base_id": "T1_FISHINGBAIT",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T1_FISHINGBAIT",
+      "index": "99080",
+      "name_en": "Simple Fish Bait",
+      "name_ar": "طُعم سمك بسيط",
+      "name_de": "Einfacher Angelköder",
+      "name_fr": "Appât à poisson simple",
+      "name_es": "Cebo simple",
+      "name_ru": "Простая наживка",
+      "descriptions": {
+        "description_en": "Consumable Item. Use to attract fish more quickly!",
+        "description_ar": "عنصر استهلاكي. يُستخدم لجذب السمك بسرعة أكبر!",
+        "description_de": "Verbrauchsgut. Nutze es, um Fische zu ködern!",
+        "description_fr": "Consommable. Utilisé pour attirer le poisson plus rapidement !",
+        "description_es": "Objeto consumible. ¡Úsalo para atraer a los peces con más rapidez!",
+        "description_ru": "Расходный предмет. Используется для более быстрого привлечения рыбы.",
+        "description_tr": "Tüketilebilir eşya. Balıkların oltaya daha çabuk takılması için kullanılabilir."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FISHINGBAIT",
+        "description_variable": "@ITEMS_FISHINGBAIT_DESC"
+      },
+      "category": "Other_Items",
+      "slot": "Other",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T1_FISHINGBAIT",
+        "descriptionlocatag": "@ITEMS_FISHINGBAIT_DESC",
+        "tier": "1",
+        "abilitypower": "0",
+        "consumespell": "FISHINGBAIT_LEVEL1_USE",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "unlockedtocraft": "false",
+        "allowfullstackusage": "false",
+        "shopsubcategory2": "bait"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Simple Fish Bait",
+        "DE-DE": "Einfacher Angelköder",
+        "FR-FR": "Appât à poisson simple",
+        "RU-RU": "Простая наживка",
+        "PL-PL": "Prosta Przynęta",
+        "ES-ES": "Cebo simple",
+        "PT-BR": "Isca de Peixe Simples",
+        "IT-IT": "Esca da pesca semplice",
+        "ZH-CN": "普通鱼饵",
+        "KO-KR": "기본 낚시 미끼",
+        "JA-JP": "単純な釣り餌",
+        "ZH-TW": "簡易釣餌",
+        "ID-ID": "Umpan Ikan Simpel",
+        "TR-TR": "Basit Balık Yemi",
+        "AR-SA": "طُعم سمك بسيط"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consumable Item. Use to attract fish more quickly!",
+        "DE-DE": "Verbrauchsgut. Nutze es, um Fische zu ködern!",
+        "FR-FR": "Consommable. Utilisé pour attirer le poisson plus rapidement !",
+        "RU-RU": "Расходный предмет. Используется для более быстрого привлечения рыбы.",
+        "PL-PL": "Przedmiot to zużycia. Użyj go, aby zwabić ryby szybciej!",
+        "ES-ES": "Objeto consumible. ¡Úsalo para atraer a los peces con más rapidez!",
+        "PT-BR": "Item consumível. Usado para atrair peixes mais rapidamente!",
+        "IT-IT": "Oggetto consumabile. Usalo per attirare i pesci più velocemente!",
+        "ZH-CN": "消耗品。可以用于快速吸引鱼上钩！",
+        "KO-KR": "소비 아이템입니다. 물고기를 더욱 빨리 유인하는 데 사용합니다!",
+        "JA-JP": "消耗アイテム。魚を素早く集めるのに使いましょう！",
+        "ZH-TW": "消耗品。用於吸引魚類更快上鉤！",
+        "ID-ID": "Item Habis Pakai. Gunakan untuk memancing ikan lebih cepat!",
+        "TR-TR": "Tüketilebilir eşya. Balıkların oltaya daha çabuk takılması için kullanılabilir.",
+        "AR-SA": "عنصر استهلاكي. يُستخدم لجذب السمك بسرعة أكبر!"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_WORM",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T1_WORM",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.02,
+        "crafting_focus": null,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T1_WORM",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T1_WORM",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "ability_power": 0
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FISHINGBAIT",
+        "item_database_index": "99080"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized": {
+        "en": "Simple Fish Bait",
+        "ar": "طُعم سمك بسيط",
+        "de": "Einfacher Angelköder",
+        "fr": "Appât à poisson simple",
+        "es": "Cebo simple",
+        "ru": "Простая наживка",
+        "tr": "Basit Balık Yemi"
+      },
+      "raw": {
+        "@uniquename": "T1_FISHINGBAIT",
+        "@descriptionlocatag": "@ITEMS_FISHINGBAIT_DESC",
+        "@tier": "1",
+        "@abilitypower": "0",
+        "@consumespell": "FISHINGBAIT_LEVEL1_USE",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@unlockedtocraft": "false",
+        "@allowfullstackusage": "false",
+        "@shopsubcategory2": "bait",
+        "craftingrequirements": {
+          "@amountcrafted": "1",
+          "@time": "0.02",
+          "craftresource": {
+            "@uniquename": "T1_WORM",
+            "@count": "1"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

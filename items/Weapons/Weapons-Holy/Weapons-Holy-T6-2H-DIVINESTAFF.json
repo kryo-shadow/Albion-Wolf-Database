@@ -1,0 +1,2624 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Holy",
+  "base_id": "T6_2H_DIVINESTAFF",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T6_2H_DIVINESTAFF",
+      "index": "7643",
+      "name_en": "Master's Divine Staff",
+      "name_ar": "العصا القدسية للخبير",
+      "name_de": "Gottesstab des Meisters",
+      "name_fr": "Bâton divin du maître",
+      "name_es": "Bastón divino del maestro",
+      "name_ru": "Божественный посох (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_DIVINESTAFF",
+        "description_variable": "@ITEMS_T6_2H_DIVINESTAFF_DESC"
+      },
+      "category": "Weapons_Holy",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_DIVINESTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "holystaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "28588",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "holystaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "combatspecachievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "holystaff_divinestaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Divine Staff",
+        "DE-DE": "Gottesstab des Meisters",
+        "FR-FR": "Bâton divin du maître",
+        "RU-RU": "Божественный посох (мастер)",
+        "PL-PL": "Niebiański Kostur Mistrza",
+        "ES-ES": "Bastón divino del maestro",
+        "PT-BR": "Cajado Divino do Mestre",
+        "IT-IT": "Bastone divino del maestro",
+        "ZH-CN": "大师级崇高法杖",
+        "KO-KR": "마스터의 디바인 스태프",
+        "JA-JP": "神の杖（マスター）",
+        "ZH-TW": "大師級神性法杖",
+        "ID-ID": "Tongkat Ilahi Master",
+        "TR-TR": "Usta İlahi Asası",
+        "AR-SA": "العصا القدسية للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 28588,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HOLYSHIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HOLYSHIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_DIVINESTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 42882,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 900,
+      "effective_durability": 28588,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "holystaff",
+        "crafting_category": "holystaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_DIVINESTAFF",
+        "item_database_index": "7643"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Divine Staff",
+        "name_ar": "العصا القدسية للخبير",
+        "name_de": "Gottesstab des Meisters",
+        "name_fr": "Bâton divin du maître",
+        "name_es": "Bastón divino del maestro",
+        "name_ru": "Божественный посох (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_DIVINESTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "holystaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "28588",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "holystaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@combatspecachievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "holystaff_divinestaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.667",
+          "@craftingfocus": "5252",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T6_CLOTH",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_DIVINESTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "42882",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_DIVINESTAFF@1",
+      "index": "7644",
+      "name_en": "Master's Divine Staff",
+      "name_ar": "العصا القدسية للخبير",
+      "name_de": "Gottesstab des Meisters",
+      "name_fr": "Bâton divin du maître",
+      "name_es": "Bastón divino del maestro",
+      "name_ru": "Божественный посох (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_DIVINESTAFF",
+        "description_variable": "@ITEMS_T6_2H_DIVINESTAFF_DESC"
+      },
+      "category": "Weapons_Holy",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_DIVINESTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "holystaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "28588",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "holystaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "combatspecachievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "holystaff_divinestaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Divine Staff",
+        "DE-DE": "Gottesstab des Meisters",
+        "FR-FR": "Bâton divin du maître",
+        "RU-RU": "Божественный посох (мастер)",
+        "PL-PL": "Niebiański Kostur Mistrza",
+        "ES-ES": "Bastón divino del maestro",
+        "PT-BR": "Cajado Divino do Mestre",
+        "IT-IT": "Bastone divino del maestro",
+        "ZH-CN": "大师级崇高法杖",
+        "KO-KR": "마스터의 디바인 스태프",
+        "JA-JP": "神の杖（マスター）",
+        "ZH-TW": "大師級神性法杖",
+        "ID-ID": "Tongkat Ilahi Master",
+        "TR-TR": "Usta İlahi Asası",
+        "AR-SA": "العصا القدسية للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 28588,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HOLYSHIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HOLYSHIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_DIVINESTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 42882,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1000,
+        "durability": 42882,
+        "crafting_silver": 0,
+        "crafting_time": 3.333,
+        "crafting_focus": 9191,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T6_CLOTH_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 42882,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "holystaff",
+        "crafting_category": "holystaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_DIVINESTAFF@1",
+        "item_database_index": "7644"
+      },
+      "tier": 6,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Master's Divine Staff",
+        "name_ar": "العصا القدسية للخبير",
+        "name_de": "Gottesstab des Meisters",
+        "name_fr": "Bâton divin du maître",
+        "name_es": "Bastón divino del maestro",
+        "name_ru": "Божественный посох (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_DIVINESTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "holystaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "28588",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "holystaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@combatspecachievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "holystaff_divinestaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.667",
+          "@craftingfocus": "5252",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T6_CLOTH",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_DIVINESTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "42882",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_DIVINESTAFF@2",
+      "index": "7645",
+      "name_en": "Master's Divine Staff",
+      "name_ar": "العصا القدسية للخبير",
+      "name_de": "Gottesstab des Meisters",
+      "name_fr": "Bâton divin du maître",
+      "name_es": "Bastón divino del maestro",
+      "name_ru": "Божественный посох (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_DIVINESTAFF",
+        "description_variable": "@ITEMS_T6_2H_DIVINESTAFF_DESC"
+      },
+      "category": "Weapons_Holy",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_DIVINESTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "holystaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "28588",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "holystaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "combatspecachievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "holystaff_divinestaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Divine Staff",
+        "DE-DE": "Gottesstab des Meisters",
+        "FR-FR": "Bâton divin du maître",
+        "RU-RU": "Божественный посох (мастер)",
+        "PL-PL": "Niebiański Kostur Mistrza",
+        "ES-ES": "Bastón divino del maestro",
+        "PT-BR": "Cajado Divino do Mestre",
+        "IT-IT": "Bastone divino del maestro",
+        "ZH-CN": "大师级崇高法杖",
+        "KO-KR": "마스터의 디바인 스태프",
+        "JA-JP": "神の杖（マスター）",
+        "ZH-TW": "大師級神性法杖",
+        "ID-ID": "Tongkat Ilahi Master",
+        "TR-TR": "Usta İlahi Asası",
+        "AR-SA": "العصا القدسية للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 28588,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HOLYSHIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HOLYSHIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_DIVINESTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 42882,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1100,
+        "durability": 64323,
+        "crafting_silver": 0,
+        "crafting_time": 5,
+        "crafting_focus": 16085,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T6_CLOTH_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 64323,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "holystaff",
+        "crafting_category": "holystaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_DIVINESTAFF@2",
+        "item_database_index": "7645"
+      },
+      "tier": 6,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Master's Divine Staff",
+        "name_ar": "العصا القدسية للخبير",
+        "name_de": "Gottesstab des Meisters",
+        "name_fr": "Bâton divin du maître",
+        "name_es": "Bastón divino del maestro",
+        "name_ru": "Божественный посох (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_DIVINESTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "holystaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "28588",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "holystaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@combatspecachievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "holystaff_divinestaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.667",
+          "@craftingfocus": "5252",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T6_CLOTH",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_DIVINESTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "42882",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_DIVINESTAFF@3",
+      "index": "7646",
+      "name_en": "Master's Divine Staff",
+      "name_ar": "العصا القدسية للخبير",
+      "name_de": "Gottesstab des Meisters",
+      "name_fr": "Bâton divin du maître",
+      "name_es": "Bastón divino del maestro",
+      "name_ru": "Божественный посох (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_DIVINESTAFF",
+        "description_variable": "@ITEMS_T6_2H_DIVINESTAFF_DESC"
+      },
+      "category": "Weapons_Holy",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_DIVINESTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "holystaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "28588",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "holystaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "combatspecachievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "holystaff_divinestaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Divine Staff",
+        "DE-DE": "Gottesstab des Meisters",
+        "FR-FR": "Bâton divin du maître",
+        "RU-RU": "Божественный посох (мастер)",
+        "PL-PL": "Niebiański Kostur Mistrza",
+        "ES-ES": "Bastón divino del maestro",
+        "PT-BR": "Cajado Divino do Mestre",
+        "IT-IT": "Bastone divino del maestro",
+        "ZH-CN": "大师级崇高法杖",
+        "KO-KR": "마스터의 디바인 스태프",
+        "JA-JP": "神の杖（マスター）",
+        "ZH-TW": "大師級神性法杖",
+        "ID-ID": "Tongkat Ilahi Master",
+        "TR-TR": "Usta İlahi Asası",
+        "AR-SA": "العصا القدسية للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 28588,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HOLYSHIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HOLYSHIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_DIVINESTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 42882,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1200,
+        "durability": 96485,
+        "crafting_silver": 0,
+        "crafting_time": 6,
+        "crafting_focus": 28148,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T6_CLOTH_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 96485,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "holystaff",
+        "crafting_category": "holystaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_DIVINESTAFF@3",
+        "item_database_index": "7646"
+      },
+      "tier": 6,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Master's Divine Staff",
+        "name_ar": "العصا القدسية للخبير",
+        "name_de": "Gottesstab des Meisters",
+        "name_fr": "Bâton divin du maître",
+        "name_es": "Bastón divino del maestro",
+        "name_ru": "Божественный посох (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_DIVINESTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "holystaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "28588",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "holystaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@combatspecachievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "holystaff_divinestaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.667",
+          "@craftingfocus": "5252",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T6_CLOTH",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_DIVINESTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "42882",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_DIVINESTAFF@4",
+      "index": "7647",
+      "name_en": "Master's Divine Staff",
+      "name_ar": "العصا القدسية للخبير",
+      "name_de": "Gottesstab des Meisters",
+      "name_fr": "Bâton divin du maître",
+      "name_es": "Bastón divino del maestro",
+      "name_ru": "Божественный посох (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_DIVINESTAFF",
+        "description_variable": "@ITEMS_T6_2H_DIVINESTAFF_DESC"
+      },
+      "category": "Weapons_Holy",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_DIVINESTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "holystaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "28588",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "holystaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "combatspecachievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "holystaff_divinestaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Divine Staff",
+        "DE-DE": "Gottesstab des Meisters",
+        "FR-FR": "Bâton divin du maître",
+        "RU-RU": "Божественный посох (мастер)",
+        "PL-PL": "Niebiański Kostur Mistrza",
+        "ES-ES": "Bastón divino del maestro",
+        "PT-BR": "Cajado Divino do Mestre",
+        "IT-IT": "Bastone divino del maestro",
+        "ZH-CN": "大师级崇高法杖",
+        "KO-KR": "마스터의 디바인 스태프",
+        "JA-JP": "神の杖（マスター）",
+        "ZH-TW": "大師級神性法杖",
+        "ID-ID": "Tongkat Ilahi Master",
+        "TR-TR": "Usta İlahi Asası",
+        "AR-SA": "العصا القدسية للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 28588,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HOLYSHIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HOLYSHIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_DIVINESTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 42882,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1300,
+        "durability": 144727,
+        "crafting_silver": 0,
+        "crafting_time": 7.2,
+        "crafting_focus": 49260,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T6_CLOTH_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 144727,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "holystaff",
+        "crafting_category": "holystaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_DIVINESTAFF@4",
+        "item_database_index": "7647"
+      },
+      "tier": 6,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Master's Divine Staff",
+        "name_ar": "العصا القدسية للخبير",
+        "name_de": "Gottesstab des Meisters",
+        "name_fr": "Bâton divin du maître",
+        "name_es": "Bastón divino del maestro",
+        "name_ru": "Божественный посох (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_DIVINESTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "holystaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "28588",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "holystaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@combatspecachievement": "COMBAT_HOLYSTAFFS_DIVINE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "holystaff_divinestaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.667",
+          "@craftingfocus": "5252",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T6_CLOTH",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_DIVINESTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "42882",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T6_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

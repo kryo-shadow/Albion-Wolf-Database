@@ -1,0 +1,454 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T3_MEAL_OMELETTE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_MEAL_OMELETTE",
+      "index": "788",
+      "name_en": "Chicken Omelette",
+      "name_ar": "عجة الدجاج",
+      "name_de": "Hühneromelett",
+      "name_fr": "Omelette au poulet",
+      "name_es": "Tortilla de pollo",
+      "name_ru": "Омлет с курицей",
+      "descriptions": {
+        "description_en": "Solid meal that reduces cooldown periods and casting times for a long period.",
+        "description_ar": "وجبة غنية تقلل فترات الانتظار وأوقات الإلقاء لفترة طويلة.",
+        "description_de": "Ein deftiges Mahl, das die Abklingzeit und Zauberzeit für lange Zeit reduziert.",
+        "description_fr": "Bon repas qui réduit les temps de recharge et durées d'incantation pendant un long moment",
+        "description_es": "Comida que reduce el tiempo de espera y de lanzamiento durante mucho tiempo",
+        "description_ru": "Сытная еда, надолго ускоряет восстановление и чтение заклинаний."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_MEAL_OMELETTE",
+        "description_variable": "@ITEMS_MEAL_OMELETTE_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_MEAL_OMELETTE",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_BUFF_CASTSPEED_CDR_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "3",
+        "dummyitempower": "600",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.16",
+        "nutrition": "77",
+        "descriptionlocatag": "@ITEMS_MEAL_OMELETTE_DESC",
+        "shopsubcategory2": "omelettes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Chicken Omelette",
+        "DE-DE": "Hühneromelett",
+        "FR-FR": "Omelette au poulet",
+        "RU-RU": "Омлет с курицей",
+        "PL-PL": "Omlet Kurzy",
+        "ES-ES": "Tortilla de pollo",
+        "PT-BR": "Omelete de Galinha",
+        "IT-IT": "Frittata con pollo",
+        "ZH-CN": "鸡肉鸡蛋饼",
+        "KO-KR": "치킨 오믈렛",
+        "JA-JP": "チキンオムレツ",
+        "ZH-TW": "雞肉歐姆蛋",
+        "ID-ID": "Dadar Ayam",
+        "TR-TR": "Tavuklu Omlet",
+        "AR-SA": "عجة الدجاج"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Solid meal that reduces cooldown periods and casting times for a long period.",
+        "DE-DE": "Ein deftiges Mahl, das die Abklingzeit und Zauberzeit für lange Zeit reduziert.",
+        "FR-FR": "Bon repas qui réduit les temps de recharge et durées d'incantation pendant un long moment",
+        "RU-RU": "Сытная еда, надолго ускоряет восстановление и чтение заклинаний.",
+        "PL-PL": "Solidny posiłek, który na długo zmniejsza czasy odnowienia i czarowania",
+        "ES-ES": "Comida que reduce el tiempo de espera y de lanzamiento durante mucho tiempo",
+        "PT-BR": "Refeição sólida que reduz os tempos de recarga e lançamento por um longo período",
+        "IT-IT": "Una pietanza sostanziosa che riduce i tempi di ricarica e di lancio per un lungo periodo.",
+        "ZH-CN": "分量很足，可以长时间加快冷却速度和施放速度。",
+        "KO-KR": "쿨다운 시간과 발동 시간을 장기간에 걸쳐 감소시키는 든든한 식사입니다.",
+        "JA-JP": "長時間にわたりクールダウン時間、詠唱時間が減少する食べ応えのある料理。",
+        "ZH-TW": "一道紮實的料理，能長時間縮短冷卻時間和施法時間。",
+        "ID-ID": "Makanan keras yang mengurangi waktu cooldown dan waktu rapal untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine bekleme ve gerçekleştirme sürelerini düşüren doyurucu bir yemek.",
+        "AR-SA": "وجبة غنية تقلل فترات الانتظار وأوقات الإلقاء لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_MEAT",
+        "primary_count": 8,
+        "secondary_resource": "T3_WHEAT",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T3_MEAT",
+            "count": 8
+          },
+          {
+            "id": "T3_WHEAT",
+            "count": 4
+          },
+          {
+            "id": "T3_EGG",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.257,
+        "crafting_focus": 52,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_MEAT",
+            "count": 8
+          },
+          {
+            "id": "T3_WHEAT",
+            "count": 4
+          },
+          {
+            "id": "T3_EGG",
+            "count": 2
+          }
+        ],
+        "primary_resource": "T3_MEAT",
+        "primary_count": 8,
+        "secondary_resource": "T3_WHEAT",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 1.16,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 74,
+          "crafting_resources": [
+            {
+              "id": "T3_WHEAT",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_MEAT",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_EGG",
+              "count": 2,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 10,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 118,
+          "crafting_resources": [
+            {
+              "id": "T3_WHEAT",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_MEAT",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_EGG",
+              "count": 2,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 10,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 252,
+          "crafting_resources": [
+            {
+              "id": "T3_WHEAT",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_MEAT",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_EGG",
+              "count": 2,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 10,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_MEAL_OMELETTE",
+        "item_database_index": "788"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Chicken Omelette",
+        "name_ar": "عجة الدجاج",
+        "name_de": "Hühneromelett",
+        "name_fr": "Omelette au poulet",
+        "name_es": "Tortilla de pollo",
+        "name_ru": "Омлет с курицей"
+      },
+      "raw": {
+        "@uniquename": "T3_MEAL_OMELETTE",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "3",
+        "@dummyitempower": "600",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.16",
+        "@nutrition": "77",
+        "@descriptionlocatag": "@ITEMS_MEAL_OMELETTE_DESC",
+        "@shopsubcategory2": "omelettes",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "52",
+          "@time": "0.257",
+          "craftresource": [
+            {
+              "@uniquename": "T3_WHEAT",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T3_MEAT",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T3_EGG",
+              "@count": "2"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "700",
+              "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_P2",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "74",
+                "@time": "0.257",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_WHEAT",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T3_MEAT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "800",
+              "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_P3",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "118",
+                "@time": "0.257",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_WHEAT",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T3_MEAT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "900",
+              "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "252",
+                "@time": "0.257",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_WHEAT",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T3_MEAT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

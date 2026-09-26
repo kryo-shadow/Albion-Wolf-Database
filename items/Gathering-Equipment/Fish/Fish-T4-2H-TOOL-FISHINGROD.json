@@ -1,0 +1,254 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Fish",
+  "base_id": "T4_2H_TOOL_FISHINGROD",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_2H_TOOL_FISHINGROD",
+      "index": "3016",
+      "name_en": "Adept's Fishing Rod",
+      "name_ar": "صنارة صيد البارع",
+      "name_de": "Angel des Adepten",
+      "name_fr": "Canne à pêche de l'adepte",
+      "name_es": "Caña de pescar del iniciado",
+      "name_ru": "Удочка (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_TOOL_FISHINGROD",
+        "description_variable": "@ITEMS_T4_2H_TOOL_FISHINGROD_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_TOOL_FISHINGROD",
+        "fishing": "true",
+        "fishingspeed": "0.05",
+        "mesh": "T4_FISHINGROD",
+        "uisprite": "FISHING_ROD",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "attacktype": "melee",
+        "attackdamage": "31",
+        "attackspeed": "0.5",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "4",
+        "weight": "1.69",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "700",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_fishingrod",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "700",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "fishingrods"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Fishing Rod",
+        "DE-DE": "Angel des Adepten",
+        "FR-FR": "Canne à pêche de l'adepte",
+        "RU-RU": "Удочка (знаток)",
+        "PL-PL": "Wędka Adepta",
+        "ES-ES": "Caña de pescar del iniciado",
+        "PT-BR": "Vara de Pescar do Adepto",
+        "IT-IT": "Canna da pesca del sapiente",
+        "ZH-CN": "老手级鱼竿",
+        "KO-KR": "숙련자의 낚싯대",
+        "JA-JP": "釣り竿（名人）",
+        "ZH-TW": "老手級釣竿",
+        "ID-ID": "Joran Mahir",
+        "TR-TR": "Ehil Oltası",
+        "AR-SA": "صنارة صيد البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.33333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 2
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": 31,
+        "attack_speed": 0.5,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_fishingrod",
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 700,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.69,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 700,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "FISHING_ROD"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_TOOL_FISHINGROD",
+        "item_database_index": "3016"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Fishing Rod",
+        "name_ar": "صنارة صيد البارع",
+        "name_de": "Angel des Adepten",
+        "name_fr": "Canne à pêche de l'adepte",
+        "name_es": "Caña de pescar del iniciado",
+        "name_ru": "Удочка (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_TOOL_FISHINGROD",
+        "@fishing": "true",
+        "@fishingspeed": "0.05",
+        "@mesh": "T4_FISHINGROD",
+        "@uisprite": "FISHING_ROD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@attacktype": "melee",
+        "@attackdamage": "31",
+        "@attackspeed": "0.5",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "4",
+        "@weight": "1.69",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "700",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_fishingrod",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "700",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "fishingrods",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.33333",
+          "@craftingfocus": "429",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "2"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Fish",
+  "base_id": "T6_2H_TOOL_FISHINGROD_AVALON",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_2H_TOOL_FISHINGROD_AVALON",
+      "index": "3023",
+      "name_en": "Master's Avalonian Fishing Rod",
+      "name_ar": "صنارة صيد أفالونية للخبير",
+      "name_de": "Avalonische Angel des Meisters",
+      "name_fr": "Canne à pêche avalonienne du maître",
+      "name_es": "Caña de pescar avaloniana del maestro",
+      "name_ru": "Авалонская удочка мастера",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_TOOL_FISHINGROD_AVALON",
+        "description_variable": "@ITEMS_GENERAL_EQUIPMENT_ITEM_DESC"
+      },
+      "category": "Gathering_Fish",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_TOOL_FISHINGROD_AVALON",
+        "fishing": "true",
+        "fishingspeed": "0.05",
+        "mesh": "T6_FISHINGROD",
+        "uisprite": "FISHING_ROD_AVALON",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fish",
+        "attacktype": "melee",
+        "attackdamage": "40",
+        "attackspeed": "0.5",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "3.8",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "3100",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_fishingrod",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "900",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_GENERAL_EQUIPMENT_ITEM_DESC",
+        "shopsubcategory2": "fishingrods"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Avalonian Fishing Rod",
+        "DE-DE": "Avalonische Angel des Meisters",
+        "FR-FR": "Canne à pêche avalonienne du maître",
+        "RU-RU": "Авалонская удочка мастера",
+        "PL-PL": "Awalońska Wędka Mistrza",
+        "ES-ES": "Caña de pescar avaloniana del maestro",
+        "PT-BR": "Vara de Pescar Avaloniano do Mestre",
+        "IT-IT": "Canna da pesca di Avalon del maestro",
+        "ZH-CN": "大师级阿瓦隆鱼竿",
+        "KO-KR": "마스터의 아발로니안 낚싯대",
+        "JA-JP": "アバロニア人の釣り竿（マスター）",
+        "ZH-TW": "大師級阿瓦隆釣竿",
+        "ID-ID": "Joran Avalonian Master",
+        "TR-TR": "Usta Avalon Oltası",
+        "AR-SA": "صنارة صيد أفالونية للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 160,
+        "secondary_resource": "T6_PLANKS",
+        "secondary_count": 6,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 160
+          },
+          {
+            "id": "T6_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.66667,
+        "crafting_focus": 1313,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 160
+          },
+          {
+            "id": "T6_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 2
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 160,
+        "secondary_resource": "T6_PLANKS",
+        "secondary_count": 6
+      },
+      "combat_stats": {
+        "attack_damage": 40,
+        "attack_speed": 0.5,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_fishingrod",
+        "item_power": 900,
+        "ability_power": 100,
+        "durability": 3100,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 3.8,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_AVALON_YIELD_FISH_T6",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_AVALON_YIELD_FISH_T6",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 900,
+      "effective_durability": 3100,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fish",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "FISHING_ROD_AVALON"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_TOOL_FISHINGROD_AVALON",
+        "item_database_index": "3023"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Avalonian Fishing Rod",
+        "name_ar": "صنارة صيد أفالونية للخبير",
+        "name_de": "Avalonische Angel des Meisters",
+        "name_fr": "Canne à pêche avalonienne du maître",
+        "name_es": "Caña de pescar avaloniana del maestro",
+        "name_ru": "Авалонская удочка (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_TOOL_FISHINGROD_AVALON",
+        "@fishing": "true",
+        "@fishingspeed": "0.05",
+        "@mesh": "T6_FISHINGROD",
+        "@uisprite": "FISHING_ROD_AVALON",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fish",
+        "@attacktype": "melee",
+        "@attackdamage": "40",
+        "@attackspeed": "0.5",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "3.8",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "3100",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_fishingrod",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "900",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@descriptionlocatag": "@ITEMS_GENERAL_EQUIPMENT_ITEM_DESC",
+        "@shopsubcategory2": "fishingrods",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.66667",
+          "@craftingfocus": "1313",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T6_CLOTH",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "QUESTITEM_TOKEN_AVALON",
+              "@count": "160",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_AVALON_YIELD_FISH_T6"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

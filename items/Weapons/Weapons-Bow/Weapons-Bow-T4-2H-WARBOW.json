@@ -1,0 +1,2349 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Bow",
+  "base_id": "T4_2H_WARBOW",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_2H_WARBOW",
+      "index": "6401",
+      "name_en": "Adept's Warbow",
+      "name_ar": "قوس حربي للبارع",
+      "name_de": "Kriegsbogen des Adepten",
+      "name_fr": "Arc de guerre de l'adepte",
+      "name_es": "Arco de guerra del iniciado",
+      "name_ru": "Боевой лук (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_WARBOW",
+        "description_variable": "@ITEMS_T4_2H_WARBOW_DESC"
+      },
+      "category": "Weapons_Bow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_WARBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "bow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "bow",
+        "attackdamage": "23",
+        "attackspeed": "1.3",
+        "twohanded": "true",
+        "attackrange": "13",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "bow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_BOWS_WAR",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "bow_warbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Warbow",
+        "DE-DE": "Kriegsbogen des Adepten",
+        "FR-FR": "Arc de guerre de l'adepte",
+        "RU-RU": "Боевой лук (знаток)",
+        "PL-PL": "Łuk Wojenny Adepta",
+        "ES-ES": "Arco de guerra del iniciado",
+        "PT-BR": "Arco de Guerra do Adepto",
+        "IT-IT": "Arco da guerra del sapiente",
+        "ZH-CN": "老手级战弓",
+        "KO-KR": "숙련자의 워보우",
+        "JA-JP": "ウォーボウ（名人）",
+        "ZH-TW": "老手級戰弓",
+        "ID-ID": "Busur Perang Mahir",
+        "TR-TR": "Ehil Savaş Yayı",
+        "AR-SA": "قوس حربي للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 32,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 32
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 32
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 32,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": 23,
+        "attack_speed": 1.3,
+        "attack_range": 13,
+        "attack_type": "ranged",
+        "mainhand_animation": "bow",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOWS_WAR",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SKILLSHOT_STUN",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SKILLSHOT_STUN",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 32,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 32,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 32,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 32,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 12706,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "bow",
+        "crafting_category": "bow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_WARBOW",
+        "item_database_index": "6401"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Warbow",
+        "name_ar": "قوس حربي للبارع",
+        "name_de": "Kriegsbogen des Adepten",
+        "name_fr": "Arc de guerre de l'adepte",
+        "name_es": "Arco de guerra del iniciado",
+        "name_ru": "Боевой лук (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_WARBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "bow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "bow",
+        "@attackdamage": "23",
+        "@attackspeed": "1.3",
+        "@twohanded": "true",
+        "@attackrange": "13",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "bow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_BOWS_WAR",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "bow_warbow",
+        "attackvariations": {
+          "@attackchaintime": "1.5",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": {
+            "@uniquename": "T4_PLANKS",
+            "@count": "32"
+          }
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_BOW",
+          "removespell": {
+            "@uniquename": "SPEEDARCHER_KITE"
+          },
+          "craftspell": {
+            "@uniquename": "SKILLSHOT_STUN",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "32"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_WARBOW@1",
+      "index": "6402",
+      "name_en": "Adept's Warbow",
+      "name_ar": "قوس حربي للبارع",
+      "name_de": "Kriegsbogen des Adepten",
+      "name_fr": "Arc de guerre de l'adepte",
+      "name_es": "Arco de guerra del iniciado",
+      "name_ru": "Боевой лук (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_WARBOW",
+        "description_variable": "@ITEMS_T4_2H_WARBOW_DESC"
+      },
+      "category": "Weapons_Bow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_WARBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "bow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "bow",
+        "attackdamage": "23",
+        "attackspeed": "1.3",
+        "twohanded": "true",
+        "attackrange": "13",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "bow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_BOWS_WAR",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "bow_warbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Warbow",
+        "DE-DE": "Kriegsbogen des Adepten",
+        "FR-FR": "Arc de guerre de l'adepte",
+        "RU-RU": "Боевой лук (знаток)",
+        "PL-PL": "Łuk Wojenny Adepta",
+        "ES-ES": "Arco de guerra del iniciado",
+        "PT-BR": "Arco de Guerra do Adepto",
+        "IT-IT": "Arco da guerra del sapiente",
+        "ZH-CN": "老手级战弓",
+        "KO-KR": "숙련자의 워보우",
+        "JA-JP": "ウォーボウ（名人）",
+        "ZH-TW": "老手級戰弓",
+        "ID-ID": "Busur Perang Mahir",
+        "TR-TR": "Ehil Savaş Yayı",
+        "AR-SA": "قوس حربي للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 32,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 32
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 32
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 32,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": 23,
+        "attack_speed": 1.3,
+        "attack_range": 13,
+        "attack_type": "ranged",
+        "mainhand_animation": "bow",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOWS_WAR",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SKILLSHOT_STUN",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SKILLSHOT_STUN",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 32,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 32,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 32,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 32,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 800,
+        "durability": 19059,
+        "crafting_silver": 0,
+        "crafting_time": 2,
+        "crafting_focus": 3001,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL1",
+            "count": 32,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 800,
+      "effective_durability": 19059,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "bow",
+        "crafting_category": "bow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_WARBOW@1",
+        "item_database_index": "6402"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Warbow",
+        "name_ar": "قوس حربي للبارع",
+        "name_de": "Kriegsbogen des Adepten",
+        "name_fr": "Arc de guerre de l'adepte",
+        "name_es": "Arco de guerra del iniciado",
+        "name_ru": "Боевой лук (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_WARBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "bow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "bow",
+        "@attackdamage": "23",
+        "@attackspeed": "1.3",
+        "@twohanded": "true",
+        "@attackrange": "13",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "bow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_BOWS_WAR",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "bow_warbow",
+        "attackvariations": {
+          "@attackchaintime": "1.5",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": {
+            "@uniquename": "T4_PLANKS",
+            "@count": "32"
+          }
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_BOW",
+          "removespell": {
+            "@uniquename": "SPEEDARCHER_KITE"
+          },
+          "craftspell": {
+            "@uniquename": "SKILLSHOT_STUN",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "32"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_WARBOW@2",
+      "index": "6403",
+      "name_en": "Adept's Warbow",
+      "name_ar": "قوس حربي للبارع",
+      "name_de": "Kriegsbogen des Adepten",
+      "name_fr": "Arc de guerre de l'adepte",
+      "name_es": "Arco de guerra del iniciado",
+      "name_ru": "Боевой лук (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_WARBOW",
+        "description_variable": "@ITEMS_T4_2H_WARBOW_DESC"
+      },
+      "category": "Weapons_Bow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_WARBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "bow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "bow",
+        "attackdamage": "23",
+        "attackspeed": "1.3",
+        "twohanded": "true",
+        "attackrange": "13",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "bow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_BOWS_WAR",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "bow_warbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Warbow",
+        "DE-DE": "Kriegsbogen des Adepten",
+        "FR-FR": "Arc de guerre de l'adepte",
+        "RU-RU": "Боевой лук (знаток)",
+        "PL-PL": "Łuk Wojenny Adepta",
+        "ES-ES": "Arco de guerra del iniciado",
+        "PT-BR": "Arco de Guerra do Adepto",
+        "IT-IT": "Arco da guerra del sapiente",
+        "ZH-CN": "老手级战弓",
+        "KO-KR": "숙련자의 워보우",
+        "JA-JP": "ウォーボウ（名人）",
+        "ZH-TW": "老手級戰弓",
+        "ID-ID": "Busur Perang Mahir",
+        "TR-TR": "Ehil Savaş Yayı",
+        "AR-SA": "قوس حربي للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 32,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 32
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 32
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 32,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": 23,
+        "attack_speed": 1.3,
+        "attack_range": 13,
+        "attack_type": "ranged",
+        "mainhand_animation": "bow",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOWS_WAR",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SKILLSHOT_STUN",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SKILLSHOT_STUN",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 32,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 32,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 32,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 32,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 900,
+        "durability": 28589,
+        "crafting_silver": 0,
+        "crafting_time": 2.667,
+        "crafting_focus": 5252,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL2",
+            "count": 32,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 900,
+      "effective_durability": 28589,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "bow",
+        "crafting_category": "bow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_WARBOW@2",
+        "item_database_index": "6403"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Warbow",
+        "name_ar": "قوس حربي للبارع",
+        "name_de": "Kriegsbogen des Adepten",
+        "name_fr": "Arc de guerre de l'adepte",
+        "name_es": "Arco de guerra del iniciado",
+        "name_ru": "Боевой лук (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_WARBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "bow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "bow",
+        "@attackdamage": "23",
+        "@attackspeed": "1.3",
+        "@twohanded": "true",
+        "@attackrange": "13",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "bow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_BOWS_WAR",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "bow_warbow",
+        "attackvariations": {
+          "@attackchaintime": "1.5",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": {
+            "@uniquename": "T4_PLANKS",
+            "@count": "32"
+          }
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_BOW",
+          "removespell": {
+            "@uniquename": "SPEEDARCHER_KITE"
+          },
+          "craftspell": {
+            "@uniquename": "SKILLSHOT_STUN",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "32"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_WARBOW@3",
+      "index": "6404",
+      "name_en": "Adept's Warbow",
+      "name_ar": "قوس حربي للبارع",
+      "name_de": "Kriegsbogen des Adepten",
+      "name_fr": "Arc de guerre de l'adepte",
+      "name_es": "Arco de guerra del iniciado",
+      "name_ru": "Боевой лук (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_WARBOW",
+        "description_variable": "@ITEMS_T4_2H_WARBOW_DESC"
+      },
+      "category": "Weapons_Bow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_WARBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "bow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "bow",
+        "attackdamage": "23",
+        "attackspeed": "1.3",
+        "twohanded": "true",
+        "attackrange": "13",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "bow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_BOWS_WAR",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "bow_warbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Warbow",
+        "DE-DE": "Kriegsbogen des Adepten",
+        "FR-FR": "Arc de guerre de l'adepte",
+        "RU-RU": "Боевой лук (знаток)",
+        "PL-PL": "Łuk Wojenny Adepta",
+        "ES-ES": "Arco de guerra del iniciado",
+        "PT-BR": "Arco de Guerra do Adepto",
+        "IT-IT": "Arco da guerra del sapiente",
+        "ZH-CN": "老手级战弓",
+        "KO-KR": "숙련자의 워보우",
+        "JA-JP": "ウォーボウ（名人）",
+        "ZH-TW": "老手級戰弓",
+        "ID-ID": "Busur Perang Mahir",
+        "TR-TR": "Ehil Savaş Yayı",
+        "AR-SA": "قوس حربي للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 32,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 32
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 32
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 32,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": 23,
+        "attack_speed": 1.3,
+        "attack_range": 13,
+        "attack_type": "ranged",
+        "mainhand_animation": "bow",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOWS_WAR",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SKILLSHOT_STUN",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SKILLSHOT_STUN",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 32,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 32,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 32,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 32,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1000,
+        "durability": 42883,
+        "crafting_silver": 0,
+        "crafting_time": 3.333,
+        "crafting_focus": 9191,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL3",
+            "count": 32,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 42883,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "bow",
+        "crafting_category": "bow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_WARBOW@3",
+        "item_database_index": "6404"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Warbow",
+        "name_ar": "قوس حربي للبارع",
+        "name_de": "Kriegsbogen des Adepten",
+        "name_fr": "Arc de guerre de l'adepte",
+        "name_es": "Arco de guerra del iniciado",
+        "name_ru": "Боевой лук (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_WARBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "bow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "bow",
+        "@attackdamage": "23",
+        "@attackspeed": "1.3",
+        "@twohanded": "true",
+        "@attackrange": "13",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "bow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_BOWS_WAR",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "bow_warbow",
+        "attackvariations": {
+          "@attackchaintime": "1.5",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": {
+            "@uniquename": "T4_PLANKS",
+            "@count": "32"
+          }
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_BOW",
+          "removespell": {
+            "@uniquename": "SPEEDARCHER_KITE"
+          },
+          "craftspell": {
+            "@uniquename": "SKILLSHOT_STUN",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "32"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_WARBOW@4",
+      "index": "6405",
+      "name_en": "Adept's Warbow",
+      "name_ar": "قوس حربي للبارع",
+      "name_de": "Kriegsbogen des Adepten",
+      "name_fr": "Arc de guerre de l'adepte",
+      "name_es": "Arco de guerra del iniciado",
+      "name_ru": "Боевой лук (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_WARBOW",
+        "description_variable": "@ITEMS_T4_2H_WARBOW_DESC"
+      },
+      "category": "Weapons_Bow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_WARBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "bow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "bow",
+        "attackdamage": "23",
+        "attackspeed": "1.3",
+        "twohanded": "true",
+        "attackrange": "13",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "bow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_BOWS_WAR",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "bow_warbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Warbow",
+        "DE-DE": "Kriegsbogen des Adepten",
+        "FR-FR": "Arc de guerre de l'adepte",
+        "RU-RU": "Боевой лук (знаток)",
+        "PL-PL": "Łuk Wojenny Adepta",
+        "ES-ES": "Arco de guerra del iniciado",
+        "PT-BR": "Arco de Guerra do Adepto",
+        "IT-IT": "Arco da guerra del sapiente",
+        "ZH-CN": "老手级战弓",
+        "KO-KR": "숙련자의 워보우",
+        "JA-JP": "ウォーボウ（名人）",
+        "ZH-TW": "老手級戰弓",
+        "ID-ID": "Busur Perang Mahir",
+        "TR-TR": "Ehil Savaş Yayı",
+        "AR-SA": "قوس حربي للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 32,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 32
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 32
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 32,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": 23,
+        "attack_speed": 1.3,
+        "attack_range": 13,
+        "attack_type": "ranged",
+        "mainhand_animation": "bow",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOWS_WAR",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SKILLSHOT_STUN",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SKILLSHOT_STUN",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 32,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 32,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 32,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 32,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1100,
+        "durability": 64324,
+        "crafting_silver": 0,
+        "crafting_time": 5,
+        "crafting_focus": 16085,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL4",
+            "count": 32,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 64324,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "bow",
+        "crafting_category": "bow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_WARBOW@4",
+        "item_database_index": "6405"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Warbow",
+        "name_ar": "قوس حربي للبارع",
+        "name_de": "Kriegsbogen des Adepten",
+        "name_fr": "Arc de guerre de l'adepte",
+        "name_es": "Arco de guerra del iniciado",
+        "name_ru": "Боевой лук (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_WARBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "bow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "bow",
+        "@attackdamage": "23",
+        "@attackspeed": "1.3",
+        "@twohanded": "true",
+        "@attackrange": "13",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "bow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_BOWS_WAR",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "bow_warbow",
+        "attackvariations": {
+          "@attackchaintime": "1.5",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "ranged"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": {
+            "@uniquename": "T4_PLANKS",
+            "@count": "32"
+          }
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_BOW",
+          "removespell": {
+            "@uniquename": "SPEEDARCHER_KITE"
+          },
+          "craftspell": {
+            "@uniquename": "SKILLSHOT_STUN",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "32"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": {
+                  "@uniquename": "T4_PLANKS_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "32"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

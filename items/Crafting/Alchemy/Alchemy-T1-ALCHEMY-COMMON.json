@@ -1,0 +1,397 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Alchemy",
+  "base_id": "T1_ALCHEMY_COMMON",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T1_ALCHEMY_COMMON",
+      "index": "1996",
+      "name_en": "Rare Animal Remains",
+      "name_ar": "بقايا حيوانية نادرة",
+      "name_de": "Überreste seltener Tiere",
+      "name_fr": "Restes d'animaux rares",
+      "name_es": "Restos de animales raros",
+      "name_ru": "Редкие останки животных",
+      "descriptions": {
+        "description_en": "Parts of magical animals holding remnants of arcane power.",
+        "description_ar": "أجزاء حيوانات سحرية تحمل بقايا طاقة الساحر.",
+        "description_de": "Teile magischer Tiere, die noch Reste ihrer arkanen Macht in sich tragen.",
+        "description_fr": "Parties d'animaux magiques contenant des vestiges de pouvoir arcanique.",
+        "description_es": "Partes de animales mágicos que contienen restos de poder arcano.",
+        "description_ru": "Части животных, содержащие остатки магической силы."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_ALCHEMY_COMMON",
+        "description_variable": "@ITEMS_T1_ALCHEMY_COMMON_DESC"
+      },
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T1_ALCHEMY_COMMON",
+        "tier": "1",
+        "weight": "0.05",
+        "maxstacksize": "999",
+        "resourcetype": "ESSENCE",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "alchemy",
+        "unlockedtocraft": "true",
+        "shopsubcategory2": "remains"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Rare Animal Remains",
+        "DE-DE": "Überreste seltener Tiere",
+        "FR-FR": "Restes d'animaux rares",
+        "RU-RU": "Редкие останки животных",
+        "PL-PL": "Rzadkie Szczątki Zwierząt",
+        "ES-ES": "Restos de animales raros",
+        "PT-BR": "Restos de Animais Raros",
+        "IT-IT": "Resti animali rari",
+        "ZH-CN": "稀有动物遗骸",
+        "KO-KR": "동물 잔해",
+        "JA-JP": "レアな動物の残骸",
+        "ZH-TW": "稀有動物遺骸",
+        "ID-ID": "Sisa Hewan Langka",
+        "TR-TR": "Nadir Hayvan Kalıntıları",
+        "AR-SA": "بقايا حيوانية نادرة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals holding remnants of arcane power.",
+        "DE-DE": "Teile magischer Tiere, die noch Reste ihrer arkanen Macht in sich tragen.",
+        "FR-FR": "Parties d'animaux magiques contenant des vestiges de pouvoir arcanique.",
+        "RU-RU": "Части животных, содержащие остатки магической силы.",
+        "PL-PL": "Części magicznych zwierząt z pozostałościami ich tajemnej mocy.",
+        "ES-ES": "Partes de animales mágicos que contienen restos de poder arcano.",
+        "PT-BR": "Partes de animais mágicos que guardam restos de poder arcano.",
+        "IT-IT": "Parti di animali magici che contengono residui di potere arcano.",
+        "ZH-CN": "魔法生物的部分遗骸，保留着残余的奥术力量。",
+        "KO-KR": "신비한 힘의 흔적을 지니고 있는 마법 동물의 일부입니다.",
+        "JA-JP": "魔力を秘めた動物の一部。",
+        "ZH-TW": "魔法生物的部分遺骸，保留著殘餘的奧術力量。",
+        "ID-ID": "Bagian dari hewan sihir yang menyimpan sisa-sisa kekuatan arcane.",
+        "TR-TR": "Arkana gücüne sahip sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء حيوانات سحرية تحمل بقايا طاقة الساحر."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_ALCHEMY_RARE_PANTHER",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T3_ALCHEMY_RARE_PANTHER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.01,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_ALCHEMY_RARE_PANTHER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_ALCHEMY_RARE_PANTHER",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 1,
+        "weight": 0.05,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "alchemy",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_ALCHEMY_COMMON",
+        "item_database_index": "1996"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Rare Animal Remains",
+        "name_ar": "بقايا حيوانية نادرة",
+        "name_de": "Überreste seltener Tiere",
+        "name_fr": "Restes d'animaux rares",
+        "name_es": "Restos de animales raros",
+        "name_ru": "Редкие останки животных"
+      },
+      "raw": {
+        "@uniquename": "T1_ALCHEMY_COMMON",
+        "@tier": "1",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "remains",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_PANTHER",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_PANTHER",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_PANTHER",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_ENT",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_ENT",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_ENT",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_DIREBEAR",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_DIREBEAR",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_DIREBEAR",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_WEREWOLF",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_WEREWOLF",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_WEREWOLF",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_IMP",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_IMP",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_IMP",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_ELEMENTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_ELEMENTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_ELEMENTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_EAGLE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_EAGLE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_EAGLE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

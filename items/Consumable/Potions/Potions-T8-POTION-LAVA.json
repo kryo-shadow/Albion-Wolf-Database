@@ -1,0 +1,571 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T8_POTION_LAVA",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_POTION_LAVA",
+      "index": "670",
+      "name_en": "Major Hellfire Potion",
+      "name_ar": "جرعة نار الجحيم الرئيسية",
+      "name_de": "Großer Höllenfeuertrank",
+      "name_fr": "Potion de feu infernal majeure",
+      "name_es": "Poción de fuego infernal mayor",
+      "name_ru": "Большое зелье адского пламени",
+      "descriptions": {
+        "description_en": "Fiery potion. Can be thrown at a ground location to create an area of infernal flames.",
+        "description_ar": "جرعة نارية. يمكن إلقاؤها على موقع أرضي لتأجيج نيران حارقة.",
+        "description_de": "Feuriger Trank. Wirf ihn auf den Boden, um dort eine Fläche höllischer Flammen zu erzeugen.",
+        "description_fr": "Potion brûlante. Lancez-la au sol pour créer une zone de flammes infernales.",
+        "description_es": "Poción ardiente. Se lanza al suelo para crear un área de llamas infernales.",
+        "description_ru": "Огненное зелье. Бросьте его на землю, чтобы создать область с адским пламенем."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_POTION_LAVA",
+        "description_variable": "@ITEMS_POTION_LAVA_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_POTION_LAVA",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_LAVA_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "8",
+        "dummyitempower": "1100",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.44",
+        "descriptionlocatag": "@ITEMS_POTION_LAVA_DESC",
+        "shopsubcategory2": "lava"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Major Hellfire Potion",
+        "DE-DE": "Großer Höllenfeuertrank",
+        "FR-FR": "Potion de feu infernal majeure",
+        "RU-RU": "Большое зелье адского пламени",
+        "PL-PL": "Większa Mikstura Ognia Piekielnego",
+        "ES-ES": "Poción de fuego infernal mayor",
+        "PT-BR": "Poção Infernal Maior",
+        "IT-IT": "Pozione Inferno maggiore",
+        "ZH-CN": "高级狱火药水",
+        "KO-KR": "대형 지옥불 포션",
+        "JA-JP": "ヘルファイアポーション（大）",
+        "ZH-TW": "頂級獄火藥水",
+        "ID-ID": "Ramuan Api Neraka Mayor",
+        "TR-TR": "Güçlü Cehennem Ateşi İksiri",
+        "AR-SA": "جرعة نار الجحيم الرئيسية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Fiery potion. Can be thrown at a ground location to create an area of infernal flames.",
+        "DE-DE": "Feuriger Trank. Wirf ihn auf den Boden, um dort eine Fläche höllischer Flammen zu erzeugen.",
+        "FR-FR": "Potion brûlante. Lancez-la au sol pour créer une zone de flammes infernales.",
+        "RU-RU": "Огненное зелье. Бросьте его на землю, чтобы создать область с адским пламенем.",
+        "PL-PL": "Ognista Mikstura. Rzuć na ziemię, aby stworzyć obszar wypełniony piekielnymi płomieniami.",
+        "ES-ES": "Poción ardiente. Se lanza al suelo para crear un área de llamas infernales.",
+        "PT-BR": "Poção ardente. Jogue-a no chão para criar uma área de chamas infernais.",
+        "IT-IT": "Pozione incandescente. Lanciandola sul terreno, si crea un'area di fiamme infernali.",
+        "ZH-CN": "炽热的药水。扔到地上后会形成一个充满地狱烈火的区域。",
+        "KO-KR": "불타는 듯한 포션. 바닥에 던지면 맹렬히 타오르는 영역을 생성합니다.",
+        "JA-JP": "炎のポーション。地面に投げつけ、地獄の炎のエリアを作り出す。",
+        "ZH-TW": "熾熱的藥水。扔到地上後會形成一個充滿地獄烈火的區域。",
+        "ID-ID": "Ramuan berapi-api. Lemparkan ke lokasi tanah untuk menciptakan area api neraka.",
+        "TR-TR": "Sımsıcak bir iksir. Azap ateşiyle dolu bir alan oluşturmak için bir yer konumuna fırlatılabilir.",
+        "AR-SA": "جرعة نارية. يمكن إلقاؤها على موقع أرضي لتأجيج نيران حارقة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_MILK",
+        "primary_count": 144,
+        "secondary_resource": "T8_YARROW",
+        "secondary_count": 72,
+        "resources": [
+          {
+            "id": "T8_MILK",
+            "count": 144
+          },
+          {
+            "id": "T8_YARROW",
+            "count": 72
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 72
+          },
+          {
+            "id": "T5_EGG",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCHEMY_RARE_IMP",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5.807,
+        "crafting_focus": 1272,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_MILK",
+            "count": 144
+          },
+          {
+            "id": "T8_YARROW",
+            "count": 72
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 72
+          },
+          {
+            "id": "T5_EGG",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCHEMY_RARE_IMP",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_MILK",
+        "primary_count": 144,
+        "secondary_resource": "T8_YARROW",
+        "secondary_count": 72
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 1.44,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.807,
+          "crafting_focus": 1472,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_IMP",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_MILK",
+              "count": 144,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_EGG",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 90,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.807,
+          "crafting_focus": 1873,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_IMP",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_MILK",
+              "count": 144,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_EGG",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 90,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.807,
+          "crafting_focus": 3073,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_IMP",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_MILK",
+              "count": 144,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_EGG",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 90,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_POTION_LAVA",
+        "item_database_index": "670"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Major Hellfire Potion",
+        "name_ar": "جرعة نار الجحيم الرئيسية",
+        "name_de": "Großer Höllenfeuertrank",
+        "name_fr": "Potion de feu infernal majeure",
+        "name_es": "Poción de fuego infernal mayor",
+        "name_ru": "Большое зелье адского пламени"
+      },
+      "raw": {
+        "@uniquename": "T8_POTION_LAVA",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_LAVA_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "8",
+        "@dummyitempower": "1100",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.44",
+        "@descriptionlocatag": "@ITEMS_POTION_LAVA_DESC",
+        "@shopsubcategory2": "lava",
+        "craftingrequirements": {
+          "@time": "5.807",
+          "@amountcrafted": "10",
+          "@craftingfocus": "1272",
+          "craftresource": [
+            {
+              "@uniquename": "T7_ALCHEMY_RARE_IMP",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T8_MILK",
+              "@count": "144"
+            },
+            {
+              "@uniquename": "T8_YARROW",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T7_MULLEIN",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T5_EGG",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T8_ALCOHOL",
+              "@count": "36"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_LAVA_P6",
+              "@dummyitempower": "1200",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.807",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1472",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_IMP",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_MILK",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_LAVA_P7",
+              "@dummyitempower": "1300",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.807",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1873",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_IMP",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_MILK",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_LAVA_P8",
+              "@dummyitempower": "1400",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.807",
+                "@amountcrafted": "10",
+                "@craftingfocus": "3073",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_IMP",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_MILK",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

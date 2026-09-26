@@ -1,0 +1,571 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T8_POTION_BERSERK",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_POTION_BERSERK",
+      "index": "658",
+      "name_en": "Major Berserk Potion",
+      "name_ar": "جرعة غيظ رئيسية",
+      "name_de": "Großer Berserkertrank",
+      "name_fr": "Potion de berserker majeure",
+      "name_es": "Poción de berserker mayor",
+      "name_ru": "Большое зелье берсерка",
+      "descriptions": {
+        "description_en": "Seething potion. Induces berserker's rage, increasing your damage but reducing your damage resistances.",
+        "description_ar": "جرعة تثير الغليان. تحفز غضب المحارب المتوحش من خلال زيادة الضرر الذي تلحقه، لكنها تقلل مقاومتك للضرر في المقابل.",
+        "description_de": "Schäumender Trank. Löst eine Berserkerwut aus, die deinen Schaden erhöht, aber deine Schadensresistenzen reduziert.",
+        "description_fr": "Potion bouillonnante. Elle provoque la rage du berserker, augmentant vos dégâts mais réduisant vos résistances aux dégâts.",
+        "description_es": "Poción hirviente. Provoca la furia del berserker; aumenta tu daño pero reduce tus resistencias al daño.",
+        "description_ru": "Зелье кипящей ярости. Вызывает ярость берсерка, увеличивая наносимый урон, но снижая сопротивление входящему урону."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_POTION_BERSERK",
+        "description_variable": "@ITEMS_POTION_BERSERK_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_POTION_BERSERK",
+        "tier": "8",
+        "slottype": "potion",
+        "weight": "1.47",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "consumespell": "POTION_BERSERK_P5",
+        "dummyitempower": "1100",
+        "abilitypower": "186",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "maxstacksize": "999",
+        "descriptionlocatag": "@ITEMS_POTION_BERSERK_DESC",
+        "shopsubcategory2": "berserk"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Major Berserk Potion",
+        "DE-DE": "Großer Berserkertrank",
+        "FR-FR": "Potion de berserker majeure",
+        "RU-RU": "Большое зелье берсерка",
+        "PL-PL": "Większa Mikstura Berserkera",
+        "ES-ES": "Poción de berserker mayor",
+        "PT-BR": "Poção de Fúria Maior",
+        "IT-IT": "Pozione Berserk maggiore",
+        "ZH-CN": "高级狂暴药水",
+        "KO-KR": "대형 광폭화 포션",
+        "JA-JP": "バーサークポーション（大）",
+        "ZH-TW": "頂級狂暴藥水",
+        "ID-ID": "Ramuan Pengamuk Mayor",
+        "TR-TR": "Güçlü Çılgınlık İksiri",
+        "AR-SA": "جرعة غيظ رئيسية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Seething potion. Induces berserker's rage, increasing your damage but reducing your damage resistances.",
+        "DE-DE": "Schäumender Trank. Löst eine Berserkerwut aus, die deinen Schaden erhöht, aber deine Schadensresistenzen reduziert.",
+        "FR-FR": "Potion bouillonnante. Elle provoque la rage du berserker, augmentant vos dégâts mais réduisant vos résistances aux dégâts.",
+        "RU-RU": "Зелье кипящей ярости. Вызывает ярость берсерка, увеличивая наносимый урон, но снижая сопротивление входящему урону.",
+        "PL-PL": "Wrząca Mikstura. Wpadasz w szał berserkera, zwiększający twoje obrażenia, ale zmniejszający twoje odporności na obrażenia.",
+        "ES-ES": "Poción hirviente. Provoca la furia del berserker; aumenta tu daño pero reduce tus resistencias al daño.",
+        "PT-BR": "Poção fervente. Lhe induz a um estado de frenesi, aumentando o seu dano, mas reduzindo as suas resistências a dano.",
+        "IT-IT": "Pozione della rabbia. Induce la furia del berserker, aumentando i tuoi danni ma riducendo le resistenze ai danni.",
+        "ZH-CN": "沸腾的药水。引发狂战士的怒火，使你的伤害提高，但伤害抗性降低。",
+        "KO-KR": "펄펄 끓는 포션. 광전사의 분노를 불러일으켜, 자신의 대미지가 증가하고 대미지 저항력이 감소합니다.",
+        "JA-JP": "怒りのポーション。バーサーカーの怒りを誘発し、ダメージを増加させるが、ダメージ耐性を減少させる。",
+        "ZH-TW": "沸騰的藥水。引發狂戰士的怒火，使您的傷害增加，但降低您的傷害抗性。",
+        "ID-ID": "Ramuan bergolak. Memancing amarah pengamuk, meningkatkan damagemu namun mengurangi resistansi damage.",
+        "TR-TR": "Fokur fokur kaynayan bir iksir. Vahşi bir savaşçının öfkesini vererek hasarını artırır ancak hasar dirençlerini azaltır.",
+        "AR-SA": "جرعة تثير الغليان. تحفز غضب المحارب المتوحش من خلال زيادة الضرر الذي تلحقه، لكنها تقلل مقاومتك للضرر في المقابل."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_YARROW",
+        "primary_count": 144,
+        "secondary_resource": "T3_COMFREY",
+        "secondary_count": 72,
+        "resources": [
+          {
+            "id": "T8_YARROW",
+            "count": 144
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 72
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "count": 72
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCHEMY_RARE_WEREWOLF",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5.953,
+        "crafting_focus": 1307,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_YARROW",
+            "count": 144
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 72
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "count": 72
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCHEMY_RARE_WEREWOLF",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_YARROW",
+        "primary_count": 144,
+        "secondary_resource": "T3_COMFREY",
+        "secondary_count": 72
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 1.47,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.953,
+          "crafting_focus": 1507,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_WEREWOLF",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 144,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ALCOHOL",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 90,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.953,
+          "crafting_focus": 1908,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_WEREWOLF",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 144,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ALCOHOL",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 90,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.953,
+          "crafting_focus": 3108,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_WEREWOLF",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 144,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ALCOHOL",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 90,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_POTION_BERSERK",
+        "item_database_index": "658"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Major Berserk Potion",
+        "name_ar": "جرعة غيظ رئيسية",
+        "name_de": "Großer Berserkertrank",
+        "name_fr": "Potion de berserker majeure",
+        "name_es": "Poción de berserker mayor",
+        "name_ru": "Большое зелье берсерка"
+      },
+      "raw": {
+        "@uniquename": "T8_POTION_BERSERK",
+        "@tier": "8",
+        "@slottype": "potion",
+        "@weight": "1.47",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@consumespell": "POTION_BERSERK_P5",
+        "@dummyitempower": "1100",
+        "@abilitypower": "186",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@maxstacksize": "999",
+        "@descriptionlocatag": "@ITEMS_POTION_BERSERK_DESC",
+        "@shopsubcategory2": "berserk",
+        "craftingrequirements": {
+          "@time": "5.953",
+          "@amountcrafted": "10",
+          "@craftingfocus": "1307",
+          "craftresource": [
+            {
+              "@uniquename": "T7_ALCHEMY_RARE_WEREWOLF",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T8_YARROW",
+              "@count": "144"
+            },
+            {
+              "@uniquename": "T3_COMFREY",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T6_ALCOHOL",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T7_ALCOHOL",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T8_ALCOHOL",
+              "@count": "36"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_BERSERK_P6",
+              "@dummyitempower": "1200",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.953",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1507",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_WEREWOLF",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_ALCOHOL",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_BERSERK_P7",
+              "@dummyitempower": "1300",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.953",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1908",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_WEREWOLF",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_ALCOHOL",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_BERSERK_P8",
+              "@dummyitempower": "1400",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.953",
+                "@amountcrafted": "10",
+                "@craftingfocus": "3108",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_WEREWOLF",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_ALCOHOL",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

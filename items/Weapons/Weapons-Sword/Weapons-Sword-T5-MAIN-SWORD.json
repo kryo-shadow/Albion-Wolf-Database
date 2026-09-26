@@ -1,0 +1,3254 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Sword",
+  "base_id": "T5_MAIN_SWORD",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T5_MAIN_SWORD",
+      "index": "8615",
+      "name_en": "Expert's Broadsword",
+      "name_ar": "سيف عريض للأخصائي",
+      "name_de": "Breitschwert des Experten",
+      "name_fr": "Épée large de l'expert",
+      "name_es": "Espada ancha del experto",
+      "name_ru": "Палаш (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_SWORD",
+        "description_variable": "@ITEMS_T5_MAIN_SWORD_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_SWORD",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "33",
+        "attackspeed": "1.35",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.05",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_SWORDS_SWORD",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_sword"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Broadsword",
+        "DE-DE": "Breitschwert des Experten",
+        "FR-FR": "Épée large de l'expert",
+        "RU-RU": "Палаш (эксперт)",
+        "PL-PL": "Pałasz Znawcy",
+        "ES-ES": "Espada ancha del experto",
+        "PT-BR": "Espada Larga do Perito",
+        "IT-IT": "Spadone dell'esperto",
+        "ZH-CN": "专家级阔剑",
+        "KO-KR": "전문가의 브로드소드",
+        "JA-JP": "ブロードソード（達人）",
+        "ZH-TW": "專家級闊劍",
+        "ID-ID": "Pedang Lebar Ahli",
+        "TR-TR": "Uzman Geniş Kılıcı",
+        "AR-SA": "سيف عريض للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_LEATHER",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_LEATHER",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_LEATHER",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_LEATHER",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 33,
+        "attack_speed": 1.35,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 800,
+        "ability_power": 138,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_SWORD",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HEROICSTRIKE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SWORD_SPIN",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEAVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "INTERRUPT2",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLITTINGSLASH",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMSTRINGSWORD",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PARRY",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEFENSERUN",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MIGHTYBLOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_REDUCE_DMG_SWORD",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEROICSTACK",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_SWORD",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HEROICSTRIKE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SWORD_SPIN",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEAVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "INTERRUPT2",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLITTINGSLASH",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMSTRINGSWORD",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PARRY",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEFENSERUN",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MIGHTYBLOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_REDUCE_DMG_SWORD",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEROICSTACK",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_SWORD",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_SWORD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 800,
+      "effective_durability": 20250,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_SWORD",
+        "item_database_index": "8615"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Broadsword",
+        "name_ar": "سيف عريض للأخصائي",
+        "name_de": "Breitschwert des Experten",
+        "name_fr": "Épée large de l'expert",
+        "name_es": "Espada ancha del experto",
+        "name_ru": "Палаш (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_SWORD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "33",
+        "@attackspeed": "1.35",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.05",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_SWORDS_SWORD",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_sword",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_LEATHER",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SWORD"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_SWORD@1",
+      "index": "8616",
+      "name_en": "Expert's Broadsword",
+      "name_ar": "سيف عريض للأخصائي",
+      "name_de": "Breitschwert des Experten",
+      "name_fr": "Épée large de l'expert",
+      "name_es": "Espada ancha del experto",
+      "name_ru": "Палаш (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_SWORD",
+        "description_variable": "@ITEMS_T5_MAIN_SWORD_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_SWORD",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "33",
+        "attackspeed": "1.35",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.05",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_SWORDS_SWORD",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_sword"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Broadsword",
+        "DE-DE": "Breitschwert des Experten",
+        "FR-FR": "Épée large de l'expert",
+        "RU-RU": "Палаш (эксперт)",
+        "PL-PL": "Pałasz Znawcy",
+        "ES-ES": "Espada ancha del experto",
+        "PT-BR": "Espada Larga do Perito",
+        "IT-IT": "Spadone dell'esperto",
+        "ZH-CN": "专家级阔剑",
+        "KO-KR": "전문가의 브로드소드",
+        "JA-JP": "ブロードソード（達人）",
+        "ZH-TW": "專家級闊劍",
+        "ID-ID": "Pedang Lebar Ahli",
+        "TR-TR": "Uzman Geniş Kılıcı",
+        "AR-SA": "سيف عريض للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_LEATHER",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_LEATHER",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_LEATHER",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_LEATHER",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 33,
+        "attack_speed": 1.35,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 800,
+        "ability_power": 138,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_SWORD",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HEROICSTRIKE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SWORD_SPIN",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEAVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "INTERRUPT2",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLITTINGSLASH",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMSTRINGSWORD",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PARRY",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEFENSERUN",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MIGHTYBLOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_REDUCE_DMG_SWORD",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEROICSTACK",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_SWORD",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HEROICSTRIKE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SWORD_SPIN",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEAVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "INTERRUPT2",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLITTINGSLASH",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMSTRINGSWORD",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PARRY",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEFENSERUN",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MIGHTYBLOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_REDUCE_DMG_SWORD",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEROICSTACK",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_SWORD",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_SWORD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 900,
+        "durability": 30375,
+        "crafting_silver": 0,
+        "crafting_time": 2,
+        "crafting_focus": 3939,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T5_LEATHER_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 900,
+      "effective_durability": 30375,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_SWORD@1",
+        "item_database_index": "8616"
+      },
+      "tier": 5,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Expert's Broadsword",
+        "name_ar": "سيف عريض للأخصائي",
+        "name_de": "Breitschwert des Experten",
+        "name_fr": "Épée large de l'expert",
+        "name_es": "Espada ancha del experto",
+        "name_ru": "Палаш (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_SWORD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "33",
+        "@attackspeed": "1.35",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.05",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_SWORDS_SWORD",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_sword",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_LEATHER",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SWORD"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_SWORD@2",
+      "index": "8617",
+      "name_en": "Expert's Broadsword",
+      "name_ar": "سيف عريض للأخصائي",
+      "name_de": "Breitschwert des Experten",
+      "name_fr": "Épée large de l'expert",
+      "name_es": "Espada ancha del experto",
+      "name_ru": "Палаш (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_SWORD",
+        "description_variable": "@ITEMS_T5_MAIN_SWORD_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_SWORD",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "33",
+        "attackspeed": "1.35",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.05",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_SWORDS_SWORD",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_sword"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Broadsword",
+        "DE-DE": "Breitschwert des Experten",
+        "FR-FR": "Épée large de l'expert",
+        "RU-RU": "Палаш (эксперт)",
+        "PL-PL": "Pałasz Znawcy",
+        "ES-ES": "Espada ancha del experto",
+        "PT-BR": "Espada Larga do Perito",
+        "IT-IT": "Spadone dell'esperto",
+        "ZH-CN": "专家级阔剑",
+        "KO-KR": "전문가의 브로드소드",
+        "JA-JP": "ブロードソード（達人）",
+        "ZH-TW": "專家級闊劍",
+        "ID-ID": "Pedang Lebar Ahli",
+        "TR-TR": "Uzman Geniş Kılıcı",
+        "AR-SA": "سيف عريض للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_LEATHER",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_LEATHER",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_LEATHER",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_LEATHER",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 33,
+        "attack_speed": 1.35,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 800,
+        "ability_power": 138,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_SWORD",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HEROICSTRIKE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SWORD_SPIN",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEAVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "INTERRUPT2",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLITTINGSLASH",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMSTRINGSWORD",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PARRY",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEFENSERUN",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MIGHTYBLOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_REDUCE_DMG_SWORD",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEROICSTACK",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_SWORD",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HEROICSTRIKE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SWORD_SPIN",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEAVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "INTERRUPT2",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLITTINGSLASH",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMSTRINGSWORD",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PARRY",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEFENSERUN",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MIGHTYBLOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_REDUCE_DMG_SWORD",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEROICSTACK",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_SWORD",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_SWORD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1000,
+        "durability": 45563,
+        "crafting_silver": 0,
+        "crafting_time": 2.5,
+        "crafting_focus": 6893,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T5_LEATHER_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 45563,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_SWORD@2",
+        "item_database_index": "8617"
+      },
+      "tier": 5,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Expert's Broadsword",
+        "name_ar": "سيف عريض للأخصائي",
+        "name_de": "Breitschwert des Experten",
+        "name_fr": "Épée large de l'expert",
+        "name_es": "Espada ancha del experto",
+        "name_ru": "Палаш (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_SWORD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "33",
+        "@attackspeed": "1.35",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.05",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_SWORDS_SWORD",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_sword",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_LEATHER",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SWORD"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_SWORD@3",
+      "index": "8618",
+      "name_en": "Expert's Broadsword",
+      "name_ar": "سيف عريض للأخصائي",
+      "name_de": "Breitschwert des Experten",
+      "name_fr": "Épée large de l'expert",
+      "name_es": "Espada ancha del experto",
+      "name_ru": "Палаш (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_SWORD",
+        "description_variable": "@ITEMS_T5_MAIN_SWORD_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_SWORD",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "33",
+        "attackspeed": "1.35",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.05",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_SWORDS_SWORD",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_sword"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Broadsword",
+        "DE-DE": "Breitschwert des Experten",
+        "FR-FR": "Épée large de l'expert",
+        "RU-RU": "Палаш (эксперт)",
+        "PL-PL": "Pałasz Znawcy",
+        "ES-ES": "Espada ancha del experto",
+        "PT-BR": "Espada Larga do Perito",
+        "IT-IT": "Spadone dell'esperto",
+        "ZH-CN": "专家级阔剑",
+        "KO-KR": "전문가의 브로드소드",
+        "JA-JP": "ブロードソード（達人）",
+        "ZH-TW": "專家級闊劍",
+        "ID-ID": "Pedang Lebar Ahli",
+        "TR-TR": "Uzman Geniş Kılıcı",
+        "AR-SA": "سيف عريض للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_LEATHER",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_LEATHER",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_LEATHER",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_LEATHER",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 33,
+        "attack_speed": 1.35,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 800,
+        "ability_power": 138,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_SWORD",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HEROICSTRIKE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SWORD_SPIN",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEAVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "INTERRUPT2",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLITTINGSLASH",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMSTRINGSWORD",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PARRY",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEFENSERUN",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MIGHTYBLOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_REDUCE_DMG_SWORD",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEROICSTACK",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_SWORD",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HEROICSTRIKE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SWORD_SPIN",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEAVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "INTERRUPT2",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLITTINGSLASH",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMSTRINGSWORD",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PARRY",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEFENSERUN",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MIGHTYBLOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_REDUCE_DMG_SWORD",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEROICSTACK",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_SWORD",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_SWORD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1100,
+        "durability": 68344,
+        "crafting_silver": 0,
+        "crafting_time": 3.75,
+        "crafting_focus": 12064,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T5_LEATHER_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 68344,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_SWORD@3",
+        "item_database_index": "8618"
+      },
+      "tier": 5,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Expert's Broadsword",
+        "name_ar": "سيف عريض للأخصائي",
+        "name_de": "Breitschwert des Experten",
+        "name_fr": "Épée large de l'expert",
+        "name_es": "Espada ancha del experto",
+        "name_ru": "Палаш (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_SWORD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "33",
+        "@attackspeed": "1.35",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.05",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_SWORDS_SWORD",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_sword",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_LEATHER",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SWORD"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_SWORD@4",
+      "index": "8619",
+      "name_en": "Expert's Broadsword",
+      "name_ar": "سيف عريض للأخصائي",
+      "name_de": "Breitschwert des Experten",
+      "name_fr": "Épée large de l'expert",
+      "name_es": "Espada ancha del experto",
+      "name_ru": "Палаш (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_SWORD",
+        "description_variable": "@ITEMS_T5_MAIN_SWORD_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_SWORD",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "33",
+        "attackspeed": "1.35",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.05",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_SWORDS_SWORD",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_sword"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Broadsword",
+        "DE-DE": "Breitschwert des Experten",
+        "FR-FR": "Épée large de l'expert",
+        "RU-RU": "Палаш (эксперт)",
+        "PL-PL": "Pałasz Znawcy",
+        "ES-ES": "Espada ancha del experto",
+        "PT-BR": "Espada Larga do Perito",
+        "IT-IT": "Spadone dell'esperto",
+        "ZH-CN": "专家级阔剑",
+        "KO-KR": "전문가의 브로드소드",
+        "JA-JP": "ブロードソード（達人）",
+        "ZH-TW": "專家級闊劍",
+        "ID-ID": "Pedang Lebar Ahli",
+        "TR-TR": "Uzman Geniş Kılıcı",
+        "AR-SA": "سيف عريض للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_LEATHER",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_LEATHER",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_LEATHER",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_LEATHER",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 33,
+        "attack_speed": 1.35,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 800,
+        "ability_power": 138,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_SWORD",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "HEROICSTRIKE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SWORD_SPIN",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEAVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "INTERRUPT2",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLITTINGSLASH",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMSTRINGSWORD",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PARRY",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEFENSERUN",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MIGHTYBLOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_REDUCE_DMG_SWORD",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEROICSTACK",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_SWORD",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "HEROICSTRIKE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SWORD_SPIN",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEAVE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "INTERRUPT2",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPLITTINGSLASH",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "HAMSTRINGSWORD",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PARRY",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "DEFENSERUN",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MIGHTYBLOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_REDUCE_DMG_SWORD",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEROICSTACK",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_SWORD",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_SWORD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1200,
+        "durability": 102516,
+        "crafting_silver": 0,
+        "crafting_time": 4.5,
+        "crafting_focus": 21111,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T5_LEATHER_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 102516,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_SWORD@4",
+        "item_database_index": "8619"
+      },
+      "tier": 5,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Expert's Broadsword",
+        "name_ar": "سيف عريض للأخصائي",
+        "name_de": "Breitschwert des Experten",
+        "name_fr": "Épée large de l'expert",
+        "name_es": "Espada ancha del experto",
+        "name_ru": "Палаш (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_SWORD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "33",
+        "@attackspeed": "1.35",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.05",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_SWORDS_SWORD",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_sword",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_LEATHER",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SWORD"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

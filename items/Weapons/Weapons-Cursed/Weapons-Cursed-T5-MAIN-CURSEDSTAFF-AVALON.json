@@ -1,0 +1,3609 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Cursed",
+  "base_id": "T5_MAIN_CURSEDSTAFF_AVALON",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T5_MAIN_CURSEDSTAFF_AVALON",
+      "index": "6933",
+      "name_en": "Expert's Shadowcaller",
+      "name_ar": "منادي الظلال للأخصائي",
+      "name_de": "Schattenrufer des Experten",
+      "name_fr": "Mande-ténèbres de l'expert",
+      "name_es": "Invocador oscuro del experto",
+      "name_ru": "Призыватель теней (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_CURSEDSTAFF_AVALON",
+        "description_variable": "@ITEMS_T5_MAIN_CURSEDSTAFF_AVALON_DESC"
+      },
+      "category": "Weapons_Cursed",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_CURSEDSTAFF_AVALON",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "cursestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "102516",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "cursestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "cursestaff_avalon"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Shadowcaller",
+        "DE-DE": "Schattenrufer des Experten",
+        "FR-FR": "Mande-ténèbres de l'expert",
+        "RU-RU": "Призыватель теней (эксперт)",
+        "PL-PL": "Przyzywacz Cienia Znawcy",
+        "ES-ES": "Invocador oscuro del experto",
+        "PT-BR": "Chama-sombra do Perito",
+        "IT-IT": "Invocaombre dell'esperto",
+        "ZH-CN": "专家级召影法杖",
+        "KO-KR": "전문가의 섀도우콜러",
+        "JA-JP": "シャドウコーラー（達人）",
+        "ZH-TW": "專家級喚影者",
+        "ID-ID": "Pemanggil Bayangan Ahli",
+        "TR-TR": "Uzman Gölgegetireni",
+        "AR-SA": "منادي الظلال للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 102516,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DYNAMIC_CURSE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DYNAMIC_CURSE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_CURSEDSTAFF_AVALON"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 518987,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 900,
+      "effective_durability": 102516,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "cursestaff",
+        "crafting_category": "cursestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+          "name_artifact_en": "Expert's Fractured Opaque Orb",
+          "name_artifact_ar": "جرم سماوي معتم مكسور للأخصائي",
+          "name_artifact_de": "Zerbrochene undurchsichtige Kugel des Experten",
+          "name_artifact_fr": "Orbe fracturée opaque de l'expert",
+          "name_artifact_es": "Orbe opaco fracturado del experto",
+          "name_artifact_ru": "Треснувший матовый шар (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_CURSEDSTAFF_AVALON",
+        "item_database_index": "6933"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Shadowcaller",
+        "name_ar": "منادي الظلال للأخصائي",
+        "name_de": "Schattenrufer des Experten",
+        "name_fr": "Mande-ténèbres de l'expert",
+        "name_es": "Invocador oscuro del experto",
+        "name_ru": "Призыватель теней (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_CURSEDSTAFF_AVALON",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "cursestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "102516",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "cursestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "cursestaff_avalon",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1.5",
+            "@craftingfocus": "2251",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "2251",
+            "@time": "1.5",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_CURSEDSTAFF_AVALON"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "518987",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_CURSEDSTAFF_AVALON@1",
+      "index": "6934",
+      "name_en": "Expert's Shadowcaller",
+      "name_ar": "منادي الظلال للأخصائي",
+      "name_de": "Schattenrufer des Experten",
+      "name_fr": "Mande-ténèbres de l'expert",
+      "name_es": "Invocador oscuro del experto",
+      "name_ru": "Призыватель теней (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_CURSEDSTAFF_AVALON",
+        "description_variable": "@ITEMS_T5_MAIN_CURSEDSTAFF_AVALON_DESC"
+      },
+      "category": "Weapons_Cursed",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_CURSEDSTAFF_AVALON",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "cursestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "102516",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "cursestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "cursestaff_avalon"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Shadowcaller",
+        "DE-DE": "Schattenrufer des Experten",
+        "FR-FR": "Mande-ténèbres de l'expert",
+        "RU-RU": "Призыватель теней (эксперт)",
+        "PL-PL": "Przyzywacz Cienia Znawcy",
+        "ES-ES": "Invocador oscuro del experto",
+        "PT-BR": "Chama-sombra do Perito",
+        "IT-IT": "Invocaombre dell'esperto",
+        "ZH-CN": "专家级召影法杖",
+        "KO-KR": "전문가의 섀도우콜러",
+        "JA-JP": "シャドウコーラー（達人）",
+        "ZH-TW": "專家級喚影者",
+        "ID-ID": "Pemanggil Bayangan Ahli",
+        "TR-TR": "Uzman Gölgegetireni",
+        "AR-SA": "منادي الظلال للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 102516,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DYNAMIC_CURSE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DYNAMIC_CURSE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_CURSEDSTAFF_AVALON"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 518987,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1000,
+        "durability": 153774,
+        "crafting_silver": 0,
+        "crafting_time": 2,
+        "crafting_focus": 3939,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T5_METALBAR_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 153774,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "cursestaff",
+        "crafting_category": "cursestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+          "name_artifact_en": "Expert's Fractured Opaque Orb",
+          "name_artifact_ar": "جرم سماوي معتم مكسور للأخصائي",
+          "name_artifact_de": "Zerbrochene undurchsichtige Kugel des Experten",
+          "name_artifact_fr": "Orbe fracturée opaque de l'expert",
+          "name_artifact_es": "Orbe opaco fracturado del experto",
+          "name_artifact_ru": "Треснувший матовый шар (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_CURSEDSTAFF_AVALON@1",
+        "item_database_index": "6934"
+      },
+      "tier": 5,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Expert's Shadowcaller",
+        "name_ar": "منادي الظلال للأخصائي",
+        "name_de": "Schattenrufer des Experten",
+        "name_fr": "Mande-ténèbres de l'expert",
+        "name_es": "Invocador oscuro del experto",
+        "name_ru": "Призыватель теней (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_CURSEDSTAFF_AVALON",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "cursestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "102516",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "cursestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "cursestaff_avalon",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1.5",
+            "@craftingfocus": "2251",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "2251",
+            "@time": "1.5",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_CURSEDSTAFF_AVALON"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "518987",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_CURSEDSTAFF_AVALON@2",
+      "index": "6935",
+      "name_en": "Expert's Shadowcaller",
+      "name_ar": "منادي الظلال للأخصائي",
+      "name_de": "Schattenrufer des Experten",
+      "name_fr": "Mande-ténèbres de l'expert",
+      "name_es": "Invocador oscuro del experto",
+      "name_ru": "Призыватель теней (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_CURSEDSTAFF_AVALON",
+        "description_variable": "@ITEMS_T5_MAIN_CURSEDSTAFF_AVALON_DESC"
+      },
+      "category": "Weapons_Cursed",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_CURSEDSTAFF_AVALON",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "cursestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "102516",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "cursestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "cursestaff_avalon"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Shadowcaller",
+        "DE-DE": "Schattenrufer des Experten",
+        "FR-FR": "Mande-ténèbres de l'expert",
+        "RU-RU": "Призыватель теней (эксперт)",
+        "PL-PL": "Przyzywacz Cienia Znawcy",
+        "ES-ES": "Invocador oscuro del experto",
+        "PT-BR": "Chama-sombra do Perito",
+        "IT-IT": "Invocaombre dell'esperto",
+        "ZH-CN": "专家级召影法杖",
+        "KO-KR": "전문가의 섀도우콜러",
+        "JA-JP": "シャドウコーラー（達人）",
+        "ZH-TW": "專家級喚影者",
+        "ID-ID": "Pemanggil Bayangan Ahli",
+        "TR-TR": "Uzman Gölgegetireni",
+        "AR-SA": "منادي الظلال للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 102516,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DYNAMIC_CURSE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DYNAMIC_CURSE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_CURSEDSTAFF_AVALON"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 518987,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1100,
+        "durability": 230661,
+        "crafting_silver": 0,
+        "crafting_time": 2.5,
+        "crafting_focus": 6893,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T5_METALBAR_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 230661,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "cursestaff",
+        "crafting_category": "cursestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+          "name_artifact_en": "Expert's Fractured Opaque Orb",
+          "name_artifact_ar": "جرم سماوي معتم مكسور للأخصائي",
+          "name_artifact_de": "Zerbrochene undurchsichtige Kugel des Experten",
+          "name_artifact_fr": "Orbe fracturée opaque de l'expert",
+          "name_artifact_es": "Orbe opaco fracturado del experto",
+          "name_artifact_ru": "Треснувший матовый шар (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_CURSEDSTAFF_AVALON@2",
+        "item_database_index": "6935"
+      },
+      "tier": 5,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Expert's Shadowcaller",
+        "name_ar": "منادي الظلال للأخصائي",
+        "name_de": "Schattenrufer des Experten",
+        "name_fr": "Mande-ténèbres de l'expert",
+        "name_es": "Invocador oscuro del experto",
+        "name_ru": "Призыватель теней (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_CURSEDSTAFF_AVALON",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "cursestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "102516",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "cursestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "cursestaff_avalon",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1.5",
+            "@craftingfocus": "2251",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "2251",
+            "@time": "1.5",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_CURSEDSTAFF_AVALON"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "518987",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_CURSEDSTAFF_AVALON@3",
+      "index": "6936",
+      "name_en": "Expert's Shadowcaller",
+      "name_ar": "منادي الظلال للأخصائي",
+      "name_de": "Schattenrufer des Experten",
+      "name_fr": "Mande-ténèbres de l'expert",
+      "name_es": "Invocador oscuro del experto",
+      "name_ru": "Призыватель теней (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_CURSEDSTAFF_AVALON",
+        "description_variable": "@ITEMS_T5_MAIN_CURSEDSTAFF_AVALON_DESC"
+      },
+      "category": "Weapons_Cursed",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_CURSEDSTAFF_AVALON",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "cursestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "102516",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "cursestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "cursestaff_avalon"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Shadowcaller",
+        "DE-DE": "Schattenrufer des Experten",
+        "FR-FR": "Mande-ténèbres de l'expert",
+        "RU-RU": "Призыватель теней (эксперт)",
+        "PL-PL": "Przyzywacz Cienia Znawcy",
+        "ES-ES": "Invocador oscuro del experto",
+        "PT-BR": "Chama-sombra do Perito",
+        "IT-IT": "Invocaombre dell'esperto",
+        "ZH-CN": "专家级召影法杖",
+        "KO-KR": "전문가의 섀도우콜러",
+        "JA-JP": "シャドウコーラー（達人）",
+        "ZH-TW": "專家級喚影者",
+        "ID-ID": "Pemanggil Bayangan Ahli",
+        "TR-TR": "Uzman Gölgegetireni",
+        "AR-SA": "منادي الظلال للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 102516,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DYNAMIC_CURSE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DYNAMIC_CURSE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_CURSEDSTAFF_AVALON"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 518987,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1200,
+        "durability": 345992,
+        "crafting_silver": 0,
+        "crafting_time": 3.75,
+        "crafting_focus": 12064,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T5_METALBAR_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 345992,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "cursestaff",
+        "crafting_category": "cursestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+          "name_artifact_en": "Expert's Fractured Opaque Orb",
+          "name_artifact_ar": "جرم سماوي معتم مكسور للأخصائي",
+          "name_artifact_de": "Zerbrochene undurchsichtige Kugel des Experten",
+          "name_artifact_fr": "Orbe fracturée opaque de l'expert",
+          "name_artifact_es": "Orbe opaco fracturado del experto",
+          "name_artifact_ru": "Треснувший матовый шар (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_CURSEDSTAFF_AVALON@3",
+        "item_database_index": "6936"
+      },
+      "tier": 5,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Expert's Shadowcaller",
+        "name_ar": "منادي الظلال للأخصائي",
+        "name_de": "Schattenrufer des Experten",
+        "name_fr": "Mande-ténèbres de l'expert",
+        "name_es": "Invocador oscuro del experto",
+        "name_ru": "Призыватель теней (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_CURSEDSTAFF_AVALON",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "cursestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "102516",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "cursestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "cursestaff_avalon",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1.5",
+            "@craftingfocus": "2251",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "2251",
+            "@time": "1.5",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_CURSEDSTAFF_AVALON"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "518987",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_CURSEDSTAFF_AVALON@4",
+      "index": "6937",
+      "name_en": "Expert's Shadowcaller",
+      "name_ar": "منادي الظلال للأخصائي",
+      "name_de": "Schattenrufer des Experten",
+      "name_fr": "Mande-ténèbres de l'expert",
+      "name_es": "Invocador oscuro del experto",
+      "name_ru": "Призыватель теней (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_CURSEDSTAFF_AVALON",
+        "description_variable": "@ITEMS_T5_MAIN_CURSEDSTAFF_AVALON_DESC"
+      },
+      "category": "Weapons_Cursed",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_CURSEDSTAFF_AVALON",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "cursestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "102516",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "900",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "cursestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "cursestaff_avalon"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Shadowcaller",
+        "DE-DE": "Schattenrufer des Experten",
+        "FR-FR": "Mande-ténèbres de l'expert",
+        "RU-RU": "Призыватель теней (эксперт)",
+        "PL-PL": "Przyzywacz Cienia Znawcy",
+        "ES-ES": "Invocador oscuro del experto",
+        "PT-BR": "Chama-sombra do Perito",
+        "IT-IT": "Invocaombre dell'esperto",
+        "ZH-CN": "专家级召影法杖",
+        "KO-KR": "전문가의 섀도우콜러",
+        "JA-JP": "シャドウコーラー（達人）",
+        "ZH-TW": "專家級喚影者",
+        "ID-ID": "Pemanggil Bayangan Ahli",
+        "TR-TR": "Uzman Gölgegetireni",
+        "AR-SA": "منادي الظلال للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 900,
+        "ability_power": 120,
+        "durability": 102516,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DYNAMIC_CURSE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DYNAMIC_CURSE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_CURSEDSTAFF_AVALON"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1000,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1100,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1200,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1300,
+          "durability": 518987,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1300,
+        "durability": 518987,
+        "crafting_silver": 0,
+        "crafting_time": 4.5,
+        "crafting_focus": 21111,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T5_METALBAR_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 518987,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "cursestaff",
+        "crafting_category": "cursestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+          "name_artifact_en": "Expert's Fractured Opaque Orb",
+          "name_artifact_ar": "جرم سماوي معتم مكسور للأخصائي",
+          "name_artifact_de": "Zerbrochene undurchsichtige Kugel des Experten",
+          "name_artifact_fr": "Orbe fracturée opaque de l'expert",
+          "name_artifact_es": "Orbe opaco fracturado del experto",
+          "name_artifact_ru": "Треснувший матовый шар (эксперт)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_CURSEDSTAFF_AVALON@4",
+        "item_database_index": "6937"
+      },
+      "tier": 5,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Expert's Shadowcaller",
+        "name_ar": "منادي الظلال للأخصائي",
+        "name_de": "Schattenrufer des Experten",
+        "name_fr": "Mande-ténèbres de l'expert",
+        "name_es": "Invocador oscuro del experto",
+        "name_ru": "Призыватель теней (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_CURSEDSTAFF_AVALON",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "cursestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "102516",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "900",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "cursestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_CURSEDSTAFFS_AVALON",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "cursestaff_avalon",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "1.5",
+            "@craftingfocus": "2251",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "2251",
+            "@time": "1.5",
+            "craftresource": [
+              {
+                "@uniquename": "T5_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T5_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_CURSEDSTAFF_AVALON"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1000",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2",
+                  "@craftingfocus": "3939",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1100",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.5",
+                  "@craftingfocus": "6893",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1200",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.75",
+                  "@craftingfocus": "12064",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1300",
+              "@durability": "518987",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T5_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T5_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T5_ARTEFACT_TOKEN_FAVOR_4",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

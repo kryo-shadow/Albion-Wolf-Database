@@ -1,0 +1,3004 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Arcane",
+  "base_id": "T8_2H_ARCANESTAFF_CRYSTAL",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T8_2H_ARCANESTAFF_CRYSTAL",
+      "index": "7577",
+      "name_en": "Elder's Astral Staff",
+      "name_ar": "العصا النجمية للحكيم",
+      "name_de": "Astralstab des Ältesten",
+      "name_fr": "Bâton astral du sage",
+      "name_es": "Bastón astral del anciano",
+      "name_ru": "Астральный посох (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_ARCANESTAFF_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_Arcane",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "slottype": "mainhand",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "arcanestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "23",
+        "attackspeed": "1.25",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "8",
+        "weight": "34.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "325638",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1200",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "arcanestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "arcanestaff_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Astral Staff",
+        "DE-DE": "Astralstab des Ältesten",
+        "FR-FR": "Bâton astral du sage",
+        "RU-RU": "Астральный посох (старейшина)",
+        "PL-PL": "Astralny Kostur Starszego",
+        "ES-ES": "Bastón astral del anciano",
+        "PT-BR": "Cajado Astral do Ancião",
+        "IT-IT": "Bastone astrale dell'anziano",
+        "ZH-CN": "禅师级星界法杖",
+        "KO-KR": "장로의 아스트랄 스태프",
+        "JA-JP": "アストラルスタッフ（老熟）",
+        "ZH-TW": "禪師級星界法杖",
+        "ID-ID": "Tongkat Astral Tetua",
+        "TR-TR": "Yüce Yıldızlı Asa",
+        "AR-SA": "العصا النجمية للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5,
+        "crafting_focus": 16085,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 23,
+        "attack_speed": 1.25,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 1200,
+        "ability_power": 120,
+        "durability": 325638,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 34.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "STARFALL_DOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "STARFALL_DOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_ARCANESTAFF_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1300,
+          "durability": 488457,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1400,
+          "durability": 732686,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1500,
+          "durability": 1099028,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1600,
+          "durability": 1648542,
+          "crafting_silver": 0,
+          "crafting_time": 10.08,
+          "crafting_focus": 150858,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1200,
+      "effective_durability": 325638,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "arcanestaff",
+        "crafting_category": "arcanestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+          "name_artifact_en": "Elder's Startouched Crystal",
+          "name_artifact_ar": "بلورة لمسة النجوم للحكيم",
+          "name_artifact_de": "Sternenkristall des Ältesten",
+          "name_artifact_fr": "Cristal étoilé du sage",
+          "name_artifact_es": "Cristal estrellado del anciano",
+          "name_artifact_ru": "Кристалл прикосновения звезды (старейшина)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "item_database_index": "7577"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Astral Staff",
+        "name_ar": "العصا النجمية للحكيم",
+        "name_de": "Astralstab des Ältesten",
+        "name_fr": "Bâton astral du sage",
+        "name_es": "Bastón astral del anciano",
+        "name_ru": "Астральный посох (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "@slottype": "mainhand",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "arcanestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "23",
+        "@attackspeed": "1.25",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "8",
+        "@weight": "34.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "325638",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1200",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "arcanestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "arcanestaff_crystal",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "5",
+          "@craftingfocus": "16085",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_ARCANESTAFF_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1300",
+              "@durability": "488457",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1400",
+              "@durability": "732686",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1500",
+              "@durability": "1099028",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1600",
+              "@durability": "1648542",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "10.08",
+                "@craftingfocus": "150858",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_2H_ARCANESTAFF_CRYSTAL@1",
+      "index": "7578",
+      "name_en": "Elder's Astral Staff",
+      "name_ar": "العصا النجمية للحكيم",
+      "name_de": "Astralstab des Ältesten",
+      "name_fr": "Bâton astral du sage",
+      "name_es": "Bastón astral del anciano",
+      "name_ru": "Астральный посох (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_ARCANESTAFF_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_Arcane",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "slottype": "mainhand",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "arcanestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "23",
+        "attackspeed": "1.25",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "8",
+        "weight": "34.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "325638",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1200",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "arcanestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "arcanestaff_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Astral Staff",
+        "DE-DE": "Astralstab des Ältesten",
+        "FR-FR": "Bâton astral du sage",
+        "RU-RU": "Астральный посох (старейшина)",
+        "PL-PL": "Astralny Kostur Starszego",
+        "ES-ES": "Bastón astral del anciano",
+        "PT-BR": "Cajado Astral do Ancião",
+        "IT-IT": "Bastone astrale dell'anziano",
+        "ZH-CN": "禅师级星界法杖",
+        "KO-KR": "장로의 아스트랄 스태프",
+        "JA-JP": "アストラルスタッフ（老熟）",
+        "ZH-TW": "禪師級星界法杖",
+        "ID-ID": "Tongkat Astral Tetua",
+        "TR-TR": "Yüce Yıldızlı Asa",
+        "AR-SA": "العصا النجمية للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5,
+        "crafting_focus": 16085,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 23,
+        "attack_speed": 1.25,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 1200,
+        "ability_power": 120,
+        "durability": 325638,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 34.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "STARFALL_DOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "STARFALL_DOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_ARCANESTAFF_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1300,
+          "durability": 488457,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1400,
+          "durability": 732686,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1500,
+          "durability": 1099028,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1600,
+          "durability": 1648542,
+          "crafting_silver": 0,
+          "crafting_time": 10.08,
+          "crafting_focus": 150858,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1300,
+        "durability": 488457,
+        "crafting_silver": 0,
+        "crafting_time": 6,
+        "crafting_focus": 28148,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T8_METALBAR_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 488457,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "arcanestaff",
+        "crafting_category": "arcanestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+          "name_artifact_en": "Elder's Startouched Crystal",
+          "name_artifact_ar": "بلورة لمسة النجوم للحكيم",
+          "name_artifact_de": "Sternenkristall des Ältesten",
+          "name_artifact_fr": "Cristal étoilé du sage",
+          "name_artifact_es": "Cristal estrellado del anciano",
+          "name_artifact_ru": "Кристалл прикосновения звезды (старейшина)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_ARCANESTAFF_CRYSTAL@1",
+        "item_database_index": "7578"
+      },
+      "tier": 8,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Elder's Astral Staff",
+        "name_ar": "العصا النجمية للحكيم",
+        "name_de": "Astralstab des Ältesten",
+        "name_fr": "Bâton astral du sage",
+        "name_es": "Bastón astral del anciano",
+        "name_ru": "Астральный посох (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "@slottype": "mainhand",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "arcanestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "23",
+        "@attackspeed": "1.25",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "8",
+        "@weight": "34.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "325638",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1200",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "arcanestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "arcanestaff_crystal",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "5",
+          "@craftingfocus": "16085",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_ARCANESTAFF_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1300",
+              "@durability": "488457",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1400",
+              "@durability": "732686",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1500",
+              "@durability": "1099028",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1600",
+              "@durability": "1648542",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "10.08",
+                "@craftingfocus": "150858",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_2H_ARCANESTAFF_CRYSTAL@2",
+      "index": "7579",
+      "name_en": "Elder's Astral Staff",
+      "name_ar": "العصا النجمية للحكيم",
+      "name_de": "Astralstab des Ältesten",
+      "name_fr": "Bâton astral du sage",
+      "name_es": "Bastón astral del anciano",
+      "name_ru": "Астральный посох (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_ARCANESTAFF_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_Arcane",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "slottype": "mainhand",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "arcanestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "23",
+        "attackspeed": "1.25",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "8",
+        "weight": "34.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "325638",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1200",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "arcanestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "arcanestaff_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Astral Staff",
+        "DE-DE": "Astralstab des Ältesten",
+        "FR-FR": "Bâton astral du sage",
+        "RU-RU": "Астральный посох (старейшина)",
+        "PL-PL": "Astralny Kostur Starszego",
+        "ES-ES": "Bastón astral del anciano",
+        "PT-BR": "Cajado Astral do Ancião",
+        "IT-IT": "Bastone astrale dell'anziano",
+        "ZH-CN": "禅师级星界法杖",
+        "KO-KR": "장로의 아스트랄 스태프",
+        "JA-JP": "アストラルスタッフ（老熟）",
+        "ZH-TW": "禪師級星界法杖",
+        "ID-ID": "Tongkat Astral Tetua",
+        "TR-TR": "Yüce Yıldızlı Asa",
+        "AR-SA": "العصا النجمية للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5,
+        "crafting_focus": 16085,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 23,
+        "attack_speed": 1.25,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 1200,
+        "ability_power": 120,
+        "durability": 325638,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 34.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "STARFALL_DOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "STARFALL_DOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_ARCANESTAFF_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1300,
+          "durability": 488457,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1400,
+          "durability": 732686,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1500,
+          "durability": 1099028,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1600,
+          "durability": 1648542,
+          "crafting_silver": 0,
+          "crafting_time": 10.08,
+          "crafting_focus": 150858,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1400,
+        "durability": 732686,
+        "crafting_silver": 0,
+        "crafting_time": 7.2,
+        "crafting_focus": 49260,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T8_METALBAR_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 732686,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "arcanestaff",
+        "crafting_category": "arcanestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+          "name_artifact_en": "Elder's Startouched Crystal",
+          "name_artifact_ar": "بلورة لمسة النجوم للحكيم",
+          "name_artifact_de": "Sternenkristall des Ältesten",
+          "name_artifact_fr": "Cristal étoilé du sage",
+          "name_artifact_es": "Cristal estrellado del anciano",
+          "name_artifact_ru": "Кристалл прикосновения звезды (старейшина)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_ARCANESTAFF_CRYSTAL@2",
+        "item_database_index": "7579"
+      },
+      "tier": 8,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Elder's Astral Staff",
+        "name_ar": "العصا النجمية للحكيم",
+        "name_de": "Astralstab des Ältesten",
+        "name_fr": "Bâton astral du sage",
+        "name_es": "Bastón astral del anciano",
+        "name_ru": "Астральный посох (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "@slottype": "mainhand",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "arcanestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "23",
+        "@attackspeed": "1.25",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "8",
+        "@weight": "34.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "325638",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1200",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "arcanestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "arcanestaff_crystal",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "5",
+          "@craftingfocus": "16085",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_ARCANESTAFF_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1300",
+              "@durability": "488457",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1400",
+              "@durability": "732686",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1500",
+              "@durability": "1099028",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1600",
+              "@durability": "1648542",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "10.08",
+                "@craftingfocus": "150858",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_2H_ARCANESTAFF_CRYSTAL@3",
+      "index": "7580",
+      "name_en": "Elder's Astral Staff",
+      "name_ar": "العصا النجمية للحكيم",
+      "name_de": "Astralstab des Ältesten",
+      "name_fr": "Bâton astral du sage",
+      "name_es": "Bastón astral del anciano",
+      "name_ru": "Астральный посох (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_ARCANESTAFF_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_Arcane",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "slottype": "mainhand",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "arcanestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "23",
+        "attackspeed": "1.25",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "8",
+        "weight": "34.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "325638",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1200",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "arcanestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "arcanestaff_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Astral Staff",
+        "DE-DE": "Astralstab des Ältesten",
+        "FR-FR": "Bâton astral du sage",
+        "RU-RU": "Астральный посох (старейшина)",
+        "PL-PL": "Astralny Kostur Starszego",
+        "ES-ES": "Bastón astral del anciano",
+        "PT-BR": "Cajado Astral do Ancião",
+        "IT-IT": "Bastone astrale dell'anziano",
+        "ZH-CN": "禅师级星界法杖",
+        "KO-KR": "장로의 아스트랄 스태프",
+        "JA-JP": "アストラルスタッフ（老熟）",
+        "ZH-TW": "禪師級星界法杖",
+        "ID-ID": "Tongkat Astral Tetua",
+        "TR-TR": "Yüce Yıldızlı Asa",
+        "AR-SA": "العصا النجمية للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5,
+        "crafting_focus": 16085,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 23,
+        "attack_speed": 1.25,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 1200,
+        "ability_power": 120,
+        "durability": 325638,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 34.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "STARFALL_DOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "STARFALL_DOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_ARCANESTAFF_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1300,
+          "durability": 488457,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1400,
+          "durability": 732686,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1500,
+          "durability": 1099028,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1600,
+          "durability": 1648542,
+          "crafting_silver": 0,
+          "crafting_time": 10.08,
+          "crafting_focus": 150858,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1500,
+        "durability": 1099028,
+        "crafting_silver": 0,
+        "crafting_time": 8.64,
+        "crafting_focus": 86205,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T8_METALBAR_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1500,
+      "effective_durability": 1099028,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "arcanestaff",
+        "crafting_category": "arcanestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+          "name_artifact_en": "Elder's Startouched Crystal",
+          "name_artifact_ar": "بلورة لمسة النجوم للحكيم",
+          "name_artifact_de": "Sternenkristall des Ältesten",
+          "name_artifact_fr": "Cristal étoilé du sage",
+          "name_artifact_es": "Cristal estrellado del anciano",
+          "name_artifact_ru": "Кристалл прикосновения звезды (старейшина)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_ARCANESTAFF_CRYSTAL@3",
+        "item_database_index": "7580"
+      },
+      "tier": 8,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Elder's Astral Staff",
+        "name_ar": "العصا النجمية للحكيم",
+        "name_de": "Astralstab des Ältesten",
+        "name_fr": "Bâton astral du sage",
+        "name_es": "Bastón astral del anciano",
+        "name_ru": "Астральный посох (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "@slottype": "mainhand",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "arcanestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "23",
+        "@attackspeed": "1.25",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "8",
+        "@weight": "34.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "325638",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1200",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "arcanestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "arcanestaff_crystal",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "5",
+          "@craftingfocus": "16085",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_ARCANESTAFF_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1300",
+              "@durability": "488457",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1400",
+              "@durability": "732686",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1500",
+              "@durability": "1099028",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1600",
+              "@durability": "1648542",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "10.08",
+                "@craftingfocus": "150858",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_2H_ARCANESTAFF_CRYSTAL@4",
+      "index": "7581",
+      "name_en": "Elder's Astral Staff",
+      "name_ar": "العصا النجمية للحكيم",
+      "name_de": "Astralstab des Ältesten",
+      "name_fr": "Bâton astral du sage",
+      "name_es": "Bastón astral del anciano",
+      "name_ru": "Астральный посох (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_ARCANESTAFF_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_Arcane",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "slottype": "mainhand",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "arcanestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "23",
+        "attackspeed": "1.25",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "8",
+        "weight": "34.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "325638",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1200",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "arcanestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "arcanestaff_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Astral Staff",
+        "DE-DE": "Astralstab des Ältesten",
+        "FR-FR": "Bâton astral du sage",
+        "RU-RU": "Астральный посох (старейшина)",
+        "PL-PL": "Astralny Kostur Starszego",
+        "ES-ES": "Bastón astral del anciano",
+        "PT-BR": "Cajado Astral do Ancião",
+        "IT-IT": "Bastone astrale dell'anziano",
+        "ZH-CN": "禅师级星界法杖",
+        "KO-KR": "장로의 아스트랄 스태프",
+        "JA-JP": "アストラルスタッフ（老熟）",
+        "ZH-TW": "禪師級星界法杖",
+        "ID-ID": "Tongkat Astral Tetua",
+        "TR-TR": "Yüce Yıldızlı Asa",
+        "AR-SA": "العصا النجمية للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5,
+        "crafting_focus": 16085,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 23,
+        "attack_speed": 1.25,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 1200,
+        "ability_power": 120,
+        "durability": 325638,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 34.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "STARFALL_DOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "STARFALL_DOT",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_ARCANESTAFF_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1300,
+          "durability": 488457,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1400,
+          "durability": 732686,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1500,
+          "durability": 1099028,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1600,
+          "durability": 1648542,
+          "crafting_silver": 0,
+          "crafting_time": 10.08,
+          "crafting_focus": 150858,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1600,
+        "durability": 1648542,
+        "crafting_silver": 0,
+        "crafting_time": 10.08,
+        "crafting_focus": 150858,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T8_METALBAR_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1600,
+      "effective_durability": 1648542,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "arcanestaff",
+        "crafting_category": "arcanestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+          "name_artifact_en": "Elder's Startouched Crystal",
+          "name_artifact_ar": "بلورة لمسة النجوم للحكيم",
+          "name_artifact_de": "Sternenkristall des Ältesten",
+          "name_artifact_fr": "Cristal étoilé du sage",
+          "name_artifact_es": "Cristal estrellado del anciano",
+          "name_artifact_ru": "Кристалл прикосновения звезды (старейшина)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_ARCANESTAFF_CRYSTAL@4",
+        "item_database_index": "7581"
+      },
+      "tier": 8,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Elder's Astral Staff",
+        "name_ar": "العصا النجمية للحكيم",
+        "name_de": "Astralstab des Ältesten",
+        "name_fr": "Bâton astral du sage",
+        "name_es": "Bastón astral del anciano",
+        "name_ru": "Астральный посох (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "@slottype": "mainhand",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "arcanestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "23",
+        "@attackspeed": "1.25",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "8",
+        "@weight": "34.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "325638",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1200",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "arcanestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_ARCANESTAFFS_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "arcanestaff_crystal",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "5",
+          "@craftingfocus": "16085",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_ARCANESTAFF_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1300",
+              "@durability": "488457",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1400",
+              "@durability": "732686",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1500",
+              "@durability": "1099028",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1600",
+              "@durability": "1648542",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "10.08",
+                "@craftingfocus": "150858",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

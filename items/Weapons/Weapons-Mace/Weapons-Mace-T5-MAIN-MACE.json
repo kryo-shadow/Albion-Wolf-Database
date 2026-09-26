@@ -1,0 +1,3194 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Mace",
+  "base_id": "T5_MAIN_MACE",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T5_MAIN_MACE",
+      "index": "9218",
+      "name_en": "Expert's Mace",
+      "name_ar": "صولجان ثقيل للأخصائي",
+      "name_de": "Keule des Experten",
+      "name_fr": "Masse de l'expert",
+      "name_es": "Maza del experto",
+      "name_ru": "Булава (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_MACE",
+        "description_variable": "@ITEMS_T5_MAIN_MACE_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_MACE",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "49",
+        "attackspeed": "0.8",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.2",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_MACES_MACE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_main_mace"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Mace",
+        "DE-DE": "Keule des Experten",
+        "FR-FR": "Masse de l'expert",
+        "RU-RU": "Булава (эксперт)",
+        "PL-PL": "Buzdygan Znawcy",
+        "ES-ES": "Maza del experto",
+        "PT-BR": "Maça do Perito",
+        "IT-IT": "Mazza dell'esperto",
+        "ZH-CN": "专家级锤杖",
+        "KO-KR": "전문가의 메이스",
+        "JA-JP": "メイス（達人）",
+        "ZH-TW": "專家級錘矛",
+        "ID-ID": "Gada Ahli",
+        "TR-TR": "Uzman Gürzü",
+        "AR-SA": "صولجان ثقيل للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 49,
+        "attack_speed": 0.8,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 800,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_MACE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DEFENSIVESLAM",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "GROUNDSHAKER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSMASH",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGE_ROOT",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GUARDRUNE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PBAOE_PULL",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SACRED_GROUND",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MACELEAP",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_MACE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_MACE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_MACE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DEFENSIVESLAM",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "GROUNDSHAKER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSMASH",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGE_ROOT",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GUARDRUNE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PBAOE_PULL",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SACRED_GROUND",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MACELEAP",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_MACE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_MACE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_MACE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_MACE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 800,
+      "effective_durability": 20250,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_MACE",
+        "item_database_index": "9218"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Mace",
+        "name_ar": "صولجان ثقيل للأخصائي",
+        "name_de": "Keule des Experten",
+        "name_fr": "Masse de l'expert",
+        "name_es": "Maza del experto",
+        "name_ru": "Булава (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_MACE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "49",
+        "@attackspeed": "0.8",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.2",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_MACES_MACE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_main_mace",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_CLOTH",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_MACE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_MACE@1",
+      "index": "9219",
+      "name_en": "Expert's Mace",
+      "name_ar": "صولجان ثقيل للأخصائي",
+      "name_de": "Keule des Experten",
+      "name_fr": "Masse de l'expert",
+      "name_es": "Maza del experto",
+      "name_ru": "Булава (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_MACE",
+        "description_variable": "@ITEMS_T5_MAIN_MACE_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_MACE",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "49",
+        "attackspeed": "0.8",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.2",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_MACES_MACE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_main_mace"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Mace",
+        "DE-DE": "Keule des Experten",
+        "FR-FR": "Masse de l'expert",
+        "RU-RU": "Булава (эксперт)",
+        "PL-PL": "Buzdygan Znawcy",
+        "ES-ES": "Maza del experto",
+        "PT-BR": "Maça do Perito",
+        "IT-IT": "Mazza dell'esperto",
+        "ZH-CN": "专家级锤杖",
+        "KO-KR": "전문가의 메이스",
+        "JA-JP": "メイス（達人）",
+        "ZH-TW": "專家級錘矛",
+        "ID-ID": "Gada Ahli",
+        "TR-TR": "Uzman Gürzü",
+        "AR-SA": "صولجان ثقيل للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 49,
+        "attack_speed": 0.8,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 800,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_MACE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DEFENSIVESLAM",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "GROUNDSHAKER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSMASH",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGE_ROOT",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GUARDRUNE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PBAOE_PULL",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SACRED_GROUND",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MACELEAP",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_MACE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_MACE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_MACE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DEFENSIVESLAM",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "GROUNDSHAKER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSMASH",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGE_ROOT",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GUARDRUNE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PBAOE_PULL",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SACRED_GROUND",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MACELEAP",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_MACE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_MACE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_MACE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_MACE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 900,
+        "durability": 30375,
+        "crafting_silver": 0,
+        "crafting_time": 2,
+        "crafting_focus": 3939,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T5_CLOTH_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 900,
+      "effective_durability": 30375,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_MACE@1",
+        "item_database_index": "9219"
+      },
+      "tier": 5,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Expert's Mace",
+        "name_ar": "صولجان ثقيل للأخصائي",
+        "name_de": "Keule des Experten",
+        "name_fr": "Masse de l'expert",
+        "name_es": "Maza del experto",
+        "name_ru": "Булава (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_MACE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "49",
+        "@attackspeed": "0.8",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.2",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_MACES_MACE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_main_mace",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_CLOTH",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_MACE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_MACE@2",
+      "index": "9220",
+      "name_en": "Expert's Mace",
+      "name_ar": "صولجان ثقيل للأخصائي",
+      "name_de": "Keule des Experten",
+      "name_fr": "Masse de l'expert",
+      "name_es": "Maza del experto",
+      "name_ru": "Булава (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_MACE",
+        "description_variable": "@ITEMS_T5_MAIN_MACE_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_MACE",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "49",
+        "attackspeed": "0.8",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.2",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_MACES_MACE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_main_mace"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Mace",
+        "DE-DE": "Keule des Experten",
+        "FR-FR": "Masse de l'expert",
+        "RU-RU": "Булава (эксперт)",
+        "PL-PL": "Buzdygan Znawcy",
+        "ES-ES": "Maza del experto",
+        "PT-BR": "Maça do Perito",
+        "IT-IT": "Mazza dell'esperto",
+        "ZH-CN": "专家级锤杖",
+        "KO-KR": "전문가의 메이스",
+        "JA-JP": "メイス（達人）",
+        "ZH-TW": "專家級錘矛",
+        "ID-ID": "Gada Ahli",
+        "TR-TR": "Uzman Gürzü",
+        "AR-SA": "صولجان ثقيل للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 49,
+        "attack_speed": 0.8,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 800,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_MACE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DEFENSIVESLAM",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "GROUNDSHAKER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSMASH",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGE_ROOT",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GUARDRUNE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PBAOE_PULL",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SACRED_GROUND",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MACELEAP",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_MACE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_MACE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_MACE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DEFENSIVESLAM",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "GROUNDSHAKER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSMASH",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGE_ROOT",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GUARDRUNE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PBAOE_PULL",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SACRED_GROUND",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MACELEAP",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_MACE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_MACE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_MACE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_MACE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1000,
+        "durability": 45563,
+        "crafting_silver": 0,
+        "crafting_time": 2.5,
+        "crafting_focus": 6893,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T5_CLOTH_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 45563,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_MACE@2",
+        "item_database_index": "9220"
+      },
+      "tier": 5,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Expert's Mace",
+        "name_ar": "صولجان ثقيل للأخصائي",
+        "name_de": "Keule des Experten",
+        "name_fr": "Masse de l'expert",
+        "name_es": "Maza del experto",
+        "name_ru": "Булава (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_MACE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "49",
+        "@attackspeed": "0.8",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.2",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_MACES_MACE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_main_mace",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_CLOTH",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_MACE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_MACE@3",
+      "index": "9221",
+      "name_en": "Expert's Mace",
+      "name_ar": "صولجان ثقيل للأخصائي",
+      "name_de": "Keule des Experten",
+      "name_fr": "Masse de l'expert",
+      "name_es": "Maza del experto",
+      "name_ru": "Булава (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_MACE",
+        "description_variable": "@ITEMS_T5_MAIN_MACE_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_MACE",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "49",
+        "attackspeed": "0.8",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.2",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_MACES_MACE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_main_mace"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Mace",
+        "DE-DE": "Keule des Experten",
+        "FR-FR": "Masse de l'expert",
+        "RU-RU": "Булава (эксперт)",
+        "PL-PL": "Buzdygan Znawcy",
+        "ES-ES": "Maza del experto",
+        "PT-BR": "Maça do Perito",
+        "IT-IT": "Mazza dell'esperto",
+        "ZH-CN": "专家级锤杖",
+        "KO-KR": "전문가의 메이스",
+        "JA-JP": "メイス（達人）",
+        "ZH-TW": "專家級錘矛",
+        "ID-ID": "Gada Ahli",
+        "TR-TR": "Uzman Gürzü",
+        "AR-SA": "صولجان ثقيل للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 49,
+        "attack_speed": 0.8,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 800,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_MACE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DEFENSIVESLAM",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "GROUNDSHAKER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSMASH",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGE_ROOT",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GUARDRUNE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PBAOE_PULL",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SACRED_GROUND",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MACELEAP",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_MACE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_MACE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_MACE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DEFENSIVESLAM",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "GROUNDSHAKER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSMASH",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGE_ROOT",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GUARDRUNE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PBAOE_PULL",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SACRED_GROUND",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MACELEAP",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_MACE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_MACE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_MACE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_MACE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1100,
+        "durability": 68344,
+        "crafting_silver": 0,
+        "crafting_time": 3.75,
+        "crafting_focus": 12064,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T5_CLOTH_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 68344,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_MACE@3",
+        "item_database_index": "9221"
+      },
+      "tier": 5,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Expert's Mace",
+        "name_ar": "صولجان ثقيل للأخصائي",
+        "name_de": "Keule des Experten",
+        "name_fr": "Masse de l'expert",
+        "name_es": "Maza del experto",
+        "name_ru": "Булава (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_MACE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "49",
+        "@attackspeed": "0.8",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.2",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_MACES_MACE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_main_mace",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_CLOTH",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_MACE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_MACE@4",
+      "index": "9222",
+      "name_en": "Expert's Mace",
+      "name_ar": "صولجان ثقيل للأخصائي",
+      "name_de": "Keule des Experten",
+      "name_fr": "Masse de l'expert",
+      "name_es": "Maza del experto",
+      "name_ru": "Булава (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_MACE",
+        "description_variable": "@ITEMS_T5_MAIN_MACE_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_MACE",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "49",
+        "attackspeed": "0.8",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0.2",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_MACES_MACE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_main_mace"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Mace",
+        "DE-DE": "Keule des Experten",
+        "FR-FR": "Masse de l'expert",
+        "RU-RU": "Булава (эксперт)",
+        "PL-PL": "Buzdygan Znawcy",
+        "ES-ES": "Maza del experto",
+        "PT-BR": "Maça do Perito",
+        "IT-IT": "Mazza dell'esperto",
+        "ZH-CN": "专家级锤杖",
+        "KO-KR": "전문가의 메이스",
+        "JA-JP": "メイス（達人）",
+        "ZH-TW": "專家級錘矛",
+        "ID-ID": "Gada Ahli",
+        "TR-TR": "Uzman Gürzü",
+        "AR-SA": "صولجان ثقيل للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T5_CLOTH",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T5_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 49,
+        "attack_speed": 0.8,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 800,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_MACE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DEFENSIVESLAM",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "GROUNDSHAKER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSMASH",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGE_ROOT",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GUARDRUNE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PBAOE_PULL",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SACRED_GROUND",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MACELEAP",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_MACE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_MACE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_MACE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DEFENSIVESLAM",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "GROUNDSHAKER",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THREATENINGSMASH",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CHARGE_ROOT",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "GUARDRUNE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PBAOE_PULL",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SACRED_GROUND",
+            "slots": 1,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "MACELEAP",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_MACE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_MACE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_MACE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_MACE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1200,
+        "durability": 102516,
+        "crafting_silver": 0,
+        "crafting_time": 4.5,
+        "crafting_focus": 21111,
+        "crafting_resources": [
+          {
+            "id": "T5_METALBAR_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T5_CLOTH_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 102516,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_MACE@4",
+        "item_database_index": "9222"
+      },
+      "tier": 5,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Expert's Mace",
+        "name_ar": "صولجان ثقيل للأخصائي",
+        "name_de": "Keule des Experten",
+        "name_fr": "Masse de l'expert",
+        "name_es": "Maza del experto",
+        "name_ru": "Булава (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_MACE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "49",
+        "@attackspeed": "0.8",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0.2",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_MACES_MACE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_main_mace",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_CLOTH",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_MACE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

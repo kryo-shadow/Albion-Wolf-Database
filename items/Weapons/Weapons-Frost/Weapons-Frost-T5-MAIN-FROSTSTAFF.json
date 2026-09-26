@@ -1,0 +1,3379 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Frost",
+  "base_id": "T5_MAIN_FROSTSTAFF",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T5_MAIN_FROSTSTAFF",
+      "index": "7186",
+      "name_en": "Expert's Frost Staff",
+      "name_ar": "عصا الصقيع للأخصائي",
+      "name_de": "Froststab des Experten",
+      "name_fr": "Bâton de givre de l'expert",
+      "name_es": "Bastón de hielo del experto",
+      "name_ru": "Морозный посох (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_FROSTSTAFF",
+        "description_variable": "@ITEMS_T5_MAIN_FROSTSTAFF_DESC"
+      },
+      "category": "Weapons_Frost",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_FROSTSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "froststaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "froststaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_FROSTSTAFFS_FROST",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "attackupperbodyblendtime": "0.0535",
+        "shopsubcategory2": "froststaff_main_froststaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Frost Staff",
+        "DE-DE": "Froststab des Experten",
+        "FR-FR": "Bâton de givre de l'expert",
+        "RU-RU": "Морозный посох (эксперт)",
+        "PL-PL": "Mroźny Kostur Znawcy",
+        "ES-ES": "Bastón de hielo del experto",
+        "PT-BR": "Cajado de Gelo do Perito",
+        "IT-IT": "Bastone del gelo dell'esperto",
+        "ZH-CN": "专家级天霜法杖",
+        "KO-KR": "전문가의 프로스트 스태프",
+        "JA-JP": "霜天の杖（達人）",
+        "ZH-TW": "專家級寒冰法杖",
+        "ID-ID": "Tongkat Beku Ahli",
+        "TR-TR": "Uzman Buz Asası",
+        "AR-SA": "عصا الصقيع للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 800,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_FROSTSTAFFS_FROST",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "FROST_BITE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICESHARD",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBOMB_CASTSLOW",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBEAM",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTNOVA",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SHATTER_Q",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROST_LANCE",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICE_SCULPTURE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FREEZINGWIND",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_FROST",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "FROST_BITE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICESHARD",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBOMB_CASTSLOW",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBEAM",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTNOVA",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SHATTER_Q",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROST_LANCE",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICE_SCULPTURE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FREEZINGWIND",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_FROST",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_FROSTSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 800,
+      "effective_durability": 20250,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "froststaff",
+        "crafting_category": "froststaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_FROSTSTAFF",
+        "item_database_index": "7186"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Frost Staff",
+        "name_ar": "عصا الصقيع للأخصائي",
+        "name_de": "Froststab des Experten",
+        "name_fr": "Bâton de givre de l'expert",
+        "name_es": "Bastón de hielo del experto",
+        "name_ru": "Морозный посох (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_FROSTSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "froststaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "froststaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_FROSTSTAFFS_FROST",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@attackupperbodyblendtime": "0.0535",
+        "@shopsubcategory2": "froststaff_main_froststaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_FROSTSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_FROSTSTAFF@1",
+      "index": "7187",
+      "name_en": "Expert's Frost Staff",
+      "name_ar": "عصا الصقيع للأخصائي",
+      "name_de": "Froststab des Experten",
+      "name_fr": "Bâton de givre de l'expert",
+      "name_es": "Bastón de hielo del experto",
+      "name_ru": "Морозный посох (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_FROSTSTAFF",
+        "description_variable": "@ITEMS_T5_MAIN_FROSTSTAFF_DESC"
+      },
+      "category": "Weapons_Frost",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_FROSTSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "froststaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "froststaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_FROSTSTAFFS_FROST",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "attackupperbodyblendtime": "0.0535",
+        "shopsubcategory2": "froststaff_main_froststaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Frost Staff",
+        "DE-DE": "Froststab des Experten",
+        "FR-FR": "Bâton de givre de l'expert",
+        "RU-RU": "Морозный посох (эксперт)",
+        "PL-PL": "Mroźny Kostur Znawcy",
+        "ES-ES": "Bastón de hielo del experto",
+        "PT-BR": "Cajado de Gelo do Perito",
+        "IT-IT": "Bastone del gelo dell'esperto",
+        "ZH-CN": "专家级天霜法杖",
+        "KO-KR": "전문가의 프로스트 스태프",
+        "JA-JP": "霜天の杖（達人）",
+        "ZH-TW": "專家級寒冰法杖",
+        "ID-ID": "Tongkat Beku Ahli",
+        "TR-TR": "Uzman Buz Asası",
+        "AR-SA": "عصا الصقيع للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 800,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_FROSTSTAFFS_FROST",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "FROST_BITE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICESHARD",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBOMB_CASTSLOW",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBEAM",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTNOVA",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SHATTER_Q",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROST_LANCE",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICE_SCULPTURE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FREEZINGWIND",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_FROST",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "FROST_BITE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICESHARD",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBOMB_CASTSLOW",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBEAM",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTNOVA",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SHATTER_Q",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROST_LANCE",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICE_SCULPTURE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FREEZINGWIND",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_FROST",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_FROSTSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 900,
+        "durability": 30375,
+        "crafting_silver": 0,
+        "crafting_time": 2,
+        "crafting_focus": 3939,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T5_METALBAR_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 900,
+      "effective_durability": 30375,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "froststaff",
+        "crafting_category": "froststaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_FROSTSTAFF@1",
+        "item_database_index": "7187"
+      },
+      "tier": 5,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Expert's Frost Staff",
+        "name_ar": "عصا الصقيع للأخصائي",
+        "name_de": "Froststab des Experten",
+        "name_fr": "Bâton de givre de l'expert",
+        "name_es": "Bastón de hielo del experto",
+        "name_ru": "Морозный посох (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_FROSTSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "froststaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "froststaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_FROSTSTAFFS_FROST",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@attackupperbodyblendtime": "0.0535",
+        "@shopsubcategory2": "froststaff_main_froststaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_FROSTSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_FROSTSTAFF@2",
+      "index": "7188",
+      "name_en": "Expert's Frost Staff",
+      "name_ar": "عصا الصقيع للأخصائي",
+      "name_de": "Froststab des Experten",
+      "name_fr": "Bâton de givre de l'expert",
+      "name_es": "Bastón de hielo del experto",
+      "name_ru": "Морозный посох (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_FROSTSTAFF",
+        "description_variable": "@ITEMS_T5_MAIN_FROSTSTAFF_DESC"
+      },
+      "category": "Weapons_Frost",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_FROSTSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "froststaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "froststaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_FROSTSTAFFS_FROST",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "attackupperbodyblendtime": "0.0535",
+        "shopsubcategory2": "froststaff_main_froststaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Frost Staff",
+        "DE-DE": "Froststab des Experten",
+        "FR-FR": "Bâton de givre de l'expert",
+        "RU-RU": "Морозный посох (эксперт)",
+        "PL-PL": "Mroźny Kostur Znawcy",
+        "ES-ES": "Bastón de hielo del experto",
+        "PT-BR": "Cajado de Gelo do Perito",
+        "IT-IT": "Bastone del gelo dell'esperto",
+        "ZH-CN": "专家级天霜法杖",
+        "KO-KR": "전문가의 프로스트 스태프",
+        "JA-JP": "霜天の杖（達人）",
+        "ZH-TW": "專家級寒冰法杖",
+        "ID-ID": "Tongkat Beku Ahli",
+        "TR-TR": "Uzman Buz Asası",
+        "AR-SA": "عصا الصقيع للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 800,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_FROSTSTAFFS_FROST",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "FROST_BITE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICESHARD",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBOMB_CASTSLOW",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBEAM",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTNOVA",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SHATTER_Q",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROST_LANCE",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICE_SCULPTURE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FREEZINGWIND",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_FROST",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "FROST_BITE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICESHARD",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBOMB_CASTSLOW",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBEAM",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTNOVA",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SHATTER_Q",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROST_LANCE",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICE_SCULPTURE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FREEZINGWIND",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_FROST",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_FROSTSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1000,
+        "durability": 45563,
+        "crafting_silver": 0,
+        "crafting_time": 2.5,
+        "crafting_focus": 6893,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T5_METALBAR_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 45563,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "froststaff",
+        "crafting_category": "froststaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_FROSTSTAFF@2",
+        "item_database_index": "7188"
+      },
+      "tier": 5,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Expert's Frost Staff",
+        "name_ar": "عصا الصقيع للأخصائي",
+        "name_de": "Froststab des Experten",
+        "name_fr": "Bâton de givre de l'expert",
+        "name_es": "Bastón de hielo del experto",
+        "name_ru": "Морозный посох (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_FROSTSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "froststaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "froststaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_FROSTSTAFFS_FROST",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@attackupperbodyblendtime": "0.0535",
+        "@shopsubcategory2": "froststaff_main_froststaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_FROSTSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_FROSTSTAFF@3",
+      "index": "7189",
+      "name_en": "Expert's Frost Staff",
+      "name_ar": "عصا الصقيع للأخصائي",
+      "name_de": "Froststab des Experten",
+      "name_fr": "Bâton de givre de l'expert",
+      "name_es": "Bastón de hielo del experto",
+      "name_ru": "Морозный посох (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_FROSTSTAFF",
+        "description_variable": "@ITEMS_T5_MAIN_FROSTSTAFF_DESC"
+      },
+      "category": "Weapons_Frost",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_FROSTSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "froststaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "froststaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_FROSTSTAFFS_FROST",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "attackupperbodyblendtime": "0.0535",
+        "shopsubcategory2": "froststaff_main_froststaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Frost Staff",
+        "DE-DE": "Froststab des Experten",
+        "FR-FR": "Bâton de givre de l'expert",
+        "RU-RU": "Морозный посох (эксперт)",
+        "PL-PL": "Mroźny Kostur Znawcy",
+        "ES-ES": "Bastón de hielo del experto",
+        "PT-BR": "Cajado de Gelo do Perito",
+        "IT-IT": "Bastone del gelo dell'esperto",
+        "ZH-CN": "专家级天霜法杖",
+        "KO-KR": "전문가의 프로스트 스태프",
+        "JA-JP": "霜天の杖（達人）",
+        "ZH-TW": "專家級寒冰法杖",
+        "ID-ID": "Tongkat Beku Ahli",
+        "TR-TR": "Uzman Buz Asası",
+        "AR-SA": "عصا الصقيع للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 800,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_FROSTSTAFFS_FROST",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "FROST_BITE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICESHARD",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBOMB_CASTSLOW",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBEAM",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTNOVA",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SHATTER_Q",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROST_LANCE",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICE_SCULPTURE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FREEZINGWIND",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_FROST",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "FROST_BITE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICESHARD",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBOMB_CASTSLOW",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBEAM",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTNOVA",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SHATTER_Q",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROST_LANCE",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICE_SCULPTURE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FREEZINGWIND",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_FROST",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_FROSTSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1100,
+        "durability": 68344,
+        "crafting_silver": 0,
+        "crafting_time": 3.75,
+        "crafting_focus": 12064,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T5_METALBAR_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T5_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 68344,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "froststaff",
+        "crafting_category": "froststaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_FROSTSTAFF@3",
+        "item_database_index": "7189"
+      },
+      "tier": 5,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Expert's Frost Staff",
+        "name_ar": "عصا الصقيع للأخصائي",
+        "name_de": "Froststab des Experten",
+        "name_fr": "Bâton de givre de l'expert",
+        "name_es": "Bastón de hielo del experto",
+        "name_ru": "Морозный посох (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_FROSTSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "froststaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "froststaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_FROSTSTAFFS_FROST",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@attackupperbodyblendtime": "0.0535",
+        "@shopsubcategory2": "froststaff_main_froststaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_FROSTSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T5_MAIN_FROSTSTAFF@4",
+      "index": "7190",
+      "name_en": "Expert's Frost Staff",
+      "name_ar": "عصا الصقيع للأخصائي",
+      "name_de": "Froststab des Experten",
+      "name_fr": "Bâton de givre de l'expert",
+      "name_es": "Bastón de hielo del experto",
+      "name_ru": "Морозный посох (эксперт)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MAIN_FROSTSTAFF",
+        "description_variable": "@ITEMS_T5_MAIN_FROSTSTAFF_DESC"
+      },
+      "category": "Weapons_Frost",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_MAIN_FROSTSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "froststaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "5",
+        "weight": "7.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "20250",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "800",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "froststaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.05",
+        "combatspecachievement": "COMBAT_FROSTSTAFFS_FROST",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "attackupperbodyblendtime": "0.0535",
+        "shopsubcategory2": "froststaff_main_froststaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Frost Staff",
+        "DE-DE": "Froststab des Experten",
+        "FR-FR": "Bâton de givre de l'expert",
+        "RU-RU": "Морозный посох (эксперт)",
+        "PL-PL": "Mroźny Kostur Znawcy",
+        "ES-ES": "Bastón de hielo del experto",
+        "PT-BR": "Cajado de Gelo do Perito",
+        "IT-IT": "Bastone del gelo dell'esperto",
+        "ZH-CN": "专家级天霜法杖",
+        "KO-KR": "전문가의 프로스트 스태프",
+        "JA-JP": "霜天の杖（達人）",
+        "ZH-TW": "專家級寒冰法杖",
+        "ID-ID": "Tongkat Beku Ahli",
+        "TR-TR": "Uzman Buz Asası",
+        "AR-SA": "عصا الصقيع للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.5,
+        "crafting_focus": 2251,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 800,
+        "ability_power": 120,
+        "durability": 20250,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 7.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.05,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_FROSTSTAFFS_FROST",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "FROST_BITE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICESHARD",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBOMB_CASTSLOW",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBEAM",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTNOVA",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SHATTER_Q",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROST_LANCE",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICE_SCULPTURE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FREEZINGWIND",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_FROST",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "FROST_BITE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICESHARD",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBOMB_CASTSLOW",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTBEAM",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROSTNOVA",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SHATTER_Q",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FROST_LANCE",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "ICE_SCULPTURE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "FREEZINGWIND",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_FROST",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_FROSTSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T5_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T5_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T5_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1200,
+        "durability": 102516,
+        "crafting_silver": 0,
+        "crafting_time": 4.5,
+        "crafting_focus": 21111,
+        "crafting_resources": [
+          {
+            "id": "T5_PLANKS_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T5_METALBAR_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 102516,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "froststaff",
+        "crafting_category": "froststaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MAIN_FROSTSTAFF@4",
+        "item_database_index": "7190"
+      },
+      "tier": 5,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Expert's Frost Staff",
+        "name_ar": "عصا الصقيع للأخصائي",
+        "name_de": "Froststab des Experten",
+        "name_fr": "Bâton de givre de l'expert",
+        "name_es": "Bastón de hielo del experto",
+        "name_ru": "Морозный посох (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_MAIN_FROSTSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "froststaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "5",
+        "@weight": "7.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "20250",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "800",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "froststaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.05",
+        "@combatspecachievement": "COMBAT_FROSTSTAFFS_FROST",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@attackupperbodyblendtime": "0.0535",
+        "@shopsubcategory2": "froststaff_main_froststaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.5",
+          "@craftingfocus": "2251",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_FROSTSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T5_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T5_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

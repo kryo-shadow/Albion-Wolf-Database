@@ -1,0 +1,573 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T8_POTION_GATHER",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_POTION_GATHER",
+      "index": "682",
+      "name_en": "Major Gathering Potion",
+      "name_ar": "جرعة جمع رئيسية",
+      "name_de": "Großer Sammeltrank",
+      "name_fr": "Potion de récolte majeure",
+      "name_es": "Poción de recolección mayor",
+      "name_ru": "Большое зелье собирателя",
+      "descriptions": {
+        "description_en": "Buttery potion. Increases your gathering speed and yield for a short period.",
+        "description_ar": "جرعة هشة. تزيد سرعة وإنتاجية الجمع لديك لفترة قصيرة من الوقت.",
+        "description_de": "Buttriger Trank. Steigert kurzzeitig deine Sammelgeschwindigkeit und deinen Sammelertrag.",
+        "description_fr": "Potion crémeuse. Augmente la vitesse de récolte et le rendement sur une courte période.",
+        "description_es": "Poción mantecosa. Incrementa la velocidad de recolección y el rendimiento durante un corto periodo.",
+        "description_ru": "Маслянистое зелье. На короткое время увеличивает скорость сбора и урожайность."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_POTION_GATHER",
+        "description_variable": "@ITEMS_POTION_GATHER_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_POTION_GATHER",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_GATHER_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "8",
+        "dummyitempower": "1100",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.48",
+        "descriptionlocatag": "@ITEMS_POTION_GATHER_DESC",
+        "shopsubcategory2": "gather"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Major Gathering Potion",
+        "DE-DE": "Großer Sammeltrank",
+        "FR-FR": "Potion de récolte majeure",
+        "RU-RU": "Большое зелье собирателя",
+        "PL-PL": "Większa Mikstura Zbieracza",
+        "ES-ES": "Poción de recolección mayor",
+        "PT-BR": "Poção de Coleta Maior",
+        "IT-IT": "Pozione per la raccolta maggiore",
+        "ZH-CN": "高级采集药水",
+        "KO-KR": "대형 채집 포션",
+        "JA-JP": "採集ポーション（大）",
+        "ZH-TW": "頂級採集藥水",
+        "ID-ID": "Ramuan Pengumpul Mayor",
+        "TR-TR": "Güçlü Toplayıcılık İksiri",
+        "AR-SA": "جرعة جمع رئيسية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Buttery potion. Increases your gathering speed and yield for a short period.",
+        "DE-DE": "Buttriger Trank. Steigert kurzzeitig deine Sammelgeschwindigkeit und deinen Sammelertrag.",
+        "FR-FR": "Potion crémeuse. Augmente la vitesse de récolte et le rendement sur une courte période.",
+        "RU-RU": "Маслянистое зелье. На короткое время увеличивает скорость сбора и урожайность.",
+        "PL-PL": "Maślana mikstura. Zwiększa szybkość i wydajność zbierania na krótki okres czasu.",
+        "ES-ES": "Poción mantecosa. Incrementa la velocidad de recolección y el rendimiento durante un corto periodo.",
+        "PT-BR": "Poção untada. Aumenta a velocidade de coleta e o rendimento por um curto período de tempo.",
+        "IT-IT": "Pozione burrosa. Aumenta la velocità di raccolta e la resa per un breve periodo.",
+        "ZH-CN": "像奶油一样的药水。在短时间内提高采集速度与收获量。",
+        "KO-KR": "기름진 포션. 짧은 시간 동안 채집 속도와 채집량이 증가합니다.",
+        "JA-JP": "バターみたいなポーション。短期間、採集速度と収穫量が増加する。",
+        "ZH-TW": "像奶油一樣的藥水。在短時間內增加採集速度與收穫量。",
+        "ID-ID": "Ramuan beraroma mentega. Meningkatkan kecepatan dan hasil pengumpulan untuk waktu singkat.",
+        "TR-TR": "Yağımsı bir iksir. Kısa bir süreliğine toplayıcılık hızını ve verimini artırır.",
+        "AR-SA": "جرعة هشة. تزيد سرعة وإنتاجية الجمع لديك لفترة قصيرة من الوقت."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_BUTTER",
+        "primary_count": 144,
+        "secondary_resource": "T8_YARROW",
+        "secondary_count": 72,
+        "resources": [
+          {
+            "id": "T8_BUTTER",
+            "count": 144
+          },
+          {
+            "id": "T8_YARROW",
+            "count": 72
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 72
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 6,
+        "crafting_focus": 1319,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_BUTTER",
+            "count": 144
+          },
+          {
+            "id": "T8_YARROW",
+            "count": 72
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 72
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_BUTTER",
+        "primary_count": 144,
+        "secondary_resource": "T8_YARROW",
+        "secondary_count": 72
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 1.48,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 1520,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_BUTTER",
+              "count": 144,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 90,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 1920,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_BUTTER",
+              "count": 144,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 90,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 3121,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_BUTTER",
+              "count": 144,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 90,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_POTION_GATHER",
+        "item_database_index": "682"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Major Gathering Potion",
+        "name_ar": "جرعة جمع رئيسية",
+        "name_de": "Großer Sammeltrank",
+        "name_fr": "Potion de récolte majeure",
+        "name_es": "Poción de recolección mayor",
+        "name_ru": "Большое зелье собирателя"
+      },
+      "raw": {
+        "@uniquename": "T8_POTION_GATHER",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_GATHER_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "8",
+        "@dummyitempower": "1100",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.48",
+        "@descriptionlocatag": "@ITEMS_POTION_GATHER_DESC",
+        "@shopsubcategory2": "gather",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "1319",
+          "@time": "6",
+          "craftresource": [
+            {
+              "@uniquename": "T7_ALCHEMY_RARE_ELEMENTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T8_BUTTER",
+              "@count": "144"
+            },
+            {
+              "@uniquename": "T8_YARROW",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T7_MULLEIN",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T6_FOXGLOVE",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T8_ALCOHOL",
+              "@count": "36"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_GATHER_P6",
+              "@dummyitempower": "1200",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "6",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1520",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_ELEMENTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_BUTTER",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_GATHER_P7",
+              "@dummyitempower": "1300",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "6",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1920",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_ELEMENTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_BUTTER",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_GATHER_P8",
+              "@dummyitempower": "1400",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "6",
+                "@amountcrafted": "10",
+                "@craftingfocus": "3121",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_ELEMENTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_BUTTER",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Fish",
+  "base_id": "T1_FISHSAUCE_LEVEL3",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T1_FISHSAUCE_LEVEL3",
+      "index": "189",
+      "name_en": "Special Fish Sauce",
+      "name_ar": "صلصلة سمك مميزة",
+      "name_de": "Spezielle Fischsauce",
+      "name_fr": "Sauce de poisson spéciale",
+      "name_es": "Salsa especial de pescado",
+      "name_ru": "Особый рыбный соус",
+      "descriptions": {
+        "description_en": "While cooking, add this sauce to any meal for greatly enhanced flavor!",
+        "description_ar": "في أثناء الطبخ، يمكنك إضافة هذه الصلصة إلى أي وجبة من أجل نكهة أطيب كثيرًا!",
+        "description_de": "Nur ein klein wenig beim Kochen zugeben, für eine deutliche Verbesserung des Geschmacks!",
+        "description_fr": "En cuisinant, utilisez cette sauce pour rajouter du goût à tous vos plats !",
+        "description_es": "¡Mientras cocinas, añade esta salsa a cualquier comida para aumentar aún más el sabor!",
+        "description_ru": "Добавьте этот соус в процессе приготовления любой еды для значительного улучшения вкуса!"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FISHSAUCE_LEVEL3",
+        "description_variable": "@ITEMS_FISHSAUCE_DESC"
+      },
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T1_FISHSAUCE_LEVEL3",
+        "descriptionlocatag": "@ITEMS_FISHSAUCE_DESC",
+        "uisprite": "FISHSAUCE_MAGIC",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "fish",
+        "tier": "1",
+        "resourcetype": "TOKEN",
+        "weight": "2",
+        "maxstacksize": "999",
+        "unlockedtocraft": "true",
+        "enchantmentlevel": "0",
+        "itemvalue": "0",
+        "shopsubcategory2": "other"
+      },
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Special Fish Sauce",
+        "DE-DE": "Spezielle Fischsauce",
+        "FR-FR": "Sauce de poisson spéciale",
+        "RU-RU": "Особый рыбный соус",
+        "PL-PL": "Specjalny Sos Rybny",
+        "ES-ES": "Salsa especial de pescado",
+        "PT-BR": "Molho de Peixe Especial",
+        "IT-IT": "Salsa di pesce speciale",
+        "ZH-CN": "特殊鱼酱",
+        "KO-KR": "특별한 피시 소스",
+        "JA-JP": "特製の魚醤",
+        "ZH-TW": "獨門魚醬",
+        "ID-ID": "Saus Ikan Istimewa",
+        "TR-TR": "Özel Balık Sosu",
+        "AR-SA": "صلصلة سمك مميزة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "While cooking, add this sauce to any meal for greatly enhanced flavor!",
+        "DE-DE": "Nur ein klein wenig beim Kochen zugeben, für eine deutliche Verbesserung des Geschmacks!",
+        "FR-FR": "En cuisinant, utilisez cette sauce pour rajouter du goût à tous vos plats !",
+        "RU-RU": "Добавьте этот соус в процессе приготовления любой еды для значительного улучшения вкуса!",
+        "PL-PL": "Dodaj ten sos podczas gotowania dowolnego dania, aby znacznie poprawić jego smak!",
+        "ES-ES": "¡Mientras cocinas, añade esta salsa a cualquier comida para aumentar aún más el sabor!",
+        "PT-BR": "Enquanto cozinha, adicione esse molho a qualquer refeição para aumentar ainda mais o sabor!",
+        "IT-IT": "Mentre cucini, aggiungila a qualsiasi pietanza per esaltarne il sapore!",
+        "ZH-CN": "烹饪任何食物时加一点这种酱料都可以大大提升风味！",
+        "KO-KR": "요리 시 이 소스를 추가하면 음식의 맛이 크게 향상됩니다!",
+        "JA-JP": "調理中にこのソースを加えれば、どんな料理も素晴らしい風味になります！",
+        "ZH-TW": "烹煮任何料理時，加入這個醬料都能大幅增添風味！",
+        "ID-ID": "Saat memasak, tambahkan saus ini ke makanan apa pun untuk meningkatkan cita rasa!",
+        "TR-TR": "Yemek hazırlarken yemeğin lezzetine lezzet katmak için bu sosu kullan!",
+        "AR-SA": "في أثناء الطبخ، يمكنك إضافة هذه الصلصة إلى أي وجبة من أجل نكهة أطيب كثيرًا!"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_FISHCHOPS",
+        "primary_count": 135,
+        "secondary_resource": "T1_SEAWEED",
+        "secondary_count": 9,
+        "resources": [
+          {
+            "id": "T1_FISHCHOPS",
+            "count": 135
+          },
+          {
+            "id": "T1_SEAWEED",
+            "count": 9
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.02,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T1_FISHCHOPS",
+            "count": 135
+          },
+          {
+            "id": "T1_SEAWEED",
+            "count": 9
+          }
+        ],
+        "primary_resource": "T1_FISHCHOPS",
+        "primary_count": 135,
+        "secondary_resource": "T1_SEAWEED",
+        "secondary_count": 9
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 1,
+        "weight": 2,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "fish",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": "FISHSAUCE_MAGIC"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FISHSAUCE_LEVEL3",
+        "item_database_index": "189"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Special Fish Sauce",
+        "name_ar": "صلصلة سمك مميزة",
+        "name_de": "Spezielle Fischsauce",
+        "name_fr": "Sauce de poisson spéciale",
+        "name_es": "Salsa de pescado especial",
+        "name_ru": "Особый рыбный соус"
+      },
+      "raw": {
+        "@uniquename": "T1_FISHSAUCE_LEVEL3",
+        "@descriptionlocatag": "@ITEMS_FISHSAUCE_DESC",
+        "@uisprite": "FISHSAUCE_MAGIC",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@tier": "1",
+        "@resourcetype": "TOKEN",
+        "@weight": "2",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@enchantmentlevel": "0",
+        "@itemvalue": "0",
+        "@shopsubcategory2": "other",
+        "craftingrequirements": {
+          "@time": "0.02",
+          "craftresource": [
+            {
+              "@uniquename": "T1_FISHCHOPS",
+              "@count": "135"
+            },
+            {
+              "@uniquename": "T1_SEAWEED",
+              "@count": "9"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

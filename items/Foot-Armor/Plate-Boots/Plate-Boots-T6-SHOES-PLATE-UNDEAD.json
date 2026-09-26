@@ -1,0 +1,3589 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Foot_Armor",
+  "family": "Foot_Armor_Plate_Boots",
+  "base_id": "T6_SHOES_PLATE_UNDEAD",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T6_SHOES_PLATE_UNDEAD",
+      "index": "3734",
+      "name_en": "Master's Graveguard Boots",
+      "name_ar": "أحذية حراس القبور الطويلة للخبير",
+      "name_de": "Grabwächterstiefel des Meisters",
+      "name_fr": "Bottes de gardetombe du maître",
+      "name_es": "Botas de guardatumbas del maestro",
+      "name_ru": "Могильные сапоги (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_SHOES_PLATE_UNDEAD",
+        "description_variable": "@ITEMS_T6_SHOES_PLATE_UNDEAD_DESC"
+      },
+      "category": "Foot_Armor_Plate_Boots",
+      "slot": "Shoes",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_SHOES_PLATE_UNDEAD",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "shoes",
+        "shopcategory": "shoes",
+        "shopsubcategory1": "plate_shoes",
+        "tier": "6",
+        "skincount": "2",
+        "weight": "3.8",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "30375",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "925",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "shoes",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "plate_shoes",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "shopsubcategory2": "shoes_plate_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Graveguard Boots",
+        "DE-DE": "Grabwächterstiefel des Meisters",
+        "FR-FR": "Bottes de gardetombe du maître",
+        "RU-RU": "Могильные сапоги (мастер)",
+        "PL-PL": "Buty Straży Grobowej Mistrza",
+        "ES-ES": "Botas de guardatumbas del maestro",
+        "PT-BR": "Botas de Guarda-tumbas do Mestre",
+        "IT-IT": "Stivali da guardatombe del maestro",
+        "ZH-CN": "大师级守墓人之靴",
+        "KO-KR": "마스터의 그레이브가드 부츠",
+        "JA-JP": "墓守のブーツ（マスター）",
+        "ZH-TW": "大師級守墓者靴子",
+        "ID-ID": "Bot Jagapusara Master",
+        "TR-TR": "Usta Mezar Bekçisi Çizmesi",
+        "AR-SA": "أحذية حراس القبور الطويلة للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.667,
+        "crafting_focus": 1313,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 925,
+        "ability_power": 100,
+        "durability": 30375,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 3.8,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "itempower_progression": "shoes"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BATTLEFRENZY",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SHOES",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BATTLEFRENZY",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SHOES",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_SHOES_PLATE_UNDEAD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1025,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1125,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1225,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1325,
+          "durability": 153773,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 925,
+      "effective_durability": 30375,
+      "shop": {
+        "shop_category": "shoes",
+        "shop_subcategory1": "plate_shoes",
+        "crafting_category": "plate_shoes",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+          "name_artifact_en": "Master's Ancient Bindings",
+          "name_artifact_ar": "أغلفة قديمة للخبير",
+          "name_artifact_de": "Uralte Bindungen des Meisters",
+          "name_artifact_fr": "Anciens liens du maître",
+          "name_artifact_es": "Ataduras antiguas del maestro",
+          "name_artifact_ru": "Древние крепления (мастер)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_SHOES_PLATE_UNDEAD",
+        "item_database_index": "3734"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Graveguard Boots",
+        "name_ar": "أحذية حراس القبور الطويلة للخبير",
+        "name_de": "Grabwächterstiefel des Meisters",
+        "name_fr": "Bottes de gardetombe du maître",
+        "name_es": "Botas de guardatumbas del maestro",
+        "name_ru": "Могильные сапоги (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_SHOES_PLATE_UNDEAD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "shoes",
+        "@shopcategory": "shoes",
+        "@shopsubcategory1": "plate_shoes",
+        "@tier": "6",
+        "@skincount": "2",
+        "@weight": "3.8",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "30375",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "925",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "shoes",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "plate_shoes",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "@shopsubcategory2": "shoes_plate_undead",
+        "craftingspelllist": {
+          "@reference": "T4_SHOES_PLATE_UNDEAD"
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "1313",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.667",
+            "@craftingfocus": "1313",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1025",
+              "@durability": "45563",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1125",
+              "@durability": "68344",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1225",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1325",
+              "@durability": "153773",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_SHOES_PLATE_UNDEAD@1",
+      "index": "3735",
+      "name_en": "Master's Graveguard Boots",
+      "name_ar": "أحذية حراس القبور الطويلة للخبير",
+      "name_de": "Grabwächterstiefel des Meisters",
+      "name_fr": "Bottes de gardetombe du maître",
+      "name_es": "Botas de guardatumbas del maestro",
+      "name_ru": "Могильные сапоги (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_SHOES_PLATE_UNDEAD",
+        "description_variable": "@ITEMS_T6_SHOES_PLATE_UNDEAD_DESC"
+      },
+      "category": "Foot_Armor_Plate_Boots",
+      "slot": "Shoes",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_SHOES_PLATE_UNDEAD",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "shoes",
+        "shopcategory": "shoes",
+        "shopsubcategory1": "plate_shoes",
+        "tier": "6",
+        "skincount": "2",
+        "weight": "3.8",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "30375",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "925",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "shoes",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "plate_shoes",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "shopsubcategory2": "shoes_plate_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Graveguard Boots",
+        "DE-DE": "Grabwächterstiefel des Meisters",
+        "FR-FR": "Bottes de gardetombe du maître",
+        "RU-RU": "Могильные сапоги (мастер)",
+        "PL-PL": "Buty Straży Grobowej Mistrza",
+        "ES-ES": "Botas de guardatumbas del maestro",
+        "PT-BR": "Botas de Guarda-tumbas do Mestre",
+        "IT-IT": "Stivali da guardatombe del maestro",
+        "ZH-CN": "大师级守墓人之靴",
+        "KO-KR": "마스터의 그레이브가드 부츠",
+        "JA-JP": "墓守のブーツ（マスター）",
+        "ZH-TW": "大師級守墓者靴子",
+        "ID-ID": "Bot Jagapusara Master",
+        "TR-TR": "Usta Mezar Bekçisi Çizmesi",
+        "AR-SA": "أحذية حراس القبور الطويلة للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.667,
+        "crafting_focus": 1313,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 925,
+        "ability_power": 100,
+        "durability": 30375,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 3.8,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "itempower_progression": "shoes"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BATTLEFRENZY",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SHOES",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BATTLEFRENZY",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SHOES",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_SHOES_PLATE_UNDEAD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1025,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1125,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1225,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1325,
+          "durability": 153773,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1025,
+        "durability": 45563,
+        "crafting_silver": 0,
+        "crafting_time": 0.833,
+        "crafting_focus": 2298,
+        "crafting_resources": [
+          {
+            "id": "T6_METALBAR_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_RUNE",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1025,
+      "effective_durability": 45563,
+      "shop": {
+        "shop_category": "shoes",
+        "shop_subcategory1": "plate_shoes",
+        "crafting_category": "plate_shoes",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+          "name_artifact_en": "Master's Ancient Bindings",
+          "name_artifact_ar": "أغلفة قديمة للخبير",
+          "name_artifact_de": "Uralte Bindungen des Meisters",
+          "name_artifact_fr": "Anciens liens du maître",
+          "name_artifact_es": "Ataduras antiguas del maestro",
+          "name_artifact_ru": "Древние крепления (мастер)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_SHOES_PLATE_UNDEAD@1",
+        "item_database_index": "3735"
+      },
+      "tier": 6,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Master's Graveguard Boots",
+        "name_ar": "أحذية حراس القبور الطويلة للخبير",
+        "name_de": "Grabwächterstiefel des Meisters",
+        "name_fr": "Bottes de gardetombe du maître",
+        "name_es": "Botas de guardatumbas del maestro",
+        "name_ru": "Могильные сапоги (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_SHOES_PLATE_UNDEAD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "shoes",
+        "@shopcategory": "shoes",
+        "@shopsubcategory1": "plate_shoes",
+        "@tier": "6",
+        "@skincount": "2",
+        "@weight": "3.8",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "30375",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "925",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "shoes",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "plate_shoes",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "@shopsubcategory2": "shoes_plate_undead",
+        "craftingspelllist": {
+          "@reference": "T4_SHOES_PLATE_UNDEAD"
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "1313",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.667",
+            "@craftingfocus": "1313",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1025",
+              "@durability": "45563",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1125",
+              "@durability": "68344",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1225",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1325",
+              "@durability": "153773",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_SHOES_PLATE_UNDEAD@2",
+      "index": "3736",
+      "name_en": "Master's Graveguard Boots",
+      "name_ar": "أحذية حراس القبور الطويلة للخبير",
+      "name_de": "Grabwächterstiefel des Meisters",
+      "name_fr": "Bottes de gardetombe du maître",
+      "name_es": "Botas de guardatumbas del maestro",
+      "name_ru": "Могильные сапоги (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_SHOES_PLATE_UNDEAD",
+        "description_variable": "@ITEMS_T6_SHOES_PLATE_UNDEAD_DESC"
+      },
+      "category": "Foot_Armor_Plate_Boots",
+      "slot": "Shoes",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_SHOES_PLATE_UNDEAD",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "shoes",
+        "shopcategory": "shoes",
+        "shopsubcategory1": "plate_shoes",
+        "tier": "6",
+        "skincount": "2",
+        "weight": "3.8",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "30375",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "925",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "shoes",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "plate_shoes",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "shopsubcategory2": "shoes_plate_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Graveguard Boots",
+        "DE-DE": "Grabwächterstiefel des Meisters",
+        "FR-FR": "Bottes de gardetombe du maître",
+        "RU-RU": "Могильные сапоги (мастер)",
+        "PL-PL": "Buty Straży Grobowej Mistrza",
+        "ES-ES": "Botas de guardatumbas del maestro",
+        "PT-BR": "Botas de Guarda-tumbas do Mestre",
+        "IT-IT": "Stivali da guardatombe del maestro",
+        "ZH-CN": "大师级守墓人之靴",
+        "KO-KR": "마스터의 그레이브가드 부츠",
+        "JA-JP": "墓守のブーツ（マスター）",
+        "ZH-TW": "大師級守墓者靴子",
+        "ID-ID": "Bot Jagapusara Master",
+        "TR-TR": "Usta Mezar Bekçisi Çizmesi",
+        "AR-SA": "أحذية حراس القبور الطويلة للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.667,
+        "crafting_focus": 1313,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 925,
+        "ability_power": 100,
+        "durability": 30375,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 3.8,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "itempower_progression": "shoes"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BATTLEFRENZY",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SHOES",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BATTLEFRENZY",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SHOES",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_SHOES_PLATE_UNDEAD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1025,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1125,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1225,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1325,
+          "durability": 153773,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1125,
+        "durability": 68344,
+        "crafting_silver": 0,
+        "crafting_time": 1.25,
+        "crafting_focus": 4021,
+        "crafting_resources": [
+          {
+            "id": "T6_METALBAR_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_SOUL",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1125,
+      "effective_durability": 68344,
+      "shop": {
+        "shop_category": "shoes",
+        "shop_subcategory1": "plate_shoes",
+        "crafting_category": "plate_shoes",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+          "name_artifact_en": "Master's Ancient Bindings",
+          "name_artifact_ar": "أغلفة قديمة للخبير",
+          "name_artifact_de": "Uralte Bindungen des Meisters",
+          "name_artifact_fr": "Anciens liens du maître",
+          "name_artifact_es": "Ataduras antiguas del maestro",
+          "name_artifact_ru": "Древние крепления (мастер)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_SHOES_PLATE_UNDEAD@2",
+        "item_database_index": "3736"
+      },
+      "tier": 6,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Master's Graveguard Boots",
+        "name_ar": "أحذية حراس القبور الطويلة للخبير",
+        "name_de": "Grabwächterstiefel des Meisters",
+        "name_fr": "Bottes de gardetombe du maître",
+        "name_es": "Botas de guardatumbas del maestro",
+        "name_ru": "Могильные сапоги (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_SHOES_PLATE_UNDEAD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "shoes",
+        "@shopcategory": "shoes",
+        "@shopsubcategory1": "plate_shoes",
+        "@tier": "6",
+        "@skincount": "2",
+        "@weight": "3.8",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "30375",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "925",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "shoes",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "plate_shoes",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "@shopsubcategory2": "shoes_plate_undead",
+        "craftingspelllist": {
+          "@reference": "T4_SHOES_PLATE_UNDEAD"
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "1313",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.667",
+            "@craftingfocus": "1313",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1025",
+              "@durability": "45563",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1125",
+              "@durability": "68344",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1225",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1325",
+              "@durability": "153773",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_SHOES_PLATE_UNDEAD@3",
+      "index": "3737",
+      "name_en": "Master's Graveguard Boots",
+      "name_ar": "أحذية حراس القبور الطويلة للخبير",
+      "name_de": "Grabwächterstiefel des Meisters",
+      "name_fr": "Bottes de gardetombe du maître",
+      "name_es": "Botas de guardatumbas del maestro",
+      "name_ru": "Могильные сапоги (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_SHOES_PLATE_UNDEAD",
+        "description_variable": "@ITEMS_T6_SHOES_PLATE_UNDEAD_DESC"
+      },
+      "category": "Foot_Armor_Plate_Boots",
+      "slot": "Shoes",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_SHOES_PLATE_UNDEAD",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "shoes",
+        "shopcategory": "shoes",
+        "shopsubcategory1": "plate_shoes",
+        "tier": "6",
+        "skincount": "2",
+        "weight": "3.8",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "30375",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "925",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "shoes",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "plate_shoes",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "shopsubcategory2": "shoes_plate_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Graveguard Boots",
+        "DE-DE": "Grabwächterstiefel des Meisters",
+        "FR-FR": "Bottes de gardetombe du maître",
+        "RU-RU": "Могильные сапоги (мастер)",
+        "PL-PL": "Buty Straży Grobowej Mistrza",
+        "ES-ES": "Botas de guardatumbas del maestro",
+        "PT-BR": "Botas de Guarda-tumbas do Mestre",
+        "IT-IT": "Stivali da guardatombe del maestro",
+        "ZH-CN": "大师级守墓人之靴",
+        "KO-KR": "마스터의 그레이브가드 부츠",
+        "JA-JP": "墓守のブーツ（マスター）",
+        "ZH-TW": "大師級守墓者靴子",
+        "ID-ID": "Bot Jagapusara Master",
+        "TR-TR": "Usta Mezar Bekçisi Çizmesi",
+        "AR-SA": "أحذية حراس القبور الطويلة للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.667,
+        "crafting_focus": 1313,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 925,
+        "ability_power": 100,
+        "durability": 30375,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 3.8,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "itempower_progression": "shoes"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BATTLEFRENZY",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SHOES",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BATTLEFRENZY",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SHOES",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_SHOES_PLATE_UNDEAD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1025,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1125,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1225,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1325,
+          "durability": 153773,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1225,
+        "durability": 102516,
+        "crafting_silver": 0,
+        "crafting_time": 1.5,
+        "crafting_focus": 7037,
+        "crafting_resources": [
+          {
+            "id": "T6_METALBAR_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_RELIC",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1225,
+      "effective_durability": 102516,
+      "shop": {
+        "shop_category": "shoes",
+        "shop_subcategory1": "plate_shoes",
+        "crafting_category": "plate_shoes",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+          "name_artifact_en": "Master's Ancient Bindings",
+          "name_artifact_ar": "أغلفة قديمة للخبير",
+          "name_artifact_de": "Uralte Bindungen des Meisters",
+          "name_artifact_fr": "Anciens liens du maître",
+          "name_artifact_es": "Ataduras antiguas del maestro",
+          "name_artifact_ru": "Древние крепления (мастер)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_SHOES_PLATE_UNDEAD@3",
+        "item_database_index": "3737"
+      },
+      "tier": 6,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Master's Graveguard Boots",
+        "name_ar": "أحذية حراس القبور الطويلة للخبير",
+        "name_de": "Grabwächterstiefel des Meisters",
+        "name_fr": "Bottes de gardetombe du maître",
+        "name_es": "Botas de guardatumbas del maestro",
+        "name_ru": "Могильные сапоги (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_SHOES_PLATE_UNDEAD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "shoes",
+        "@shopcategory": "shoes",
+        "@shopsubcategory1": "plate_shoes",
+        "@tier": "6",
+        "@skincount": "2",
+        "@weight": "3.8",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "30375",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "925",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "shoes",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "plate_shoes",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "@shopsubcategory2": "shoes_plate_undead",
+        "craftingspelllist": {
+          "@reference": "T4_SHOES_PLATE_UNDEAD"
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "1313",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.667",
+            "@craftingfocus": "1313",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1025",
+              "@durability": "45563",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1125",
+              "@durability": "68344",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1225",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1325",
+              "@durability": "153773",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_SHOES_PLATE_UNDEAD@4",
+      "index": "3738",
+      "name_en": "Master's Graveguard Boots",
+      "name_ar": "أحذية حراس القبور الطويلة للخبير",
+      "name_de": "Grabwächterstiefel des Meisters",
+      "name_fr": "Bottes de gardetombe du maître",
+      "name_es": "Botas de guardatumbas del maestro",
+      "name_ru": "Могильные сапоги (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_SHOES_PLATE_UNDEAD",
+        "description_variable": "@ITEMS_T6_SHOES_PLATE_UNDEAD_DESC"
+      },
+      "category": "Foot_Armor_Plate_Boots",
+      "slot": "Shoes",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_SHOES_PLATE_UNDEAD",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "shoes",
+        "shopcategory": "shoes",
+        "shopsubcategory1": "plate_shoes",
+        "tier": "6",
+        "skincount": "2",
+        "weight": "3.8",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "30375",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "925",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "shoes",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "plate_shoes",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "shopsubcategory2": "shoes_plate_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Graveguard Boots",
+        "DE-DE": "Grabwächterstiefel des Meisters",
+        "FR-FR": "Bottes de gardetombe du maître",
+        "RU-RU": "Могильные сапоги (мастер)",
+        "PL-PL": "Buty Straży Grobowej Mistrza",
+        "ES-ES": "Botas de guardatumbas del maestro",
+        "PT-BR": "Botas de Guarda-tumbas do Mestre",
+        "IT-IT": "Stivali da guardatombe del maestro",
+        "ZH-CN": "大师级守墓人之靴",
+        "KO-KR": "마스터의 그레이브가드 부츠",
+        "JA-JP": "墓守のブーツ（マスター）",
+        "ZH-TW": "大師級守墓者靴子",
+        "ID-ID": "Bot Jagapusara Master",
+        "TR-TR": "Usta Mezar Bekçisi Çizmesi",
+        "AR-SA": "أحذية حراس القبور الطويلة للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.667,
+        "crafting_focus": 1313,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 8,
+        "secondary_resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 925,
+        "ability_power": 100,
+        "durability": 30375,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 3.8,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "itempower_progression": "shoes"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BATTLEFRENZY",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SHOES",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DODGE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SPRINTHOT",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BATTLEFRENZY",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_SHOES",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MR_AR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_CCR",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_SHOES_PLATE_UNDEAD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1025,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1125,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1225,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1325,
+          "durability": 153773,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1325,
+        "durability": 153773,
+        "crafting_silver": 0,
+        "crafting_time": 1.8,
+        "crafting_focus": 12315,
+        "crafting_resources": [
+          {
+            "id": "T6_METALBAR_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1325,
+      "effective_durability": 153773,
+      "shop": {
+        "shop_category": "shoes",
+        "shop_subcategory1": "plate_shoes",
+        "crafting_category": "plate_shoes",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+          "name_artifact_en": "Master's Ancient Bindings",
+          "name_artifact_ar": "أغلفة قديمة للخبير",
+          "name_artifact_de": "Uralte Bindungen des Meisters",
+          "name_artifact_fr": "Anciens liens du maître",
+          "name_artifact_es": "Ataduras antiguas del maestro",
+          "name_artifact_ru": "Древние крепления (мастер)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_SHOES_PLATE_UNDEAD@4",
+        "item_database_index": "3738"
+      },
+      "tier": 6,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Master's Graveguard Boots",
+        "name_ar": "أحذية حراس القبور الطويلة للخبير",
+        "name_de": "Grabwächterstiefel des Meisters",
+        "name_fr": "Bottes de gardetombe du maître",
+        "name_es": "Botas de guardatumbas del maestro",
+        "name_ru": "Могильные сапоги (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_SHOES_PLATE_UNDEAD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "shoes",
+        "@shopcategory": "shoes",
+        "@shopsubcategory1": "plate_shoes",
+        "@tier": "6",
+        "@skincount": "2",
+        "@weight": "3.8",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "30375",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "925",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "shoes",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "plate_shoes",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_PLATE_SHOES_UNDEAD",
+        "@shopsubcategory2": "shoes_plate_undead",
+        "craftingspelllist": {
+          "@reference": "T4_SHOES_PLATE_UNDEAD"
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.667",
+            "@craftingfocus": "1313",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.667",
+            "@craftingfocus": "1313",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1025",
+              "@durability": "45563",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1125",
+              "@durability": "68344",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1225",
+              "@durability": "102516",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1325",
+              "@durability": "153773",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

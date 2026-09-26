@@ -1,0 +1,454 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T6_POTION_HEAL",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_POTION_HEAL",
+      "index": "546",
+      "name_en": "Major Healing Potion",
+      "name_ar": "جرعة علاج رئيسية",
+      "name_de": "Großer Lebenstrank",
+      "name_fr": "Potion de soin majeure",
+      "name_es": "Poción de curación mayor",
+      "name_ru": "Большой эликсир здоровья",
+      "descriptions": {
+        "description_en": "Glowing potion. Restores some Health over time.",
+        "description_ar": "جرعة الوهج. تسترد بعض الصحة بمرور الوقت.",
+        "description_de": "Ein leuchtender Trank. Stellt mit der Zeit etwas Leben wieder her.",
+        "description_fr": "Potion rutilante. Restaure un peu de santé sur la durée.",
+        "description_es": "Poción brillante. Restaura algo de Salud con el tiempo.",
+        "description_ru": "Сияющее зелье. Периодически восстанавливает немного здоровья."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_POTION_HEAL",
+        "description_variable": "@ITEMS_POTION_HEAL_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_POTION_HEAL",
+        "uisprite": "POTION_HEALTH",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_HEAL_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "6",
+        "dummyitempower": "900",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.87",
+        "descriptionlocatag": "@ITEMS_POTION_HEAL_DESC",
+        "shopsubcategory2": "heal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Major Healing Potion",
+        "DE-DE": "Großer Lebenstrank",
+        "FR-FR": "Potion de soin majeure",
+        "RU-RU": "Большой эликсир здоровья",
+        "PL-PL": "Większa Tynktura Lecząca",
+        "ES-ES": "Poción de curación mayor",
+        "PT-BR": "Poção de Cura Maior",
+        "IT-IT": "Pozione curativa maggiore",
+        "ZH-CN": "高级治疗药水",
+        "KO-KR": "대형 치유 포션",
+        "JA-JP": "治癒ポーション（大）",
+        "ZH-TW": "頂級治療藥水",
+        "ID-ID": "Ramuan Penyembuhan Mayor",
+        "TR-TR": "Güçlü İyileştirme İksiri",
+        "AR-SA": "جرعة علاج رئيسية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Glowing potion. Restores some Health over time.",
+        "DE-DE": "Ein leuchtender Trank. Stellt mit der Zeit etwas Leben wieder her.",
+        "FR-FR": "Potion rutilante. Restaure un peu de santé sur la durée.",
+        "RU-RU": "Сияющее зелье. Периодически восстанавливает немного здоровья.",
+        "PL-PL": "Świecąca mikstura. Przywraca czasowo Zdrowie.",
+        "ES-ES": "Poción brillante. Restaura algo de Salud con el tiempo.",
+        "PT-BR": "Poção brilhante. Restaura Vida com o tempo.",
+        "IT-IT": "Pozione luminosa. Rigenera un po' di salute nel tempo.",
+        "ZH-CN": "发出微光的药水。在一段时间内持续回复生命。",
+        "KO-KR": "빛나는 물약. 일부 체력을 시간에 걸쳐 회복합니다.",
+        "JA-JP": "光るポーション。時間経過で体力が少し回復する。",
+        "ZH-TW": "閃爍微光的藥水。使用後能隨時間回復一些生命值。",
+        "ID-ID": "Ramuan berkilau. Memulihkan beberapa HP seiring waktu.",
+        "TR-TR": "Parıldayan bir iksir. Zamanla bir miktar sağlık yeniler.",
+        "AR-SA": "جرعة الوهج. تسترد بعض الصحة بمرور الوقت."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_FOXGLOVE",
+        "primary_count": 72,
+        "secondary_resource": "T5_EGG",
+        "secondary_count": 18,
+        "resources": [
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 72
+          },
+          {
+            "id": "T5_EGG",
+            "count": 18
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "count": 18
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.7515,
+        "crafting_focus": 768,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 72
+          },
+          {
+            "id": "T5_EGG",
+            "count": 18
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "count": 18
+          }
+        ],
+        "primary_resource": "T6_FOXGLOVE",
+        "primary_count": 72,
+        "secondary_resource": "T5_EGG",
+        "secondary_count": 18
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 0.87,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 1.7515,
+          "crafting_focus": 968,
+          "crafting_resources": [
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_EGG",
+              "count": 18,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 45,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 1.7515,
+          "crafting_focus": 1369,
+          "crafting_resources": [
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_EGG",
+              "count": 18,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 45,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 1.7515,
+          "crafting_focus": 2570,
+          "crafting_resources": [
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_EGG",
+              "count": 18,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 45,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_HEALTH"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_POTION_HEAL",
+        "item_database_index": "546"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Major Healing Potion",
+        "name_ar": "جرعة علاج رئيسية",
+        "name_de": "Großer Lebenstrank",
+        "name_fr": "Potion de soin majeure",
+        "name_es": "Poción de curación mayor",
+        "name_ru": "Большой эликсир здоровья"
+      },
+      "raw": {
+        "@uniquename": "T6_POTION_HEAL",
+        "@uisprite": "POTION_HEALTH",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_HEAL_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "6",
+        "@dummyitempower": "900",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.87",
+        "@descriptionlocatag": "@ITEMS_POTION_HEAL_DESC",
+        "@shopsubcategory2": "heal",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "768",
+          "@time": "1.7515",
+          "craftresource": [
+            {
+              "@uniquename": "T6_FOXGLOVE",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T5_EGG",
+              "@count": "18"
+            },
+            {
+              "@uniquename": "T6_ALCOHOL",
+              "@count": "18"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_HEAL_P6",
+              "@dummyitempower": "1000",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "1.7515",
+                "@amountcrafted": "5",
+                "@craftingfocus": "968",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T6_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_HEAL_P7",
+              "@dummyitempower": "1100",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "1.7515",
+                "@amountcrafted": "5",
+                "@craftingfocus": "1369",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T6_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_HEAL_P8",
+              "@dummyitempower": "1200",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "1.7515",
+                "@amountcrafted": "5",
+                "@craftingfocus": "2570",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T6_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

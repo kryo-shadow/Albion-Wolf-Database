@@ -1,0 +1,532 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T7_POTION_STONESKIN",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T7_POTION_STONESKIN",
+      "index": "582",
+      "name_en": "Major Resistance Potion",
+      "name_ar": "جرعة مقاومة رئيسية",
+      "name_de": "Großer Resistenztrank",
+      "name_fr": "Potion de résistance majeure",
+      "name_es": "Poción de resistencia mayor",
+      "name_ru": "Большой эликсир защиты",
+      "descriptions": {
+        "description_en": "Sluggish potion. Increases defenses substantially for a short period.",
+        "description_ar": "جرعة بطيئة. تزيد الدفاعات زيادة هائلة لفترة قصيرة.",
+        "description_de": "Dickflüssiger Trank. Erhöht die Verteidigung für kurze Zeit beträchtlich.",
+        "description_fr": "Potion molle. Augmente considérablement les défenses pendant un instant.",
+        "description_es": "Poción lenta. Refuerza notablemente las defensas durante unos momentos.",
+        "description_ru": "Густой эликсир. На короткое время значительно усиливает защиту."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_POTION_STONESKIN",
+        "description_variable": "@ITEMS_POTION_STONESKIN_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_POTION_STONESKIN",
+        "uisprite": "POTION_RESISTANCE",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_RESISTANCE_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "7",
+        "dummyitempower": "1000",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.44",
+        "descriptionlocatag": "@ITEMS_POTION_STONESKIN_DESC",
+        "shopsubcategory2": "resistance"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Major Resistance Potion",
+        "DE-DE": "Großer Resistenztrank",
+        "FR-FR": "Potion de résistance majeure",
+        "RU-RU": "Большой эликсир защиты",
+        "PL-PL": "Większa Mikstura Odporności",
+        "ES-ES": "Poción de resistencia mayor",
+        "PT-BR": "Poção de Resistência Maior",
+        "IT-IT": "Pozione della resistenza maggiore",
+        "ZH-CN": "高级抗性药水",
+        "KO-KR": "대형 저항 포션",
+        "JA-JP": "耐性ポーション（大）",
+        "ZH-TW": "頂級抗性藥水",
+        "ID-ID": "Ramuan Daya Tahan Mayor",
+        "TR-TR": "Güçlü Direnç İksiri",
+        "AR-SA": "جرعة مقاومة رئيسية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sluggish potion. Increases defenses substantially for a short period.",
+        "DE-DE": "Dickflüssiger Trank. Erhöht die Verteidigung für kurze Zeit beträchtlich.",
+        "FR-FR": "Potion molle. Augmente considérablement les défenses pendant un instant.",
+        "RU-RU": "Густой эликсир. На короткое время значительно усиливает защиту.",
+        "PL-PL": "Mikstura ospałości. Na krótko znacznie wzmacnia obronę.",
+        "ES-ES": "Poción lenta. Refuerza notablemente las defensas durante unos momentos.",
+        "PT-BR": "Poção espessa. Aumenta substancialmente as defesas por um curto período.",
+        "IT-IT": "Pozione torbida. Aumenta notevolmente le difese per un breve periodo.",
+        "ZH-CN": "毫无生气的药水，短时大幅提升防御。",
+        "KO-KR": "진득한 포션. 단기간 동안 방어를 상당히 증가시킵니다.",
+        "JA-JP": "不活性ポーション。短時間、防御力が大幅に上昇します。",
+        "ZH-TW": "平平無奇的藥水。使用後能短時間大幅提升防禦力。",
+        "ID-ID": "Ramuan lamban. Memberi peningkatan besar untuk pertahanan untuk waktu singkat.",
+        "TR-TR": "Ağır bir iksir. Kısa bir süreliğine savunmayı önemli miktarda artırır.",
+        "AR-SA": "جرعة بطيئة. تزيد الدفاعات زيادة هائلة لفترة قصيرة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_MULLEIN",
+        "primary_count": 72,
+        "secondary_resource": "T6_FOXGLOVE",
+        "secondary_count": 36,
+        "resources": [
+          {
+            "id": "T7_MULLEIN",
+            "count": 72
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 36
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 36
+          },
+          {
+            "id": "T6_MILK",
+            "count": 18
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "count": 18
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.9035,
+        "crafting_focus": 1272,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_MULLEIN",
+            "count": 72
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 36
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 36
+          },
+          {
+            "id": "T6_MILK",
+            "count": 18
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "count": 18
+          }
+        ],
+        "primary_resource": "T7_MULLEIN",
+        "primary_count": 72,
+        "secondary_resource": "T6_FOXGLOVE",
+        "secondary_count": 36
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 7,
+        "weight": 1.44,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.9035,
+          "crafting_focus": 1472,
+          "crafting_resources": [
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_MILK",
+              "count": 18,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 45,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.9035,
+          "crafting_focus": 1873,
+          "crafting_resources": [
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_MILK",
+              "count": 18,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 45,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.9035,
+          "crafting_focus": 3073,
+          "crafting_resources": [
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_MILK",
+              "count": 18,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 45,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_RESISTANCE"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_POTION_STONESKIN",
+        "item_database_index": "582"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Major Resistance Potion",
+        "name_ar": "جرعة مقاومة رئيسية",
+        "name_de": "Großer Resistenztrank",
+        "name_fr": "Potion de résistance majeure",
+        "name_es": "Poción de resistencia mayor",
+        "name_ru": "Большой эликсир защиты"
+      },
+      "raw": {
+        "@uniquename": "T7_POTION_STONESKIN",
+        "@uisprite": "POTION_RESISTANCE",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_RESISTANCE_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "7",
+        "@dummyitempower": "1000",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.44",
+        "@descriptionlocatag": "@ITEMS_POTION_STONESKIN_DESC",
+        "@shopsubcategory2": "resistance",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "1272",
+          "@time": "2.9035",
+          "craftresource": [
+            {
+              "@uniquename": "T7_MULLEIN",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T6_FOXGLOVE",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T6_MILK",
+              "@count": "18"
+            },
+            {
+              "@uniquename": "T7_ALCOHOL",
+              "@count": "18"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_RESISTANCE_P6",
+              "@dummyitempower": "1100",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "2.9035",
+                "@amountcrafted": "5",
+                "@craftingfocus": "1472",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T6_MILK",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_RESISTANCE_P7",
+              "@dummyitempower": "1200",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "2.9035",
+                "@amountcrafted": "5",
+                "@craftingfocus": "1873",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T6_MILK",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_RESISTANCE_P8",
+              "@dummyitempower": "1300",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "2.9035",
+                "@amountcrafted": "5",
+                "@craftingfocus": "3073",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T6_MILK",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

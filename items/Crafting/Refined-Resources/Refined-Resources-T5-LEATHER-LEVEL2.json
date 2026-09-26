@@ -1,0 +1,243 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Refined_Resources",
+  "base_id": "T5_LEATHER_LEVEL2",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_LEATHER_LEVEL2",
+      "index": "1154",
+      "name_en": "Rare Cured Leather",
+      "name_ar": "جلد صناعي نادر",
+      "name_de": "Seltenes gegerbtes Leder",
+      "name_fr": "Cuir traité rare",
+      "name_es": "Cuero curtido raro",
+      "name_ru": "Редкая выделанная кожа",
+      "descriptions": {
+        "description_en": "Refined material used in crafting.",
+        "description_ar": "مادة معالجة تُستخدم في التصنيع.",
+        "description_de": "Weiterverarbeitetes Material das im Handwerk genutzt wird.",
+        "description_fr": "Matériau raffiné utilisé dans l'artisanat.",
+        "description_es": "Material refinado utilizado para la fabricación.",
+        "description_ru": "Обработанный материал, используемый в ремесле."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_LEATHER_LEVEL2",
+        "description_variable": "@ITEMS_REFINED_RESOURCE_DESC"
+      },
+      "category": "Crafting_Refined_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_LEATHER_LEVEL2",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "refinedresources",
+        "craftingcategory": "hide",
+        "tier": "5",
+        "enchantmentlevel": "2",
+        "weight": "0.76",
+        "maxstacksize": "999",
+        "fasttravelfactor": "16",
+        "itemvalue": "128",
+        "descriptionlocatag": "@ITEMS_REFINED_RESOURCE_DESC",
+        "shopsubcategory2": "leather"
+      },
+      "item_stats": {
+        "itemvalue": "128",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Rare Cured Leather",
+        "DE-DE": "Seltenes gegerbtes Leder",
+        "FR-FR": "Cuir traité rare",
+        "RU-RU": "Редкая выделанная кожа",
+        "PL-PL": "Rzadka Suszona Skóra",
+        "ES-ES": "Cuero curtido raro",
+        "PT-BR": "Couro Curtido Raro",
+        "IT-IT": "Cuoio trattato raro",
+        "ZH-CN": "稀有鞣制皮革",
+        "KO-KR": "레어 보존 처리된 피혁",
+        "JA-JP": "保存された革（レア）",
+        "ZH-TW": "稀有鞣製皮革",
+        "ID-ID": "Kulit Awetan Langka",
+        "TR-TR": "Nadir Kurutulmuş Deri",
+        "AR-SA": "جلد صناعي نادر"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Refined material used in crafting.",
+        "DE-DE": "Weiterverarbeitetes Material das im Handwerk genutzt wird.",
+        "FR-FR": "Matériau raffiné utilisé dans l'artisanat.",
+        "RU-RU": "Обработанный материал, используемый в ремесле.",
+        "PL-PL": "Ulepszony materiał wykorzystywany w rzemiośle.",
+        "ES-ES": "Material refinado utilizado para la fabricación.",
+        "PT-BR": "Material refinado usado em fabricação.",
+        "IT-IT": "Materiale raffinato usato nella creazione.",
+        "ZH-CN": "用于制造的精制材料。",
+        "KO-KR": "제작에 사용되는 일반적인 정제 원료.",
+        "JA-JP": "クラフトに使用される精製材料。",
+        "ZH-TW": "用於製作的精煉材料。",
+        "ID-ID": "Material yang telah disempurnakan dan digunakan dalam crafting.",
+        "TR-TR": "Zanaat işlemlerinde kullanılan, işlenmiş bir malzeme.",
+        "AR-SA": "مادة معالجة تُستخدم في التصنيع."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_HIDE_LEVEL2",
+        "primary_count": 3,
+        "secondary_resource": "T4_LEATHER_LEVEL2",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T5_HIDE_LEVEL2",
+            "count": 3
+          },
+          {
+            "id": "T4_LEATHER_LEVEL2",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.10417,
+        "crafting_focus": 287,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_HIDE_LEVEL2",
+            "count": 3
+          },
+          {
+            "id": "T4_LEATHER_LEVEL2",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_HIDE_LEVEL2",
+        "primary_count": 3,
+        "secondary_resource": "T4_LEATHER_LEVEL2",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 0.76,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "refinedresources",
+        "crafting_category": "hide",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_LEATHER_LEVEL2",
+        "item_database_index": "1154"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Rare Cured Leather",
+        "name_ar": "جلد صناعي نادر",
+        "name_de": "Seltenes gegerbtes Leder",
+        "name_fr": "Cuir traité rare",
+        "name_es": "Cuero curtido raro",
+        "name_ru": "Редкая выделанная кожа"
+      },
+      "raw": {
+        "@uniquename": "T5_LEATHER_LEVEL2",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "refinedresources",
+        "@craftingcategory": "hide",
+        "@tier": "5",
+        "@enchantmentlevel": "2",
+        "@weight": "0.76",
+        "@maxstacksize": "999",
+        "@fasttravelfactor": "16",
+        "@itemvalue": "128",
+        "@descriptionlocatag": "@ITEMS_REFINED_RESOURCE_DESC",
+        "@shopsubcategory2": "leather",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.10417",
+            "@craftingfocus": "287",
+            "@amountcrafted": "1",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T5_HIDE_LEVEL2",
+                "@enchantmentlevel": "2",
+                "@count": "3"
+              },
+              {
+                "@uniquename": "T4_LEATHER_LEVEL2",
+                "@enchantmentlevel": "2",
+                "@count": "1"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.10417",
+            "@craftingfocus": "287",
+            "@amountcrafted": "1",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T5_HIDE_LEVEL2",
+                "@enchantmentlevel": "2",
+                "@count": "2"
+              },
+              {
+                "@uniquename": "T1_FACTION_STEPPE_TOKEN_1",
+                "@count": "1"
+              },
+              {
+                "@uniquename": "T4_LEATHER_LEVEL2",
+                "@enchantmentlevel": "2",
+                "@count": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

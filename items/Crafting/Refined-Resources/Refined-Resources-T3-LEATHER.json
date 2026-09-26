@@ -1,0 +1,216 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Refined_Resources",
+  "base_id": "T3_LEATHER",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_LEATHER",
+      "index": "1142",
+      "name_en": "Thick Leather",
+      "name_ar": "جلد سميك",
+      "name_de": "Dickes Leder",
+      "name_fr": "Cuir épais",
+      "name_es": "Cuero grueso",
+      "name_ru": "Толстая кожа",
+      "descriptions": {
+        "description_en": "Advanced material used in crafting, created by refining hide.",
+        "description_ar": "مادة متطورة تُستخدم في التصنيع، تنتج من معالجة الجلد.",
+        "description_de": "Fortgeschrittenes Material fürs Handwerk, hergestellt durch die Veredlung von Fell.",
+        "description_fr": "Matériau avancé utilisé dans la fabrication, créé à partir de cuir raffiné.",
+        "description_es": "Material avanzado utilizado en fabricación, creado al refinar pieles",
+        "description_ru": "Продвинутый материал для крафта, создаваемый при переработке шкур."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_LEATHER",
+        "description_variable": "@ITEMS_T3_LEATHER_DESC"
+      },
+      "category": "Crafting_Refined_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_LEATHER",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "refinedresources",
+        "craftingcategory": "hide",
+        "tier": "3",
+        "weight": "0.34",
+        "maxstacksize": "999",
+        "fasttravelfactor": "1",
+        "itemvalue": "8",
+        "enchantmentlevel": "0",
+        "shopsubcategory2": "leather"
+      },
+      "item_stats": {
+        "itemvalue": "8",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Thick Leather",
+        "DE-DE": "Dickes Leder",
+        "FR-FR": "Cuir épais",
+        "RU-RU": "Толстая кожа",
+        "PL-PL": "Gruba Skóra",
+        "ES-ES": "Cuero grueso",
+        "PT-BR": "Couro Grosso",
+        "IT-IT": "Cuoio spesso",
+        "ZH-CN": "厚皮革",
+        "KO-KR": "두꺼운 피혁",
+        "JA-JP": "分厚い革",
+        "ZH-TW": "厚實皮革",
+        "ID-ID": "Kulit Tebal",
+        "TR-TR": "Kalın Deri",
+        "AR-SA": "جلد سميك"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Advanced material used in crafting, created by refining hide.",
+        "DE-DE": "Fortgeschrittenes Material fürs Handwerk, hergestellt durch die Veredlung von Fell.",
+        "FR-FR": "Matériau avancé utilisé dans la fabrication, créé à partir de cuir raffiné.",
+        "RU-RU": "Продвинутый материал для крафта, создаваемый при переработке шкур.",
+        "PL-PL": "Zaawansowany surowiec używany w rzemiośle, powstaje z przeróbki skór zwierzęcych.",
+        "ES-ES": "Material avanzado utilizado en fabricación, creado al refinar pieles",
+        "PT-BR": "Material avançado usado na fabricação, criado ao refinar pelego.",
+        "IT-IT": "Materiale di livello avanzato, utile nelle attività di creazione e ottenuto raffinando pelli.",
+        "ZH-CN": "进阶材料，通过加工兽皮制成，用于制造。",
+        "KO-KR": "제작에 사용되는 고급 재료로, 가죽을 제련해서 만듭니다.",
+        "JA-JP": "製造に使われる高等な資材。生皮を加工して製造されます。",
+        "ZH-TW": "用於製作的進階材料，由獸皮精煉而來。",
+        "ID-ID": "Bahan tingkat lanjut yang digunakan dalam crafting, dibuat dengan menyempurnakan kulit mentah.",
+        "TR-TR": "İşlenmiş kürkten elde edilmiş, zanaat işlemlerinde kullanılan gelişmiş bir malzeme.",
+        "AR-SA": "مادة متطورة تُستخدم في التصنيع، تنتج من معالجة الجلد."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_HIDE",
+        "primary_count": 2,
+        "secondary_resource": "T2_LEATHER",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T3_HIDE",
+            "count": 2
+          },
+          {
+            "id": "T2_LEATHER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.03125,
+        "crafting_focus": 31,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_HIDE",
+            "count": 2
+          },
+          {
+            "id": "T2_LEATHER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_HIDE",
+        "primary_count": 2,
+        "secondary_resource": "T2_LEATHER",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 0.34,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "refinedresources",
+        "crafting_category": "hide",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_LEATHER",
+        "item_database_index": "1142"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Thick Leather",
+        "name_ar": "جلد سميك",
+        "name_de": "Dickes Leder",
+        "name_fr": "Cuir épais",
+        "name_es": "Cuero grueso",
+        "name_ru": "Толстая кожа"
+      },
+      "raw": {
+        "@uniquename": "T3_LEATHER",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "refinedresources",
+        "@craftingcategory": "hide",
+        "@tier": "3",
+        "@weight": "0.34",
+        "@maxstacksize": "999",
+        "@fasttravelfactor": "1",
+        "@itemvalue": "8",
+        "@enchantmentlevel": "0",
+        "@shopsubcategory2": "leather",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.03125",
+          "@craftingfocus": "31",
+          "@amountcrafted": "1",
+          "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+          "craftresource": [
+            {
+              "@uniquename": "T3_HIDE",
+              "@count": "2",
+              "@enchantmentlevel": "0"
+            },
+            {
+              "@uniquename": "T2_LEATHER",
+              "@count": "1",
+              "@enchantmentlevel": "0"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,2624 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Hide",
+  "base_id": "T8_BACKPACK_GATHERER_HIDE",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T8_BACKPACK_GATHERER_HIDE",
+      "index": "5759",
+      "name_en": "Elder's Skinner Backpack",
+      "name_ar": "حقيبة ظهر الدبّاغ الحكيم",
+      "name_de": "Kürschnerrucksack des Ältesten",
+      "name_fr": "Sac à dos de dépeceur de sage",
+      "name_es": "Mochila de peletero del anciano",
+      "name_ru": "Рюкзак свежевателя (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_BACKPACK_GATHERER_HIDE",
+        "description_variable": "@ITEMS_T8_BACKPACK_GATHERER_HIDE_DESC"
+      },
+      "category": "Gathering_Hide",
+      "slot": "Cape",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_BACKPACK_GATHERER_HIDE",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "cape",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "hide",
+        "tier": "8",
+        "weight": "8.5",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "50119",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "bag",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_capes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Skinner Backpack",
+        "DE-DE": "Kürschnerrucksack des Ältesten",
+        "FR-FR": "Sac à dos de dépeceur de sage",
+        "RU-RU": "Рюкзак свежевателя (старейшина)",
+        "PL-PL": "Plecak Skórnika Starszego",
+        "ES-ES": "Mochila de peletero del anciano",
+        "PT-BR": "Mochila do Esfolador Ancião",
+        "IT-IT": "Zaino da scuoiatore dell'anziano",
+        "ZH-CN": "禅师级剥皮双肩包",
+        "KO-KR": "장로의 가죽공 백팩",
+        "JA-JP": "皮剥ぎ屋のバックパック（老熟）",
+        "ZH-TW": "禪師級剝皮匠後背包",
+        "ID-ID": "Tas Punggung Pengulit Tetua",
+        "TR-TR": "Yüce Deri Yüzücü Sırt Çantası",
+        "AR-SA": "حقيبة ظهر الدبّاغ الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 50119,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 8.5,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "bag"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_HIDE_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_HIDE_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 75179,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 112768,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 169152,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 253727,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 37715,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 50119,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "hide",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_BACKPACK_GATHERER_HIDE",
+        "item_database_index": "5759"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Skinner Backpack",
+        "name_ar": "حقيبة ظهر الدبّاغ الحكيم",
+        "name_de": "Kürschnerrucksack des Ältesten",
+        "name_fr": "Sac à dos de dépeceur du sage",
+        "name_es": "Mochila de peletero del anciano",
+        "name_ru": "Рюкзак свежевателя (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_BACKPACK_GATHERER_HIDE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "cape",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "hide",
+        "@tier": "8",
+        "@weight": "8.5",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "50119",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "bag",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_capes",
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_BACKPACK_HIDE_T8"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "75179",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "7037",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "112768",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.8",
+                "@craftingfocus": "12315",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "169152",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.16",
+                "@craftingfocus": "21551",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "253727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.52",
+                "@craftingfocus": "37715",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_BACKPACK_GATHERER_HIDE@1",
+      "index": "5760",
+      "name_en": "Elder's Skinner Backpack",
+      "name_ar": "حقيبة ظهر الدبّاغ الحكيم",
+      "name_de": "Kürschnerrucksack des Ältesten",
+      "name_fr": "Sac à dos de dépeceur de sage",
+      "name_es": "Mochila de peletero del anciano",
+      "name_ru": "Рюкзак свежевателя (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_BACKPACK_GATHERER_HIDE",
+        "description_variable": "@ITEMS_T8_BACKPACK_GATHERER_HIDE_DESC"
+      },
+      "category": "Gathering_Hide",
+      "slot": "Cape",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_BACKPACK_GATHERER_HIDE",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "cape",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "hide",
+        "tier": "8",
+        "weight": "8.5",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "50119",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "bag",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_capes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Skinner Backpack",
+        "DE-DE": "Kürschnerrucksack des Ältesten",
+        "FR-FR": "Sac à dos de dépeceur de sage",
+        "RU-RU": "Рюкзак свежевателя (старейшина)",
+        "PL-PL": "Plecak Skórnika Starszego",
+        "ES-ES": "Mochila de peletero del anciano",
+        "PT-BR": "Mochila do Esfolador Ancião",
+        "IT-IT": "Zaino da scuoiatore dell'anziano",
+        "ZH-CN": "禅师级剥皮双肩包",
+        "KO-KR": "장로의 가죽공 백팩",
+        "JA-JP": "皮剥ぎ屋のバックパック（老熟）",
+        "ZH-TW": "禪師級剝皮匠後背包",
+        "ID-ID": "Tas Punggung Pengulit Tetua",
+        "TR-TR": "Yüce Deri Yüzücü Sırt Çantası",
+        "AR-SA": "حقيبة ظهر الدبّاغ الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 50119,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 8.5,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "bag"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_HIDE_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_HIDE_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 75179,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 112768,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 169152,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 253727,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 37715,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1200,
+        "durability": 75179,
+        "crafting_silver": 0,
+        "crafting_time": 1.5,
+        "crafting_focus": 7037,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T8_LEATHER_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RUNE",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 75179,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "hide",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_BACKPACK_GATHERER_HIDE@1",
+        "item_database_index": "5760"
+      },
+      "tier": 8,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Elder's Skinner Backpack",
+        "name_ar": "حقيبة ظهر الدبّاغ الحكيم",
+        "name_de": "Kürschnerrucksack des Ältesten",
+        "name_fr": "Sac à dos de dépeceur du sage",
+        "name_es": "Mochila de peletero del anciano",
+        "name_ru": "Рюкзак свежевателя (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_BACKPACK_GATHERER_HIDE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "cape",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "hide",
+        "@tier": "8",
+        "@weight": "8.5",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "50119",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "bag",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_capes",
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_BACKPACK_HIDE_T8"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "75179",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "7037",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "112768",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.8",
+                "@craftingfocus": "12315",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "169152",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.16",
+                "@craftingfocus": "21551",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "253727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.52",
+                "@craftingfocus": "37715",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_BACKPACK_GATHERER_HIDE@2",
+      "index": "5761",
+      "name_en": "Elder's Skinner Backpack",
+      "name_ar": "حقيبة ظهر الدبّاغ الحكيم",
+      "name_de": "Kürschnerrucksack des Ältesten",
+      "name_fr": "Sac à dos de dépeceur de sage",
+      "name_es": "Mochila de peletero del anciano",
+      "name_ru": "Рюкзак свежевателя (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_BACKPACK_GATHERER_HIDE",
+        "description_variable": "@ITEMS_T8_BACKPACK_GATHERER_HIDE_DESC"
+      },
+      "category": "Gathering_Hide",
+      "slot": "Cape",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_BACKPACK_GATHERER_HIDE",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "cape",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "hide",
+        "tier": "8",
+        "weight": "8.5",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "50119",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "bag",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_capes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Skinner Backpack",
+        "DE-DE": "Kürschnerrucksack des Ältesten",
+        "FR-FR": "Sac à dos de dépeceur de sage",
+        "RU-RU": "Рюкзак свежевателя (старейшина)",
+        "PL-PL": "Plecak Skórnika Starszego",
+        "ES-ES": "Mochila de peletero del anciano",
+        "PT-BR": "Mochila do Esfolador Ancião",
+        "IT-IT": "Zaino da scuoiatore dell'anziano",
+        "ZH-CN": "禅师级剥皮双肩包",
+        "KO-KR": "장로의 가죽공 백팩",
+        "JA-JP": "皮剥ぎ屋のバックパック（老熟）",
+        "ZH-TW": "禪師級剝皮匠後背包",
+        "ID-ID": "Tas Punggung Pengulit Tetua",
+        "TR-TR": "Yüce Deri Yüzücü Sırt Çantası",
+        "AR-SA": "حقيبة ظهر الدبّاغ الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 50119,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 8.5,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "bag"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_HIDE_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_HIDE_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 75179,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 112768,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 169152,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 253727,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 37715,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1300,
+        "durability": 112768,
+        "crafting_silver": 0,
+        "crafting_time": 1.8,
+        "crafting_focus": 12315,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T8_LEATHER_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_SOUL",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 112768,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "hide",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_BACKPACK_GATHERER_HIDE@2",
+        "item_database_index": "5761"
+      },
+      "tier": 8,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Elder's Skinner Backpack",
+        "name_ar": "حقيبة ظهر الدبّاغ الحكيم",
+        "name_de": "Kürschnerrucksack des Ältesten",
+        "name_fr": "Sac à dos de dépeceur du sage",
+        "name_es": "Mochila de peletero del anciano",
+        "name_ru": "Рюкзак свежевателя (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_BACKPACK_GATHERER_HIDE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "cape",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "hide",
+        "@tier": "8",
+        "@weight": "8.5",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "50119",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "bag",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_capes",
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_BACKPACK_HIDE_T8"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "75179",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "7037",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "112768",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.8",
+                "@craftingfocus": "12315",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "169152",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.16",
+                "@craftingfocus": "21551",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "253727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.52",
+                "@craftingfocus": "37715",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_BACKPACK_GATHERER_HIDE@3",
+      "index": "5762",
+      "name_en": "Elder's Skinner Backpack",
+      "name_ar": "حقيبة ظهر الدبّاغ الحكيم",
+      "name_de": "Kürschnerrucksack des Ältesten",
+      "name_fr": "Sac à dos de dépeceur de sage",
+      "name_es": "Mochila de peletero del anciano",
+      "name_ru": "Рюкзак свежевателя (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_BACKPACK_GATHERER_HIDE",
+        "description_variable": "@ITEMS_T8_BACKPACK_GATHERER_HIDE_DESC"
+      },
+      "category": "Gathering_Hide",
+      "slot": "Cape",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_BACKPACK_GATHERER_HIDE",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "cape",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "hide",
+        "tier": "8",
+        "weight": "8.5",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "50119",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "bag",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_capes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Skinner Backpack",
+        "DE-DE": "Kürschnerrucksack des Ältesten",
+        "FR-FR": "Sac à dos de dépeceur de sage",
+        "RU-RU": "Рюкзак свежевателя (старейшина)",
+        "PL-PL": "Plecak Skórnika Starszego",
+        "ES-ES": "Mochila de peletero del anciano",
+        "PT-BR": "Mochila do Esfolador Ancião",
+        "IT-IT": "Zaino da scuoiatore dell'anziano",
+        "ZH-CN": "禅师级剥皮双肩包",
+        "KO-KR": "장로의 가죽공 백팩",
+        "JA-JP": "皮剥ぎ屋のバックパック（老熟）",
+        "ZH-TW": "禪師級剝皮匠後背包",
+        "ID-ID": "Tas Punggung Pengulit Tetua",
+        "TR-TR": "Yüce Deri Yüzücü Sırt Çantası",
+        "AR-SA": "حقيبة ظهر الدبّاغ الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 50119,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 8.5,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "bag"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_HIDE_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_HIDE_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 75179,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 112768,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 169152,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 253727,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 37715,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1400,
+        "durability": 169152,
+        "crafting_silver": 0,
+        "crafting_time": 2.16,
+        "crafting_focus": 21551,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T8_LEATHER_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RELIC",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 169152,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "hide",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_BACKPACK_GATHERER_HIDE@3",
+        "item_database_index": "5762"
+      },
+      "tier": 8,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Elder's Skinner Backpack",
+        "name_ar": "حقيبة ظهر الدبّاغ الحكيم",
+        "name_de": "Kürschnerrucksack des Ältesten",
+        "name_fr": "Sac à dos de dépeceur du sage",
+        "name_es": "Mochila de peletero del anciano",
+        "name_ru": "Рюкзак свежевателя (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_BACKPACK_GATHERER_HIDE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "cape",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "hide",
+        "@tier": "8",
+        "@weight": "8.5",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "50119",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "bag",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_capes",
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_BACKPACK_HIDE_T8"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "75179",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "7037",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "112768",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.8",
+                "@craftingfocus": "12315",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "169152",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.16",
+                "@craftingfocus": "21551",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "253727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.52",
+                "@craftingfocus": "37715",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_BACKPACK_GATHERER_HIDE@4",
+      "index": "5763",
+      "name_en": "Elder's Skinner Backpack",
+      "name_ar": "حقيبة ظهر الدبّاغ الحكيم",
+      "name_de": "Kürschnerrucksack des Ältesten",
+      "name_fr": "Sac à dos de dépeceur de sage",
+      "name_es": "Mochila de peletero del anciano",
+      "name_ru": "Рюкзак свежевателя (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_BACKPACK_GATHERER_HIDE",
+        "description_variable": "@ITEMS_T8_BACKPACK_GATHERER_HIDE_DESC"
+      },
+      "category": "Gathering_Hide",
+      "slot": "Cape",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_BACKPACK_GATHERER_HIDE",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "cape",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "hide",
+        "tier": "8",
+        "weight": "8.5",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "durability": "50119",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "bag",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_capes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Skinner Backpack",
+        "DE-DE": "Kürschnerrucksack des Ältesten",
+        "FR-FR": "Sac à dos de dépeceur de sage",
+        "RU-RU": "Рюкзак свежевателя (старейшина)",
+        "PL-PL": "Plecak Skórnika Starszego",
+        "ES-ES": "Mochila de peletero del anciano",
+        "PT-BR": "Mochila do Esfolador Ancião",
+        "IT-IT": "Zaino da scuoiatore dell'anziano",
+        "ZH-CN": "禅师级剥皮双肩包",
+        "KO-KR": "장로의 가죽공 백팩",
+        "JA-JP": "皮剥ぎ屋のバックパック（老熟）",
+        "ZH-TW": "禪師級剝皮匠後背包",
+        "ID-ID": "Tas Punggung Pengulit Tetua",
+        "TR-TR": "Yüce Deri Yüzücü Sırt Çantası",
+        "AR-SA": "حقيبة ظهر الدبّاغ الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 50119,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 8.5,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "bag"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_HIDE_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BACKPACK_HIDE_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 75179,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 112768,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 169152,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 253727,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 37715,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1500,
+        "durability": 253727,
+        "crafting_silver": 0,
+        "crafting_time": 2.52,
+        "crafting_focus": 37715,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T8_LEATHER_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1500,
+      "effective_durability": 253727,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "hide",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_BACKPACK_GATHERER_HIDE@4",
+        "item_database_index": "5763"
+      },
+      "tier": 8,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Elder's Skinner Backpack",
+        "name_ar": "حقيبة ظهر الدبّاغ الحكيم",
+        "name_de": "Kürschnerrucksack des Ältesten",
+        "name_fr": "Sac à dos de dépeceur du sage",
+        "name_es": "Mochila de peletero del anciano",
+        "name_ru": "Рюкзак свежевателя (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_BACKPACK_GATHERER_HIDE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "cape",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "hide",
+        "@tier": "8",
+        "@weight": "8.5",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@durability": "50119",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "bag",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_capes",
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_BACKPACK_HIDE_T8"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "75179",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "7037",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "112768",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.8",
+                "@craftingfocus": "12315",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "169152",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.16",
+                "@craftingfocus": "21551",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "253727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.52",
+                "@craftingfocus": "37715",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

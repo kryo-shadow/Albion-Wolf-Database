@@ -1,0 +1,3514 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Off_Hands",
+  "family": "Off_Hands_Mage",
+  "base_id": "T4_OFF_TOTEM_KEEPER",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_OFF_TOTEM_KEEPER",
+      "index": "2281",
+      "name_en": "Adept's Taproot",
+      "name_ar": "كتاب الجذور للبارع",
+      "name_de": "Pfahlwurzel des Adepten",
+      "name_fr": "Racine pivot de l'adepte",
+      "name_es": "Raíz primaria del iniciado",
+      "name_ru": "Корень природы (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_OFF_TOTEM_KEEPER",
+        "description_variable": "@ITEMS_T4_OFF_TOTEM_KEEPER_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_OFF_TOTEM_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "24300",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "totem",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "healmodifier": "-0.0064",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "775",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "totem",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "showinmarketplace": "true",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_BOOKS_KEEPER",
+        "shopsubcategory2": "booktype_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Taproot",
+        "DE-DE": "Pfahlwurzel des Adepten",
+        "FR-FR": "Racine pivot de l'adepte",
+        "RU-RU": "Корень природы (знаток)",
+        "PL-PL": "Korzeń Adepta",
+        "ES-ES": "Raíz primaria del iniciado",
+        "PT-BR": "Raiz Mestra do Adepto",
+        "IT-IT": "Fittone del sapiente",
+        "ZH-CN": "老手级萨满祭环",
+        "KO-KR": "숙련자의 탭루트",
+        "JA-JP": "タップルート（名人）",
+        "ZH-TW": "老手級祭祀環",
+        "ID-ID": "Akar Tunggang Mahir",
+        "TR-TR": "Ehil Kökceziri",
+        "AR-SA": "كتاب الجذور للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 775,
+        "ability_power": 100,
+        "durability": 24300,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": -0.0064,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_KEEPER",
+        "itempower_progression": "totem"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 875,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 975,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1075,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1175,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 775,
+      "effective_durability": 24300,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+          "name_artifact_en": "Adept's Inscribed Stone",
+          "name_artifact_ar": "الحجر المنقوش للبارع",
+          "name_artifact_de": "Beschrifteter Stein des Adepten",
+          "name_artifact_fr": "Pierre gravée de l'adepte",
+          "name_artifact_es": "Piedra inscrita del iniciado",
+          "name_artifact_ru": "Расписанный камень (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_OFF_TOTEM_KEEPER",
+        "item_database_index": "2281"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Taproot",
+        "name_ar": "كتاب الجذور للبارع",
+        "name_de": "Pfahlwurzel des Adepten",
+        "name_fr": "Racine pivot de l'adepte",
+        "name_es": "Raíz primaria del iniciado",
+        "name_ru": "Корень природы (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_OFF_TOTEM_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "24300",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "totem",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@healmodifier": "-0.0064",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "775",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "totem",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "true",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_BOOKS_KEEPER",
+        "@shopsubcategory2": "booktype_keeper",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "875",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "975",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1075",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1175",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_OFF_TOTEM_KEEPER@1",
+      "index": "2282",
+      "name_en": "Adept's Taproot",
+      "name_ar": "كتاب الجذور للبارع",
+      "name_de": "Pfahlwurzel des Adepten",
+      "name_fr": "Racine pivot de l'adepte",
+      "name_es": "Raíz primaria del iniciado",
+      "name_ru": "Корень природы (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_OFF_TOTEM_KEEPER",
+        "description_variable": "@ITEMS_T4_OFF_TOTEM_KEEPER_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_OFF_TOTEM_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "24300",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "totem",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "healmodifier": "-0.0064",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "775",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "totem",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "showinmarketplace": "true",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_BOOKS_KEEPER",
+        "shopsubcategory2": "booktype_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Taproot",
+        "DE-DE": "Pfahlwurzel des Adepten",
+        "FR-FR": "Racine pivot de l'adepte",
+        "RU-RU": "Корень природы (знаток)",
+        "PL-PL": "Korzeń Adepta",
+        "ES-ES": "Raíz primaria del iniciado",
+        "PT-BR": "Raiz Mestra do Adepto",
+        "IT-IT": "Fittone del sapiente",
+        "ZH-CN": "老手级萨满祭环",
+        "KO-KR": "숙련자의 탭루트",
+        "JA-JP": "タップルート（名人）",
+        "ZH-TW": "老手級祭祀環",
+        "ID-ID": "Akar Tunggang Mahir",
+        "TR-TR": "Ehil Kökceziri",
+        "AR-SA": "كتاب الجذور للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 775,
+        "ability_power": 100,
+        "durability": 24300,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": -0.0064,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_KEEPER",
+        "itempower_progression": "totem"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 875,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 975,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1075,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1175,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 875,
+        "durability": 36450,
+        "crafting_silver": 0,
+        "crafting_time": 0.5,
+        "crafting_focus": 750,
+        "crafting_resources": [
+          {
+            "id": "T4_CLOTH_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_LEATHER_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 875,
+      "effective_durability": 36450,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+          "name_artifact_en": "Adept's Inscribed Stone",
+          "name_artifact_ar": "الحجر المنقوش للبارع",
+          "name_artifact_de": "Beschrifteter Stein des Adepten",
+          "name_artifact_fr": "Pierre gravée de l'adepte",
+          "name_artifact_es": "Piedra inscrita del iniciado",
+          "name_artifact_ru": "Расписанный камень (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_OFF_TOTEM_KEEPER@1",
+        "item_database_index": "2282"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Taproot",
+        "name_ar": "كتاب الجذور للبارع",
+        "name_de": "Pfahlwurzel des Adepten",
+        "name_fr": "Racine pivot de l'adepte",
+        "name_es": "Raíz primaria del iniciado",
+        "name_ru": "Корень природы (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_OFF_TOTEM_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "24300",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "totem",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@healmodifier": "-0.0064",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "775",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "totem",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "true",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_BOOKS_KEEPER",
+        "@shopsubcategory2": "booktype_keeper",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "875",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "975",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1075",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1175",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_OFF_TOTEM_KEEPER@2",
+      "index": "2283",
+      "name_en": "Adept's Taproot",
+      "name_ar": "كتاب الجذور للبارع",
+      "name_de": "Pfahlwurzel des Adepten",
+      "name_fr": "Racine pivot de l'adepte",
+      "name_es": "Raíz primaria del iniciado",
+      "name_ru": "Корень природы (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_OFF_TOTEM_KEEPER",
+        "description_variable": "@ITEMS_T4_OFF_TOTEM_KEEPER_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_OFF_TOTEM_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "24300",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "totem",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "healmodifier": "-0.0064",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "775",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "totem",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "showinmarketplace": "true",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_BOOKS_KEEPER",
+        "shopsubcategory2": "booktype_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Taproot",
+        "DE-DE": "Pfahlwurzel des Adepten",
+        "FR-FR": "Racine pivot de l'adepte",
+        "RU-RU": "Корень природы (знаток)",
+        "PL-PL": "Korzeń Adepta",
+        "ES-ES": "Raíz primaria del iniciado",
+        "PT-BR": "Raiz Mestra do Adepto",
+        "IT-IT": "Fittone del sapiente",
+        "ZH-CN": "老手级萨满祭环",
+        "KO-KR": "숙련자의 탭루트",
+        "JA-JP": "タップルート（名人）",
+        "ZH-TW": "老手級祭祀環",
+        "ID-ID": "Akar Tunggang Mahir",
+        "TR-TR": "Ehil Kökceziri",
+        "AR-SA": "كتاب الجذور للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 775,
+        "ability_power": 100,
+        "durability": 24300,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": -0.0064,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_KEEPER",
+        "itempower_progression": "totem"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 875,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 975,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1075,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1175,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 975,
+        "durability": 54675,
+        "crafting_silver": 0,
+        "crafting_time": 0.667,
+        "crafting_focus": 1313,
+        "crafting_resources": [
+          {
+            "id": "T4_CLOTH_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_LEATHER_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 975,
+      "effective_durability": 54675,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+          "name_artifact_en": "Adept's Inscribed Stone",
+          "name_artifact_ar": "الحجر المنقوش للبارع",
+          "name_artifact_de": "Beschrifteter Stein des Adepten",
+          "name_artifact_fr": "Pierre gravée de l'adepte",
+          "name_artifact_es": "Piedra inscrita del iniciado",
+          "name_artifact_ru": "Расписанный камень (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_OFF_TOTEM_KEEPER@2",
+        "item_database_index": "2283"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Taproot",
+        "name_ar": "كتاب الجذور للبارع",
+        "name_de": "Pfahlwurzel des Adepten",
+        "name_fr": "Racine pivot de l'adepte",
+        "name_es": "Raíz primaria del iniciado",
+        "name_ru": "Корень природы (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_OFF_TOTEM_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "24300",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "totem",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@healmodifier": "-0.0064",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "775",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "totem",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "true",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_BOOKS_KEEPER",
+        "@shopsubcategory2": "booktype_keeper",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "875",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "975",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1075",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1175",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_OFF_TOTEM_KEEPER@3",
+      "index": "2284",
+      "name_en": "Adept's Taproot",
+      "name_ar": "كتاب الجذور للبارع",
+      "name_de": "Pfahlwurzel des Adepten",
+      "name_fr": "Racine pivot de l'adepte",
+      "name_es": "Raíz primaria del iniciado",
+      "name_ru": "Корень природы (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_OFF_TOTEM_KEEPER",
+        "description_variable": "@ITEMS_T4_OFF_TOTEM_KEEPER_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_OFF_TOTEM_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "24300",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "totem",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "healmodifier": "-0.0064",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "775",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "totem",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "showinmarketplace": "true",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_BOOKS_KEEPER",
+        "shopsubcategory2": "booktype_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Taproot",
+        "DE-DE": "Pfahlwurzel des Adepten",
+        "FR-FR": "Racine pivot de l'adepte",
+        "RU-RU": "Корень природы (знаток)",
+        "PL-PL": "Korzeń Adepta",
+        "ES-ES": "Raíz primaria del iniciado",
+        "PT-BR": "Raiz Mestra do Adepto",
+        "IT-IT": "Fittone del sapiente",
+        "ZH-CN": "老手级萨满祭环",
+        "KO-KR": "숙련자의 탭루트",
+        "JA-JP": "タップルート（名人）",
+        "ZH-TW": "老手級祭祀環",
+        "ID-ID": "Akar Tunggang Mahir",
+        "TR-TR": "Ehil Kökceziri",
+        "AR-SA": "كتاب الجذور للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 775,
+        "ability_power": 100,
+        "durability": 24300,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": -0.0064,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_KEEPER",
+        "itempower_progression": "totem"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 875,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 975,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1075,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1175,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1075,
+        "durability": 82013,
+        "crafting_silver": 0,
+        "crafting_time": 0.833,
+        "crafting_focus": 2298,
+        "crafting_resources": [
+          {
+            "id": "T4_CLOTH_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_LEATHER_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1075,
+      "effective_durability": 82013,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+          "name_artifact_en": "Adept's Inscribed Stone",
+          "name_artifact_ar": "الحجر المنقوش للبارع",
+          "name_artifact_de": "Beschrifteter Stein des Adepten",
+          "name_artifact_fr": "Pierre gravée de l'adepte",
+          "name_artifact_es": "Piedra inscrita del iniciado",
+          "name_artifact_ru": "Расписанный камень (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_OFF_TOTEM_KEEPER@3",
+        "item_database_index": "2284"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Taproot",
+        "name_ar": "كتاب الجذور للبارع",
+        "name_de": "Pfahlwurzel des Adepten",
+        "name_fr": "Racine pivot de l'adepte",
+        "name_es": "Raíz primaria del iniciado",
+        "name_ru": "Корень природы (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_OFF_TOTEM_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "24300",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "totem",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@healmodifier": "-0.0064",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "775",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "totem",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "true",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_BOOKS_KEEPER",
+        "@shopsubcategory2": "booktype_keeper",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "875",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "975",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1075",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1175",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_OFF_TOTEM_KEEPER@4",
+      "index": "2285",
+      "name_en": "Adept's Taproot",
+      "name_ar": "كتاب الجذور للبارع",
+      "name_de": "Pfahlwurzel des Adepten",
+      "name_fr": "Racine pivot de l'adepte",
+      "name_es": "Raíz primaria del iniciado",
+      "name_ru": "Корень природы (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_OFF_TOTEM_KEEPER",
+        "description_variable": "@ITEMS_T4_OFF_TOTEM_KEEPER_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_OFF_TOTEM_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "24300",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "totem",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "healmodifier": "-0.0064",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "775",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "totem",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "showinmarketplace": "true",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_BOOKS_KEEPER",
+        "shopsubcategory2": "booktype_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Taproot",
+        "DE-DE": "Pfahlwurzel des Adepten",
+        "FR-FR": "Racine pivot de l'adepte",
+        "RU-RU": "Корень природы (знаток)",
+        "PL-PL": "Korzeń Adepta",
+        "ES-ES": "Raíz primaria del iniciado",
+        "PT-BR": "Raiz Mestra do Adepto",
+        "IT-IT": "Fittone del sapiente",
+        "ZH-CN": "老手级萨满祭环",
+        "KO-KR": "숙련자의 탭루트",
+        "JA-JP": "タップルート（名人）",
+        "ZH-TW": "老手級祭祀環",
+        "ID-ID": "Akar Tunggang Mahir",
+        "TR-TR": "Ehil Kökceziri",
+        "AR-SA": "كتاب الجذور للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T4_LEATHER",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T4_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 775,
+        "ability_power": 100,
+        "durability": 24300,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": -0.0064,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_KEEPER",
+        "itempower_progression": "totem"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 875,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 975,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1075,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1175,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1175,
+        "durability": 123019,
+        "crafting_silver": 0,
+        "crafting_time": 1.25,
+        "crafting_focus": 4021,
+        "crafting_resources": [
+          {
+            "id": "T4_CLOTH_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_LEATHER_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1175,
+      "effective_durability": 123019,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+          "name_artifact_en": "Adept's Inscribed Stone",
+          "name_artifact_ar": "الحجر المنقوش للبارع",
+          "name_artifact_de": "Beschrifteter Stein des Adepten",
+          "name_artifact_fr": "Pierre gravée de l'adepte",
+          "name_artifact_es": "Piedra inscrita del iniciado",
+          "name_artifact_ru": "Расписанный камень (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_OFF_TOTEM_KEEPER@4",
+        "item_database_index": "2285"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Taproot",
+        "name_ar": "كتاب الجذور للبارع",
+        "name_de": "Pfahlwurzel des Adepten",
+        "name_fr": "Racine pivot de l'adepte",
+        "name_es": "Raíz primaria del iniciado",
+        "name_ru": "Корень природы (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_OFF_TOTEM_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "24300",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "totem",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@healmodifier": "-0.0064",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "775",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "totem",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "true",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_BOOKS_KEEPER",
+        "@shopsubcategory2": "booktype_keeper",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_CLOTH",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_LEATHER",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "875",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "975",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1075",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1175",
+              "@durability": "123019",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

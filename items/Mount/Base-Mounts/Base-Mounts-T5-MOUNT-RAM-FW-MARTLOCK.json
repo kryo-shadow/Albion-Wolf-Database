@@ -1,0 +1,319 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Base_Mounts",
+  "base_id": "T5_MOUNT_RAM_FW_MARTLOCK",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_MOUNT_RAM_FW_MARTLOCK",
+      "index": "3054",
+      "name_en": "Saddled Bighorn Ram",
+      "name_ar": "كبش جبلي مُسرج",
+      "name_de": "Gesatteltes Dickhornschaf",
+      "name_fr": "Mouflon sellé",
+      "name_es": "Carnero cimarrón ensillado",
+      "name_ru": "Оседланный большерогий баран",
+      "descriptions": {
+        "description_en": "Mount - A special breed originally from the highlands around Martlock.",
+        "description_ar": "مطية - سلالة خاصة تنحدر من الهضاب حول Martlock.",
+        "description_de": "Reittier - Eine besondere Zuchtlinie, ursprünglich aus den Highlands um Martlock.",
+        "description_fr": "Monture - Une espèce rare originaire des hauts-plateaux entourant Martlock.",
+        "description_es": "Montura - Una raza especial originaria de las tierras altas de los alrededores de Martlock.",
+        "description_ru": "Скакун - особая порода с высокогорий, окружающих город Martlock."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MOUNT_RAM_FW_MARTLOCK",
+        "description_variable": "@ITEMS_T5_MOUNT_RAM_FW_MARTLOCK_DESC"
+      },
+      "category": "Mount_Base_Mounts",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_MOUNT_RAM_FW_MARTLOCK",
+        "uisprite": "MOUNT_RAM_FW_MARTLOCK",
+        "maxqualitylevel": "5",
+        "itempower": "800",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "basemounts",
+        "mountedbuff": "T5_MOUNT_FW_RAM_MOUNTED",
+        "halfmountedbuff": "T6_MOUNT_RAM_HALFMOUNTED",
+        "tier": "5",
+        "weight": "35.4",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "40500",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "mounttime": "3",
+        "dismounttime": "0",
+        "mounthitpointsmax": "2027",
+        "mounthitpointsregeneration": "20.27",
+        "prefabname": "MOUNT_RAM_FW_MARTLOCK_01",
+        "prefabscaling": "1.05",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "0.5",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "canusetownportal": "true",
+        "shopsubcategory2": "ram",
+        "nutrition": "1859",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Saddled Bighorn Ram",
+        "DE-DE": "Gesatteltes Dickhornschaf",
+        "FR-FR": "Mouflon sellé",
+        "RU-RU": "Оседланный большерогий баран",
+        "PL-PL": "Osiodłany Muflon Gruborogi",
+        "ES-ES": "Carnero cimarrón ensillado",
+        "PT-BR": "Carneiro Selvagem Selado",
+        "IT-IT": "Ariete montano sellato",
+        "ZH-CN": "配鞍大角羊",
+        "KO-KR": "안장 달린 큰뿔양",
+        "JA-JP": "鞍付きビッグホーン",
+        "ZH-TW": "配鞍大角公羊",
+        "ID-ID": "Domba Tanduk Besar Berpelana",
+        "TR-TR": "Eyerli Büyük Boynuzlu Koç",
+        "AR-SA": "كبش جبلي مُسرج"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Mount - A special breed originally from the highlands around Martlock.",
+        "DE-DE": "Reittier - Eine besondere Zuchtlinie, ursprünglich aus den Highlands um Martlock.",
+        "FR-FR": "Monture - Une espèce rare originaire des hauts-plateaux entourant Martlock.",
+        "RU-RU": "Маунт - особая порода с плоскогорий, окружающих город Martlock.",
+        "PL-PL": "Wierzchowiec - specjalny gatunek z wyżyn w pobliżu Martlock.",
+        "ES-ES": "Montura - Una raza especial originaria de las tierras altas de los alrededores de Martlock.",
+        "PT-BR": "Montaria - uma raça especial original das planícies ao redor de Martlock.",
+        "IT-IT": "Cavalcatura - Una specie unica, originaria degli altipiani intorno a Martlock.",
+        "ZH-CN": "坐骑 - 一种特殊品种，原产于Martlock附近的高地。",
+        "KO-KR": "탈것 - 본래 Martlock의 고원에서 살며 특별히 사육되었습니다.",
+        "JA-JP": "騎獣 - Martlock周辺の高地を原産とする特殊な品種。",
+        "ZH-TW": "坐騎 - 來自Martlock附近高地的特殊原生種。",
+        "ID-ID": "Tunggangan - Ras khusus yang berasal dari dataran tinggi di sekitar Martlock.",
+        "TR-TR": "Binek. Kökeni Martlock etrafındaki yaylalara dayanan özel bir ırk.",
+        "AR-SA": "مطية - سلالة خاصة تنحدر من الهضاب حول Martlock."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T1_FACTION_HIGHLAND_TOKEN_1",
+        "secondary_count": 5,
+        "resources": [
+          {
+            "id": "T5_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T1_FACTION_HIGHLAND_TOKEN_1",
+            "count": 5
+          },
+          {
+            "id": "T5_FARM_RAM_FW_MARTLOCK_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 1876,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T1_FACTION_HIGHLAND_TOKEN_1",
+            "count": 5
+          },
+          {
+            "id": "T5_FARM_RAM_FW_MARTLOCK_GROWN",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T5_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T1_FACTION_HIGHLAND_TOKEN_1",
+        "secondary_count": 5
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 800,
+        "ability_power": 100,
+        "durability": 40500,
+        "max_quality_level": 5,
+        "tier_raw": 5,
+        "weight": 35.4,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "MOUNTSPELL_RAM_FW_MARTLOCK_PASSIVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "MOUNTSPELL_RAM_FW_MARTLOCK_PASSIVE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 800,
+      "effective_durability": 40500,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "basemounts",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "MOUNT_RAM_FW_MARTLOCK"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MOUNT_RAM_FW_MARTLOCK",
+        "item_database_index": "3054"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Saddled Bighorn Ram",
+        "name_ar": "كبش جبلي مُسرج",
+        "name_de": "Gesatteltes Dickhornschaf",
+        "name_fr": "Mouflon sellé",
+        "name_es": "Carnero cimarrón ensillado",
+        "name_ru": "Оседланный большерогий баран"
+      },
+      "raw": {
+        "@uniquename": "T5_MOUNT_RAM_FW_MARTLOCK",
+        "@uisprite": "MOUNT_RAM_FW_MARTLOCK",
+        "@maxqualitylevel": "5",
+        "@itempower": "800",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "basemounts",
+        "@mountedbuff": "T5_MOUNT_FW_RAM_MOUNTED",
+        "@halfmountedbuff": "T6_MOUNT_RAM_HALFMOUNTED",
+        "@tier": "5",
+        "@weight": "35.4",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "40500",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@mounttime": "3",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "2027",
+        "@mounthitpointsregeneration": "20.27",
+        "@prefabname": "MOUNT_RAM_FW_MARTLOCK_01",
+        "@prefabscaling": "1.05",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "0.5",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@canusetownportal": "true",
+        "@shopsubcategory2": "ram",
+        "@nutrition": "1859",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "1876",
+          "craftresource": [
+            {
+              "@uniquename": "T5_FARM_RAM_FW_MARTLOCK_GROWN",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T5_LEATHER",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T1_FACTION_HIGHLAND_TOKEN_1",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "MOUNTSPELL_RAM_FW_MARTLOCK_PASSIVE"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

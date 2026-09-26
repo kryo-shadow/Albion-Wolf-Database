@@ -1,0 +1,3664 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Nature",
+  "base_id": "T4_MAIN_NATURESTAFF",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_MAIN_NATURESTAFF",
+      "index": "7784",
+      "name_en": "Adept's Nature Staff",
+      "name_ar": "عصا الطبيعة للبارع",
+      "name_de": "Naturstab des Adepten",
+      "name_fr": "Bâton naturel de l'adepte",
+      "name_es": "Bastón natural del iniciado",
+      "name_ru": "Древесный посох (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_NATURESTAFF",
+        "description_variable": "@ITEMS_T4_MAIN_NATURESTAFF_DESC"
+      },
+      "category": "Weapons_Nature",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_NATURESTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "naturestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "13500",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "naturestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_NATURESTAFFS_NATURE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "naturestaff_main_naturestaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Nature Staff",
+        "DE-DE": "Naturstab des Adepten",
+        "FR-FR": "Bâton naturel de l'adepte",
+        "RU-RU": "Древесный посох (знаток)",
+        "PL-PL": "Kostur Natury Adepta",
+        "ES-ES": "Bastón natural del iniciado",
+        "PT-BR": "Cajado da Natureza do Adepto",
+        "IT-IT": "Bastone della natura del sapiente",
+        "ZH-CN": "老手级自然法杖",
+        "KO-KR": "숙련자의 네이쳐 스태프",
+        "JA-JP": "自然の杖（名人）",
+        "ZH-TW": "老手級自然法杖",
+        "ID-ID": "Tongkat Alam Mahir",
+        "TR-TR": "Ehil Doğa Asası",
+        "AR-SA": "عصا الطبيعة للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 13500,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_NATURESTAFFS_NATURE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "NATURERESILIENCE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVMUSHROOM_GRENADE",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEANSEHEAL",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVENATING_BREEZE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "NATURERESILIENCE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVMUSHROOM_GRENADE",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEANSEHEAL",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVENATING_BREEZE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 13500,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "naturestaff",
+        "crafting_category": "naturestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_NATURESTAFF",
+        "item_database_index": "7784"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Nature Staff",
+        "name_ar": "عصا الطبيعة للبارع",
+        "name_de": "Naturstab des Adepten",
+        "name_fr": "Bâton naturel de l'adepte",
+        "name_es": "Bastón natural del iniciado",
+        "name_ru": "Древесный посох (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_NATURESTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "naturestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "13500",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "naturestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_NATURESTAFFS_NATURE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "naturestaff_main_naturestaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "1286",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "REJUVENATION",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "THORNSAREA",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "BRAMBLESEED",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "REANIMATE",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "NATURERESILIENCE",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "REJUVMUSHROOM_GRENADE",
+              "@slots": "1",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "CLEANSEHEAL",
+              "@slots": "2",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "REJUVENATING_BREEZE",
+              "@slots": "2",
+              "@tag": "I"
+            },
+            {
+              "@uniquename": "CIRCLEOFLIFE",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_HEALPOWERCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "2251",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_NATURESTAFF@1",
+      "index": "7785",
+      "name_en": "Adept's Nature Staff",
+      "name_ar": "عصا الطبيعة للبارع",
+      "name_de": "Naturstab des Adepten",
+      "name_fr": "Bâton naturel de l'adepte",
+      "name_es": "Bastón natural del iniciado",
+      "name_ru": "Древесный посох (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_NATURESTAFF",
+        "description_variable": "@ITEMS_T4_MAIN_NATURESTAFF_DESC"
+      },
+      "category": "Weapons_Nature",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_NATURESTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "naturestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "13500",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "naturestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_NATURESTAFFS_NATURE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "naturestaff_main_naturestaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Nature Staff",
+        "DE-DE": "Naturstab des Adepten",
+        "FR-FR": "Bâton naturel de l'adepte",
+        "RU-RU": "Древесный посох (знаток)",
+        "PL-PL": "Kostur Natury Adepta",
+        "ES-ES": "Bastón natural del iniciado",
+        "PT-BR": "Cajado da Natureza do Adepto",
+        "IT-IT": "Bastone della natura del sapiente",
+        "ZH-CN": "老手级自然法杖",
+        "KO-KR": "숙련자의 네이쳐 스태프",
+        "JA-JP": "自然の杖（名人）",
+        "ZH-TW": "老手級自然法杖",
+        "ID-ID": "Tongkat Alam Mahir",
+        "TR-TR": "Ehil Doğa Asası",
+        "AR-SA": "عصا الطبيعة للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 13500,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_NATURESTAFFS_NATURE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "NATURERESILIENCE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVMUSHROOM_GRENADE",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEANSEHEAL",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVENATING_BREEZE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "NATURERESILIENCE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVMUSHROOM_GRENADE",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEANSEHEAL",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVENATING_BREEZE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 800,
+        "durability": 20250,
+        "crafting_silver": 0,
+        "crafting_time": 1.5,
+        "crafting_focus": 2251,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_CLOTH_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 800,
+      "effective_durability": 20250,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "naturestaff",
+        "crafting_category": "naturestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_NATURESTAFF@1",
+        "item_database_index": "7785"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Nature Staff",
+        "name_ar": "عصا الطبيعة للبارع",
+        "name_de": "Naturstab des Adepten",
+        "name_fr": "Bâton naturel de l'adepte",
+        "name_es": "Bastón natural del iniciado",
+        "name_ru": "Древесный посох (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_NATURESTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "naturestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "13500",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "naturestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_NATURESTAFFS_NATURE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "naturestaff_main_naturestaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "1286",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "REJUVENATION",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "THORNSAREA",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "BRAMBLESEED",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "REANIMATE",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "NATURERESILIENCE",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "REJUVMUSHROOM_GRENADE",
+              "@slots": "1",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "CLEANSEHEAL",
+              "@slots": "2",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "REJUVENATING_BREEZE",
+              "@slots": "2",
+              "@tag": "I"
+            },
+            {
+              "@uniquename": "CIRCLEOFLIFE",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_HEALPOWERCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "2251",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_NATURESTAFF@2",
+      "index": "7786",
+      "name_en": "Adept's Nature Staff",
+      "name_ar": "عصا الطبيعة للبارع",
+      "name_de": "Naturstab des Adepten",
+      "name_fr": "Bâton naturel de l'adepte",
+      "name_es": "Bastón natural del iniciado",
+      "name_ru": "Древесный посох (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_NATURESTAFF",
+        "description_variable": "@ITEMS_T4_MAIN_NATURESTAFF_DESC"
+      },
+      "category": "Weapons_Nature",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_NATURESTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "naturestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "13500",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "naturestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_NATURESTAFFS_NATURE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "naturestaff_main_naturestaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Nature Staff",
+        "DE-DE": "Naturstab des Adepten",
+        "FR-FR": "Bâton naturel de l'adepte",
+        "RU-RU": "Древесный посох (знаток)",
+        "PL-PL": "Kostur Natury Adepta",
+        "ES-ES": "Bastón natural del iniciado",
+        "PT-BR": "Cajado da Natureza do Adepto",
+        "IT-IT": "Bastone della natura del sapiente",
+        "ZH-CN": "老手级自然法杖",
+        "KO-KR": "숙련자의 네이쳐 스태프",
+        "JA-JP": "自然の杖（名人）",
+        "ZH-TW": "老手級自然法杖",
+        "ID-ID": "Tongkat Alam Mahir",
+        "TR-TR": "Ehil Doğa Asası",
+        "AR-SA": "عصا الطبيعة للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 13500,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_NATURESTAFFS_NATURE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "NATURERESILIENCE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVMUSHROOM_GRENADE",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEANSEHEAL",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVENATING_BREEZE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "NATURERESILIENCE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVMUSHROOM_GRENADE",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEANSEHEAL",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVENATING_BREEZE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 900,
+        "durability": 30375,
+        "crafting_silver": 0,
+        "crafting_time": 2,
+        "crafting_focus": 3939,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_CLOTH_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 900,
+      "effective_durability": 30375,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "naturestaff",
+        "crafting_category": "naturestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_NATURESTAFF@2",
+        "item_database_index": "7786"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Nature Staff",
+        "name_ar": "عصا الطبيعة للبارع",
+        "name_de": "Naturstab des Adepten",
+        "name_fr": "Bâton naturel de l'adepte",
+        "name_es": "Bastón natural del iniciado",
+        "name_ru": "Древесный посох (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_NATURESTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "naturestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "13500",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "naturestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_NATURESTAFFS_NATURE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "naturestaff_main_naturestaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "1286",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "REJUVENATION",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "THORNSAREA",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "BRAMBLESEED",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "REANIMATE",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "NATURERESILIENCE",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "REJUVMUSHROOM_GRENADE",
+              "@slots": "1",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "CLEANSEHEAL",
+              "@slots": "2",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "REJUVENATING_BREEZE",
+              "@slots": "2",
+              "@tag": "I"
+            },
+            {
+              "@uniquename": "CIRCLEOFLIFE",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_HEALPOWERCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "2251",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_NATURESTAFF@3",
+      "index": "7787",
+      "name_en": "Adept's Nature Staff",
+      "name_ar": "عصا الطبيعة للبارع",
+      "name_de": "Naturstab des Adepten",
+      "name_fr": "Bâton naturel de l'adepte",
+      "name_es": "Bastón natural del iniciado",
+      "name_ru": "Древесный посох (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_NATURESTAFF",
+        "description_variable": "@ITEMS_T4_MAIN_NATURESTAFF_DESC"
+      },
+      "category": "Weapons_Nature",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_NATURESTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "naturestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "13500",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "naturestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_NATURESTAFFS_NATURE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "naturestaff_main_naturestaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Nature Staff",
+        "DE-DE": "Naturstab des Adepten",
+        "FR-FR": "Bâton naturel de l'adepte",
+        "RU-RU": "Древесный посох (знаток)",
+        "PL-PL": "Kostur Natury Adepta",
+        "ES-ES": "Bastón natural del iniciado",
+        "PT-BR": "Cajado da Natureza do Adepto",
+        "IT-IT": "Bastone della natura del sapiente",
+        "ZH-CN": "老手级自然法杖",
+        "KO-KR": "숙련자의 네이쳐 스태프",
+        "JA-JP": "自然の杖（名人）",
+        "ZH-TW": "老手級自然法杖",
+        "ID-ID": "Tongkat Alam Mahir",
+        "TR-TR": "Ehil Doğa Asası",
+        "AR-SA": "عصا الطبيعة للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 13500,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_NATURESTAFFS_NATURE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "NATURERESILIENCE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVMUSHROOM_GRENADE",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEANSEHEAL",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVENATING_BREEZE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "NATURERESILIENCE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVMUSHROOM_GRENADE",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEANSEHEAL",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVENATING_BREEZE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1000,
+        "durability": 45563,
+        "crafting_silver": 0,
+        "crafting_time": 2.5,
+        "crafting_focus": 6893,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_CLOTH_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 45563,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "naturestaff",
+        "crafting_category": "naturestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_NATURESTAFF@3",
+        "item_database_index": "7787"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Nature Staff",
+        "name_ar": "عصا الطبيعة للبارع",
+        "name_de": "Naturstab des Adepten",
+        "name_fr": "Bâton naturel de l'adepte",
+        "name_es": "Bastón natural del iniciado",
+        "name_ru": "Древесный посох (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_NATURESTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "naturestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "13500",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "naturestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_NATURESTAFFS_NATURE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "naturestaff_main_naturestaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "1286",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "REJUVENATION",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "THORNSAREA",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "BRAMBLESEED",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "REANIMATE",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "NATURERESILIENCE",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "REJUVMUSHROOM_GRENADE",
+              "@slots": "1",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "CLEANSEHEAL",
+              "@slots": "2",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "REJUVENATING_BREEZE",
+              "@slots": "2",
+              "@tag": "I"
+            },
+            {
+              "@uniquename": "CIRCLEOFLIFE",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_HEALPOWERCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "2251",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_MAIN_NATURESTAFF@4",
+      "index": "7788",
+      "name_en": "Adept's Nature Staff",
+      "name_ar": "عصا الطبيعة للبارع",
+      "name_de": "Naturstab des Adepten",
+      "name_fr": "Bâton naturel de l'adepte",
+      "name_es": "Bastón natural del iniciado",
+      "name_ru": "Древесный посох (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MAIN_NATURESTAFF",
+        "description_variable": "@ITEMS_T4_MAIN_NATURESTAFF_DESC"
+      },
+      "category": "Weapons_Nature",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_MAIN_NATURESTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "naturestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "4",
+        "weight": "5.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "13500",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "naturestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_NATURESTAFFS_NATURE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "naturestaff_main_naturestaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Nature Staff",
+        "DE-DE": "Naturstab des Adepten",
+        "FR-FR": "Bâton naturel de l'adepte",
+        "RU-RU": "Древесный посох (знаток)",
+        "PL-PL": "Kostur Natury Adepta",
+        "ES-ES": "Bastón natural del iniciado",
+        "PT-BR": "Cajado da Natureza do Adepto",
+        "IT-IT": "Bastone della natura del sapiente",
+        "ZH-CN": "老手级自然法杖",
+        "KO-KR": "숙련자의 네이쳐 스태프",
+        "JA-JP": "自然の杖（名人）",
+        "ZH-TW": "老手級自然法杖",
+        "ID-ID": "Tongkat Alam Mahir",
+        "TR-TR": "Ehil Doğa Asası",
+        "AR-SA": "عصا الطبيعة للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 1286,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T4_CLOTH",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T4_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 13500,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 5.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_NATURESTAFFS_NATURE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "NATURERESILIENCE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVMUSHROOM_GRENADE",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEANSEHEAL",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVENATING_BREEZE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "NATURERESILIENCE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVMUSHROOM_GRENADE",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CLEANSEHEAL",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "REJUVENATING_BREEZE",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 20250,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 2251,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_CLOTH_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 30375,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3939,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_CLOTH_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 45563,
+          "crafting_silver": 0,
+          "crafting_time": 2.5,
+          "crafting_focus": 6893,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_CLOTH_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 68344,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_CLOTH_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1100,
+        "durability": 68344,
+        "crafting_silver": 0,
+        "crafting_time": 3.75,
+        "crafting_focus": 12064,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_CLOTH_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 68344,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "naturestaff",
+        "crafting_category": "naturestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MAIN_NATURESTAFF@4",
+        "item_database_index": "7788"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Nature Staff",
+        "name_ar": "عصا الطبيعة للبارع",
+        "name_de": "Naturstab des Adepten",
+        "name_fr": "Bâton naturel de l'adepte",
+        "name_es": "Bastón natural del iniciado",
+        "name_ru": "Древесный посох (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MAIN_NATURESTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "naturestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "4",
+        "@weight": "5.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "13500",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "naturestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_NATURESTAFFS_NATURE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "naturestaff_main_naturestaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "1286",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "REJUVENATION",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "THORNSAREA",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "BRAMBLESEED",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "REANIMATE",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "NATURERESILIENCE",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "REJUVMUSHROOM_GRENADE",
+              "@slots": "1",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "CLEANSEHEAL",
+              "@slots": "2",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "REJUVENATING_BREEZE",
+              "@slots": "2",
+              "@tag": "I"
+            },
+            {
+              "@uniquename": "CIRCLEOFLIFE",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_HEALPOWERCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "PASSIVE_ARMOR_CASTER_NATURESTAFF",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_MOVESPEED_CHANCE_NATURESTAFF",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "20250",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "2251",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "30375",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3939",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "45563",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.5",
+                "@craftingfocus": "6893",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "68344",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T4_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

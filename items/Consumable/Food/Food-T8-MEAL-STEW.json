@@ -1,0 +1,454 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T8_MEAL_STEW",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_MEAL_STEW",
+      "index": "844",
+      "name_en": "Beef Stew",
+      "name_ar": "يخنة لحم بقري",
+      "name_de": "Rindfleischeintopf",
+      "name_fr": "Ragoût de bœuf",
+      "name_es": "Guiso de ternera",
+      "name_ru": "Жаркое из говядины",
+      "descriptions": {
+        "description_en": "Sophisticated meal that increases combat damage for a long period.",
+        "description_ar": "وجبة راقية تزيد ضرر القتال لفترة طويلة.",
+        "description_de": "Ein komplexes Mahl, das den Kampfschaden für lange Zeit erhöht.",
+        "description_fr": "Repas sophistiqué qui augmente les dégâts infligés pendant un long moment",
+        "description_es": "Comida sofisticada que aumenta el daño en combate durante mucho tiempo",
+        "description_ru": "Деликатес, надолго увеличивает наносимый противнику урон."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MEAL_STEW",
+        "description_variable": "@ITEMS_MEAL_STEW_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_MEAL_STEW",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_BUFF_DMG_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "8",
+        "dummyitempower": "1100",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "8.17",
+        "nutrition": "817",
+        "descriptionlocatag": "@ITEMS_MEAL_STEW_DESC",
+        "shopsubcategory2": "stews"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Beef Stew",
+        "DE-DE": "Rindfleischeintopf",
+        "FR-FR": "Ragoût de bœuf",
+        "RU-RU": "Жаркое из говядины",
+        "PL-PL": "Gulasz z Wołowiny",
+        "ES-ES": "Guiso de ternera",
+        "PT-BR": "Guisado de Carne",
+        "IT-IT": "Stufato di manzo",
+        "ZH-CN": "炖牛肉",
+        "KO-KR": "소고기 스튜",
+        "JA-JP": "ビーフシチュー",
+        "ZH-TW": "燉牛肉",
+        "ID-ID": "Rebusan Daging Sapi",
+        "TR-TR": "Sığır Yahnisi",
+        "AR-SA": "يخنة لحم بقري"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sophisticated meal that increases combat damage for a long period.",
+        "DE-DE": "Ein komplexes Mahl, das den Kampfschaden für lange Zeit erhöht.",
+        "FR-FR": "Repas sophistiqué qui augmente les dégâts infligés pendant un long moment",
+        "RU-RU": "Деликатес, надолго увеличивает наносимый противнику урон.",
+        "PL-PL": "Wymyślny posiłek, który na długo zwiększa obrażenia zadawane w walce",
+        "ES-ES": "Comida sofisticada que aumenta el daño en combate durante mucho tiempo",
+        "PT-BR": "Refeição sofisticada que aumenta o dano em combate por um longo período",
+        "IT-IT": "Pietanza sofisticata che aumenta il danno in combattimento per un lungo periodo.",
+        "ZH-CN": "复杂的餐食，可以长时间提升战斗伤害。",
+        "KO-KR": "전투 대미지를 장기간에 걸쳐 증가시키는 세련된 식사입니다.",
+        "JA-JP": "長時間にわたり戦闘ダメージが上昇する洗練された料理。",
+        "ZH-TW": "一道精美的料理，能長時間提升戰鬥傷害。",
+        "ID-ID": "Makanan rumit yang meningkatkan damage pertempuran untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine savaş hasarını artıran incelikli bir yemek.",
+        "AR-SA": "وجبة راقية تزيد ضرر القتال لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_MEAT",
+        "primary_count": 72,
+        "secondary_resource": "T8_PUMPKIN",
+        "secondary_count": 36,
+        "resources": [
+          {
+            "id": "T8_MEAT",
+            "count": 72
+          },
+          {
+            "id": "T8_PUMPKIN",
+            "count": 36
+          },
+          {
+            "id": "T4_BREAD",
+            "count": 36
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.723,
+        "crafting_focus": 551,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_MEAT",
+            "count": 72
+          },
+          {
+            "id": "T8_PUMPKIN",
+            "count": 36
+          },
+          {
+            "id": "T4_BREAD",
+            "count": 36
+          }
+        ],
+        "primary_resource": "T8_MEAT",
+        "primary_count": 72,
+        "secondary_resource": "T8_PUMPKIN",
+        "secondary_count": 36
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 8.17,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.723,
+          "crafting_focus": 752,
+          "crafting_resources": [
+            {
+              "id": "T8_PUMPKIN",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BREAD",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_MEAT",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 90,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.723,
+          "crafting_focus": 1152,
+          "crafting_resources": [
+            {
+              "id": "T8_PUMPKIN",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BREAD",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_MEAT",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 90,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.723,
+          "crafting_focus": 2353,
+          "crafting_resources": [
+            {
+              "id": "T8_PUMPKIN",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BREAD",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_MEAT",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 90,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MEAL_STEW",
+        "item_database_index": "844"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Beef Stew",
+        "name_ar": "يخنة لحم بقري",
+        "name_de": "Rindfleischeintopf",
+        "name_fr": "Ragoût de bœuf",
+        "name_es": "Guiso de ternera",
+        "name_ru": "Жаркое из говядины"
+      },
+      "raw": {
+        "@uniquename": "T8_MEAL_STEW",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_BUFF_DMG_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "8",
+        "@dummyitempower": "1100",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "8.17",
+        "@nutrition": "817",
+        "@descriptionlocatag": "@ITEMS_MEAL_STEW_DESC",
+        "@shopsubcategory2": "stews",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "551",
+          "@time": "2.723",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PUMPKIN",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T4_BREAD",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T8_MEAT",
+              "@count": "72"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "1200",
+              "@consumespell": "FOOD_BUFF_DMG_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "752",
+                "@time": "2.723",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PUMPKIN",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_MEAT",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "1300",
+              "@consumespell": "FOOD_BUFF_DMG_P7",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "1152",
+                "@time": "2.723",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PUMPKIN",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_MEAT",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1400",
+              "@consumespell": "FOOD_BUFF_DMG_P8",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "2353",
+                "@time": "2.723",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PUMPKIN",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_MEAT",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

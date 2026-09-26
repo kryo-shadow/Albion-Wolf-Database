@@ -1,0 +1,2334 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Fiber",
+  "base_id": "T8_ARMOR_GATHERER_FIBER",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T8_ARMOR_GATHERER_FIBER",
+      "index": "5609",
+      "name_en": "Elder's Harvester Garb",
+      "name_ar": "ملابس الحاصد للحكيم",
+      "name_de": "Erntehelferkleidung des Ältesten",
+      "name_fr": "Tenue de récolteur de sage",
+      "name_es": "Atuendo de cosechador del anciano",
+      "name_ru": "Одежда жнеца (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item\nGatherer Gear allows you to gather more of the corresponding resource type.",
+        "description_ar": "عنصر معدات\nيتيح لك عتاد الجامع جمع أكثر من نوع مورد مطابق.",
+        "description_de": "Ausrüstungsgegenstand\nSammler-Ausrüstung hilft dir dabei, mehr Ressourcen des entsprechenden Ressourcentyps zu sammeln",
+        "description_fr": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "description_es": "Objeto de equipo\nEl equipo de recolector te ayuda a recolectar mayor cantidad de un tipo concreto de recurso",
+        "description_ru": "Снаряжение\nПредметы собирателя помогают вам добывать больше ресурсов данного типа."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_ARMOR_GATHERER_FIBER",
+        "description_variable": "@ITEMS_T8_ARMOR_GATHERER_FIBER_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_ARMOR_GATHERER_FIBER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "tier": "8",
+        "weight": "17.1",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "150",
+        "hitpointsregenerationbonus": "2.15",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "90",
+        "magicresistance": "115",
+        "crowdcontrolresistance": "50",
+        "durability": "54675",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_armor"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Harvester Garb",
+        "DE-DE": "Erntehelferkleidung des Ältesten",
+        "FR-FR": "Tenue de récolteur de sage",
+        "RU-RU": "Одежда жнеца (старейшина)",
+        "PL-PL": "Odzienie Zbieracza Starszego",
+        "ES-ES": "Atuendo de cosechador del anciano",
+        "PT-BR": "Traje do Ceifeiro Ancião",
+        "IT-IT": "Indumenti da raccoglitore dell'anziano",
+        "ZH-CN": "禅师级收割工装",
+        "KO-KR": "장로의 추수꾼 의상",
+        "JA-JP": "収穫人の服（老熟）",
+        "ZH-TW": "禪師級採收者工作服",
+        "ID-ID": "Pakaian Pemanen Tetua",
+        "TR-TR": "Yüce Hasatçı Giysisi",
+        "AR-SA": "ملابس الحاصد للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nGatherer Gear allows you to gather more of the corresponding resource type.",
+        "DE-DE": "Ausrüstungsgegenstand\nSammler-Ausrüstung hilft dir dabei, mehr Ressourcen des entsprechenden Ressourcentyps zu sammeln",
+        "FR-FR": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "RU-RU": "Снаряжение\nПредметы собирателя помогают вам добывать больше ресурсов данного типа.",
+        "PL-PL": "Przedmiot do wyposażenia\nWyposażenie zbieracza pomaga zbierać więcej określonego rodzaju surowca",
+        "ES-ES": "Objeto de equipo\nEl equipo de recolector te ayuda a recolectar mayor cantidad de un tipo concreto de recurso",
+        "PT-BR": "Item de equipamento\nEquipamentos de coletor ajudam você a coletar mais do tipo apropriado de recurso",
+        "IT-IT": "Oggetto d'equipaggiamento\nL'equipaggiamento da raccoglitore permette di recuperare più risorse del tipo corrispondente.",
+        "ZH-CN": "装备物品\n采集工装让你可以采更多相应种类的资源。",
+        "KO-KR": "장비 아이템\n추수꾼 의상은 해당하는 종류의 자원을 더 많이 채집할 수 있게 합니다.",
+        "JA-JP": "装備アイテム\n採集家の装備は、対応するタイプの資源をさらに多く採集できるようになります。",
+        "ZH-TW": "裝備物品\n採集者裝備能提升對應類型資源的採集量。",
+        "ID-ID": "Item Perlengkapan\nAlat Pengumpul memungkinkanmu untuk mengumpulkan lebih banyak jenis sumber daya yang berkaitan.",
+        "TR-TR": "Ekipman Eşyası\nToplayıcı teçhizatı, ilgili kaynak türünden daha fazla kaynak toplamana olanak sağlar.",
+        "AR-SA": "عنصر معدات\nيتيح لك عتاد الجامع جمع أكثر من نوع مورد مطابق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 16
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.5,
+        "crafting_focus": 8042,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 16
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 54675,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 17.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_YIELD_FIBER_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_YIELD_FIBER_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 3,
+          "crafting_focus": 14074,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 3.6,
+          "crafting_focus": 24630,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 4.32,
+          "crafting_focus": 43102,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 276792,
+          "crafting_silver": 0,
+          "crafting_time": 5.04,
+          "crafting_focus": 75429,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 54675,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_ARMOR_GATHERER_FIBER",
+        "item_database_index": "5609"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Harvester Garb",
+        "name_ar": "ملابس الحاصد للحكيم",
+        "name_de": "Erntehelferkleidung des Ältesten",
+        "name_fr": "Tenue de récolteur du sage",
+        "name_es": "Atuendo de cosechador del anciano",
+        "name_ru": "Одежда жнеца (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_ARMOR_GATHERER_FIBER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@tier": "8",
+        "@weight": "17.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "150",
+        "@hitpointsregenerationbonus": "2.15",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "90",
+        "@magicresistance": "115",
+        "@crowdcontrolresistance": "50",
+        "@durability": "54675",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_armor",
+        "craftingspelllist": {
+          "@reference": "T4_ARMOR_GATHERER_FIBER",
+          "removespell": {
+            "@uniquename": "PASSIVE_YIELD_FIBER_T4"
+          },
+          "craftspell": {
+            "@uniquename": "PASSIVE_YIELD_FIBER_T8"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "8042",
+          "craftresource": {
+            "@uniquename": "T8_CLOTH",
+            "@count": "16"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3",
+                "@craftingfocus": "14074",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.6",
+                "@craftingfocus": "24630",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.32",
+                "@craftingfocus": "43102",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "276792",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.04",
+                "@craftingfocus": "75429",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "16"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_ARMOR_GATHERER_FIBER@1",
+      "index": "5610",
+      "name_en": "Elder's Harvester Garb",
+      "name_ar": "ملابس الحاصد للحكيم",
+      "name_de": "Erntehelferkleidung des Ältesten",
+      "name_fr": "Tenue de récolteur de sage",
+      "name_es": "Atuendo de cosechador del anciano",
+      "name_ru": "Одежда жнеца (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item\nGatherer Gear allows you to gather more of the corresponding resource type.",
+        "description_ar": "عنصر معدات\nيتيح لك عتاد الجامع جمع أكثر من نوع مورد مطابق.",
+        "description_de": "Ausrüstungsgegenstand\nSammler-Ausrüstung hilft dir dabei, mehr Ressourcen des entsprechenden Ressourcentyps zu sammeln",
+        "description_fr": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "description_es": "Objeto de equipo\nEl equipo de recolector te ayuda a recolectar mayor cantidad de un tipo concreto de recurso",
+        "description_ru": "Снаряжение\nПредметы собирателя помогают вам добывать больше ресурсов данного типа."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_ARMOR_GATHERER_FIBER",
+        "description_variable": "@ITEMS_T8_ARMOR_GATHERER_FIBER_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_ARMOR_GATHERER_FIBER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "tier": "8",
+        "weight": "17.1",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "150",
+        "hitpointsregenerationbonus": "2.15",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "90",
+        "magicresistance": "115",
+        "crowdcontrolresistance": "50",
+        "durability": "54675",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_armor"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Harvester Garb",
+        "DE-DE": "Erntehelferkleidung des Ältesten",
+        "FR-FR": "Tenue de récolteur de sage",
+        "RU-RU": "Одежда жнеца (старейшина)",
+        "PL-PL": "Odzienie Zbieracza Starszego",
+        "ES-ES": "Atuendo de cosechador del anciano",
+        "PT-BR": "Traje do Ceifeiro Ancião",
+        "IT-IT": "Indumenti da raccoglitore dell'anziano",
+        "ZH-CN": "禅师级收割工装",
+        "KO-KR": "장로의 추수꾼 의상",
+        "JA-JP": "収穫人の服（老熟）",
+        "ZH-TW": "禪師級採收者工作服",
+        "ID-ID": "Pakaian Pemanen Tetua",
+        "TR-TR": "Yüce Hasatçı Giysisi",
+        "AR-SA": "ملابس الحاصد للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nGatherer Gear allows you to gather more of the corresponding resource type.",
+        "DE-DE": "Ausrüstungsgegenstand\nSammler-Ausrüstung hilft dir dabei, mehr Ressourcen des entsprechenden Ressourcentyps zu sammeln",
+        "FR-FR": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "RU-RU": "Снаряжение\nПредметы собирателя помогают вам добывать больше ресурсов данного типа.",
+        "PL-PL": "Przedmiot do wyposażenia\nWyposażenie zbieracza pomaga zbierać więcej określonego rodzaju surowca",
+        "ES-ES": "Objeto de equipo\nEl equipo de recolector te ayuda a recolectar mayor cantidad de un tipo concreto de recurso",
+        "PT-BR": "Item de equipamento\nEquipamentos de coletor ajudam você a coletar mais do tipo apropriado de recurso",
+        "IT-IT": "Oggetto d'equipaggiamento\nL'equipaggiamento da raccoglitore permette di recuperare più risorse del tipo corrispondente.",
+        "ZH-CN": "装备物品\n采集工装让你可以采更多相应种类的资源。",
+        "KO-KR": "장비 아이템\n추수꾼 의상은 해당하는 종류의 자원을 더 많이 채집할 수 있게 합니다.",
+        "JA-JP": "装備アイテム\n採集家の装備は、対応するタイプの資源をさらに多く採集できるようになります。",
+        "ZH-TW": "裝備物品\n採集者裝備能提升對應類型資源的採集量。",
+        "ID-ID": "Item Perlengkapan\nAlat Pengumpul memungkinkanmu untuk mengumpulkan lebih banyak jenis sumber daya yang berkaitan.",
+        "TR-TR": "Ekipman Eşyası\nToplayıcı teçhizatı, ilgili kaynak türünden daha fazla kaynak toplamana olanak sağlar.",
+        "AR-SA": "عنصر معدات\nيتيح لك عتاد الجامع جمع أكثر من نوع مورد مطابق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 16
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.5,
+        "crafting_focus": 8042,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 16
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 54675,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 17.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_YIELD_FIBER_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_YIELD_FIBER_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 3,
+          "crafting_focus": 14074,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 3.6,
+          "crafting_focus": 24630,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 4.32,
+          "crafting_focus": 43102,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 276792,
+          "crafting_silver": 0,
+          "crafting_time": 5.04,
+          "crafting_focus": 75429,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1200,
+        "durability": 82013,
+        "crafting_silver": 0,
+        "crafting_time": 3,
+        "crafting_focus": 14074,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RUNE",
+            "count": 192
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 82013,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_ARMOR_GATHERER_FIBER@1",
+        "item_database_index": "5610"
+      },
+      "tier": 8,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Elder's Harvester Garb",
+        "name_ar": "ملابس الحاصد للحكيم",
+        "name_de": "Erntehelferkleidung des Ältesten",
+        "name_fr": "Tenue de récolteur du sage",
+        "name_es": "Atuendo de cosechador del anciano",
+        "name_ru": "Одежда жнеца (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_ARMOR_GATHERER_FIBER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@tier": "8",
+        "@weight": "17.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "150",
+        "@hitpointsregenerationbonus": "2.15",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "90",
+        "@magicresistance": "115",
+        "@crowdcontrolresistance": "50",
+        "@durability": "54675",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_armor",
+        "craftingspelllist": {
+          "@reference": "T4_ARMOR_GATHERER_FIBER",
+          "removespell": {
+            "@uniquename": "PASSIVE_YIELD_FIBER_T4"
+          },
+          "craftspell": {
+            "@uniquename": "PASSIVE_YIELD_FIBER_T8"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "8042",
+          "craftresource": {
+            "@uniquename": "T8_CLOTH",
+            "@count": "16"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3",
+                "@craftingfocus": "14074",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.6",
+                "@craftingfocus": "24630",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.32",
+                "@craftingfocus": "43102",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "276792",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.04",
+                "@craftingfocus": "75429",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "16"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_ARMOR_GATHERER_FIBER@2",
+      "index": "5611",
+      "name_en": "Elder's Harvester Garb",
+      "name_ar": "ملابس الحاصد للحكيم",
+      "name_de": "Erntehelferkleidung des Ältesten",
+      "name_fr": "Tenue de récolteur de sage",
+      "name_es": "Atuendo de cosechador del anciano",
+      "name_ru": "Одежда жнеца (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item\nGatherer Gear allows you to gather more of the corresponding resource type.",
+        "description_ar": "عنصر معدات\nيتيح لك عتاد الجامع جمع أكثر من نوع مورد مطابق.",
+        "description_de": "Ausrüstungsgegenstand\nSammler-Ausrüstung hilft dir dabei, mehr Ressourcen des entsprechenden Ressourcentyps zu sammeln",
+        "description_fr": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "description_es": "Objeto de equipo\nEl equipo de recolector te ayuda a recolectar mayor cantidad de un tipo concreto de recurso",
+        "description_ru": "Снаряжение\nПредметы собирателя помогают вам добывать больше ресурсов данного типа."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_ARMOR_GATHERER_FIBER",
+        "description_variable": "@ITEMS_T8_ARMOR_GATHERER_FIBER_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_ARMOR_GATHERER_FIBER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "tier": "8",
+        "weight": "17.1",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "150",
+        "hitpointsregenerationbonus": "2.15",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "90",
+        "magicresistance": "115",
+        "crowdcontrolresistance": "50",
+        "durability": "54675",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_armor"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Harvester Garb",
+        "DE-DE": "Erntehelferkleidung des Ältesten",
+        "FR-FR": "Tenue de récolteur de sage",
+        "RU-RU": "Одежда жнеца (старейшина)",
+        "PL-PL": "Odzienie Zbieracza Starszego",
+        "ES-ES": "Atuendo de cosechador del anciano",
+        "PT-BR": "Traje do Ceifeiro Ancião",
+        "IT-IT": "Indumenti da raccoglitore dell'anziano",
+        "ZH-CN": "禅师级收割工装",
+        "KO-KR": "장로의 추수꾼 의상",
+        "JA-JP": "収穫人の服（老熟）",
+        "ZH-TW": "禪師級採收者工作服",
+        "ID-ID": "Pakaian Pemanen Tetua",
+        "TR-TR": "Yüce Hasatçı Giysisi",
+        "AR-SA": "ملابس الحاصد للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nGatherer Gear allows you to gather more of the corresponding resource type.",
+        "DE-DE": "Ausrüstungsgegenstand\nSammler-Ausrüstung hilft dir dabei, mehr Ressourcen des entsprechenden Ressourcentyps zu sammeln",
+        "FR-FR": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "RU-RU": "Снаряжение\nПредметы собирателя помогают вам добывать больше ресурсов данного типа.",
+        "PL-PL": "Przedmiot do wyposażenia\nWyposażenie zbieracza pomaga zbierać więcej określonego rodzaju surowca",
+        "ES-ES": "Objeto de equipo\nEl equipo de recolector te ayuda a recolectar mayor cantidad de un tipo concreto de recurso",
+        "PT-BR": "Item de equipamento\nEquipamentos de coletor ajudam você a coletar mais do tipo apropriado de recurso",
+        "IT-IT": "Oggetto d'equipaggiamento\nL'equipaggiamento da raccoglitore permette di recuperare più risorse del tipo corrispondente.",
+        "ZH-CN": "装备物品\n采集工装让你可以采更多相应种类的资源。",
+        "KO-KR": "장비 아이템\n추수꾼 의상은 해당하는 종류의 자원을 더 많이 채집할 수 있게 합니다.",
+        "JA-JP": "装備アイテム\n採集家の装備は、対応するタイプの資源をさらに多く採集できるようになります。",
+        "ZH-TW": "裝備物品\n採集者裝備能提升對應類型資源的採集量。",
+        "ID-ID": "Item Perlengkapan\nAlat Pengumpul memungkinkanmu untuk mengumpulkan lebih banyak jenis sumber daya yang berkaitan.",
+        "TR-TR": "Ekipman Eşyası\nToplayıcı teçhizatı, ilgili kaynak türünden daha fazla kaynak toplamana olanak sağlar.",
+        "AR-SA": "عنصر معدات\nيتيح لك عتاد الجامع جمع أكثر من نوع مورد مطابق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 16
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.5,
+        "crafting_focus": 8042,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 16
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 54675,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 17.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_YIELD_FIBER_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_YIELD_FIBER_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 3,
+          "crafting_focus": 14074,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 3.6,
+          "crafting_focus": 24630,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 4.32,
+          "crafting_focus": 43102,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 276792,
+          "crafting_silver": 0,
+          "crafting_time": 5.04,
+          "crafting_focus": 75429,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1300,
+        "durability": 123019,
+        "crafting_silver": 0,
+        "crafting_time": 3.6,
+        "crafting_focus": 24630,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_SOUL",
+            "count": 192
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 123019,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_ARMOR_GATHERER_FIBER@2",
+        "item_database_index": "5611"
+      },
+      "tier": 8,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Elder's Harvester Garb",
+        "name_ar": "ملابس الحاصد للحكيم",
+        "name_de": "Erntehelferkleidung des Ältesten",
+        "name_fr": "Tenue de récolteur du sage",
+        "name_es": "Atuendo de cosechador del anciano",
+        "name_ru": "Одежда жнеца (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_ARMOR_GATHERER_FIBER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@tier": "8",
+        "@weight": "17.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "150",
+        "@hitpointsregenerationbonus": "2.15",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "90",
+        "@magicresistance": "115",
+        "@crowdcontrolresistance": "50",
+        "@durability": "54675",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_armor",
+        "craftingspelllist": {
+          "@reference": "T4_ARMOR_GATHERER_FIBER",
+          "removespell": {
+            "@uniquename": "PASSIVE_YIELD_FIBER_T4"
+          },
+          "craftspell": {
+            "@uniquename": "PASSIVE_YIELD_FIBER_T8"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "8042",
+          "craftresource": {
+            "@uniquename": "T8_CLOTH",
+            "@count": "16"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3",
+                "@craftingfocus": "14074",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.6",
+                "@craftingfocus": "24630",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.32",
+                "@craftingfocus": "43102",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "276792",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.04",
+                "@craftingfocus": "75429",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "16"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_ARMOR_GATHERER_FIBER@3",
+      "index": "5612",
+      "name_en": "Elder's Harvester Garb",
+      "name_ar": "ملابس الحاصد للحكيم",
+      "name_de": "Erntehelferkleidung des Ältesten",
+      "name_fr": "Tenue de récolteur de sage",
+      "name_es": "Atuendo de cosechador del anciano",
+      "name_ru": "Одежда жнеца (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item\nGatherer Gear allows you to gather more of the corresponding resource type.",
+        "description_ar": "عنصر معدات\nيتيح لك عتاد الجامع جمع أكثر من نوع مورد مطابق.",
+        "description_de": "Ausrüstungsgegenstand\nSammler-Ausrüstung hilft dir dabei, mehr Ressourcen des entsprechenden Ressourcentyps zu sammeln",
+        "description_fr": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "description_es": "Objeto de equipo\nEl equipo de recolector te ayuda a recolectar mayor cantidad de un tipo concreto de recurso",
+        "description_ru": "Снаряжение\nПредметы собирателя помогают вам добывать больше ресурсов данного типа."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_ARMOR_GATHERER_FIBER",
+        "description_variable": "@ITEMS_T8_ARMOR_GATHERER_FIBER_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_ARMOR_GATHERER_FIBER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "tier": "8",
+        "weight": "17.1",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "150",
+        "hitpointsregenerationbonus": "2.15",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "90",
+        "magicresistance": "115",
+        "crowdcontrolresistance": "50",
+        "durability": "54675",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_armor"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Harvester Garb",
+        "DE-DE": "Erntehelferkleidung des Ältesten",
+        "FR-FR": "Tenue de récolteur de sage",
+        "RU-RU": "Одежда жнеца (старейшина)",
+        "PL-PL": "Odzienie Zbieracza Starszego",
+        "ES-ES": "Atuendo de cosechador del anciano",
+        "PT-BR": "Traje do Ceifeiro Ancião",
+        "IT-IT": "Indumenti da raccoglitore dell'anziano",
+        "ZH-CN": "禅师级收割工装",
+        "KO-KR": "장로의 추수꾼 의상",
+        "JA-JP": "収穫人の服（老熟）",
+        "ZH-TW": "禪師級採收者工作服",
+        "ID-ID": "Pakaian Pemanen Tetua",
+        "TR-TR": "Yüce Hasatçı Giysisi",
+        "AR-SA": "ملابس الحاصد للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nGatherer Gear allows you to gather more of the corresponding resource type.",
+        "DE-DE": "Ausrüstungsgegenstand\nSammler-Ausrüstung hilft dir dabei, mehr Ressourcen des entsprechenden Ressourcentyps zu sammeln",
+        "FR-FR": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "RU-RU": "Снаряжение\nПредметы собирателя помогают вам добывать больше ресурсов данного типа.",
+        "PL-PL": "Przedmiot do wyposażenia\nWyposażenie zbieracza pomaga zbierać więcej określonego rodzaju surowca",
+        "ES-ES": "Objeto de equipo\nEl equipo de recolector te ayuda a recolectar mayor cantidad de un tipo concreto de recurso",
+        "PT-BR": "Item de equipamento\nEquipamentos de coletor ajudam você a coletar mais do tipo apropriado de recurso",
+        "IT-IT": "Oggetto d'equipaggiamento\nL'equipaggiamento da raccoglitore permette di recuperare più risorse del tipo corrispondente.",
+        "ZH-CN": "装备物品\n采集工装让你可以采更多相应种类的资源。",
+        "KO-KR": "장비 아이템\n추수꾼 의상은 해당하는 종류의 자원을 더 많이 채집할 수 있게 합니다.",
+        "JA-JP": "装備アイテム\n採集家の装備は、対応するタイプの資源をさらに多く採集できるようになります。",
+        "ZH-TW": "裝備物品\n採集者裝備能提升對應類型資源的採集量。",
+        "ID-ID": "Item Perlengkapan\nAlat Pengumpul memungkinkanmu untuk mengumpulkan lebih banyak jenis sumber daya yang berkaitan.",
+        "TR-TR": "Ekipman Eşyası\nToplayıcı teçhizatı, ilgili kaynak türünden daha fazla kaynak toplamana olanak sağlar.",
+        "AR-SA": "عنصر معدات\nيتيح لك عتاد الجامع جمع أكثر من نوع مورد مطابق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 16
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.5,
+        "crafting_focus": 8042,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 16
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 54675,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 17.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_YIELD_FIBER_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_YIELD_FIBER_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 3,
+          "crafting_focus": 14074,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 3.6,
+          "crafting_focus": 24630,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 4.32,
+          "crafting_focus": 43102,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 276792,
+          "crafting_silver": 0,
+          "crafting_time": 5.04,
+          "crafting_focus": 75429,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1400,
+        "durability": 184528,
+        "crafting_silver": 0,
+        "crafting_time": 4.32,
+        "crafting_focus": 43102,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RELIC",
+            "count": 192
+          }
+        ]
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 184528,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_ARMOR_GATHERER_FIBER@3",
+        "item_database_index": "5612"
+      },
+      "tier": 8,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Elder's Harvester Garb",
+        "name_ar": "ملابس الحاصد للحكيم",
+        "name_de": "Erntehelferkleidung des Ältesten",
+        "name_fr": "Tenue de récolteur du sage",
+        "name_es": "Atuendo de cosechador del anciano",
+        "name_ru": "Одежда жнеца (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_ARMOR_GATHERER_FIBER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@tier": "8",
+        "@weight": "17.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "150",
+        "@hitpointsregenerationbonus": "2.15",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "90",
+        "@magicresistance": "115",
+        "@crowdcontrolresistance": "50",
+        "@durability": "54675",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_armor",
+        "craftingspelllist": {
+          "@reference": "T4_ARMOR_GATHERER_FIBER",
+          "removespell": {
+            "@uniquename": "PASSIVE_YIELD_FIBER_T4"
+          },
+          "craftspell": {
+            "@uniquename": "PASSIVE_YIELD_FIBER_T8"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "8042",
+          "craftresource": {
+            "@uniquename": "T8_CLOTH",
+            "@count": "16"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3",
+                "@craftingfocus": "14074",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.6",
+                "@craftingfocus": "24630",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.32",
+                "@craftingfocus": "43102",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "276792",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.04",
+                "@craftingfocus": "75429",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "16"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_ARMOR_GATHERER_FIBER@4",
+      "index": "5613",
+      "name_en": "Elder's Harvester Garb",
+      "name_ar": "ملابس الحاصد للحكيم",
+      "name_de": "Erntehelferkleidung des Ältesten",
+      "name_fr": "Tenue de récolteur de sage",
+      "name_es": "Atuendo de cosechador del anciano",
+      "name_ru": "Одежда жнеца (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item\nGatherer Gear allows you to gather more of the corresponding resource type.",
+        "description_ar": "عنصر معدات\nيتيح لك عتاد الجامع جمع أكثر من نوع مورد مطابق.",
+        "description_de": "Ausrüstungsgegenstand\nSammler-Ausrüstung hilft dir dabei, mehr Ressourcen des entsprechenden Ressourcentyps zu sammeln",
+        "description_fr": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "description_es": "Objeto de equipo\nEl equipo de recolector te ayuda a recolectar mayor cantidad de un tipo concreto de recurso",
+        "description_ru": "Снаряжение\nПредметы собирателя помогают вам добывать больше ресурсов данного типа."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_ARMOR_GATHERER_FIBER",
+        "description_variable": "@ITEMS_T8_ARMOR_GATHERER_FIBER_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "Armor",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_ARMOR_GATHERER_FIBER",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "armor",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "tier": "8",
+        "weight": "17.1",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "150",
+        "hitpointsregenerationbonus": "2.15",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "90",
+        "magicresistance": "115",
+        "crowdcontrolresistance": "50",
+        "durability": "54675",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "armor",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "magiccasttimereduction": "0",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "craftingcategory": "gatherergear",
+        "shopsubcategory2": "gathering_armor"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Harvester Garb",
+        "DE-DE": "Erntehelferkleidung des Ältesten",
+        "FR-FR": "Tenue de récolteur de sage",
+        "RU-RU": "Одежда жнеца (старейшина)",
+        "PL-PL": "Odzienie Zbieracza Starszego",
+        "ES-ES": "Atuendo de cosechador del anciano",
+        "PT-BR": "Traje do Ceifeiro Ancião",
+        "IT-IT": "Indumenti da raccoglitore dell'anziano",
+        "ZH-CN": "禅师级收割工装",
+        "KO-KR": "장로의 추수꾼 의상",
+        "JA-JP": "収穫人の服（老熟）",
+        "ZH-TW": "禪師級採收者工作服",
+        "ID-ID": "Pakaian Pemanen Tetua",
+        "TR-TR": "Yüce Hasatçı Giysisi",
+        "AR-SA": "ملابس الحاصد للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item\nGatherer Gear allows you to gather more of the corresponding resource type.",
+        "DE-DE": "Ausrüstungsgegenstand\nSammler-Ausrüstung hilft dir dabei, mehr Ressourcen des entsprechenden Ressourcentyps zu sammeln",
+        "FR-FR": "Pièce d'équipement\nL'équipement de collecteur vous permet de collecter le type de ressource appropriée en plus grande quantité.",
+        "RU-RU": "Снаряжение\nПредметы собирателя помогают вам добывать больше ресурсов данного типа.",
+        "PL-PL": "Przedmiot do wyposażenia\nWyposażenie zbieracza pomaga zbierać więcej określonego rodzaju surowca",
+        "ES-ES": "Objeto de equipo\nEl equipo de recolector te ayuda a recolectar mayor cantidad de un tipo concreto de recurso",
+        "PT-BR": "Item de equipamento\nEquipamentos de coletor ajudam você a coletar mais do tipo apropriado de recurso",
+        "IT-IT": "Oggetto d'equipaggiamento\nL'equipaggiamento da raccoglitore permette di recuperare più risorse del tipo corrispondente.",
+        "ZH-CN": "装备物品\n采集工装让你可以采更多相应种类的资源。",
+        "KO-KR": "장비 아이템\n추수꾼 의상은 해당하는 종류의 자원을 더 많이 채집할 수 있게 합니다.",
+        "JA-JP": "装備アイテム\n採集家の装備は、対応するタイプの資源をさらに多く採集できるようになります。",
+        "ZH-TW": "裝備物品\n採集者裝備能提升對應類型資源的採集量。",
+        "ID-ID": "Item Perlengkapan\nAlat Pengumpul memungkinkanmu untuk mengumpulkan lebih banyak jenis sumber daya yang berkaitan.",
+        "TR-TR": "Ekipman Eşyası\nToplayıcı teçhizatı, ilgili kaynak türünden daha fazla kaynak toplamana olanak sağlar.",
+        "AR-SA": "عنصر معدات\nيتيح لك عتاد الجامع جمع أكثر من نوع مورد مطابق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 16
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.5,
+        "crafting_focus": 8042,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 16
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 16,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 54675,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 17.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "armor"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_YIELD_FIBER_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_YIELD_FIBER_T8",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 3,
+          "crafting_focus": 14074,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 192
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 3.6,
+          "crafting_focus": 24630,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 192
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 4.32,
+          "crafting_focus": 43102,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 192
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 276792,
+          "crafting_silver": 0,
+          "crafting_time": 5.04,
+          "crafting_focus": 75429,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1500,
+        "durability": 276792,
+        "crafting_silver": 0,
+        "crafting_time": 5.04,
+        "crafting_focus": 75429,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1500,
+      "effective_durability": 276792,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "gatherergear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_ARMOR_GATHERER_FIBER@4",
+        "item_database_index": "5613"
+      },
+      "tier": 8,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Elder's Harvester Garb",
+        "name_ar": "ملابس الحاصد للحكيم",
+        "name_de": "Erntehelferkleidung des Ältesten",
+        "name_fr": "Tenue de récolteur du sage",
+        "name_es": "Atuendo de cosechador del anciano",
+        "name_ru": "Одежда жнеца (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_ARMOR_GATHERER_FIBER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "armor",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@tier": "8",
+        "@weight": "17.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "150",
+        "@hitpointsregenerationbonus": "2.15",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "90",
+        "@magicresistance": "115",
+        "@crowdcontrolresistance": "50",
+        "@durability": "54675",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "armor",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@magiccasttimereduction": "0",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@craftingcategory": "gatherergear",
+        "@shopsubcategory2": "gathering_armor",
+        "craftingspelllist": {
+          "@reference": "T4_ARMOR_GATHERER_FIBER",
+          "removespell": {
+            "@uniquename": "PASSIVE_YIELD_FIBER_T4"
+          },
+          "craftspell": {
+            "@uniquename": "PASSIVE_YIELD_FIBER_T8"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "8042",
+          "craftresource": {
+            "@uniquename": "T8_CLOTH",
+            "@count": "16"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3",
+                "@craftingfocus": "14074",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL1",
+                  "@enchantmentlevel": "1",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.6",
+                "@craftingfocus": "24630",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL2",
+                  "@enchantmentlevel": "2",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.32",
+                "@craftingfocus": "43102",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL3",
+                  "@enchantmentlevel": "3",
+                  "@count": "16"
+                }
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "192"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "276792",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.04",
+                "@craftingfocus": "75429",
+                "craftresource": {
+                  "@uniquename": "T8_CLOTH_LEVEL4",
+                  "@enchantmentlevel": "4",
+                  "@count": "16"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

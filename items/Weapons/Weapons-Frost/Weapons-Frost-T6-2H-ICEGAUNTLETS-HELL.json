@@ -1,0 +1,3599 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Frost",
+  "base_id": "T6_2H_ICEGAUNTLETS_HELL",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T6_2H_ICEGAUNTLETS_HELL",
+      "index": "7291",
+      "name_en": "Master's Icicle Staff",
+      "name_ar": "عصا الماء المتجمد للخبير",
+      "name_de": "Eiszapfenstab des Meisters",
+      "name_fr": "Bâton de stalactite du maître",
+      "name_es": "Bastón de carámbanos del maestro",
+      "name_ru": "Заледенелый посох (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_ICEGAUNTLETS_HELL",
+        "description_variable": "@ITEMS_T6_2H_ICEGAUNTLETS_HELL_DESC"
+      },
+      "category": "Weapons_Frost",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_ICEGAUNTLETS_HELL",
+        "uisprite": "2H_FROSTSTAFF_HELL",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "froststaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "950",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "froststaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_FROSTSTAFFS_HELL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "attackupperbodyblendtime": "0.0535",
+        "shopsubcategory2": "froststaff_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Icicle Staff",
+        "DE-DE": "Eiszapfenstab des Meisters",
+        "FR-FR": "Bâton de stalactite du maître",
+        "RU-RU": "Заледенелый посох (мастер)",
+        "PL-PL": "Soplowy Kostur Mistrza",
+        "ES-ES": "Bastón de carámbanos del maestro",
+        "PT-BR": "Cajado de Sincelo do Mestre",
+        "IT-IT": "Bastone del ghiaccio del maestro",
+        "ZH-CN": "大师级冰针法杖",
+        "KO-KR": "마스터의 아이시클 스태프",
+        "JA-JP": "氷柱の杖（マスター）",
+        "ZH-TW": "大師級冰柱法杖",
+        "ID-ID": "Tongkat Es Master",
+        "TR-TR": "Usta Buz Sarkıtı Asası",
+        "AR-SA": "عصا الماء المتجمد للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 950,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_FROSTSTAFFS_HELL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "GLACIALFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "GLACIALFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_ICEGAUNTLETS_HELL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1050,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1150,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1250,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1350,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 950,
+      "effective_durability": 64324,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "froststaff",
+        "crafting_category": "froststaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_FROSTSTAFF_HELL"
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+          "name_artifact_en": "Master's Icicle Orb",
+          "name_artifact_ar": "جرم سماوي ثلجي للخبير",
+          "name_artifact_de": "Eiszapfen-Kugel des Meisters",
+          "name_artifact_fr": "Gant de glace du maître",
+          "name_artifact_es": "Orbe de carámbanos del maestro",
+          "name_artifact_ru": "Заледенелая сфера мастера",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_ICEGAUNTLETS_HELL",
+        "item_database_index": "7291"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Icicle Staff",
+        "name_ar": "عصا الماء المتجمد للخبير",
+        "name_de": "Eiszapfenstab des Meisters",
+        "name_fr": "Bâton de stalactite du maître",
+        "name_es": "Bastón de carámbanos del maestro",
+        "name_ru": "Заледенелый посох (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_ICEGAUNTLETS_HELL",
+        "@uisprite": "2H_FROSTSTAFF_HELL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "froststaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "950",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "froststaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_FROSTSTAFFS_HELL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@attackupperbodyblendtime": "0.0535",
+        "@shopsubcategory2": "froststaff_hell",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2.667",
+            "@craftingfocus": "5252",
+            "craftresource": [
+              {
+                "@uniquename": "T6_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "5252",
+            "@time": "2.667",
+            "craftresource": [
+              {
+                "@uniquename": "T6_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_ICEGAUNTLETS_HELL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1050",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1150",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1250",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1350",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_ICEGAUNTLETS_HELL@1",
+      "index": "7292",
+      "name_en": "Master's Icicle Staff",
+      "name_ar": "عصا الماء المتجمد للخبير",
+      "name_de": "Eiszapfenstab des Meisters",
+      "name_fr": "Bâton de stalactite du maître",
+      "name_es": "Bastón de carámbanos del maestro",
+      "name_ru": "Заледенелый посох (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_ICEGAUNTLETS_HELL",
+        "description_variable": "@ITEMS_T6_2H_ICEGAUNTLETS_HELL_DESC"
+      },
+      "category": "Weapons_Frost",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_ICEGAUNTLETS_HELL",
+        "uisprite": "2H_FROSTSTAFF_HELL",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "froststaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "950",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "froststaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_FROSTSTAFFS_HELL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "attackupperbodyblendtime": "0.0535",
+        "shopsubcategory2": "froststaff_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Icicle Staff",
+        "DE-DE": "Eiszapfenstab des Meisters",
+        "FR-FR": "Bâton de stalactite du maître",
+        "RU-RU": "Заледенелый посох (мастер)",
+        "PL-PL": "Soplowy Kostur Mistrza",
+        "ES-ES": "Bastón de carámbanos del maestro",
+        "PT-BR": "Cajado de Sincelo do Mestre",
+        "IT-IT": "Bastone del ghiaccio del maestro",
+        "ZH-CN": "大师级冰针法杖",
+        "KO-KR": "마스터의 아이시클 스태프",
+        "JA-JP": "氷柱の杖（マスター）",
+        "ZH-TW": "大師級冰柱法杖",
+        "ID-ID": "Tongkat Es Master",
+        "TR-TR": "Usta Buz Sarkıtı Asası",
+        "AR-SA": "عصا الماء المتجمد للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 950,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_FROSTSTAFFS_HELL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "GLACIALFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "GLACIALFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_ICEGAUNTLETS_HELL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1050,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1150,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1250,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1350,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1050,
+        "durability": 96486,
+        "crafting_silver": 0,
+        "crafting_time": 3.333,
+        "crafting_focus": 9191,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T6_METALBAR_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1050,
+      "effective_durability": 96486,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "froststaff",
+        "crafting_category": "froststaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_FROSTSTAFF_HELL"
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+          "name_artifact_en": "Master's Icicle Orb",
+          "name_artifact_ar": "جرم سماوي ثلجي للخبير",
+          "name_artifact_de": "Eiszapfen-Kugel des Meisters",
+          "name_artifact_fr": "Gant de glace du maître",
+          "name_artifact_es": "Orbe de carámbanos del maestro",
+          "name_artifact_ru": "Заледенелая сфера мастера",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_ICEGAUNTLETS_HELL@1",
+        "item_database_index": "7292"
+      },
+      "tier": 6,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Master's Icicle Staff",
+        "name_ar": "عصا الماء المتجمد للخبير",
+        "name_de": "Eiszapfenstab des Meisters",
+        "name_fr": "Bâton de stalactite du maître",
+        "name_es": "Bastón de carámbanos del maestro",
+        "name_ru": "Заледенелый посох (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_ICEGAUNTLETS_HELL",
+        "@uisprite": "2H_FROSTSTAFF_HELL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "froststaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "950",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "froststaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_FROSTSTAFFS_HELL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@attackupperbodyblendtime": "0.0535",
+        "@shopsubcategory2": "froststaff_hell",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2.667",
+            "@craftingfocus": "5252",
+            "craftresource": [
+              {
+                "@uniquename": "T6_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "5252",
+            "@time": "2.667",
+            "craftresource": [
+              {
+                "@uniquename": "T6_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_ICEGAUNTLETS_HELL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1050",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1150",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1250",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1350",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_ICEGAUNTLETS_HELL@2",
+      "index": "7293",
+      "name_en": "Master's Icicle Staff",
+      "name_ar": "عصا الماء المتجمد للخبير",
+      "name_de": "Eiszapfenstab des Meisters",
+      "name_fr": "Bâton de stalactite du maître",
+      "name_es": "Bastón de carámbanos del maestro",
+      "name_ru": "Заледенелый посох (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_ICEGAUNTLETS_HELL",
+        "description_variable": "@ITEMS_T6_2H_ICEGAUNTLETS_HELL_DESC"
+      },
+      "category": "Weapons_Frost",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_ICEGAUNTLETS_HELL",
+        "uisprite": "2H_FROSTSTAFF_HELL",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "froststaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "950",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "froststaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_FROSTSTAFFS_HELL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "attackupperbodyblendtime": "0.0535",
+        "shopsubcategory2": "froststaff_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Icicle Staff",
+        "DE-DE": "Eiszapfenstab des Meisters",
+        "FR-FR": "Bâton de stalactite du maître",
+        "RU-RU": "Заледенелый посох (мастер)",
+        "PL-PL": "Soplowy Kostur Mistrza",
+        "ES-ES": "Bastón de carámbanos del maestro",
+        "PT-BR": "Cajado de Sincelo do Mestre",
+        "IT-IT": "Bastone del ghiaccio del maestro",
+        "ZH-CN": "大师级冰针法杖",
+        "KO-KR": "마스터의 아이시클 스태프",
+        "JA-JP": "氷柱の杖（マスター）",
+        "ZH-TW": "大師級冰柱法杖",
+        "ID-ID": "Tongkat Es Master",
+        "TR-TR": "Usta Buz Sarkıtı Asası",
+        "AR-SA": "عصا الماء المتجمد للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 950,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_FROSTSTAFFS_HELL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "GLACIALFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "GLACIALFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_ICEGAUNTLETS_HELL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1050,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1150,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1250,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1350,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1150,
+        "durability": 144729,
+        "crafting_silver": 0,
+        "crafting_time": 5,
+        "crafting_focus": 16085,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T6_METALBAR_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1150,
+      "effective_durability": 144729,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "froststaff",
+        "crafting_category": "froststaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_FROSTSTAFF_HELL"
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+          "name_artifact_en": "Master's Icicle Orb",
+          "name_artifact_ar": "جرم سماوي ثلجي للخبير",
+          "name_artifact_de": "Eiszapfen-Kugel des Meisters",
+          "name_artifact_fr": "Gant de glace du maître",
+          "name_artifact_es": "Orbe de carámbanos del maestro",
+          "name_artifact_ru": "Заледенелая сфера мастера",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_ICEGAUNTLETS_HELL@2",
+        "item_database_index": "7293"
+      },
+      "tier": 6,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Master's Icicle Staff",
+        "name_ar": "عصا الماء المتجمد للخبير",
+        "name_de": "Eiszapfenstab des Meisters",
+        "name_fr": "Bâton de stalactite du maître",
+        "name_es": "Bastón de carámbanos del maestro",
+        "name_ru": "Заледенелый посох (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_ICEGAUNTLETS_HELL",
+        "@uisprite": "2H_FROSTSTAFF_HELL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "froststaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "950",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "froststaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_FROSTSTAFFS_HELL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@attackupperbodyblendtime": "0.0535",
+        "@shopsubcategory2": "froststaff_hell",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2.667",
+            "@craftingfocus": "5252",
+            "craftresource": [
+              {
+                "@uniquename": "T6_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "5252",
+            "@time": "2.667",
+            "craftresource": [
+              {
+                "@uniquename": "T6_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_ICEGAUNTLETS_HELL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1050",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1150",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1250",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1350",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_ICEGAUNTLETS_HELL@3",
+      "index": "7294",
+      "name_en": "Master's Icicle Staff",
+      "name_ar": "عصا الماء المتجمد للخبير",
+      "name_de": "Eiszapfenstab des Meisters",
+      "name_fr": "Bâton de stalactite du maître",
+      "name_es": "Bastón de carámbanos del maestro",
+      "name_ru": "Заледенелый посох (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_ICEGAUNTLETS_HELL",
+        "description_variable": "@ITEMS_T6_2H_ICEGAUNTLETS_HELL_DESC"
+      },
+      "category": "Weapons_Frost",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_ICEGAUNTLETS_HELL",
+        "uisprite": "2H_FROSTSTAFF_HELL",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "froststaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "950",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "froststaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_FROSTSTAFFS_HELL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "attackupperbodyblendtime": "0.0535",
+        "shopsubcategory2": "froststaff_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Icicle Staff",
+        "DE-DE": "Eiszapfenstab des Meisters",
+        "FR-FR": "Bâton de stalactite du maître",
+        "RU-RU": "Заледенелый посох (мастер)",
+        "PL-PL": "Soplowy Kostur Mistrza",
+        "ES-ES": "Bastón de carámbanos del maestro",
+        "PT-BR": "Cajado de Sincelo do Mestre",
+        "IT-IT": "Bastone del ghiaccio del maestro",
+        "ZH-CN": "大师级冰针法杖",
+        "KO-KR": "마스터의 아이시클 스태프",
+        "JA-JP": "氷柱の杖（マスター）",
+        "ZH-TW": "大師級冰柱法杖",
+        "ID-ID": "Tongkat Es Master",
+        "TR-TR": "Usta Buz Sarkıtı Asası",
+        "AR-SA": "عصا الماء المتجمد للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 950,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_FROSTSTAFFS_HELL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "GLACIALFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "GLACIALFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_ICEGAUNTLETS_HELL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1050,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1150,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1250,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1350,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1250,
+        "durability": 217094,
+        "crafting_silver": 0,
+        "crafting_time": 6,
+        "crafting_focus": 28148,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T6_METALBAR_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1250,
+      "effective_durability": 217094,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "froststaff",
+        "crafting_category": "froststaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_FROSTSTAFF_HELL"
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+          "name_artifact_en": "Master's Icicle Orb",
+          "name_artifact_ar": "جرم سماوي ثلجي للخبير",
+          "name_artifact_de": "Eiszapfen-Kugel des Meisters",
+          "name_artifact_fr": "Gant de glace du maître",
+          "name_artifact_es": "Orbe de carámbanos del maestro",
+          "name_artifact_ru": "Заледенелая сфера мастера",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_ICEGAUNTLETS_HELL@3",
+        "item_database_index": "7294"
+      },
+      "tier": 6,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Master's Icicle Staff",
+        "name_ar": "عصا الماء المتجمد للخبير",
+        "name_de": "Eiszapfenstab des Meisters",
+        "name_fr": "Bâton de stalactite du maître",
+        "name_es": "Bastón de carámbanos del maestro",
+        "name_ru": "Заледенелый посох (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_ICEGAUNTLETS_HELL",
+        "@uisprite": "2H_FROSTSTAFF_HELL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "froststaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "950",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "froststaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_FROSTSTAFFS_HELL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@attackupperbodyblendtime": "0.0535",
+        "@shopsubcategory2": "froststaff_hell",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2.667",
+            "@craftingfocus": "5252",
+            "craftresource": [
+              {
+                "@uniquename": "T6_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "5252",
+            "@time": "2.667",
+            "craftresource": [
+              {
+                "@uniquename": "T6_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_ICEGAUNTLETS_HELL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1050",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1150",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1250",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1350",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_ICEGAUNTLETS_HELL@4",
+      "index": "7295",
+      "name_en": "Master's Icicle Staff",
+      "name_ar": "عصا الماء المتجمد للخبير",
+      "name_de": "Eiszapfenstab des Meisters",
+      "name_fr": "Bâton de stalactite du maître",
+      "name_es": "Bastón de carámbanos del maestro",
+      "name_ru": "Заледенелый посох (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_ICEGAUNTLETS_HELL",
+        "description_variable": "@ITEMS_T6_2H_ICEGAUNTLETS_HELL_DESC"
+      },
+      "category": "Weapons_Frost",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_ICEGAUNTLETS_HELL",
+        "uisprite": "2H_FROSTSTAFF_HELL",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "froststaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "magicstaff2h",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "950",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "froststaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_FROSTSTAFFS_HELL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "attackupperbodyblendtime": "0.0535",
+        "shopsubcategory2": "froststaff_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Icicle Staff",
+        "DE-DE": "Eiszapfenstab des Meisters",
+        "FR-FR": "Bâton de stalactite du maître",
+        "RU-RU": "Заледенелый посох (мастер)",
+        "PL-PL": "Soplowy Kostur Mistrza",
+        "ES-ES": "Bastón de carámbanos del maestro",
+        "PT-BR": "Cajado de Sincelo do Mestre",
+        "IT-IT": "Bastone del ghiaccio del maestro",
+        "ZH-CN": "大师级冰针法杖",
+        "KO-KR": "마스터의 아이시클 스태프",
+        "JA-JP": "氷柱の杖（マスター）",
+        "ZH-TW": "大師級冰柱法杖",
+        "ID-ID": "Tongkat Es Master",
+        "TR-TR": "Usta Buz Sarkıtı Asası",
+        "AR-SA": "عصا الماء المتجمد للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "magicstaff2h",
+        "item_power": 950,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_FROSTSTAFFS_HELL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "GLACIALFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "GLACIALFIELD",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_ICEGAUNTLETS_HELL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1050,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1150,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1250,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1350,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1350,
+        "durability": 325640,
+        "crafting_silver": 0,
+        "crafting_time": 7.2,
+        "crafting_focus": 49260,
+        "crafting_resources": [
+          {
+            "id": "T6_PLANKS_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T6_METALBAR_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1350,
+      "effective_durability": 325640,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "froststaff",
+        "crafting_category": "froststaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_FROSTSTAFF_HELL"
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+          "name_artifact_en": "Master's Icicle Orb",
+          "name_artifact_ar": "جرم سماوي ثلجي للخبير",
+          "name_artifact_de": "Eiszapfen-Kugel des Meisters",
+          "name_artifact_fr": "Gant de glace du maître",
+          "name_artifact_es": "Orbe de carámbanos del maestro",
+          "name_artifact_ru": "Заледенелая сфера мастера",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_ICEGAUNTLETS_HELL@4",
+        "item_database_index": "7295"
+      },
+      "tier": 6,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Master's Icicle Staff",
+        "name_ar": "عصا الماء المتجمد للخبير",
+        "name_de": "Eiszapfenstab des Meisters",
+        "name_fr": "Bâton de stalactite du maître",
+        "name_es": "Bastón de carámbanos del maestro",
+        "name_ru": "Заледенелый посох (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_ICEGAUNTLETS_HELL",
+        "@uisprite": "2H_FROSTSTAFF_HELL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "froststaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "magicstaff2h",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "950",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "froststaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_FROSTSTAFFS_HELL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@attackupperbodyblendtime": "0.0535",
+        "@shopsubcategory2": "froststaff_hell",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "1.388",
+              "@attackspeedfactor": "1"
+            }
+          ]
+        },
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2.667",
+            "@craftingfocus": "5252",
+            "craftresource": [
+              {
+                "@uniquename": "T6_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "5252",
+            "@time": "2.667",
+            "craftresource": [
+              {
+                "@uniquename": "T6_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_ICEGAUNTLETS_HELL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1050",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1150",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1250",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1350",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

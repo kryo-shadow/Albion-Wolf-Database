@@ -1,0 +1,3454 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Crossbow",
+  "base_id": "T4_2H_CROSSBOW",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_2H_CROSSBOW",
+      "index": "6577",
+      "name_en": "Adept's Crossbow",
+      "name_ar": "قوس مستعرض للبارع",
+      "name_de": "Armbrust des Adepten",
+      "name_fr": "Arbalète de l'adepte",
+      "name_es": "Ballesta del iniciado",
+      "name_ru": "Арбалет (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_CROSSBOW",
+        "description_variable": "@ITEMS_T4_2H_CROSSBOW_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_CROSSBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow",
+        "attackdamage": "37",
+        "attackspeed": "0.8",
+        "twohanded": "true",
+        "attackrange": "11",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_crossbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Crossbow",
+        "DE-DE": "Armbrust des Adepten",
+        "FR-FR": "Arbalète de l'adepte",
+        "RU-RU": "Арбалет (знаток)",
+        "PL-PL": "Kusza Adepta",
+        "ES-ES": "Ballesta del iniciado",
+        "PT-BR": "Besta do Adepto",
+        "IT-IT": "Balestra del sapiente",
+        "ZH-CN": "老手级十字弓",
+        "KO-KR": "숙련자의 크로스보우",
+        "JA-JP": "クロスボウ（名人）",
+        "ZH-TW": "老手級十字弓",
+        "ID-ID": "Busur Silang Mahir",
+        "TR-TR": "Ehil Arbaleti",
+        "AR-SA": "قوس مستعرض للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 0.8,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "AUTOFIRE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ACID_BOMB",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SUNDERSHOT",
+            "slots": 2,
+            "tag": "B",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BOLTSHOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CALTROPS",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKBACKSHOT2",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SILENCINGBOLT",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SNIPESHOT_CROSSBOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_KNOCKBACKCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_RESET_Q",
+            "slots": null,
+            "tag": "C",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "AUTOFIRE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ACID_BOMB",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SUNDERSHOT",
+            "slots": 2,
+            "tag": "B",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BOLTSHOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CALTROPS",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKBACKSHOT2",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SILENCINGBOLT",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SNIPESHOT_CROSSBOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_KNOCKBACKCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_RESET_Q",
+            "slots": null,
+            "tag": "C",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 12706,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_CROSSBOW",
+        "item_database_index": "6577"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Crossbow",
+        "name_ar": "قوس مستعرض للبارع",
+        "name_de": "Armbrust des Adepten",
+        "name_fr": "Arbalète de l'adepte",
+        "name_es": "Ballesta del iniciado",
+        "name_ru": "Арбалет (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_CROSSBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow",
+        "@attackdamage": "37",
+        "@attackspeed": "0.8",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_crossbow",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "AUTOFIRE2",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "ACID_BOMB",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "SUNDERSHOT",
+              "@slots": "2",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "BOLTSHOT",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "CALTROPS",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "KNOCKBACKSHOT2",
+              "@slots": "2",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "SILENCINGBOLT",
+              "@slots": "2",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "SNIPESHOT_CROSSBOW",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_KNOCKBACKCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_CD_RESET_Q",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_CROSSBOW@1",
+      "index": "6578",
+      "name_en": "Adept's Crossbow",
+      "name_ar": "قوس مستعرض للبارع",
+      "name_de": "Armbrust des Adepten",
+      "name_fr": "Arbalète de l'adepte",
+      "name_es": "Ballesta del iniciado",
+      "name_ru": "Арбалет (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_CROSSBOW",
+        "description_variable": "@ITEMS_T4_2H_CROSSBOW_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_CROSSBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow",
+        "attackdamage": "37",
+        "attackspeed": "0.8",
+        "twohanded": "true",
+        "attackrange": "11",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_crossbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Crossbow",
+        "DE-DE": "Armbrust des Adepten",
+        "FR-FR": "Arbalète de l'adepte",
+        "RU-RU": "Арбалет (знаток)",
+        "PL-PL": "Kusza Adepta",
+        "ES-ES": "Ballesta del iniciado",
+        "PT-BR": "Besta do Adepto",
+        "IT-IT": "Balestra del sapiente",
+        "ZH-CN": "老手级十字弓",
+        "KO-KR": "숙련자의 크로스보우",
+        "JA-JP": "クロスボウ（名人）",
+        "ZH-TW": "老手級十字弓",
+        "ID-ID": "Busur Silang Mahir",
+        "TR-TR": "Ehil Arbaleti",
+        "AR-SA": "قوس مستعرض للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 0.8,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "AUTOFIRE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ACID_BOMB",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SUNDERSHOT",
+            "slots": 2,
+            "tag": "B",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BOLTSHOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CALTROPS",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKBACKSHOT2",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SILENCINGBOLT",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SNIPESHOT_CROSSBOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_KNOCKBACKCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_RESET_Q",
+            "slots": null,
+            "tag": "C",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "AUTOFIRE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ACID_BOMB",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SUNDERSHOT",
+            "slots": 2,
+            "tag": "B",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BOLTSHOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CALTROPS",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKBACKSHOT2",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SILENCINGBOLT",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SNIPESHOT_CROSSBOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_KNOCKBACKCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_RESET_Q",
+            "slots": null,
+            "tag": "C",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 800,
+        "durability": 19059,
+        "crafting_silver": 0,
+        "crafting_time": 2,
+        "crafting_focus": 3001,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_METALBAR_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 800,
+      "effective_durability": 19059,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_CROSSBOW@1",
+        "item_database_index": "6578"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Crossbow",
+        "name_ar": "قوس مستعرض للبارع",
+        "name_de": "Armbrust des Adepten",
+        "name_fr": "Arbalète de l'adepte",
+        "name_es": "Ballesta del iniciado",
+        "name_ru": "Арбалет (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_CROSSBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow",
+        "@attackdamage": "37",
+        "@attackspeed": "0.8",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_crossbow",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "AUTOFIRE2",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "ACID_BOMB",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "SUNDERSHOT",
+              "@slots": "2",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "BOLTSHOT",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "CALTROPS",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "KNOCKBACKSHOT2",
+              "@slots": "2",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "SILENCINGBOLT",
+              "@slots": "2",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "SNIPESHOT_CROSSBOW",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_KNOCKBACKCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_CD_RESET_Q",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_CROSSBOW@2",
+      "index": "6579",
+      "name_en": "Adept's Crossbow",
+      "name_ar": "قوس مستعرض للبارع",
+      "name_de": "Armbrust des Adepten",
+      "name_fr": "Arbalète de l'adepte",
+      "name_es": "Ballesta del iniciado",
+      "name_ru": "Арбалет (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_CROSSBOW",
+        "description_variable": "@ITEMS_T4_2H_CROSSBOW_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_CROSSBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow",
+        "attackdamage": "37",
+        "attackspeed": "0.8",
+        "twohanded": "true",
+        "attackrange": "11",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_crossbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Crossbow",
+        "DE-DE": "Armbrust des Adepten",
+        "FR-FR": "Arbalète de l'adepte",
+        "RU-RU": "Арбалет (знаток)",
+        "PL-PL": "Kusza Adepta",
+        "ES-ES": "Ballesta del iniciado",
+        "PT-BR": "Besta do Adepto",
+        "IT-IT": "Balestra del sapiente",
+        "ZH-CN": "老手级十字弓",
+        "KO-KR": "숙련자의 크로스보우",
+        "JA-JP": "クロスボウ（名人）",
+        "ZH-TW": "老手級十字弓",
+        "ID-ID": "Busur Silang Mahir",
+        "TR-TR": "Ehil Arbaleti",
+        "AR-SA": "قوس مستعرض للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 0.8,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "AUTOFIRE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ACID_BOMB",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SUNDERSHOT",
+            "slots": 2,
+            "tag": "B",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BOLTSHOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CALTROPS",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKBACKSHOT2",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SILENCINGBOLT",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SNIPESHOT_CROSSBOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_KNOCKBACKCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_RESET_Q",
+            "slots": null,
+            "tag": "C",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "AUTOFIRE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ACID_BOMB",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SUNDERSHOT",
+            "slots": 2,
+            "tag": "B",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BOLTSHOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CALTROPS",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKBACKSHOT2",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SILENCINGBOLT",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SNIPESHOT_CROSSBOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_KNOCKBACKCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_RESET_Q",
+            "slots": null,
+            "tag": "C",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 900,
+        "durability": 28589,
+        "crafting_silver": 0,
+        "crafting_time": 2.667,
+        "crafting_focus": 5252,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_METALBAR_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 900,
+      "effective_durability": 28589,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_CROSSBOW@2",
+        "item_database_index": "6579"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Crossbow",
+        "name_ar": "قوس مستعرض للبارع",
+        "name_de": "Armbrust des Adepten",
+        "name_fr": "Arbalète de l'adepte",
+        "name_es": "Ballesta del iniciado",
+        "name_ru": "Арбалет (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_CROSSBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow",
+        "@attackdamage": "37",
+        "@attackspeed": "0.8",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_crossbow",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "AUTOFIRE2",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "ACID_BOMB",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "SUNDERSHOT",
+              "@slots": "2",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "BOLTSHOT",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "CALTROPS",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "KNOCKBACKSHOT2",
+              "@slots": "2",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "SILENCINGBOLT",
+              "@slots": "2",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "SNIPESHOT_CROSSBOW",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_KNOCKBACKCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_CD_RESET_Q",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_CROSSBOW@3",
+      "index": "6580",
+      "name_en": "Adept's Crossbow",
+      "name_ar": "قوس مستعرض للبارع",
+      "name_de": "Armbrust des Adepten",
+      "name_fr": "Arbalète de l'adepte",
+      "name_es": "Ballesta del iniciado",
+      "name_ru": "Арбалет (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_CROSSBOW",
+        "description_variable": "@ITEMS_T4_2H_CROSSBOW_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_CROSSBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow",
+        "attackdamage": "37",
+        "attackspeed": "0.8",
+        "twohanded": "true",
+        "attackrange": "11",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_crossbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Crossbow",
+        "DE-DE": "Armbrust des Adepten",
+        "FR-FR": "Arbalète de l'adepte",
+        "RU-RU": "Арбалет (знаток)",
+        "PL-PL": "Kusza Adepta",
+        "ES-ES": "Ballesta del iniciado",
+        "PT-BR": "Besta do Adepto",
+        "IT-IT": "Balestra del sapiente",
+        "ZH-CN": "老手级十字弓",
+        "KO-KR": "숙련자의 크로스보우",
+        "JA-JP": "クロスボウ（名人）",
+        "ZH-TW": "老手級十字弓",
+        "ID-ID": "Busur Silang Mahir",
+        "TR-TR": "Ehil Arbaleti",
+        "AR-SA": "قوس مستعرض للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 0.8,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "AUTOFIRE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ACID_BOMB",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SUNDERSHOT",
+            "slots": 2,
+            "tag": "B",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BOLTSHOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CALTROPS",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKBACKSHOT2",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SILENCINGBOLT",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SNIPESHOT_CROSSBOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_KNOCKBACKCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_RESET_Q",
+            "slots": null,
+            "tag": "C",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "AUTOFIRE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ACID_BOMB",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SUNDERSHOT",
+            "slots": 2,
+            "tag": "B",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BOLTSHOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CALTROPS",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKBACKSHOT2",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SILENCINGBOLT",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SNIPESHOT_CROSSBOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_KNOCKBACKCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_RESET_Q",
+            "slots": null,
+            "tag": "C",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1000,
+        "durability": 42883,
+        "crafting_silver": 0,
+        "crafting_time": 3.333,
+        "crafting_focus": 9191,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_METALBAR_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 42883,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_CROSSBOW@3",
+        "item_database_index": "6580"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Crossbow",
+        "name_ar": "قوس مستعرض للبارع",
+        "name_de": "Armbrust des Adepten",
+        "name_fr": "Arbalète de l'adepte",
+        "name_es": "Ballesta del iniciado",
+        "name_ru": "Арбалет (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_CROSSBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow",
+        "@attackdamage": "37",
+        "@attackspeed": "0.8",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_crossbow",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "AUTOFIRE2",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "ACID_BOMB",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "SUNDERSHOT",
+              "@slots": "2",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "BOLTSHOT",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "CALTROPS",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "KNOCKBACKSHOT2",
+              "@slots": "2",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "SILENCINGBOLT",
+              "@slots": "2",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "SNIPESHOT_CROSSBOW",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_KNOCKBACKCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_CD_RESET_Q",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_CROSSBOW@4",
+      "index": "6581",
+      "name_en": "Adept's Crossbow",
+      "name_ar": "قوس مستعرض للبارع",
+      "name_de": "Armbrust des Adepten",
+      "name_fr": "Arbalète de l'adepte",
+      "name_es": "Ballesta del iniciado",
+      "name_ru": "Арбалет (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_CROSSBOW",
+        "description_variable": "@ITEMS_T4_2H_CROSSBOW_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_CROSSBOW",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow",
+        "attackdamage": "37",
+        "attackspeed": "0.8",
+        "twohanded": "true",
+        "attackrange": "11",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_crossbow"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Crossbow",
+        "DE-DE": "Armbrust des Adepten",
+        "FR-FR": "Arbalète de l'adepte",
+        "RU-RU": "Арбалет (знаток)",
+        "PL-PL": "Kusza Adepta",
+        "ES-ES": "Ballesta del iniciado",
+        "PT-BR": "Besta do Adepto",
+        "IT-IT": "Balestra del sapiente",
+        "ZH-CN": "老手级十字弓",
+        "KO-KR": "숙련자의 크로스보우",
+        "JA-JP": "クロスボウ（名人）",
+        "ZH-TW": "老手級十字弓",
+        "ID-ID": "Busur Silang Mahir",
+        "TR-TR": "Ehil Arbaleti",
+        "AR-SA": "قوس مستعرض للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 0.8,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow",
+        "item_power": 700,
+        "ability_power": 120,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "AUTOFIRE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ACID_BOMB",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SUNDERSHOT",
+            "slots": 2,
+            "tag": "B",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BOLTSHOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CALTROPS",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKBACKSHOT2",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SILENCINGBOLT",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SNIPESHOT_CROSSBOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_KNOCKBACKCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_RESET_Q",
+            "slots": null,
+            "tag": "C",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "AUTOFIRE2",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ACID_BOMB",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SUNDERSHOT",
+            "slots": 2,
+            "tag": "B",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BOLTSHOT",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "CALTROPS",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "KNOCKBACKSHOT2",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SILENCINGBOLT",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SNIPESHOT_CROSSBOW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_KNOCKBACKCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_RESET_Q",
+            "slots": null,
+            "tag": "C",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1100,
+        "durability": 64324,
+        "crafting_silver": 0,
+        "crafting_time": 5,
+        "crafting_focus": 16085,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_METALBAR_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 64324,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_CROSSBOW@4",
+        "item_database_index": "6581"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Crossbow",
+        "name_ar": "قوس مستعرض للبارع",
+        "name_de": "Armbrust des Adepten",
+        "name_fr": "Arbalète de l'adepte",
+        "name_es": "Ballesta del iniciado",
+        "name_ru": "Арбалет (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_CROSSBOW",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow",
+        "@attackdamage": "37",
+        "@attackspeed": "0.8",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_CROSSBOW",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_crossbow",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "AUTOFIRE2",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "ACID_BOMB",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "SUNDERSHOT",
+              "@slots": "2",
+              "@tag": "B"
+            },
+            {
+              "@uniquename": "BOLTSHOT",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "CALTROPS",
+              "@slots": "2",
+              "@tag": "D"
+            },
+            {
+              "@uniquename": "KNOCKBACKSHOT2",
+              "@slots": "2",
+              "@tag": "F"
+            },
+            {
+              "@uniquename": "SILENCINGBOLT",
+              "@slots": "2",
+              "@tag": "H"
+            },
+            {
+              "@uniquename": "SNIPESHOT_CROSSBOW",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_KNOCKBACKCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_CD_RESET_Q",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_CROSSBOW",
+              "@tag": "E"
+            },
+            {
+              "@uniquename": "PASSIVE_SPELLPOWER_CASTER_CROSSBOW",
+              "@tag": "G"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

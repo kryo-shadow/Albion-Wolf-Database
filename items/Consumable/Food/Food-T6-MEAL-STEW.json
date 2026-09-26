@@ -1,0 +1,454 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T6_MEAL_STEW",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_MEAL_STEW",
+      "index": "840",
+      "name_en": "Mutton Stew",
+      "name_ar": "يخنة لحم ضأن",
+      "name_de": "Hammelfleischeintopf",
+      "name_fr": "Ragoût de mouton",
+      "name_es": "Guiso de carnero",
+      "name_ru": "Жаркое из баранины",
+      "descriptions": {
+        "description_en": "Sophisticated meal that increases combat damage for a long period.",
+        "description_ar": "وجبة راقية تزيد ضرر القتال لفترة طويلة.",
+        "description_de": "Ein komplexes Mahl, das den Kampfschaden für lange Zeit erhöht.",
+        "description_fr": "Repas sophistiqué qui augmente les dégâts infligés pendant un long moment",
+        "description_es": "Comida sofisticada que aumenta el daño en combate durante mucho tiempo",
+        "description_ru": "Деликатес, надолго увеличивает наносимый противнику урон."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MEAL_STEW",
+        "description_variable": "@ITEMS_MEAL_STEW_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_MEAL_STEW",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_BUFF_DMG_P3",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "6",
+        "dummyitempower": "900",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "3.4",
+        "nutrition": "272",
+        "descriptionlocatag": "@ITEMS_MEAL_STEW_DESC",
+        "shopsubcategory2": "stews"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Mutton Stew",
+        "DE-DE": "Hammelfleischeintopf",
+        "FR-FR": "Ragoût de mouton",
+        "RU-RU": "Жаркое из баранины",
+        "PL-PL": "Gulasz z Baraniny",
+        "ES-ES": "Guiso de carnero",
+        "PT-BR": "Guisado de Carneiro",
+        "IT-IT": "Stufato di montone",
+        "ZH-CN": "炖绵羊肉",
+        "KO-KR": "양고기 스튜",
+        "JA-JP": "マトンシチュー",
+        "ZH-TW": "燉綿羊肉",
+        "ID-ID": "Daging Domba Rebus",
+        "TR-TR": "Koyun Yahnisi",
+        "AR-SA": "يخنة لحم ضأن"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sophisticated meal that increases combat damage for a long period.",
+        "DE-DE": "Ein komplexes Mahl, das den Kampfschaden für lange Zeit erhöht.",
+        "FR-FR": "Repas sophistiqué qui augmente les dégâts infligés pendant un long moment",
+        "RU-RU": "Деликатес, надолго увеличивает наносимый противнику урон.",
+        "PL-PL": "Wymyślny posiłek, który na długo zwiększa obrażenia zadawane w walce",
+        "ES-ES": "Comida sofisticada que aumenta el daño en combate durante mucho tiempo",
+        "PT-BR": "Refeição sofisticada que aumenta o dano em combate por um longo período",
+        "IT-IT": "Pietanza sofisticata che aumenta il danno in combattimento per un lungo periodo.",
+        "ZH-CN": "复杂的餐食，可以长时间提升战斗伤害。",
+        "KO-KR": "전투 대미지를 장기간에 걸쳐 증가시키는 세련된 식사입니다",
+        "JA-JP": "長時間にわたり戦闘ダメージが上昇する洗練された料理。",
+        "ZH-TW": "一道精美的料理，能長時間提升戰鬥傷害。",
+        "ID-ID": "Makanan rumit yang meningkatkan damage pertempuran untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine savaş hasarını artıran incelikli bir yemek.",
+        "AR-SA": "وجبة راقية تزيد ضرر القتال لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_MEAT",
+        "primary_count": 24,
+        "secondary_resource": "T6_POTATO",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_MEAT",
+            "count": 24
+          },
+          {
+            "id": "T6_POTATO",
+            "count": 12
+          },
+          {
+            "id": "T4_BREAD",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.907,
+        "crafting_focus": 184,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_MEAT",
+            "count": 24
+          },
+          {
+            "id": "T6_POTATO",
+            "count": 12
+          },
+          {
+            "id": "T4_BREAD",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T6_MEAT",
+        "primary_count": 24,
+        "secondary_resource": "T6_POTATO",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 3.4,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.907,
+          "crafting_focus": 251,
+          "crafting_resources": [
+            {
+              "id": "T6_POTATO",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BREAD",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_MEAT",
+              "count": 24,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 30,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.907,
+          "crafting_focus": 384,
+          "crafting_resources": [
+            {
+              "id": "T6_POTATO",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BREAD",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_MEAT",
+              "count": 24,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 30,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.907,
+          "crafting_focus": 785,
+          "crafting_resources": [
+            {
+              "id": "T6_POTATO",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BREAD",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_MEAT",
+              "count": 24,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 30,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MEAL_STEW",
+        "item_database_index": "840"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Mutton Stew",
+        "name_ar": "يخنة لحم ضأن",
+        "name_de": "Hammelfleischeintopf",
+        "name_fr": "Ragoût de mouton",
+        "name_es": "Guiso de carnero",
+        "name_ru": "Жаркое из баранины"
+      },
+      "raw": {
+        "@uniquename": "T6_MEAL_STEW",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_BUFF_DMG_P3",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "6",
+        "@dummyitempower": "900",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "3.4",
+        "@nutrition": "272",
+        "@descriptionlocatag": "@ITEMS_MEAL_STEW_DESC",
+        "@shopsubcategory2": "stews",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "184",
+          "@time": "0.907",
+          "craftresource": [
+            {
+              "@uniquename": "T6_POTATO",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T4_BREAD",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T6_MEAT",
+              "@count": "24"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "1000",
+              "@consumespell": "FOOD_BUFF_DMG_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "251",
+                "@time": "0.907",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T6_MEAT",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "30"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "1100",
+              "@consumespell": "FOOD_BUFF_DMG_P5",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "384",
+                "@time": "0.907",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T6_MEAT",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "30"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1200",
+              "@consumespell": "FOOD_BUFF_DMG_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "785",
+                "@time": "0.907",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_POTATO",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T6_MEAT",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "30"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

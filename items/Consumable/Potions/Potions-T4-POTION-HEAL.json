@@ -1,0 +1,415 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T4_POTION_HEAL",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_POTION_HEAL",
+      "index": "542",
+      "name_en": "Healing Potion",
+      "name_ar": "جرعة علاج",
+      "name_de": "Lebenstrank",
+      "name_fr": "Potion de soin",
+      "name_es": "Poción de curación",
+      "name_ru": "Эликсир здоровья",
+      "descriptions": {
+        "description_en": "Glowing potion. Restores some Health over time.",
+        "description_ar": "جرعة الوهج. تسترد بعض الصحة بمرور الوقت.",
+        "description_de": "Ein leuchtender Trank. Stellt mit der Zeit etwas Leben wieder her.",
+        "description_fr": "Potion rutilante. Restaure un peu de santé sur la durée.",
+        "description_es": "Poción brillante. Restaura algo de Salud con el tiempo.",
+        "description_ru": "Сияющее зелье. Периодически восстанавливает немного здоровья."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_POTION_HEAL",
+        "description_variable": "@ITEMS_POTION_HEAL_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_POTION_HEAL",
+        "uisprite": "POTION_HEALTH",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_HEAL_P3",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "4",
+        "dummyitempower": "700",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.3",
+        "descriptionlocatag": "@ITEMS_POTION_HEAL_DESC",
+        "shopsubcategory2": "heal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Healing Potion",
+        "DE-DE": "Lebenstrank",
+        "FR-FR": "Potion de soin",
+        "RU-RU": "Эликсир здоровья",
+        "PL-PL": "Mikstura Lecznicza",
+        "ES-ES": "Poción de curación",
+        "PT-BR": "Poção de Cura",
+        "IT-IT": "Pozione curativa",
+        "ZH-CN": "治疗药水",
+        "KO-KR": "치유 포션",
+        "JA-JP": "治癒ポーション",
+        "ZH-TW": "治療藥水",
+        "ID-ID": "Ramuan Penyembuhan",
+        "TR-TR": "İyileştirme İksiri",
+        "AR-SA": "جرعة علاج"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Glowing potion. Restores some Health over time.",
+        "DE-DE": "Ein leuchtender Trank. Stellt mit der Zeit etwas Leben wieder her.",
+        "FR-FR": "Potion rutilante. Restaure un peu de santé sur la durée.",
+        "RU-RU": "Сияющее зелье. Периодически восстанавливает немного здоровья.",
+        "PL-PL": "Świecąca mikstura. Przywraca czasowo Zdrowie.",
+        "ES-ES": "Poción brillante. Restaura algo de Salud con el tiempo.",
+        "PT-BR": "Poção brilhante. Restaura Vida com o tempo.",
+        "IT-IT": "Pozione luminosa. Rigenera un po' di salute nel tempo.",
+        "ZH-CN": "发出微光的药水。在一段时间内持续回复生命。",
+        "KO-KR": "빛나는 물약. 일부 체력을 시간에 걸쳐 회복합니다.",
+        "JA-JP": "光るポーション。時間経過で体力が少し回復する。",
+        "ZH-TW": "閃爍微光的藥水。使用後能隨時間回復一些生命值。",
+        "ID-ID": "Ramuan berkilau. Memulihkan beberapa HP seiring waktu.",
+        "TR-TR": "Parıldayan bir iksir. Zamanla bir miktar sağlık yeniler.",
+        "AR-SA": "جرعة الوهج. تسترد بعض الصحة بمرور الوقت."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_BURDOCK",
+        "primary_count": 24,
+        "secondary_resource": "T3_EGG",
+        "secondary_count": 6,
+        "resources": [
+          {
+            "id": "T4_BURDOCK",
+            "count": 24
+          },
+          {
+            "id": "T3_EGG",
+            "count": 6
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.48,
+        "crafting_focus": 210,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_BURDOCK",
+            "count": 24
+          },
+          {
+            "id": "T3_EGG",
+            "count": 6
+          }
+        ],
+        "primary_resource": "T4_BURDOCK",
+        "primary_count": 24,
+        "secondary_resource": "T3_EGG",
+        "secondary_count": 6
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 0.3,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.48,
+          "crafting_focus": 277,
+          "crafting_resources": [
+            {
+              "id": "T4_BURDOCK",
+              "count": 24,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_EGG",
+              "count": 6,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 15,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.48,
+          "crafting_focus": 411,
+          "crafting_resources": [
+            {
+              "id": "T4_BURDOCK",
+              "count": 24,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_EGG",
+              "count": 6,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 15,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.48,
+          "crafting_focus": 811,
+          "crafting_resources": [
+            {
+              "id": "T4_BURDOCK",
+              "count": 24,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_EGG",
+              "count": 6,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 15,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_HEALTH"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_POTION_HEAL",
+        "item_database_index": "542"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Healing Potion",
+        "name_ar": "جرعة علاج",
+        "name_de": "Lebenstrank",
+        "name_fr": "Potion de soin",
+        "name_es": "Poción de curación",
+        "name_ru": "Эликсир здоровья"
+      },
+      "raw": {
+        "@uniquename": "T4_POTION_HEAL",
+        "@uisprite": "POTION_HEALTH",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_HEAL_P3",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "4",
+        "@dummyitempower": "700",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.3",
+        "@descriptionlocatag": "@ITEMS_POTION_HEAL_DESC",
+        "@shopsubcategory2": "heal",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "210",
+          "@time": "0.48",
+          "craftresource": [
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "24"
+            },
+            {
+              "@uniquename": "T3_EGG",
+              "@count": "6"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_HEAL_P4",
+              "@dummyitempower": "800",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.48",
+                "@amountcrafted": "5",
+                "@craftingfocus": "277",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_HEAL_P5",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.48",
+                "@amountcrafted": "5",
+                "@craftingfocus": "411",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_HEAL_P6",
+              "@dummyitempower": "1000",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.48",
+                "@amountcrafted": "5",
+                "@craftingfocus": "811",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

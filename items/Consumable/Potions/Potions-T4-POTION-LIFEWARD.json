@@ -1,0 +1,415 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T4_POTION_LIFEWARD",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_POTION_LIFEWARD",
+      "index": "698",
+      "name_en": "Minor Lifeward Potion",
+      "name_ar": "جرعة نحو الحياة الصغرى",
+      "name_de": "Kleiner Lebensschutztrank",
+      "name_fr": "Potion de Garde-Vie Mineure",
+      "name_es": "Poción Guardavida Menor",
+      "name_ru": "Малое зелье оберега",
+      "descriptions": {
+        "description_en": "Ethereal Potion. Can be thrown at targeted ground location to create an area that protects allies from death.",
+        "description_ar": "جرعة روحية. يمكن إلقاؤها على موقع محدد على الأرض لإنشاء منطقة تحمي الحلفاء من الموت.",
+        "description_de": "Ätherischer Trank. Kann auf den Boden geworfen werden, um einen Bereich zu schaffen, der Verbündete vor dem Tod schützt.",
+        "description_fr": "Potion Éthérée. Peut être lancée sur le sol à l'endroit visé pour créer une zone protégeant les alliés de la mort.",
+        "description_es": "Poción Etérea. Se puede lanzar a un punto específico del terreno para crear una zona que protege a los aliados de la muerte.",
+        "description_ru": "Эфирное зелье. Можно бросить в выбранную точку, чтобы создать область, защищающую союзников от смерти."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_POTION_LIFEWARD",
+        "description_variable": "@ITEMS_POTION_LIFEWARD_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_POTION_LIFEWARD",
+        "slottype": "potion",
+        "weight": "0.1",
+        "consumespell": "POTION_REVIVE_P1",
+        "dummyitempower": "700",
+        "abilitypower": "186",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "tier": "4",
+        "craftingcategory": "potion",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "maxstacksize": "999",
+        "descriptionlocatag": "@ITEMS_POTION_LIFEWARD_DESC",
+        "shopsubcategory2": "lifeward"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Minor Lifeward Potion",
+        "DE-DE": "Kleiner Lebensschutztrank",
+        "FR-FR": "Potion de Garde-Vie Mineure",
+        "RU-RU": "Малое зелье оберега",
+        "PL-PL": "Mała Mikstura Ochrony Życia",
+        "ES-ES": "Poción Guardavida Menor",
+        "PT-BR": "Poção Salva-vidas Menor",
+        "IT-IT": "Pozione Salvavita Minore",
+        "ZH-CN": "初级生命守护药水",
+        "KO-KR": "소형 생명의 수호 포션",
+        "JA-JP": "ライフワードのポーション（小）",
+        "ZH-TW": "初級生命守護藥水",
+        "ID-ID": "Ramuan Tamengnyawa Minor",
+        "TR-TR": "Küçük Yaşamkalkanı İksiri",
+        "AR-SA": "جرعة نحو الحياة الصغرى"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Ethereal Potion. Can be thrown at targeted ground location to create an area that protects allies from death.",
+        "DE-DE": "Ätherischer Trank. Kann auf den Boden geworfen werden, um einen Bereich zu schaffen, der Verbündete vor dem Tod schützt.",
+        "FR-FR": "Potion Éthérée. Peut être lancée sur le sol à l'endroit visé pour créer une zone protégeant les alliés de la mort.",
+        "RU-RU": "Эфирное зелье. Можно бросить в выбранную точку, чтобы создать область, защищающую союзников от смерти.",
+        "PL-PL": "Eteryczna mikstura. Można nią rzucić we wskazane miejsce na ziemi, aby stworzyć obszar chroniący sojuszników przed śmiercią.",
+        "ES-ES": "Poción Etérea. Se puede lanzar a un punto específico del terreno para crear una zona que protege a los aliados de la muerte.",
+        "PT-BR": "Poção Etérea. Pode ser jogada num local alvo no chão para criar uma área que protege os aliados da morte.",
+        "IT-IT": "Pozione Eterea. Può essere lanciata su un punto specifico del terreno per creare un'area che protegge gli alleati dalla morte.",
+        "ZH-CN": "空灵药水。可投掷至攻击目标地面位置，创建一片区域，保护友方免于阵亡。",
+        "KO-KR": "천상의 포션. 특정 위치의 바닥에 던지면 아군을 죽지 않게 보호하는 영역을 만듭니다.",
+        "JA-JP": "エーテルのポーション。指定した地面に投げることで、味方を死亡から守るエリアを作成する。",
+        "ZH-TW": "虛無藥水。可投擲至指定目標地面，建立一片領域，庇佑友軍免於陣亡。",
+        "ID-ID": "Ramuan Surgawi. Dapat dilemparkan ke lokasi target untuk membentuk area yang melindungi sekutu dari kematian.",
+        "TR-TR": "Ulvi İksir. Müttefikleri ölmekten koruyan bir alan oluşturmak üzere hedeflenen konuma atılabilir.",
+        "AR-SA": "جرعة روحية. يمكن إلقاؤها على موقع محدد على الأرض لإنشاء منطقة تحمي الحلفاء من الموت."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_BURDOCK",
+        "primary_count": 16,
+        "secondary_resource": "T4_ALCHEMY_RARE_DRAGONAREA",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T4_BURDOCK",
+            "count": 16
+          },
+          {
+            "id": "T4_ALCHEMY_RARE_DRAGONAREA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.257,
+        "crafting_focus": 56,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_BURDOCK",
+            "count": 16
+          },
+          {
+            "id": "T4_ALCHEMY_RARE_DRAGONAREA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_BURDOCK",
+        "primary_count": 16,
+        "secondary_resource": "T4_ALCHEMY_RARE_DRAGONAREA",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 0.1,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 78,
+          "crafting_resources": [
+            {
+              "id": "T4_ALCHEMY_RARE_DRAGONAREA",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 10,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 123,
+          "crafting_resources": [
+            {
+              "id": "T4_ALCHEMY_RARE_DRAGONAREA",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 10,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.257,
+          "crafting_focus": 256,
+          "crafting_resources": [
+            {
+              "id": "T4_ALCHEMY_RARE_DRAGONAREA",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 10,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_POTION_LIFEWARD",
+        "item_database_index": "698"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Minor Lifeward Potion",
+        "name_ar": "جرعة نحو الحياة الصغرى",
+        "name_de": "Kleiner Lebensschutztrank",
+        "name_fr": "Potion de Garde-Vie Mineure",
+        "name_es": "Poción Guardavida Menor",
+        "name_ru": "Малое зелье оберега"
+      },
+      "raw": {
+        "@uniquename": "T4_POTION_LIFEWARD",
+        "@slottype": "potion",
+        "@weight": "0.1",
+        "@consumespell": "POTION_REVIVE_P1",
+        "@dummyitempower": "700",
+        "@abilitypower": "186",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@tier": "4",
+        "@craftingcategory": "potion",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@maxstacksize": "999",
+        "@descriptionlocatag": "@ITEMS_POTION_LIFEWARD_DESC",
+        "@shopsubcategory2": "lifeward",
+        "craftingrequirements": {
+          "@time": "0.257",
+          "@amountcrafted": "10",
+          "@craftingfocus": "56",
+          "craftresource": [
+            {
+              "@uniquename": "T4_ALCHEMY_RARE_DRAGONAREA",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "16"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_REVIVE_P2",
+              "@dummyitempower": "800",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "78",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_ALCHEMY_RARE_DRAGONAREA",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_REVIVE_P3",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "123",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_ALCHEMY_RARE_DRAGONAREA",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_REVIVE_P4",
+              "@dummyitempower": "1000",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.257",
+                "@amountcrafted": "10",
+                "@craftingfocus": "256",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_ALCHEMY_RARE_DRAGONAREA",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T3_MEAL_ROAST_FISH",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_MEAL_ROAST_FISH",
+      "index": "920",
+      "name_en": "Roasted Whitefog Snapper",
+      "name_ar": "سمك الضباب الأبيض المشوي",
+      "name_de": "Gebratener Weißnebel Schnapper",
+      "name_fr": "Lutjan albruine rôti",
+      "name_es": "Pargo de niebla blanca asado",
+      "name_ru": "Жареный дымчатый окунь",
+      "descriptions": {
+        "description_en": "A savory meal that heals you based on the damage you deal and raises your max health for a long period.",
+        "description_ar": "وجبة لذيذة تعالجك حسب الضرر الذي تلحقه أنت وترفع الحد الأقصى لصحتك لفترة طويلة.",
+        "description_de": "Ein herzhaftes Essen, das dich für eine lange Zeit basierend auf dem von dir angerichteten Schaden heilt und dein maximales Leben erhöht.",
+        "description_fr": "Un repas savoureux qui vous soigne en fonction des dégâts que vous infligez et augmente votre santé maximale pendant une longue période.",
+        "description_es": "Una comida sabrosa que te cura en función del daño que infliges y aumenta tu salud máxima durante un largo período.",
+        "description_ru": "Пикантная еда, исцеляющая вас в зависимости от нанесенного вами урона, а также повышающая максимальное здоровье в течение длительного периода времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_MEAL_ROAST_FISH",
+        "description_variable": "@ITEMS_MEAL_ROAST_FISH_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_MEAL_ROAST_FISH",
+        "descriptionlocatag": "@ITEMS_MEAL_ROAST_FISH_DESC",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_FISH_BUFF_LIFESTEAL_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "3",
+        "dummyitempower": "600",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.74",
+        "nutrition": "116",
+        "shopsubcategory2": "roasts"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Roasted Whitefog Snapper",
+        "DE-DE": "Gebratener Weißnebel Schnapper",
+        "FR-FR": "Lutjan albruine rôti",
+        "RU-RU": "Жареный дымчатый окунь",
+        "PL-PL": "Pieczony Lucjan Białomglisty",
+        "ES-ES": "Pargo de niebla blanca asado",
+        "PT-BR": "Pargo Bruma-branca Assado",
+        "IT-IT": "Lutiano biancabruma arrosto",
+        "ZH-CN": "烘烤白雾鲷鱼",
+        "KO-KR": "로스트 화이트포그 스내퍼",
+        "JA-JP": "ロースト ホワイトフォグ・スナッパー",
+        "ZH-TW": "烤白霧鯛魚",
+        "ID-ID": "Kakap Kabut Putih Panggang",
+        "TR-TR": "Kızartılmış Aksis Levreği",
+        "AR-SA": "سمك الضباب الأبيض المشوي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A savory meal that heals you based on the damage you deal and raises your max health for a long period.",
+        "DE-DE": "Ein herzhaftes Essen, das dich für eine lange Zeit basierend auf dem von dir angerichteten Schaden heilt und dein maximales Leben erhöht.",
+        "FR-FR": "Un repas savoureux qui vous soigne en fonction des dégâts que vous infligez et augmente votre santé maximale pendant une longue période.",
+        "RU-RU": "Пикантная еда, исцеляющая вас в зависимости от нанесенного вами урона, а также повышающая максимальное здоровье в течение длительного периода времени.",
+        "PL-PL": "Pyszny posiłek, który przywraca ci zdrowie w oparciu o zadawane przez ciebie obrażenia i zwiększa twoje maksymalne zdrowie na długi czas.",
+        "ES-ES": "Una comida sabrosa que te cura en función del daño que infliges y aumenta tu salud máxima durante un largo período.",
+        "PT-BR": "Uma refeição saborosa que te cura baseado no dano que você causa e aumenta sua vida máxima por um longo período.",
+        "IT-IT": "Pietanza saporita che ti fa guarire in base al danno che infliggi e aumenta la tua salute massima per un lungo periodo.",
+        "ZH-CN": "美味佳肴，根据你造成的伤害为你恢复生命值并提高最大生命值上限，能持续较长时间。",
+        "KO-KR": "긴 시간 동안 부여하는 대미지에 따라 최대 생명력을 상승시키는 감칠맛 나는 식사입니다.",
+        "JA-JP": "与ダメージに基づいて自分を治癒し、最大体力が長時間上昇する味の良い料理。",
+        "ZH-TW": "一道佳餚，能長時間根據您造成的傷害為您治療，並提升生命值上限。",
+        "ID-ID": "Makanan lezat yang menyembuhkanmu berdasarkan damage yang kamu hasilkan dan meningkatkan HP maksimum untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine seni, verdiğin hasara oranla iyileştiren ve azami sağlığını artıran lezzetli bir yemek.",
+        "AR-SA": "وجبة لذيذة تعالجك حسب الضرر الذي تلحقه أنت وترفع الحد الأقصى لصحتك لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_FISH_FRESHWATER_AVALON_RARE",
+        "primary_count": 1,
+        "secondary_resource": "T3_COMFREY",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T3_FISH_FRESHWATER_AVALON_RARE",
+            "count": 1
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 1
+          },
+          {
+            "id": "T4_MILK",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.0387,
+        "crafting_focus": 77,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_FISH_FRESHWATER_AVALON_RARE",
+            "count": 1
+          },
+          {
+            "id": "T3_COMFREY",
+            "count": 1
+          },
+          {
+            "id": "T4_MILK",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_FISH_FRESHWATER_AVALON_RARE",
+        "primary_count": 1,
+        "secondary_resource": "T3_COMFREY",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 1.74,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 144,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_AVALON_RARE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_MILK",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 278,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_AVALON_RARE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_MILK",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.0387,
+          "crafting_focus": 678,
+          "crafting_resources": [
+            {
+              "id": "T3_FISH_FRESHWATER_AVALON_RARE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_COMFREY",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_MILK",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_MEAL_ROAST_FISH",
+        "item_database_index": "920"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Roasted Whitefog Snapper",
+        "name_ar": "سمك الضباب الأبيض المشوي",
+        "name_de": "Gebratener Weißnebel Schnapper",
+        "name_fr": "Lutjan albruine rôti",
+        "name_es": "Pargo de niebla blanca asado",
+        "name_ru": "Жареный дымчатый окунь"
+      },
+      "raw": {
+        "@uniquename": "T3_MEAL_ROAST_FISH",
+        "@descriptionlocatag": "@ITEMS_MEAL_ROAST_FISH_DESC",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_LIFESTEAL_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "3",
+        "@dummyitempower": "600",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.74",
+        "@nutrition": "116",
+        "@shopsubcategory2": "roasts",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@forcesinglecraft": "false",
+          "@amountcrafted": "1",
+          "@craftingfocus": "77",
+          "@time": "0.0387",
+          "craftresource": [
+            {
+              "@uniquename": "T3_FISH_FRESHWATER_AVALON_RARE",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T3_COMFREY",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T4_MILK",
+              "@count": "1"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "700",
+              "@consumespell": "FOOD_FISH_BUFF_LIFESTEAL_P2",
+              "@nutrition": "124",
+              "@weight": "1.74",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "144",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_AVALON_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "800",
+              "@consumespell": "FOOD_FISH_BUFF_LIFESTEAL_P3",
+              "@nutrition": "124",
+              "@weight": "1.74",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "278",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_AVALON_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "900",
+              "@consumespell": "FOOD_FISH_BUFF_LIFESTEAL_P4",
+              "@nutrition": "124",
+              "@weight": "1.74",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "678",
+                "@time": "0.0387",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_FISH_FRESHWATER_AVALON_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T3_COMFREY",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "3"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

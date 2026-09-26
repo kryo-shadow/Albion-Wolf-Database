@@ -1,0 +1,197 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Farming_Products",
+  "base_id": "T8_ALCOHOL",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_ALCOHOL",
+      "index": "944",
+      "name_en": "Pumpkin Moonshine",
+      "name_ar": "مشروب اليقطين",
+      "name_de": "Kürbisschnaps",
+      "name_fr": "Gnôle de citrouille",
+      "name_es": "Aguardiente de calabaza",
+      "name_ru": "Тыквенный самогон",
+      "descriptions": {
+        "description_en": "Pumpkin Moonshine is brewed from Pumpkins, and used in various alchemical decoctions",
+        "description_ar": "تُحضّر مشروبات اليقطين من اليقطين، وتُستخدم في العديد من المستحضرات الكيميائية",
+        "description_de": "Kürbisschnaps wird aus Kürbissen gebraut und wird in alchemistischen Tränken verwendet.",
+        "description_fr": "Distillé à partir de citrouilles et utilisé pour des décoctions alchimiques",
+        "description_es": "El aguardiente de calabaza se elabora con maíz y varias decocciones alquímicas",
+        "description_ru": "Делается из тыквы и используется в эликсирах."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_ALCOHOL",
+        "description_variable": "@ITEMS_T8_ALCOHOL_DESC"
+      },
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_ALCOHOL",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farmingproducts",
+        "craftingcategory": "food",
+        "tier": "8",
+        "weight": "0.65",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "nutrition": "52",
+        "shopsubcategory2": "alcohol"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Pumpkin Moonshine",
+        "DE-DE": "Kürbisschnaps",
+        "FR-FR": "Gnôle de citrouille",
+        "RU-RU": "Тыквенный самогон",
+        "PL-PL": "Księżycówka z Dyni",
+        "ES-ES": "Aguardiente de calabaza",
+        "PT-BR": "Goró de Abóbora",
+        "IT-IT": "Distillato alla zucca",
+        "ZH-CN": "南瓜月光私酒",
+        "KO-KR": "호박 밀주",
+        "JA-JP": "カボチャの密造酒",
+        "ZH-TW": "南瓜私釀酒",
+        "ID-ID": "Bir Labu",
+        "TR-TR": "Bal Kabağı Mehtabı",
+        "AR-SA": "مشروب اليقطين"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Pumpkin Moonshine is brewed from Pumpkins, and used in various alchemical decoctions",
+        "DE-DE": "Kürbisschnaps wird aus Kürbissen gebraut und wird in alchemistischen Tränken verwendet.",
+        "FR-FR": "Distillé à partir de citrouilles et utilisé pour des décoctions alchimiques",
+        "RU-RU": "Делается из тыквы и используется в эликсирах.",
+        "PL-PL": "Bimber z dyni wytwarza się z dyni i używa się go w alchemii",
+        "ES-ES": "El aguardiente de calabaza se elabora con maíz y varias decocciones alquímicas",
+        "PT-BR": "O Goró de Abóbora é feito de Abóbora e usado em várias decocções alquímicas",
+        "IT-IT": "Questo distillato di zucche è un ingrediente di molti preparati alchemici.",
+        "ZH-CN": "南瓜月光私酒采用南瓜酿造而成，可以用于配制多重炼金煎剂。",
+        "KO-KR": "호박 밀주는 호박을 양조해서 만들며, 다양한 연금술 탕약에 쓰입니다.",
+        "JA-JP": "カボチャの密造酒はカボチャから醸造され、様々な錬金の煎じ薬に使われています。",
+        "ZH-TW": "南瓜私釀酒是由南瓜釀製而成，可作為多種鍊金藥劑的原料",
+        "ID-ID": "Bir Labu diseduh dari Labu, dan digunakan dalam berbagai rebusan alkemi.",
+        "TR-TR": "Bal Kabağı Mehtabı, Bal Kabakları kullanılarak hazırlanır ve çeşitli simyasal kaynatma işlemlerinde kullanılır.",
+        "AR-SA": "تُحضّر مشروبات اليقطين من اليقطين، وتُستخدم في العديد من المستحضرات الكيميائية"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PUMPKIN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T8_PUMPKIN",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.02,
+        "crafting_focus": 38,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PUMPKIN",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_PUMPKIN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 0.65,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "farmingproducts",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_ALCOHOL",
+        "item_database_index": "944"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Pumpkin Moonshine",
+        "name_ar": "مشروب اليقطين",
+        "name_de": "Kürbisschnaps",
+        "name_fr": "Gnôle de citrouille",
+        "name_es": "Aguardiente de calabaza",
+        "name_ru": "Тыквенный самогон"
+      },
+      "raw": {
+        "@uniquename": "T8_ALCOHOL",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "8",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@nutrition": "52",
+        "@shopsubcategory2": "alcohol",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T8_PUMPKIN",
+            "@count": "1"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

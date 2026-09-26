@@ -1,0 +1,223 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Resources",
+  "base_id": "T8_ORE_LEVEL1",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_ORE_LEVEL1",
+      "index": "1009",
+      "name_en": "Uncommon Adamantium Ore",
+      "name_ar": "معدن الأدامانتيوم غير شائع",
+      "name_de": "Ungewöhnliches Adamanterz",
+      "name_fr": "Minerai d'adamantine peu commun",
+      "name_es": "Mineral de adamantio poco común",
+      "name_ru": "Необычная адамантиевая руда",
+      "descriptions": {
+        "description_en": "Raw material. Can be refined into metal bars or transmuted into higher-level ore.",
+        "description_ar": "مادة معدن. يمكن معالجتها إلى قضبان معدنية أو تحويلها إلى معادن من مستوى أعلى.",
+        "description_de": "Rohmaterial. Kann zu Barren verarbeitet oder in Erz höherer Qualität verwandelt werden.",
+        "description_fr": "Matière première. Peut être raffiné en barres de métal ou transmuté en minerai de niveau supérieur.",
+        "description_es": "Materia prima. Se puede refinar para obtener lingotes o transmutar en mineral de nivel superior.",
+        "description_ru": "Сырье. Может быть переработано в слитки или улучшено до более высокого уровня."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_ORE_LEVEL1",
+        "description_variable": "@ITEMS_ORE_DESC"
+      },
+      "category": "Crafting_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_ORE_LEVEL1",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "resources",
+        "tier": "8",
+        "enchantmentlevel": "1",
+        "resourcetype": "ORE_LEVEL1",
+        "weight": "2.56",
+        "maxstacksize": "999",
+        "unlockedtocraft": "true",
+        "fasttravelfactor": "64",
+        "itemvalue": "51.2",
+        "famevalue": "300",
+        "dontgivefameoncraft": "true",
+        "descriptionlocatag": "@ITEMS_ORE_DESC",
+        "shopsubcategory2": "ore"
+      },
+      "item_stats": {
+        "itemvalue": "51.2",
+        "resourcevalue": null,
+        "famevalue": "300",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Uncommon Adamantium Ore",
+        "DE-DE": "Ungewöhnliches Adamanterz",
+        "FR-FR": "Minerai d'adamantine peu commun",
+        "RU-RU": "Необычная адамантиевая руда",
+        "PL-PL": "Niepospolita Ruda Adamantytu",
+        "ES-ES": "Mineral de adamantio poco común",
+        "PT-BR": "Minério de Adamântio Incomum",
+        "IT-IT": "Minerale di adamantio non comune",
+        "ZH-CN": "罕见亚德曼矿石",
+        "KO-KR": "특수 아다만티움 광석",
+        "JA-JP": "アダマンチウム鉱石（非凡）",
+        "ZH-TW": "非凡亞德曼礦",
+        "ID-ID": "Bijih Adamantium Tidak Biasa",
+        "TR-TR": "Sıra Dışı Adamantiyum Cevheri",
+        "AR-SA": "معدن الأدامانتيوم غير شائع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Raw material. Can be refined into metal bars or transmuted into higher-level ore.",
+        "DE-DE": "Rohmaterial. Kann zu Barren verarbeitet oder in Erz höherer Qualität verwandelt werden.",
+        "FR-FR": "Matière première. Peut être raffiné en barres de métal ou transmuté en minerai de niveau supérieur.",
+        "RU-RU": "Сырье. Может быть переработано в слитки или улучшено до более высокого уровня.",
+        "PL-PL": "Surowiec. Może być przerobiony na sztabki lub transmutowany w rudę wyższego stopnia.",
+        "ES-ES": "Materia prima. Se puede refinar para obtener lingotes o transmutar en mineral de nivel superior.",
+        "PT-BR": "Material bruto. Pode ser refinado em barras ou transmutado em minério de nível maior.",
+        "IT-IT": "Materiale grezzo. Può essere raffinato in barre di metallo o trasmutato in minerali di livello superiore",
+        "ZH-CN": "基础资源。可以加工成金属条或转化成等级更高的兽皮。",
+        "KO-KR": "원자재. 금속 막대로 제련하거나 더 높은 레벨의 광석으로 변형될 수 있습니다.",
+        "JA-JP": "原材料。延べ棒に精製可、もしくはより高いティアの鉱石に変換できます。",
+        "ZH-TW": "一種原料。可精煉成礦條，或轉換成更高等級的礦石。",
+        "ID-ID": "Material mentah. Bisa disempurnakan menjadi batang logam atau ditingkatkan menjadi bijih level lebih tinggi.",
+        "TR-TR": "Ham madde. Metal Külçeleri elde etmek için işlenebilir veya yüksek seviye cevhere dönüştürülebilir.",
+        "AR-SA": "مادة معدن. يمكن معالجتها إلى قضبان معدنية أو تحويلها إلى معادن من مستوى أعلى."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_ORE_LEVEL1",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_ORE_LEVEL1",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 15000,
+        "time": 0.01875,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_ORE_LEVEL1",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_ORE_LEVEL1",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 2.56,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "resources",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_ORE_LEVEL1",
+        "item_database_index": "1009"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Uncommon Adamantium Ore",
+        "name_ar": "معدن الأدامانتيوم غير شائع",
+        "name_de": "Ungewöhnliches Adamanterz",
+        "name_fr": "Minerai d'adamantine peu commun",
+        "name_es": "Mineral de adamantio poco común",
+        "name_ru": "Необычная адамантиевая руда"
+      },
+      "raw": {
+        "@uniquename": "T8_ORE_LEVEL1",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "resources",
+        "@tier": "8",
+        "@enchantmentlevel": "1",
+        "@resourcetype": "ORE_LEVEL1",
+        "@weight": "2.56",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@fasttravelfactor": "64",
+        "@itemvalue": "51.2",
+        "@famevalue": "300",
+        "@dontgivefameoncraft": "true",
+        "@descriptionlocatag": "@ITEMS_ORE_DESC",
+        "@shopsubcategory2": "ore",
+        "craftingrequirements": [
+          {
+            "@silver": "15000",
+            "@time": "0.01875",
+            "@craftingfocus": "0",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_TRANSMUTE",
+            "craftresource": {
+              "@uniquename": "T7_ORE_LEVEL1",
+              "@enchantmentlevel": "1",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@silver": "14400",
+            "@time": "0.01875",
+            "@craftingfocus": "0",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_TRANSMUTE",
+            "craftresource": {
+              "@uniquename": "T8_ORE",
+              "@count": "1",
+              "@maxreturnamount": "0",
+              "@enchantmentlevel": "0"
+            }
+          }
+        ]
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

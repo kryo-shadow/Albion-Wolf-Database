@@ -1,0 +1,196 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Alchemy",
+  "base_id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+      "index": "2002",
+      "name_en": "Pure Arcane Extract",
+      "name_ar": "عصارة ساحر نقية",
+      "name_de": "Reines Arkanes Extrakt",
+      "name_fr": "Extrait arcanique pur",
+      "name_es": "Extracto arcano puro",
+      "name_ru": "Чистый магический экстракт",
+      "descriptions": {
+        "description_en": "Liquified magic used to enchant potions.",
+        "description_ar": "عصارة سحرية سائلة تُستخدم لسَحر الجرعات.",
+        "description_de": "Flüssige Magie zur Verzauberung von Tränken.",
+        "description_fr": "Magie liquide utilisée pour enchanter les potions.",
+        "description_es": "Magia líquida utilizada para encantar pociones.",
+        "description_ru": "Жидкая магия, используемая для зачарования зелий."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_ALCHEMY_EXTRACT_LEVEL3",
+        "description_variable": "@ITEMS_T1_ALCHEMY_EXTRACT_DESC"
+      },
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+        "tier": "1",
+        "weight": "2",
+        "maxstacksize": "999",
+        "resourcetype": "ESSENCE",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "alchemy",
+        "unlockedtocraft": "true",
+        "descriptionlocatag": "@ITEMS_T1_ALCHEMY_EXTRACT_DESC",
+        "shopsubcategory2": "extract"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Pure Arcane Extract",
+        "DE-DE": "Reines Arkanes Extrakt",
+        "FR-FR": "Extrait arcanique pur",
+        "RU-RU": "Чистый магический экстракт",
+        "PL-PL": "Czysty Tajemny Ekstrakt",
+        "ES-ES": "Extracto arcano puro",
+        "PT-BR": "Extratos Arcanos Puros",
+        "IT-IT": "Estratto arcano puro",
+        "ZH-CN": "纯净奥术精粹",
+        "KO-KR": "순수한 아케인 추출물",
+        "JA-JP": "純粋なアーケインエキス",
+        "ZH-TW": "純淨奧術精粹",
+        "ID-ID": "Ekstrak Arcane Murni",
+        "TR-TR": "Saf Arkana Tözü",
+        "AR-SA": "عصارة ساحر نقية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Liquified magic used to enchant potions.",
+        "DE-DE": "Flüssige Magie zur Verzauberung von Tränken.",
+        "FR-FR": "Magie liquide utilisée pour enchanter les potions.",
+        "RU-RU": "Жидкая магия, используемая для зачарования зелий.",
+        "PL-PL": "Płynna magia służąca do zaklinania mikstur.",
+        "ES-ES": "Magia líquida utilizada para encantar pociones.",
+        "PT-BR": "Magia liquefeita usada para encantar poções.",
+        "IT-IT": "Magia liquida usata per incantare le pozioni.",
+        "ZH-CN": "液化的魔法，可用于附魔药水。",
+        "KO-KR": "포션 인챈트에 사용되는 액체화된 마법입니다.",
+        "JA-JP": "ポーションのエンチャントに使われる液化魔法。",
+        "ZH-TW": "液化的魔法，可用於附魔藥水。",
+        "ID-ID": "Sihir berbentuk cair yang digunakan untuk meng-enchant ramuan.",
+        "TR-TR": "İksir efsunlamakta kullanılan sıvılaştırılmış sihir.",
+        "AR-SA": "عصارة سحرية سائلة تُستخدم لسَحر الجرعات."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_ALCHEMY_COMMON",
+        "primary_count": 9,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T1_ALCHEMY_COMMON",
+            "count": 9
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.01,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T1_ALCHEMY_COMMON",
+            "count": 9
+          }
+        ],
+        "primary_resource": "T1_ALCHEMY_COMMON",
+        "primary_count": 9,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 1,
+        "weight": 2,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "alchemy",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+        "item_database_index": "2002"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Pure Arcane Extract",
+        "name_ar": "عصارة ساحر نقية",
+        "name_de": "Reines Arkanes Extrakt",
+        "name_fr": "Extrait arcanique pur",
+        "name_es": "Extracto arcano puro",
+        "name_ru": "Чистый магический экстракт"
+      },
+      "raw": {
+        "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+        "@tier": "1",
+        "@weight": "2",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_T1_ALCHEMY_EXTRACT_DESC",
+        "@shopsubcategory2": "extract",
+        "craftingrequirements": {
+          "@time": "0.01",
+          "@silver": "0",
+          "craftresource": {
+            "@uniquename": "T1_ALCHEMY_COMMON",
+            "@count": "9",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Other",
+  "family": "Other_Quest_Items",
+  "base_id": "QUESTITEM_STANDING_SMUGGLER",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "QUESTITEM_STANDING_SMUGGLER",
+      "index": "99077",
+      "name_en": "Buy a round",
+      "name_ar": "شراء جولة",
+      "name_de": "Eine Runde ausgeben",
+      "name_fr": "Payer une tournée",
+      "name_es": "Comprar una ronda",
+      "name_ru": "Купите выпивку на всех",
+      "descriptions": {
+        "description_en": "Cheers! Increase your standing with the Smugglers by buying a round for the house.",
+        "description_ar": "يهتف! عزز مكانتك لدى المهربين من خلال شراء جولة للمنزل.",
+        "description_de": "Jubel! Verbessere deinen Ruf bei den Schmugglern, indem du eine Runde für Alle wirfst.",
+        "description_fr": "Santé ! Améliorez votre réputation auprès des Contrebandiers en payant une tournée.",
+        "description_es": "¡Salud! Aumenta tu reputación con los Contrabandistas al comprar una ronda para todos.",
+        "description_ru": "Ваше здоровье! Повысьте свой авторитет среди контрабандистов, купив всем выпивку.",
+        "description_tr": "Şerefe! İçki ısmarlayarak Kaçakçıların gözündeki statünü artır."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_QUESTITEM_STANDING_SMUGGLER",
+        "description_variable": "@ITEMS_QUESTITEM_STANDING_SMUGGLER_DESC"
+      },
+      "category": "Other_Quest_Items",
+      "slot": "Other",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "QUESTITEM_STANDING_SMUGGLER",
+        "tradable": "false",
+        "consumeoncraft": "true",
+        "uisprite": "QUESTITEM_STANDING_SMUGGLER",
+        "abilitypower": "100",
+        "consumespell": "QUESTITEM_STANDING_SMUGGLER_SPELL",
+        "shopcategory": "other",
+        "shopsubcategory1": "questitems",
+        "tier": "4",
+        "weight": "0.01",
+        "maxstacksize": "999",
+        "unlockedtocraft": "true",
+        "unlockedtouse": "true",
+        "itemvalue": "0",
+        "shopsubcategory2": "other"
+      },
+      "item_stats": {
+        "itemvalue": 0,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Buy a round",
+        "DE-DE": "Eine Runde ausgeben",
+        "FR-FR": "Payer une tournée",
+        "RU-RU": "Купите выпивку на всех",
+        "PL-PL": "Kup rundę",
+        "ES-ES": "Comprar una ronda",
+        "PT-BR": "Compre uma rodada",
+        "IT-IT": "Compra un giro",
+        "ZH-CN": "请大家喝一轮",
+        "KO-KR": "대접하기",
+        "JA-JP": "ラウンド購入",
+        "ZH-TW": "請大家喝一輪",
+        "ID-ID": "Traktir",
+        "TR-TR": "İçki ısmarla",
+        "AR-SA": "شراء جولة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cheers! Increase your standing with the Smugglers by buying a round for the house.",
+        "DE-DE": "Jubel! Verbessere deinen Ruf bei den Schmugglern, indem du eine Runde für Alle wirfst.",
+        "FR-FR": "Santé ! Améliorez votre réputation auprès des Contrebandiers en payant une tournée.",
+        "RU-RU": "Ваше здоровье! Повысьте свой авторитет среди контрабандистов, купив всем выпивку.",
+        "PL-PL": "Dzięki! Zwiększ swoją Reputację u Przemytników, kupując rundę dla domu.",
+        "ES-ES": "¡Salud! Aumenta tu reputación con los Contrabandistas al comprar una ronda para todos.",
+        "PT-BR": "Saúde! Aumente a sua posição com os Contrabandistas ao comprar uma rodada para a casa.",
+        "IT-IT": "Salute! Aumenta la tua levatura con i Contrabbandieri acquistando un giro per la casa.",
+        "ZH-CN": "干杯！请屋里的所有人喝一轮来提高你在走私者中的地位。",
+        "KO-KR": "축하합니다! 밀수꾼들에게 술을 한 잔씩 돌리고 밀수꾼들 사이에서의 우호도를 높이세요.",
+        "JA-JP": "喜んだ！ハウス用のラウンドを購入することで、密輸業者との地位を高めよう。",
+        "ZH-TW": "乾杯！請屋裡的所有人喝一輪來提高您在走私者中的地位。",
+        "ID-ID": "Bersorak! Tingkatkan klasemenmu dengan para Penyelundup dengan mentraktir semua.",
+        "TR-TR": "Şerefe! İçki ısmarlayarak Kaçakçıların gözündeki statünü artır.",
+        "AR-SA": "يهتف! عزز مكانتك لدى المهربين من خلال شراء جولة للمنزل."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_SMUGGLER",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_SMUGGLER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": null,
+        "crafting_focus": null,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_SMUGGLER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_SMUGGLER",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "ability_power": 100,
+        "weight": 0.01
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "other",
+        "shop_subcategory1": "questitems",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": "QUESTITEM_STANDING_SMUGGLER"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "QUESTITEM_STANDING_SMUGGLER",
+        "item_database_index": "99077"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized": {
+        "en": "Buy a round",
+        "ar": "شراء جولة",
+        "de": "Eine Runde ausgeben",
+        "fr": "Payer une tournée",
+        "es": "Comprar una ronda",
+        "ru": "Купите выпивку на всех",
+        "tr": "İçki ısmarla"
+      },
+      "raw": {
+        "@uniquename": "QUESTITEM_STANDING_SMUGGLER",
+        "@tradable": "false",
+        "@consumeoncraft": "true",
+        "@uisprite": "QUESTITEM_STANDING_SMUGGLER",
+        "@abilitypower": "100",
+        "@consumespell": "QUESTITEM_STANDING_SMUGGLER_SPELL",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "questitems",
+        "@tier": "4",
+        "@weight": "0.01",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtouse": "true",
+        "@itemvalue": "0",
+        "@shopsubcategory2": "other",
+        "craftingrequirements": {
+          "@time": "0",
+          "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_BUY",
+          "craftresource": {
+            "@uniquename": "QUESTITEM_TOKEN_SMUGGLER",
+            "@count": "1"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

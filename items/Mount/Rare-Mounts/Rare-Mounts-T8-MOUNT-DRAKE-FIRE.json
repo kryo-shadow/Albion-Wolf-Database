@@ -1,0 +1,344 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Rare_Mounts",
+  "base_id": "T8_MOUNT_DRAKE_FIRE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_MOUNT_DRAKE_FIRE",
+      "index": "3067",
+      "name_en": "Firewing Drake",
+      "name_ar": "تنين الأجنحة النارية",
+      "name_de": "Feuerschwingen-Jungdrache",
+      "name_fr": "Drake d'Aile-de-Feu",
+      "name_es": "Draco Ala de Fuego",
+      "name_ru": "Огнекрылый дрейк",
+      "descriptions": {
+        "description_en": "Firewing Drakes are powerful and dangerously temperamental mounts, capable of carrying bold riders straight through the heat of battle.",
+        "description_ar": "يُعدّ تنين الأجنحة النارية مطية قوية وذات طباع متقلبة بشكل خطير، وهي قادرة على حمل الفرسان الجريئين إلى قلب المعركة.",
+        "description_de": "Feuerschwingen-Jungdrachen sind mächtige und gefährliche Reittiere mit feurigem Temperament, die ihre Reiter selbst durch das hitzigste Gefecht tragen.",
+        "description_fr": "Les Drakes d'Aile-de-Feu sont des montures puissantes et au tempérament dangereux, capables de transporter des cavaliers audacieux au cœur même de la bataille.",
+        "description_es": "Los Dracos Ala de Fuego son monturas poderosas y de carácter explosivo, capaces de llevar a jinetes intrépidos directamente al corazón de la batalla.",
+        "description_ru": "Огнекрылые дрейки — могучие и крайне своенравные скакуны, способные пронести отважных всадников через самое пекло битвы."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MOUNT_DRAKE_FIRE",
+        "description_variable": "@ITEMS_T8_MOUNT_DRAKE_FIRE_DESC"
+      },
+      "category": "Mount_Rare_Mounts",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_MOUNT_DRAKE_FIRE",
+        "mesh": "MOUNT_DRAKE_FIRE_01",
+        "uisprite": "MOUNT_DRAKE",
+        "nametagoffset": "0",
+        "maxqualitylevel": "1",
+        "itempower": "1100",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "raremounts",
+        "mountedbuff": "T8_MOUNT_DRAKE_MOUNTED",
+        "halfmountedbuff": "T8_MOUNT_DRAKE_HALFMOUNTED",
+        "tier": "8",
+        "weight": "119.6",
+        "activespellslots": "0",
+        "passivespellslots": "2",
+        "durability": "91125",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "mounttime": "3",
+        "dismounttime": "0",
+        "mounthitpointsmax": "5695",
+        "mounthitpointsregeneration": "56.95",
+        "prefabname": "MOUNT_DRAKE_FIRE_01",
+        "prefabscaling": "0.6",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "0.5",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "canusetownportal": "true",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "showinmarketplace": "true",
+        "canuseingvg": "false",
+        "canuseinfactionwarfare": "true",
+        "itemvalue": "14312",
+        "shopsubcategory2": "drake",
+        "nutrition": "59049",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": "14312",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Firewing Drake",
+        "DE-DE": "Feuerschwingen-Jungdrache",
+        "FR-FR": "Drake d'Aile-de-Feu",
+        "RU-RU": "Огнекрылый дрейк",
+        "PL-PL": "Młody Ognistoskrzydły Smok",
+        "ES-ES": "Draco Ala de Fuego",
+        "PT-BR": "Draco Asa de Fogo",
+        "IT-IT": "Draco Alafiamma",
+        "ZH-CN": "火翼幼龙",
+        "KO-KR": "불꽃날개 드레이크",
+        "JA-JP": "ファイアウィング・ドレイク",
+        "ZH-TW": "火翼幼龍",
+        "ID-ID": "Drake Sayap Api",
+        "TR-TR": "Alevkanat Drake",
+        "AR-SA": "تنين الأجنحة النارية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Firewing Drakes are powerful and dangerously temperamental mounts, capable of carrying bold riders straight through the heat of battle.",
+        "DE-DE": "Feuerschwingen-Jungdrachen sind mächtige und gefährliche Reittiere mit feurigem Temperament, die ihre Reiter selbst durch das hitzigste Gefecht tragen.",
+        "FR-FR": "Les Drakes d'Aile-de-Feu sont des montures puissantes et au tempérament dangereux, capables de transporter des cavaliers audacieux au cœur même de la bataille.",
+        "RU-RU": "Огнекрылые дрейки — могучие и крайне своенравные скакуны, способные пронести отважных всадников через самое пекло битвы.",
+        "PL-PL": "Młode Ognistoskrzydłe Smoki to potężne i niebezpiecznie porywcze wierzchowce, zdolne przenieść śmiałych jeźdźców prosto przez ferwor walki.",
+        "ES-ES": "Los Dracos Ala de Fuego son monturas poderosas y de carácter explosivo, capaces de llevar a jinetes intrépidos directamente al corazón de la batalla.",
+        "PT-BR": "Dracos Asa de Fogo são montarias poderosas e perigosamente temperamentais, capazes de levar cavaleiros astutos através do calor da batalha.",
+        "IT-IT": "I Drachi Alafiamma sono cavalcature potenti e dal carattere pericolosamente irascibile, in grado di trasportare cavalieri audaci proprio nel pieno della battaglia.",
+        "ZH-CN": "火翼幼龙是强大且性情暴躁危险的坐骑，能够搭载无畏的骑手径直穿过激烈的战场。",
+        "KO-KR": "불꽃날개 드레이크는 강력하면서도 성질이 사나운 탈것으로, 용감한 기수를 태우고 전장의 한가운데를 거침없이 누빌 수 있습니다.",
+        "JA-JP": "ファイアウィング・ドレイクは強力で気性の荒い危険なマウントであり、大胆な乗り手を乗せて戦場の真っ只中を駆け抜けることができます。",
+        "ZH-TW": "火翼幼龍強大且性情暴躁危險，能夠載著勇敢的騎士直接穿越戰火。",
+        "ID-ID": "Drake Sayap Api adalah tunggangan yang kuat dan sangat tempramental, mampu membawa penunggang berani untuk masuk ke pusat pertempuran.",
+        "TR-TR": "Alevkanat Drakeler güçlü, tehlikeli ve huysuz bineklerdir; cesur binicileri savaşın merkezine taşıyabilecek kadar yeteneklidir.",
+        "AR-SA": "يُعدّ تنين الأجنحة النارية مطية قوية وذات طباع متقلبة بشكل خطير، وهي قادرة على حمل الفرسان الجريئين إلى قلب المعركة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T8_FARM_DRAKE_GROWN",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T8_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T8_FARM_DRAKE_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.125,
+        "crafting_focus": 10053,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T8_FARM_DRAKE_GROWN",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T8_FARM_DRAKE_GROWN",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 91125,
+        "max_quality_level": 1,
+        "tier_raw": 8,
+        "weight": 119.6,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_DRAKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "MOUNTSPELL_GALLOP_FAKESPELL",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "MOUNTSPELL_GALLOP_FAKESPELL",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_DRAKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 2
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 91125,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "raremounts",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "MOUNT_DRAKE"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MOUNT_DRAKE_FIRE",
+        "item_database_index": "3067"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Firewing Drake",
+        "name_ar": "تنين الأجنحة النارية",
+        "name_de": "Feuerschwingen-Jungdrache",
+        "name_fr": "Drake d'Aile-de-Feu",
+        "name_es": "Draco Ala de Fuego",
+        "name_ru": "Огнекрылый дрейк"
+      },
+      "raw": {
+        "@uniquename": "T8_MOUNT_DRAKE_FIRE",
+        "@mesh": "MOUNT_DRAKE_FIRE_01",
+        "@uisprite": "MOUNT_DRAKE",
+        "@nametagoffset": "0",
+        "@maxqualitylevel": "1",
+        "@itempower": "1100",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "raremounts",
+        "@mountedbuff": "T8_MOUNT_DRAKE_MOUNTED",
+        "@halfmountedbuff": "T8_MOUNT_DRAKE_HALFMOUNTED",
+        "@tier": "8",
+        "@weight": "119.6",
+        "@activespellslots": "0",
+        "@passivespellslots": "2",
+        "@durability": "91125",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@mounttime": "3",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "5695",
+        "@mounthitpointsregeneration": "56.95",
+        "@prefabname": "MOUNT_DRAKE_FIRE_01",
+        "@prefabscaling": "0.6",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "0.5",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@canusetownportal": "true",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@showinmarketplace": "true",
+        "@canuseingvg": "false",
+        "@canuseinfactionwarfare": "true",
+        "@itemvalue": "14312",
+        "@shopsubcategory2": "drake",
+        "@nutrition": "59049",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.125",
+          "@craftingfocus": "10053",
+          "craftresource": [
+            {
+              "@uniquename": "T8_FARM_DRAKE_GROWN",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "PASSIVE_MAXLOAD_DRAKE",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_GALLOP_FAKESPELL",
+              "@slots": "2"
+            }
+          ]
+        },
+        "mountspelllist": {
+          "mountspell": {
+            "@uniquename": "MOUNTSPELL_DRAKE_FIRE_BREATH",
+            "@spellslot": "offhandormainhand3"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

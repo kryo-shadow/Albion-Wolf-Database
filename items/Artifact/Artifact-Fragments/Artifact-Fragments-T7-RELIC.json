@@ -1,0 +1,217 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Artifact",
+  "family": "Artifact_Artifact_Fragments",
+  "base_id": "T7_RELIC",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T7_RELIC",
+      "index": "2031",
+      "name_en": "Grandmaster's Relic",
+      "name_ar": "أثر الأستاذ",
+      "name_de": "Relikt des Großmeisters",
+      "name_fr": "Relique du grand maître",
+      "name_es": "Reliquia del gran maestro",
+      "name_ru": "Реликт (магистр)",
+      "descriptions": {
+        "description_en": "An ancient relic, used to meld artifacts and enchant equipment.",
+        "description_ar": "أثر قديم، يُستخدم لصهر القطع الأثرية وسحر المعدات.",
+        "description_de": "Ein uraltes Relikt, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "description_fr": "Une ancienne relique, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "description_es": "Una reliquia antigua, utilizada para fusionar artefactos y encantar equipos.",
+        "description_ru": "Древний реликт, используемый для создания артефактов и зачарования экипировки."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_RELIC",
+        "description_variable": "@ITEMS_T7_RELIC_DESC"
+      },
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_RELIC",
+        "tier": "7",
+        "weight": "0.5",
+        "maxstacksize": "999",
+        "resourcetype": "RELIC",
+        "shopcategory": "artefacts",
+        "shopsubcategory1": "fragments",
+        "uisprite": "RELIC_MANIPULATION",
+        "unlockedtocraft": "true",
+        "shopsubcategory2": "relics",
+        "baselineloot": "true"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Relic",
+        "DE-DE": "Relikt des Großmeisters",
+        "FR-FR": "Relique du grand maître",
+        "RU-RU": "Реликт (магистр)",
+        "PL-PL": "Relikwia Wszechmistrza",
+        "ES-ES": "Reliquia del gran maestro",
+        "PT-BR": "Relíquia do Grão-mestre",
+        "IT-IT": "Reliquia del gran maestro",
+        "ZH-CN": "宗师级古遗物",
+        "KO-KR": "그랜드 마스터의 유물",
+        "JA-JP": "レリック（グランドマスター）",
+        "ZH-TW": "宗師級聖物",
+        "ID-ID": "Relik Grandmaster",
+        "TR-TR": "Büyük Usta Yadigârı",
+        "AR-SA": "أثر الأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "An ancient relic, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Ein uraltes Relikt, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une ancienne relique, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "RU-RU": "Древний реликт, используемый для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Starożytna relikwia używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Una reliquia antigua, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Relíquia antiga usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Antica reliquia usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一件古代遗物，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "고대의 유물로, 아티팩트 혼합 또는 장비 인챈트에 사용됩니다.",
+        "JA-JP": "古代のレリック。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一件古代聖物，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Sebuah relik kuno, digunakan untuk menggabungkan artefak memberi enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan kadim bir yadigâr.",
+        "AR-SA": "أثر قديم، يُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_RELIC",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T6_RELIC",
+            "count": 5
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.01,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_RELIC",
+            "count": 5
+          }
+        ],
+        "primary_resource": "T6_RELIC",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 7,
+        "weight": 0.5,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "artefacts",
+        "shop_subcategory1": "fragments",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": "RELIC_MANIPULATION"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_RELIC",
+        "item_database_index": "2031"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Relic",
+        "name_ar": "أثر الأستاذ",
+        "name_de": "Relikt des Großmeisters",
+        "name_fr": "Relique du grand maître",
+        "name_es": "Reliquia del gran maestro",
+        "name_ru": "Реликт (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_RELIC",
+        "@tier": "7",
+        "@weight": "0.5",
+        "@maxstacksize": "999",
+        "@resourcetype": "RELIC",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "RELIC_MANIPULATION",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "relics",
+        "@baselineloot": "true",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T6_RELIC",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "20000",
+            "craftresource": {
+              "@uniquename": "T7_SOUL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "18",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

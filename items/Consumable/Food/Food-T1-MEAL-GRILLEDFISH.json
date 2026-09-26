@@ -1,0 +1,214 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T1_MEAL_GRILLEDFISH",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T1_MEAL_GRILLEDFISH",
+      "index": "714",
+      "name_en": "Grilled Fish",
+      "name_ar": "سمك مشوي",
+      "name_de": "Gegrillter Fisch",
+      "name_fr": "Poisson grillé",
+      "name_es": "Pescado a la plancha",
+      "name_ru": "Жареная рыба",
+      "descriptions": {
+        "description_en": "A meal that increases your cooldown rate for a long period.",
+        "description_ar": "وجبة تزيد معدل فترات الانتظار لفترة طويلة.",
+        "description_de": "Eine Mahlzeit, die deine Abklingzeitrate für eine lange Zeit verbessert.",
+        "description_fr": "Nourriture qui augmente votre vitesse de recharge pendant une longue période.",
+        "description_es": "Comida que aumenta tu ritmo de tiempo de espera durante un largo periodo.",
+        "description_ru": "Блюдо, увеличивающее скорость восстановления навыков на длительный период."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_MEAL_GRILLEDFISH",
+        "description_variable": "@ITEMS_MEAL_GRILLEDFISH_FISH_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T1_MEAL_GRILLEDFISH",
+        "uisprite": "MEAL_GRILLED_FISH",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_FISH_GRILLEDFISH_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "1",
+        "dummyitempower": "100",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.3",
+        "nutrition": "20",
+        "famevalue": "100",
+        "descriptionlocatag": "@ITEMS_MEAL_GRILLEDFISH_FISH_DESC",
+        "shopsubcategory2": "grilledfish"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": "100",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grilled Fish",
+        "DE-DE": "Gegrillter Fisch",
+        "FR-FR": "Poisson grillé",
+        "RU-RU": "Жареная рыба",
+        "PL-PL": "Grillowana Ryba",
+        "ES-ES": "Pescado a la plancha",
+        "PT-BR": "Peixe Grelhado",
+        "IT-IT": "Pesce grigliato",
+        "ZH-CN": "烤鱼",
+        "KO-KR": "구운 생선",
+        "JA-JP": "焼き魚",
+        "ZH-TW": "烤魚",
+        "ID-ID": "Ikan Bakar",
+        "TR-TR": "Izgara Balık",
+        "AR-SA": "سمك مشوي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consumable Item",
+        "DE-DE": "Verbrauchsgut",
+        "FR-FR": "Consommable",
+        "RU-RU": "Расходный предмет",
+        "PL-PL": "Przedmiot do spożycia",
+        "ES-ES": "Objeto consumible",
+        "PT-BR": "Item consumível",
+        "IT-IT": "Oggetto consumabile",
+        "ZH-CN": "消耗品",
+        "KO-KR": "소비 아이템",
+        "JA-JP": "消耗アイテム",
+        "ZH-TW": "消耗品",
+        "ID-ID": "Item Habis Pakai",
+        "TR-TR": "Uzun bir süreliğine bekleme dolma hızını artıran bir yemek.",
+        "AR-SA": "وجبة تزيد معدل فترات الانتظار لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_FISHCHOPS",
+        "primary_count": 10,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T1_FISHCHOPS",
+            "count": 10
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.01,
+        "crafting_focus": 15,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T1_FISHCHOPS",
+            "count": 10
+          }
+        ],
+        "primary_resource": "T1_FISHCHOPS",
+        "primary_count": 10,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 1,
+        "weight": 0.3,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "MEAL_GRILLED_FISH"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_MEAL_GRILLEDFISH",
+        "item_database_index": "714"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grilled Fish",
+        "name_ar": "سمك مشوي",
+        "name_de": "Gegrillter Fisch",
+        "name_fr": "Poisson grillé",
+        "name_es": "Pescado a la plancha",
+        "name_ru": "Жареная рыба"
+      },
+      "raw": {
+        "@uniquename": "T1_MEAL_GRILLEDFISH",
+        "@uisprite": "MEAL_GRILLED_FISH",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_GRILLEDFISH_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "1",
+        "@dummyitempower": "100",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.3",
+        "@nutrition": "20",
+        "@famevalue": "100",
+        "@descriptionlocatag": "@ITEMS_MEAL_GRILLEDFISH_FISH_DESC",
+        "@shopsubcategory2": "grilledfish",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "1",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "15",
+          "@time": "0.01",
+          "craftresource": {
+            "@uniquename": "T1_FISHCHOPS",
+            "@count": "10"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

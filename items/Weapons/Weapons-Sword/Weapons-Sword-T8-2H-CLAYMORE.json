@@ -1,0 +1,2539 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Sword",
+  "base_id": "T8_2H_CLAYMORE",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T8_2H_CLAYMORE",
+      "index": "8655",
+      "name_en": "Elder's Claymore",
+      "name_ar": "سيف الكلايمور للحكيم",
+      "name_de": "Claymore des Ältesten",
+      "name_fr": "Claymore du sage",
+      "name_es": "Claymore del anciano",
+      "name_ru": "Клеймор (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_CLAYMORE",
+        "description_variable": "@ITEMS_T8_2H_CLAYMORE_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_CLAYMORE",
+        "uisprite": "2H_SWORD",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword2h",
+        "attackdamage": "45",
+        "attackspeed": "1",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "34.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_SWORDS_CLAYMORE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_claymore"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Claymore",
+        "DE-DE": "Claymore des Ältesten",
+        "FR-FR": "Claymore du sage",
+        "RU-RU": "Клеймор (старейшина)",
+        "PL-PL": "Claymore Starszego",
+        "ES-ES": "Claymore del anciano",
+        "PT-BR": "Montante do Ancião",
+        "IT-IT": "Claymore dell'anziano",
+        "ZH-CN": "禅师级阔刃大剑",
+        "KO-KR": "장로의 클레이모어",
+        "JA-JP": "クレイモア（老熟）",
+        "ZH-TW": "禪師級闊刃大劍",
+        "ID-ID": "Claymore Tetua",
+        "TR-TR": "Yüce Çift Ağızlı Kılıcı",
+        "AR-SA": "سيف الكلايمور للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5,
+        "crafting_focus": 16085,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 45,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword2h",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 34.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_CLAYMORE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CLAYMORECHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CLAYMORECHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T7_2H_CLAYMORE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 10.08,
+          "crafting_focus": 150858,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 64324,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_SWORD"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_CLAYMORE",
+        "item_database_index": "8655"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Claymore",
+        "name_ar": "سيف الكلايمور للحكيم",
+        "name_de": "Claymore des Ältesten",
+        "name_fr": "Claymore du sage",
+        "name_es": "Claymore del anciano",
+        "name_ru": "Клеймор (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_CLAYMORE",
+        "@uisprite": "2H_SWORD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword2h",
+        "@attackdamage": "45",
+        "@attackspeed": "1",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "34.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_SWORDS_CLAYMORE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_claymore",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "5",
+          "@craftingfocus": "16085",
+          "craftresource": [
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_2H_CLAYMORE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "96486",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "144729",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "217094",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "325640",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "10.08",
+                "@craftingfocus": "150858",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_2H_CLAYMORE@1",
+      "index": "8656",
+      "name_en": "Elder's Claymore",
+      "name_ar": "سيف الكلايمور للحكيم",
+      "name_de": "Claymore des Ältesten",
+      "name_fr": "Claymore du sage",
+      "name_es": "Claymore del anciano",
+      "name_ru": "Клеймор (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_CLAYMORE",
+        "description_variable": "@ITEMS_T8_2H_CLAYMORE_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_CLAYMORE",
+        "uisprite": "2H_SWORD",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword2h",
+        "attackdamage": "45",
+        "attackspeed": "1",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "34.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_SWORDS_CLAYMORE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_claymore"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Claymore",
+        "DE-DE": "Claymore des Ältesten",
+        "FR-FR": "Claymore du sage",
+        "RU-RU": "Клеймор (старейшина)",
+        "PL-PL": "Claymore Starszego",
+        "ES-ES": "Claymore del anciano",
+        "PT-BR": "Montante do Ancião",
+        "IT-IT": "Claymore dell'anziano",
+        "ZH-CN": "禅师级阔刃大剑",
+        "KO-KR": "장로의 클레이모어",
+        "JA-JP": "クレイモア（老熟）",
+        "ZH-TW": "禪師級闊刃大劍",
+        "ID-ID": "Claymore Tetua",
+        "TR-TR": "Yüce Çift Ağızlı Kılıcı",
+        "AR-SA": "سيف الكلايمور للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5,
+        "crafting_focus": 16085,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 45,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword2h",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 34.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_CLAYMORE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CLAYMORECHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CLAYMORECHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T7_2H_CLAYMORE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 10.08,
+          "crafting_focus": 150858,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1200,
+        "durability": 96486,
+        "crafting_silver": 0,
+        "crafting_time": 6,
+        "crafting_focus": 28148,
+        "crafting_resources": [
+          {
+            "id": "T8_METALBAR_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T8_LEATHER_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 96486,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_SWORD"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_CLAYMORE@1",
+        "item_database_index": "8656"
+      },
+      "tier": 8,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Elder's Claymore",
+        "name_ar": "سيف الكلايمور للحكيم",
+        "name_de": "Claymore des Ältesten",
+        "name_fr": "Claymore du sage",
+        "name_es": "Claymore del anciano",
+        "name_ru": "Клеймор (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_CLAYMORE",
+        "@uisprite": "2H_SWORD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword2h",
+        "@attackdamage": "45",
+        "@attackspeed": "1",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "34.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_SWORDS_CLAYMORE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_claymore",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "5",
+          "@craftingfocus": "16085",
+          "craftresource": [
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_2H_CLAYMORE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "96486",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "144729",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "217094",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "325640",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "10.08",
+                "@craftingfocus": "150858",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_2H_CLAYMORE@2",
+      "index": "8657",
+      "name_en": "Elder's Claymore",
+      "name_ar": "سيف الكلايمور للحكيم",
+      "name_de": "Claymore des Ältesten",
+      "name_fr": "Claymore du sage",
+      "name_es": "Claymore del anciano",
+      "name_ru": "Клеймор (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_CLAYMORE",
+        "description_variable": "@ITEMS_T8_2H_CLAYMORE_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_CLAYMORE",
+        "uisprite": "2H_SWORD",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword2h",
+        "attackdamage": "45",
+        "attackspeed": "1",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "34.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_SWORDS_CLAYMORE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_claymore"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Claymore",
+        "DE-DE": "Claymore des Ältesten",
+        "FR-FR": "Claymore du sage",
+        "RU-RU": "Клеймор (старейшина)",
+        "PL-PL": "Claymore Starszego",
+        "ES-ES": "Claymore del anciano",
+        "PT-BR": "Montante do Ancião",
+        "IT-IT": "Claymore dell'anziano",
+        "ZH-CN": "禅师级阔刃大剑",
+        "KO-KR": "장로의 클레이모어",
+        "JA-JP": "クレイモア（老熟）",
+        "ZH-TW": "禪師級闊刃大劍",
+        "ID-ID": "Claymore Tetua",
+        "TR-TR": "Yüce Çift Ağızlı Kılıcı",
+        "AR-SA": "سيف الكلايمور للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5,
+        "crafting_focus": 16085,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 45,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword2h",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 34.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_CLAYMORE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CLAYMORECHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CLAYMORECHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T7_2H_CLAYMORE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 10.08,
+          "crafting_focus": 150858,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1300,
+        "durability": 144729,
+        "crafting_silver": 0,
+        "crafting_time": 7.2,
+        "crafting_focus": 49260,
+        "crafting_resources": [
+          {
+            "id": "T8_METALBAR_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T8_LEATHER_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 144729,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_SWORD"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_CLAYMORE@2",
+        "item_database_index": "8657"
+      },
+      "tier": 8,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Elder's Claymore",
+        "name_ar": "سيف الكلايمور للحكيم",
+        "name_de": "Claymore des Ältesten",
+        "name_fr": "Claymore du sage",
+        "name_es": "Claymore del anciano",
+        "name_ru": "Клеймор (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_CLAYMORE",
+        "@uisprite": "2H_SWORD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword2h",
+        "@attackdamage": "45",
+        "@attackspeed": "1",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "34.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_SWORDS_CLAYMORE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_claymore",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "5",
+          "@craftingfocus": "16085",
+          "craftresource": [
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_2H_CLAYMORE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "96486",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "144729",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "217094",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "325640",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "10.08",
+                "@craftingfocus": "150858",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_2H_CLAYMORE@3",
+      "index": "8658",
+      "name_en": "Elder's Claymore",
+      "name_ar": "سيف الكلايمور للحكيم",
+      "name_de": "Claymore des Ältesten",
+      "name_fr": "Claymore du sage",
+      "name_es": "Claymore del anciano",
+      "name_ru": "Клеймор (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_CLAYMORE",
+        "description_variable": "@ITEMS_T8_2H_CLAYMORE_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_CLAYMORE",
+        "uisprite": "2H_SWORD",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword2h",
+        "attackdamage": "45",
+        "attackspeed": "1",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "34.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_SWORDS_CLAYMORE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_claymore"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Claymore",
+        "DE-DE": "Claymore des Ältesten",
+        "FR-FR": "Claymore du sage",
+        "RU-RU": "Клеймор (старейшина)",
+        "PL-PL": "Claymore Starszego",
+        "ES-ES": "Claymore del anciano",
+        "PT-BR": "Montante do Ancião",
+        "IT-IT": "Claymore dell'anziano",
+        "ZH-CN": "禅师级阔刃大剑",
+        "KO-KR": "장로의 클레이모어",
+        "JA-JP": "クレイモア（老熟）",
+        "ZH-TW": "禪師級闊刃大劍",
+        "ID-ID": "Claymore Tetua",
+        "TR-TR": "Yüce Çift Ağızlı Kılıcı",
+        "AR-SA": "سيف الكلايمور للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5,
+        "crafting_focus": 16085,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 45,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword2h",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 34.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_CLAYMORE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CLAYMORECHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CLAYMORECHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T7_2H_CLAYMORE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 10.08,
+          "crafting_focus": 150858,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1400,
+        "durability": 217094,
+        "crafting_silver": 0,
+        "crafting_time": 8.64,
+        "crafting_focus": 86205,
+        "crafting_resources": [
+          {
+            "id": "T8_METALBAR_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T8_LEATHER_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 217094,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_SWORD"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_CLAYMORE@3",
+        "item_database_index": "8658"
+      },
+      "tier": 8,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Elder's Claymore",
+        "name_ar": "سيف الكلايمور للحكيم",
+        "name_de": "Claymore des Ältesten",
+        "name_fr": "Claymore du sage",
+        "name_es": "Claymore del anciano",
+        "name_ru": "Клеймор (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_CLAYMORE",
+        "@uisprite": "2H_SWORD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword2h",
+        "@attackdamage": "45",
+        "@attackspeed": "1",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "34.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_SWORDS_CLAYMORE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_claymore",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "5",
+          "@craftingfocus": "16085",
+          "craftresource": [
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_2H_CLAYMORE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "96486",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "144729",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "217094",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "325640",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "10.08",
+                "@craftingfocus": "150858",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_2H_CLAYMORE@4",
+      "index": "8659",
+      "name_en": "Elder's Claymore",
+      "name_ar": "سيف الكلايمور للحكيم",
+      "name_de": "Claymore des Ältesten",
+      "name_fr": "Claymore du sage",
+      "name_es": "Claymore del anciano",
+      "name_ru": "Клеймор (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_CLAYMORE",
+        "description_variable": "@ITEMS_T8_2H_CLAYMORE_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_CLAYMORE",
+        "uisprite": "2H_SWORD",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword2h",
+        "attackdamage": "45",
+        "attackspeed": "1",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "34.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_SWORDS_CLAYMORE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_claymore"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Claymore",
+        "DE-DE": "Claymore des Ältesten",
+        "FR-FR": "Claymore du sage",
+        "RU-RU": "Клеймор (старейшина)",
+        "PL-PL": "Claymore Starszego",
+        "ES-ES": "Claymore del anciano",
+        "PT-BR": "Montante do Ancião",
+        "IT-IT": "Claymore dell'anziano",
+        "ZH-CN": "禅师级阔刃大剑",
+        "KO-KR": "장로의 클레이모어",
+        "JA-JP": "クレイモア（老熟）",
+        "ZH-TW": "禪師級闊刃大劍",
+        "ID-ID": "Claymore Tetua",
+        "TR-TR": "Yüce Çift Ağızlı Kılıcı",
+        "AR-SA": "سيف الكلايمور للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5,
+        "crafting_focus": 16085,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 45,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword2h",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 34.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_CLAYMORE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CLAYMORECHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CLAYMORECHARGE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T7_2H_CLAYMORE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 10.08,
+          "crafting_focus": 150858,
+          "crafting_resources": [
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1500,
+        "durability": 325640,
+        "crafting_silver": 0,
+        "crafting_time": 10.08,
+        "crafting_focus": 150858,
+        "crafting_resources": [
+          {
+            "id": "T8_METALBAR_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T8_LEATHER_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1500,
+      "effective_durability": 325640,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_SWORD"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_CLAYMORE@4",
+        "item_database_index": "8659"
+      },
+      "tier": 8,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Elder's Claymore",
+        "name_ar": "سيف الكلايمور للحكيم",
+        "name_de": "Claymore des Ältesten",
+        "name_fr": "Claymore du sage",
+        "name_es": "Claymore del anciano",
+        "name_ru": "Клеймор (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_CLAYMORE",
+        "@uisprite": "2H_SWORD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword2h",
+        "@attackdamage": "45",
+        "@attackspeed": "1",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "34.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_SWORDS_CLAYMORE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_claymore",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "5",
+          "@craftingfocus": "16085",
+          "craftresource": [
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_2H_CLAYMORE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "96486",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "144729",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "217094",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "325640",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "10.08",
+                "@craftingfocus": "150858",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

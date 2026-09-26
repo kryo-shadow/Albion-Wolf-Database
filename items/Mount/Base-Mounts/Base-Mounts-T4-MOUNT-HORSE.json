@@ -1,0 +1,305 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Base_Mounts",
+  "base_id": "T4_MOUNT_HORSE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_MOUNT_HORSE",
+      "index": "3029",
+      "name_en": "Adept's Riding Horse",
+      "name_ar": "حصان الركوب للبارع",
+      "name_de": "Reitpferd des Adepten",
+      "name_fr": "Cheval de monte de l'adepte",
+      "name_es": "Caballo de montar del iniciado",
+      "name_ru": "Ездовая лошадь (знаток)",
+      "descriptions": {
+        "description_en": "Lean and agile, Albion horses can carry their riders quickly across the continent, but have little strength to bear heavy items.",
+        "description_ar": "أحصنة Albion الرشيقة والخفيفة يمكنها نقل راكبيها بسرعة حول القارة، لكنها ليست قوية بما يكفي لتحمل الأشياء الثقيلة.",
+        "description_de": "Pferde werden oft verwendet, um in Albion zu reisen. Sie sind der schnellste Weg, um sich in Albion fortzubewegen.",
+        "description_fr": "Les chevaux servent à se déplacer très rapidement d'un bout à l'autre d'Albion.",
+        "description_es": "Los caballos suelen usarse para viajar en Albion. Son el medio de transporte más rápido que hay.",
+        "description_ru": "На лошадях часто путешествуют по миру Альбиона. Это самое быстрое ездовое животное."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MOUNT_HORSE",
+        "description_variable": "@ITEMS_T4_MOUNT_HORSE_DESC"
+      },
+      "category": "Mount_Base_Mounts",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_MOUNT_HORSE",
+        "mountcategory": "HORSES",
+        "maxqualitylevel": "5",
+        "itempower": "700",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "basemounts",
+        "mountedbuff": "T4_MOUNT_HORSE_MOUNTED",
+        "halfmountedbuff": "T4_MOUNT_HORSE_HALFMOUNTED",
+        "tier": "4",
+        "weight": "23.6",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "18000",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "mounttime": "3",
+        "dismounttime": "0",
+        "mounthitpointsmax": "1128",
+        "mounthitpointsregeneration": "11.28",
+        "prefabname": "MOUNT_HORSE_02",
+        "prefabscaling": "1.44",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "0.5",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "canusetownportal": "true",
+        "shopsubcategory2": "horse",
+        "nutrition": "583",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Riding Horse",
+        "DE-DE": "Reitpferd des Adepten",
+        "FR-FR": "Cheval de monte de l'adepte",
+        "RU-RU": "Ездовая лошадь (знаток)",
+        "PL-PL": "Koń Wierzchowy Adepta",
+        "ES-ES": "Caballo de montar del iniciado",
+        "PT-BR": "Cavalo de Montar do Adepto",
+        "IT-IT": "Cavallo da sella del sapiente",
+        "ZH-CN": "老手级骑乘马",
+        "KO-KR": "숙련자의 승용마",
+        "JA-JP": "乗用馬（名人）",
+        "ZH-TW": "老手級騎乘馬",
+        "ID-ID": "Kuda Tunggangan Mahir",
+        "TR-TR": "Ehil Binek Atı",
+        "AR-SA": "حصان الركوب للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Lean and agile, Albion horses can carry their riders quickly across the continent, but have little strength to bear heavy items.",
+        "DE-DE": "Pferde werden oft verwendet, um in Albion zu reisen. Sie sind der schnellste Weg, um sich in Albion fortzubewegen.",
+        "FR-FR": "Les chevaux servent à se déplacer très rapidement d'un bout à l'autre d'Albion.",
+        "RU-RU": "На лошадях часто путешествуют по миру Альбиона. Это самое быстрое ездовое животное.",
+        "PL-PL": "Konie są często używane do podróżowania przez Albion. To najszybszy sposób transportu.",
+        "ES-ES": "Los caballos suelen usarse para viajar en Albion. Son el medio de transporte más rápido que hay.",
+        "PT-BR": "Cavalos são montarias, usadas para deslocar-se rapidamente por Albion.",
+        "IT-IT": "Agili e snelli, i cavalli di Albion permettono di spostarsi per il continente con rapidità, tuttavia non hanno la forza per trasportare grandi pesi.",
+        "ZH-CN": "阿尔比恩的马精壮而敏捷，可以带着骑手快速往返大陆各地。不过，他们力量较小，负重能力较差。",
+        "KO-KR": "늘씬하고 빠른 알비온의 말들은, 태운 사람을 빠르게 대륙 건너편으로 실어 나르지만, 무거운 짐을 지는 힘은 약합니다.",
+        "JA-JP": "身が締まって敏捷なアルビオンの馬は、乗り手を素早く大陸のどこにでも乗せていくことができます。しかし、重い荷物の運搬用としては屈強さが足りません。",
+        "ZH-TW": "阿爾比恩的馬精實又敏捷，能載著主人在大陸上飛速穿梭，但力量較小，負重能力相對遜色。",
+        "ID-ID": "Kurus dan lincah, kuda Albion bisa membawa penunggangnya melewati benua dengan cepat, tapi tak mampu membawa item yang berat.",
+        "TR-TR": "İnce ve çevik Albion atları kıta boyunca binicilerini çabucak taşıyabilir ancak ağır eşyalar taşıma konusunda yetersiz kalabilirler.",
+        "AR-SA": "أحصنة Albion الرشيقة والخفيفة يمكنها نقل راكبيها بسرعة حول القارة، لكنها ليست قوية بما يكفي لتحمل الأشياء الثقيلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_FARM_HORSE_GROWN",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_FARM_HORSE_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.83333,
+        "crafting_focus": 1072,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_FARM_HORSE_GROWN",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_FARM_HORSE_GROWN",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 18000,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 23.6,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_HORSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_HORSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1,
+        "resolved_from": "UNIQUE_MOUNT_ARMORED_HORSE_KNIGHT_01_TEST"
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 18000,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "basemounts",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MOUNT_HORSE",
+        "item_database_index": "3029"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Riding Horse",
+        "name_ar": "حصان الركوب للبارع",
+        "name_de": "Reitpferd des Adepten",
+        "name_fr": "Cheval de monte de l'adepte",
+        "name_es": "Caballo de montar del iniciado",
+        "name_ru": "Ездовая лошадь (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_MOUNT_HORSE",
+        "@mountcategory": "HORSES",
+        "@maxqualitylevel": "5",
+        "@itempower": "700",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "basemounts",
+        "@mountedbuff": "T4_MOUNT_HORSE_MOUNTED",
+        "@halfmountedbuff": "T4_MOUNT_HORSE_HALFMOUNTED",
+        "@tier": "4",
+        "@weight": "23.6",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "18000",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@mounttime": "3",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "1128",
+        "@mounthitpointsregeneration": "11.28",
+        "@prefabname": "MOUNT_HORSE_02",
+        "@prefabscaling": "1.44",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "0.5",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@canusetownportal": "true",
+        "@shopsubcategory2": "horse",
+        "@nutrition": "583",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.83333",
+          "@craftingfocus": "1072",
+          "craftresource": [
+            {
+              "@uniquename": "T4_FARM_HORSE_GROWN",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "UNIQUE_MOUNT_ARMORED_HORSE_KNIGHT_01_TEST"
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

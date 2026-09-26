@@ -1,0 +1,253 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Ore",
+  "base_id": "T7_2H_TOOL_PICK",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T7_2H_TOOL_PICK",
+      "index": "2944",
+      "name_en": "Grandmaster's Pickaxe",
+      "name_ar": "مِعوَل الأستاذ",
+      "name_de": "Spitzhacke des Großmeisters",
+      "name_fr": "Pioche du grand maître",
+      "name_es": "Pico del gran maestro",
+      "name_ru": "Кирка (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_TOOL_PICK",
+        "description_variable": "@ITEMS_T7_2H_TOOL_PICK_DESC"
+      },
+      "category": "Gathering_Ore",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_TOOL_PICK",
+        "mesh": "T7_2H_PICK",
+        "uisprite": "2H_PICK",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "ore",
+        "attacktype": "melee",
+        "attackdamage": "44",
+        "attackspeed": "1",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "7",
+        "weight": "5.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "25200",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_pick",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "980",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "picks"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Pickaxe",
+        "DE-DE": "Spitzhacke des Großmeisters",
+        "FR-FR": "Pioche du grand maître",
+        "RU-RU": "Кирка (магистр)",
+        "PL-PL": "Kilof Wszechmistrza",
+        "ES-ES": "Pico del gran maestro",
+        "PT-BR": "Picareta do Grão-mestre",
+        "IT-IT": "Piccone del gran maestro",
+        "ZH-CN": "宗师级十字镐",
+        "KO-KR": "그랜드 마스터의 곡괭이",
+        "JA-JP": "つるはし（グランドマスター）",
+        "ZH-TW": "宗師級十字鎬",
+        "ID-ID": "Beliung Grandmaster",
+        "TR-TR": "Büyük Usta Kazması",
+        "AR-SA": "مِعوَل الأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.83333,
+        "crafting_focus": 2298,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 2
+          }
+        ],
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": 44,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_pick",
+        "item_power": 980,
+        "ability_power": 100,
+        "durability": 25200,
+        "max_quality_level": 1,
+        "tier_raw": 7,
+        "weight": 5.7,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 980,
+      "effective_durability": 25200,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "ore",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_PICK"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_TOOL_PICK",
+        "item_database_index": "2944"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Pickaxe",
+        "name_ar": "مِعوَل الأستاذ",
+        "name_de": "Spitzhacke des Großmeisters",
+        "name_fr": "Pioche du grand maître",
+        "name_es": "Pico del gran maestro",
+        "name_ru": "Кирка (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_TOOL_PICK",
+        "@mesh": "T7_2H_PICK",
+        "@uisprite": "2H_PICK",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "ore",
+        "@attacktype": "melee",
+        "@attackdamage": "44",
+        "@attackspeed": "1",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "7",
+        "@weight": "5.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "25200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_pick",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "980",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "picks",
+        "canharvest": {
+          "@resourcetype": "ORE"
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.83333",
+          "@craftingfocus": "2298",
+          "craftresource": [
+            {
+              "@uniquename": "T7_PLANKS",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "2"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

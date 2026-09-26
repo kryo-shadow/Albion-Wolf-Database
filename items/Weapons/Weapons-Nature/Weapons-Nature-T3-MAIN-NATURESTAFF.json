@@ -1,0 +1,409 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Nature",
+  "base_id": "T3_MAIN_NATURESTAFF",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_MAIN_NATURESTAFF",
+      "index": "7783",
+      "name_en": "Journeyman's Nature Staff",
+      "name_ar": "عصا الطبيعة للموثوق",
+      "name_de": "Naturstab des Gesellen",
+      "name_fr": "Bâton naturel du compagnon",
+      "name_es": "Bastón natural del obrero",
+      "name_ru": "Древесный посох (странник)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_MAIN_NATURESTAFF",
+        "description_variable": "@ITEMS_T3_MAIN_NATURESTAFF_DESC"
+      },
+      "category": "Weapons_Nature",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T3_MAIN_NATURESTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "naturestaff",
+        "attacktype": "magic",
+        "mainhandanimationtype": "staff",
+        "attackdamage": "22",
+        "attackspeed": "1.35",
+        "attackrange": "9",
+        "twohanded": "false",
+        "tier": "3",
+        "weight": "3.4",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "9000",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "600",
+        "hitpointsregenerationbonus": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "naturestaff",
+        "healmodifier": "0",
+        "canbeovercharged": "false",
+        "masterymodifier": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "triggershealingsickness": "true",
+        "shopsubcategory2": "naturestaff_main_naturestaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Journeyman's Nature Staff",
+        "DE-DE": "Naturstab des Gesellen",
+        "FR-FR": "Bâton naturel du compagnon",
+        "RU-RU": "Древесный посох (странник)",
+        "PL-PL": "Kostur Natury Czeladnika",
+        "ES-ES": "Bastón natural del obrero",
+        "PT-BR": "Cajado da Natureza do Iniciante",
+        "IT-IT": "Bastone della natura dell'apprendista",
+        "ZH-CN": "学徒级自然法杖",
+        "KO-KR": "장인의 네이쳐 스태프",
+        "JA-JP": "自然の杖（熟練）",
+        "ZH-TW": "學徒級自然法杖",
+        "ID-ID": "Tongkat Alam Pengembara",
+        "TR-TR": "Kalfa Doğa Asası",
+        "AR-SA": "عصا الطبيعة للموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T3_CLOTH",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T3_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T3_CLOTH",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.75,
+        "crafting_focus": 735,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T3_CLOTH",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T3_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T3_CLOTH",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 22,
+        "attack_speed": 1.35,
+        "attack_range": 9,
+        "attack_type": "magic",
+        "mainhand_animation": "staff",
+        "item_power": 600,
+        "ability_power": 120,
+        "durability": 9000,
+        "max_quality_level": 5,
+        "tier_raw": 3,
+        "weight": 3.4,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "REJUVENATION",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "THORNSAREA",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "BRAMBLESEED",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "REANIMATE",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CIRCLEOFLIFE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_HEALPOWERCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 600,
+      "effective_durability": 9000,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "naturestaff",
+        "crafting_category": "naturestaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_MAIN_NATURESTAFF",
+        "item_database_index": "7783"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Journeyman's Nature Staff",
+        "name_ar": "عصا الطبيعة للموثوق",
+        "name_de": "Naturstab des Gesellen",
+        "name_fr": "Bâton naturel du compagnon",
+        "name_es": "Bastón natural del obrero",
+        "name_ru": "Древесный посох (странник)"
+      },
+      "raw": {
+        "@uniquename": "T3_MAIN_NATURESTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "naturestaff",
+        "@attacktype": "magic",
+        "@mainhandanimationtype": "staff",
+        "@attackdamage": "22",
+        "@attackspeed": "1.35",
+        "@attackrange": "9",
+        "@twohanded": "false",
+        "@tier": "3",
+        "@weight": "3.4",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "9000",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "600",
+        "@hitpointsregenerationbonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "naturestaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "false",
+        "@masterymodifier": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@triggershealingsickness": "true",
+        "@shopsubcategory2": "naturestaff_main_naturestaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "0.8",
+              "@attackdamagetimefactor": "0.556",
+              "@attackspeedfactor": "1.2"
+            },
+            {
+              "@attacktype": "magic",
+              "@attackdamagefactor": "1.8",
+              "@attackdamagetimefactor": "1.111",
+              "@attackspeedfactor": "0.6"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.75",
+          "@craftingfocus": "735",
+          "craftresource": [
+            {
+              "@uniquename": "T3_PLANKS",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T3_CLOTH",
+              "@count": "8"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "REJUVENATION",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "THORNSAREA",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "BRAMBLESEED",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "REANIMATE",
+              "@slots": "2",
+              "@tag": "C"
+            },
+            {
+              "@uniquename": "CIRCLEOFLIFE",
+              "@slots": "3",
+              "@tag": "A"
+            },
+            {
+              "@uniquename": "PASSIVE_HEALPOWERCHANCE"
+            },
+            {
+              "@uniquename": "PASSIVE_ENERGYCHANCE_NATURESTAFF",
+              "@tag": "B"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

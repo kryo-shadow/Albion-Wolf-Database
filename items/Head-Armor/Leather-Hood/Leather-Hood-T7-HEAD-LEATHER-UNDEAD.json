@@ -1,0 +1,3539 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Head_Armor",
+  "family": "Head_Armor_Leather_Hood",
+  "base_id": "T7_HEAD_LEATHER_UNDEAD",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T7_HEAD_LEATHER_UNDEAD",
+      "index": "4448",
+      "name_en": "Grandmaster's Specter Hood",
+      "name_ar": "قلنسوة الطيف للأستاذ",
+      "name_de": "Gespensterkapuze des Großmeisters",
+      "name_fr": "Capuche de spectre du grand maître",
+      "name_es": "Capucha de espectro del gran maestro",
+      "name_ru": "Капюшон призрака (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_HEAD_LEATHER_UNDEAD",
+        "description_variable": "@ITEMS_T7_HEAD_LEATHER_UNDEAD_DESC"
+      },
+      "category": "Head_Armor_Leather_Hood",
+      "slot": "Head",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_HEAD_LEATHER_UNDEAD",
+        "facestate": "EMPTY",
+        "beardstate": "EMPTY",
+        "slottype": "head",
+        "shopcategory": "head",
+        "shopsubcategory1": "leather_helmet",
+        "tier": "7",
+        "maxqualitylevel": "5",
+        "itempower": "1075",
+        "weight": "5.7",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "abilitypower": "100",
+        "healbonus": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "durability": "82013",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "head",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "showinmarketplace": "true",
+        "healmodifier": "0",
+        "craftingcategory": "leather_helmet",
+        "canbeovercharged": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "shopsubcategory2": "head_leather_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Specter Hood",
+        "DE-DE": "Gespensterkapuze des Großmeisters",
+        "FR-FR": "Capuche de spectre du grand maître",
+        "RU-RU": "Капюшон призрака (магистр)",
+        "PL-PL": "Kaptur Widma Wszechmistrza",
+        "ES-ES": "Capucha de espectro del gran maestro",
+        "PT-BR": "Capuz Espectral do Grão-mestre",
+        "IT-IT": "Copricapo da spettro del gran maestro",
+        "ZH-CN": "宗师级幽灵兜帽",
+        "KO-KR": "그랜드 마스터의 스펙터 후드",
+        "JA-JP": "スペクターフード（グランドマスター）",
+        "ZH-TW": "宗師級幽魂兜帽",
+        "ID-ID": "Kerudung Momok Grandmaster",
+        "TR-TR": "Büyük Usta Tayf Kapüşonu",
+        "AR-SA": "قلنسوة الطيف للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.833,
+        "crafting_focus": 2298,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1075,
+        "ability_power": 100,
+        "durability": 82013,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 5.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "itempower_progression": "head"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SELF_CLEANSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMOR_CD_RESET",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SELF_CLEANSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMOR_CD_RESET",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_HEAD_LEATHER_UNDEAD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1175,
+          "durability": 123020,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1275,
+          "durability": 184529,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1375,
+          "durability": 276794,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1475,
+          "durability": 415191,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1075,
+      "effective_durability": 82013,
+      "shop": {
+        "shop_category": "head",
+        "shop_subcategory1": "leather_helmet",
+        "crafting_category": "leather_helmet",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+          "name_artifact_en": "Grandmaster's Ghastly Visor",
+          "name_artifact_ar": "الحاجب المروع للأستاذ",
+          "name_artifact_de": "Grausiges Visier des Großmeisters",
+          "name_artifact_fr": "Visière affreuse du grand maître",
+          "name_artifact_es": "Visera abominable del gran maestro",
+          "name_artifact_ru": "Ужасное забрало (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_HEAD_LEATHER_UNDEAD",
+        "item_database_index": "4448"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Specter Hood",
+        "name_ar": "قلنسوة الطيف للأستاذ",
+        "name_de": "Gespensterkapuze des Großmeisters",
+        "name_fr": "Capuche de spectre du grand maître",
+        "name_es": "Capucha de espectro del gran maestro",
+        "name_ru": "Капюшон призрака (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_HEAD_LEATHER_UNDEAD",
+        "@facestate": "EMPTY",
+        "@beardstate": "EMPTY",
+        "@slottype": "head",
+        "@shopcategory": "head",
+        "@shopsubcategory1": "leather_helmet",
+        "@tier": "7",
+        "@maxqualitylevel": "5",
+        "@itempower": "1075",
+        "@weight": "5.7",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@abilitypower": "100",
+        "@healbonus": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@durability": "82013",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "head",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "true",
+        "@healmodifier": "0",
+        "@craftingcategory": "leather_helmet",
+        "@canbeovercharged": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "@shopsubcategory2": "head_leather_undead",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_HEAD_LEATHER_UNDEAD"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1175",
+              "@durability": "123020",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1275",
+              "@durability": "184529",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1375",
+              "@durability": "276794",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1475",
+              "@durability": "415191",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_HEAD_LEATHER_UNDEAD@1",
+      "index": "4449",
+      "name_en": "Grandmaster's Specter Hood",
+      "name_ar": "قلنسوة الطيف للأستاذ",
+      "name_de": "Gespensterkapuze des Großmeisters",
+      "name_fr": "Capuche de spectre du grand maître",
+      "name_es": "Capucha de espectro del gran maestro",
+      "name_ru": "Капюшон призрака (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_HEAD_LEATHER_UNDEAD",
+        "description_variable": "@ITEMS_T7_HEAD_LEATHER_UNDEAD_DESC"
+      },
+      "category": "Head_Armor_Leather_Hood",
+      "slot": "Head",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_HEAD_LEATHER_UNDEAD",
+        "facestate": "EMPTY",
+        "beardstate": "EMPTY",
+        "slottype": "head",
+        "shopcategory": "head",
+        "shopsubcategory1": "leather_helmet",
+        "tier": "7",
+        "maxqualitylevel": "5",
+        "itempower": "1075",
+        "weight": "5.7",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "abilitypower": "100",
+        "healbonus": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "durability": "82013",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "head",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "showinmarketplace": "true",
+        "healmodifier": "0",
+        "craftingcategory": "leather_helmet",
+        "canbeovercharged": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "shopsubcategory2": "head_leather_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Specter Hood",
+        "DE-DE": "Gespensterkapuze des Großmeisters",
+        "FR-FR": "Capuche de spectre du grand maître",
+        "RU-RU": "Капюшон призрака (магистр)",
+        "PL-PL": "Kaptur Widma Wszechmistrza",
+        "ES-ES": "Capucha de espectro del gran maestro",
+        "PT-BR": "Capuz Espectral do Grão-mestre",
+        "IT-IT": "Copricapo da spettro del gran maestro",
+        "ZH-CN": "宗师级幽灵兜帽",
+        "KO-KR": "그랜드 마스터의 스펙터 후드",
+        "JA-JP": "スペクターフード（グランドマスター）",
+        "ZH-TW": "宗師級幽魂兜帽",
+        "ID-ID": "Kerudung Momok Grandmaster",
+        "TR-TR": "Büyük Usta Tayf Kapüşonu",
+        "AR-SA": "قلنسوة الطيف للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.833,
+        "crafting_focus": 2298,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1075,
+        "ability_power": 100,
+        "durability": 82013,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 5.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "itempower_progression": "head"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SELF_CLEANSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMOR_CD_RESET",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SELF_CLEANSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMOR_CD_RESET",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_HEAD_LEATHER_UNDEAD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1175,
+          "durability": 123020,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1275,
+          "durability": 184529,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1375,
+          "durability": 276794,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1475,
+          "durability": 415191,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1175,
+        "durability": 123020,
+        "crafting_silver": 0,
+        "crafting_time": 1.25,
+        "crafting_focus": 4021,
+        "crafting_resources": [
+          {
+            "id": "T7_LEATHER_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RUNE",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1175,
+      "effective_durability": 123020,
+      "shop": {
+        "shop_category": "head",
+        "shop_subcategory1": "leather_helmet",
+        "crafting_category": "leather_helmet",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+          "name_artifact_en": "Grandmaster's Ghastly Visor",
+          "name_artifact_ar": "الحاجب المروع للأستاذ",
+          "name_artifact_de": "Grausiges Visier des Großmeisters",
+          "name_artifact_fr": "Visière affreuse du grand maître",
+          "name_artifact_es": "Visera abominable del gran maestro",
+          "name_artifact_ru": "Ужасное забрало (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_HEAD_LEATHER_UNDEAD@1",
+        "item_database_index": "4449"
+      },
+      "tier": 7,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Grandmaster's Specter Hood",
+        "name_ar": "قلنسوة الطيف للأستاذ",
+        "name_de": "Gespensterkapuze des Großmeisters",
+        "name_fr": "Capuche de spectre du grand maître",
+        "name_es": "Capucha de espectro del gran maestro",
+        "name_ru": "Капюшон призрака (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_HEAD_LEATHER_UNDEAD",
+        "@facestate": "EMPTY",
+        "@beardstate": "EMPTY",
+        "@slottype": "head",
+        "@shopcategory": "head",
+        "@shopsubcategory1": "leather_helmet",
+        "@tier": "7",
+        "@maxqualitylevel": "5",
+        "@itempower": "1075",
+        "@weight": "5.7",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@abilitypower": "100",
+        "@healbonus": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@durability": "82013",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "head",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "true",
+        "@healmodifier": "0",
+        "@craftingcategory": "leather_helmet",
+        "@canbeovercharged": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "@shopsubcategory2": "head_leather_undead",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_HEAD_LEATHER_UNDEAD"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1175",
+              "@durability": "123020",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1275",
+              "@durability": "184529",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1375",
+              "@durability": "276794",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1475",
+              "@durability": "415191",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_HEAD_LEATHER_UNDEAD@2",
+      "index": "4450",
+      "name_en": "Grandmaster's Specter Hood",
+      "name_ar": "قلنسوة الطيف للأستاذ",
+      "name_de": "Gespensterkapuze des Großmeisters",
+      "name_fr": "Capuche de spectre du grand maître",
+      "name_es": "Capucha de espectro del gran maestro",
+      "name_ru": "Капюшон призрака (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_HEAD_LEATHER_UNDEAD",
+        "description_variable": "@ITEMS_T7_HEAD_LEATHER_UNDEAD_DESC"
+      },
+      "category": "Head_Armor_Leather_Hood",
+      "slot": "Head",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_HEAD_LEATHER_UNDEAD",
+        "facestate": "EMPTY",
+        "beardstate": "EMPTY",
+        "slottype": "head",
+        "shopcategory": "head",
+        "shopsubcategory1": "leather_helmet",
+        "tier": "7",
+        "maxqualitylevel": "5",
+        "itempower": "1075",
+        "weight": "5.7",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "abilitypower": "100",
+        "healbonus": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "durability": "82013",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "head",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "showinmarketplace": "true",
+        "healmodifier": "0",
+        "craftingcategory": "leather_helmet",
+        "canbeovercharged": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "shopsubcategory2": "head_leather_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Specter Hood",
+        "DE-DE": "Gespensterkapuze des Großmeisters",
+        "FR-FR": "Capuche de spectre du grand maître",
+        "RU-RU": "Капюшон призрака (магистр)",
+        "PL-PL": "Kaptur Widma Wszechmistrza",
+        "ES-ES": "Capucha de espectro del gran maestro",
+        "PT-BR": "Capuz Espectral do Grão-mestre",
+        "IT-IT": "Copricapo da spettro del gran maestro",
+        "ZH-CN": "宗师级幽灵兜帽",
+        "KO-KR": "그랜드 마스터의 스펙터 후드",
+        "JA-JP": "スペクターフード（グランドマスター）",
+        "ZH-TW": "宗師級幽魂兜帽",
+        "ID-ID": "Kerudung Momok Grandmaster",
+        "TR-TR": "Büyük Usta Tayf Kapüşonu",
+        "AR-SA": "قلنسوة الطيف للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.833,
+        "crafting_focus": 2298,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1075,
+        "ability_power": 100,
+        "durability": 82013,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 5.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "itempower_progression": "head"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SELF_CLEANSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMOR_CD_RESET",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SELF_CLEANSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMOR_CD_RESET",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_HEAD_LEATHER_UNDEAD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1175,
+          "durability": 123020,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1275,
+          "durability": 184529,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1375,
+          "durability": 276794,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1475,
+          "durability": 415191,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1275,
+        "durability": 184529,
+        "crafting_silver": 0,
+        "crafting_time": 1.5,
+        "crafting_focus": 7037,
+        "crafting_resources": [
+          {
+            "id": "T7_LEATHER_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_SOUL",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1275,
+      "effective_durability": 184529,
+      "shop": {
+        "shop_category": "head",
+        "shop_subcategory1": "leather_helmet",
+        "crafting_category": "leather_helmet",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+          "name_artifact_en": "Grandmaster's Ghastly Visor",
+          "name_artifact_ar": "الحاجب المروع للأستاذ",
+          "name_artifact_de": "Grausiges Visier des Großmeisters",
+          "name_artifact_fr": "Visière affreuse du grand maître",
+          "name_artifact_es": "Visera abominable del gran maestro",
+          "name_artifact_ru": "Ужасное забрало (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_HEAD_LEATHER_UNDEAD@2",
+        "item_database_index": "4450"
+      },
+      "tier": 7,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Grandmaster's Specter Hood",
+        "name_ar": "قلنسوة الطيف للأستاذ",
+        "name_de": "Gespensterkapuze des Großmeisters",
+        "name_fr": "Capuche de spectre du grand maître",
+        "name_es": "Capucha de espectro del gran maestro",
+        "name_ru": "Капюшон призрака (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_HEAD_LEATHER_UNDEAD",
+        "@facestate": "EMPTY",
+        "@beardstate": "EMPTY",
+        "@slottype": "head",
+        "@shopcategory": "head",
+        "@shopsubcategory1": "leather_helmet",
+        "@tier": "7",
+        "@maxqualitylevel": "5",
+        "@itempower": "1075",
+        "@weight": "5.7",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@abilitypower": "100",
+        "@healbonus": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@durability": "82013",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "head",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "true",
+        "@healmodifier": "0",
+        "@craftingcategory": "leather_helmet",
+        "@canbeovercharged": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "@shopsubcategory2": "head_leather_undead",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_HEAD_LEATHER_UNDEAD"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1175",
+              "@durability": "123020",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1275",
+              "@durability": "184529",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1375",
+              "@durability": "276794",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1475",
+              "@durability": "415191",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_HEAD_LEATHER_UNDEAD@3",
+      "index": "4451",
+      "name_en": "Grandmaster's Specter Hood",
+      "name_ar": "قلنسوة الطيف للأستاذ",
+      "name_de": "Gespensterkapuze des Großmeisters",
+      "name_fr": "Capuche de spectre du grand maître",
+      "name_es": "Capucha de espectro del gran maestro",
+      "name_ru": "Капюшон призрака (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_HEAD_LEATHER_UNDEAD",
+        "description_variable": "@ITEMS_T7_HEAD_LEATHER_UNDEAD_DESC"
+      },
+      "category": "Head_Armor_Leather_Hood",
+      "slot": "Head",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_HEAD_LEATHER_UNDEAD",
+        "facestate": "EMPTY",
+        "beardstate": "EMPTY",
+        "slottype": "head",
+        "shopcategory": "head",
+        "shopsubcategory1": "leather_helmet",
+        "tier": "7",
+        "maxqualitylevel": "5",
+        "itempower": "1075",
+        "weight": "5.7",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "abilitypower": "100",
+        "healbonus": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "durability": "82013",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "head",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "showinmarketplace": "true",
+        "healmodifier": "0",
+        "craftingcategory": "leather_helmet",
+        "canbeovercharged": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "shopsubcategory2": "head_leather_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Specter Hood",
+        "DE-DE": "Gespensterkapuze des Großmeisters",
+        "FR-FR": "Capuche de spectre du grand maître",
+        "RU-RU": "Капюшон призрака (магистр)",
+        "PL-PL": "Kaptur Widma Wszechmistrza",
+        "ES-ES": "Capucha de espectro del gran maestro",
+        "PT-BR": "Capuz Espectral do Grão-mestre",
+        "IT-IT": "Copricapo da spettro del gran maestro",
+        "ZH-CN": "宗师级幽灵兜帽",
+        "KO-KR": "그랜드 마스터의 스펙터 후드",
+        "JA-JP": "スペクターフード（グランドマスター）",
+        "ZH-TW": "宗師級幽魂兜帽",
+        "ID-ID": "Kerudung Momok Grandmaster",
+        "TR-TR": "Büyük Usta Tayf Kapüşonu",
+        "AR-SA": "قلنسوة الطيف للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.833,
+        "crafting_focus": 2298,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1075,
+        "ability_power": 100,
+        "durability": 82013,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 5.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "itempower_progression": "head"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SELF_CLEANSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMOR_CD_RESET",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SELF_CLEANSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMOR_CD_RESET",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_HEAD_LEATHER_UNDEAD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1175,
+          "durability": 123020,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1275,
+          "durability": 184529,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1375,
+          "durability": 276794,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1475,
+          "durability": 415191,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1375,
+        "durability": 276794,
+        "crafting_silver": 0,
+        "crafting_time": 1.8,
+        "crafting_focus": 12315,
+        "crafting_resources": [
+          {
+            "id": "T7_LEATHER_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RELIC",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1375,
+      "effective_durability": 276794,
+      "shop": {
+        "shop_category": "head",
+        "shop_subcategory1": "leather_helmet",
+        "crafting_category": "leather_helmet",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+          "name_artifact_en": "Grandmaster's Ghastly Visor",
+          "name_artifact_ar": "الحاجب المروع للأستاذ",
+          "name_artifact_de": "Grausiges Visier des Großmeisters",
+          "name_artifact_fr": "Visière affreuse du grand maître",
+          "name_artifact_es": "Visera abominable del gran maestro",
+          "name_artifact_ru": "Ужасное забрало (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_HEAD_LEATHER_UNDEAD@3",
+        "item_database_index": "4451"
+      },
+      "tier": 7,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Grandmaster's Specter Hood",
+        "name_ar": "قلنسوة الطيف للأستاذ",
+        "name_de": "Gespensterkapuze des Großmeisters",
+        "name_fr": "Capuche de spectre du grand maître",
+        "name_es": "Capucha de espectro del gran maestro",
+        "name_ru": "Капюшон призрака (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_HEAD_LEATHER_UNDEAD",
+        "@facestate": "EMPTY",
+        "@beardstate": "EMPTY",
+        "@slottype": "head",
+        "@shopcategory": "head",
+        "@shopsubcategory1": "leather_helmet",
+        "@tier": "7",
+        "@maxqualitylevel": "5",
+        "@itempower": "1075",
+        "@weight": "5.7",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@abilitypower": "100",
+        "@healbonus": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@durability": "82013",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "head",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "true",
+        "@healmodifier": "0",
+        "@craftingcategory": "leather_helmet",
+        "@canbeovercharged": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "@shopsubcategory2": "head_leather_undead",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_HEAD_LEATHER_UNDEAD"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1175",
+              "@durability": "123020",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1275",
+              "@durability": "184529",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1375",
+              "@durability": "276794",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1475",
+              "@durability": "415191",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_HEAD_LEATHER_UNDEAD@4",
+      "index": "4452",
+      "name_en": "Grandmaster's Specter Hood",
+      "name_ar": "قلنسوة الطيف للأستاذ",
+      "name_de": "Gespensterkapuze des Großmeisters",
+      "name_fr": "Capuche de spectre du grand maître",
+      "name_es": "Capucha de espectro del gran maestro",
+      "name_ru": "Капюшон призрака (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_HEAD_LEATHER_UNDEAD",
+        "description_variable": "@ITEMS_T7_HEAD_LEATHER_UNDEAD_DESC"
+      },
+      "category": "Head_Armor_Leather_Hood",
+      "slot": "Head",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_HEAD_LEATHER_UNDEAD",
+        "facestate": "EMPTY",
+        "beardstate": "EMPTY",
+        "slottype": "head",
+        "shopcategory": "head",
+        "shopsubcategory1": "leather_helmet",
+        "tier": "7",
+        "maxqualitylevel": "5",
+        "itempower": "1075",
+        "weight": "5.7",
+        "activespellslots": "1",
+        "passivespellslots": "1",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "movespeed": "0",
+        "maxload": "0",
+        "magiccooldownreduction": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "crowdcontrolresistance": "0",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "abilitypower": "100",
+        "healbonus": "0",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "durability": "82013",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "head",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "showinmarketplace": "true",
+        "healmodifier": "0",
+        "craftingcategory": "leather_helmet",
+        "canbeovercharged": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "shopsubcategory2": "head_leather_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Specter Hood",
+        "DE-DE": "Gespensterkapuze des Großmeisters",
+        "FR-FR": "Capuche de spectre du grand maître",
+        "RU-RU": "Капюшон призрака (магистр)",
+        "PL-PL": "Kaptur Widma Wszechmistrza",
+        "ES-ES": "Capucha de espectro del gran maestro",
+        "PT-BR": "Capuz Espectral do Grão-mestre",
+        "IT-IT": "Copricapo da spettro del gran maestro",
+        "ZH-CN": "宗师级幽灵兜帽",
+        "KO-KR": "그랜드 마스터의 스펙터 후드",
+        "JA-JP": "スペクターフード（グランドマスター）",
+        "ZH-TW": "宗師級幽魂兜帽",
+        "ID-ID": "Kerudung Momok Grandmaster",
+        "TR-TR": "Büyük Usta Tayf Kapüşonu",
+        "AR-SA": "قلنسوة الطيف للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.833,
+        "crafting_focus": 2298,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 8,
+        "secondary_resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1075,
+        "ability_power": 100,
+        "durability": 82013,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 5.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "itempower_progression": "head"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SELF_CLEANSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMOR_CD_RESET",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "ENERGY_BARRIER",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "SELF_CLEANSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "ARMOR_CD_RESET",
+            "slots": null,
+            "tag": null,
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BALANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_INCREASED_AASPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CD_REDUCTION",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 1,
+        "passive_slots": 1,
+        "resolved_from": "T4_HEAD_LEATHER_UNDEAD"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1175,
+          "durability": 123020,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1275,
+          "durability": 184529,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1375,
+          "durability": 276794,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1475,
+          "durability": 415191,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1475,
+        "durability": 415191,
+        "crafting_silver": 0,
+        "crafting_time": 2.16,
+        "crafting_focus": 21551,
+        "crafting_resources": [
+          {
+            "id": "T7_LEATHER_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1475,
+      "effective_durability": 415191,
+      "shop": {
+        "shop_category": "head",
+        "shop_subcategory1": "leather_helmet",
+        "crafting_category": "leather_helmet",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+          "name_artifact_en": "Grandmaster's Ghastly Visor",
+          "name_artifact_ar": "الحاجب المروع للأستاذ",
+          "name_artifact_de": "Grausiges Visier des Großmeisters",
+          "name_artifact_fr": "Visière affreuse du grand maître",
+          "name_artifact_es": "Visera abominable del gran maestro",
+          "name_artifact_ru": "Ужасное забрало (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_HEAD_LEATHER_UNDEAD@4",
+        "item_database_index": "4452"
+      },
+      "tier": 7,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Grandmaster's Specter Hood",
+        "name_ar": "قلنسوة الطيف للأستاذ",
+        "name_de": "Gespensterkapuze des Großmeisters",
+        "name_fr": "Capuche de spectre du grand maître",
+        "name_es": "Capucha de espectro del gran maestro",
+        "name_ru": "Капюшон призрака (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_HEAD_LEATHER_UNDEAD",
+        "@facestate": "EMPTY",
+        "@beardstate": "EMPTY",
+        "@slottype": "head",
+        "@shopcategory": "head",
+        "@shopsubcategory1": "leather_helmet",
+        "@tier": "7",
+        "@maxqualitylevel": "5",
+        "@itempower": "1075",
+        "@weight": "5.7",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@movespeed": "0",
+        "@maxload": "0",
+        "@magiccooldownreduction": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@crowdcontrolresistance": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@abilitypower": "100",
+        "@healbonus": "0",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@durability": "82013",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "head",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "true",
+        "@healmodifier": "0",
+        "@craftingcategory": "leather_helmet",
+        "@canbeovercharged": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_LEATHER_HEADS_UNDEAD",
+        "@shopsubcategory2": "head_leather_undead",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.833",
+            "@craftingfocus": "2298",
+            "craftresource": [
+              {
+                "@uniquename": "T7_LEATHER",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_HEAD_LEATHER_UNDEAD"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1175",
+              "@durability": "123020",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1275",
+              "@durability": "184529",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.5",
+                  "@craftingfocus": "7037",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1375",
+              "@durability": "276794",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.8",
+                  "@craftingfocus": "12315",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1475",
+              "@durability": "415191",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "2.16",
+                  "@craftingfocus": "21551",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_LEATHER_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

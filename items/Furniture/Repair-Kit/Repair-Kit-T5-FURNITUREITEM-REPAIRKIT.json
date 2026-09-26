@@ -1,0 +1,219 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Furniture",
+  "family": "Furniture_Repair_Kit",
+  "base_id": "T5_FURNITUREITEM_REPAIRKIT",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_FURNITUREITEM_REPAIRKIT",
+      "index": "3136",
+      "name_en": "Expert's Repair Kit",
+      "name_ar": "حذاء الجنود الطويل للأخصائي",
+      "name_de": "Reparatursatz des Experten",
+      "name_fr": "Kit de réparation de l'expert",
+      "name_es": "Kit de reparación del experto",
+      "name_ru": "Набор для ремонта (эксперт)",
+      "descriptions": {
+        "description_en": "Repair kits are used to repair gear in the wild, however the repair fee is twice as high.",
+        "description_ar": "تُستخدم حقائب التصليح لإصلاح العتاد في البرية، ورغم ذلك رسوم التصليح أعلى بضعفين.",
+        "description_de": "Reparatursätze werden benutzt um Ausrüstung in der Wildnis zu reparieren; die Reparaturgebühren sind jedoch doppelt so hoch",
+        "description_fr": "Les kits de réparation servent à réparer l'équipement où que vous soyez, néanmoins, les frais de réparation seront deux fois plus élevés",
+        "description_es": "Los kits de reparación se utilizan para reparar equipo a la intemperie, no obstante, la cuota de reparación es el doble.",
+        "description_ru": "Набор можно использовать во время путешествий, однако плата за ремонт вырастет вдвое."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FURNITUREITEM_REPAIRKIT",
+        "description_variable": "@ITEMS_T5_FURNITUREITEM_REPAIRKIT_DESC"
+      },
+      "category": "Furniture_Repair_Kit",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_FURNITUREITEM_REPAIRKIT",
+        "shopcategory": "furniture",
+        "shopsubcategory1": "repairkit",
+        "tier": "5",
+        "durability": "1",
+        "durabilitylossperdayfactor": "13.34",
+        "weight": "75",
+        "unlockedtocraft": "true",
+        "placeableindoors": "true",
+        "placeableoutdoors": "true",
+        "placeableindungeons": "true",
+        "placeableinexpeditions": "true",
+        "accessrightspreset": "public"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Repair Kit",
+        "DE-DE": "Reparatursatz des Experten",
+        "FR-FR": "Kit de réparation de l'expert",
+        "RU-RU": "Набор для ремонта (эксперт)",
+        "PL-PL": "Zestaw naprawczy Znawcy",
+        "ES-ES": "Kit de reparación del experto",
+        "PT-BR": "Kit de Reparo do Perito",
+        "IT-IT": "Kit di riparazione dell'esperto",
+        "ZH-CN": "专家级工具包",
+        "KO-KR": "전문가의 수리 키트",
+        "JA-JP": "修理キット（達人）",
+        "ZH-TW": "專家級維修工具組",
+        "ID-ID": "Kit Reparasi Ahli",
+        "TR-TR": "Uzman Tamir Seti",
+        "AR-SA": "حذاء الجنود الطويل للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Repair kits are used to repair gear in the wild, however the repair fee is twice as high.",
+        "DE-DE": "Reparatursätze werden benutzt um Ausrüstung in der Wildnis zu reparieren; die Reparaturgebühren sind jedoch doppelt so hoch",
+        "FR-FR": "Les kits de réparation servent à réparer l'équipement où que vous soyez, néanmoins, les frais de réparation seront deux fois plus élevés",
+        "RU-RU": "Набор можно использовать во время путешествий, однако плата за ремонт вырастет вдвое.",
+        "PL-PL": "Zestawów naprawczych używa się do naprawy wyposażenia w dzikich ostępach. Jednak opłata za naprawę jest wtedy dwa razy wyższa.",
+        "ES-ES": "Los kits de reparación se utilizan para reparar equipo a la intemperie, no obstante, la cuota de reparación es el doble.",
+        "PT-BR": "Os kits de reparo servem para consertar equipamentos na natureza pelo dobro da taxa de reparo",
+        "IT-IT": "I kit di riparazione permettono di riparare l'equipaggiamento ovunque, tuttavia le commissioni sono raddoppiate.",
+        "ZH-CN": "工具包用于野外维修装备，不过维修费用是正常水平的两倍。",
+        "KO-KR": "수리 키트는 야외에서 기어를 수리할 때 사용되지만, 대신 수리 비용이 두 배 비쌉니다.",
+        "JA-JP": "修理キットを使えば荒野で装備を修理できます。ただし、使用料は2倍になります。",
+        "ZH-TW": "使用維修工具組即可在野外維修裝備，但維修費用是平常的兩倍。",
+        "ID-ID": "Kit reparasi digunakan untuk memperbaiki alat di alam liar, namun biaya reparasinya dua kali lipat.",
+        "TR-TR": "Tamir setleri, doğadayken teçhizat onarmak için kullanılır ancak onarım ücreti iki kat daha pahalı olur.",
+        "AR-SA": "تُستخدم حقائب التصليح لإصلاح العتاد في البرية، ورغم ذلك رسوم التصليح أعلى بضعفين."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 8,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1,
+        "crafting_focus": 490,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T5_METALBAR",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 8,
+        "secondary_resource": "T5_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": 1,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 75,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": 1,
+      "shop": {
+        "shop_category": "furniture",
+        "shop_subcategory1": "repairkit",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FURNITUREITEM_REPAIRKIT",
+        "item_database_index": "3136"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Repair Kit",
+        "name_ar": "حذاء الجنود الطويل للأخصائي",
+        "name_de": "Reparatursatz des Experten",
+        "name_fr": "Kit de réparation de l'expert",
+        "name_es": "Kit de reparación del experto",
+        "name_ru": "Набор для ремонта (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_FURNITUREITEM_REPAIRKIT",
+        "@shopcategory": "furniture",
+        "@shopsubcategory1": "repairkit",
+        "@tier": "5",
+        "@durability": "1",
+        "@durabilitylossperdayfactor": "13.34",
+        "@weight": "75",
+        "@unlockedtocraft": "true",
+        "@placeableindoors": "true",
+        "@placeableoutdoors": "true",
+        "@placeableindungeons": "true",
+        "@placeableinexpeditions": "true",
+        "@accessrightspreset": "public",
+        "craftingrequirements": {
+          "@time": "1",
+          "@craftingfocus": "490",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T5_METALBAR",
+              "@count": "8"
+            }
+          ]
+        },
+        "repairkit": {
+          "@repaircostfactor": "2",
+          "@maxtier": "5"
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

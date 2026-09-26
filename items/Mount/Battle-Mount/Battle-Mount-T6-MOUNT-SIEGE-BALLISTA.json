@@ -1,0 +1,343 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Battle_Mount",
+  "base_id": "T6_MOUNT_SIEGE_BALLISTA",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_MOUNT_SIEGE_BALLISTA",
+      "index": "3071",
+      "name_en": "Siege Ballista",
+      "name_ar": "منجنيق الحصار",
+      "name_de": "Belagerungsballiste",
+      "name_fr": "Baliste de siège",
+      "name_es": "Balista de asedio",
+      "name_ru": "Осадная баллиста",
+      "descriptions": {
+        "description_en": "Battle Mount - Immune to displacement effects.",
+        "description_ar": "مطية معركة - حصين ضد الآثار السلبية.",
+        "description_de": "Kampfreittier - Immun gegen Relokalisierungseffekte.",
+        "description_fr": "Monture de bataille - Insensible aux effets affectant le déplacement.",
+        "description_es": "Montura de batalla - Inmune a los efectos de desposicionamientos.",
+        "description_ru": "Боевой скакун - невосприимчив к эффектам смещения."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MOUNT_SIEGE_BALLISTA",
+        "description_variable": "@ITEMS_T6_MOUNT_SIEGE_BALLISTA_DESC"
+      },
+      "category": "Mount_Battle_Mount",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_MOUNT_SIEGE_BALLISTA",
+        "maxqualitylevel": "1",
+        "itempower": "900",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "battle_mount",
+        "mountedbuff": "T6_MOUNT_SIEGE_BALLISTA_MOUNTED",
+        "halfmountedbuff": "T6_MOUNT_SIEGE_BALLISTA_HALFMOUNTED",
+        "tier": "6",
+        "weight": "53.2",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "60750",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "false",
+        "mounttime": "10",
+        "dismounttime": "0",
+        "mounthitpointsmax": "5820",
+        "mounthitpointsregeneration": "11.64",
+        "prefabname": "MOUNT_SIEGE_BALLISTA_OX_01,MOUNT_SIEGE_BALLISTA_SIEGE_01",
+        "prefabscaling": "1.1",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "5",
+        "showinmarketplace": "true",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "canuseingvg": "false",
+        "canuseinfactionwarfare": "false",
+        "shopsubcategory2": "siegeballista",
+        "mountzergdisarraylevels": "2",
+        "nutrition": "5905",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Siege Ballista",
+        "DE-DE": "Belagerungsballiste",
+        "FR-FR": "Baliste de siège",
+        "RU-RU": "Осадная баллиста",
+        "PL-PL": "Balista Oblężnicza",
+        "ES-ES": "Balista de asedio",
+        "PT-BR": "Balista de Cerco",
+        "IT-IT": "Balista d'assedio",
+        "ZH-CN": "攻城弩炮",
+        "KO-KR": "공성포",
+        "JA-JP": "シージバリスタ",
+        "ZH-TW": "攻城弩砲",
+        "ID-ID": "Ballista Pengepungan",
+        "TR-TR": "Kuşatma Mancınığı",
+        "AR-SA": "منجنيق الحصار"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Battle Mount - Immune to displacement effects.",
+        "DE-DE": "Kampfreittier - Immun gegen Relokalisierungseffekte.",
+        "FR-FR": "Monture de bataille - Insensible aux effets affectant le déplacement.",
+        "RU-RU": "Боевой маунт - невосприимчив к эффектам смещения.",
+        "PL-PL": "Wierzchowiec bitewny - Odporny na efekty przemieszczenia.",
+        "ES-ES": "Montura de batalla - Inmune a los efectos de desposicionamientos.",
+        "PT-BR": "Montaria de Batalha - Imune a efeitos de deslocamento.",
+        "IT-IT": "Cavalcatura da battaglia - Immune agli effetti che inducono uno spostamento.",
+        "ZH-CN": "战斗坐骑 - 免疫位移效果。",
+        "KO-KR": "전투 탈것 - 이동 효과에 면역됩니다.",
+        "JA-JP": "バトル騎獣 - 変位効果の影響を受けません。",
+        "ZH-TW": "戰爭坐騎 - 對位移效果免疫。",
+        "ID-ID": "Tunggangan Tempur - Kebal terhadap efek pemindahan.",
+        "TR-TR": "Savaş bineği. Yer değiştirme etkilerine karşı bağışıktır.",
+        "AR-SA": "مطية معركة - حصين ضد الآثار السلبية."
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_GVGTOKEN_GENERIC",
+        "primary_count": 500,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 20,
+        "resources": [
+          {
+            "id": "UNIQUE_GVGTOKEN_GENERIC",
+            "count": 500
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_MOUNT_OX",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "UNIQUE_GVGTOKEN_GENERIC",
+            "count": 500
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T6_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T6_MOUNT_OX",
+            "count": 1
+          }
+        ],
+        "primary_resource": "UNIQUE_GVGTOKEN_GENERIC",
+        "primary_count": 500,
+        "secondary_resource": "T6_METALBAR",
+        "secondary_count": 20
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 900,
+        "ability_power": 100,
+        "durability": 60750,
+        "max_quality_level": 1,
+        "tier_raw": 6,
+        "weight": 53.2,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 900,
+      "effective_durability": 60750,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "battle_mount",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MOUNT_SIEGE_BALLISTA",
+        "item_database_index": "3071"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Siege Ballista",
+        "name_ar": "منجنيق الحصار",
+        "name_de": "Belagerungsballiste",
+        "name_fr": "Baliste de siège",
+        "name_es": "Balista de asedio",
+        "name_ru": "Осадная баллиста"
+      },
+      "raw": {
+        "@uniquename": "T6_MOUNT_SIEGE_BALLISTA",
+        "@maxqualitylevel": "1",
+        "@itempower": "900",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "battle_mount",
+        "@mountedbuff": "T6_MOUNT_SIEGE_BALLISTA_MOUNTED",
+        "@halfmountedbuff": "T6_MOUNT_SIEGE_BALLISTA_HALFMOUNTED",
+        "@tier": "6",
+        "@weight": "53.2",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "60750",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "false",
+        "@mounttime": "10",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "5820",
+        "@mounthitpointsregeneration": "11.64",
+        "@prefabname": "MOUNT_SIEGE_BALLISTA_OX_01,MOUNT_SIEGE_BALLISTA_SIEGE_01",
+        "@prefabscaling": "1.1",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "5",
+        "@showinmarketplace": "true",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@canuseingvg": "false",
+        "@canuseinfactionwarfare": "false",
+        "@shopsubcategory2": "siegeballista",
+        "@mountzergdisarraylevels": "2",
+        "@nutrition": "5905",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0",
+          "craftresource": [
+            {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "500",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T6_MOUNT_OX",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T6_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T6_LEATHER",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "20"
+            }
+          ]
+        },
+        "mountspelllist": {
+          "mountspell": [
+            {
+              "@uniquename": "MOUNTSPELL_BALLISTA_MULTISHOT",
+              "@spellslot": "mainhand1"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_BALLISTA_SNIPE",
+              "@spellslot": "offhandormainhand3"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_SPRINT_BALLISTA",
+              "@spellslot": "shoes"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

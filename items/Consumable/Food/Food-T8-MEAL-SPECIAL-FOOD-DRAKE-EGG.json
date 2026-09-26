@@ -1,0 +1,248 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T8_MEAL_SPECIAL_FOOD_DRAKE_EGG",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_MEAL_SPECIAL_FOOD_DRAKE_EGG",
+      "index": "932",
+      "name_en": "Drake Egg Biscuits",
+      "name_ar": "بسكويت بيضة دريك",
+      "name_de": "Jungdrachenei-Kekse",
+      "name_fr": "Biscuits aux Œufs de Drake",
+      "name_es": "Galletas de Huevo de Draco",
+      "name_ru": "Печенье из яиц дрейков",
+      "descriptions": {
+        "description_en": "A meal that increases Combat and Gathering Fame gains.",
+        "description_ar": "وجبة تزيد من مكاسب نقاط الخبرة القالية ونقاط خبرة جمع الموارد.",
+        "description_de": "Eine Mahlzeit, die den erhaltenen Kampf- und Sammel-Ruhm erhöht.",
+        "description_fr": "Un repas qui augmente les gains de Renommée de Combat et de Récolte.",
+        "description_es": "Una comida que aumenta la Fama obtenida en Combate y Recolección.",
+        "description_ru": "Еда, увеличивающая получаемую боевую славу и славу собирателя."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MEAL_SPECIAL_FOOD_DRAKE_EGG",
+        "description_variable": "@ITEMS_MEAL_SPECIAL_FOOD_DRAKE_EGG_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_MEAL_SPECIAL_FOOD_DRAKE_EGG",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_BUFF_SPECIAL_FOOD_DRAKE_EGG_FAME",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "8",
+        "dummyitempower": "1000",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "7.55",
+        "nutrition": "755",
+        "descriptionlocatag": "@ITEMS_MEAL_SPECIAL_FOOD_DRAKE_EGG_DESC",
+        "shopsubcategory2": "other"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Drake Egg Biscuits",
+        "DE-DE": "Jungdrachenei-Kekse",
+        "FR-FR": "Biscuits aux Œufs de Drake",
+        "RU-RU": "Печенье из яиц дрейков",
+        "PL-PL": "Herbatniki z Jaja Młodego Smoka",
+        "ES-ES": "Galletas de Huevo de Draco",
+        "PT-BR": "Biscoitos de Ovo de Draco",
+        "IT-IT": "Biscotti all'Uovo di Draco",
+        "ZH-CN": "幼龙蛋饼干",
+        "KO-KR": "드레이크 알 비스킷",
+        "JA-JP": "ドレイクの卵ビスケット",
+        "ZH-TW": "幼龍蛋餅乾",
+        "ID-ID": "Biskuit Telur Drake",
+        "TR-TR": "Drake Yumurtası Bisküvileri",
+        "AR-SA": "بسكويت بيضة دريك"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A meal that increases Combat and Gathering Fame gains.",
+        "DE-DE": "Eine Mahlzeit, die den erhaltenen Kampf- und Sammel-Ruhm erhöht.",
+        "FR-FR": "Un repas qui augmente les gains de Renommée de Combat et de Récolte.",
+        "RU-RU": "Еда, увеличивающая получаемую боевую славу и славу собирателя.",
+        "PL-PL": "Posiłek, który zwiększa zdobywanie Sławy za walkę oraz zbieractwo.",
+        "ES-ES": "Una comida que aumenta la Fama obtenida en Combate y Recolección.",
+        "PT-BR": "Uma comida que aumenta os ganhos de Fama de Combate e de Coleta.",
+        "IT-IT": "Una pietanza che aumenta i guadagni di Fama da Combattimento e da Raccolta.",
+        "ZH-CN": "食用后提升战斗与采集声望获取。",
+        "KO-KR": "전투 및 채집 명성 획득량을 증가시키는 음식입니다.",
+        "JA-JP": "戦闘および採集の名声獲得量を増加させる料理。",
+        "ZH-TW": "食用後提升戰鬥與採集聲望的獲得。",
+        "ID-ID": "Makanan yang meningkatkan Ketenaran Pertempuran dan Mengumpulkan.",
+        "TR-TR": "Savaş ve Toplayıcılık Namı kazançlarını artıran bir yiyecek.",
+        "AR-SA": "وجبة تزيد من مكاسب نقاط الخبرة القالية ونقاط خبرة جمع الموارد."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_FLOUR",
+        "primary_count": 36,
+        "secondary_resource": "T8_MILK",
+        "secondary_count": 24,
+        "resources": [
+          {
+            "id": "T3_FLOUR",
+            "count": 36
+          },
+          {
+            "id": "T8_MILK",
+            "count": 24
+          },
+          {
+            "id": "T8_BUTTER",
+            "count": 12
+          },
+          {
+            "id": "T8_FARM_DRAKE_BABY",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 9,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_FLOUR",
+            "count": 36
+          },
+          {
+            "id": "T8_MILK",
+            "count": 24
+          },
+          {
+            "id": "T8_BUTTER",
+            "count": 12
+          },
+          {
+            "id": "T8_FARM_DRAKE_BABY",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_FLOUR",
+        "primary_count": 36,
+        "secondary_resource": "T8_MILK",
+        "secondary_count": 24
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 7.55,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MEAL_SPECIAL_FOOD_DRAKE_EGG",
+        "item_database_index": "932"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Drake Egg Biscuits",
+        "name_ar": "بسكويت بيضة دريك",
+        "name_de": "Jungdrachenei-Kekse",
+        "name_fr": "Biscuits aux Œufs de Drake",
+        "name_es": "Galletas de Huevo de Draco",
+        "name_ru": "Печенье из яиц дрейков"
+      },
+      "raw": {
+        "@uniquename": "T8_MEAL_SPECIAL_FOOD_DRAKE_EGG",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_BUFF_SPECIAL_FOOD_DRAKE_EGG_FAME",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "8",
+        "@dummyitempower": "1000",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "7.55",
+        "@nutrition": "755",
+        "@descriptionlocatag": "@ITEMS_MEAL_SPECIAL_FOOD_DRAKE_EGG_DESC",
+        "@shopsubcategory2": "other",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "99",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "0",
+          "@time": "9",
+          "craftresource": [
+            {
+              "@uniquename": "T3_FLOUR",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T8_BUTTER",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T8_MILK",
+              "@count": "24"
+            },
+            {
+              "@uniquename": "T8_FARM_DRAKE_BABY",
+              "@count": "1"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

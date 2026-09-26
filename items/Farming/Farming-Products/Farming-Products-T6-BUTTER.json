@@ -1,0 +1,197 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Farming_Products",
+  "base_id": "T6_BUTTER",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_BUTTER",
+      "index": "940",
+      "name_en": "Sheep's Butter",
+      "name_ar": "زبدة الخراف",
+      "name_de": "Schafsmilchbutter",
+      "name_fr": "Beurre de mouton",
+      "name_es": "Manteca de oveja",
+      "name_ru": "Овечье масло",
+      "descriptions": {
+        "description_en": "Sheep's Butter is used to make Sandwiches",
+        "description_ar": "تُستخدم زبدة الخراف لصناعة الشطائر",
+        "description_de": "Schafsmilchbutter wird benutzt, um Sandwiches zu machen.",
+        "description_fr": "Le beurre de mouton sert à faire des sandwichs.",
+        "description_es": "La manteca de oveja se usa para hacer bocadillos",
+        "description_ru": "Масло нужно для приготовления сэндвичей"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_BUTTER",
+        "description_variable": "@ITEMS_T6_BUTTER_DESC"
+      },
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_BUTTER",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farmingproducts",
+        "craftingcategory": "food",
+        "tier": "6",
+        "weight": "0.65",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "nutrition": "52",
+        "shopsubcategory2": "butter"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Sheep's Butter",
+        "DE-DE": "Schafsmilchbutter",
+        "FR-FR": "Beurre de mouton",
+        "RU-RU": "Овечье масло",
+        "PL-PL": "Owcze Masło",
+        "ES-ES": "Manteca de oveja",
+        "PT-BR": "Manteiga de Ovelha",
+        "IT-IT": "Burro di pecora",
+        "ZH-CN": "绵羊黄油",
+        "KO-KR": "양젖 버터",
+        "JA-JP": "羊のバター",
+        "ZH-TW": "綿羊奶油",
+        "ID-ID": "Mentega Domba",
+        "TR-TR": "Koyun Tereyağı",
+        "AR-SA": "زبدة الخراف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sheep's Butter is used to make Sandwiches",
+        "DE-DE": "Schafsmilchbutter wird benutzt, um Sandwiches zu machen.",
+        "FR-FR": "Le beurre de mouton sert à faire des sandwichs.",
+        "RU-RU": "Масло нужно для приготовления сэндвичей",
+        "PL-PL": "Owcze masło służy do przygotowania kanapek",
+        "ES-ES": "La manteca de oveja se usa para hacer bocadillos",
+        "PT-BR": "A Manteiga de Ovelha é usada para fazer Sanduíches.",
+        "IT-IT": "Il burro di pecora si utilizza per preparare panini.",
+        "ZH-CN": "绵羊黄油用于制作三明治。",
+        "KO-KR": "양젖 버터는 샌드위치를 만드는 데 사용됩니다.",
+        "JA-JP": "羊のバターはサンドイッチづくりに使われています。",
+        "ZH-TW": "綿羊奶油可用於製作三明治",
+        "ID-ID": "Mentega Domba digunakan untuk membuat Roti Lapis.",
+        "TR-TR": "Koyun Tereyağı, Sandviç yapımında kullanılır.",
+        "AR-SA": "تُستخدم زبدة الخراف لصناعة الشطائر"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_MILK",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T6_MILK",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.02,
+        "crafting_focus": 38,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_MILK",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_MILK",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 0.65,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "farmingproducts",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_BUTTER",
+        "item_database_index": "940"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Sheep's Butter",
+        "name_ar": "زبدة الخراف",
+        "name_de": "Schafsmilchbutter",
+        "name_fr": "Beurre de mouton",
+        "name_es": "Manteca de oveja",
+        "name_ru": "Овечье масло"
+      },
+      "raw": {
+        "@uniquename": "T6_BUTTER",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "6",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@nutrition": "52",
+        "@shopsubcategory2": "butter",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T6_MILK",
+            "@count": "1"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

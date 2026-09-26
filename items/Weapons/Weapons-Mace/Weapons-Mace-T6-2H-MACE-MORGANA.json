@@ -1,0 +1,3504 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Mace",
+  "base_id": "T6_2H_MACE_MORGANA",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T6_2H_MACE_MORGANA",
+      "index": "9348",
+      "name_en": "Master's Camlann Mace",
+      "name_ar": "صولجان Camlann للخبير",
+      "name_de": "Camlann-Keule des Meisters",
+      "name_fr": "Masse de Camlann du maître",
+      "name_es": "Maza de Camlann del maestro",
+      "name_ru": "Булава Камланна (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_MACE_MORGANA",
+        "description_variable": "@ITEMS_T6_2H_MACE_MORGANA_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_MACE_MORGANA",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "mace2h",
+        "attackdamage": "59",
+        "attackspeed": "0.667",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "96485",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "975",
+        "hitpointsregenerationbonus": "0.2",
+        "itempowerprogressiontype": "mainhand",
+        "showinmarketplace": "true",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_MACES_MORGANA",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Camlann Mace",
+        "DE-DE": "Camlann-Keule des Meisters",
+        "FR-FR": "Masse de Camlann du maître",
+        "RU-RU": "Булава Камланна (мастер)",
+        "PL-PL": "Buzdygan z Camlann Mistrza",
+        "ES-ES": "Maza de Camlann del maestro",
+        "PT-BR": "Maça Cambriana do Mestre",
+        "IT-IT": "Mazza di Camlann del maestro",
+        "ZH-CN": "大师级卡姆兰锤杖",
+        "KO-KR": "마스터의 캄란 메이스",
+        "JA-JP": "カムランのメイス（マスター）",
+        "ZH-TW": "大師級卡姆蘭錘矛",
+        "ID-ID": "Gada Camlann Master",
+        "TR-TR": "Usta Camlann Gürzü",
+        "AR-SA": "صولجان Camlann للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 59,
+        "attack_speed": 0.667,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "mace2h",
+        "item_power": 975,
+        "ability_power": 120,
+        "durability": 96485,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_MORGANA",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "VACUUMSLASH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "VACUUMSLASH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_MACE_MORGANA"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1075,
+          "durability": 144728,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1175,
+          "durability": 217091,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1275,
+          "durability": 325637,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1375,
+          "durability": 488455,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 975,
+      "effective_durability": 96485,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_2H_MACE_MORGANA",
+          "name_artifact_en": "Master's Imbued Mace Head",
+          "name_artifact_ar": "رأس الصولجان المشبعة للخبير",
+          "name_artifact_de": "Getränkter Keulenkopf des Meisters",
+          "name_artifact_fr": "Tête de masse imprégnée du maître",
+          "name_artifact_es": "Cabeza de maza imbuida del maestro",
+          "name_artifact_ru": "Зачарованная головка булавы (мастер)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_MACE_MORGANA",
+        "item_database_index": "9348"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Camlann Mace",
+        "name_ar": "صولجان Camlann للخبير",
+        "name_de": "Camlann-Keule des Meisters",
+        "name_fr": "Masse de Camlann du maître",
+        "name_es": "Maza de Camlann del maestro",
+        "name_ru": "Булава Камланна (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_MACE_MORGANA",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "mace2h",
+        "@attackdamage": "59",
+        "@attackspeed": "0.667",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "96485",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "975",
+        "@hitpointsregenerationbonus": "0.2",
+        "@itempowerprogressiontype": "mainhand",
+        "@showinmarketplace": "true",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_MACES_MORGANA",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_morgana",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2.667",
+            "@craftingfocus": "5252",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "5252",
+            "@time": "2.667",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_MACE_MORGANA"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1075",
+              "@durability": "144728",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1175",
+              "@durability": "217091",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1275",
+              "@durability": "325637",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1375",
+              "@durability": "488455",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_MACE_MORGANA@1",
+      "index": "9349",
+      "name_en": "Master's Camlann Mace",
+      "name_ar": "صولجان Camlann للخبير",
+      "name_de": "Camlann-Keule des Meisters",
+      "name_fr": "Masse de Camlann du maître",
+      "name_es": "Maza de Camlann del maestro",
+      "name_ru": "Булава Камланна (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_MACE_MORGANA",
+        "description_variable": "@ITEMS_T6_2H_MACE_MORGANA_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_MACE_MORGANA",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "mace2h",
+        "attackdamage": "59",
+        "attackspeed": "0.667",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "96485",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "975",
+        "hitpointsregenerationbonus": "0.2",
+        "itempowerprogressiontype": "mainhand",
+        "showinmarketplace": "true",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_MACES_MORGANA",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Camlann Mace",
+        "DE-DE": "Camlann-Keule des Meisters",
+        "FR-FR": "Masse de Camlann du maître",
+        "RU-RU": "Булава Камланна (мастер)",
+        "PL-PL": "Buzdygan z Camlann Mistrza",
+        "ES-ES": "Maza de Camlann del maestro",
+        "PT-BR": "Maça Cambriana do Mestre",
+        "IT-IT": "Mazza di Camlann del maestro",
+        "ZH-CN": "大师级卡姆兰锤杖",
+        "KO-KR": "마스터의 캄란 메이스",
+        "JA-JP": "カムランのメイス（マスター）",
+        "ZH-TW": "大師級卡姆蘭錘矛",
+        "ID-ID": "Gada Camlann Master",
+        "TR-TR": "Usta Camlann Gürzü",
+        "AR-SA": "صولجان Camlann للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 59,
+        "attack_speed": 0.667,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "mace2h",
+        "item_power": 975,
+        "ability_power": 120,
+        "durability": 96485,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_MORGANA",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "VACUUMSLASH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "VACUUMSLASH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_MACE_MORGANA"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1075,
+          "durability": 144728,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1175,
+          "durability": 217091,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1275,
+          "durability": 325637,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1375,
+          "durability": 488455,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1075,
+        "durability": 144728,
+        "crafting_silver": 0,
+        "crafting_time": 3.333,
+        "crafting_focus": 9191,
+        "crafting_resources": [
+          {
+            "id": "T6_METALBAR_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T6_CLOTH_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1075,
+      "effective_durability": 144728,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_2H_MACE_MORGANA",
+          "name_artifact_en": "Master's Imbued Mace Head",
+          "name_artifact_ar": "رأس الصولجان المشبعة للخبير",
+          "name_artifact_de": "Getränkter Keulenkopf des Meisters",
+          "name_artifact_fr": "Tête de masse imprégnée du maître",
+          "name_artifact_es": "Cabeza de maza imbuida del maestro",
+          "name_artifact_ru": "Зачарованная головка булавы (мастер)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_MACE_MORGANA@1",
+        "item_database_index": "9349"
+      },
+      "tier": 6,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Master's Camlann Mace",
+        "name_ar": "صولجان Camlann للخبير",
+        "name_de": "Camlann-Keule des Meisters",
+        "name_fr": "Masse de Camlann du maître",
+        "name_es": "Maza de Camlann del maestro",
+        "name_ru": "Булава Камланна (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_MACE_MORGANA",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "mace2h",
+        "@attackdamage": "59",
+        "@attackspeed": "0.667",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "96485",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "975",
+        "@hitpointsregenerationbonus": "0.2",
+        "@itempowerprogressiontype": "mainhand",
+        "@showinmarketplace": "true",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_MACES_MORGANA",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_morgana",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2.667",
+            "@craftingfocus": "5252",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "5252",
+            "@time": "2.667",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_MACE_MORGANA"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1075",
+              "@durability": "144728",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1175",
+              "@durability": "217091",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1275",
+              "@durability": "325637",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1375",
+              "@durability": "488455",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_MACE_MORGANA@2",
+      "index": "9350",
+      "name_en": "Master's Camlann Mace",
+      "name_ar": "صولجان Camlann للخبير",
+      "name_de": "Camlann-Keule des Meisters",
+      "name_fr": "Masse de Camlann du maître",
+      "name_es": "Maza de Camlann del maestro",
+      "name_ru": "Булава Камланна (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_MACE_MORGANA",
+        "description_variable": "@ITEMS_T6_2H_MACE_MORGANA_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_MACE_MORGANA",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "mace2h",
+        "attackdamage": "59",
+        "attackspeed": "0.667",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "96485",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "975",
+        "hitpointsregenerationbonus": "0.2",
+        "itempowerprogressiontype": "mainhand",
+        "showinmarketplace": "true",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_MACES_MORGANA",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Camlann Mace",
+        "DE-DE": "Camlann-Keule des Meisters",
+        "FR-FR": "Masse de Camlann du maître",
+        "RU-RU": "Булава Камланна (мастер)",
+        "PL-PL": "Buzdygan z Camlann Mistrza",
+        "ES-ES": "Maza de Camlann del maestro",
+        "PT-BR": "Maça Cambriana do Mestre",
+        "IT-IT": "Mazza di Camlann del maestro",
+        "ZH-CN": "大师级卡姆兰锤杖",
+        "KO-KR": "마스터의 캄란 메이스",
+        "JA-JP": "カムランのメイス（マスター）",
+        "ZH-TW": "大師級卡姆蘭錘矛",
+        "ID-ID": "Gada Camlann Master",
+        "TR-TR": "Usta Camlann Gürzü",
+        "AR-SA": "صولجان Camlann للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 59,
+        "attack_speed": 0.667,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "mace2h",
+        "item_power": 975,
+        "ability_power": 120,
+        "durability": 96485,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_MORGANA",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "VACUUMSLASH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "VACUUMSLASH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_MACE_MORGANA"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1075,
+          "durability": 144728,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1175,
+          "durability": 217091,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1275,
+          "durability": 325637,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1375,
+          "durability": 488455,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1175,
+        "durability": 217091,
+        "crafting_silver": 0,
+        "crafting_time": 5,
+        "crafting_focus": 16085,
+        "crafting_resources": [
+          {
+            "id": "T6_METALBAR_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T6_CLOTH_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1175,
+      "effective_durability": 217091,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_2H_MACE_MORGANA",
+          "name_artifact_en": "Master's Imbued Mace Head",
+          "name_artifact_ar": "رأس الصولجان المشبعة للخبير",
+          "name_artifact_de": "Getränkter Keulenkopf des Meisters",
+          "name_artifact_fr": "Tête de masse imprégnée du maître",
+          "name_artifact_es": "Cabeza de maza imbuida del maestro",
+          "name_artifact_ru": "Зачарованная головка булавы (мастер)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_MACE_MORGANA@2",
+        "item_database_index": "9350"
+      },
+      "tier": 6,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Master's Camlann Mace",
+        "name_ar": "صولجان Camlann للخبير",
+        "name_de": "Camlann-Keule des Meisters",
+        "name_fr": "Masse de Camlann du maître",
+        "name_es": "Maza de Camlann del maestro",
+        "name_ru": "Булава Камланна (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_MACE_MORGANA",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "mace2h",
+        "@attackdamage": "59",
+        "@attackspeed": "0.667",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "96485",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "975",
+        "@hitpointsregenerationbonus": "0.2",
+        "@itempowerprogressiontype": "mainhand",
+        "@showinmarketplace": "true",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_MACES_MORGANA",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_morgana",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2.667",
+            "@craftingfocus": "5252",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "5252",
+            "@time": "2.667",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_MACE_MORGANA"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1075",
+              "@durability": "144728",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1175",
+              "@durability": "217091",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1275",
+              "@durability": "325637",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1375",
+              "@durability": "488455",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_MACE_MORGANA@3",
+      "index": "9351",
+      "name_en": "Master's Camlann Mace",
+      "name_ar": "صولجان Camlann للخبير",
+      "name_de": "Camlann-Keule des Meisters",
+      "name_fr": "Masse de Camlann du maître",
+      "name_es": "Maza de Camlann del maestro",
+      "name_ru": "Булава Камланна (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_MACE_MORGANA",
+        "description_variable": "@ITEMS_T6_2H_MACE_MORGANA_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_MACE_MORGANA",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "mace2h",
+        "attackdamage": "59",
+        "attackspeed": "0.667",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "96485",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "975",
+        "hitpointsregenerationbonus": "0.2",
+        "itempowerprogressiontype": "mainhand",
+        "showinmarketplace": "true",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_MACES_MORGANA",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Camlann Mace",
+        "DE-DE": "Camlann-Keule des Meisters",
+        "FR-FR": "Masse de Camlann du maître",
+        "RU-RU": "Булава Камланна (мастер)",
+        "PL-PL": "Buzdygan z Camlann Mistrza",
+        "ES-ES": "Maza de Camlann del maestro",
+        "PT-BR": "Maça Cambriana do Mestre",
+        "IT-IT": "Mazza di Camlann del maestro",
+        "ZH-CN": "大师级卡姆兰锤杖",
+        "KO-KR": "마스터의 캄란 메이스",
+        "JA-JP": "カムランのメイス（マスター）",
+        "ZH-TW": "大師級卡姆蘭錘矛",
+        "ID-ID": "Gada Camlann Master",
+        "TR-TR": "Usta Camlann Gürzü",
+        "AR-SA": "صولجان Camlann للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 59,
+        "attack_speed": 0.667,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "mace2h",
+        "item_power": 975,
+        "ability_power": 120,
+        "durability": 96485,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_MORGANA",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "VACUUMSLASH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "VACUUMSLASH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_MACE_MORGANA"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1075,
+          "durability": 144728,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1175,
+          "durability": 217091,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1275,
+          "durability": 325637,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1375,
+          "durability": 488455,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1275,
+        "durability": 325637,
+        "crafting_silver": 0,
+        "crafting_time": 6,
+        "crafting_focus": 28148,
+        "crafting_resources": [
+          {
+            "id": "T6_METALBAR_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T6_CLOTH_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T6_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1275,
+      "effective_durability": 325637,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_2H_MACE_MORGANA",
+          "name_artifact_en": "Master's Imbued Mace Head",
+          "name_artifact_ar": "رأس الصولجان المشبعة للخبير",
+          "name_artifact_de": "Getränkter Keulenkopf des Meisters",
+          "name_artifact_fr": "Tête de masse imprégnée du maître",
+          "name_artifact_es": "Cabeza de maza imbuida del maestro",
+          "name_artifact_ru": "Зачарованная головка булавы (мастер)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_MACE_MORGANA@3",
+        "item_database_index": "9351"
+      },
+      "tier": 6,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Master's Camlann Mace",
+        "name_ar": "صولجان Camlann للخبير",
+        "name_de": "Camlann-Keule des Meisters",
+        "name_fr": "Masse de Camlann du maître",
+        "name_es": "Maza de Camlann del maestro",
+        "name_ru": "Булава Камланна (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_MACE_MORGANA",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "mace2h",
+        "@attackdamage": "59",
+        "@attackspeed": "0.667",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "96485",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "975",
+        "@hitpointsregenerationbonus": "0.2",
+        "@itempowerprogressiontype": "mainhand",
+        "@showinmarketplace": "true",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_MACES_MORGANA",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_morgana",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2.667",
+            "@craftingfocus": "5252",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "5252",
+            "@time": "2.667",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_MACE_MORGANA"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1075",
+              "@durability": "144728",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1175",
+              "@durability": "217091",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1275",
+              "@durability": "325637",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1375",
+              "@durability": "488455",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T6_2H_MACE_MORGANA@4",
+      "index": "9352",
+      "name_en": "Master's Camlann Mace",
+      "name_ar": "صولجان Camlann للخبير",
+      "name_de": "Camlann-Keule des Meisters",
+      "name_fr": "Masse de Camlann du maître",
+      "name_es": "Maza de Camlann del maestro",
+      "name_ru": "Булава Камланна (мастер)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_MACE_MORGANA",
+        "description_variable": "@ITEMS_T6_2H_MACE_MORGANA_DESC"
+      },
+      "category": "Weapons_Mace",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_MACE_MORGANA",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "mace",
+        "attacktype": "melee",
+        "mainhandanimationtype": "mace2h",
+        "attackdamage": "59",
+        "attackspeed": "0.667",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "6",
+        "weight": "15.2",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "96485",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "200",
+        "itempower": "975",
+        "hitpointsregenerationbonus": "0.2",
+        "itempowerprogressiontype": "mainhand",
+        "showinmarketplace": "true",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "mace",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.1",
+        "destinyandjournalcraftfamefactor": "1.3",
+        "combatspecachievement": "COMBAT_MACES_MORGANA",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "mace_morgana"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Camlann Mace",
+        "DE-DE": "Camlann-Keule des Meisters",
+        "FR-FR": "Masse de Camlann du maître",
+        "RU-RU": "Булава Камланна (мастер)",
+        "PL-PL": "Buzdygan z Camlann Mistrza",
+        "ES-ES": "Maza de Camlann del maestro",
+        "PT-BR": "Maça Cambriana do Mestre",
+        "IT-IT": "Mazza di Camlann del maestro",
+        "ZH-CN": "大师级卡姆兰锤杖",
+        "KO-KR": "마스터의 캄란 메이스",
+        "JA-JP": "カムランのメイス（マスター）",
+        "ZH-TW": "大師級卡姆蘭錘矛",
+        "ID-ID": "Gada Camlann Master",
+        "TR-TR": "Usta Camlann Gürzü",
+        "AR-SA": "صولجان Camlann للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.667,
+        "crafting_focus": 5252,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_METALBAR",
+        "primary_count": 20,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 59,
+        "attack_speed": 0.667,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "mace2h",
+        "item_power": 975,
+        "ability_power": 120,
+        "durability": 96485,
+        "max_quality_level": 5,
+        "tier_raw": 6,
+        "weight": 15.2,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.1,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_MACES_MORGANA",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "VACUUMSLASH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "VACUUMSLASH",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_MACE_MORGANA"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1075,
+          "durability": 144728,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_CLOTH_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1175,
+          "durability": 217091,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_CLOTH_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1275,
+          "durability": 325637,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_CLOTH_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T6_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1375,
+          "durability": 488455,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T6_METALBAR_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_CLOTH_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1375,
+        "durability": 488455,
+        "crafting_silver": 0,
+        "crafting_time": 7.2,
+        "crafting_focus": 49260,
+        "crafting_resources": [
+          {
+            "id": "T6_METALBAR_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T6_CLOTH_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T6_ARTEFACT_2H_MACE_MORGANA",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1375,
+      "effective_durability": 488455,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "mace",
+        "crafting_category": "mace",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T6_ARTEFACT_2H_MACE_MORGANA",
+          "name_artifact_en": "Master's Imbued Mace Head",
+          "name_artifact_ar": "رأس الصولجان المشبعة للخبير",
+          "name_artifact_de": "Getränkter Keulenkopf des Meisters",
+          "name_artifact_fr": "Tête de masse imprégnée du maître",
+          "name_artifact_es": "Cabeza de maza imbuida del maestro",
+          "name_artifact_ru": "Зачарованная головка булавы (мастер)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_MACE_MORGANA@4",
+        "item_database_index": "9352"
+      },
+      "tier": 6,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Master's Camlann Mace",
+        "name_ar": "صولجان Camlann للخبير",
+        "name_de": "Camlann-Keule des Meisters",
+        "name_fr": "Masse de Camlann du maître",
+        "name_es": "Maza de Camlann del maestro",
+        "name_ru": "Булава Камланна (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_MACE_MORGANA",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "mace",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "mace2h",
+        "@attackdamage": "59",
+        "@attackspeed": "0.667",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "6",
+        "@weight": "15.2",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "96485",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "200",
+        "@itempower": "975",
+        "@hitpointsregenerationbonus": "0.2",
+        "@itempowerprogressiontype": "mainhand",
+        "@showinmarketplace": "true",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "mace",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.1",
+        "@destinyandjournalcraftfamefactor": "1.3",
+        "@combatspecachievement": "COMBAT_MACES_MORGANA",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "mace_morgana",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "2.667",
+            "@craftingfocus": "5252",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "5252",
+            "@time": "2.667",
+            "craftresource": [
+              {
+                "@uniquename": "T6_METALBAR",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T6_CLOTH",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_MACE_MORGANA"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1075",
+              "@durability": "144728",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "3.333",
+                  "@craftingfocus": "9191",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1175",
+              "@durability": "217091",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1275",
+              "@durability": "325637",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T6_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1375",
+              "@durability": "488455",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_2H_MACE_MORGANA",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T6_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T6_CLOTH_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T6_ARTEFACT_TOKEN_FAVOR_3",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

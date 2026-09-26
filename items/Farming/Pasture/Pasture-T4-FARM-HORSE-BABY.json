@@ -1,0 +1,222 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Pasture",
+  "base_id": "T4_FARM_HORSE_BABY",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_FARM_HORSE_BABY",
+      "index": "38",
+      "name_en": "Adept's Foal",
+      "name_ar": "مهر البارع",
+      "name_de": "Fohlen des Adepten",
+      "name_fr": "Poulain de l'adepte",
+      "name_es": "Potro del iniciado",
+      "name_ru": "Жеребенок (знаток)",
+      "descriptions": {
+        "description_en": "Grows into an Adept's Horse, which can be used to craft an Adept's Riding Horse.",
+        "description_ar": "ينمو ليصبح حصان البارع، والذي يمكن استخدامه لتصنيع حصان ركوب للبارع.",
+        "description_de": "Wird zu einem Pferd des Adepten, woraus ein Reitpferd des Adepten gefertigt werden kann.",
+        "description_fr": "Devient un cheval de l'adepte pouvant être utilisé pour fabriquer un cheval de monte de l'adepte",
+        "description_es": "Se convierte en un caballo del iniciado, que se puede utilizar para crear un caballo de montar del iniciado.",
+        "description_ru": "Такие жеребята вырастают в лошадей знатока, которых можно превратить в ездовых животных."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FARM_HORSE_BABY",
+        "description_variable": "@ITEMS_T4_FARM_HORSE_BABY_DESC"
+      },
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_FARM_HORSE_BABY",
+        "tier": "4",
+        "placefame": "0",
+        "pickupable": "true",
+        "destroyable": "false",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "pasture",
+        "kind": "animal",
+        "weight": "1.5",
+        "unlockedtocraft": "true",
+        "animationid": "breed",
+        "prefabname": "FARM_HORSE_BABY_02",
+        "prefabscale": "0.96",
+        "resourcevalue": "0",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "2",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "0.1333",
+        "shopsubcategory2": "babys",
+        "shopsubcategory3": "horse"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Foal",
+        "DE-DE": "Fohlen des Adepten",
+        "FR-FR": "Poulain de l'adepte",
+        "RU-RU": "Жеребенок (знаток)",
+        "PL-PL": "Źrebak Adepta",
+        "ES-ES": "Potro del iniciado",
+        "PT-BR": "Potro do Adepto",
+        "IT-IT": "Puledro del sapiente",
+        "ZH-CN": "老手级马驹",
+        "KO-KR": "숙련자의 망아지",
+        "JA-JP": "子馬（名人）",
+        "ZH-TW": "老手級小馬",
+        "ID-ID": "Anak Kuda Mahir",
+        "TR-TR": "Ehil Tayı",
+        "AR-SA": "مهر البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grows into an Adept's Horse, which can be used to craft an Adept's Riding Horse.",
+        "DE-DE": "Wird zu einem Pferd des Adepten, woraus ein Reitpferd des Adepten gefertigt werden kann.",
+        "FR-FR": "Devient un cheval de l'adepte pouvant être utilisé pour fabriquer un cheval de monte de l'adepte",
+        "RU-RU": "Такие жеребята вырастают в лошадей знатока, которых можно превратить в ездовых животных.",
+        "PL-PL": "Z czasem staje się Koniem Adepta, którego można użyć do stworzenia Konia Wierzchowego Adepta.",
+        "ES-ES": "Se convierte en un caballo del iniciado, que se puede utilizar para crear un caballo de montar del iniciado.",
+        "PT-BR": "Cresce e vira um Cavalo do Adepto, que pode ser usado para virar um Cavalo de Montar do Adepto.",
+        "IT-IT": "Crescendo diventa un cavallo del sapiente, che si può usare per creare un cavallo da sella del sapiente.",
+        "ZH-CN": "可以长成老手级成年马，之后可以驯养成为老手级骑乘马。",
+        "KO-KR": "자라면 숙련자의 말이 되어, 숙련자의 승용마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると馬（名人）になります。乗用馬（名人）の製造に使用可能です。",
+        "ZH-TW": "長大後成為老手級成年馬，可訓練成老手級騎乘馬。",
+        "ID-ID": "Tumbuh menjadi Kuda Mahir, yang bisa digunakan untuk membuat Kuda Tunggangan Mahir.",
+        "TR-TR": "Yetiştiğinde Ehil Atı olur ve bir Ehil Binek Atı zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح حصان البارع، والذي يمكن استخدامه لتصنيع حصان ركوب للبارع."
+      },
+      "crafting_requirements": null,
+      "crafting_full": {
+        "silver": 75000,
+        "time": 0,
+        "crafting_focus": 0,
+        "swap_transaction": true,
+        "resources": [],
+        "primary_resource": "",
+        "primary_count": 0,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 1.5,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "pasture",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FARM_HORSE_BABY",
+        "item_database_index": "38"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Foal",
+        "name_ar": "مهر البارع",
+        "name_de": "Fohlen des Adepten",
+        "name_fr": "Poulain de l'adepte",
+        "name_es": "Potro del iniciado",
+        "name_ru": "Жеребенок (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_FARM_HORSE_BABY",
+        "@tier": "4",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_HORSE_BABY_02",
+        "@prefabscale": "0.96",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "2",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.1333",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "horse",
+        "craftingrequirements": {
+          "@silver": "75000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T4_FARM_HORSE_GROWN",
+          "@growtime": "331200",
+          "@fame": "200",
+          "offspring": {
+            "@chance": "0.7867",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "768",
+            "@secondspernutrition": "230",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

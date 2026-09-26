@@ -1,0 +1,3079 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_WarGloves",
+  "base_id": "T7_2H_KNUCKLES_CRYSTAL",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T7_2H_KNUCKLES_CRYSTAL",
+      "index": "9604",
+      "name_en": "Grandmaster's Forcepulse Bracers",
+      "name_ar": "أساور القوة النابضة للأستاذ",
+      "name_de": "Machtpuls-Armschienen des Großmeisters",
+      "name_fr": "Brassards d'Impulsion de Force du Grand Maître",
+      "name_es": "Brazales de Fuerza Pulsante del Gran Maestro",
+      "name_ru": "Силовые наручи (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_KNUCKLES_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_WarGloves",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_KNUCKLES_CRYSTAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "knuckles",
+        "attacktype": "melee",
+        "mainhandanimationtype": "knuckles",
+        "mainhandanimationtype_attack": "knuckles",
+        "attackdamage": "18",
+        "attackspeed": "2.5",
+        "twohanded": "true",
+        "attackrange": "1.5",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "217092",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "knuckles",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "shopsubcategory2": "knuckles_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Forcepulse Bracers",
+        "DE-DE": "Machtpuls-Armschienen des Großmeisters",
+        "FR-FR": "Brassards d'Impulsion de Force du Grand Maître",
+        "RU-RU": "Силовые наручи (магистр)",
+        "PL-PL": "Karwasze Pulsu Mocy Wszechmistrza",
+        "ES-ES": "Brazales de Fuerza Pulsante del Gran Maestro",
+        "PT-BR": "Braçadeiras Pulsantes do Grão-mestre",
+        "IT-IT": "Bracciali Forzimpulso del Gran Maestro",
+        "ZH-CN": "宗师级力量脉冲护腕",
+        "KO-KR": "그랜드 마스터의 포스펄스 브레이서",
+        "JA-JP": "フォースパルスブレイサー（グランドマスター）",
+        "ZH-TW": "宗師級力量脈衝護腕",
+        "ID-ID": "Bracer Denyut Kekuatan Grandmaster",
+        "TR-TR": "Büyük Usta Darbe Elçeği",
+        "AR-SA": "أساور القوة النابضة للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 18,
+        "attack_speed": 2.5,
+        "attack_range": 1.5,
+        "attack_type": "melee",
+        "mainhand_animation": "knuckles",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 217092,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CONEPUNCH2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_KNUCKLE_BRAWLER_SPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CONEPUNCH2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_KNUCKLE_BRAWLER_SPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_KNUCKLES_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 325638,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 488457,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 732686,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 1099028,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 217092,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "knuckles",
+        "crafting_category": "knuckles",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+          "name_artifact_en": "Grandmaster's Pulsating Crystal",
+          "name_artifact_ar": "النبض الكريستالي للأستاذ",
+          "name_artifact_de": "Pulsierender Kristall des Großmeisters",
+          "name_artifact_fr": "Cristal d'Impulsion du Grand Maître",
+          "name_artifact_es": "Cristal Pulsante del Gran Maestro",
+          "name_artifact_ru": "Кристалл силового импульса (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_KNUCKLES_CRYSTAL",
+        "item_database_index": "9604"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Forcepulse Bracers",
+        "name_ar": "أساور القوة النابضة للأستاذ",
+        "name_de": "Machtpuls-Armschienen des Großmeisters",
+        "name_fr": "Brassards d'Impulsion de Force du Grand Maître",
+        "name_es": "Brazales de Fuerza Pulsante del Gran Maestro",
+        "name_ru": "Силовые наручи (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_KNUCKLES_CRYSTAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "knuckles",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "knuckles",
+        "@mainhandanimationtype_attack": "knuckles",
+        "@attackdamage": "18",
+        "@attackspeed": "2.5",
+        "@twohanded": "true",
+        "@attackrange": "1.5",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "217092",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "knuckles",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@shopsubcategory2": "knuckles_crystal",
+        "attackvariations": {
+          "@attackchaintime": "1.5",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_KNUCKLES_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "325638",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "488457",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "732686",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "1099028",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_KNUCKLES_CRYSTAL@1",
+      "index": "9605",
+      "name_en": "Grandmaster's Forcepulse Bracers",
+      "name_ar": "أساور القوة النابضة للأستاذ",
+      "name_de": "Machtpuls-Armschienen des Großmeisters",
+      "name_fr": "Brassards d'Impulsion de Force du Grand Maître",
+      "name_es": "Brazales de Fuerza Pulsante del Gran Maestro",
+      "name_ru": "Силовые наручи (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_KNUCKLES_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_WarGloves",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_KNUCKLES_CRYSTAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "knuckles",
+        "attacktype": "melee",
+        "mainhandanimationtype": "knuckles",
+        "mainhandanimationtype_attack": "knuckles",
+        "attackdamage": "18",
+        "attackspeed": "2.5",
+        "twohanded": "true",
+        "attackrange": "1.5",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "217092",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "knuckles",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "shopsubcategory2": "knuckles_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Forcepulse Bracers",
+        "DE-DE": "Machtpuls-Armschienen des Großmeisters",
+        "FR-FR": "Brassards d'Impulsion de Force du Grand Maître",
+        "RU-RU": "Силовые наручи (магистр)",
+        "PL-PL": "Karwasze Pulsu Mocy Wszechmistrza",
+        "ES-ES": "Brazales de Fuerza Pulsante del Gran Maestro",
+        "PT-BR": "Braçadeiras Pulsantes do Grão-mestre",
+        "IT-IT": "Bracciali Forzimpulso del Gran Maestro",
+        "ZH-CN": "宗师级力量脉冲护腕",
+        "KO-KR": "그랜드 마스터의 포스펄스 브레이서",
+        "JA-JP": "フォースパルスブレイサー（グランドマスター）",
+        "ZH-TW": "宗師級力量脈衝護腕",
+        "ID-ID": "Bracer Denyut Kekuatan Grandmaster",
+        "TR-TR": "Büyük Usta Darbe Elçeği",
+        "AR-SA": "أساور القوة النابضة للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 18,
+        "attack_speed": 2.5,
+        "attack_range": 1.5,
+        "attack_type": "melee",
+        "mainhand_animation": "knuckles",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 217092,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CONEPUNCH2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_KNUCKLE_BRAWLER_SPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CONEPUNCH2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_KNUCKLE_BRAWLER_SPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_KNUCKLES_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 325638,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 488457,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 732686,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 1099028,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1200,
+        "durability": 325638,
+        "crafting_silver": 0,
+        "crafting_time": 5,
+        "crafting_focus": 16085,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T7_LEATHER_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 325638,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "knuckles",
+        "crafting_category": "knuckles",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+          "name_artifact_en": "Grandmaster's Pulsating Crystal",
+          "name_artifact_ar": "النبض الكريستالي للأستاذ",
+          "name_artifact_de": "Pulsierender Kristall des Großmeisters",
+          "name_artifact_fr": "Cristal d'Impulsion du Grand Maître",
+          "name_artifact_es": "Cristal Pulsante del Gran Maestro",
+          "name_artifact_ru": "Кристалл силового импульса (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_KNUCKLES_CRYSTAL@1",
+        "item_database_index": "9605"
+      },
+      "tier": 7,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Grandmaster's Forcepulse Bracers",
+        "name_ar": "أساور القوة النابضة للأستاذ",
+        "name_de": "Machtpuls-Armschienen des Großmeisters",
+        "name_fr": "Brassards d'Impulsion de Force du Grand Maître",
+        "name_es": "Brazales de Fuerza Pulsante del Gran Maestro",
+        "name_ru": "Силовые наручи (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_KNUCKLES_CRYSTAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "knuckles",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "knuckles",
+        "@mainhandanimationtype_attack": "knuckles",
+        "@attackdamage": "18",
+        "@attackspeed": "2.5",
+        "@twohanded": "true",
+        "@attackrange": "1.5",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "217092",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "knuckles",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@shopsubcategory2": "knuckles_crystal",
+        "attackvariations": {
+          "@attackchaintime": "1.5",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_KNUCKLES_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "325638",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "488457",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "732686",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "1099028",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_KNUCKLES_CRYSTAL@2",
+      "index": "9606",
+      "name_en": "Grandmaster's Forcepulse Bracers",
+      "name_ar": "أساور القوة النابضة للأستاذ",
+      "name_de": "Machtpuls-Armschienen des Großmeisters",
+      "name_fr": "Brassards d'Impulsion de Force du Grand Maître",
+      "name_es": "Brazales de Fuerza Pulsante del Gran Maestro",
+      "name_ru": "Силовые наручи (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_KNUCKLES_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_WarGloves",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_KNUCKLES_CRYSTAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "knuckles",
+        "attacktype": "melee",
+        "mainhandanimationtype": "knuckles",
+        "mainhandanimationtype_attack": "knuckles",
+        "attackdamage": "18",
+        "attackspeed": "2.5",
+        "twohanded": "true",
+        "attackrange": "1.5",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "217092",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "knuckles",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "shopsubcategory2": "knuckles_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Forcepulse Bracers",
+        "DE-DE": "Machtpuls-Armschienen des Großmeisters",
+        "FR-FR": "Brassards d'Impulsion de Force du Grand Maître",
+        "RU-RU": "Силовые наручи (магистр)",
+        "PL-PL": "Karwasze Pulsu Mocy Wszechmistrza",
+        "ES-ES": "Brazales de Fuerza Pulsante del Gran Maestro",
+        "PT-BR": "Braçadeiras Pulsantes do Grão-mestre",
+        "IT-IT": "Bracciali Forzimpulso del Gran Maestro",
+        "ZH-CN": "宗师级力量脉冲护腕",
+        "KO-KR": "그랜드 마스터의 포스펄스 브레이서",
+        "JA-JP": "フォースパルスブレイサー（グランドマスター）",
+        "ZH-TW": "宗師級力量脈衝護腕",
+        "ID-ID": "Bracer Denyut Kekuatan Grandmaster",
+        "TR-TR": "Büyük Usta Darbe Elçeği",
+        "AR-SA": "أساور القوة النابضة للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 18,
+        "attack_speed": 2.5,
+        "attack_range": 1.5,
+        "attack_type": "melee",
+        "mainhand_animation": "knuckles",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 217092,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CONEPUNCH2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_KNUCKLE_BRAWLER_SPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CONEPUNCH2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_KNUCKLE_BRAWLER_SPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_KNUCKLES_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 325638,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 488457,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 732686,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 1099028,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1300,
+        "durability": 488457,
+        "crafting_silver": 0,
+        "crafting_time": 6,
+        "crafting_focus": 28148,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T7_LEATHER_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 488457,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "knuckles",
+        "crafting_category": "knuckles",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+          "name_artifact_en": "Grandmaster's Pulsating Crystal",
+          "name_artifact_ar": "النبض الكريستالي للأستاذ",
+          "name_artifact_de": "Pulsierender Kristall des Großmeisters",
+          "name_artifact_fr": "Cristal d'Impulsion du Grand Maître",
+          "name_artifact_es": "Cristal Pulsante del Gran Maestro",
+          "name_artifact_ru": "Кристалл силового импульса (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_KNUCKLES_CRYSTAL@2",
+        "item_database_index": "9606"
+      },
+      "tier": 7,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Grandmaster's Forcepulse Bracers",
+        "name_ar": "أساور القوة النابضة للأستاذ",
+        "name_de": "Machtpuls-Armschienen des Großmeisters",
+        "name_fr": "Brassards d'Impulsion de Force du Grand Maître",
+        "name_es": "Brazales de Fuerza Pulsante del Gran Maestro",
+        "name_ru": "Силовые наручи (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_KNUCKLES_CRYSTAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "knuckles",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "knuckles",
+        "@mainhandanimationtype_attack": "knuckles",
+        "@attackdamage": "18",
+        "@attackspeed": "2.5",
+        "@twohanded": "true",
+        "@attackrange": "1.5",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "217092",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "knuckles",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@shopsubcategory2": "knuckles_crystal",
+        "attackvariations": {
+          "@attackchaintime": "1.5",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_KNUCKLES_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "325638",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "488457",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "732686",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "1099028",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_KNUCKLES_CRYSTAL@3",
+      "index": "9607",
+      "name_en": "Grandmaster's Forcepulse Bracers",
+      "name_ar": "أساور القوة النابضة للأستاذ",
+      "name_de": "Machtpuls-Armschienen des Großmeisters",
+      "name_fr": "Brassards d'Impulsion de Force du Grand Maître",
+      "name_es": "Brazales de Fuerza Pulsante del Gran Maestro",
+      "name_ru": "Силовые наручи (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_KNUCKLES_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_WarGloves",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_KNUCKLES_CRYSTAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "knuckles",
+        "attacktype": "melee",
+        "mainhandanimationtype": "knuckles",
+        "mainhandanimationtype_attack": "knuckles",
+        "attackdamage": "18",
+        "attackspeed": "2.5",
+        "twohanded": "true",
+        "attackrange": "1.5",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "217092",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "knuckles",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "shopsubcategory2": "knuckles_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Forcepulse Bracers",
+        "DE-DE": "Machtpuls-Armschienen des Großmeisters",
+        "FR-FR": "Brassards d'Impulsion de Force du Grand Maître",
+        "RU-RU": "Силовые наручи (магистр)",
+        "PL-PL": "Karwasze Pulsu Mocy Wszechmistrza",
+        "ES-ES": "Brazales de Fuerza Pulsante del Gran Maestro",
+        "PT-BR": "Braçadeiras Pulsantes do Grão-mestre",
+        "IT-IT": "Bracciali Forzimpulso del Gran Maestro",
+        "ZH-CN": "宗师级力量脉冲护腕",
+        "KO-KR": "그랜드 마스터의 포스펄스 브레이서",
+        "JA-JP": "フォースパルスブレイサー（グランドマスター）",
+        "ZH-TW": "宗師級力量脈衝護腕",
+        "ID-ID": "Bracer Denyut Kekuatan Grandmaster",
+        "TR-TR": "Büyük Usta Darbe Elçeği",
+        "AR-SA": "أساور القوة النابضة للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 18,
+        "attack_speed": 2.5,
+        "attack_range": 1.5,
+        "attack_type": "melee",
+        "mainhand_animation": "knuckles",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 217092,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CONEPUNCH2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_KNUCKLE_BRAWLER_SPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CONEPUNCH2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_KNUCKLE_BRAWLER_SPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_KNUCKLES_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 325638,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 488457,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 732686,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 1099028,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1400,
+        "durability": 732686,
+        "crafting_silver": 0,
+        "crafting_time": 7.2,
+        "crafting_focus": 49260,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T7_LEATHER_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 732686,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "knuckles",
+        "crafting_category": "knuckles",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+          "name_artifact_en": "Grandmaster's Pulsating Crystal",
+          "name_artifact_ar": "النبض الكريستالي للأستاذ",
+          "name_artifact_de": "Pulsierender Kristall des Großmeisters",
+          "name_artifact_fr": "Cristal d'Impulsion du Grand Maître",
+          "name_artifact_es": "Cristal Pulsante del Gran Maestro",
+          "name_artifact_ru": "Кристалл силового импульса (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_KNUCKLES_CRYSTAL@3",
+        "item_database_index": "9607"
+      },
+      "tier": 7,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Grandmaster's Forcepulse Bracers",
+        "name_ar": "أساور القوة النابضة للأستاذ",
+        "name_de": "Machtpuls-Armschienen des Großmeisters",
+        "name_fr": "Brassards d'Impulsion de Force du Grand Maître",
+        "name_es": "Brazales de Fuerza Pulsante del Gran Maestro",
+        "name_ru": "Силовые наручи (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_KNUCKLES_CRYSTAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "knuckles",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "knuckles",
+        "@mainhandanimationtype_attack": "knuckles",
+        "@attackdamage": "18",
+        "@attackspeed": "2.5",
+        "@twohanded": "true",
+        "@attackrange": "1.5",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "217092",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "knuckles",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@shopsubcategory2": "knuckles_crystal",
+        "attackvariations": {
+          "@attackchaintime": "1.5",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_KNUCKLES_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "325638",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "488457",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "732686",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "1099028",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_KNUCKLES_CRYSTAL@4",
+      "index": "9608",
+      "name_en": "Grandmaster's Forcepulse Bracers",
+      "name_ar": "أساور القوة النابضة للأستاذ",
+      "name_de": "Machtpuls-Armschienen des Großmeisters",
+      "name_fr": "Brassards d'Impulsion de Force du Grand Maître",
+      "name_es": "Brazales de Fuerza Pulsante del Gran Maestro",
+      "name_ru": "Силовые наручи (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_KNUCKLES_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_WarGloves",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_KNUCKLES_CRYSTAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "knuckles",
+        "attacktype": "melee",
+        "mainhandanimationtype": "knuckles",
+        "mainhandanimationtype_attack": "knuckles",
+        "attackdamage": "18",
+        "attackspeed": "2.5",
+        "twohanded": "true",
+        "attackrange": "1.5",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "217092",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "knuckles",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "shopsubcategory2": "knuckles_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Forcepulse Bracers",
+        "DE-DE": "Machtpuls-Armschienen des Großmeisters",
+        "FR-FR": "Brassards d'Impulsion de Force du Grand Maître",
+        "RU-RU": "Силовые наручи (магистр)",
+        "PL-PL": "Karwasze Pulsu Mocy Wszechmistrza",
+        "ES-ES": "Brazales de Fuerza Pulsante del Gran Maestro",
+        "PT-BR": "Braçadeiras Pulsantes do Grão-mestre",
+        "IT-IT": "Bracciali Forzimpulso del Gran Maestro",
+        "ZH-CN": "宗师级力量脉冲护腕",
+        "KO-KR": "그랜드 마스터의 포스펄스 브레이서",
+        "JA-JP": "フォースパルスブレイサー（グランドマスター）",
+        "ZH-TW": "宗師級力量脈衝護腕",
+        "ID-ID": "Bracer Denyut Kekuatan Grandmaster",
+        "TR-TR": "Büyük Usta Darbe Elçeği",
+        "AR-SA": "أساور القوة النابضة للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 18,
+        "attack_speed": 2.5,
+        "attack_range": 1.5,
+        "attack_type": "melee",
+        "mainhand_animation": "knuckles",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 217092,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CONEPUNCH2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_KNUCKLE_BRAWLER_SPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CONEPUNCH2",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_KNUCKLE_BRAWLER_SPEED",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_KNUCKLES_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 325638,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 488457,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 732686,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 1099028,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1500,
+        "durability": 1099028,
+        "crafting_silver": 0,
+        "crafting_time": 8.64,
+        "crafting_focus": 86205,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T7_LEATHER_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1500,
+      "effective_durability": 1099028,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "knuckles",
+        "crafting_category": "knuckles",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+          "name_artifact_en": "Grandmaster's Pulsating Crystal",
+          "name_artifact_ar": "النبض الكريستالي للأستاذ",
+          "name_artifact_de": "Pulsierender Kristall des Großmeisters",
+          "name_artifact_fr": "Cristal d'Impulsion du Grand Maître",
+          "name_artifact_es": "Cristal Pulsante del Gran Maestro",
+          "name_artifact_ru": "Кристалл силового импульса (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_KNUCKLES_CRYSTAL@4",
+        "item_database_index": "9608"
+      },
+      "tier": 7,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Grandmaster's Forcepulse Bracers",
+        "name_ar": "أساور القوة النابضة للأستاذ",
+        "name_de": "Machtpuls-Armschienen des Großmeisters",
+        "name_fr": "Brassards d'Impulsion de Force du Grand Maître",
+        "name_es": "Brazales de Fuerza Pulsante del Gran Maestro",
+        "name_ru": "Силовые наручи (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_KNUCKLES_CRYSTAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "knuckles",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "knuckles",
+        "@mainhandanimationtype_attack": "knuckles",
+        "@attackdamage": "18",
+        "@attackspeed": "2.5",
+        "@twohanded": "true",
+        "@attackrange": "1.5",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "217092",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "knuckles",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_KNUCKLES_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@shopsubcategory2": "knuckles_crystal",
+        "attackvariations": {
+          "@attackchaintime": "1.5",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "1",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_KNUCKLES_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "325638",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "488457",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "732686",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "1099028",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

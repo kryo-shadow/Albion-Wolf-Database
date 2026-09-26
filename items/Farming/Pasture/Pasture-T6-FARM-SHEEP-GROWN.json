@@ -1,0 +1,202 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Pasture",
+  "base_id": "T6_FARM_SHEEP_GROWN",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_FARM_SHEEP_GROWN",
+      "index": "114",
+      "name_en": "Sheep",
+      "name_ar": "الخراف",
+      "name_de": "Schaf",
+      "name_fr": "Mouton",
+      "name_es": "Oveja",
+      "name_ru": "Овца",
+      "descriptions": {
+        "description_en": "Sheep can be slaughtered to produce Raw Mutton, or left alive to produce Sheep's Milk",
+        "description_ar": "يمكن ذبح الخراف لإنتاج اللحم الضأن النيئ، أو تركها على قيد الحياة لإنتاج حليب الخراف",
+        "description_de": "Schlachte Schafe für rohes Hammelfleisch oder lass sie am Leben und erhalte Schafsmilch.",
+        "description_fr": "Tuez un mouton pour obtenir du mouton cru ou gardez-le en vie pour son lait de mouton",
+        "description_es": "Puedes sacrificar ovejas para conseguir carne de carnero o dejarlas vivas y obtener leche",
+        "description_ru": "Забейте овцу ради мяса или оставьте в живых - пусть дает молоко."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_SHEEP_GROWN",
+        "description_variable": "@ITEMS_T6_FARM_SHEEP_GROWN_DESC"
+      },
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_FARM_SHEEP_GROWN",
+        "tier": "6",
+        "placefame": "0",
+        "pickupable": "true",
+        "destroyable": "false",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "pasture",
+        "kind": "animal",
+        "weight": "10.83",
+        "unlockedtocraft": "false",
+        "tile": "T6_FARM_SHEEP_BABY",
+        "prefabname": "FARM_SHEEP_GROWN_01",
+        "prefabscale": "1.1",
+        "resourcevalue": "341",
+        "animationid": "breed",
+        "itemvalue": "720",
+        "shopsubcategory2": "animals",
+        "shopsubcategory3": "sheep"
+      },
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "341",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Sheep",
+        "DE-DE": "Schaf",
+        "FR-FR": "Mouton",
+        "RU-RU": "Овца",
+        "PL-PL": "Owca",
+        "ES-ES": "Oveja",
+        "PT-BR": "Ovelha",
+        "IT-IT": "Pecora",
+        "ZH-CN": "成年绵羊",
+        "KO-KR": "양",
+        "JA-JP": "羊",
+        "ZH-TW": "綿羊",
+        "ID-ID": "Domba",
+        "TR-TR": "Koyun",
+        "AR-SA": "الخراف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sheep can be slaughtered to produce Raw Mutton, or left alive to produce Sheep's Milk",
+        "DE-DE": "Schlachte Schafe für rohes Hammelfleisch oder lass sie am Leben und erhalte Schafsmilch.",
+        "FR-FR": "Tuez un mouton pour obtenir du mouton cru ou gardez-le en vie pour son lait de mouton",
+        "RU-RU": "Забейте овцу ради мяса или оставьте в живых - пусть дает молоко.",
+        "PL-PL": "Owce można zabić na surową baraninę lub zostawić na owcze mleko",
+        "ES-ES": "Puedes sacrificar ovejas para conseguir carne de carnero o dejarlas vivas y obtener leche",
+        "PT-BR": "Abata Ovelhas para produzir Carneiro Cru ou deixe-as vivas para produzirem Leite de Ovelha",
+        "IT-IT": "Una pecora può essere macellata per produrre carne di montone cruda, oppure può essere lasciata in vita per ottenerne latte di pecora.",
+        "ZH-CN": "绵羊可以宰杀变成绵羊肉，或者留着生产绵羊奶",
+        "KO-KR": "양은 도살해서 생 양고기를 만들거나, 살려 두면 양젖을 생산합니다.",
+        "JA-JP": "羊は屠殺して生のマトンに加工できます。生かしたままにしておけば、羊のミルクが取れます。",
+        "ZH-TW": "綿羊可經屠宰製成生綿羊肉，或留著持續生產綿羊奶",
+        "ID-ID": "Domba bisa disembelih untuk menghasilkan Daging Domba Mentah, atau dipelihara agar menghasilkan Susu Domba.",
+        "TR-TR": "Koyunlar, Çiğ Koyun Eti elde etmek üzere kesilebilir ya da sağ bırakılarak Koyun Sütü üretmeleri sağlanabilir.",
+        "AR-SA": "يمكن ذبح الخراف لإنتاج اللحم الضأن النيئ، أو تركها على قيد الحياة لإنتاج حليب الخراف"
+      },
+      "crafting_requirements": null,
+      "crafting_full": null,
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 10.83,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "pasture",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_SHEEP_GROWN",
+        "item_database_index": "114"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Sheep",
+        "name_ar": "الخراف",
+        "name_de": "Schaf",
+        "name_fr": "Mouton",
+        "name_es": "Oveja",
+        "name_ru": "Овца"
+      },
+      "raw": {
+        "@uniquename": "T6_FARM_SHEEP_GROWN",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "10.83",
+        "@unlockedtocraft": "false",
+        "@tile": "T6_FARM_SHEEP_BABY",
+        "@prefabname": "FARM_SHEEP_GROWN_01",
+        "@prefabscale": "1.1",
+        "@resourcevalue": "341",
+        "@animationid": "breed",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "sheep",
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "91.67",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_potato",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T6_POTATO",
+              "@favoritebonus": "1"
+            }
+          }
+        },
+        "products": {
+          "product": {
+            "@productiontime": "79200",
+            "@actionname": "@FARMABLE_GETPRODUCT_BUTTON_MILK",
+            "@lootlist": "T6_SHEEP_LOOT",
+            "@lootchance": "1",
+            "@fame": "100"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

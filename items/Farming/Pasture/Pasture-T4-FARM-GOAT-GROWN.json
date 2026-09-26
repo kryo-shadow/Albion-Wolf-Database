@@ -1,0 +1,202 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Pasture",
+  "base_id": "T4_FARM_GOAT_GROWN",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_FARM_GOAT_GROWN",
+      "index": "112",
+      "name_en": "Goat",
+      "name_ar": "الماعز",
+      "name_de": "Ziege",
+      "name_fr": "Chèvre",
+      "name_es": "Cabra",
+      "name_ru": "Коза",
+      "descriptions": {
+        "description_en": "Goats can be slaughtered to produce Raw Goat, or kept alive to produce Goat's Milk.",
+        "description_ar": "يمكن ذبح الماعز لإنتاج ماعز نيئ، أو تركه حيًا لإنتاج حليب الماعز.",
+        "description_de": "Schlachte Ziegen für rohes Ziegenfleisch oder lass sie am Leben und erhalte Ziegenmilch.",
+        "description_fr": "Tuez une chèvre pour obtenir de la chèvre crue ou gardez-la en vie pour son lait de chèvre",
+        "description_es": "Puedes sacrificar cabras para conseguir carne de cabras o dejarlas vivas y obtener leche.",
+        "description_ru": "Забейте козу ради мяса или оставьте в живых - пусть дает молоко."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FARM_GOAT_GROWN",
+        "description_variable": "@ITEMS_T4_FARM_GOAT_GROWN_DESC"
+      },
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_FARM_GOAT_GROWN",
+        "tier": "4",
+        "placefame": "0",
+        "pickupable": "true",
+        "destroyable": "false",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "pasture",
+        "kind": "animal",
+        "weight": "10.83",
+        "unlockedtocraft": "false",
+        "tile": "T4_FARM_GOAT_BABY",
+        "prefabname": "FARM_GOAT_GROWN_01",
+        "prefabscale": "1.1",
+        "resourcevalue": "154",
+        "animationid": "breed",
+        "itemvalue": "720",
+        "shopsubcategory2": "animals",
+        "shopsubcategory3": "goat"
+      },
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "154",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Goat",
+        "DE-DE": "Ziege",
+        "FR-FR": "Chèvre",
+        "RU-RU": "Коза",
+        "PL-PL": "Koza",
+        "ES-ES": "Cabra",
+        "PT-BR": "Cabra",
+        "IT-IT": "Capra",
+        "ZH-CN": "山羊",
+        "KO-KR": "염소",
+        "JA-JP": "ヤギ",
+        "ZH-TW": "山羊",
+        "ID-ID": "Kambing",
+        "TR-TR": "Keçi",
+        "AR-SA": "الماعز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Goats can be slaughtered to produce Raw Goat, or kept alive to produce Goat's Milk.",
+        "DE-DE": "Schlachte Ziegen für rohes Ziegenfleisch oder lass sie am Leben und erhalte Ziegenmilch.",
+        "FR-FR": "Tuez une chèvre pour obtenir de la chèvre crue ou gardez-la en vie pour son lait de chèvre",
+        "RU-RU": "Забейте козу ради мяса или оставьте в живых - пусть дает молоко.",
+        "PL-PL": "Kozy można zabić, aby otrzymać Surowe Kozie Mięso, albo pozostawić przy życiu, aby otrzymywać Kozie Mleko",
+        "ES-ES": "Puedes sacrificar cabras para conseguir carne de cabras o dejarlas vivas y obtener leche.",
+        "PT-BR": "Abata Cabras para produzir Cabra Crua ou deixe-as vivas para produzirem Leite de Cabra",
+        "IT-IT": "Una capra può essere macellata per produrre carne di capra cruda, oppure può essere lasciata in vita per ottenerne latte di capra.",
+        "ZH-CN": "山羊可以宰杀变成山羊肉，或者留着生产山羊奶。",
+        "KO-KR": "염소는 도살해서 생 염소고기를 만들거나, 살려 두면 염소젖을 생산합니다.",
+        "JA-JP": "ヤギは屠殺して生のヤギ肉に加工できます。生かしておけば、ヤギのミルクが取れます。",
+        "ZH-TW": "山羊可經屠宰製成生山羊肉，或留著持續生產山羊奶。",
+        "ID-ID": "Kambing bisa disembelih untuk menghasilkan daging Kambing Mentah, atau dipelihara agar menghasilkan Susu Kambing.",
+        "TR-TR": "Keçiler, Çiğ Keçi Eti elde etmek için kesilebilir ya da sağ bırakılarak Keçi Sütü üretmeleri sağlanabilir.",
+        "AR-SA": "يمكن ذبح الماعز لإنتاج ماعز نيئ، أو تركه حيًا لإنتاج حليب الماعز."
+      },
+      "crafting_requirements": null,
+      "crafting_full": null,
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 10.83,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "pasture",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FARM_GOAT_GROWN",
+        "item_database_index": "112"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Goat",
+        "name_ar": "الماعز",
+        "name_de": "Ziege",
+        "name_fr": "Chèvre",
+        "name_es": "Cabra",
+        "name_ru": "Коза"
+      },
+      "raw": {
+        "@uniquename": "T4_FARM_GOAT_GROWN",
+        "@tier": "4",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "10.83",
+        "@unlockedtocraft": "false",
+        "@tile": "T4_FARM_GOAT_BABY",
+        "@prefabname": "FARM_GOAT_GROWN_01",
+        "@prefabscale": "1.1",
+        "@resourcevalue": "154",
+        "@animationid": "breed",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "goat",
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "91.67",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_turnip",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T4_TURNIP",
+              "@favoritebonus": "1"
+            }
+          }
+        },
+        "products": {
+          "product": {
+            "@productiontime": "79200",
+            "@actionname": "@FARMABLE_GETPRODUCT_BUTTON_MILK",
+            "@lootlist": "T4_GOAT_LOOT",
+            "@lootchance": "1",
+            "@fame": "100"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

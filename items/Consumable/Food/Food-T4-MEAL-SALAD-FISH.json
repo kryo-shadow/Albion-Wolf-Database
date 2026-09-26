@@ -1,0 +1,493 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T4_MEAL_SALAD_FISH",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_MEAL_SALAD_FISH",
+      "index": "756",
+      "name_en": "Midwater Octopus Salad",
+      "name_ar": "سلطة أخطبوط المياه المتوسطة",
+      "name_de": "Meeresoktopussalat",
+      "name_fr": "Salade de petites pieuvres",
+      "name_es": "Ensalada de pulpo de aguas medias",
+      "name_ru": "Салат со срединным осьминогом",
+      "descriptions": {
+        "description_en": "Snack that increases crafting speed and quality for a short period.",
+        "description_ar": "وجبة خفيفة تزيد سرعة التصنيع وجودته لفترة قصيرة.",
+        "description_de": "Ein Snack, der deine Handwerksgeschwindigkeit und -Qualität für eine kurze Zeit erhöht.",
+        "description_fr": "Encas qui augmente la vitesse et la qualité de fabrication pendant une courte période.",
+        "description_es": "Comida que incrementa la velocidad de fabricación por un corto periodo.",
+        "description_ru": "Закуска, повышающая скорость и качество создания предметов в течение короткого периода времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MEAL_SALAD_FISH",
+        "description_variable": "@ITEMS_MEAL_SALAD_FISH_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_MEAL_SALAD_FISH",
+        "descriptionlocatag": "@ITEMS_MEAL_SALAD_FISH_DESC",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_FISH_CRAFTING_P3",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "4",
+        "dummyitempower": "700",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "4.31",
+        "nutrition": "345",
+        "shopsubcategory2": "salads"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Midwater Octopus Salad",
+        "DE-DE": "Meeresoktopussalat",
+        "FR-FR": "Salade de petites pieuvres",
+        "RU-RU": "Салат со срединным осьминогом",
+        "PL-PL": "Sałatka z Ośmiornicy Śródoceanicznej",
+        "ES-ES": "Ensalada de pulpo de aguas medias",
+        "PT-BR": "Salada de Polvo das Águas médias",
+        "IT-IT": "Insalata di polpo pelagico",
+        "ZH-CN": "中层水域章鱼沙拉",
+        "KO-KR": "미드워터 문어 샐러드",
+        "JA-JP": "ミッドウォーター・オクトパスのサラダ",
+        "ZH-TW": "中水章魚沙拉",
+        "ID-ID": "Selada Gurita Tengah Laut",
+        "TR-TR": "Ortasu Ahtapotu Salatası",
+        "AR-SA": "سلطة أخطبوط المياه المتوسطة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Snack that increases crafting speed and quality for a short period.",
+        "DE-DE": "Ein Snack, der deine Handwerksgeschwindigkeit und -Qualität für eine kurze Zeit erhöht.",
+        "FR-FR": "Encas qui augmente la vitesse et la qualité de fabrication pendant une courte période.",
+        "RU-RU": "Закуска, повышающая скорость и качество создания предметов в течение короткого периода времени.",
+        "PL-PL": "Przekąska, która na krótko zwiększa jakość i szybkość wytwarzania.",
+        "ES-ES": "Comida que incrementa la velocidad de fabricación por un corto periodo.",
+        "PT-BR": "Lanche que aumenta a velocidade e qualidade de fabricação por um curto período.",
+        "IT-IT": "Spuntino che aumenta velocità e qualità di creazione per un breve periodo.",
+        "ZH-CN": "零食，可以短时提高制造速度和品质。",
+        "KO-KR": "제작 속도와 품질을 단기간에 올려 주는 간식입니다.",
+        "JA-JP": "製造速度と品質が短時間上昇する軽食。",
+        "ZH-TW": "一道點心，能短時間提升製作物品的速度和品質。",
+        "ID-ID": "Kudapan yang meningkatkan kecepatan crafting dan kualitas untuk waktu yang singkat.",
+        "TR-TR": "Kısa bir süreliğine zanaat hızını ve kalitesini artıran bir atıştırmalık.",
+        "AR-SA": "وجبة خفيفة تزيد سرعة التصنيع وجودته لفترة قصيرة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_TURNIP",
+        "primary_count": 2,
+        "secondary_resource": "T4_BURDOCK",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T4_TURNIP",
+            "count": 2
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 2
+          },
+          {
+            "id": "T4_MEAT",
+            "count": 2
+          },
+          {
+            "id": "T5_FISH_SALTWATER_ALL_RARE",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.115,
+        "crafting_focus": 231,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_TURNIP",
+            "count": 2
+          },
+          {
+            "id": "T4_BURDOCK",
+            "count": 2
+          },
+          {
+            "id": "T4_MEAT",
+            "count": 2
+          },
+          {
+            "id": "T5_FISH_SALTWATER_ALL_RARE",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_TURNIP",
+        "primary_count": 2,
+        "secondary_resource": "T4_BURDOCK",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 4.31,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.115,
+          "crafting_focus": 432,
+          "crafting_resources": [
+            {
+              "id": "T5_FISH_SALTWATER_ALL_RARE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_TURNIP",
+              "count": 2,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 2,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_MEAT",
+              "count": 2,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 9,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.115,
+          "crafting_focus": 832,
+          "crafting_resources": [
+            {
+              "id": "T5_FISH_SALTWATER_ALL_RARE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_TURNIP",
+              "count": 2,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 2,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_MEAT",
+              "count": 2,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 9,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.115,
+          "crafting_focus": 2033,
+          "crafting_resources": [
+            {
+              "id": "T5_FISH_SALTWATER_ALL_RARE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_TURNIP",
+              "count": 2,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BURDOCK",
+              "count": 2,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_MEAT",
+              "count": 2,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 9,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MEAL_SALAD_FISH",
+        "item_database_index": "756"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Midwater Octopus Salad",
+        "name_ar": "سلطة أخطبوط المياه المتوسطة",
+        "name_de": "Meeresoktopussalat",
+        "name_fr": "Salade de petites pieuvres",
+        "name_es": "Ensalada de pulpo de aguas medias",
+        "name_ru": "Салат со срединным осьминогом"
+      },
+      "raw": {
+        "@uniquename": "T4_MEAL_SALAD_FISH",
+        "@descriptionlocatag": "@ITEMS_MEAL_SALAD_FISH_DESC",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_CRAFTING_P3",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "4",
+        "@dummyitempower": "700",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "4.31",
+        "@nutrition": "345",
+        "@shopsubcategory2": "salads",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@forcesinglecraft": "false",
+          "@amountcrafted": "1",
+          "@craftingfocus": "231",
+          "@time": "0.115",
+          "craftresource": [
+            {
+              "@uniquename": "T5_FISH_SALTWATER_ALL_RARE",
+              "@count": "1"
+            },
+            {
+              "@uniquename": "T4_TURNIP",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T4_MEAT",
+              "@count": "2"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "800",
+              "@consumespell": "FOOD_FISH_CRAFTING_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "432",
+                "@time": "0.115",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_FISH_SALTWATER_ALL_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_TURNIP",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T4_MEAT",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "9"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "900",
+              "@consumespell": "FOOD_FISH_CRAFTING_P5",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "832",
+                "@time": "0.115",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_FISH_SALTWATER_ALL_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_TURNIP",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T4_MEAT",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "9"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1000",
+              "@consumespell": "FOOD_FISH_CRAFTING_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "1",
+                "@craftingfocus": "2033",
+                "@time": "0.115",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_FISH_SALTWATER_ALL_RARE",
+                    "@count": "1"
+                  },
+                  {
+                    "@uniquename": "T4_TURNIP",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T4_MEAT",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "9"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

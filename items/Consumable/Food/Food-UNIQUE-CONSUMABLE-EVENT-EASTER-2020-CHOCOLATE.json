@@ -1,0 +1,204 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_CHOCOLATE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_CHOCOLATE",
+      "index": "3188",
+      "name_en": "Chocolate",
+      "name_ar": "الشوكولاتة",
+      "name_de": "Schokolade",
+      "name_fr": "Chocolat",
+      "name_es": "Chocolate",
+      "name_ru": "Шоколад",
+      "descriptions": {
+        "description_en": "Consuming will increase happiness!\nAnd body weight...",
+        "description_ar": "يزيد استهلاكها من مستوى السعادة!\nكما أنه يزيد الوزن...",
+        "description_de": "Wenn du es isst, wirst du glücklicher sein!\nUnd schwerer...",
+        "description_fr": "Consommer pour augmenter le bonheur !\nEt votre bedaine...",
+        "description_es": "¡El consumo aumentará la felicidad!\nY el peso corporal ...",
+        "description_ru": "Съев это, вы станете еще счастливее!\nИ толще..."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_CONSUMABLE_EVENT_EASTER_2020_CHOCOLATE",
+        "description_variable": "@ITEMS_UNIQUE_CONSUMABLE_EVENT_EASTER_2020_CHOCOLATE_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_CHOCOLATE",
+        "uisprite": "MEAL_CHOCOLATE",
+        "abilitypower": "10",
+        "slottype": "food",
+        "consumespell": "FOOD_EASTER_CHOCOLATE",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "tier": "4",
+        "weight": "0.01",
+        "maxstacksize": "999",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "true",
+        "nutrition": "1",
+        "foodcategory": "chocolate",
+        "shopsubcategory2": "event"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Chocolate",
+        "DE-DE": "Schokolade",
+        "FR-FR": "Chocolat",
+        "RU-RU": "Шоколад",
+        "PL-PL": "Czekolada",
+        "ES-ES": "Chocolate",
+        "PT-BR": "Chocolate",
+        "IT-IT": "Cioccolato",
+        "ZH-CN": "巧克力",
+        "KO-KR": "초콜릿",
+        "JA-JP": "チョコレート",
+        "ZH-TW": "巧克力",
+        "ID-ID": "Cokelat",
+        "TR-TR": "Çikolata",
+        "AR-SA": "الشوكولاتة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consuming will increase happiness!\nAnd body weight...",
+        "DE-DE": "Wenn du es isst, wirst du glücklicher sein!\nUnd schwerer...",
+        "FR-FR": "Consommer pour augmenter le bonheur !\nEt votre bedaine...",
+        "RU-RU": "Съев это, вы станете еще счастливее!\nИ толще...",
+        "PL-PL": "Zużycie zwiększy poziom szczęścia!\nI masę ciała...",
+        "ES-ES": "¡El consumo aumentará la felicidad!\nY el peso corporal ...",
+        "PT-BR": "Consumir aumentará a felicidade!\nE o peso corporal...",
+        "IT-IT": "Al consumo, aumenta la felicità!\nE il peso corporeo...",
+        "ZH-CN": "越吃越快乐！\n当然，也会越吃越胖......",
+        "KO-KR": "먹으면 행복을 올려줍니다!\n몸무게도 올리지만...",
+        "JA-JP": "消費で幸福度が増加します！\nそして体重も...",
+        "ZH-TW": "食用後會增加幸福感！\n至於體重...",
+        "ID-ID": "Memakannya akan meningkatkan kebahagiaan!\nDan berat badanmu...",
+        "TR-TR": "Tam bir mutluluk kaynağı!\nTabii bir de ufaktan kilo...",
+        "AR-SA": "يزيد استهلاكها من مستوى السعادة!\nكما أنه يزيد الوزن..."
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_EGG",
+        "primary_count": 2,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_EGG",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_EGG",
+            "count": 2
+          }
+        ],
+        "primary_resource": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_EGG",
+        "primary_count": 2,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 10,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 0.01,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": true,
+        "uisprite": "MEAL_CHOCOLATE"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_CHOCOLATE",
+        "item_database_index": "3188"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Chocolate",
+        "name_ar": "الشوكولاتة",
+        "name_de": "Schokolade",
+        "name_fr": "Chocolat",
+        "name_es": "Chocolate",
+        "name_ru": "Шоколад"
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_CHOCOLATE",
+        "@uisprite": "MEAL_CHOCOLATE",
+        "@abilitypower": "10",
+        "@slottype": "food",
+        "@consumespell": "FOOD_EASTER_CHOCOLATE",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@tier": "4",
+        "@weight": "0.01",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@nutrition": "1",
+        "@foodcategory": "chocolate",
+        "@shopsubcategory2": "event",
+        "craftingrequirements": {
+          "craftresource": {
+            "@uniquename": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_EGG",
+            "@count": "2",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

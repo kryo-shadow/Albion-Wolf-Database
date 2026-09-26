@@ -1,0 +1,2549 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Off_Hands",
+  "family": "Off_Hands_Mage",
+  "base_id": "T8_OFF_BOOK",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T8_OFF_BOOK",
+      "index": "2226",
+      "name_en": "Rosalia's Diary",
+      "name_ar": "يوميات Rosalia",
+      "name_de": "Rosalias Tagebuch",
+      "name_fr": "Journal de Rosalia",
+      "name_es": "Diario de Rosalia",
+      "name_ru": "Дневник Розалии",
+      "descriptions": {
+        "description_en": "Equipment Item - an Elder's Tome of Spells, named to honor the player Rosalia's continued support over the years.",
+        "description_ar": "عنصر معدات - مجلد تعويذات للحكيم وسُمي بذلك تكريمًا للاعبة Rosalia ولدعمها المتواصل على مدار أعوام.",
+        "description_de": "Ausrüstungsgegenstand - Ein Zauberbuch der Ältesten, benannt nach Rosalia, zu Ehren der kontinuierlichen Unterstützung in all den Jahren.",
+        "description_fr": "Pièce d'équipement - Un Tome de sorts du sage, nommé en l'honneur du joueur Rosalia pour son soutien continue durant ces dernières années.",
+        "description_es": "Objeto de equipo - Tomo de hechizos del anciano, nombrado en homenaje a la jugadora Rosalia por su apoyo a lo largo de los años.",
+        "description_ru": "Снаряжение - книга заклинаний старейшины, названная в честь игрока Rosalia и ее побед за последние годы."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_OFF_BOOK",
+        "description_variable": "@ITEMS_T8_OFF_BOOK_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_OFF_BOOK",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "8",
+        "weight": "8.5",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "book",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "book",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0.0208",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_BOOKS_BOOK",
+        "shopsubcategory2": "booktype_book"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Rosalia's Diary",
+        "DE-DE": "Rosalias Tagebuch",
+        "FR-FR": "Journal de Rosalia",
+        "RU-RU": "Дневник Розалии",
+        "PL-PL": "Dziennik Rosalii",
+        "ES-ES": "Diario de Rosalia",
+        "PT-BR": "Diário de Rosalia",
+        "IT-IT": "Diario di Rosalia",
+        "ZH-CN": "Rosalia的日记",
+        "KO-KR": "로살리아의 일기",
+        "JA-JP": "Rosaliaの日記",
+        "ZH-TW": "Rosalia的日記",
+        "ID-ID": "Catatan Harian Rosalia",
+        "TR-TR": "Rosalia'nın Günlüğü",
+        "AR-SA": "يوميات Rosalia"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item - an Elder's Tome of Spells, named to honor the player Rosalia's continued support over the years.",
+        "DE-DE": "Ausrüstungsgegenstand - Ein Zauberbuch der Ältesten, benannt nach Rosalia, zu Ehren der kontinuierlichen Unterstützung in all den Jahren.",
+        "FR-FR": "Pièce d'équipement - Un Tome de sorts du sage, nommé en l'honneur du joueur Rosalia pour son soutien continue durant ces dernières années.",
+        "RU-RU": "Снаряжение - книга заклинаний старейшины, названная в честь игрока Rosalia и ее побед за последние годы.",
+        "PL-PL": "Przedmiot do wyposażenia - Tomisko Zaklęć Starszego, nazwane na cześć gracza Rosalia, za stałe wsparcie przez te wszystkie lata.",
+        "ES-ES": "Objeto de equipo - Tomo de hechizos del anciano, nombrado en homenaje a la jugadora Rosalia por su apoyo a lo largo de los años.",
+        "PT-BR": "Item de Equipamento - um Tomo de Feitiços do Ancião, nomeado em homenagem à jogadora Rosalia pelo seu apoio ao longo dos anos.",
+        "IT-IT": "Oggetto d'equipaggiamento - Un tomo degli incantesimi dell'anziano dedicato a Rosalia per il suo continuo sostegno negli anni.",
+        "ZH-CN": "装备物品。一本禅师级咒书，玩家Rosalia同名装备，以此纪念其多年来的持续支持。",
+        "KO-KR": "장비 아이템 - 로살리아라는 플레이어의 오랜 지지를 칭송하기 위해 명명된 장로의 주문 서적.",
+        "JA-JP": "装備アイテム - Rosaliaというプレイヤーの長年に渡る貢献を称えて名付けられた呪文の書（老熟）。",
+        "ZH-TW": "裝備物品 - 為了表揚玩家「Rosalia」多年來對遊戲的支持，以其命名的禪師級咒法之書。",
+        "ID-ID": "Item Perlengkapan - Kitab Mantra Tetua, namanya untuk menghormati dukungan tanpa henti pemain Rosalia selama bertahun-tahun.",
+        "TR-TR": "Ekipman Eşyası - Rosalia adlı oyuncuya ve yıllar boyu göstermiş olduğu desteğe adanmış olan bir Yüce Büyü Kitabı.",
+        "AR-SA": "عنصر معدات - مجلد تعويذات للحكيم وسُمي بذلك تكريمًا للاعبة Rosalia ولدعمها المتواصل على مدار أعوام."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 8.5,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_BOOK",
+        "itempower_progression": "book"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 37715,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 36450,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_OFF_BOOK",
+        "item_database_index": "2226"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Rosalia's Diary",
+        "name_ar": "يوميات Rosalia",
+        "name_de": "Rosalias Tagebuch",
+        "name_fr": "Journal de Rosalia",
+        "name_es": "Diario de Rosalia",
+        "name_ru": "Дневник Розалии"
+      },
+      "raw": {
+        "@uniquename": "T8_OFF_BOOK",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "8",
+        "@weight": "8.5",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "book",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "book",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0.0208",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_BOOKS_BOOK",
+        "@shopsubcategory2": "booktype_book",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "54675",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "7037",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.8",
+                "@craftingfocus": "12315",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.16",
+                "@craftingfocus": "21551",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.52",
+                "@craftingfocus": "37715",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_OFF_BOOK@1",
+      "index": "2227",
+      "name_en": "Rosalia's Diary",
+      "name_ar": "يوميات Rosalia",
+      "name_de": "Rosalias Tagebuch",
+      "name_fr": "Journal de Rosalia",
+      "name_es": "Diario de Rosalia",
+      "name_ru": "Дневник Розалии",
+      "descriptions": {
+        "description_en": "Equipment Item - an Elder's Tome of Spells, named to honor the player Rosalia's continued support over the years.",
+        "description_ar": "عنصر معدات - مجلد تعويذات للحكيم وسُمي بذلك تكريمًا للاعبة Rosalia ولدعمها المتواصل على مدار أعوام.",
+        "description_de": "Ausrüstungsgegenstand - Ein Zauberbuch der Ältesten, benannt nach Rosalia, zu Ehren der kontinuierlichen Unterstützung in all den Jahren.",
+        "description_fr": "Pièce d'équipement - Un Tome de sorts du sage, nommé en l'honneur du joueur Rosalia pour son soutien continue durant ces dernières années.",
+        "description_es": "Objeto de equipo - Tomo de hechizos del anciano, nombrado en homenaje a la jugadora Rosalia por su apoyo a lo largo de los años.",
+        "description_ru": "Снаряжение - книга заклинаний старейшины, названная в честь игрока Rosalia и ее побед за последние годы."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_OFF_BOOK",
+        "description_variable": "@ITEMS_T8_OFF_BOOK_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_OFF_BOOK",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "8",
+        "weight": "8.5",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "book",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "book",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0.0208",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_BOOKS_BOOK",
+        "shopsubcategory2": "booktype_book"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Rosalia's Diary",
+        "DE-DE": "Rosalias Tagebuch",
+        "FR-FR": "Journal de Rosalia",
+        "RU-RU": "Дневник Розалии",
+        "PL-PL": "Dziennik Rosalii",
+        "ES-ES": "Diario de Rosalia",
+        "PT-BR": "Diário de Rosalia",
+        "IT-IT": "Diario di Rosalia",
+        "ZH-CN": "Rosalia的日记",
+        "KO-KR": "로살리아의 일기",
+        "JA-JP": "Rosaliaの日記",
+        "ZH-TW": "Rosalia的日記",
+        "ID-ID": "Catatan Harian Rosalia",
+        "TR-TR": "Rosalia'nın Günlüğü",
+        "AR-SA": "يوميات Rosalia"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item - an Elder's Tome of Spells, named to honor the player Rosalia's continued support over the years.",
+        "DE-DE": "Ausrüstungsgegenstand - Ein Zauberbuch der Ältesten, benannt nach Rosalia, zu Ehren der kontinuierlichen Unterstützung in all den Jahren.",
+        "FR-FR": "Pièce d'équipement - Un Tome de sorts du sage, nommé en l'honneur du joueur Rosalia pour son soutien continue durant ces dernières années.",
+        "RU-RU": "Снаряжение - книга заклинаний старейшины, названная в честь игрока Rosalia и ее побед за последние годы.",
+        "PL-PL": "Przedmiot do wyposażenia - Tomisko Zaklęć Starszego, nazwane na cześć gracza Rosalia, za stałe wsparcie przez te wszystkie lata.",
+        "ES-ES": "Objeto de equipo - Tomo de hechizos del anciano, nombrado en homenaje a la jugadora Rosalia por su apoyo a lo largo de los años.",
+        "PT-BR": "Item de Equipamento - um Tomo de Feitiços do Ancião, nomeado em homenagem à jogadora Rosalia pelo seu apoio ao longo dos anos.",
+        "IT-IT": "Oggetto d'equipaggiamento - Un tomo degli incantesimi dell'anziano dedicato a Rosalia per il suo continuo sostegno negli anni.",
+        "ZH-CN": "装备物品。一本禅师级咒书，玩家Rosalia同名装备，以此纪念其多年来的持续支持。",
+        "KO-KR": "장비 아이템 - 로살리아라는 플레이어의 오랜 지지를 칭송하기 위해 명명된 장로의 주문 서적.",
+        "JA-JP": "装備アイテム - Rosaliaというプレイヤーの長年に渡る貢献を称えて名付けられた呪文の書（老熟）。",
+        "ZH-TW": "裝備物品 - 為了表揚玩家「Rosalia」多年來對遊戲的支持，以其命名的禪師級咒法之書。",
+        "ID-ID": "Item Perlengkapan - Kitab Mantra Tetua, namanya untuk menghormati dukungan tanpa henti pemain Rosalia selama bertahun-tahun.",
+        "TR-TR": "Ekipman Eşyası - Rosalia adlı oyuncuya ve yıllar boyu göstermiş olduğu desteğe adanmış olan bir Yüce Büyü Kitabı.",
+        "AR-SA": "عنصر معدات - مجلد تعويذات للحكيم وسُمي بذلك تكريمًا للاعبة Rosalia ولدعمها المتواصل على مدار أعوام."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 8.5,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_BOOK",
+        "itempower_progression": "book"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 37715,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1200,
+        "durability": 54675,
+        "crafting_silver": 0,
+        "crafting_time": 1.5,
+        "crafting_focus": 7037,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T8_LEATHER_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RUNE",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 54675,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_OFF_BOOK@1",
+        "item_database_index": "2227"
+      },
+      "tier": 8,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Rosalia's Diary",
+        "name_ar": "يوميات Rosalia",
+        "name_de": "Rosalias Tagebuch",
+        "name_fr": "Journal de Rosalia",
+        "name_es": "Diario de Rosalia",
+        "name_ru": "Дневник Розалии"
+      },
+      "raw": {
+        "@uniquename": "T8_OFF_BOOK",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "8",
+        "@weight": "8.5",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "book",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "book",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0.0208",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_BOOKS_BOOK",
+        "@shopsubcategory2": "booktype_book",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "54675",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "7037",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.8",
+                "@craftingfocus": "12315",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.16",
+                "@craftingfocus": "21551",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.52",
+                "@craftingfocus": "37715",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_OFF_BOOK@2",
+      "index": "2228",
+      "name_en": "Rosalia's Diary",
+      "name_ar": "يوميات Rosalia",
+      "name_de": "Rosalias Tagebuch",
+      "name_fr": "Journal de Rosalia",
+      "name_es": "Diario de Rosalia",
+      "name_ru": "Дневник Розалии",
+      "descriptions": {
+        "description_en": "Equipment Item - an Elder's Tome of Spells, named to honor the player Rosalia's continued support over the years.",
+        "description_ar": "عنصر معدات - مجلد تعويذات للحكيم وسُمي بذلك تكريمًا للاعبة Rosalia ولدعمها المتواصل على مدار أعوام.",
+        "description_de": "Ausrüstungsgegenstand - Ein Zauberbuch der Ältesten, benannt nach Rosalia, zu Ehren der kontinuierlichen Unterstützung in all den Jahren.",
+        "description_fr": "Pièce d'équipement - Un Tome de sorts du sage, nommé en l'honneur du joueur Rosalia pour son soutien continue durant ces dernières années.",
+        "description_es": "Objeto de equipo - Tomo de hechizos del anciano, nombrado en homenaje a la jugadora Rosalia por su apoyo a lo largo de los años.",
+        "description_ru": "Снаряжение - книга заклинаний старейшины, названная в честь игрока Rosalia и ее побед за последние годы."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_OFF_BOOK",
+        "description_variable": "@ITEMS_T8_OFF_BOOK_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_OFF_BOOK",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "8",
+        "weight": "8.5",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "book",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "book",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0.0208",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_BOOKS_BOOK",
+        "shopsubcategory2": "booktype_book"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Rosalia's Diary",
+        "DE-DE": "Rosalias Tagebuch",
+        "FR-FR": "Journal de Rosalia",
+        "RU-RU": "Дневник Розалии",
+        "PL-PL": "Dziennik Rosalii",
+        "ES-ES": "Diario de Rosalia",
+        "PT-BR": "Diário de Rosalia",
+        "IT-IT": "Diario di Rosalia",
+        "ZH-CN": "Rosalia的日记",
+        "KO-KR": "로살리아의 일기",
+        "JA-JP": "Rosaliaの日記",
+        "ZH-TW": "Rosalia的日記",
+        "ID-ID": "Catatan Harian Rosalia",
+        "TR-TR": "Rosalia'nın Günlüğü",
+        "AR-SA": "يوميات Rosalia"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item - an Elder's Tome of Spells, named to honor the player Rosalia's continued support over the years.",
+        "DE-DE": "Ausrüstungsgegenstand - Ein Zauberbuch der Ältesten, benannt nach Rosalia, zu Ehren der kontinuierlichen Unterstützung in all den Jahren.",
+        "FR-FR": "Pièce d'équipement - Un Tome de sorts du sage, nommé en l'honneur du joueur Rosalia pour son soutien continue durant ces dernières années.",
+        "RU-RU": "Снаряжение - книга заклинаний старейшины, названная в честь игрока Rosalia и ее побед за последние годы.",
+        "PL-PL": "Przedmiot do wyposażenia - Tomisko Zaklęć Starszego, nazwane na cześć gracza Rosalia, za stałe wsparcie przez te wszystkie lata.",
+        "ES-ES": "Objeto de equipo - Tomo de hechizos del anciano, nombrado en homenaje a la jugadora Rosalia por su apoyo a lo largo de los años.",
+        "PT-BR": "Item de Equipamento - um Tomo de Feitiços do Ancião, nomeado em homenagem à jogadora Rosalia pelo seu apoio ao longo dos anos.",
+        "IT-IT": "Oggetto d'equipaggiamento - Un tomo degli incantesimi dell'anziano dedicato a Rosalia per il suo continuo sostegno negli anni.",
+        "ZH-CN": "装备物品。一本禅师级咒书，玩家Rosalia同名装备，以此纪念其多年来的持续支持。",
+        "KO-KR": "장비 아이템 - 로살리아라는 플레이어의 오랜 지지를 칭송하기 위해 명명된 장로의 주문 서적.",
+        "JA-JP": "装備アイテム - Rosaliaというプレイヤーの長年に渡る貢献を称えて名付けられた呪文の書（老熟）。",
+        "ZH-TW": "裝備物品 - 為了表揚玩家「Rosalia」多年來對遊戲的支持，以其命名的禪師級咒法之書。",
+        "ID-ID": "Item Perlengkapan - Kitab Mantra Tetua, namanya untuk menghormati dukungan tanpa henti pemain Rosalia selama bertahun-tahun.",
+        "TR-TR": "Ekipman Eşyası - Rosalia adlı oyuncuya ve yıllar boyu göstermiş olduğu desteğe adanmış olan bir Yüce Büyü Kitabı.",
+        "AR-SA": "عنصر معدات - مجلد تعويذات للحكيم وسُمي بذلك تكريمًا للاعبة Rosalia ولدعمها المتواصل على مدار أعوام."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 8.5,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_BOOK",
+        "itempower_progression": "book"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 37715,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1300,
+        "durability": 82013,
+        "crafting_silver": 0,
+        "crafting_time": 1.8,
+        "crafting_focus": 12315,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T8_LEATHER_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_SOUL",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 82013,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_OFF_BOOK@2",
+        "item_database_index": "2228"
+      },
+      "tier": 8,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Rosalia's Diary",
+        "name_ar": "يوميات Rosalia",
+        "name_de": "Rosalias Tagebuch",
+        "name_fr": "Journal de Rosalia",
+        "name_es": "Diario de Rosalia",
+        "name_ru": "Дневник Розалии"
+      },
+      "raw": {
+        "@uniquename": "T8_OFF_BOOK",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "8",
+        "@weight": "8.5",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "book",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "book",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0.0208",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_BOOKS_BOOK",
+        "@shopsubcategory2": "booktype_book",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "54675",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "7037",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.8",
+                "@craftingfocus": "12315",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.16",
+                "@craftingfocus": "21551",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.52",
+                "@craftingfocus": "37715",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_OFF_BOOK@3",
+      "index": "2229",
+      "name_en": "Rosalia's Diary",
+      "name_ar": "يوميات Rosalia",
+      "name_de": "Rosalias Tagebuch",
+      "name_fr": "Journal de Rosalia",
+      "name_es": "Diario de Rosalia",
+      "name_ru": "Дневник Розалии",
+      "descriptions": {
+        "description_en": "Equipment Item - an Elder's Tome of Spells, named to honor the player Rosalia's continued support over the years.",
+        "description_ar": "عنصر معدات - مجلد تعويذات للحكيم وسُمي بذلك تكريمًا للاعبة Rosalia ولدعمها المتواصل على مدار أعوام.",
+        "description_de": "Ausrüstungsgegenstand - Ein Zauberbuch der Ältesten, benannt nach Rosalia, zu Ehren der kontinuierlichen Unterstützung in all den Jahren.",
+        "description_fr": "Pièce d'équipement - Un Tome de sorts du sage, nommé en l'honneur du joueur Rosalia pour son soutien continue durant ces dernières années.",
+        "description_es": "Objeto de equipo - Tomo de hechizos del anciano, nombrado en homenaje a la jugadora Rosalia por su apoyo a lo largo de los años.",
+        "description_ru": "Снаряжение - книга заклинаний старейшины, названная в честь игрока Rosalia и ее побед за последние годы."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_OFF_BOOK",
+        "description_variable": "@ITEMS_T8_OFF_BOOK_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_OFF_BOOK",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "8",
+        "weight": "8.5",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "book",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "book",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0.0208",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_BOOKS_BOOK",
+        "shopsubcategory2": "booktype_book"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Rosalia's Diary",
+        "DE-DE": "Rosalias Tagebuch",
+        "FR-FR": "Journal de Rosalia",
+        "RU-RU": "Дневник Розалии",
+        "PL-PL": "Dziennik Rosalii",
+        "ES-ES": "Diario de Rosalia",
+        "PT-BR": "Diário de Rosalia",
+        "IT-IT": "Diario di Rosalia",
+        "ZH-CN": "Rosalia的日记",
+        "KO-KR": "로살리아의 일기",
+        "JA-JP": "Rosaliaの日記",
+        "ZH-TW": "Rosalia的日記",
+        "ID-ID": "Catatan Harian Rosalia",
+        "TR-TR": "Rosalia'nın Günlüğü",
+        "AR-SA": "يوميات Rosalia"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item - an Elder's Tome of Spells, named to honor the player Rosalia's continued support over the years.",
+        "DE-DE": "Ausrüstungsgegenstand - Ein Zauberbuch der Ältesten, benannt nach Rosalia, zu Ehren der kontinuierlichen Unterstützung in all den Jahren.",
+        "FR-FR": "Pièce d'équipement - Un Tome de sorts du sage, nommé en l'honneur du joueur Rosalia pour son soutien continue durant ces dernières années.",
+        "RU-RU": "Снаряжение - книга заклинаний старейшины, названная в честь игрока Rosalia и ее побед за последние годы.",
+        "PL-PL": "Przedmiot do wyposażenia - Tomisko Zaklęć Starszego, nazwane na cześć gracza Rosalia, za stałe wsparcie przez te wszystkie lata.",
+        "ES-ES": "Objeto de equipo - Tomo de hechizos del anciano, nombrado en homenaje a la jugadora Rosalia por su apoyo a lo largo de los años.",
+        "PT-BR": "Item de Equipamento - um Tomo de Feitiços do Ancião, nomeado em homenagem à jogadora Rosalia pelo seu apoio ao longo dos anos.",
+        "IT-IT": "Oggetto d'equipaggiamento - Un tomo degli incantesimi dell'anziano dedicato a Rosalia per il suo continuo sostegno negli anni.",
+        "ZH-CN": "装备物品。一本禅师级咒书，玩家Rosalia同名装备，以此纪念其多年来的持续支持。",
+        "KO-KR": "장비 아이템 - 로살리아라는 플레이어의 오랜 지지를 칭송하기 위해 명명된 장로의 주문 서적.",
+        "JA-JP": "装備アイテム - Rosaliaというプレイヤーの長年に渡る貢献を称えて名付けられた呪文の書（老熟）。",
+        "ZH-TW": "裝備物品 - 為了表揚玩家「Rosalia」多年來對遊戲的支持，以其命名的禪師級咒法之書。",
+        "ID-ID": "Item Perlengkapan - Kitab Mantra Tetua, namanya untuk menghormati dukungan tanpa henti pemain Rosalia selama bertahun-tahun.",
+        "TR-TR": "Ekipman Eşyası - Rosalia adlı oyuncuya ve yıllar boyu göstermiş olduğu desteğe adanmış olan bir Yüce Büyü Kitabı.",
+        "AR-SA": "عنصر معدات - مجلد تعويذات للحكيم وسُمي بذلك تكريمًا للاعبة Rosalia ولدعمها المتواصل على مدار أعوام."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 8.5,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_BOOK",
+        "itempower_progression": "book"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 37715,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1400,
+        "durability": 123019,
+        "crafting_silver": 0,
+        "crafting_time": 2.16,
+        "crafting_focus": 21551,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T8_LEATHER_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RELIC",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 123019,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_OFF_BOOK@3",
+        "item_database_index": "2229"
+      },
+      "tier": 8,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Rosalia's Diary",
+        "name_ar": "يوميات Rosalia",
+        "name_de": "Rosalias Tagebuch",
+        "name_fr": "Journal de Rosalia",
+        "name_es": "Diario de Rosalia",
+        "name_ru": "Дневник Розалии"
+      },
+      "raw": {
+        "@uniquename": "T8_OFF_BOOK",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "8",
+        "@weight": "8.5",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "book",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "book",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0.0208",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_BOOKS_BOOK",
+        "@shopsubcategory2": "booktype_book",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "54675",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "7037",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.8",
+                "@craftingfocus": "12315",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.16",
+                "@craftingfocus": "21551",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.52",
+                "@craftingfocus": "37715",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_OFF_BOOK@4",
+      "index": "2230",
+      "name_en": "Rosalia's Diary",
+      "name_ar": "يوميات Rosalia",
+      "name_de": "Rosalias Tagebuch",
+      "name_fr": "Journal de Rosalia",
+      "name_es": "Diario de Rosalia",
+      "name_ru": "Дневник Розалии",
+      "descriptions": {
+        "description_en": "Equipment Item - an Elder's Tome of Spells, named to honor the player Rosalia's continued support over the years.",
+        "description_ar": "عنصر معدات - مجلد تعويذات للحكيم وسُمي بذلك تكريمًا للاعبة Rosalia ولدعمها المتواصل على مدار أعوام.",
+        "description_de": "Ausrüstungsgegenstand - Ein Zauberbuch der Ältesten, benannt nach Rosalia, zu Ehren der kontinuierlichen Unterstützung in all den Jahren.",
+        "description_fr": "Pièce d'équipement - Un Tome de sorts du sage, nommé en l'honneur du joueur Rosalia pour son soutien continue durant ces dernières années.",
+        "description_es": "Objeto de equipo - Tomo de hechizos del anciano, nombrado en homenaje a la jugadora Rosalia por su apoyo a lo largo de los años.",
+        "description_ru": "Снаряжение - книга заклинаний старейшины, названная в честь игрока Rosalia и ее побед за последние годы."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_OFF_BOOK",
+        "description_variable": "@ITEMS_T8_OFF_BOOK_DESC"
+      },
+      "category": "Off_Hands_Mage",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_OFF_BOOK",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "booktype",
+        "tier": "8",
+        "weight": "8.5",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "36450",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "book",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "1100",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0",
+        "bonusccdurationvsmobs": "0",
+        "threatbonus": "0",
+        "itempowerprogressiontype": "book",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0",
+        "bonusdefensevsmobs": "0",
+        "magiccasttimereduction": "0.0208",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_BOOKS_BOOK",
+        "shopsubcategory2": "booktype_book"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Rosalia's Diary",
+        "DE-DE": "Rosalias Tagebuch",
+        "FR-FR": "Journal de Rosalia",
+        "RU-RU": "Дневник Розалии",
+        "PL-PL": "Dziennik Rosalii",
+        "ES-ES": "Diario de Rosalia",
+        "PT-BR": "Diário de Rosalia",
+        "IT-IT": "Diario di Rosalia",
+        "ZH-CN": "Rosalia的日记",
+        "KO-KR": "로살리아의 일기",
+        "JA-JP": "Rosaliaの日記",
+        "ZH-TW": "Rosalia的日記",
+        "ID-ID": "Catatan Harian Rosalia",
+        "TR-TR": "Rosalia'nın Günlüğü",
+        "AR-SA": "يوميات Rosalia"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item - an Elder's Tome of Spells, named to honor the player Rosalia's continued support over the years.",
+        "DE-DE": "Ausrüstungsgegenstand - Ein Zauberbuch der Ältesten, benannt nach Rosalia, zu Ehren der kontinuierlichen Unterstützung in all den Jahren.",
+        "FR-FR": "Pièce d'équipement - Un Tome de sorts du sage, nommé en l'honneur du joueur Rosalia pour son soutien continue durant ces dernières années.",
+        "RU-RU": "Снаряжение - книга заклинаний старейшины, названная в честь игрока Rosalia и ее побед за последние годы.",
+        "PL-PL": "Przedmiot do wyposażenia - Tomisko Zaklęć Starszego, nazwane na cześć gracza Rosalia, za stałe wsparcie przez te wszystkie lata.",
+        "ES-ES": "Objeto de equipo - Tomo de hechizos del anciano, nombrado en homenaje a la jugadora Rosalia por su apoyo a lo largo de los años.",
+        "PT-BR": "Item de Equipamento - um Tomo de Feitiços do Ancião, nomeado em homenagem à jogadora Rosalia pelo seu apoio ao longo dos anos.",
+        "IT-IT": "Oggetto d'equipaggiamento - Un tomo degli incantesimi dell'anziano dedicato a Rosalia per il suo continuo sostegno negli anni.",
+        "ZH-CN": "装备物品。一本禅师级咒书，玩家Rosalia同名装备，以此纪念其多年来的持续支持。",
+        "KO-KR": "장비 아이템 - 로살리아라는 플레이어의 오랜 지지를 칭송하기 위해 명명된 장로의 주문 서적.",
+        "JA-JP": "装備アイテム - Rosaliaというプレイヤーの長年に渡る貢献を称えて名付けられた呪文の書（老熟）。",
+        "ZH-TW": "裝備物品 - 為了表揚玩家「Rosalia」多年來對遊戲的支持，以其命名的禪師級咒法之書。",
+        "ID-ID": "Item Perlengkapan - Kitab Mantra Tetua, namanya untuk menghormati dukungan tanpa henti pemain Rosalia selama bertahun-tahun.",
+        "TR-TR": "Ekipman Eşyası - Rosalia adlı oyuncuya ve yıllar boyu göstermiş olduğu desteğe adanmış olan bir Yüce Büyü Kitabı.",
+        "AR-SA": "عنصر معدات - مجلد تعويذات للحكيم وسُمي بذلك تكريمًا للاعبة Rosalia ولدعمها المتواصل على مدار أعوام."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 4
+          },
+          {
+            "id": "T8_LEATHER",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 4,
+        "secondary_resource": "T8_LEATHER",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1100,
+        "ability_power": 100,
+        "durability": 36450,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 8.5,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_BOOKS_BOOK",
+        "itempower_progression": "book"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 1.5,
+          "crafting_focus": 7037,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_LEATHER_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.8,
+          "crafting_focus": 12315,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_LEATHER_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 123019,
+          "crafting_silver": 0,
+          "crafting_time": 2.16,
+          "crafting_focus": 21551,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_LEATHER_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 184528,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 37715,
+          "crafting_resources": [
+            {
+              "id": "T8_CLOTH_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_LEATHER_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1500,
+        "durability": 184528,
+        "crafting_silver": 0,
+        "crafting_time": 2.52,
+        "crafting_focus": 37715,
+        "crafting_resources": [
+          {
+            "id": "T8_CLOTH_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T8_LEATHER_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1500,
+      "effective_durability": 184528,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "booktype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_OFF_BOOK@4",
+        "item_database_index": "2230"
+      },
+      "tier": 8,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Rosalia's Diary",
+        "name_ar": "يوميات Rosalia",
+        "name_de": "Rosalias Tagebuch",
+        "name_fr": "Journal de Rosalia",
+        "name_es": "Diario de Rosalia",
+        "name_ru": "Дневник Розалии"
+      },
+      "raw": {
+        "@uniquename": "T8_OFF_BOOK",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "booktype",
+        "@tier": "8",
+        "@weight": "8.5",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "36450",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "book",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "1100",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@itempowerprogressiontype": "book",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0.0208",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_BOOKS_BOOK",
+        "@shopsubcategory2": "booktype_book",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_CLOTH",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "54675",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.5",
+                "@craftingfocus": "7037",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "82013",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "1.8",
+                "@craftingfocus": "12315",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "123019",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.16",
+                "@craftingfocus": "21551",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "4"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "184528",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.52",
+                "@craftingfocus": "37715",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_CLOTH_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T8_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "4"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

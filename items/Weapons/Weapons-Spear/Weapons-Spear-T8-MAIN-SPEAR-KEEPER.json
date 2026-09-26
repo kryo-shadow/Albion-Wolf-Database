@@ -1,0 +1,3504 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Spear",
+  "base_id": "T8_MAIN_SPEAR_KEEPER",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T8_MAIN_SPEAR_KEEPER",
+      "index": "8301",
+      "name_en": "Elder's Heron Spear",
+      "name_ar": "رمح مسنن للحكيم",
+      "name_de": "Reiherspeer des Ältesten",
+      "name_fr": "Lance de héron du sage",
+      "name_es": "Lanza de garza del anciano",
+      "name_ru": "Копье цапли (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_SPEAR_KEEPER",
+        "description_variable": "@ITEMS_T8_MAIN_SPEAR_KEEPER_DESC"
+      },
+      "category": "Weapons_Spear",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_SPEAR_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "spear",
+        "attacktype": "melee",
+        "mainhandanimationtype": "spear1h",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "102516",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1125",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "spear",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_SPEARS_KEEPER",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "spear_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Heron Spear",
+        "DE-DE": "Reiherspeer des Ältesten",
+        "FR-FR": "Lance de héron du sage",
+        "RU-RU": "Копье цапли (старейшина)",
+        "PL-PL": "Włócznia Czapli Starszego",
+        "ES-ES": "Lanza de garza del anciano",
+        "PT-BR": "Lança Garceira do Ancião",
+        "IT-IT": "Lancia dell'airone dell'anziano",
+        "ZH-CN": "禅师级鹭鸶长矛",
+        "KO-KR": "장로의 헤론 스피어",
+        "JA-JP": "ヘロンスピア（老熟）",
+        "ZH-TW": "禪師級蒼鷺長矛",
+        "ID-ID": "Tombak Heron Tetua",
+        "TR-TR": "Yüce Taçlı Mızrağı",
+        "AR-SA": "رمح مسنن للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "spear1h",
+        "item_power": 1125,
+        "ability_power": 138,
+        "durability": 102516,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SPEARS_KEEPER",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SPEARTHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SPEARTHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T6_MAIN_SPEAR_KEEPER"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1225,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1325,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1425,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1525,
+          "durability": 518987,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1125,
+      "effective_durability": 102516,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "spear",
+        "crafting_category": "spear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+          "name_artifact_en": "Elder's Keeper Spearhead",
+          "name_artifact_ar": "رأس رمح الحراس للحكيم",
+          "name_artifact_de": "Hüter-Speerkopf des Ältesten",
+          "name_artifact_fr": "Pointe de lance de Gardien du sage",
+          "name_artifact_es": "Cabeza de lanza de guardián del anciano",
+          "name_artifact_ru": "Наконечник копья Хранителя (старейшина)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_SPEAR_KEEPER",
+        "item_database_index": "8301"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Heron Spear",
+        "name_ar": "رمح مسنن للحكيم",
+        "name_de": "Reiherspeer des Ältesten",
+        "name_fr": "Lance de héron du sage",
+        "name_es": "Lanza de garza del anciano",
+        "name_ru": "Копье цапли (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_SPEAR_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "spear",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "spear1h",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "102516",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1125",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "spear",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_SPEARS_KEEPER",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "spear_keeper",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "3.75",
+            "@craftingfocus": "12064",
+            "craftresource": [
+              {
+                "@uniquename": "T8_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T8_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "12064",
+            "@time": "3.75",
+            "craftresource": [
+              {
+                "@uniquename": "T8_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T8_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T6_MAIN_SPEAR_KEEPER"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1225",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1325",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5.4",
+                  "@craftingfocus": "36945",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5.4",
+                  "@craftingfocus": "36945",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1425",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6.48",
+                  "@craftingfocus": "64653",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6.48",
+                  "@craftingfocus": "64653",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1525",
+              "@durability": "518987",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.56",
+                  "@craftingfocus": "113144",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.56",
+                  "@craftingfocus": "113144",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_SPEAR_KEEPER@1",
+      "index": "8302",
+      "name_en": "Elder's Heron Spear",
+      "name_ar": "رمح مسنن للحكيم",
+      "name_de": "Reiherspeer des Ältesten",
+      "name_fr": "Lance de héron du sage",
+      "name_es": "Lanza de garza del anciano",
+      "name_ru": "Копье цапли (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_SPEAR_KEEPER",
+        "description_variable": "@ITEMS_T8_MAIN_SPEAR_KEEPER_DESC"
+      },
+      "category": "Weapons_Spear",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_SPEAR_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "spear",
+        "attacktype": "melee",
+        "mainhandanimationtype": "spear1h",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "102516",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1125",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "spear",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_SPEARS_KEEPER",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "spear_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Heron Spear",
+        "DE-DE": "Reiherspeer des Ältesten",
+        "FR-FR": "Lance de héron du sage",
+        "RU-RU": "Копье цапли (старейшина)",
+        "PL-PL": "Włócznia Czapli Starszego",
+        "ES-ES": "Lanza de garza del anciano",
+        "PT-BR": "Lança Garceira do Ancião",
+        "IT-IT": "Lancia dell'airone dell'anziano",
+        "ZH-CN": "禅师级鹭鸶长矛",
+        "KO-KR": "장로의 헤론 스피어",
+        "JA-JP": "ヘロンスピア（老熟）",
+        "ZH-TW": "禪師級蒼鷺長矛",
+        "ID-ID": "Tombak Heron Tetua",
+        "TR-TR": "Yüce Taçlı Mızrağı",
+        "AR-SA": "رمح مسنن للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "spear1h",
+        "item_power": 1125,
+        "ability_power": 138,
+        "durability": 102516,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SPEARS_KEEPER",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SPEARTHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SPEARTHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T6_MAIN_SPEAR_KEEPER"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1225,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1325,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1425,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1525,
+          "durability": 518987,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1225,
+        "durability": 153774,
+        "crafting_silver": 0,
+        "crafting_time": 4.5,
+        "crafting_focus": 21111,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T8_METALBAR_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1225,
+      "effective_durability": 153774,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "spear",
+        "crafting_category": "spear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+          "name_artifact_en": "Elder's Keeper Spearhead",
+          "name_artifact_ar": "رأس رمح الحراس للحكيم",
+          "name_artifact_de": "Hüter-Speerkopf des Ältesten",
+          "name_artifact_fr": "Pointe de lance de Gardien du sage",
+          "name_artifact_es": "Cabeza de lanza de guardián del anciano",
+          "name_artifact_ru": "Наконечник копья Хранителя (старейшина)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_SPEAR_KEEPER@1",
+        "item_database_index": "8302"
+      },
+      "tier": 8,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Elder's Heron Spear",
+        "name_ar": "رمح مسنن للحكيم",
+        "name_de": "Reiherspeer des Ältesten",
+        "name_fr": "Lance de héron du sage",
+        "name_es": "Lanza de garza del anciano",
+        "name_ru": "Копье цапли (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_SPEAR_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "spear",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "spear1h",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "102516",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1125",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "spear",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_SPEARS_KEEPER",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "spear_keeper",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "3.75",
+            "@craftingfocus": "12064",
+            "craftresource": [
+              {
+                "@uniquename": "T8_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T8_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "12064",
+            "@time": "3.75",
+            "craftresource": [
+              {
+                "@uniquename": "T8_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T8_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T6_MAIN_SPEAR_KEEPER"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1225",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1325",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5.4",
+                  "@craftingfocus": "36945",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5.4",
+                  "@craftingfocus": "36945",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1425",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6.48",
+                  "@craftingfocus": "64653",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6.48",
+                  "@craftingfocus": "64653",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1525",
+              "@durability": "518987",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.56",
+                  "@craftingfocus": "113144",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.56",
+                  "@craftingfocus": "113144",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_SPEAR_KEEPER@2",
+      "index": "8303",
+      "name_en": "Elder's Heron Spear",
+      "name_ar": "رمح مسنن للحكيم",
+      "name_de": "Reiherspeer des Ältesten",
+      "name_fr": "Lance de héron du sage",
+      "name_es": "Lanza de garza del anciano",
+      "name_ru": "Копье цапли (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_SPEAR_KEEPER",
+        "description_variable": "@ITEMS_T8_MAIN_SPEAR_KEEPER_DESC"
+      },
+      "category": "Weapons_Spear",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_SPEAR_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "spear",
+        "attacktype": "melee",
+        "mainhandanimationtype": "spear1h",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "102516",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1125",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "spear",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_SPEARS_KEEPER",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "spear_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Heron Spear",
+        "DE-DE": "Reiherspeer des Ältesten",
+        "FR-FR": "Lance de héron du sage",
+        "RU-RU": "Копье цапли (старейшина)",
+        "PL-PL": "Włócznia Czapli Starszego",
+        "ES-ES": "Lanza de garza del anciano",
+        "PT-BR": "Lança Garceira do Ancião",
+        "IT-IT": "Lancia dell'airone dell'anziano",
+        "ZH-CN": "禅师级鹭鸶长矛",
+        "KO-KR": "장로의 헤론 스피어",
+        "JA-JP": "ヘロンスピア（老熟）",
+        "ZH-TW": "禪師級蒼鷺長矛",
+        "ID-ID": "Tombak Heron Tetua",
+        "TR-TR": "Yüce Taçlı Mızrağı",
+        "AR-SA": "رمح مسنن للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "spear1h",
+        "item_power": 1125,
+        "ability_power": 138,
+        "durability": 102516,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SPEARS_KEEPER",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SPEARTHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SPEARTHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T6_MAIN_SPEAR_KEEPER"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1225,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1325,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1425,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1525,
+          "durability": 518987,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1325,
+        "durability": 230661,
+        "crafting_silver": 0,
+        "crafting_time": 5.4,
+        "crafting_focus": 36945,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T8_METALBAR_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1325,
+      "effective_durability": 230661,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "spear",
+        "crafting_category": "spear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+          "name_artifact_en": "Elder's Keeper Spearhead",
+          "name_artifact_ar": "رأس رمح الحراس للحكيم",
+          "name_artifact_de": "Hüter-Speerkopf des Ältesten",
+          "name_artifact_fr": "Pointe de lance de Gardien du sage",
+          "name_artifact_es": "Cabeza de lanza de guardián del anciano",
+          "name_artifact_ru": "Наконечник копья Хранителя (старейшина)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_SPEAR_KEEPER@2",
+        "item_database_index": "8303"
+      },
+      "tier": 8,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Elder's Heron Spear",
+        "name_ar": "رمح مسنن للحكيم",
+        "name_de": "Reiherspeer des Ältesten",
+        "name_fr": "Lance de héron du sage",
+        "name_es": "Lanza de garza del anciano",
+        "name_ru": "Копье цапли (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_SPEAR_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "spear",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "spear1h",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "102516",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1125",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "spear",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_SPEARS_KEEPER",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "spear_keeper",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "3.75",
+            "@craftingfocus": "12064",
+            "craftresource": [
+              {
+                "@uniquename": "T8_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T8_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "12064",
+            "@time": "3.75",
+            "craftresource": [
+              {
+                "@uniquename": "T8_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T8_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T6_MAIN_SPEAR_KEEPER"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1225",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1325",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5.4",
+                  "@craftingfocus": "36945",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5.4",
+                  "@craftingfocus": "36945",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1425",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6.48",
+                  "@craftingfocus": "64653",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6.48",
+                  "@craftingfocus": "64653",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1525",
+              "@durability": "518987",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.56",
+                  "@craftingfocus": "113144",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.56",
+                  "@craftingfocus": "113144",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_SPEAR_KEEPER@3",
+      "index": "8304",
+      "name_en": "Elder's Heron Spear",
+      "name_ar": "رمح مسنن للحكيم",
+      "name_de": "Reiherspeer des Ältesten",
+      "name_fr": "Lance de héron du sage",
+      "name_es": "Lanza de garza del anciano",
+      "name_ru": "Копье цапли (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_SPEAR_KEEPER",
+        "description_variable": "@ITEMS_T8_MAIN_SPEAR_KEEPER_DESC"
+      },
+      "category": "Weapons_Spear",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_SPEAR_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "spear",
+        "attacktype": "melee",
+        "mainhandanimationtype": "spear1h",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "102516",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1125",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "spear",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_SPEARS_KEEPER",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "spear_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Heron Spear",
+        "DE-DE": "Reiherspeer des Ältesten",
+        "FR-FR": "Lance de héron du sage",
+        "RU-RU": "Копье цапли (старейшина)",
+        "PL-PL": "Włócznia Czapli Starszego",
+        "ES-ES": "Lanza de garza del anciano",
+        "PT-BR": "Lança Garceira do Ancião",
+        "IT-IT": "Lancia dell'airone dell'anziano",
+        "ZH-CN": "禅师级鹭鸶长矛",
+        "KO-KR": "장로의 헤론 스피어",
+        "JA-JP": "ヘロンスピア（老熟）",
+        "ZH-TW": "禪師級蒼鷺長矛",
+        "ID-ID": "Tombak Heron Tetua",
+        "TR-TR": "Yüce Taçlı Mızrağı",
+        "AR-SA": "رمح مسنن للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "spear1h",
+        "item_power": 1125,
+        "ability_power": 138,
+        "durability": 102516,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SPEARS_KEEPER",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SPEARTHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SPEARTHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T6_MAIN_SPEAR_KEEPER"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1225,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1325,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1425,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1525,
+          "durability": 518987,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1425,
+        "durability": 345992,
+        "crafting_silver": 0,
+        "crafting_time": 6.48,
+        "crafting_focus": 64653,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T8_METALBAR_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1425,
+      "effective_durability": 345992,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "spear",
+        "crafting_category": "spear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+          "name_artifact_en": "Elder's Keeper Spearhead",
+          "name_artifact_ar": "رأس رمح الحراس للحكيم",
+          "name_artifact_de": "Hüter-Speerkopf des Ältesten",
+          "name_artifact_fr": "Pointe de lance de Gardien du sage",
+          "name_artifact_es": "Cabeza de lanza de guardián del anciano",
+          "name_artifact_ru": "Наконечник копья Хранителя (старейшина)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_SPEAR_KEEPER@3",
+        "item_database_index": "8304"
+      },
+      "tier": 8,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Elder's Heron Spear",
+        "name_ar": "رمح مسنن للحكيم",
+        "name_de": "Reiherspeer des Ältesten",
+        "name_fr": "Lance de héron du sage",
+        "name_es": "Lanza de garza del anciano",
+        "name_ru": "Копье цапли (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_SPEAR_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "spear",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "spear1h",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "102516",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1125",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "spear",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_SPEARS_KEEPER",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "spear_keeper",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "3.75",
+            "@craftingfocus": "12064",
+            "craftresource": [
+              {
+                "@uniquename": "T8_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T8_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "12064",
+            "@time": "3.75",
+            "craftresource": [
+              {
+                "@uniquename": "T8_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T8_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T6_MAIN_SPEAR_KEEPER"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1225",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1325",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5.4",
+                  "@craftingfocus": "36945",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5.4",
+                  "@craftingfocus": "36945",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1425",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6.48",
+                  "@craftingfocus": "64653",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6.48",
+                  "@craftingfocus": "64653",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1525",
+              "@durability": "518987",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.56",
+                  "@craftingfocus": "113144",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.56",
+                  "@craftingfocus": "113144",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_SPEAR_KEEPER@4",
+      "index": "8305",
+      "name_en": "Elder's Heron Spear",
+      "name_ar": "رمح مسنن للحكيم",
+      "name_de": "Reiherspeer des Ältesten",
+      "name_fr": "Lance de héron du sage",
+      "name_es": "Lanza de garza del anciano",
+      "name_ru": "Копье цапли (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_SPEAR_KEEPER",
+        "description_variable": "@ITEMS_T8_MAIN_SPEAR_KEEPER_DESC"
+      },
+      "category": "Weapons_Spear",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_SPEAR_KEEPER",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "spear",
+        "attacktype": "melee",
+        "mainhandanimationtype": "spear1h",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "102516",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1125",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "spear",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_SPEARS_KEEPER",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "spear_keeper"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Heron Spear",
+        "DE-DE": "Reiherspeer des Ältesten",
+        "FR-FR": "Lance de héron du sage",
+        "RU-RU": "Копье цапли (старейшина)",
+        "PL-PL": "Włócznia Czapli Starszego",
+        "ES-ES": "Lanza de garza del anciano",
+        "PT-BR": "Lança Garceira do Ancião",
+        "IT-IT": "Lancia dell'airone dell'anziano",
+        "ZH-CN": "禅师级鹭鸶长矛",
+        "KO-KR": "장로의 헤론 스피어",
+        "JA-JP": "ヘロンスピア（老熟）",
+        "ZH-TW": "禪師級蒼鷺長矛",
+        "ID-ID": "Tombak Heron Tetua",
+        "TR-TR": "Yüce Taçlı Mızrağı",
+        "AR-SA": "رمح مسنن للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 16
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 8
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 16,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "spear1h",
+        "item_power": 1125,
+        "ability_power": 138,
+        "durability": 102516,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SPEARS_KEEPER",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SPEARTHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SPEARTHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T6_MAIN_SPEAR_KEEPER"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1225,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1325,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1425,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1525,
+          "durability": 518987,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1525,
+        "durability": 518987,
+        "crafting_silver": 0,
+        "crafting_time": 7.56,
+        "crafting_focus": 113144,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T8_METALBAR_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1525,
+      "effective_durability": 518987,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "spear",
+        "crafting_category": "spear",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+          "name_artifact_en": "Elder's Keeper Spearhead",
+          "name_artifact_ar": "رأس رمح الحراس للحكيم",
+          "name_artifact_de": "Hüter-Speerkopf des Ältesten",
+          "name_artifact_fr": "Pointe de lance de Gardien du sage",
+          "name_artifact_es": "Cabeza de lanza de guardián del anciano",
+          "name_artifact_ru": "Наконечник копья Хранителя (старейшина)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_SPEAR_KEEPER@4",
+        "item_database_index": "8305"
+      },
+      "tier": 8,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Elder's Heron Spear",
+        "name_ar": "رمح مسنن للحكيم",
+        "name_de": "Reiherspeer des Ältesten",
+        "name_fr": "Lance de héron du sage",
+        "name_es": "Lanza de garza del anciano",
+        "name_ru": "Копье цапли (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_SPEAR_KEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "spear",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "spear1h",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "102516",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1125",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "spear",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_SPEARS_KEEPER",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "spear_keeper",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "3.75",
+            "@craftingfocus": "12064",
+            "craftresource": [
+              {
+                "@uniquename": "T8_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T8_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "12064",
+            "@time": "3.75",
+            "craftresource": [
+              {
+                "@uniquename": "T8_PLANKS",
+                "@count": "16"
+              },
+              {
+                "@uniquename": "T8_METALBAR",
+                "@count": "8"
+              },
+              {
+                "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T6_MAIN_SPEAR_KEEPER"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1225",
+              "@durability": "153774",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "4.5",
+                  "@craftingfocus": "21111",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1325",
+              "@durability": "230661",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5.4",
+                  "@craftingfocus": "36945",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5.4",
+                  "@craftingfocus": "36945",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1425",
+              "@durability": "345992",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6.48",
+                  "@craftingfocus": "64653",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6.48",
+                  "@craftingfocus": "64653",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1525",
+              "@durability": "518987",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.56",
+                  "@craftingfocus": "113144",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.56",
+                  "@craftingfocus": "113144",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T8_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "16"
+                    },
+                    {
+                      "@uniquename": "T8_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "8"
+                    },
+                    {
+                      "@uniquename": "T8_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

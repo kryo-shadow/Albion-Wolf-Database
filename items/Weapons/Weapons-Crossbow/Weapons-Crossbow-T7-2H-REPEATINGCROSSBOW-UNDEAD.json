@@ -1,0 +1,3529 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Crossbow",
+  "base_id": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+      "index": "6667",
+      "name_en": "Grandmaster's Weeping Repeater",
+      "name_ar": "قوس تكرار العويل المستعرض للأستاذ",
+      "name_de": "Klagender Repetierer des Großmeisters",
+      "name_fr": "Arbalète à répétition des larmes du grand maître",
+      "name_es": "Repetidora de desconsuelo del gran maestro",
+      "name_ru": "Плачущий арбалет (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "description_variable": "@ITEMS_T7_2H_REPEATINGCROSSBOW_UNDEAD_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow",
+        "attackdamage": "37",
+        "attackspeed": "0.8",
+        "twohanded": "true",
+        "attackrange": "11",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1025",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Weeping Repeater",
+        "DE-DE": "Klagender Repetierer des Großmeisters",
+        "FR-FR": "Arbalète à répétition des larmes du grand maître",
+        "RU-RU": "Плачущий арбалет (магистр)",
+        "PL-PL": "Wielostrzałowiec Wszechmistrza",
+        "ES-ES": "Repetidora de desconsuelo del gran maestro",
+        "PT-BR": "Repetidor Lamentoso do Grão-mestre",
+        "IT-IT": "Balestra a ripetizione del gran maestro",
+        "ZH-CN": "宗师级愁怨连弩",
+        "KO-KR": "그랜드 마스터의 위핑 리피터",
+        "JA-JP": "ウィーピングリピーター（グランドマスター）",
+        "ZH-TW": "宗師級哀泣複誦者",
+        "ID-ID": "Pengulang Tangisan Grandmaster",
+        "TR-TR": "Büyük Usta Çift Gözyaşı",
+        "AR-SA": "قوس تكرار العويل المستعرض للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 0.8,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow",
+        "item_power": 1025,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "GROUNDMINE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "GROUNDMINE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1125,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1225,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1325,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1425,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1025,
+      "effective_durability": 64324,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+          "name_artifact_en": "Grandmaster's Lost Crossbow Mechanism",
+          "name_artifact_ar": "آلية القوس المستعرض المفقود للأستاذ",
+          "name_artifact_de": "Verlorener Armbrustmechanismus des Großmeisters",
+          "name_artifact_fr": "Mécanisme d'arbalète perdu du grand maître",
+          "name_artifact_es": "Mecanismo perdido de ballesta del gran maestro",
+          "name_artifact_ru": "Утраченный арбалетный механизм (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "item_database_index": "6667"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Weeping Repeater",
+        "name_ar": "قوس تكرار العويل المستعرض للأستاذ",
+        "name_de": "Klagender Repetierer des Großmeisters",
+        "name_fr": "Arbalète à répétition des larmes du grand maître",
+        "name_es": "Repetidora de desconsuelo del gran maestro",
+        "name_ru": "Плачущий арбалет (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow",
+        "@attackdamage": "37",
+        "@attackspeed": "0.8",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1025",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_undead",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "3.333",
+            "@craftingfocus": "9191",
+            "craftresource": [
+              {
+                "@uniquename": "T7_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T7_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "9191",
+            "@time": "3.333",
+            "craftresource": [
+              {
+                "@uniquename": "T7_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T7_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_CROSSBOW",
+          "removespell": {
+            "@uniquename": "SNIPESHOT_CROSSBOW"
+          },
+          "craftspell": {
+            "@uniquename": "GROUNDMINE",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1125",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1225",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1325",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1425",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "8.64",
+                  "@craftingfocus": "86205",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "8.64",
+                  "@craftingfocus": "86205",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_REPEATINGCROSSBOW_UNDEAD@1",
+      "index": "6668",
+      "name_en": "Grandmaster's Weeping Repeater",
+      "name_ar": "قوس تكرار العويل المستعرض للأستاذ",
+      "name_de": "Klagender Repetierer des Großmeisters",
+      "name_fr": "Arbalète à répétition des larmes du grand maître",
+      "name_es": "Repetidora de desconsuelo del gran maestro",
+      "name_ru": "Плачущий арбалет (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "description_variable": "@ITEMS_T7_2H_REPEATINGCROSSBOW_UNDEAD_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow",
+        "attackdamage": "37",
+        "attackspeed": "0.8",
+        "twohanded": "true",
+        "attackrange": "11",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1025",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Weeping Repeater",
+        "DE-DE": "Klagender Repetierer des Großmeisters",
+        "FR-FR": "Arbalète à répétition des larmes du grand maître",
+        "RU-RU": "Плачущий арбалет (магистр)",
+        "PL-PL": "Wielostrzałowiec Wszechmistrza",
+        "ES-ES": "Repetidora de desconsuelo del gran maestro",
+        "PT-BR": "Repetidor Lamentoso do Grão-mestre",
+        "IT-IT": "Balestra a ripetizione del gran maestro",
+        "ZH-CN": "宗师级愁怨连弩",
+        "KO-KR": "그랜드 마스터의 위핑 리피터",
+        "JA-JP": "ウィーピングリピーター（グランドマスター）",
+        "ZH-TW": "宗師級哀泣複誦者",
+        "ID-ID": "Pengulang Tangisan Grandmaster",
+        "TR-TR": "Büyük Usta Çift Gözyaşı",
+        "AR-SA": "قوس تكرار العويل المستعرض للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 0.8,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow",
+        "item_power": 1025,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "GROUNDMINE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "GROUNDMINE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1125,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1225,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1325,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1425,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1125,
+        "durability": 96486,
+        "crafting_silver": 0,
+        "crafting_time": 5,
+        "crafting_focus": 16085,
+        "crafting_resources": [
+          {
+            "id": "T7_PLANKS_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T7_METALBAR_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1125,
+      "effective_durability": 96486,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+          "name_artifact_en": "Grandmaster's Lost Crossbow Mechanism",
+          "name_artifact_ar": "آلية القوس المستعرض المفقود للأستاذ",
+          "name_artifact_de": "Verlorener Armbrustmechanismus des Großmeisters",
+          "name_artifact_fr": "Mécanisme d'arbalète perdu du grand maître",
+          "name_artifact_es": "Mecanismo perdido de ballesta del gran maestro",
+          "name_artifact_ru": "Утраченный арбалетный механизм (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_REPEATINGCROSSBOW_UNDEAD@1",
+        "item_database_index": "6668"
+      },
+      "tier": 7,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Grandmaster's Weeping Repeater",
+        "name_ar": "قوس تكرار العويل المستعرض للأستاذ",
+        "name_de": "Klagender Repetierer des Großmeisters",
+        "name_fr": "Arbalète à répétition des larmes du grand maître",
+        "name_es": "Repetidora de desconsuelo del gran maestro",
+        "name_ru": "Плачущий арбалет (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow",
+        "@attackdamage": "37",
+        "@attackspeed": "0.8",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1025",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_undead",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "3.333",
+            "@craftingfocus": "9191",
+            "craftresource": [
+              {
+                "@uniquename": "T7_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T7_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "9191",
+            "@time": "3.333",
+            "craftresource": [
+              {
+                "@uniquename": "T7_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T7_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_CROSSBOW",
+          "removespell": {
+            "@uniquename": "SNIPESHOT_CROSSBOW"
+          },
+          "craftspell": {
+            "@uniquename": "GROUNDMINE",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1125",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1225",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1325",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1425",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "8.64",
+                  "@craftingfocus": "86205",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "8.64",
+                  "@craftingfocus": "86205",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_REPEATINGCROSSBOW_UNDEAD@2",
+      "index": "6669",
+      "name_en": "Grandmaster's Weeping Repeater",
+      "name_ar": "قوس تكرار العويل المستعرض للأستاذ",
+      "name_de": "Klagender Repetierer des Großmeisters",
+      "name_fr": "Arbalète à répétition des larmes du grand maître",
+      "name_es": "Repetidora de desconsuelo del gran maestro",
+      "name_ru": "Плачущий арбалет (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "description_variable": "@ITEMS_T7_2H_REPEATINGCROSSBOW_UNDEAD_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow",
+        "attackdamage": "37",
+        "attackspeed": "0.8",
+        "twohanded": "true",
+        "attackrange": "11",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1025",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Weeping Repeater",
+        "DE-DE": "Klagender Repetierer des Großmeisters",
+        "FR-FR": "Arbalète à répétition des larmes du grand maître",
+        "RU-RU": "Плачущий арбалет (магистр)",
+        "PL-PL": "Wielostrzałowiec Wszechmistrza",
+        "ES-ES": "Repetidora de desconsuelo del gran maestro",
+        "PT-BR": "Repetidor Lamentoso do Grão-mestre",
+        "IT-IT": "Balestra a ripetizione del gran maestro",
+        "ZH-CN": "宗师级愁怨连弩",
+        "KO-KR": "그랜드 마스터의 위핑 리피터",
+        "JA-JP": "ウィーピングリピーター（グランドマスター）",
+        "ZH-TW": "宗師級哀泣複誦者",
+        "ID-ID": "Pengulang Tangisan Grandmaster",
+        "TR-TR": "Büyük Usta Çift Gözyaşı",
+        "AR-SA": "قوس تكرار العويل المستعرض للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 0.8,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow",
+        "item_power": 1025,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "GROUNDMINE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "GROUNDMINE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1125,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1225,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1325,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1425,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1225,
+        "durability": 144729,
+        "crafting_silver": 0,
+        "crafting_time": 6,
+        "crafting_focus": 28148,
+        "crafting_resources": [
+          {
+            "id": "T7_PLANKS_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T7_METALBAR_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1225,
+      "effective_durability": 144729,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+          "name_artifact_en": "Grandmaster's Lost Crossbow Mechanism",
+          "name_artifact_ar": "آلية القوس المستعرض المفقود للأستاذ",
+          "name_artifact_de": "Verlorener Armbrustmechanismus des Großmeisters",
+          "name_artifact_fr": "Mécanisme d'arbalète perdu du grand maître",
+          "name_artifact_es": "Mecanismo perdido de ballesta del gran maestro",
+          "name_artifact_ru": "Утраченный арбалетный механизм (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_REPEATINGCROSSBOW_UNDEAD@2",
+        "item_database_index": "6669"
+      },
+      "tier": 7,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Grandmaster's Weeping Repeater",
+        "name_ar": "قوس تكرار العويل المستعرض للأستاذ",
+        "name_de": "Klagender Repetierer des Großmeisters",
+        "name_fr": "Arbalète à répétition des larmes du grand maître",
+        "name_es": "Repetidora de desconsuelo del gran maestro",
+        "name_ru": "Плачущий арбалет (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow",
+        "@attackdamage": "37",
+        "@attackspeed": "0.8",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1025",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_undead",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "3.333",
+            "@craftingfocus": "9191",
+            "craftresource": [
+              {
+                "@uniquename": "T7_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T7_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "9191",
+            "@time": "3.333",
+            "craftresource": [
+              {
+                "@uniquename": "T7_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T7_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_CROSSBOW",
+          "removespell": {
+            "@uniquename": "SNIPESHOT_CROSSBOW"
+          },
+          "craftspell": {
+            "@uniquename": "GROUNDMINE",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1125",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1225",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1325",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1425",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "8.64",
+                  "@craftingfocus": "86205",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "8.64",
+                  "@craftingfocus": "86205",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_REPEATINGCROSSBOW_UNDEAD@3",
+      "index": "6670",
+      "name_en": "Grandmaster's Weeping Repeater",
+      "name_ar": "قوس تكرار العويل المستعرض للأستاذ",
+      "name_de": "Klagender Repetierer des Großmeisters",
+      "name_fr": "Arbalète à répétition des larmes du grand maître",
+      "name_es": "Repetidora de desconsuelo del gran maestro",
+      "name_ru": "Плачущий арбалет (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "description_variable": "@ITEMS_T7_2H_REPEATINGCROSSBOW_UNDEAD_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow",
+        "attackdamage": "37",
+        "attackspeed": "0.8",
+        "twohanded": "true",
+        "attackrange": "11",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1025",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Weeping Repeater",
+        "DE-DE": "Klagender Repetierer des Großmeisters",
+        "FR-FR": "Arbalète à répétition des larmes du grand maître",
+        "RU-RU": "Плачущий арбалет (магистр)",
+        "PL-PL": "Wielostrzałowiec Wszechmistrza",
+        "ES-ES": "Repetidora de desconsuelo del gran maestro",
+        "PT-BR": "Repetidor Lamentoso do Grão-mestre",
+        "IT-IT": "Balestra a ripetizione del gran maestro",
+        "ZH-CN": "宗师级愁怨连弩",
+        "KO-KR": "그랜드 마스터의 위핑 리피터",
+        "JA-JP": "ウィーピングリピーター（グランドマスター）",
+        "ZH-TW": "宗師級哀泣複誦者",
+        "ID-ID": "Pengulang Tangisan Grandmaster",
+        "TR-TR": "Büyük Usta Çift Gözyaşı",
+        "AR-SA": "قوس تكرار العويل المستعرض للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 0.8,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow",
+        "item_power": 1025,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "GROUNDMINE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "GROUNDMINE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1125,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1225,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1325,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1425,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1325,
+        "durability": 217094,
+        "crafting_silver": 0,
+        "crafting_time": 7.2,
+        "crafting_focus": 49260,
+        "crafting_resources": [
+          {
+            "id": "T7_PLANKS_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T7_METALBAR_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1325,
+      "effective_durability": 217094,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+          "name_artifact_en": "Grandmaster's Lost Crossbow Mechanism",
+          "name_artifact_ar": "آلية القوس المستعرض المفقود للأستاذ",
+          "name_artifact_de": "Verlorener Armbrustmechanismus des Großmeisters",
+          "name_artifact_fr": "Mécanisme d'arbalète perdu du grand maître",
+          "name_artifact_es": "Mecanismo perdido de ballesta del gran maestro",
+          "name_artifact_ru": "Утраченный арбалетный механизм (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_REPEATINGCROSSBOW_UNDEAD@3",
+        "item_database_index": "6670"
+      },
+      "tier": 7,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Grandmaster's Weeping Repeater",
+        "name_ar": "قوس تكرار العويل المستعرض للأستاذ",
+        "name_de": "Klagender Repetierer des Großmeisters",
+        "name_fr": "Arbalète à répétition des larmes du grand maître",
+        "name_es": "Repetidora de desconsuelo del gran maestro",
+        "name_ru": "Плачущий арбалет (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow",
+        "@attackdamage": "37",
+        "@attackspeed": "0.8",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1025",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_undead",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "3.333",
+            "@craftingfocus": "9191",
+            "craftresource": [
+              {
+                "@uniquename": "T7_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T7_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "9191",
+            "@time": "3.333",
+            "craftresource": [
+              {
+                "@uniquename": "T7_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T7_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_CROSSBOW",
+          "removespell": {
+            "@uniquename": "SNIPESHOT_CROSSBOW"
+          },
+          "craftspell": {
+            "@uniquename": "GROUNDMINE",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1125",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1225",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1325",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1425",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "8.64",
+                  "@craftingfocus": "86205",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "8.64",
+                  "@craftingfocus": "86205",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_REPEATINGCROSSBOW_UNDEAD@4",
+      "index": "6671",
+      "name_en": "Grandmaster's Weeping Repeater",
+      "name_ar": "قوس تكرار العويل المستعرض للأستاذ",
+      "name_de": "Klagender Repetierer des Großmeisters",
+      "name_fr": "Arbalète à répétition des larmes du grand maître",
+      "name_es": "Repetidora de desconsuelo del gran maestro",
+      "name_ru": "Плачущий арбалет (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "description_variable": "@ITEMS_T7_2H_REPEATINGCROSSBOW_UNDEAD_DESC"
+      },
+      "category": "Weapons_Crossbow",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "maxqualitylevel": "5",
+        "abilitypower": "120",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "crossbow",
+        "attacktype": "ranged",
+        "mainhandanimationtype": "crossbow",
+        "attackdamage": "37",
+        "attackspeed": "0.8",
+        "twohanded": "true",
+        "attackrange": "11",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "64324",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "0",
+        "itempower": "1025",
+        "hitpointsregenerationbonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "crossbow",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.1",
+        "combatspecachievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "crossbow_undead"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Weeping Repeater",
+        "DE-DE": "Klagender Repetierer des Großmeisters",
+        "FR-FR": "Arbalète à répétition des larmes du grand maître",
+        "RU-RU": "Плачущий арбалет (магистр)",
+        "PL-PL": "Wielostrzałowiec Wszechmistrza",
+        "ES-ES": "Repetidora de desconsuelo del gran maestro",
+        "PT-BR": "Repetidor Lamentoso do Grão-mestre",
+        "IT-IT": "Balestra a ripetizione del gran maestro",
+        "ZH-CN": "宗师级愁怨连弩",
+        "KO-KR": "그랜드 마스터의 위핑 리피터",
+        "JA-JP": "ウィーピングリピーター（グランドマスター）",
+        "ZH-TW": "宗師級哀泣複誦者",
+        "ID-ID": "Pengulang Tangisan Grandmaster",
+        "TR-TR": "Büyük Usta Çift Gözyaşı",
+        "AR-SA": "قوس تكرار العويل المستعرض للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 37,
+        "attack_speed": 0.8,
+        "attack_range": 11,
+        "attack_type": "ranged",
+        "mainhand_animation": "crossbow",
+        "item_power": 1025,
+        "ability_power": 120,
+        "durability": 64324,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "GROUNDMINE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "GROUNDMINE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1125,
+          "durability": 96486,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1225,
+          "durability": 144729,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1325,
+          "durability": 217094,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1425,
+          "durability": 325640,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_PLANKS_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1425,
+        "durability": 325640,
+        "crafting_silver": 0,
+        "crafting_time": 8.64,
+        "crafting_focus": 86205,
+        "crafting_resources": [
+          {
+            "id": "T7_PLANKS_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T7_METALBAR_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1425,
+      "effective_durability": 325640,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "crossbow",
+        "crafting_category": "crossbow",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+          "name_artifact_en": "Grandmaster's Lost Crossbow Mechanism",
+          "name_artifact_ar": "آلية القوس المستعرض المفقود للأستاذ",
+          "name_artifact_de": "Verlorener Armbrustmechanismus des Großmeisters",
+          "name_artifact_fr": "Mécanisme d'arbalète perdu du grand maître",
+          "name_artifact_es": "Mecanismo perdido de ballesta del gran maestro",
+          "name_artifact_ru": "Утраченный арбалетный механизм (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_REPEATINGCROSSBOW_UNDEAD@4",
+        "item_database_index": "6671"
+      },
+      "tier": 7,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Grandmaster's Weeping Repeater",
+        "name_ar": "قوس تكرار العويل المستعرض للأستاذ",
+        "name_de": "Klagender Repetierer des Großmeisters",
+        "name_fr": "Arbalète à répétition des larmes du grand maître",
+        "name_es": "Repetidora de desconsuelo del gran maestro",
+        "name_ru": "Плачущий арбалет (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_REPEATINGCROSSBOW_UNDEAD",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "crossbow",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "crossbow",
+        "@attackdamage": "37",
+        "@attackspeed": "0.8",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "64324",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "0",
+        "@itempower": "1025",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "crossbow",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.1",
+        "@combatspecachievement": "COMBAT_CROSSBOWS_UNDEAD",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "crossbow_undead",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "3.333",
+            "@craftingfocus": "9191",
+            "craftresource": [
+              {
+                "@uniquename": "T7_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T7_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@craftingfocus": "9191",
+            "@time": "3.333",
+            "craftresource": [
+              {
+                "@uniquename": "T7_PLANKS",
+                "@count": "20"
+              },
+              {
+                "@uniquename": "T7_METALBAR",
+                "@count": "12"
+              },
+              {
+                "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "craftingspelllist": {
+          "@reference": "T4_2H_CROSSBOW",
+          "removespell": {
+            "@uniquename": "SNIPESHOT_CROSSBOW"
+          },
+          "craftspell": {
+            "@uniquename": "GROUNDMINE",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1125",
+              "@durability": "96486",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "5",
+                  "@craftingfocus": "16085",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1225",
+              "@durability": "144729",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "6",
+                  "@craftingfocus": "28148",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1325",
+              "@durability": "217094",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "7.2",
+                  "@craftingfocus": "49260",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1425",
+              "@durability": "325640",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "8.64",
+                  "@craftingfocus": "86205",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "8.64",
+                  "@craftingfocus": "86205",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T7_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "20"
+                    },
+                    {
+                      "@uniquename": "T7_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "12"
+                    },
+                    {
+                      "@uniquename": "T7_ARTEFACT_TOKEN_FAVOR_1",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

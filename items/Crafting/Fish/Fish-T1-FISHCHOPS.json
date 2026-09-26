@@ -1,0 +1,521 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Fish",
+  "base_id": "T1_FISHCHOPS",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T1_FISHCHOPS",
+      "index": "186",
+      "name_en": "Chopped Fish",
+      "name_ar": "سمك مفروم",
+      "name_de": "Zerkleinerter Fisch",
+      "name_fr": "Morceaux de poisson",
+      "name_es": "Pescado picado",
+      "name_ru": "Разделанная рыба",
+      "descriptions": {
+        "description_en": "The primary ingredient in all Fish Sauce",
+        "description_ar": "المكون الرئيسي في جميع أطباق صلصة السمك",
+        "description_de": "Die grundlegende Zutat jeder Fischsauce",
+        "description_fr": "L'ingrédient principal dans toutes sauces de poisson",
+        "description_es": "El ingrediente principal en todas las salsas de pescado",
+        "description_ru": "Основной ингредиент для всех рыбных соусов"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FISHCHOPS",
+        "description_variable": "@ITEMS_T1_FISHCHOPS_DESC"
+      },
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T1_FISHCHOPS",
+        "uisprite": "FISHCHOPS",
+        "itemvalue": "1",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "fish",
+        "tier": "1",
+        "resourcetype": "TOKEN",
+        "weight": "0.05",
+        "maxstacksize": "999",
+        "unlockedtocraft": "true",
+        "enchantmentlevel": "0",
+        "shopsubcategory2": "other"
+      },
+      "item_stats": {
+        "itemvalue": "1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Chopped Fish",
+        "DE-DE": "Zerkleinerter Fisch",
+        "FR-FR": "Morceaux de poisson",
+        "RU-RU": "Разделанная рыба",
+        "PL-PL": "Siekana Ryba",
+        "ES-ES": "Pescado picado",
+        "PT-BR": "Peixe Picado",
+        "IT-IT": "Pesce sminuzzato",
+        "ZH-CN": "切碎的鱼",
+        "KO-KR": "토막낸 생선",
+        "JA-JP": "刻んだ魚",
+        "ZH-TW": "切碎的魚",
+        "ID-ID": "Ikan Cincang",
+        "TR-TR": "Doğranmış Balık",
+        "AR-SA": "سمك مفروم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "The primary ingredient in all Fish Sauce",
+        "DE-DE": "Die grundlegende Zutat jeder Fischsauce",
+        "FR-FR": "L'ingrédient principal dans toutes sauces de poisson",
+        "RU-RU": "Основной ингредиент для всех рыбных соусов",
+        "PL-PL": "Główny składnik każdego sosu rybnego",
+        "ES-ES": "El ingrediente principal en todas es la salsa de pescado",
+        "PT-BR": "O principal ingrediente para todos os Molhos de Peixe",
+        "IT-IT": "L'ingrediente principale di tutte le salse di pesce",
+        "ZH-CN": "所有鱼酱的主要成分",
+        "KO-KR": "모든 피시 소스의 기본 재료입니다.",
+        "JA-JP": "全ての魚醤の主な原料",
+        "ZH-TW": "所有魚醬的主要食材",
+        "ID-ID": "Bahan utama dalam semua Saus Ikan",
+        "TR-TR": "Tüm balık soslarının vazgeçilmez malzemesi.",
+        "AR-SA": "المكون الرئيسي في جميع أطباق صلصة السمك"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_FISH_FRESHWATER_ALL_COMMON",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T1_FISH_FRESHWATER_ALL_COMMON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.01,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T1_FISH_FRESHWATER_ALL_COMMON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T1_FISH_FRESHWATER_ALL_COMMON",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 1,
+        "weight": 0.05,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "fish",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": "FISHCHOPS"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FISHCHOPS",
+        "item_database_index": "186"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Chopped Fish",
+        "name_ar": "سمك مفروم",
+        "name_de": "Zerkleinerter Fisch",
+        "name_fr": "Morceaux de poisson",
+        "name_es": "Pescado picado",
+        "name_ru": "Разделанная рыба"
+      },
+      "raw": {
+        "@uniquename": "T1_FISHCHOPS",
+        "@uisprite": "FISHCHOPS",
+        "@itemvalue": "1",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@tier": "1",
+        "@resourcetype": "TOKEN",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@enchantmentlevel": "0",
+        "@shopsubcategory2": "other",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@amountcrafted": "1",
+            "craftresource": {
+              "@uniquename": "T1_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.02",
+            "@amountcrafted": "2",
+            "craftresource": {
+              "@uniquename": "T2_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.03",
+            "@amountcrafted": "3",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.04",
+            "@amountcrafted": "4",
+            "craftresource": {
+              "@uniquename": "T4_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.06",
+            "@amountcrafted": "6",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.08",
+            "@amountcrafted": "8",
+            "craftresource": {
+              "@uniquename": "T6_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.14",
+            "@amountcrafted": "14",
+            "craftresource": {
+              "@uniquename": "T8_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@amountcrafted": "1",
+            "craftresource": {
+              "@uniquename": "T1_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.02",
+            "@amountcrafted": "2",
+            "craftresource": {
+              "@uniquename": "T2_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.03",
+            "@amountcrafted": "3",
+            "craftresource": {
+              "@uniquename": "T3_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.04",
+            "@amountcrafted": "4",
+            "craftresource": {
+              "@uniquename": "T4_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.06",
+            "@amountcrafted": "6",
+            "craftresource": {
+              "@uniquename": "T5_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.08",
+            "@amountcrafted": "8",
+            "craftresource": {
+              "@uniquename": "T6_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T7_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.14",
+            "@amountcrafted": "14",
+            "craftresource": {
+              "@uniquename": "T8_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_FOREST_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_FOREST_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_FOREST_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_STEPPE_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_STEPPE_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_STEPPE_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_MOUNTAIN_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_MOUNTAIN_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_HIGHLANDS_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_HIGHLANDS_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_SWAMP_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_SWAMP_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_SWAMP_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_AVALON_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_AVALON_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_AVALON_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_DRAGON_AREA_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_DRAGON_AREA_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_SALTWATER_ALL_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_SALTWATER_ALL_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_SALTWATER_ALL_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "2.0",
+            "@amountcrafted": "200",
+            "craftresource": {
+              "@uniquename": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
+              "@count": "1"
+            }
+          }
+        ]
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

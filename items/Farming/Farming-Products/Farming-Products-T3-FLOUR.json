@@ -1,0 +1,197 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Farming_Products",
+  "base_id": "T3_FLOUR",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_FLOUR",
+      "index": "946",
+      "name_en": "Flour",
+      "name_ar": "الدقيق",
+      "name_de": "Mehl",
+      "name_fr": "Farine",
+      "name_es": "Harina",
+      "name_ru": "Мука",
+      "descriptions": {
+        "description_en": "Used to make Bread.",
+        "description_ar": "يُستخدم لصناعة الخبز.",
+        "description_de": "Für Brot notwendig.",
+        "description_fr": "Pour fabriquer du pain.",
+        "description_es": "Se usa para hacer pan.",
+        "description_ru": "Используется для выпечки хлеба."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FLOUR",
+        "description_variable": "@ITEMS_T3_FLOUR_DESC"
+      },
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_FLOUR",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farmingproducts",
+        "craftingcategory": "food",
+        "tier": "3",
+        "weight": "0.65",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "nutrition": "52",
+        "shopsubcategory2": "flour"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Flour",
+        "DE-DE": "Mehl",
+        "FR-FR": "Farine",
+        "RU-RU": "Мука",
+        "PL-PL": "Mąka",
+        "ES-ES": "Harina",
+        "PT-BR": "Farinha",
+        "IT-IT": "Farina",
+        "ZH-CN": "面粉",
+        "KO-KR": "밀가루",
+        "JA-JP": "小麦粉",
+        "ZH-TW": "麵粉",
+        "ID-ID": "Tepung",
+        "TR-TR": "Un",
+        "AR-SA": "الدقيق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Used to make Bread.",
+        "DE-DE": "Für Brot notwendig.",
+        "FR-FR": "Pour fabriquer du pain.",
+        "RU-RU": "Используется для выпечки хлеба.",
+        "PL-PL": "Używana do produkcji chleba.",
+        "ES-ES": "Se usa para hacer pan.",
+        "PT-BR": "Usada para fazer Pão.",
+        "IT-IT": "Utile per produrre pane.",
+        "ZH-CN": "用于制作面包。",
+        "KO-KR": "빵을 만드는 데 사용됩니다.",
+        "JA-JP": "パンづくりに使う",
+        "ZH-TW": "用於製作麵包。",
+        "ID-ID": "Digunakan untuk membuat Roti.",
+        "TR-TR": "Ekmek yapmak için kullanılır.",
+        "AR-SA": "يُستخدم لصناعة الخبز."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_WHEAT",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T3_WHEAT",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.02,
+        "crafting_focus": 38,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_WHEAT",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_WHEAT",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 0.65,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "farmingproducts",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FLOUR",
+        "item_database_index": "946"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Flour",
+        "name_ar": "الدقيق",
+        "name_de": "Mehl",
+        "name_fr": "Farine",
+        "name_es": "Harina",
+        "name_ru": "Мука"
+      },
+      "raw": {
+        "@uniquename": "T3_FLOUR",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "3",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@nutrition": "52",
+        "@shopsubcategory2": "flour",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T3_WHEAT",
+            "@count": "1"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

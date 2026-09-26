@@ -1,0 +1,374 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T5_MEAL_SOUP",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_MEAL_SOUP",
+      "index": "724",
+      "name_en": "Cabbage Soup",
+      "name_ar": "حساء الملفوف",
+      "name_de": "Kohlsuppe",
+      "name_fr": "Soupe aux choux",
+      "name_es": "Sopa de col",
+      "name_ru": "Капустный суп",
+      "descriptions": {
+        "description_en": "Simple meal that increases health regeneration outside of combat for a long period.",
+        "description_ar": "وجبة بسيطة تزيد تجديد الصحة خارج القتال لفترة طويلة.",
+        "description_de": "Ein einfaches Mahl, das die Lebensregeneration außerhalb von Kämpfen für lange Zeit erhöht.",
+        "description_fr": "Repas simple qui augmente la régén. de la santé en dehors des combats pendant un long moment",
+        "description_es": "Comida simple que aumenta la regeneración de salud fuera de combate durante mucho tiempo",
+        "description_ru": "Простая еда, надолго ускоряет восстановление здоровья вне боя."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MEAL_SOUP",
+        "description_variable": "@ITEMS_MEAL_SOUP_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_MEAL_SOUP",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_HEALTH_REG_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "5",
+        "dummyitempower": "800",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "7.56",
+        "nutrition": "756",
+        "descriptionlocatag": "@ITEMS_MEAL_SOUP_DESC",
+        "shopsubcategory2": "soups"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Cabbage Soup",
+        "DE-DE": "Kohlsuppe",
+        "FR-FR": "Soupe aux choux",
+        "RU-RU": "Капустный суп",
+        "PL-PL": "Kapuśniak",
+        "ES-ES": "Sopa de col",
+        "PT-BR": "Sopa de Repolho",
+        "IT-IT": "Zuppa di cavoli",
+        "ZH-CN": "白菜汤",
+        "KO-KR": "양배추 수프",
+        "JA-JP": "キャベツのスープ",
+        "ZH-TW": "高麗菜湯",
+        "ID-ID": "Sup Kubis",
+        "TR-TR": "Lahana Çorbası",
+        "AR-SA": "حساء الملفوف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Simple meal that increases health regeneration outside of combat for a long period.",
+        "DE-DE": "Ein einfaches Mahl, das die Gesundheitsregeneration außerhalb von Kämpfen für lange Zeit erhöht.",
+        "FR-FR": "Repas simple qui augmente la régén. de la santé en dehors des combats pendant un long moment",
+        "RU-RU": "Простая еда, надолго ускоряет восстановление здоровья вне боя.",
+        "PL-PL": "Prosty posiłek, który na długo zwiększa regenerację zdrowia poza walką",
+        "ES-ES": "Comida simple que aumenta la regeneración de salud fuera de combate durante mucho tiempo",
+        "PT-BR": "Refeição simples que aumenta a regeneração de vida fora de combate por um longo período",
+        "IT-IT": "Una pietanza semplice che aumenta la rigenerazione della salute fuori dal combattimento per un lungo periodo.",
+        "ZH-CN": "简单的餐食，可以在战斗之余长时间加快生命恢复。",
+        "KO-KR": "긴 시간 동안 전투 이외의 상황에서 생명력 재생을 증가시켜주는 단순한 식사입니다.",
+        "JA-JP": "戦闘外での体力再生量が長時間増加するシンプルな料理。",
+        "ZH-TW": "一道輕食，能長時間提升非戰鬥時的生命值回復速度。",
+        "ID-ID": "Makanan sederhana yang meningkatkan regenerasi HP di luar pertempuran untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine, savaş dışındayken sağlık yenilemesini artıran basit bir yemek.",
+        "AR-SA": "وجبة بسيطة تزيد تجديد الصحة خارج القتال لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_CABBAGE",
+        "primary_count": 144,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_CABBAGE",
+            "count": 144
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.52,
+        "crafting_focus": 504,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T5_CABBAGE",
+            "count": 144
+          }
+        ],
+        "primary_resource": "T5_CABBAGE",
+        "primary_count": 144,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 7.56,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 704,
+          "crafting_resources": [
+            {
+              "id": "T5_CABBAGE",
+              "count": 144,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 90,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 1105,
+          "crafting_resources": [
+            {
+              "id": "T5_CABBAGE",
+              "count": 144,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 90,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.52,
+          "crafting_focus": 2306,
+          "crafting_resources": [
+            {
+              "id": "T5_CABBAGE",
+              "count": 144,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 90,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MEAL_SOUP",
+        "item_database_index": "724"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Cabbage Soup",
+        "name_ar": "حساء الملفوف",
+        "name_de": "Kohlsuppe",
+        "name_fr": "Soupe aux choux",
+        "name_es": "Sopa de col",
+        "name_ru": "Капустный суп"
+      },
+      "raw": {
+        "@uniquename": "T5_MEAL_SOUP",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_HEALTH_REG_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "5",
+        "@dummyitempower": "800",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "7.56",
+        "@nutrition": "756",
+        "@descriptionlocatag": "@ITEMS_MEAL_SOUP_DESC",
+        "@shopsubcategory2": "soups",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "504",
+          "@time": "2.52",
+          "craftresource": {
+            "@uniquename": "T5_CABBAGE",
+            "@count": "144"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "900",
+              "@consumespell": "FOOD_HEALTH_REG_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "704",
+                "@time": "2.52",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "1000",
+              "@consumespell": "FOOD_HEALTH_REG_P7",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "1105",
+                "@time": "2.52",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1100",
+              "@consumespell": "FOOD_HEALTH_REG_P8",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "2306",
+                "@time": "2.52",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_CABBAGE",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

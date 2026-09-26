@@ -1,0 +1,3419 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Quarterstaff",
+  "base_id": "T7_2H_QUARTERSTAFF",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T7_2H_QUARTERSTAFF",
+      "index": "8826",
+      "name_en": "Grandmaster's Quarterstaff",
+      "name_ar": "عصا قتالية قصيرة للأستاذ",
+      "name_de": "Kampfstab des Großmeisters",
+      "name_fr": "Long bâton du grand maître",
+      "name_es": "Vara del gran maestro",
+      "name_ru": "Боевой шест (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_QUARTERSTAFF",
+        "description_variable": "@ITEMS_T7_2H_QUARTERSTAFF_DESC"
+      },
+      "category": "Weapons_Quarterstaff",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_QUARTERSTAFF",
+        "attackupperbodyblendtime": "0.0735",
+        "scaleattackendanimmode": "true",
+        "attackendanimscalemode": "fit",
+        "uisprite": "2H_QUARTERSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "126",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "quarterstaff",
+        "attacktype": "melee",
+        "mainhandanimationtype": "quarterstaff",
+        "attackdamage": "20",
+        "attackspeed": "2",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "42882",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "150",
+        "itempower": "1000",
+        "hitpointsregenerationbonus": "0.15",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "quarterstaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "combatspecachievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "quarterstaff_quarterstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Quarterstaff",
+        "DE-DE": "Kampfstab des Großmeisters",
+        "FR-FR": "Long bâton du grand maître",
+        "RU-RU": "Боевой шест (магистр)",
+        "PL-PL": "Kij Wszechmistrza",
+        "ES-ES": "Vara del gran maestro",
+        "PT-BR": "Bordão do Grão-mestre",
+        "IT-IT": "Asta ferrata del gran maestro",
+        "ZH-CN": "宗师级铁头棒",
+        "KO-KR": "그랜드 마스터의 쿼터스태프",
+        "JA-JP": "六尺杖（グランドマスター）",
+        "ZH-TW": "宗師級鐵頭棍",
+        "ID-ID": "Tongkat Pemukul Grandmaster",
+        "TR-TR": "Büyük Usta Sopası",
+        "AR-SA": "عصا قتالية قصيرة للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 20,
+        "attack_speed": 2,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "quarterstaff",
+        "item_power": 1000,
+        "ability_power": 126,
+        "durability": 42882,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "QS_WHIRLWIND2",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CARTWHEEL",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "LAUNCHER",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SEPARATING_SLAM",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "QS_WHIRLWIND2",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CARTWHEEL",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "LAUNCHER",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SEPARATING_SLAM",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_QUARTERSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 217090,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1000,
+      "effective_durability": 42882,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "quarterstaff",
+        "crafting_category": "quarterstaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_QUARTERSTAFF"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_QUARTERSTAFF",
+        "item_database_index": "8826"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Quarterstaff",
+        "name_ar": "عصا قتالية قصيرة للأستاذ",
+        "name_de": "Kampfstab des Großmeisters",
+        "name_fr": "Long bâton du grand maître",
+        "name_es": "Vara del gran maestro",
+        "name_ru": "Боевой шест (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_QUARTERSTAFF",
+        "@attackupperbodyblendtime": "0.0735",
+        "@scaleattackendanimmode": "true",
+        "@attackendanimscalemode": "fit",
+        "@uisprite": "2H_QUARTERSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "126",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "quarterstaff",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "quarterstaff",
+        "@attackdamage": "20",
+        "@attackspeed": "2",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "42882",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "150",
+        "@itempower": "1000",
+        "@hitpointsregenerationbonus": "0.15",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "quarterstaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@combatspecachievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "quarterstaff_quarterstaff",
+        "attackvariations": {
+          "@attackchaintime": "1",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.55",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.53",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "3",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.935",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_QUARTERSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "217090",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_QUARTERSTAFF@1",
+      "index": "8827",
+      "name_en": "Grandmaster's Quarterstaff",
+      "name_ar": "عصا قتالية قصيرة للأستاذ",
+      "name_de": "Kampfstab des Großmeisters",
+      "name_fr": "Long bâton du grand maître",
+      "name_es": "Vara del gran maestro",
+      "name_ru": "Боевой шест (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_QUARTERSTAFF",
+        "description_variable": "@ITEMS_T7_2H_QUARTERSTAFF_DESC"
+      },
+      "category": "Weapons_Quarterstaff",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_QUARTERSTAFF",
+        "attackupperbodyblendtime": "0.0735",
+        "scaleattackendanimmode": "true",
+        "attackendanimscalemode": "fit",
+        "uisprite": "2H_QUARTERSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "126",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "quarterstaff",
+        "attacktype": "melee",
+        "mainhandanimationtype": "quarterstaff",
+        "attackdamage": "20",
+        "attackspeed": "2",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "42882",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "150",
+        "itempower": "1000",
+        "hitpointsregenerationbonus": "0.15",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "quarterstaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "combatspecachievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "quarterstaff_quarterstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Quarterstaff",
+        "DE-DE": "Kampfstab des Großmeisters",
+        "FR-FR": "Long bâton du grand maître",
+        "RU-RU": "Боевой шест (магистр)",
+        "PL-PL": "Kij Wszechmistrza",
+        "ES-ES": "Vara del gran maestro",
+        "PT-BR": "Bordão do Grão-mestre",
+        "IT-IT": "Asta ferrata del gran maestro",
+        "ZH-CN": "宗师级铁头棒",
+        "KO-KR": "그랜드 마스터의 쿼터스태프",
+        "JA-JP": "六尺杖（グランドマスター）",
+        "ZH-TW": "宗師級鐵頭棍",
+        "ID-ID": "Tongkat Pemukul Grandmaster",
+        "TR-TR": "Büyük Usta Sopası",
+        "AR-SA": "عصا قتالية قصيرة للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 20,
+        "attack_speed": 2,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "quarterstaff",
+        "item_power": 1000,
+        "ability_power": 126,
+        "durability": 42882,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "QS_WHIRLWIND2",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CARTWHEEL",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "LAUNCHER",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SEPARATING_SLAM",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "QS_WHIRLWIND2",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CARTWHEEL",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "LAUNCHER",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SEPARATING_SLAM",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_QUARTERSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 217090,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1100,
+        "durability": 64323,
+        "crafting_silver": 0,
+        "crafting_time": 5,
+        "crafting_focus": 16085,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T7_LEATHER_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 64323,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "quarterstaff",
+        "crafting_category": "quarterstaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_QUARTERSTAFF"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_QUARTERSTAFF@1",
+        "item_database_index": "8827"
+      },
+      "tier": 7,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Grandmaster's Quarterstaff",
+        "name_ar": "عصا قتالية قصيرة للأستاذ",
+        "name_de": "Kampfstab des Großmeisters",
+        "name_fr": "Long bâton du grand maître",
+        "name_es": "Vara del gran maestro",
+        "name_ru": "Боевой шест (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_QUARTERSTAFF",
+        "@attackupperbodyblendtime": "0.0735",
+        "@scaleattackendanimmode": "true",
+        "@attackendanimscalemode": "fit",
+        "@uisprite": "2H_QUARTERSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "126",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "quarterstaff",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "quarterstaff",
+        "@attackdamage": "20",
+        "@attackspeed": "2",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "42882",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "150",
+        "@itempower": "1000",
+        "@hitpointsregenerationbonus": "0.15",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "quarterstaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@combatspecachievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "quarterstaff_quarterstaff",
+        "attackvariations": {
+          "@attackchaintime": "1",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.55",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.53",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "3",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.935",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_QUARTERSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "217090",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_QUARTERSTAFF@2",
+      "index": "8828",
+      "name_en": "Grandmaster's Quarterstaff",
+      "name_ar": "عصا قتالية قصيرة للأستاذ",
+      "name_de": "Kampfstab des Großmeisters",
+      "name_fr": "Long bâton du grand maître",
+      "name_es": "Vara del gran maestro",
+      "name_ru": "Боевой шест (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_QUARTERSTAFF",
+        "description_variable": "@ITEMS_T7_2H_QUARTERSTAFF_DESC"
+      },
+      "category": "Weapons_Quarterstaff",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_QUARTERSTAFF",
+        "attackupperbodyblendtime": "0.0735",
+        "scaleattackendanimmode": "true",
+        "attackendanimscalemode": "fit",
+        "uisprite": "2H_QUARTERSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "126",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "quarterstaff",
+        "attacktype": "melee",
+        "mainhandanimationtype": "quarterstaff",
+        "attackdamage": "20",
+        "attackspeed": "2",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "42882",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "150",
+        "itempower": "1000",
+        "hitpointsregenerationbonus": "0.15",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "quarterstaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "combatspecachievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "quarterstaff_quarterstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Quarterstaff",
+        "DE-DE": "Kampfstab des Großmeisters",
+        "FR-FR": "Long bâton du grand maître",
+        "RU-RU": "Боевой шест (магистр)",
+        "PL-PL": "Kij Wszechmistrza",
+        "ES-ES": "Vara del gran maestro",
+        "PT-BR": "Bordão do Grão-mestre",
+        "IT-IT": "Asta ferrata del gran maestro",
+        "ZH-CN": "宗师级铁头棒",
+        "KO-KR": "그랜드 마스터의 쿼터스태프",
+        "JA-JP": "六尺杖（グランドマスター）",
+        "ZH-TW": "宗師級鐵頭棍",
+        "ID-ID": "Tongkat Pemukul Grandmaster",
+        "TR-TR": "Büyük Usta Sopası",
+        "AR-SA": "عصا قتالية قصيرة للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 20,
+        "attack_speed": 2,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "quarterstaff",
+        "item_power": 1000,
+        "ability_power": 126,
+        "durability": 42882,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "QS_WHIRLWIND2",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CARTWHEEL",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "LAUNCHER",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SEPARATING_SLAM",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "QS_WHIRLWIND2",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CARTWHEEL",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "LAUNCHER",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SEPARATING_SLAM",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_QUARTERSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 217090,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1200,
+        "durability": 96485,
+        "crafting_silver": 0,
+        "crafting_time": 6,
+        "crafting_focus": 28148,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T7_LEATHER_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 96485,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "quarterstaff",
+        "crafting_category": "quarterstaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_QUARTERSTAFF"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_QUARTERSTAFF@2",
+        "item_database_index": "8828"
+      },
+      "tier": 7,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Grandmaster's Quarterstaff",
+        "name_ar": "عصا قتالية قصيرة للأستاذ",
+        "name_de": "Kampfstab des Großmeisters",
+        "name_fr": "Long bâton du grand maître",
+        "name_es": "Vara del gran maestro",
+        "name_ru": "Боевой шест (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_QUARTERSTAFF",
+        "@attackupperbodyblendtime": "0.0735",
+        "@scaleattackendanimmode": "true",
+        "@attackendanimscalemode": "fit",
+        "@uisprite": "2H_QUARTERSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "126",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "quarterstaff",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "quarterstaff",
+        "@attackdamage": "20",
+        "@attackspeed": "2",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "42882",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "150",
+        "@itempower": "1000",
+        "@hitpointsregenerationbonus": "0.15",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "quarterstaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@combatspecachievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "quarterstaff_quarterstaff",
+        "attackvariations": {
+          "@attackchaintime": "1",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.55",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.53",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "3",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.935",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_QUARTERSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "217090",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_QUARTERSTAFF@3",
+      "index": "8829",
+      "name_en": "Grandmaster's Quarterstaff",
+      "name_ar": "عصا قتالية قصيرة للأستاذ",
+      "name_de": "Kampfstab des Großmeisters",
+      "name_fr": "Long bâton du grand maître",
+      "name_es": "Vara del gran maestro",
+      "name_ru": "Боевой шест (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_QUARTERSTAFF",
+        "description_variable": "@ITEMS_T7_2H_QUARTERSTAFF_DESC"
+      },
+      "category": "Weapons_Quarterstaff",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_QUARTERSTAFF",
+        "attackupperbodyblendtime": "0.0735",
+        "scaleattackendanimmode": "true",
+        "attackendanimscalemode": "fit",
+        "uisprite": "2H_QUARTERSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "126",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "quarterstaff",
+        "attacktype": "melee",
+        "mainhandanimationtype": "quarterstaff",
+        "attackdamage": "20",
+        "attackspeed": "2",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "42882",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "150",
+        "itempower": "1000",
+        "hitpointsregenerationbonus": "0.15",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "quarterstaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "combatspecachievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "quarterstaff_quarterstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Quarterstaff",
+        "DE-DE": "Kampfstab des Großmeisters",
+        "FR-FR": "Long bâton du grand maître",
+        "RU-RU": "Боевой шест (магистр)",
+        "PL-PL": "Kij Wszechmistrza",
+        "ES-ES": "Vara del gran maestro",
+        "PT-BR": "Bordão do Grão-mestre",
+        "IT-IT": "Asta ferrata del gran maestro",
+        "ZH-CN": "宗师级铁头棒",
+        "KO-KR": "그랜드 마스터의 쿼터스태프",
+        "JA-JP": "六尺杖（グランドマスター）",
+        "ZH-TW": "宗師級鐵頭棍",
+        "ID-ID": "Tongkat Pemukul Grandmaster",
+        "TR-TR": "Büyük Usta Sopası",
+        "AR-SA": "عصا قتالية قصيرة للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 20,
+        "attack_speed": 2,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "quarterstaff",
+        "item_power": 1000,
+        "ability_power": 126,
+        "durability": 42882,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "QS_WHIRLWIND2",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CARTWHEEL",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "LAUNCHER",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SEPARATING_SLAM",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "QS_WHIRLWIND2",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CARTWHEEL",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "LAUNCHER",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SEPARATING_SLAM",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_QUARTERSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 217090,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1300,
+        "durability": 144727,
+        "crafting_silver": 0,
+        "crafting_time": 7.2,
+        "crafting_focus": 49260,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T7_LEATHER_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 144727,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "quarterstaff",
+        "crafting_category": "quarterstaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_QUARTERSTAFF"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_QUARTERSTAFF@3",
+        "item_database_index": "8829"
+      },
+      "tier": 7,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Grandmaster's Quarterstaff",
+        "name_ar": "عصا قتالية قصيرة للأستاذ",
+        "name_de": "Kampfstab des Großmeisters",
+        "name_fr": "Long bâton du grand maître",
+        "name_es": "Vara del gran maestro",
+        "name_ru": "Боевой шест (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_QUARTERSTAFF",
+        "@attackupperbodyblendtime": "0.0735",
+        "@scaleattackendanimmode": "true",
+        "@attackendanimscalemode": "fit",
+        "@uisprite": "2H_QUARTERSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "126",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "quarterstaff",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "quarterstaff",
+        "@attackdamage": "20",
+        "@attackspeed": "2",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "42882",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "150",
+        "@itempower": "1000",
+        "@hitpointsregenerationbonus": "0.15",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "quarterstaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@combatspecachievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "quarterstaff_quarterstaff",
+        "attackvariations": {
+          "@attackchaintime": "1",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.55",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.53",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "3",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.935",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_QUARTERSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "217090",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_2H_QUARTERSTAFF@4",
+      "index": "8830",
+      "name_en": "Grandmaster's Quarterstaff",
+      "name_ar": "عصا قتالية قصيرة للأستاذ",
+      "name_de": "Kampfstab des Großmeisters",
+      "name_fr": "Long bâton du grand maître",
+      "name_es": "Vara del gran maestro",
+      "name_ru": "Боевой шест (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_QUARTERSTAFF",
+        "description_variable": "@ITEMS_T7_2H_QUARTERSTAFF_DESC"
+      },
+      "category": "Weapons_Quarterstaff",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_QUARTERSTAFF",
+        "attackupperbodyblendtime": "0.0735",
+        "scaleattackendanimmode": "true",
+        "attackendanimscalemode": "fit",
+        "uisprite": "2H_QUARTERSTAFF",
+        "maxqualitylevel": "5",
+        "abilitypower": "126",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "quarterstaff",
+        "attacktype": "melee",
+        "mainhandanimationtype": "quarterstaff",
+        "attackdamage": "20",
+        "attackspeed": "2",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "22.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "42882",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "150",
+        "itempower": "1000",
+        "hitpointsregenerationbonus": "0.15",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "quarterstaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "combatspecachievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "quarterstaff_quarterstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Quarterstaff",
+        "DE-DE": "Kampfstab des Großmeisters",
+        "FR-FR": "Long bâton du grand maître",
+        "RU-RU": "Боевой шест (магистр)",
+        "PL-PL": "Kij Wszechmistrza",
+        "ES-ES": "Vara del gran maestro",
+        "PT-BR": "Bordão do Grão-mestre",
+        "IT-IT": "Asta ferrata del gran maestro",
+        "ZH-CN": "宗师级铁头棒",
+        "KO-KR": "그랜드 마스터의 쿼터스태프",
+        "JA-JP": "六尺杖（グランドマスター）",
+        "ZH-TW": "宗師級鐵頭棍",
+        "ID-ID": "Tongkat Pemukul Grandmaster",
+        "TR-TR": "Büyük Usta Sopası",
+        "AR-SA": "عصا قتالية قصيرة للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.333,
+        "crafting_focus": 9191,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 20,
+        "attack_speed": 2,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "quarterstaff",
+        "item_power": 1000,
+        "ability_power": 126,
+        "durability": 42882,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 22.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "QS_WHIRLWIND2",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CARTWHEEL",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "LAUNCHER",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SEPARATING_SLAM",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "CONCUSSIVEBLOW_MULTI_1",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "QSTAFF_COMBO",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "WHIRLING_STAFF",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "STUNRUN",
+            "slots": 2,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "QS_WHIRLWIND2",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "CARTWHEEL",
+            "slots": 1,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "LAUNCHER",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "SEPARATING_SLAM",
+            "slots": 2,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "VAULT_ATTACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_STUNCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ENERGYCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_CCDURATION_CHANCE_QUARTERSTAFF",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_2H_QUARTERSTAFF"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1100,
+          "durability": 64323,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1200,
+          "durability": 96485,
+          "crafting_silver": 0,
+          "crafting_time": 6,
+          "crafting_focus": 28148,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1300,
+          "durability": 144727,
+          "crafting_silver": 0,
+          "crafting_time": 7.2,
+          "crafting_focus": 49260,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1400,
+          "durability": 217090,
+          "crafting_silver": 0,
+          "crafting_time": 8.64,
+          "crafting_focus": 86205,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1400,
+        "durability": 217090,
+        "crafting_silver": 0,
+        "crafting_time": 8.64,
+        "crafting_focus": 86205,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T7_LEATHER_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 217090,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "quarterstaff",
+        "crafting_category": "quarterstaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_QUARTERSTAFF"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_QUARTERSTAFF@4",
+        "item_database_index": "8830"
+      },
+      "tier": 7,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Grandmaster's Quarterstaff",
+        "name_ar": "عصا قتالية قصيرة للأستاذ",
+        "name_de": "Kampfstab des Großmeisters",
+        "name_fr": "Long bâton du grand maître",
+        "name_es": "Vara del gran maestro",
+        "name_ru": "Боевой шест (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_QUARTERSTAFF",
+        "@attackupperbodyblendtime": "0.0735",
+        "@scaleattackendanimmode": "true",
+        "@attackendanimscalemode": "fit",
+        "@uisprite": "2H_QUARTERSTAFF",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "126",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "quarterstaff",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "quarterstaff",
+        "@attackdamage": "20",
+        "@attackspeed": "2",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "22.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "42882",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "150",
+        "@itempower": "1000",
+        "@hitpointsregenerationbonus": "0.15",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "quarterstaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@combatspecachievement": "COMBAT_QUARTERSTAFFS_QUARTERSTAFF",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "quarterstaff_quarterstaff",
+        "attackvariations": {
+          "@attackchaintime": "1",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.55",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.53",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "3",
+              "@attackspeedfactor": "1",
+              "@attackdamagetimefactor": "0.935",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.333",
+          "@craftingfocus": "9191",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_QUARTERSTAFF"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1100",
+              "@durability": "64323",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1200",
+              "@durability": "96485",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6",
+                "@craftingfocus": "28148",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1300",
+              "@durability": "144727",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.2",
+                "@craftingfocus": "49260",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1400",
+              "@durability": "217090",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "8.64",
+                "@craftingfocus": "86205",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

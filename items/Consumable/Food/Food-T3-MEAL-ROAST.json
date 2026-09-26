@@ -1,0 +1,460 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T3_MEAL_ROAST",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_MEAL_ROAST",
+      "index": "908",
+      "name_en": "Roast Chicken",
+      "name_ar": "دجاج مشوي",
+      "name_de": "Brathähnchen",
+      "name_fr": "Poulet rôti",
+      "name_es": "Pollo asado",
+      "name_ru": "Жареный цыпленок",
+      "descriptions": {
+        "description_en": "A savory meal that heals you based on the damage you deal for a long period.",
+        "description_ar": "وجبة لذيذة تعالجك حسب الضرر الذي تلحقه أنت لفترة طويلة.",
+        "description_de": "Eine herzhafte Mahlzeit, die dich für eine lange Zeit entsprechend des von dir verursachten Schadens heilt.",
+        "description_fr": "Un repas savoureux qui vous soigne en fonction des dégâts que vous infligez pendant une longue période.",
+        "description_es": "Una comida sabrosa que te cura en función del daño que infliges durante un largo período.",
+        "description_ru": "Пикантная еда, исцеляющая вас в зависимости от нанесенного вами урона в течение длительного периода времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_MEAL_ROAST",
+        "description_variable": "@ITEMS_MEAL_ROAST_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_MEAL_ROAST",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_BUFF_LIFESTEAL_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "3",
+        "dummyitempower": "600",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.31",
+        "nutrition": "87",
+        "descriptionlocatag": "@ITEMS_MEAL_ROAST_DESC",
+        "shopsubcategory2": "roasts"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Roast Chicken",
+        "DE-DE": "Brathähnchen",
+        "FR-FR": "Poulet rôti",
+        "RU-RU": "Жареный цыпленок",
+        "PL-PL": "Pieczony Kurczak",
+        "ES-ES": "Pollo asado",
+        "PT-BR": "Frango Assado",
+        "IT-IT": "Pollo arrosto",
+        "ZH-CN": "烤鸡",
+        "KO-KR": "구운 치킨",
+        "JA-JP": "ローストチキン",
+        "ZH-TW": "烤雞",
+        "ID-ID": "Ayam Panggang",
+        "TR-TR": "Kızartılmış Tavuk",
+        "AR-SA": "دجاج مشوي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A savory meal that heals you based on the damage you deal for a long period.",
+        "DE-DE": "Eine herzhafte Mahlzeit, die dich für eine lange Zeit entsprechend des von dir verursachten Schadens heilt.",
+        "FR-FR": "Un repas savoureux qui vous soigne en fonction des dégâts que vous infligez pendant une longue période.",
+        "RU-RU": "Пикантная еда, исцеляющая вас в зависимости от нанесенного вами урона в течение длительного периода времени.",
+        "PL-PL": "Pyszny posiłek, który przywraca ci życie w oparciu o zadawane przez ciebie obrażenia przez długi okres czasu.",
+        "ES-ES": "Una comida sabrosa que te cura en función del daño que infliges durante un largo período.",
+        "PT-BR": "Uma refeição saborosa que te cura baseado no dano que você causa por um longo período.",
+        "IT-IT": "Pietanza saporita che ti fa guarire in base al danno che infliggi per un lungo periodo.",
+        "ZH-CN": "美味佳肴，根据你造成的伤害为你恢复生命值，能持续较长时间。",
+        "KO-KR": "감칠맛 나는 요리로 부여하는 대미지에 따라 긴 시간 동안 치유합니다.",
+        "JA-JP": "長時間にわたり与ダメージに基づいて自分を治癒する味の良い料理。",
+        "ZH-TW": "一道佳餚，能長時間根據您造成的傷害為您治療。",
+        "ID-ID": "Makanan lezat yang menyembuhkanmu berdasarkan damage yang kamu hasilkan untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine seni, verdiğin hasara oranla iyileştiren lezzetli bir yemek.",
+        "AR-SA": "وجبة لذيذة تعالجك حسب الضرر الذي تلحقه أنت لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_MEAT",
+        "primary_count": 8,
+        "secondary_resource": "T2_BEAN",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T3_MEAT",
+            "count": 8
+          },
+          {
+            "id": "T2_BEAN",
+            "count": 4
+          },
+          {
+            "id": "T4_MILK",
+            "count": 4
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.29,
+        "crafting_focus": 58,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_MEAT",
+            "count": 8
+          },
+          {
+            "id": "T2_BEAN",
+            "count": 4
+          },
+          {
+            "id": "T4_MILK",
+            "count": 4
+          }
+        ],
+        "primary_resource": "T3_MEAT",
+        "primary_count": 8,
+        "secondary_resource": "T2_BEAN",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 1.31,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.29,
+          "crafting_focus": 81,
+          "crafting_resources": [
+            {
+              "id": "T3_MEAT",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T2_BEAN",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_MILK",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 10,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.29,
+          "crafting_focus": 125,
+          "crafting_resources": [
+            {
+              "id": "T3_MEAT",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T2_BEAN",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_MILK",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 10,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.29,
+          "crafting_focus": 259,
+          "crafting_resources": [
+            {
+              "id": "T3_MEAT",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T2_BEAN",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_MILK",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 10,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_MEAL_ROAST",
+        "item_database_index": "908"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Roast Chicken",
+        "name_ar": "دجاج مشوي",
+        "name_de": "Brathähnchen",
+        "name_fr": "Poulet rôti",
+        "name_es": "Pollo asado",
+        "name_ru": "Жареный цыпленок"
+      },
+      "raw": {
+        "@uniquename": "T3_MEAL_ROAST",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_BUFF_LIFESTEAL_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "3",
+        "@dummyitempower": "600",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.31",
+        "@nutrition": "87",
+        "@descriptionlocatag": "@ITEMS_MEAL_ROAST_DESC",
+        "@shopsubcategory2": "roasts",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "58",
+          "@time": "0.29",
+          "craftresource": [
+            {
+              "@uniquename": "T3_MEAT",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T2_BEAN",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T4_MILK",
+              "@count": "4"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "700",
+              "@consumespell": "FOOD_BUFF_LIFESTEAL_P2",
+              "@nutrition": "98",
+              "@weight": "1.31",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "81",
+                "@time": "0.29",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_MEAT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T2_BEAN",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "800",
+              "@consumespell": "FOOD_BUFF_LIFESTEAL_P3",
+              "@nutrition": "98",
+              "@weight": "1.31",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "125",
+                "@time": "0.29",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_MEAT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T2_BEAN",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "900",
+              "@consumespell": "FOOD_BUFF_LIFESTEAL_P4",
+              "@nutrition": "98",
+              "@weight": "1.31",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "259",
+                "@time": "0.29",
+                "craftresource": [
+                  {
+                    "@uniquename": "T3_MEAT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T2_BEAN",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

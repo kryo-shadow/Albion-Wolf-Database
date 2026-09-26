@@ -1,0 +1,220 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Furniture",
+  "family": "Furniture_House",
+  "base_id": "T6_FURNITUREITEM_TABLE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_FURNITUREITEM_TABLE",
+      "index": "3196",
+      "name_en": "Master's Table",
+      "name_ar": "طاولة للخبير",
+      "name_de": "Tisch des Meisters",
+      "name_fr": "Table du maître",
+      "name_es": "Mesa del maestro",
+      "name_ru": "Стол (мастер)",
+      "descriptions": {
+        "description_en": "Contributes to Laborer happiness. Item can only be placed indoors.",
+        "description_ar": "تساهم في رفع مستوى سعادة العامل. عنصر لا يمكن وضعه إلا في مكان مغلق.",
+        "description_de": "Erhöht Arbeiterzufriedenheit. Muss drinnen platziert werden.",
+        "description_fr": "Contribue à la joie des travailleurs. À placer uniquement en intérieur.",
+        "description_es": "Mejora la felicidad de los trabajadores. Objeto exclusivo de interiores.",
+        "description_ru": "Повышает счастье работников. Должен стоять в доме."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FURNITUREITEM_TABLE",
+        "description_variable": "@ITEMS_T6_FURNITUREITEM_TABLE_DESC"
+      },
+      "category": "Furniture_House",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_FURNITUREITEM_TABLE",
+        "shopcategory": "other",
+        "shopsubcategory1": "labourers",
+        "tier": "6",
+        "labourerfurnituretype": "table",
+        "labourersaffected": "all",
+        "labourerhappiness": "300",
+        "labourersperfurnitureitem": "6",
+        "weight": "27.34",
+        "unlockedtocraft": "true",
+        "placeableindoors": "true",
+        "placeableoutdoors": "false",
+        "placeableindungeons": "false",
+        "placeableinexpeditions": "false",
+        "shopsubcategory2": "tables"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Table",
+        "DE-DE": "Tisch des Meisters",
+        "FR-FR": "Table du maître",
+        "RU-RU": "Стол (мастер)",
+        "PL-PL": "Stół Mistrza",
+        "ES-ES": "Mesa del maestro",
+        "PT-BR": "Mesa do Mestre",
+        "IT-IT": "Tavolo del maestro",
+        "ZH-CN": "大师级桌子",
+        "KO-KR": "마스터의 테이블",
+        "JA-JP": "テーブル（マスター）",
+        "ZH-TW": "大師級餐桌",
+        "ID-ID": "Meja Master",
+        "TR-TR": "Usta Masası",
+        "AR-SA": "طاولة للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Contributes to Laborer happiness. Item can only be placed indoors.",
+        "DE-DE": "Erhöht Arbeiterzufriedenheit. Muss drinnen platziert werden.",
+        "FR-FR": "Contribue à la joie des travailleurs. À placer uniquement en intérieur.",
+        "RU-RU": "Повышает счастье работников. Должен стоять в доме.",
+        "PL-PL": "Wpływa na zadowolenie pracowników. Przedmiot do pomieszczenia.",
+        "ES-ES": "Mejora la felicidad de los trabajadores. Objeto exclusivo de interiores.",
+        "PT-BR": "Contribui para a felicidade do Trabalhador. Item somente para interiores.",
+        "IT-IT": "Contribuisce alla felicità dei lavoratori. L'oggetto si può posizionare solo al chiuso.",
+        "ZH-CN": "提升工人幸福指数，只能放在室内。",
+        "KO-KR": "노동자의 행복도에 기여합니다. 아이템은 실내에만 배치 가능합니다.",
+        "JA-JP": "労働者の幸福度に寄与します。アイテムは内部にのみ配置できます。",
+        "ZH-TW": "能增加工人的幸福感。此物品只能放置於室內。",
+        "ID-ID": "Berkontribusi pada kebahagiaan Pekerja. Item hanya bisa diletakkan dalam ruangan.",
+        "TR-TR": "İşçilerin Mutluluk değerine katkı sağlar. Yalnızca kapalı alanlara yerleştirilebilir.",
+        "AR-SA": "تساهم في رفع مستوى سعادة العامل. عنصر لا يمكن وضعه إلا في مكان مغلق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 30,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 30,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 30
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 30
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5,
+        "crafting_focus": 3216,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 30
+          },
+          {
+            "id": "T6_CLOTH",
+            "count": 30
+          }
+        ],
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 30,
+        "secondary_resource": "T6_CLOTH",
+        "secondary_count": 30
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 27.34,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "other",
+        "shop_subcategory1": "labourers",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FURNITUREITEM_TABLE",
+        "item_database_index": "3196"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Table",
+        "name_ar": "طاولة للخبير",
+        "name_de": "Tisch des Meisters",
+        "name_fr": "Table du maître",
+        "name_es": "Mesa del maestro",
+        "name_ru": "Стол (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_FURNITUREITEM_TABLE",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "labourers",
+        "@tier": "6",
+        "@labourerfurnituretype": "table",
+        "@labourersaffected": "all",
+        "@labourerhappiness": "300",
+        "@labourersperfurnitureitem": "6",
+        "@weight": "27.34",
+        "@unlockedtocraft": "true",
+        "@placeableindoors": "true",
+        "@placeableoutdoors": "false",
+        "@placeableindungeons": "false",
+        "@placeableinexpeditions": "false",
+        "@shopsubcategory2": "tables",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "5",
+          "@craftingfocus": "3216",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "30"
+            },
+            {
+              "@uniquename": "T6_CLOTH",
+              "@count": "30"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Hide",
+  "base_id": "T6_2H_TOOL_KNIFE_AVALON",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_2H_TOOL_KNIFE_AVALON",
+      "index": "3000",
+      "name_en": "Master's Avalonian Skinning Knife",
+      "name_ar": "سكين سلخ أفالونية للخبير",
+      "name_de": "Avalonisches Abhäutemesser des Meisters",
+      "name_fr": "Couteau à dépecer avalonien du maître",
+      "name_es": "Cuchillo de despellejar avaloniano del maestro",
+      "name_ru": "Авалонский свежевальный нож мастера",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_TOOL_KNIFE_AVALON",
+        "description_variable": "@ITEMS_GENERAL_EQUIPMENT_ITEM_DESC"
+      },
+      "category": "Gathering_Hide",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_TOOL_KNIFE_AVALON",
+        "mesh": "T6_MAIN_SKINNINGKNIFE",
+        "uisprite": "MAIN_SKINNINGKNIFE_AVALON",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "hide",
+        "attacktype": "melee",
+        "attackdamage": "40",
+        "attackspeed": "1",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "3.8",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "12400",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_skinning knife",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "900",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_GENERAL_EQUIPMENT_ITEM_DESC",
+        "shopsubcategory2": "knifes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Avalonian Skinning Knife",
+        "DE-DE": "Avalonisches Abhäutemesser des Meisters",
+        "FR-FR": "Couteau à dépecer avalonien du maître",
+        "RU-RU": "Авалонский свежевальный нож мастера",
+        "PL-PL": "Awaloński Nóż do Skórowania Mistrza",
+        "ES-ES": "Cuchillo de despellejar avaloniano del maestro",
+        "PT-BR": "Faca de Esfolar Avaloniano do Mestre",
+        "IT-IT": "Coltello da scuoiatore di Avalon del maestro",
+        "ZH-CN": "大师级阿瓦隆剥皮刀",
+        "KO-KR": "마스터의 아발로니안 무두질용 나이프",
+        "JA-JP": "アバロニア人の皮剥ぎナイフ（マスター）",
+        "ZH-TW": "大師級阿瓦隆剝皮刀",
+        "ID-ID": "Pisau Pengulit Avalonian Master",
+        "TR-TR": "Usta Avalon Deri Yüzme Bıçağı",
+        "AR-SA": "سكين سلخ أفالونية للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 160,
+        "secondary_resource": "T6_PLANKS",
+        "secondary_count": 6,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 160
+          },
+          {
+            "id": "T6_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.66667,
+        "crafting_focus": 1313,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 160
+          },
+          {
+            "id": "T6_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T6_METALBAR",
+            "count": 2
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 160,
+        "secondary_resource": "T6_PLANKS",
+        "secondary_count": 6
+      },
+      "combat_stats": {
+        "attack_damage": 40,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_skinning knife",
+        "item_power": 900,
+        "ability_power": 100,
+        "durability": 12400,
+        "max_quality_level": 1,
+        "tier_raw": 6,
+        "weight": 3.8,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_AVALON_YIELD_HIDE_T6",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_AVALON_YIELD_HIDE_T6",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 900,
+      "effective_durability": 12400,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "hide",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "MAIN_SKINNINGKNIFE_AVALON"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_TOOL_KNIFE_AVALON",
+        "item_database_index": "3000"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Avalonian Skinning Knife",
+        "name_ar": "سكين سلخ أفالونية للخبير",
+        "name_de": "Avalonisches Abhäutemesser des Meisters",
+        "name_fr": "Couteau à dépecer avalonien du maître",
+        "name_es": "Cuchillo de despellejar avaloniano del maestro",
+        "name_ru": "Авалонский свежевальный нож (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_TOOL_KNIFE_AVALON",
+        "@mesh": "T6_MAIN_SKINNINGKNIFE",
+        "@uisprite": "MAIN_SKINNINGKNIFE_AVALON",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "hide",
+        "@attacktype": "melee",
+        "@attackdamage": "40",
+        "@attackspeed": "1",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "3.8",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "12400",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_skinning knife",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "900",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@descriptionlocatag": "@ITEMS_GENERAL_EQUIPMENT_ITEM_DESC",
+        "@shopsubcategory2": "knifes",
+        "canharvest": {
+          "@resourcetype": "HIDE"
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.66667",
+          "@craftingfocus": "1313",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T6_METALBAR",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "QUESTITEM_TOKEN_AVALON",
+              "@count": "160",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_AVALON_YIELD_HIDE_T6"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

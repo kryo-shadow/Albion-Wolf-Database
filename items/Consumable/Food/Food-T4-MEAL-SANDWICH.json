@@ -1,0 +1,454 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T4_MEAL_SANDWICH",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_MEAL_SANDWICH",
+      "index": "872",
+      "name_en": "Goat Sandwich",
+      "name_ar": "شطيرة الماعز",
+      "name_de": "Ziegensandwich",
+      "name_fr": "Sandwich à la chèvre",
+      "name_es": "Bocadillo de cabra",
+      "name_ru": "Сэндвич с козлятиной",
+      "descriptions": {
+        "description_en": "Sophisticated meal that increases maximum health for a long period.",
+        "description_ar": "وجبة راقية تزيد الحد الأقصى للصحة لفترة طويلة.",
+        "description_de": "Ein komplexes Mahl, das dein max. Leben für lange Zeit erhöht.",
+        "description_fr": "Repas sophistiqué qui augmente la santé max. pendant un long moment",
+        "description_es": "Comida sofisticada que aumenta la salud máxima durante mucho tiempo",
+        "description_ru": "Деликатес, надолго увеличивает здоровье."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MEAL_SANDWICH",
+        "description_variable": "@ITEMS_MEAL_SANDWICH_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_MEAL_SANDWICH",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_BUFF_MAXHP_P1",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "4",
+        "dummyitempower": "700",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "1.22",
+        "nutrition": "81",
+        "descriptionlocatag": "@ITEMS_MEAL_SANDWICH_DESC",
+        "shopsubcategory2": "sandwiches"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Goat Sandwich",
+        "DE-DE": "Ziegensandwich",
+        "FR-FR": "Sandwich à la chèvre",
+        "RU-RU": "Сэндвич с козлятиной",
+        "PL-PL": "Kanapka z Koziną",
+        "ES-ES": "Bocadillo de cabra",
+        "PT-BR": "Sanduíche de Cabra",
+        "IT-IT": "Panino con capra",
+        "ZH-CN": "山羊肉三明治",
+        "KO-KR": "염소 샌드위치",
+        "JA-JP": "ヤギサンドイッチ",
+        "ZH-TW": "山羊肉三明治",
+        "ID-ID": "Roti Lapis Kambing",
+        "TR-TR": "Keçi Sandviçi",
+        "AR-SA": "شطيرة الماعز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sophisticated meal that increases maximum health for a long period.",
+        "DE-DE": "Ein komplexes Mahl, das die max. Gesundheit für lange Zeit erhöht.",
+        "FR-FR": "Repas sophistiqué qui augmente la santé max. pendant un long moment",
+        "RU-RU": "Деликатес, надолго увеличивает здоровье.",
+        "PL-PL": "Wymyślny posiłek, który na długo zwiększa maksymalne zdrowie",
+        "ES-ES": "Comida sofisticada que aumenta la salud máxima durante mucho tiempo",
+        "PT-BR": "Refeição sofisticada que aumenta a vida máxima por um longo período",
+        "IT-IT": "Pietanza sofisticata che aumenta la salute massima per un lungo periodo.",
+        "ZH-CN": "复杂的餐食，可以长时间提升生命上限。",
+        "KO-KR": "긴 시간 동안 최대 생명력을 증가시키는 세련된 식사입니다.",
+        "JA-JP": "最大体力が長時間増加する洗練された料理。",
+        "ZH-TW": "一道精美的料理，能長時間提升生命值上限。",
+        "ID-ID": "Makanan rumit yang meningkatkan HP maksimum untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine azami sağlığı artıran incelikli bir yemek.",
+        "AR-SA": "وجبة راقية تزيد الحد الأقصى للصحة لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_MEAT",
+        "primary_count": 8,
+        "secondary_resource": "T4_BREAD",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_MEAT",
+            "count": 8
+          },
+          {
+            "id": "T4_BREAD",
+            "count": 4
+          },
+          {
+            "id": "T4_BUTTER",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.27,
+        "crafting_focus": 55,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_MEAT",
+            "count": 8
+          },
+          {
+            "id": "T4_BREAD",
+            "count": 4
+          },
+          {
+            "id": "T4_BUTTER",
+            "count": 2
+          }
+        ],
+        "primary_resource": "T4_MEAT",
+        "primary_count": 8,
+        "secondary_resource": "T4_BREAD",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 1.22,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.27,
+          "crafting_focus": 77,
+          "crafting_resources": [
+            {
+              "id": "T4_BREAD",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_MEAT",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_BUTTER",
+              "count": 2,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 10,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.27,
+          "crafting_focus": 122,
+          "crafting_resources": [
+            {
+              "id": "T4_BREAD",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_MEAT",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_BUTTER",
+              "count": 2,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 10,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.27,
+          "crafting_focus": 255,
+          "crafting_resources": [
+            {
+              "id": "T4_BREAD",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_MEAT",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_BUTTER",
+              "count": 2,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 10,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MEAL_SANDWICH",
+        "item_database_index": "872"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Goat Sandwich",
+        "name_ar": "شطيرة الماعز",
+        "name_de": "Ziegensandwich",
+        "name_fr": "Sandwich à la chèvre",
+        "name_es": "Bocadillo de cabra",
+        "name_ru": "Сэндвич с козлятиной"
+      },
+      "raw": {
+        "@uniquename": "T4_MEAL_SANDWICH",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_BUFF_MAXHP_P1",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "4",
+        "@dummyitempower": "700",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "1.22",
+        "@nutrition": "81",
+        "@descriptionlocatag": "@ITEMS_MEAL_SANDWICH_DESC",
+        "@shopsubcategory2": "sandwiches",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "55",
+          "@time": "0.27",
+          "craftresource": [
+            {
+              "@uniquename": "T4_BREAD",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T4_MEAT",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T4_BUTTER",
+              "@count": "2"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "800",
+              "@consumespell": "FOOD_BUFF_MAXHP_P2",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "77",
+                "@time": "0.27",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_MEAT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T4_BUTTER",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "900",
+              "@consumespell": "FOOD_BUFF_MAXHP_P3",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "122",
+                "@time": "0.27",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_MEAT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T4_BUTTER",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "1"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1000",
+              "@consumespell": "FOOD_BUFF_MAXHP_P4",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "255",
+                "@time": "0.27",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "4"
+                  },
+                  {
+                    "@uniquename": "T4_MEAT",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T4_BUTTER",
+                    "@count": "2"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "10"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

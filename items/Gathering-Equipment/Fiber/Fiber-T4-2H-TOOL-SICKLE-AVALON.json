@@ -1,0 +1,287 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Fiber",
+  "base_id": "T4_2H_TOOL_SICKLE_AVALON",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_2H_TOOL_SICKLE_AVALON",
+      "index": "2985",
+      "name_en": "Adept's Avalonian Sickle",
+      "name_ar": "منجل أفالوني معقوف للبارع",
+      "name_de": "Avalonische Sichel des Adepten",
+      "name_fr": "Faucille avalonienne de l'adepte",
+      "name_es": "Hoz avaloniana del iniciado",
+      "name_ru": "Авалонский серп знатока",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_TOOL_SICKLE_AVALON",
+        "description_variable": "@ITEMS_GENERAL_EQUIPMENT_ITEM_DESC"
+      },
+      "category": "Gathering_Fiber",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_TOOL_SICKLE_AVALON",
+        "mesh": "T4_MAIN_SICKLE",
+        "uisprite": "MAIN_SICKLE_AVALON",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "fiber",
+        "attacktype": "melee",
+        "attackdamage": "31",
+        "attackspeed": "1",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "4",
+        "weight": "1.69",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "2800",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_sickle",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "700",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_GENERAL_EQUIPMENT_ITEM_DESC",
+        "shopsubcategory2": "sickle"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Avalonian Sickle",
+        "DE-DE": "Avalonische Sichel des Adepten",
+        "FR-FR": "Faucille avalonienne de l'adepte",
+        "RU-RU": "Авалонский серп знатока",
+        "PL-PL": "Awaloński Sierp Adepta",
+        "ES-ES": "Hoz avaloniana del iniciado",
+        "PT-BR": "Foice Avaloniano do Adepto",
+        "IT-IT": "Falcetto di Avalon del sapiente",
+        "ZH-CN": "老手级阿瓦隆镰刀",
+        "KO-KR": "숙련자의 아발로니안 낫",
+        "JA-JP": "アバロニア人の小がま（名人）",
+        "ZH-TW": "老手級阿瓦隆鐮刀",
+        "ID-ID": "Sabit Avalonian Mahir",
+        "TR-TR": "Ehil Avalon Orağı",
+        "AR-SA": "منجل أفالوني معقوف للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 20,
+        "secondary_resource": "T4_PLANKS",
+        "secondary_count": 6,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 20
+          },
+          {
+            "id": "T4_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.33333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 20
+          },
+          {
+            "id": "T4_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 2
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 20,
+        "secondary_resource": "T4_PLANKS",
+        "secondary_count": 6
+      },
+      "combat_stats": {
+        "attack_damage": 31,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_sickle",
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 2800,
+        "max_quality_level": 1,
+        "tier_raw": 4,
+        "weight": 1.69,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_AVALON_YIELD_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_AVALON_YIELD_FIBER_T4",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 2800,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "fiber",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "MAIN_SICKLE_AVALON"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_TOOL_SICKLE_AVALON",
+        "item_database_index": "2985"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Avalonian Sickle",
+        "name_ar": "منجل أفالوني معقوف للبارع",
+        "name_de": "Avalonische Sichel des Adepten",
+        "name_fr": "Faucille avalonienne de l'adepte",
+        "name_es": "Hoz avaloniana del iniciado",
+        "name_ru": "Авалонский серп (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_TOOL_SICKLE_AVALON",
+        "@mesh": "T4_MAIN_SICKLE",
+        "@uisprite": "MAIN_SICKLE_AVALON",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "fiber",
+        "@attacktype": "melee",
+        "@attackdamage": "31",
+        "@attackspeed": "1",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "4",
+        "@weight": "1.69",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "2800",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_sickle",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "700",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@descriptionlocatag": "@ITEMS_GENERAL_EQUIPMENT_ITEM_DESC",
+        "@shopsubcategory2": "sickle",
+        "canharvest": {
+          "@resourcetype": "FIBER"
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.33333",
+          "@craftingfocus": "429",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "QUESTITEM_TOKEN_AVALON",
+              "@count": "20",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_AVALON_YIELD_FIBER_T4"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

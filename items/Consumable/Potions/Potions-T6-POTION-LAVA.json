@@ -1,0 +1,493 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T6_POTION_LAVA",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_POTION_LAVA",
+      "index": "666",
+      "name_en": "Hellfire Potion",
+      "name_ar": "جرعة نار الجحيم",
+      "name_de": "Höllenfeuertrank",
+      "name_fr": "Potion de feu infernal",
+      "name_es": "Poción de fuego infernal",
+      "name_ru": "Зелье адского пламени",
+      "descriptions": {
+        "description_en": "Fiery potion. Can be thrown at a ground location to create an area of infernal flames.",
+        "description_ar": "جرعة نارية. يمكن إلقاؤها على موقع أرضي لتأجيج نيران حارقة.",
+        "description_de": "Feuriger Trank. Wirf ihn auf den Boden, um dort eine Fläche höllischer Flammen zu erzeugen.",
+        "description_fr": "Potion brûlante. Lancez-la au sol pour créer une zone de flammes infernales.",
+        "description_es": "Poción ardiente. Se lanza al suelo para crear un área de llamas infernales.",
+        "description_ru": "Огненное зелье. Бросьте его на землю, чтобы создать область с адским пламенем."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_POTION_LAVA",
+        "description_variable": "@ITEMS_POTION_LAVA_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_POTION_LAVA",
+        "slottype": "potion",
+        "weight": "0.42",
+        "consumespell": "POTION_LAVA_P3",
+        "dummyitempower": "900",
+        "abilitypower": "186",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "tier": "6",
+        "craftingcategory": "potion",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "maxstacksize": "999",
+        "descriptionlocatag": "@ITEMS_POTION_LAVA_DESC",
+        "shopsubcategory2": "lava"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Hellfire Potion",
+        "DE-DE": "Höllenfeuertrank",
+        "FR-FR": "Potion de feu infernal",
+        "RU-RU": "Зелье адского пламени",
+        "PL-PL": "Mikstura Ognia Piekielnego",
+        "ES-ES": "Poción de fuego infernal",
+        "PT-BR": "Poção Infernal",
+        "IT-IT": "Pozione Inferno",
+        "ZH-CN": "狱火药水",
+        "KO-KR": "지옥불 포션",
+        "JA-JP": "ヘルファイアポーション",
+        "ZH-TW": "獄火藥水",
+        "ID-ID": "Ramuan Api Neraka",
+        "TR-TR": "Cehennem Ateşi İksiri",
+        "AR-SA": "جرعة نار الجحيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Fiery potion. Can be thrown at a ground location to create an area of infernal flames.",
+        "DE-DE": "Feuriger Trank. Wirf ihn auf den Boden, um dort eine Fläche höllischer Flammen zu erzeugen.",
+        "FR-FR": "Potion brûlante. Lancez-la au sol pour créer une zone de flammes infernales.",
+        "RU-RU": "Огненное зелье. Бросьте его на землю, чтобы создать область с адским пламенем.",
+        "PL-PL": "Ognista Mikstura. Rzuć na ziemię, aby stworzyć obszar wypełniony piekielnymi płomieniami.",
+        "ES-ES": "Poción ardiente. Se lanza al suelo para crear un área de llamas infernales.",
+        "PT-BR": "Poção ardente. Jogue-a no chão para criar uma área de chamas infernais.",
+        "IT-IT": "Pozione incandescente. Lanciandola sul terreno, si crea un'area di fiamme infernali.",
+        "ZH-CN": "炽热的药水。扔到地上后会形成一个充满地狱烈火的区域。",
+        "KO-KR": "불타는 듯한 포션. 바닥에 던지면 맹렬히 타오르는 영역을 생성합니다.",
+        "JA-JP": "炎のポーション。地面に投げつけ、地獄の炎のエリアを作り出す。",
+        "ZH-TW": "熾熱的藥水。扔到地上後會形成一個充滿地獄烈火的區域。",
+        "ID-ID": "Ramuan berapi-api. Lemparkan ke lokasi tanah untuk menciptakan area api neraka.",
+        "TR-TR": "Sımsıcak bir iksir. Azap ateşiyle dolu bir alan oluşturmak için bir yer konumuna fırlatılabilir.",
+        "AR-SA": "جرعة نارية. يمكن إلقاؤها على موقع أرضي لتأجيج نيران حارقة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_MILK",
+        "primary_count": 48,
+        "secondary_resource": "T6_FOXGLOVE",
+        "secondary_count": 24,
+        "resources": [
+          {
+            "id": "T6_MILK",
+            "count": 48
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 24
+          },
+          {
+            "id": "T3_EGG",
+            "count": 12
+          },
+          {
+            "id": "T5_ALCHEMY_RARE_IMP",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.343,
+        "crafting_focus": 294,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_MILK",
+            "count": 48
+          },
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 24
+          },
+          {
+            "id": "T3_EGG",
+            "count": 12
+          },
+          {
+            "id": "T5_ALCHEMY_RARE_IMP",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T6_MILK",
+        "primary_count": 48,
+        "secondary_resource": "T6_FOXGLOVE",
+        "secondary_count": 24
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 0.42,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 1.343,
+          "crafting_focus": 361,
+          "crafting_resources": [
+            {
+              "id": "T5_ALCHEMY_RARE_IMP",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_MILK",
+              "count": 48,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 24,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T3_EGG",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 30,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 1.343,
+          "crafting_focus": 494,
+          "crafting_resources": [
+            {
+              "id": "T5_ALCHEMY_RARE_IMP",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_MILK",
+              "count": 48,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 24,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T3_EGG",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 30,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 1.343,
+          "crafting_focus": 895,
+          "crafting_resources": [
+            {
+              "id": "T5_ALCHEMY_RARE_IMP",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_MILK",
+              "count": 48,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 24,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T3_EGG",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 30,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_POTION_LAVA",
+        "item_database_index": "666"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Hellfire Potion",
+        "name_ar": "جرعة نار الجحيم",
+        "name_de": "Höllenfeuertrank",
+        "name_fr": "Potion de feu infernal",
+        "name_es": "Poción de fuego infernal",
+        "name_ru": "Зелье адского пламени"
+      },
+      "raw": {
+        "@uniquename": "T6_POTION_LAVA",
+        "@slottype": "potion",
+        "@weight": "0.42",
+        "@consumespell": "POTION_LAVA_P3",
+        "@dummyitempower": "900",
+        "@abilitypower": "186",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@tier": "6",
+        "@craftingcategory": "potion",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@maxstacksize": "999",
+        "@descriptionlocatag": "@ITEMS_POTION_LAVA_DESC",
+        "@shopsubcategory2": "lava",
+        "craftingrequirements": {
+          "@time": "1.343",
+          "@amountcrafted": "10",
+          "@craftingfocus": "294",
+          "craftresource": [
+            {
+              "@uniquename": "T5_ALCHEMY_RARE_IMP",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T6_MILK",
+              "@count": "48"
+            },
+            {
+              "@uniquename": "T6_FOXGLOVE",
+              "@count": "24"
+            },
+            {
+              "@uniquename": "T3_EGG",
+              "@count": "12"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_LAVA_P4",
+              "@dummyitempower": "1000",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "1.343",
+                "@amountcrafted": "10",
+                "@craftingfocus": "361",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_ALCHEMY_RARE_IMP",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T6_MILK",
+                    "@count": "48"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "30"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_LAVA_P5",
+              "@dummyitempower": "1100",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "1.343",
+                "@amountcrafted": "10",
+                "@craftingfocus": "494",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_ALCHEMY_RARE_IMP",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T6_MILK",
+                    "@count": "48"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "30"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_LAVA_P6",
+              "@dummyitempower": "1200",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "1.343",
+                "@amountcrafted": "10",
+                "@craftingfocus": "895",
+                "craftresource": [
+                  {
+                    "@uniquename": "T5_ALCHEMY_RARE_IMP",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T6_MILK",
+                    "@count": "48"
+                  },
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T3_EGG",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "30"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T6_POTION_ENERGY",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_POTION_ENERGY",
+      "index": "558",
+      "name_en": "Major Energy Potion",
+      "name_ar": "جرعة طاقة رئيسية",
+      "name_de": "Großer Energietrank",
+      "name_fr": "Potion d'énergie majeure",
+      "name_es": "Poción de energía mayor",
+      "name_ru": "Большой эликсир энергии",
+      "descriptions": {
+        "description_en": "Fizzing potion. Increases your Cooldown Rate while restoring Energy over a short period.",
+        "description_ar": "جرعة فوارة. تزيد معدل فترات الانتظار الخاصة بك وتستعيد الطاقة لفترة قصيرة من الوقت.",
+        "description_de": "Zischender Trank. Stellt sofort wieder etwas Energie her und verbessert die Abklingzeit.",
+        "description_fr": "Potion effervescente. Augmente la vitesse de recharge tout en restaurant de l'énergie sur une courte période.",
+        "description_es": "Poción efervescente. Incrementa el ritmo de tiempo de espera mientras restaura energía durante un corto periodo.",
+        "description_ru": "Шипучее зелье. Увеличивает скорость восстановления навыков, восстанавливая энергию в течение короткого времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_POTION_ENERGY",
+        "description_variable": "@ITEMS_POTION_ENERGY_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_POTION_ENERGY",
+        "uisprite": "POTION_ENERGY",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_ENERGY_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "6",
+        "dummyitempower": "900",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.87",
+        "descriptionlocatag": "@ITEMS_POTION_ENERGY_DESC",
+        "shopsubcategory2": "energy"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Major Energy Potion",
+        "DE-DE": "Großer Energietrank",
+        "FR-FR": "Potion d'énergie majeure",
+        "RU-RU": "Большой эликсир энергии",
+        "PL-PL": "Większa Mikstura Energii",
+        "ES-ES": "Poción de energía mayor",
+        "PT-BR": "Poção de Energia Maior",
+        "IT-IT": "Pozione energetica maggiore",
+        "ZH-CN": "高级能量药水",
+        "KO-KR": "대형 에너지 포션",
+        "JA-JP": "エネルギーポーション（大）",
+        "ZH-TW": "頂級能量藥水",
+        "ID-ID": "Ramuan Energi Mayor",
+        "TR-TR": "Güçlü Enerji İksiri",
+        "AR-SA": "جرعة طاقة رئيسية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Fizzing potion. Instantly restores some Energy.",
+        "DE-DE": "Zischender Trank. Stellt sofort wieder etwas Energie her.",
+        "FR-FR": "Potion pétillante. Restaure instantanément votre énergie.",
+        "RU-RU": "Шипучий эликсир. Мгновенно восстанавливает часть энергии.",
+        "PL-PL": "Musująca mikstura. Natychmiastowo przywraca część energii.",
+        "ES-ES": "Poción burbujeante. Restaura energía mientras se bebe.",
+        "PT-BR": "Poção Efervescente. Restaura a energia imediatamente.",
+        "IT-IT": "Pozione frizzante. Rigenera all'istante parte dell'energia.",
+        "ZH-CN": "咕嘟冒泡的药水，可以迅速恢复部分能量。",
+        "KO-KR": "거품이 이는 포션. 일정 정도의 에너지를 즉시 회복합니다.",
+        "JA-JP": "シュッと泡立つポーション。即座にエネルギーが少し回復します。",
+        "ZH-TW": "滋滋冒泡的藥水。使用後能立即回復一些能量。",
+        "ID-ID": "Ramuan berbuih. Seketika memulihkan sebagian Energi.",
+        "TR-TR": "Fışırdayan bir iksir. Kısa bir süreliğine Enerji yenilerken bekleme dolma hızını artırır.",
+        "AR-SA": "جرعة فوارة. تزيد معدل فترات الانتظار الخاصة بك وتستعيد الطاقة لفترة قصيرة من الوقت."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_FOXGLOVE",
+        "primary_count": 72,
+        "secondary_resource": "T6_MILK",
+        "secondary_count": 18,
+        "resources": [
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 72
+          },
+          {
+            "id": "T6_MILK",
+            "count": 18
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "count": 18
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.7515,
+        "crafting_focus": 768,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T6_FOXGLOVE",
+            "count": 72
+          },
+          {
+            "id": "T6_MILK",
+            "count": 18
+          },
+          {
+            "id": "T6_ALCOHOL",
+            "count": 18
+          }
+        ],
+        "primary_resource": "T6_FOXGLOVE",
+        "primary_count": 72,
+        "secondary_resource": "T6_MILK",
+        "secondary_count": 18
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 0.87,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 1.7515,
+          "crafting_focus": 968,
+          "crafting_resources": [
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_MILK",
+              "count": 18,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T6_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 45,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 1.7515,
+          "crafting_focus": 1369,
+          "crafting_resources": [
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_MILK",
+              "count": 18,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T6_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 45,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 1.7515,
+          "crafting_focus": 2570,
+          "crafting_resources": [
+            {
+              "id": "T6_FOXGLOVE",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_MILK",
+              "count": 18,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T6_ALCOHOL",
+              "count": 18,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 45,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_ENERGY"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_POTION_ENERGY",
+        "item_database_index": "558"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Major Energy Potion",
+        "name_ar": "جرعة طاقة رئيسية",
+        "name_de": "Großer Energietrank",
+        "name_fr": "Potion d'énergie majeure",
+        "name_es": "Poción de energía mayor",
+        "name_ru": "Большой эликсир энергии"
+      },
+      "raw": {
+        "@uniquename": "T6_POTION_ENERGY",
+        "@uisprite": "POTION_ENERGY",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_ENERGY_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "6",
+        "@dummyitempower": "900",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.87",
+        "@descriptionlocatag": "@ITEMS_POTION_ENERGY_DESC",
+        "@shopsubcategory2": "energy",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "768",
+          "@time": "1.7515",
+          "craftresource": [
+            {
+              "@uniquename": "T6_FOXGLOVE",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T6_MILK",
+              "@count": "18"
+            },
+            {
+              "@uniquename": "T6_ALCOHOL",
+              "@count": "18"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_ENERGY_P6",
+              "@dummyitempower": "1000",
+              "@abilitypower": "186",
+              "@weight": "1.1",
+              "craftingrequirements": {
+                "@time": "1.7515",
+                "@amountcrafted": "5",
+                "@craftingfocus": "968",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_MILK",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T6_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_ENERGY_P7",
+              "@dummyitempower": "1100",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "1.7515",
+                "@amountcrafted": "5",
+                "@craftingfocus": "1369",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_MILK",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T6_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_ENERGY_P8",
+              "@dummyitempower": "1200",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "1.7515",
+                "@amountcrafted": "5",
+                "@craftingfocus": "2570",
+                "craftresource": [
+                  {
+                    "@uniquename": "T6_FOXGLOVE",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T6_MILK",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T6_ALCOHOL",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "45"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

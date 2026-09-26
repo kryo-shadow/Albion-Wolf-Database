@@ -1,0 +1,300 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Refined_Resources",
+  "base_id": "T8_STONEBLOCK",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_STONEBLOCK",
+      "index": "1113",
+      "name_en": "Marble Block",
+      "name_ar": "قالب من الرخام",
+      "name_de": "Marmorblock",
+      "name_fr": "Bloc de marbre",
+      "name_es": "Bloque de mármol",
+      "name_ru": "Блок мрамора",
+      "descriptions": {
+        "description_en": "Common refined material used to build structures.",
+        "description_ar": "مادة معالجة شائعة تُستخدم في بناء الأبنية.",
+        "description_de": "Normal weiterverarbeitetes Material zum Bau von Gebäuden.",
+        "description_fr": "Matériau raffiné commun utilisé pour construire des structures.",
+        "description_es": "Material refinado común utilizado para construir estructuras.",
+        "description_ru": "Обычный обработанный материал, используемый для строительства зданиий."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_STONEBLOCK",
+        "description_variable": "@ITEMS_STONEBLOCKS_DESC"
+      },
+      "category": "Crafting_Refined_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_STONEBLOCK",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "refinedresources",
+        "craftingcategory": "rock",
+        "tier": "8",
+        "weight": "2.56",
+        "maxstacksize": "999",
+        "fasttravelfactor": "32",
+        "itemvalue": "256",
+        "enchantmentlevel": "0",
+        "descriptionlocatag": "@ITEMS_STONEBLOCKS_DESC",
+        "shopsubcategory2": "stoneblock"
+      },
+      "item_stats": {
+        "itemvalue": "256",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Marble Block",
+        "DE-DE": "Marmorblock",
+        "FR-FR": "Bloc de marbre",
+        "RU-RU": "Блок мрамора",
+        "PL-PL": "Blok Marmuru",
+        "ES-ES": "Bloque de mármol",
+        "PT-BR": "Bloco de Mármore",
+        "IT-IT": "Blocco di marmo",
+        "ZH-CN": "大理石砌块",
+        "KO-KR": "대리석 석괴",
+        "JA-JP": "大理石のブロック",
+        "ZH-TW": "大理石砌塊",
+        "ID-ID": "Balok Marmer",
+        "TR-TR": "Mermer Bloku",
+        "AR-SA": "قالب من الرخام"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Common refined material used to build structures.",
+        "DE-DE": "Normal weiterverarbeitetes Material zum Bau von Gebäuden.",
+        "FR-FR": "Matériau raffiné commun utilisé pour construire des structures.",
+        "RU-RU": "Обычный обработанный материал, используемый для строительства зданиий.",
+        "PL-PL": "Materiał powszechnie używany do stawiania budynków.",
+        "ES-ES": "Material refinado común utilizado para construir estructuras.",
+        "PT-BR": "Material refinado comum usado para construir estruturas.",
+        "IT-IT": "Materiale raffinato comune, usato per costruire edifici.",
+        "ZH-CN": "用于建造建筑的普通精制材料。",
+        "KO-KR": "구조물을 만드는데 사용되는 일반적인 정제 원료.",
+        "JA-JP": "構造物に使用される一般的な精製材料。",
+        "ZH-TW": "用來建造建築物的普通精煉材料。",
+        "ID-ID": "Material biasa yang telah disempurnakan dan digunakan untuk membangun struktur.",
+        "TR-TR": "Yapı inşa etmek için kullanılan sıradan bir işlenmiş malzeme.",
+        "AR-SA": "مادة معالجة شائعة تُستخدم في بناء الأبنية."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_ROCK",
+        "primary_count": 5,
+        "secondary_resource": "T7_STONEBLOCK",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T8_ROCK",
+            "count": 5
+          },
+          {
+            "id": "T7_STONEBLOCK",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.15625,
+        "crafting_focus": 503,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_ROCK",
+            "count": 5
+          },
+          {
+            "id": "T7_STONEBLOCK",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_ROCK",
+        "primary_count": 5,
+        "secondary_resource": "T7_STONEBLOCK",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 2.56,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "refinedresources",
+        "crafting_category": "rock",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_STONEBLOCK",
+        "item_database_index": "1113"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Marble Block",
+        "name_ar": "قالب من الرخام",
+        "name_de": "Marmorblock",
+        "name_fr": "Bloc de marbre",
+        "name_es": "Bloque de mármol",
+        "name_ru": "Блок мрамора"
+      },
+      "raw": {
+        "@uniquename": "T8_STONEBLOCK",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "refinedresources",
+        "@craftingcategory": "rock",
+        "@tier": "8",
+        "@weight": "2.56",
+        "@maxstacksize": "999",
+        "@fasttravelfactor": "32",
+        "@itemvalue": "256",
+        "@enchantmentlevel": "0",
+        "@descriptionlocatag": "@ITEMS_STONEBLOCKS_DESC",
+        "@shopsubcategory2": "stoneblock",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.15625",
+            "@craftingfocus": "503",
+            "@amountcrafted": "1",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T8_ROCK",
+                "@count": "5",
+                "@enchantmentlevel": "0"
+              },
+              {
+                "@uniquename": "T7_STONEBLOCK",
+                "@count": "1",
+                "@enchantmentlevel": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.15625",
+            "@craftingfocus": "503",
+            "@amountcrafted": "1",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T8_ROCK",
+                "@count": "4",
+                "@enchantmentlevel": "0"
+              },
+              {
+                "@uniquename": "T1_FACTION_HIGHLAND_TOKEN_1",
+                "@count": "1"
+              },
+              {
+                "@uniquename": "T7_STONEBLOCK",
+                "@enchantmentlevel": "0",
+                "@count": "1"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.3125",
+            "@craftingfocus": "503",
+            "@amountcrafted": "2",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T8_ROCK_LEVEL1",
+                "@count": "5",
+                "@enchantmentlevel": "1"
+              },
+              {
+                "@uniquename": "T7_STONEBLOCK",
+                "@count": "2",
+                "@enchantmentlevel": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "0.625",
+            "@craftingfocus": "503",
+            "@amountcrafted": "4",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T8_ROCK_LEVEL2",
+                "@count": "5",
+                "@enchantmentlevel": "2"
+              },
+              {
+                "@uniquename": "T7_STONEBLOCK",
+                "@count": "4",
+                "@enchantmentlevel": "0"
+              }
+            ]
+          },
+          {
+            "@silver": "0",
+            "@time": "1.25",
+            "@craftingfocus": "503",
+            "@amountcrafted": "8",
+            "@craftbuttonlocaoverride": "@CRAFTBUILDING_ITEM_DETAILS_BUTTON_REFINE",
+            "craftresource": [
+              {
+                "@uniquename": "T8_ROCK_LEVEL3",
+                "@count": "5",
+                "@enchantmentlevel": "3"
+              },
+              {
+                "@uniquename": "T7_STONEBLOCK",
+                "@enchantmentlevel": "0",
+                "@count": "8"
+              }
+            ]
+          }
+        ]
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

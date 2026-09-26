@@ -1,0 +1,2689 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Quarterstaff",
+  "base_id": "T4_2H_DOUBLEBLADEDSTAFF",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_2H_DOUBLEBLADEDSTAFF",
+      "index": "8861",
+      "name_en": "Adept's Double Bladed Staff",
+      "name_ar": "العصا مزدوجة النصال للبارع",
+      "name_de": "Doppelklingenstab des Adepten",
+      "name_fr": "Bâton à double tranchant de l'adepte",
+      "name_es": "Bastón de doble filo del iniciado",
+      "name_ru": "Острый шест (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_DOUBLEBLADEDSTAFF",
+        "description_variable": "@ITEMS_T4_2H_DOUBLEBLADEDSTAFF_DESC"
+      },
+      "category": "Weapons_Quarterstaff",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_DOUBLEBLADEDSTAFF",
+        "uisprite": "2H_DOUBLEBLADEDSTAFF",
+        "attackupperbodyblendtime": "0.085",
+        "maxqualitylevel": "5",
+        "abilitypower": "126",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "quarterstaff",
+        "attacktype": "melee",
+        "mainhandanimationtype": "quarterstaff_speed",
+        "mainhandanimationtype_attack": "quarterstaff_speed",
+        "attackdamage": "20",
+        "attackspeed": "2",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "150",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0.15",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "quarterstaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "quarterstaff_doublebladedstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Double Bladed Staff",
+        "DE-DE": "Doppelklingenstab des Adepten",
+        "FR-FR": "Bâton à double tranchant de l'adepte",
+        "RU-RU": "Острый шест (знаток)",
+        "PL-PL": "Rohatyna Adepta",
+        "ES-ES": "Bastón de doble filo del iniciado",
+        "PT-BR": "Cajado Bilaminado do Adepto",
+        "IT-IT": "Asta bilama del sapiente",
+        "ZH-CN": "老手级双刃棍",
+        "KO-KR": "숙련자의 더블 블레이디드 스태프",
+        "JA-JP": "諸刃の杖（名人）",
+        "ZH-TW": "老手級雙刃棍",
+        "ID-ID": "Tongkat Bermata Dua Mahir",
+        "TR-TR": "Ehil Çift Bıçaklı Asası",
+        "AR-SA": "العصا مزدوجة النصال للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 20,
+        "attack_speed": 2,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "quarterstaff_speed",
+        "item_power": 700,
+        "ability_power": 126,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DASH_KNOCKBACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DASH_KNOCKBACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 12706,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "quarterstaff",
+        "crafting_category": "quarterstaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_DOUBLEBLADEDSTAFF"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_DOUBLEBLADEDSTAFF",
+        "item_database_index": "8861"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Double Bladed Staff",
+        "name_ar": "العصا مزدوجة النصال للبارع",
+        "name_de": "Doppelklingenstab des Adepten",
+        "name_fr": "Bâton à double tranchant de l'adepte",
+        "name_es": "Bastón de doble filo del iniciado",
+        "name_ru": "Острый шест (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_DOUBLEBLADEDSTAFF",
+        "@uisprite": "2H_DOUBLEBLADEDSTAFF",
+        "@attackupperbodyblendtime": "0.085",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "126",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "quarterstaff",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "quarterstaff_speed",
+        "@mainhandanimationtype_attack": "quarterstaff_speed",
+        "@attackdamage": "20",
+        "@attackspeed": "2",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "150",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0.15",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "quarterstaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "quarterstaff_doublebladedstaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "0.48",
+              "@attackspeedfactor": "1",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "0.48",
+              "@attackspeedfactor": "1",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": [
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_QUARTERSTAFF",
+          "removespell": {
+            "@uniquename": "VAULT_ATTACK"
+          },
+          "craftspell": {
+            "@uniquename": "DASH_KNOCKBACK",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_DOUBLEBLADEDSTAFF@1",
+      "index": "8862",
+      "name_en": "Adept's Double Bladed Staff",
+      "name_ar": "العصا مزدوجة النصال للبارع",
+      "name_de": "Doppelklingenstab des Adepten",
+      "name_fr": "Bâton à double tranchant de l'adepte",
+      "name_es": "Bastón de doble filo del iniciado",
+      "name_ru": "Острый шест (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_DOUBLEBLADEDSTAFF",
+        "description_variable": "@ITEMS_T4_2H_DOUBLEBLADEDSTAFF_DESC"
+      },
+      "category": "Weapons_Quarterstaff",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_DOUBLEBLADEDSTAFF",
+        "uisprite": "2H_DOUBLEBLADEDSTAFF",
+        "attackupperbodyblendtime": "0.085",
+        "maxqualitylevel": "5",
+        "abilitypower": "126",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "quarterstaff",
+        "attacktype": "melee",
+        "mainhandanimationtype": "quarterstaff_speed",
+        "mainhandanimationtype_attack": "quarterstaff_speed",
+        "attackdamage": "20",
+        "attackspeed": "2",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "150",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0.15",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "quarterstaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "quarterstaff_doublebladedstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Double Bladed Staff",
+        "DE-DE": "Doppelklingenstab des Adepten",
+        "FR-FR": "Bâton à double tranchant de l'adepte",
+        "RU-RU": "Острый шест (знаток)",
+        "PL-PL": "Rohatyna Adepta",
+        "ES-ES": "Bastón de doble filo del iniciado",
+        "PT-BR": "Cajado Bilaminado do Adepto",
+        "IT-IT": "Asta bilama del sapiente",
+        "ZH-CN": "老手级双刃棍",
+        "KO-KR": "숙련자의 더블 블레이디드 스태프",
+        "JA-JP": "諸刃の杖（名人）",
+        "ZH-TW": "老手級雙刃棍",
+        "ID-ID": "Tongkat Bermata Dua Mahir",
+        "TR-TR": "Ehil Çift Bıçaklı Asası",
+        "AR-SA": "العصا مزدوجة النصال للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 20,
+        "attack_speed": 2,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "quarterstaff_speed",
+        "item_power": 700,
+        "ability_power": 126,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DASH_KNOCKBACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DASH_KNOCKBACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 800,
+        "durability": 19059,
+        "crafting_silver": 0,
+        "crafting_time": 2,
+        "crafting_focus": 3001,
+        "crafting_resources": [
+          {
+            "id": "T4_METALBAR_LEVEL1",
+            "count": 12,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_LEATHER_LEVEL1",
+            "count": 20,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 800,
+      "effective_durability": 19059,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "quarterstaff",
+        "crafting_category": "quarterstaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_DOUBLEBLADEDSTAFF"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_DOUBLEBLADEDSTAFF@1",
+        "item_database_index": "8862"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Double Bladed Staff",
+        "name_ar": "العصا مزدوجة النصال للبارع",
+        "name_de": "Doppelklingenstab des Adepten",
+        "name_fr": "Bâton à double tranchant de l'adepte",
+        "name_es": "Bastón de doble filo del iniciado",
+        "name_ru": "Острый шест (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_DOUBLEBLADEDSTAFF",
+        "@uisprite": "2H_DOUBLEBLADEDSTAFF",
+        "@attackupperbodyblendtime": "0.085",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "126",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "quarterstaff",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "quarterstaff_speed",
+        "@mainhandanimationtype_attack": "quarterstaff_speed",
+        "@attackdamage": "20",
+        "@attackspeed": "2",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "150",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0.15",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "quarterstaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "quarterstaff_doublebladedstaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "0.48",
+              "@attackspeedfactor": "1",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "0.48",
+              "@attackspeedfactor": "1",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": [
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_QUARTERSTAFF",
+          "removespell": {
+            "@uniquename": "VAULT_ATTACK"
+          },
+          "craftspell": {
+            "@uniquename": "DASH_KNOCKBACK",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_DOUBLEBLADEDSTAFF@2",
+      "index": "8863",
+      "name_en": "Adept's Double Bladed Staff",
+      "name_ar": "العصا مزدوجة النصال للبارع",
+      "name_de": "Doppelklingenstab des Adepten",
+      "name_fr": "Bâton à double tranchant de l'adepte",
+      "name_es": "Bastón de doble filo del iniciado",
+      "name_ru": "Острый шест (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_DOUBLEBLADEDSTAFF",
+        "description_variable": "@ITEMS_T4_2H_DOUBLEBLADEDSTAFF_DESC"
+      },
+      "category": "Weapons_Quarterstaff",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_DOUBLEBLADEDSTAFF",
+        "uisprite": "2H_DOUBLEBLADEDSTAFF",
+        "attackupperbodyblendtime": "0.085",
+        "maxqualitylevel": "5",
+        "abilitypower": "126",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "quarterstaff",
+        "attacktype": "melee",
+        "mainhandanimationtype": "quarterstaff_speed",
+        "mainhandanimationtype_attack": "quarterstaff_speed",
+        "attackdamage": "20",
+        "attackspeed": "2",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "150",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0.15",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "quarterstaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "quarterstaff_doublebladedstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Double Bladed Staff",
+        "DE-DE": "Doppelklingenstab des Adepten",
+        "FR-FR": "Bâton à double tranchant de l'adepte",
+        "RU-RU": "Острый шест (знаток)",
+        "PL-PL": "Rohatyna Adepta",
+        "ES-ES": "Bastón de doble filo del iniciado",
+        "PT-BR": "Cajado Bilaminado do Adepto",
+        "IT-IT": "Asta bilama del sapiente",
+        "ZH-CN": "老手级双刃棍",
+        "KO-KR": "숙련자의 더블 블레이디드 스태프",
+        "JA-JP": "諸刃の杖（名人）",
+        "ZH-TW": "老手級雙刃棍",
+        "ID-ID": "Tongkat Bermata Dua Mahir",
+        "TR-TR": "Ehil Çift Bıçaklı Asası",
+        "AR-SA": "العصا مزدوجة النصال للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 20,
+        "attack_speed": 2,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "quarterstaff_speed",
+        "item_power": 700,
+        "ability_power": 126,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DASH_KNOCKBACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DASH_KNOCKBACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 900,
+        "durability": 28589,
+        "crafting_silver": 0,
+        "crafting_time": 2.667,
+        "crafting_focus": 5252,
+        "crafting_resources": [
+          {
+            "id": "T4_METALBAR_LEVEL2",
+            "count": 12,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_LEATHER_LEVEL2",
+            "count": 20,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 900,
+      "effective_durability": 28589,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "quarterstaff",
+        "crafting_category": "quarterstaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_DOUBLEBLADEDSTAFF"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_DOUBLEBLADEDSTAFF@2",
+        "item_database_index": "8863"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Double Bladed Staff",
+        "name_ar": "العصا مزدوجة النصال للبارع",
+        "name_de": "Doppelklingenstab des Adepten",
+        "name_fr": "Bâton à double tranchant de l'adepte",
+        "name_es": "Bastón de doble filo del iniciado",
+        "name_ru": "Острый шест (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_DOUBLEBLADEDSTAFF",
+        "@uisprite": "2H_DOUBLEBLADEDSTAFF",
+        "@attackupperbodyblendtime": "0.085",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "126",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "quarterstaff",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "quarterstaff_speed",
+        "@mainhandanimationtype_attack": "quarterstaff_speed",
+        "@attackdamage": "20",
+        "@attackspeed": "2",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "150",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0.15",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "quarterstaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "quarterstaff_doublebladedstaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "0.48",
+              "@attackspeedfactor": "1",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "0.48",
+              "@attackspeedfactor": "1",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": [
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_QUARTERSTAFF",
+          "removespell": {
+            "@uniquename": "VAULT_ATTACK"
+          },
+          "craftspell": {
+            "@uniquename": "DASH_KNOCKBACK",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_DOUBLEBLADEDSTAFF@3",
+      "index": "8864",
+      "name_en": "Adept's Double Bladed Staff",
+      "name_ar": "العصا مزدوجة النصال للبارع",
+      "name_de": "Doppelklingenstab des Adepten",
+      "name_fr": "Bâton à double tranchant de l'adepte",
+      "name_es": "Bastón de doble filo del iniciado",
+      "name_ru": "Острый шест (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_DOUBLEBLADEDSTAFF",
+        "description_variable": "@ITEMS_T4_2H_DOUBLEBLADEDSTAFF_DESC"
+      },
+      "category": "Weapons_Quarterstaff",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_DOUBLEBLADEDSTAFF",
+        "uisprite": "2H_DOUBLEBLADEDSTAFF",
+        "attackupperbodyblendtime": "0.085",
+        "maxqualitylevel": "5",
+        "abilitypower": "126",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "quarterstaff",
+        "attacktype": "melee",
+        "mainhandanimationtype": "quarterstaff_speed",
+        "mainhandanimationtype_attack": "quarterstaff_speed",
+        "attackdamage": "20",
+        "attackspeed": "2",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "150",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0.15",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "quarterstaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "quarterstaff_doublebladedstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Double Bladed Staff",
+        "DE-DE": "Doppelklingenstab des Adepten",
+        "FR-FR": "Bâton à double tranchant de l'adepte",
+        "RU-RU": "Острый шест (знаток)",
+        "PL-PL": "Rohatyna Adepta",
+        "ES-ES": "Bastón de doble filo del iniciado",
+        "PT-BR": "Cajado Bilaminado do Adepto",
+        "IT-IT": "Asta bilama del sapiente",
+        "ZH-CN": "老手级双刃棍",
+        "KO-KR": "숙련자의 더블 블레이디드 스태프",
+        "JA-JP": "諸刃の杖（名人）",
+        "ZH-TW": "老手級雙刃棍",
+        "ID-ID": "Tongkat Bermata Dua Mahir",
+        "TR-TR": "Ehil Çift Bıçaklı Asası",
+        "AR-SA": "العصا مزدوجة النصال للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 20,
+        "attack_speed": 2,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "quarterstaff_speed",
+        "item_power": 700,
+        "ability_power": 126,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DASH_KNOCKBACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DASH_KNOCKBACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1000,
+        "durability": 42883,
+        "crafting_silver": 0,
+        "crafting_time": 3.333,
+        "crafting_focus": 9191,
+        "crafting_resources": [
+          {
+            "id": "T4_METALBAR_LEVEL3",
+            "count": 12,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_LEATHER_LEVEL3",
+            "count": 20,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 384
+          }
+        ]
+      },
+      "effective_item_power": 1000,
+      "effective_durability": 42883,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "quarterstaff",
+        "crafting_category": "quarterstaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_DOUBLEBLADEDSTAFF"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_DOUBLEBLADEDSTAFF@3",
+        "item_database_index": "8864"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Double Bladed Staff",
+        "name_ar": "العصا مزدوجة النصال للبارع",
+        "name_de": "Doppelklingenstab des Adepten",
+        "name_fr": "Bâton à double tranchant de l'adepte",
+        "name_es": "Bastón de doble filo del iniciado",
+        "name_ru": "Острый шест (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_DOUBLEBLADEDSTAFF",
+        "@uisprite": "2H_DOUBLEBLADEDSTAFF",
+        "@attackupperbodyblendtime": "0.085",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "126",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "quarterstaff",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "quarterstaff_speed",
+        "@mainhandanimationtype_attack": "quarterstaff_speed",
+        "@attackdamage": "20",
+        "@attackspeed": "2",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "150",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0.15",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "quarterstaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "quarterstaff_doublebladedstaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "0.48",
+              "@attackspeedfactor": "1",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "0.48",
+              "@attackspeedfactor": "1",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": [
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_QUARTERSTAFF",
+          "removespell": {
+            "@uniquename": "VAULT_ATTACK"
+          },
+          "craftspell": {
+            "@uniquename": "DASH_KNOCKBACK",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_2H_DOUBLEBLADEDSTAFF@4",
+      "index": "8865",
+      "name_en": "Adept's Double Bladed Staff",
+      "name_ar": "العصا مزدوجة النصال للبارع",
+      "name_de": "Doppelklingenstab des Adepten",
+      "name_fr": "Bâton à double tranchant de l'adepte",
+      "name_es": "Bastón de doble filo del iniciado",
+      "name_ru": "Острый шест (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_DOUBLEBLADEDSTAFF",
+        "description_variable": "@ITEMS_T4_2H_DOUBLEBLADEDSTAFF_DESC"
+      },
+      "category": "Weapons_Quarterstaff",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_DOUBLEBLADEDSTAFF",
+        "uisprite": "2H_DOUBLEBLADEDSTAFF",
+        "attackupperbodyblendtime": "0.085",
+        "maxqualitylevel": "5",
+        "abilitypower": "126",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "quarterstaff",
+        "attacktype": "melee",
+        "mainhandanimationtype": "quarterstaff_speed",
+        "mainhandanimationtype_attack": "quarterstaff_speed",
+        "attackdamage": "20",
+        "attackspeed": "2",
+        "twohanded": "true",
+        "attackrange": "3",
+        "tier": "4",
+        "weight": "6.8",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "12706",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "attackdamagetimefactor": "1.5",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "150",
+        "itempower": "700",
+        "hitpointsregenerationbonus": "0.15",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "quarterstaff",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0",
+        "combatspecachievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "quarterstaff_doublebladedstaff"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Double Bladed Staff",
+        "DE-DE": "Doppelklingenstab des Adepten",
+        "FR-FR": "Bâton à double tranchant de l'adepte",
+        "RU-RU": "Острый шест (знаток)",
+        "PL-PL": "Rohatyna Adepta",
+        "ES-ES": "Bastón de doble filo del iniciado",
+        "PT-BR": "Cajado Bilaminado do Adepto",
+        "IT-IT": "Asta bilama del sapiente",
+        "ZH-CN": "老手级双刃棍",
+        "KO-KR": "숙련자의 더블 블레이디드 스태프",
+        "JA-JP": "諸刃の杖（名人）",
+        "ZH-TW": "老手級雙刃棍",
+        "ID-ID": "Tongkat Bermata Dua Mahir",
+        "TR-TR": "Ehil Çift Bıçaklı Asası",
+        "AR-SA": "العصا مزدوجة النصال للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.333,
+        "crafting_focus": 1715,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ],
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12
+      },
+      "combat_stats": {
+        "attack_damage": 20,
+        "attack_speed": 2,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "quarterstaff_speed",
+        "item_power": 700,
+        "ability_power": 126,
+        "durability": 12706,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 6.8,
+        "two_handed": true,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "DASH_KNOCKBACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "DASH_KNOCKBACK",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 800,
+          "durability": 19059,
+          "crafting_silver": 0,
+          "crafting_time": 2,
+          "crafting_focus": 3001,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 12,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_LEATHER_LEVEL1",
+              "count": 20,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 384
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 900,
+          "durability": 28589,
+          "crafting_silver": 0,
+          "crafting_time": 2.667,
+          "crafting_focus": 5252,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 12,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_LEATHER_LEVEL2",
+              "count": 20,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 384
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1000,
+          "durability": 42883,
+          "crafting_silver": 0,
+          "crafting_time": 3.333,
+          "crafting_focus": 9191,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 12,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_LEATHER_LEVEL3",
+              "count": 20,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 384
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1100,
+          "durability": 64324,
+          "crafting_silver": 0,
+          "crafting_time": 5,
+          "crafting_focus": 16085,
+          "crafting_resources": [
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 12,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_LEATHER_LEVEL4",
+              "count": 20,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1100,
+        "durability": 64324,
+        "crafting_silver": 0,
+        "crafting_time": 5,
+        "crafting_focus": 16085,
+        "crafting_resources": [
+          {
+            "id": "T4_METALBAR_LEVEL4",
+            "count": 12,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_LEATHER_LEVEL4",
+            "count": 20,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1100,
+      "effective_durability": 64324,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "quarterstaff",
+        "crafting_category": "quarterstaff",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_DOUBLEBLADEDSTAFF"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_DOUBLEBLADEDSTAFF@4",
+        "item_database_index": "8865"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Double Bladed Staff",
+        "name_ar": "العصا مزدوجة النصال للبارع",
+        "name_de": "Doppelklingenstab des Adepten",
+        "name_fr": "Bâton à double tranchant de l'adepte",
+        "name_es": "Bastón de doble filo del iniciado",
+        "name_ru": "Острый шест (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_DOUBLEBLADEDSTAFF",
+        "@uisprite": "2H_DOUBLEBLADEDSTAFF",
+        "@attackupperbodyblendtime": "0.085",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "126",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "quarterstaff",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "quarterstaff_speed",
+        "@mainhandanimationtype_attack": "quarterstaff_speed",
+        "@attackdamage": "20",
+        "@attackspeed": "2",
+        "@twohanded": "true",
+        "@attackrange": "3",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@attackdamagetimefactor": "1.5",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "150",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0.15",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "quarterstaff",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0",
+        "@combatspecachievement": "COMBAT_QUARTERSTAFFS_DOUBLEBLADED",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "quarterstaff_doublebladedstaff",
+        "attackvariations": {
+          "@attackchaintime": "2",
+          "attack": [
+            {
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "0.48",
+              "@attackspeedfactor": "1",
+              "@attacktype": "melee"
+            },
+            {
+              "@attackdamagefactor": "1",
+              "@attackdamagetimefactor": "0.48",
+              "@attackspeedfactor": "1",
+              "@attacktype": "melee"
+            }
+          ]
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.333",
+          "@craftingfocus": "1715",
+          "craftresource": [
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "12"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_2H_QUARTERSTAFF",
+          "removespell": {
+            "@uniquename": "VAULT_ATTACK"
+          },
+          "craftspell": {
+            "@uniquename": "DASH_KNOCKBACK",
+            "@slots": "3",
+            "@tag": "A"
+          }
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "800",
+              "@durability": "19059",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2",
+                "@craftingfocus": "3001",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "900",
+              "@durability": "28589",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "2.667",
+                "@craftingfocus": "5252",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1000",
+              "@durability": "42883",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.333",
+                "@craftingfocus": "9191",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "20"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "384"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1100",
+              "@durability": "64324",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5",
+                "@craftingfocus": "16085",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "12"
+                  },
+                  {
+                    "@uniquename": "T4_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "20"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

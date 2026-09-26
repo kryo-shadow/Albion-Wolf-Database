@@ -1,0 +1,499 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T7_MEAL_OMELETTE_AVALON",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T7_MEAL_OMELETTE_AVALON",
+      "index": "820",
+      "name_en": "Avalonian Pork Omelette",
+      "name_ar": "عجة أفالونية بلحم الخنزير",
+      "name_de": "Avalonisches Schweineomelett",
+      "name_fr": "Omelette au porc avalonienne",
+      "name_es": "Tortilla de cerdo avaloniana",
+      "name_ru": "Авалонский омлет с беконом",
+      "descriptions": {
+        "description_en": "Avalonian meal that reduces cooldown periods and casting times, while also increasing your defense for a long period.",
+        "description_ar": "وجبة أفالونية تقلل فترات الانتظار وأوقات الإلقاء، كما تزيد دفاعك أيضًا لفترة طويلة.",
+        "description_de": "Avalonische Speise, die Verteidigung erhöht und die Abklingzeiten und Zauberdauer für eine lange Zeit reduziert.",
+        "description_fr": "Nourriture avalonienne qui réduit vos temps de recharge et les temps d'incantation, tout en augmentant votre défense pendant une longue période.",
+        "description_es": "Comida avaloniana que reduce el tiempo de espera y de lanzamiento, y aumenta tu defensa durante un largo período.",
+        "description_ru": "Авалонская еда, надолго сокращающая время восстановления и скорость чтения заклинаний, а также увеличивающая вашу защиту."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_MEAL_OMELETTE_AVALON",
+        "description_variable": "@ITEMS_MEAL_OMELETTE_AVALON_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_MEAL_OMELETTE_AVALON",
+        "uisprite": "MEAL_OMELETTE_AVALON",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_BUFF_CASTSPEED_CDR_AVALON_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "7",
+        "dummyitempower": "1000",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "7.55",
+        "nutrition": "755",
+        "descriptionlocatag": "@ITEMS_MEAL_OMELETTE_AVALON_DESC",
+        "shopsubcategory2": "omelettes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Avalonian Pork Omelette",
+        "DE-DE": "Avalonisches Schweineomelett",
+        "FR-FR": "Omelette au porc avalonienne",
+        "RU-RU": "Авалонский омлет с беконом",
+        "PL-PL": "Awaloński Omlet Wieprzowy",
+        "ES-ES": "Tortilla de cerdo avaloniana",
+        "PT-BR": "Omelete de Porco Avaloniano",
+        "IT-IT": "Frittata con maiale di Avalon",
+        "ZH-CN": "阿瓦隆猪肉鸡蛋饼",
+        "KO-KR": "아발로니안 돼지고기 오믈렛",
+        "JA-JP": "アバロニア人のポークオムレツ",
+        "ZH-TW": "阿瓦隆豬肉歐姆蛋",
+        "ID-ID": "Dadar Babi Avalonian",
+        "TR-TR": "Domuz Etli Avalon Omleti",
+        "AR-SA": "عجة أفالونية بلحم الخنزير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Avalonian meal that reduces cooldown periods and casting times, while also increasing your defense for a long period.",
+        "DE-DE": "Avalonische Speise, die Abwehr erhöht und die Abklingzeiten und Zauberdauer für eine lange Zeit reduziert.",
+        "FR-FR": "Nourriture avalonienne qui réduit vos temps de recharge et les temps d'incantation, tout en augmentant votre défense pendant une longue période.",
+        "RU-RU": "Авалонская еда, надолго сокращающая время восстановления и скорость чтения заклинаний, а также увеличивающая вашу защиту.",
+        "PL-PL": "Awaloński posiłek, który zmniejsza czasy odnowienia, czas czarowania, oraz zwiększa obronę przez długi okres czasu.",
+        "ES-ES": "Comida avaloniana que reduce el tiempo de espera y de lanzamiento, y aumenta tu defensa durante un largo período.",
+        "PT-BR": "Refeição Avaloniana que reduz os períodos de recarga e lançamento, enquanto também aumenta sua defesa por um longo período.",
+        "IT-IT": "Pietanza di Avalon che riduce i tempi di ricarica e di lancio e aumenta le tue difese per un lungo periodo.",
+        "ZH-CN": "阿瓦隆特色菜肴，可以长时间降低冷却时间和技能施放时间，并提高防御。",
+        "KO-KR": "긴 시간 동안 대기 시간을 감소시키고, 방어력을 증가시켜주는 아발로니안 식사입니다.",
+        "JA-JP": "長時間にわたりクールダウン時間、詠唱時間が減少し、防御力が上昇するアバロニア人料理。",
+        "ZH-TW": "一道阿瓦隆料理，能長時間縮短冷卻時間和施法時間，並提升防禦力。",
+        "ID-ID": "Makanan Avalonian yang mengurangi waktu cooldown dan waktu rapal, sekaligus meningkatkan pertahanan untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine bekleme ve gerçekleştirme sürelerini düşürmenin yanı sıra savunmayı da artıran bir Avalon yemeği.",
+        "AR-SA": "وجبة أفالونية تقلل فترات الانتظار وأوقات الإلقاء، كما تزيد دفاعك أيضًا لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 90,
+        "secondary_resource": "T7_MEAT",
+        "secondary_count": 72,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 90
+          },
+          {
+            "id": "T7_MEAT",
+            "count": 72
+          },
+          {
+            "id": "T8_MILK",
+            "count": 36
+          },
+          {
+            "id": "T5_EGG",
+            "count": 18
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.517,
+        "crafting_focus": 464,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 90
+          },
+          {
+            "id": "T7_MEAT",
+            "count": 72
+          },
+          {
+            "id": "T8_MILK",
+            "count": 36
+          },
+          {
+            "id": "T5_EGG",
+            "count": 18
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 90,
+        "secondary_resource": "T7_MEAT",
+        "secondary_count": 72
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 7,
+        "weight": 7.55,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.517,
+          "crafting_focus": 665,
+          "crafting_resources": [
+            {
+              "id": "T8_MILK",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_MEAT",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_EGG",
+              "count": 18,
+              "enchantment_level": 1
+            },
+            {
+              "id": "QUESTITEM_TOKEN_AVALON",
+              "count": 90,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 90,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.517,
+          "crafting_focus": 1065,
+          "crafting_resources": [
+            {
+              "id": "T8_MILK",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_MEAT",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_EGG",
+              "count": 18,
+              "enchantment_level": 2
+            },
+            {
+              "id": "QUESTITEM_TOKEN_AVALON",
+              "count": 90,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 90,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.517,
+          "crafting_focus": 2266,
+          "crafting_resources": [
+            {
+              "id": "T8_MILK",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_MEAT",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_EGG",
+              "count": 18,
+              "enchantment_level": 3
+            },
+            {
+              "id": "QUESTITEM_TOKEN_AVALON",
+              "count": 90,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 90,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "MEAL_OMELETTE_AVALON"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_MEAL_OMELETTE_AVALON",
+        "item_database_index": "820"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Avalonian Pork Omelette",
+        "name_ar": "عجة أفالونية بلحم الخنزير",
+        "name_de": "Avalonisches Schweineomelett",
+        "name_fr": "Omelette au porc avalonienne",
+        "name_es": "Tortilla de cerdo avaloniana",
+        "name_ru": "Авалонский омлет с беконом"
+      },
+      "raw": {
+        "@uniquename": "T7_MEAL_OMELETTE_AVALON",
+        "@uisprite": "MEAL_OMELETTE_AVALON",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_AVALON_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "7",
+        "@dummyitempower": "1000",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "7.55",
+        "@nutrition": "755",
+        "@descriptionlocatag": "@ITEMS_MEAL_OMELETTE_AVALON_DESC",
+        "@shopsubcategory2": "omelettes",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "464",
+          "@time": "2.517",
+          "craftresource": [
+            {
+              "@uniquename": "T8_MILK",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T7_MEAT",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T5_EGG",
+              "@count": "18"
+            },
+            {
+              "@uniquename": "QUESTITEM_TOKEN_AVALON",
+              "@maxreturnamount": "0",
+              "@count": "90"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "1100",
+              "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_AVALON_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "665",
+                "@time": "2.517",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_MILK",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T7_MEAT",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "QUESTITEM_TOKEN_AVALON",
+                    "@maxreturnamount": "0",
+                    "@count": "90"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "1200",
+              "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_AVALON_P7",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "1065",
+                "@time": "2.517",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_MILK",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T7_MEAT",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "QUESTITEM_TOKEN_AVALON",
+                    "@maxreturnamount": "0",
+                    "@count": "90"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1300",
+              "@consumespell": "FOOD_BUFF_CASTSPEED_CDR_AVALON_P8",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "2266",
+                "@time": "2.517",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_MILK",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T7_MEAT",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "QUESTITEM_TOKEN_AVALON",
+                    "@maxreturnamount": "0",
+                    "@count": "90"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

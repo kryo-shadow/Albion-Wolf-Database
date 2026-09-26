@@ -1,0 +1,3514 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Off_Hands",
+  "family": "Off_Hands_Warrior",
+  "base_id": "T4_OFF_SHIELD_HELL",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T4_OFF_SHIELD_HELL",
+      "index": "2104",
+      "name_en": "Adept's Caitiff Shield",
+      "name_ar": "درع الجبن للبارع",
+      "name_de": "Niederträchtiger Schild des Adepten",
+      "name_fr": "Bouclier de scélérat de l'adepte",
+      "name_es": "Escudo de villano del iniciado",
+      "name_ru": "Щит негодяя (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_OFF_SHIELD_HELL",
+        "description_variable": "@ITEMS_T4_OFF_SHIELD_HELL_DESC"
+      },
+      "category": "Off_Hands_Warrior",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_OFF_SHIELD_HELL",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "shieldtype",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "16200",
+        "durabilityloss_attack": "0.8",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "shield",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "750",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0.0161",
+        "bonusccdurationvsmobs": "0.0161",
+        "threatbonus": "0.04",
+        "itempowerprogressiontype": "skullshield",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0.0096",
+        "bonusdefensevsmobs": "0.0096",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_SHIELDS_HELL",
+        "shopsubcategory2": "shieldtype_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Caitiff Shield",
+        "DE-DE": "Niederträchtiger Schild des Adepten",
+        "FR-FR": "Bouclier de scélérat de l'adepte",
+        "RU-RU": "Щит негодяя (знаток)",
+        "PL-PL": "Tarcza Lebiegi Adepta",
+        "ES-ES": "Escudo de villano del iniciado",
+        "PT-BR": "Escudo Vampírico do Adepto",
+        "IT-IT": "Scudo del vile del sapiente",
+        "ZH-CN": "老手级怯懦盾牌",
+        "KO-KR": "숙련자의 케이티프 방패",
+        "JA-JP": "臆病者のシールド（名人）",
+        "ZH-TW": "老手級懦弱盾牌",
+        "ID-ID": "Perisai Hina Mahir",
+        "TR-TR": "Ehil Alçak Kalkanı",
+        "AR-SA": "درع الجبن للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 4,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 4
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 4
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 4,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 750,
+        "ability_power": 100,
+        "durability": 16200,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SHIELDS_HELL",
+        "itempower_progression": "skullshield"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 850,
+          "durability": 24300,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 950,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1050,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1150,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 750,
+      "effective_durability": 16200,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "shieldtype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_OFF_SHIELD_HELL",
+          "name_artifact_en": "Adept's Infernal Shield Core",
+          "name_artifact_ar": "الدرع الجهنمية الأساسية للبارع",
+          "name_artifact_de": "Höllischer Schildkern des Adepten",
+          "name_artifact_fr": "Noyau de bouclier infernal de l'adepte",
+          "name_artifact_es": "Núcleo de escudo infernal del iniciado",
+          "name_artifact_ru": "Ядро адского щита (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_OFF_SHIELD_HELL",
+        "item_database_index": "2104"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Caitiff Shield",
+        "name_ar": "درع الجبن للبارع",
+        "name_de": "Niederträchtiger Schild des Adepten",
+        "name_fr": "Bouclier de scélérat de l'adepte",
+        "name_es": "Escudo de villano del iniciado",
+        "name_ru": "Щит негодяя (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_OFF_SHIELD_HELL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "shieldtype",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "0.8",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "shield",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "750",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0.0161",
+        "@bonusccdurationvsmobs": "0.0161",
+        "@threatbonus": "0.04",
+        "@itempowerprogressiontype": "skullshield",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0.0096",
+        "@bonusdefensevsmobs": "0.0096",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_SHIELDS_HELL",
+        "@shopsubcategory2": "shieldtype_hell",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "850",
+              "@durability": "24300",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "950",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1050",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1150",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_OFF_SHIELD_HELL@1",
+      "index": "2105",
+      "name_en": "Adept's Caitiff Shield",
+      "name_ar": "درع الجبن للبارع",
+      "name_de": "Niederträchtiger Schild des Adepten",
+      "name_fr": "Bouclier de scélérat de l'adepte",
+      "name_es": "Escudo de villano del iniciado",
+      "name_ru": "Щит негодяя (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_OFF_SHIELD_HELL",
+        "description_variable": "@ITEMS_T4_OFF_SHIELD_HELL_DESC"
+      },
+      "category": "Off_Hands_Warrior",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_OFF_SHIELD_HELL",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "shieldtype",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "16200",
+        "durabilityloss_attack": "0.8",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "shield",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "750",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0.0161",
+        "bonusccdurationvsmobs": "0.0161",
+        "threatbonus": "0.04",
+        "itempowerprogressiontype": "skullshield",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0.0096",
+        "bonusdefensevsmobs": "0.0096",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_SHIELDS_HELL",
+        "shopsubcategory2": "shieldtype_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Caitiff Shield",
+        "DE-DE": "Niederträchtiger Schild des Adepten",
+        "FR-FR": "Bouclier de scélérat de l'adepte",
+        "RU-RU": "Щит негодяя (знаток)",
+        "PL-PL": "Tarcza Lebiegi Adepta",
+        "ES-ES": "Escudo de villano del iniciado",
+        "PT-BR": "Escudo Vampírico do Adepto",
+        "IT-IT": "Scudo del vile del sapiente",
+        "ZH-CN": "老手级怯懦盾牌",
+        "KO-KR": "숙련자의 케이티프 방패",
+        "JA-JP": "臆病者のシールド（名人）",
+        "ZH-TW": "老手級懦弱盾牌",
+        "ID-ID": "Perisai Hina Mahir",
+        "TR-TR": "Ehil Alçak Kalkanı",
+        "AR-SA": "درع الجبن للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 4,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 4
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 4
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 4,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 750,
+        "ability_power": 100,
+        "durability": 16200,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SHIELDS_HELL",
+        "itempower_progression": "skullshield"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 850,
+          "durability": 24300,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 950,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1050,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1150,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 850,
+        "durability": 24300,
+        "crafting_silver": 0,
+        "crafting_time": 0.5,
+        "crafting_focus": 750,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_METALBAR_LEVEL1",
+            "count": 4,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 850,
+      "effective_durability": 24300,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "shieldtype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_OFF_SHIELD_HELL",
+          "name_artifact_en": "Adept's Infernal Shield Core",
+          "name_artifact_ar": "الدرع الجهنمية الأساسية للبارع",
+          "name_artifact_de": "Höllischer Schildkern des Adepten",
+          "name_artifact_fr": "Noyau de bouclier infernal de l'adepte",
+          "name_artifact_es": "Núcleo de escudo infernal del iniciado",
+          "name_artifact_ru": "Ядро адского щита (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_OFF_SHIELD_HELL@1",
+        "item_database_index": "2105"
+      },
+      "tier": 4,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Adept's Caitiff Shield",
+        "name_ar": "درع الجبن للبارع",
+        "name_de": "Niederträchtiger Schild des Adepten",
+        "name_fr": "Bouclier de scélérat de l'adepte",
+        "name_es": "Escudo de villano del iniciado",
+        "name_ru": "Щит негодяя (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_OFF_SHIELD_HELL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "shieldtype",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "0.8",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "shield",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "750",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0.0161",
+        "@bonusccdurationvsmobs": "0.0161",
+        "@threatbonus": "0.04",
+        "@itempowerprogressiontype": "skullshield",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0.0096",
+        "@bonusdefensevsmobs": "0.0096",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_SHIELDS_HELL",
+        "@shopsubcategory2": "shieldtype_hell",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "850",
+              "@durability": "24300",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "950",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1050",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1150",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_OFF_SHIELD_HELL@2",
+      "index": "2106",
+      "name_en": "Adept's Caitiff Shield",
+      "name_ar": "درع الجبن للبارع",
+      "name_de": "Niederträchtiger Schild des Adepten",
+      "name_fr": "Bouclier de scélérat de l'adepte",
+      "name_es": "Escudo de villano del iniciado",
+      "name_ru": "Щит негодяя (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_OFF_SHIELD_HELL",
+        "description_variable": "@ITEMS_T4_OFF_SHIELD_HELL_DESC"
+      },
+      "category": "Off_Hands_Warrior",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_OFF_SHIELD_HELL",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "shieldtype",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "16200",
+        "durabilityloss_attack": "0.8",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "shield",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "750",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0.0161",
+        "bonusccdurationvsmobs": "0.0161",
+        "threatbonus": "0.04",
+        "itempowerprogressiontype": "skullshield",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0.0096",
+        "bonusdefensevsmobs": "0.0096",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_SHIELDS_HELL",
+        "shopsubcategory2": "shieldtype_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Caitiff Shield",
+        "DE-DE": "Niederträchtiger Schild des Adepten",
+        "FR-FR": "Bouclier de scélérat de l'adepte",
+        "RU-RU": "Щит негодяя (знаток)",
+        "PL-PL": "Tarcza Lebiegi Adepta",
+        "ES-ES": "Escudo de villano del iniciado",
+        "PT-BR": "Escudo Vampírico do Adepto",
+        "IT-IT": "Scudo del vile del sapiente",
+        "ZH-CN": "老手级怯懦盾牌",
+        "KO-KR": "숙련자의 케이티프 방패",
+        "JA-JP": "臆病者のシールド（名人）",
+        "ZH-TW": "老手級懦弱盾牌",
+        "ID-ID": "Perisai Hina Mahir",
+        "TR-TR": "Ehil Alçak Kalkanı",
+        "AR-SA": "درع الجبن للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 4,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 4
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 4
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 4,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 750,
+        "ability_power": 100,
+        "durability": 16200,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SHIELDS_HELL",
+        "itempower_progression": "skullshield"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 850,
+          "durability": 24300,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 950,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1050,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1150,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 950,
+        "durability": 36450,
+        "crafting_silver": 0,
+        "crafting_time": 0.667,
+        "crafting_focus": 1313,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_METALBAR_LEVEL2",
+            "count": 4,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 950,
+      "effective_durability": 36450,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "shieldtype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_OFF_SHIELD_HELL",
+          "name_artifact_en": "Adept's Infernal Shield Core",
+          "name_artifact_ar": "الدرع الجهنمية الأساسية للبارع",
+          "name_artifact_de": "Höllischer Schildkern des Adepten",
+          "name_artifact_fr": "Noyau de bouclier infernal de l'adepte",
+          "name_artifact_es": "Núcleo de escudo infernal del iniciado",
+          "name_artifact_ru": "Ядро адского щита (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_OFF_SHIELD_HELL@2",
+        "item_database_index": "2106"
+      },
+      "tier": 4,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Adept's Caitiff Shield",
+        "name_ar": "درع الجبن للبارع",
+        "name_de": "Niederträchtiger Schild des Adepten",
+        "name_fr": "Bouclier de scélérat de l'adepte",
+        "name_es": "Escudo de villano del iniciado",
+        "name_ru": "Щит негодяя (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_OFF_SHIELD_HELL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "shieldtype",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "0.8",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "shield",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "750",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0.0161",
+        "@bonusccdurationvsmobs": "0.0161",
+        "@threatbonus": "0.04",
+        "@itempowerprogressiontype": "skullshield",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0.0096",
+        "@bonusdefensevsmobs": "0.0096",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_SHIELDS_HELL",
+        "@shopsubcategory2": "shieldtype_hell",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "850",
+              "@durability": "24300",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "950",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1050",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1150",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_OFF_SHIELD_HELL@3",
+      "index": "2107",
+      "name_en": "Adept's Caitiff Shield",
+      "name_ar": "درع الجبن للبارع",
+      "name_de": "Niederträchtiger Schild des Adepten",
+      "name_fr": "Bouclier de scélérat de l'adepte",
+      "name_es": "Escudo de villano del iniciado",
+      "name_ru": "Щит негодяя (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_OFF_SHIELD_HELL",
+        "description_variable": "@ITEMS_T4_OFF_SHIELD_HELL_DESC"
+      },
+      "category": "Off_Hands_Warrior",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_OFF_SHIELD_HELL",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "shieldtype",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "16200",
+        "durabilityloss_attack": "0.8",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "shield",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "750",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0.0161",
+        "bonusccdurationvsmobs": "0.0161",
+        "threatbonus": "0.04",
+        "itempowerprogressiontype": "skullshield",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0.0096",
+        "bonusdefensevsmobs": "0.0096",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_SHIELDS_HELL",
+        "shopsubcategory2": "shieldtype_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Caitiff Shield",
+        "DE-DE": "Niederträchtiger Schild des Adepten",
+        "FR-FR": "Bouclier de scélérat de l'adepte",
+        "RU-RU": "Щит негодяя (знаток)",
+        "PL-PL": "Tarcza Lebiegi Adepta",
+        "ES-ES": "Escudo de villano del iniciado",
+        "PT-BR": "Escudo Vampírico do Adepto",
+        "IT-IT": "Scudo del vile del sapiente",
+        "ZH-CN": "老手级怯懦盾牌",
+        "KO-KR": "숙련자의 케이티프 방패",
+        "JA-JP": "臆病者のシールド（名人）",
+        "ZH-TW": "老手級懦弱盾牌",
+        "ID-ID": "Perisai Hina Mahir",
+        "TR-TR": "Ehil Alçak Kalkanı",
+        "AR-SA": "درع الجبن للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 4,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 4
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 4
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 4,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 750,
+        "ability_power": 100,
+        "durability": 16200,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SHIELDS_HELL",
+        "itempower_progression": "skullshield"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 850,
+          "durability": 24300,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 950,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1050,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1150,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1050,
+        "durability": 54675,
+        "crafting_silver": 0,
+        "crafting_time": 0.833,
+        "crafting_focus": 2298,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_METALBAR_LEVEL3",
+            "count": 4,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 96
+          }
+        ]
+      },
+      "effective_item_power": 1050,
+      "effective_durability": 54675,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "shieldtype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_OFF_SHIELD_HELL",
+          "name_artifact_en": "Adept's Infernal Shield Core",
+          "name_artifact_ar": "الدرع الجهنمية الأساسية للبارع",
+          "name_artifact_de": "Höllischer Schildkern des Adepten",
+          "name_artifact_fr": "Noyau de bouclier infernal de l'adepte",
+          "name_artifact_es": "Núcleo de escudo infernal del iniciado",
+          "name_artifact_ru": "Ядро адского щита (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_OFF_SHIELD_HELL@3",
+        "item_database_index": "2107"
+      },
+      "tier": 4,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Adept's Caitiff Shield",
+        "name_ar": "درع الجبن للبارع",
+        "name_de": "Niederträchtiger Schild des Adepten",
+        "name_fr": "Bouclier de scélérat de l'adepte",
+        "name_es": "Escudo de villano del iniciado",
+        "name_ru": "Щит негодяя (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_OFF_SHIELD_HELL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "shieldtype",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "0.8",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "shield",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "750",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0.0161",
+        "@bonusccdurationvsmobs": "0.0161",
+        "@threatbonus": "0.04",
+        "@itempowerprogressiontype": "skullshield",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0.0096",
+        "@bonusdefensevsmobs": "0.0096",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_SHIELDS_HELL",
+        "@shopsubcategory2": "shieldtype_hell",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "850",
+              "@durability": "24300",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "950",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1050",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1150",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T4_OFF_SHIELD_HELL@4",
+      "index": "2108",
+      "name_en": "Adept's Caitiff Shield",
+      "name_ar": "درع الجبن للبارع",
+      "name_de": "Niederträchtiger Schild des Adepten",
+      "name_fr": "Bouclier de scélérat de l'adepte",
+      "name_es": "Escudo de villano del iniciado",
+      "name_ru": "Щит негодяя (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_OFF_SHIELD_HELL",
+        "description_variable": "@ITEMS_T4_OFF_SHIELD_HELL_DESC"
+      },
+      "category": "Off_Hands_Warrior",
+      "slot": "OffHand",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_OFF_SHIELD_HELL",
+        "maxqualitylevel": "5",
+        "abilitypower": "100",
+        "slottype": "offhand",
+        "shopcategory": "offhands",
+        "shopsubcategory1": "shieldtype",
+        "tier": "4",
+        "weight": "1.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "physicalarmor": "0",
+        "magicresistance": "0",
+        "durability": "16200",
+        "durabilityloss_attack": "0.8",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "offhandanimationtype": "shield",
+        "hitpointsmax": "0",
+        "hitpointsregenerationbonus": "0",
+        "energymax": "0",
+        "energyregenerationbonus": "0",
+        "crowdcontrolresistance": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "healbonus": "0",
+        "itempower": "750",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "bonusccdurationvsplayers": "0.0161",
+        "bonusccdurationvsmobs": "0.0161",
+        "threatbonus": "0.04",
+        "itempowerprogressiontype": "skullshield",
+        "magiccooldownreduction": "0",
+        "bonusdefensevsplayers": "0.0096",
+        "bonusdefensevsmobs": "0.0096",
+        "magiccasttimereduction": "0",
+        "attackspeedbonus": "0",
+        "movespeedbonus": "0",
+        "healmodifier": "0",
+        "craftingcategory": "offhand",
+        "canbeovercharged": "true",
+        "showinmarketplace": "true",
+        "energycostreduction": "0",
+        "masterymodifier": "0",
+        "destinyandjournalcraftfamefactor": "1.2",
+        "combatspecachievement": "COMBAT_SHIELDS_HELL",
+        "shopsubcategory2": "shieldtype_hell"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Caitiff Shield",
+        "DE-DE": "Niederträchtiger Schild des Adepten",
+        "FR-FR": "Bouclier de scélérat de l'adepte",
+        "RU-RU": "Щит негодяя (знаток)",
+        "PL-PL": "Tarcza Lebiegi Adepta",
+        "ES-ES": "Escudo de villano del iniciado",
+        "PT-BR": "Escudo Vampírico do Adepto",
+        "IT-IT": "Scudo del vile del sapiente",
+        "ZH-CN": "老手级怯懦盾牌",
+        "KO-KR": "숙련자의 케이티프 방패",
+        "JA-JP": "臆病者のシールド（名人）",
+        "ZH-TW": "老手級懦弱盾牌",
+        "ID-ID": "Perisai Hina Mahir",
+        "TR-TR": "Ehil Alçak Kalkanı",
+        "AR-SA": "درع الجبن للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 4,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 4
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 4
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 4,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 4
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 750,
+        "ability_power": 100,
+        "durability": 16200,
+        "max_quality_level": 5,
+        "tier_raw": 4,
+        "weight": 1.7,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SHIELDS_HELL",
+        "itempower_progression": "skullshield"
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 850,
+          "durability": 24300,
+          "crafting_silver": 0,
+          "crafting_time": 0.5,
+          "crafting_focus": 750,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_METALBAR_LEVEL1",
+              "count": 4,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RUNE",
+              "count": 96
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 950,
+          "durability": 36450,
+          "crafting_silver": 0,
+          "crafting_time": 0.667,
+          "crafting_focus": 1313,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_METALBAR_LEVEL2",
+              "count": 4,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_SOUL",
+              "count": 96
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1050,
+          "durability": 54675,
+          "crafting_silver": 0,
+          "crafting_time": 0.833,
+          "crafting_focus": 2298,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_METALBAR_LEVEL3",
+              "count": 4,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T4_RELIC",
+              "count": 96
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1150,
+          "durability": 82013,
+          "crafting_silver": 0,
+          "crafting_time": 1.25,
+          "crafting_focus": 4021,
+          "crafting_resources": [
+            {
+              "id": "T4_PLANKS_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_METALBAR_LEVEL4",
+              "count": 4,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1150,
+        "durability": 82013,
+        "crafting_silver": 0,
+        "crafting_time": 1.25,
+        "crafting_focus": 4021,
+        "crafting_resources": [
+          {
+            "id": "T4_PLANKS_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_METALBAR_LEVEL4",
+            "count": 4,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T4_ARTEFACT_OFF_SHIELD_HELL",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1150,
+      "effective_durability": 82013,
+      "shop": {
+        "shop_category": "offhands",
+        "shop_subcategory1": "shieldtype",
+        "crafting_category": "offhand",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T4_ARTEFACT_OFF_SHIELD_HELL",
+          "name_artifact_en": "Adept's Infernal Shield Core",
+          "name_artifact_ar": "الدرع الجهنمية الأساسية للبارع",
+          "name_artifact_de": "Höllischer Schildkern des Adepten",
+          "name_artifact_fr": "Noyau de bouclier infernal de l'adepte",
+          "name_artifact_es": "Núcleo de escudo infernal del iniciado",
+          "name_artifact_ru": "Ядро адского щита (знаток)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_OFF_SHIELD_HELL@4",
+        "item_database_index": "2108"
+      },
+      "tier": 4,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Adept's Caitiff Shield",
+        "name_ar": "درع الجبن للبارع",
+        "name_de": "Niederträchtiger Schild des Adepten",
+        "name_fr": "Bouclier de scélérat de l'adepte",
+        "name_es": "Escudo de villano del iniciado",
+        "name_ru": "Щит негодяя (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_OFF_SHIELD_HELL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "offhand",
+        "@shopcategory": "offhands",
+        "@shopsubcategory1": "shieldtype",
+        "@tier": "4",
+        "@weight": "1.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "0.8",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@offhandanimationtype": "shield",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@itempower": "750",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@bonusccdurationvsplayers": "0.0161",
+        "@bonusccdurationvsmobs": "0.0161",
+        "@threatbonus": "0.04",
+        "@itempowerprogressiontype": "skullshield",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0.0096",
+        "@bonusdefensevsmobs": "0.0096",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@healmodifier": "0",
+        "@craftingcategory": "offhand",
+        "@canbeovercharged": "true",
+        "@showinmarketplace": "true",
+        "@energycostreduction": "0",
+        "@masterymodifier": "0",
+        "@destinyandjournalcraftfamefactor": "1.2",
+        "@combatspecachievement": "COMBAT_SHIELDS_HELL",
+        "@shopsubcategory2": "shieldtype_hell",
+        "craftingrequirements": [
+          {
+            "@silver": "0",
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          },
+          {
+            "@time": "0.333",
+            "@craftingfocus": "429",
+            "craftresource": [
+              {
+                "@uniquename": "T4_PLANKS",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_METALBAR",
+                "@count": "4"
+              },
+              {
+                "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                "@count": "1",
+                "@maxreturnamount": "0"
+              }
+            ]
+          }
+        ],
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "850",
+              "@durability": "24300",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.5",
+                  "@craftingfocus": "750",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL1",
+                      "@enchantmentlevel": "1",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RUNE",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "950",
+              "@durability": "36450",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.667",
+                  "@craftingfocus": "1313",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL2",
+                      "@enchantmentlevel": "2",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_SOUL",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1050",
+              "@durability": "54675",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "0.833",
+                  "@craftingfocus": "2298",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL3",
+                      "@enchantmentlevel": "3",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ],
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T4_RELIC",
+                  "@count": "96"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1150",
+              "@durability": "82013",
+              "craftingrequirements": [
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_OFF_SHIELD_HELL",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                },
+                {
+                  "@silver": "0",
+                  "@time": "1.25",
+                  "@craftingfocus": "4021",
+                  "craftresource": [
+                    {
+                      "@uniquename": "T4_PLANKS_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_METALBAR_LEVEL4",
+                      "@enchantmentlevel": "4",
+                      "@count": "4"
+                    },
+                    {
+                      "@uniquename": "T4_ARTEFACT_TOKEN_FAVOR_2",
+                      "@count": "1",
+                      "@maxreturnamount": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

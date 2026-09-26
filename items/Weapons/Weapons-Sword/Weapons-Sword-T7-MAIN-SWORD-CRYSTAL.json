@@ -1,0 +1,2919 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Sword",
+  "base_id": "T7_MAIN_SWORD_CRYSTAL",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T7_MAIN_SWORD_CRYSTAL",
+      "index": "8800",
+      "name_en": "Grandmaster's Infinity Blade",
+      "name_ar": "نصل اللانهاية للأستاذ",
+      "name_de": "Unendlichkeitsklinge des Großmeisters",
+      "name_fr": "Lame infinie du grand maître",
+      "name_es": "Hoja infinita del gran maestro",
+      "name_ru": "Клинок бесконечности (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_MAIN_SWORD_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_MAIN_SWORD_CRYSTAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "33",
+        "attackspeed": "1.35",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "17.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "230660",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_SWORDS_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Infinity Blade",
+        "DE-DE": "Unendlichkeitsklinge des Großmeisters",
+        "FR-FR": "Lame infinie du grand maître",
+        "RU-RU": "Клинок бесконечности (магистр)",
+        "PL-PL": "Ostrze Nieskończoności Wszechmistrza",
+        "ES-ES": "Hoja infinita del gran maestro",
+        "PT-BR": "Lâmina da Infinidade do Grão-mestre",
+        "IT-IT": "Lama dell'Infinito del gran maestro",
+        "ZH-CN": "宗师级无尽之剑",
+        "KO-KR": "그랜드 마스터의 인피니티 블레이드",
+        "JA-JP": "インフィニティーブレード（グランドマスター）",
+        "ZH-TW": "宗師級無盡之劍",
+        "ID-ID": "Pedang Tanpabatas Grandmaster",
+        "TR-TR": "Büyük Usta Ebedi Kılıcı",
+        "AR-SA": "نصل اللانهاية للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.5,
+        "crafting_focus": 6893,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 33,
+        "attack_speed": 1.35,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 230660,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 17.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SWORD_BERSERK_RUN_RE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SWORD_BERSERK_RUN_RE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_SWORD_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 345990,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 518985,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 778478,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 1167716,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 230660,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+          "name_artifact_en": "Grandmaster's Infinite Crystal",
+          "name_artifact_ar": "بلورة اللانهاية للأستاذ",
+          "name_artifact_de": "Unendlichkeitskristall des Großmeisters",
+          "name_artifact_fr": "Cristal infini du grand maître",
+          "name_artifact_es": "Cristal infinito del gran maestro",
+          "name_artifact_ru": "Вечный кристалл (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_MAIN_SWORD_CRYSTAL",
+        "item_database_index": "8800"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Infinity Blade",
+        "name_ar": "نصل اللانهاية للأستاذ",
+        "name_de": "Unendlichkeitsklinge des Großmeisters",
+        "name_fr": "Lame infinie du grand maître",
+        "name_es": "Hoja infinita del gran maestro",
+        "name_ru": "Клинок бесконечности (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_MAIN_SWORD_CRYSTAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "33",
+        "@attackspeed": "1.35",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "17.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "230660",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_SWORDS_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_crystal",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "6893",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SWORD_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "345990",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "518985",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "778478",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "1167716",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_MAIN_SWORD_CRYSTAL@1",
+      "index": "8801",
+      "name_en": "Grandmaster's Infinity Blade",
+      "name_ar": "نصل اللانهاية للأستاذ",
+      "name_de": "Unendlichkeitsklinge des Großmeisters",
+      "name_fr": "Lame infinie du grand maître",
+      "name_es": "Hoja infinita del gran maestro",
+      "name_ru": "Клинок бесконечности (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_MAIN_SWORD_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_MAIN_SWORD_CRYSTAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "33",
+        "attackspeed": "1.35",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "17.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "230660",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_SWORDS_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Infinity Blade",
+        "DE-DE": "Unendlichkeitsklinge des Großmeisters",
+        "FR-FR": "Lame infinie du grand maître",
+        "RU-RU": "Клинок бесконечности (магистр)",
+        "PL-PL": "Ostrze Nieskończoności Wszechmistrza",
+        "ES-ES": "Hoja infinita del gran maestro",
+        "PT-BR": "Lâmina da Infinidade do Grão-mestre",
+        "IT-IT": "Lama dell'Infinito del gran maestro",
+        "ZH-CN": "宗师级无尽之剑",
+        "KO-KR": "그랜드 마스터의 인피니티 블레이드",
+        "JA-JP": "インフィニティーブレード（グランドマスター）",
+        "ZH-TW": "宗師級無盡之劍",
+        "ID-ID": "Pedang Tanpabatas Grandmaster",
+        "TR-TR": "Büyük Usta Ebedi Kılıcı",
+        "AR-SA": "نصل اللانهاية للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.5,
+        "crafting_focus": 6893,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 33,
+        "attack_speed": 1.35,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 230660,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 17.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SWORD_BERSERK_RUN_RE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SWORD_BERSERK_RUN_RE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_SWORD_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 345990,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 518985,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 778478,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 1167716,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1200,
+        "durability": 345990,
+        "crafting_silver": 0,
+        "crafting_time": 3.75,
+        "crafting_focus": 12064,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T7_LEATHER_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 345990,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+          "name_artifact_en": "Grandmaster's Infinite Crystal",
+          "name_artifact_ar": "بلورة اللانهاية للأستاذ",
+          "name_artifact_de": "Unendlichkeitskristall des Großmeisters",
+          "name_artifact_fr": "Cristal infini du grand maître",
+          "name_artifact_es": "Cristal infinito del gran maestro",
+          "name_artifact_ru": "Вечный кристалл (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_MAIN_SWORD_CRYSTAL@1",
+        "item_database_index": "8801"
+      },
+      "tier": 7,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Grandmaster's Infinity Blade",
+        "name_ar": "نصل اللانهاية للأستاذ",
+        "name_de": "Unendlichkeitsklinge des Großmeisters",
+        "name_fr": "Lame infinie du grand maître",
+        "name_es": "Hoja infinita del gran maestro",
+        "name_ru": "Клинок бесконечности (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_MAIN_SWORD_CRYSTAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "33",
+        "@attackspeed": "1.35",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "17.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "230660",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_SWORDS_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_crystal",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "6893",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SWORD_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "345990",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "518985",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "778478",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "1167716",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_MAIN_SWORD_CRYSTAL@2",
+      "index": "8802",
+      "name_en": "Grandmaster's Infinity Blade",
+      "name_ar": "نصل اللانهاية للأستاذ",
+      "name_de": "Unendlichkeitsklinge des Großmeisters",
+      "name_fr": "Lame infinie du grand maître",
+      "name_es": "Hoja infinita del gran maestro",
+      "name_ru": "Клинок бесконечности (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_MAIN_SWORD_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_MAIN_SWORD_CRYSTAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "33",
+        "attackspeed": "1.35",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "17.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "230660",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_SWORDS_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Infinity Blade",
+        "DE-DE": "Unendlichkeitsklinge des Großmeisters",
+        "FR-FR": "Lame infinie du grand maître",
+        "RU-RU": "Клинок бесконечности (магистр)",
+        "PL-PL": "Ostrze Nieskończoności Wszechmistrza",
+        "ES-ES": "Hoja infinita del gran maestro",
+        "PT-BR": "Lâmina da Infinidade do Grão-mestre",
+        "IT-IT": "Lama dell'Infinito del gran maestro",
+        "ZH-CN": "宗师级无尽之剑",
+        "KO-KR": "그랜드 마스터의 인피니티 블레이드",
+        "JA-JP": "インフィニティーブレード（グランドマスター）",
+        "ZH-TW": "宗師級無盡之劍",
+        "ID-ID": "Pedang Tanpabatas Grandmaster",
+        "TR-TR": "Büyük Usta Ebedi Kılıcı",
+        "AR-SA": "نصل اللانهاية للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.5,
+        "crafting_focus": 6893,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 33,
+        "attack_speed": 1.35,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 230660,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 17.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SWORD_BERSERK_RUN_RE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SWORD_BERSERK_RUN_RE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_SWORD_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 345990,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 518985,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 778478,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 1167716,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1300,
+        "durability": 518985,
+        "crafting_silver": 0,
+        "crafting_time": 4.5,
+        "crafting_focus": 21111,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T7_LEATHER_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 518985,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+          "name_artifact_en": "Grandmaster's Infinite Crystal",
+          "name_artifact_ar": "بلورة اللانهاية للأستاذ",
+          "name_artifact_de": "Unendlichkeitskristall des Großmeisters",
+          "name_artifact_fr": "Cristal infini du grand maître",
+          "name_artifact_es": "Cristal infinito del gran maestro",
+          "name_artifact_ru": "Вечный кристалл (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_MAIN_SWORD_CRYSTAL@2",
+        "item_database_index": "8802"
+      },
+      "tier": 7,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Grandmaster's Infinity Blade",
+        "name_ar": "نصل اللانهاية للأستاذ",
+        "name_de": "Unendlichkeitsklinge des Großmeisters",
+        "name_fr": "Lame infinie du grand maître",
+        "name_es": "Hoja infinita del gran maestro",
+        "name_ru": "Клинок бесконечности (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_MAIN_SWORD_CRYSTAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "33",
+        "@attackspeed": "1.35",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "17.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "230660",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_SWORDS_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_crystal",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "6893",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SWORD_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "345990",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "518985",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "778478",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "1167716",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_MAIN_SWORD_CRYSTAL@3",
+      "index": "8803",
+      "name_en": "Grandmaster's Infinity Blade",
+      "name_ar": "نصل اللانهاية للأستاذ",
+      "name_de": "Unendlichkeitsklinge des Großmeisters",
+      "name_fr": "Lame infinie du grand maître",
+      "name_es": "Hoja infinita del gran maestro",
+      "name_ru": "Клинок бесконечности (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_MAIN_SWORD_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_MAIN_SWORD_CRYSTAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "33",
+        "attackspeed": "1.35",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "17.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "230660",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_SWORDS_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Infinity Blade",
+        "DE-DE": "Unendlichkeitsklinge des Großmeisters",
+        "FR-FR": "Lame infinie du grand maître",
+        "RU-RU": "Клинок бесконечности (магистр)",
+        "PL-PL": "Ostrze Nieskończoności Wszechmistrza",
+        "ES-ES": "Hoja infinita del gran maestro",
+        "PT-BR": "Lâmina da Infinidade do Grão-mestre",
+        "IT-IT": "Lama dell'Infinito del gran maestro",
+        "ZH-CN": "宗师级无尽之剑",
+        "KO-KR": "그랜드 마스터의 인피니티 블레이드",
+        "JA-JP": "インフィニティーブレード（グランドマスター）",
+        "ZH-TW": "宗師級無盡之劍",
+        "ID-ID": "Pedang Tanpabatas Grandmaster",
+        "TR-TR": "Büyük Usta Ebedi Kılıcı",
+        "AR-SA": "نصل اللانهاية للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.5,
+        "crafting_focus": 6893,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 33,
+        "attack_speed": 1.35,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 230660,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 17.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SWORD_BERSERK_RUN_RE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SWORD_BERSERK_RUN_RE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_SWORD_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 345990,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 518985,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 778478,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 1167716,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1400,
+        "durability": 778478,
+        "crafting_silver": 0,
+        "crafting_time": 5.4,
+        "crafting_focus": 36945,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T7_LEATHER_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T7_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 778478,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+          "name_artifact_en": "Grandmaster's Infinite Crystal",
+          "name_artifact_ar": "بلورة اللانهاية للأستاذ",
+          "name_artifact_de": "Unendlichkeitskristall des Großmeisters",
+          "name_artifact_fr": "Cristal infini du grand maître",
+          "name_artifact_es": "Cristal infinito del gran maestro",
+          "name_artifact_ru": "Вечный кристалл (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_MAIN_SWORD_CRYSTAL@3",
+        "item_database_index": "8803"
+      },
+      "tier": 7,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Grandmaster's Infinity Blade",
+        "name_ar": "نصل اللانهاية للأستاذ",
+        "name_de": "Unendlichkeitsklinge des Großmeisters",
+        "name_fr": "Lame infinie du grand maître",
+        "name_es": "Hoja infinita del gran maestro",
+        "name_ru": "Клинок бесконечности (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_MAIN_SWORD_CRYSTAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "33",
+        "@attackspeed": "1.35",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "17.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "230660",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_SWORDS_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_crystal",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "6893",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SWORD_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "345990",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "518985",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "778478",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "1167716",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T7_MAIN_SWORD_CRYSTAL@4",
+      "index": "8804",
+      "name_en": "Grandmaster's Infinity Blade",
+      "name_ar": "نصل اللانهاية للأستاذ",
+      "name_de": "Unendlichkeitsklinge des Großmeisters",
+      "name_fr": "Lame infinie du grand maître",
+      "name_es": "Hoja infinita del gran maestro",
+      "name_ru": "Клинок бесконечности (магистр)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Предмет экипировки"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_MAIN_SWORD_CRYSTAL",
+        "description_variable": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC"
+      },
+      "category": "Weapons_Sword",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_MAIN_SWORD_CRYSTAL",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "sword",
+        "attacktype": "melee",
+        "mainhandanimationtype": "sword",
+        "attackdamage": "33",
+        "attackspeed": "1.35",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "7",
+        "weight": "17.1",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "230660",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "sword",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.15",
+        "destinyandjournalcraftfamefactor": "1.4",
+        "combatspecachievement": "COMBAT_SWORDS_CRYSTAL",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "sword_crystal"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Infinity Blade",
+        "DE-DE": "Unendlichkeitsklinge des Großmeisters",
+        "FR-FR": "Lame infinie du grand maître",
+        "RU-RU": "Клинок бесконечности (магистр)",
+        "PL-PL": "Ostrze Nieskończoności Wszechmistrza",
+        "ES-ES": "Hoja infinita del gran maestro",
+        "PT-BR": "Lâmina da Infinidade do Grão-mestre",
+        "IT-IT": "Lama dell'Infinito del gran maestro",
+        "ZH-CN": "宗师级无尽之剑",
+        "KO-KR": "그랜드 마스터의 인피니티 블레이드",
+        "JA-JP": "インフィニティーブレード（グランドマスター）",
+        "ZH-TW": "宗師級無盡之劍",
+        "ID-ID": "Pedang Tanpabatas Grandmaster",
+        "TR-TR": "Büyük Usta Ebedi Kılıcı",
+        "AR-SA": "نصل اللانهاية للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Предмет экипировки",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.5,
+        "crafting_focus": 6893,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T7_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T7_LEATHER",
+            "count": 8
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T7_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T7_LEATHER",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 33,
+        "attack_speed": 1.35,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "sword",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 230660,
+        "max_quality_level": 5,
+        "tier_raw": 7,
+        "weight": 17.1,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.15,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_SWORDS_CRYSTAL",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "SWORD_BERSERK_RUN_RE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "SWORD_BERSERK_RUN_RE",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_SWORD_CRYSTAL"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 345990,
+          "crafting_silver": 0,
+          "crafting_time": 3.75,
+          "crafting_focus": 12064,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_LEATHER_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 518985,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_LEATHER_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 778478,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_LEATHER_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T7_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 1167716,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T7_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_LEATHER_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "count": 1,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1500,
+        "durability": 1167716,
+        "crafting_silver": 0,
+        "crafting_time": 6.48,
+        "crafting_focus": 64653,
+        "crafting_resources": [
+          {
+            "id": "T7_METALBAR_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T7_LEATHER_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+            "count": 1,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1500,
+      "effective_durability": 1167716,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "sword",
+        "crafting_category": "sword",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": true,
+      "artifact_details": [
+        {
+          "resource": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+          "name_artifact_en": "Grandmaster's Infinite Crystal",
+          "name_artifact_ar": "بلورة اللانهاية للأستاذ",
+          "name_artifact_de": "Unendlichkeitskristall des Großmeisters",
+          "name_artifact_fr": "Cristal infini du grand maître",
+          "name_artifact_es": "Cristal infinito del gran maestro",
+          "name_artifact_ru": "Вечный кристалл (магистр)",
+          "description_artifact_en": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
+          "description_artifact_ar": "قطعة من سلاح قوي قديم. يمكن استخدامها لتصنيع {0} من المستوى نفسه أو تفكيكها إلى أكثر من {1}.",
+          "description_artifact_de": "Teil einer uralten und mächtigen Waffe. Kann zur Fertigung von {0} der gleichen Stufe genutzt werden, oder zu {1} wiederverwertet werden.",
+          "description_artifact_fr": "Morceau d'une arme ancienne et puissante. Peut être utilisé pour fabriquer : {0} du même niveau, ou être recyclé en : {1}.",
+          "description_artifact_es": "Un trozo de un arma antigua y poderosa. Sirve para fabricar {0} del mismo nivel o reciclar para conseguir {1}.",
+          "description_artifact_ru": "Это часть древнего и могучего оружия. Из нее получится {0} такого же уровня. Или вы можете разобрать ее и получить ресурсы ({1}).",
+          "count": 1
+        }
+      ],
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_MAIN_SWORD_CRYSTAL@4",
+        "item_database_index": "8804"
+      },
+      "tier": 7,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Grandmaster's Infinity Blade",
+        "name_ar": "نصل اللانهاية للأستاذ",
+        "name_de": "Unendlichkeitsklinge des Großmeisters",
+        "name_fr": "Lame infinie du grand maître",
+        "name_es": "Hoja infinita del gran maestro",
+        "name_ru": "Клинок бесконечности (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_MAIN_SWORD_CRYSTAL",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@descriptionlocatag": "@ITEMS_EQUIPMENTITEM_GENERAL_DESC",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "sword",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "sword",
+        "@attackdamage": "33",
+        "@attackspeed": "1.35",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "7",
+        "@weight": "17.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "230660",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "sword",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.15",
+        "@destinyandjournalcraftfamefactor": "1.4",
+        "@combatspecachievement": "COMBAT_SWORDS_CRYSTAL",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "sword_crystal",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "6893",
+          "craftresource": [
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "16"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T4_MAIN_SWORD_CRYSTAL"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "345990",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "3.75",
+                "@craftingfocus": "12064",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "518985",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "778478",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T7_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "1167716",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  },
+                  {
+                    "@uniquename": "T7_LEATHER_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

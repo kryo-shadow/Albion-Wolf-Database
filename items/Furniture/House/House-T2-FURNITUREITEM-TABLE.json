@@ -1,0 +1,220 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Furniture",
+  "family": "Furniture_House",
+  "base_id": "T2_FURNITUREITEM_TABLE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T2_FURNITUREITEM_TABLE",
+      "index": "3192",
+      "name_en": "Novice's Table",
+      "name_ar": "طاولة المبتدئ",
+      "name_de": "Tisch des Novizen",
+      "name_fr": "Table de l'apprenti",
+      "name_es": "Mesa del novato",
+      "name_ru": "Стол (новичок)",
+      "descriptions": {
+        "description_en": "Contributes to Laborer happiness. Item can only be placed indoors.",
+        "description_ar": "تساهم في رفع مستوى سعادة العامل. عنصر لا يمكن وضعه إلا في مكان مغلق.",
+        "description_de": "Erhöht Arbeiterzufriedenheit. Muss drinnen platziert werden.",
+        "description_fr": "Contribue à la joie des travailleurs. À placer uniquement en intérieur.",
+        "description_es": "Mejora la felicidad de los trabajadores. Objeto exclusivo de interiores.",
+        "description_ru": "Повышает счастье работников. Должен стоять в доме."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T2_FURNITUREITEM_TABLE",
+        "description_variable": "@ITEMS_T2_FURNITUREITEM_TABLE_DESC"
+      },
+      "category": "Furniture_House",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T2_FURNITUREITEM_TABLE",
+        "shopcategory": "other",
+        "shopsubcategory1": "labourers",
+        "tier": "2",
+        "labourerfurnituretype": "table",
+        "labourersaffected": "all",
+        "labourerhappiness": "100",
+        "labourersperfurnitureitem": "4",
+        "weight": "5.4",
+        "unlockedtocraft": "true",
+        "placeableindoors": "true",
+        "placeableoutdoors": "false",
+        "placeableindungeons": "false",
+        "placeableinexpeditions": "false",
+        "shopsubcategory2": "tables"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Novice's Table",
+        "DE-DE": "Tisch des Novizen",
+        "FR-FR": "Table de l'apprenti",
+        "RU-RU": "Стол (новичок)",
+        "PL-PL": "Stół Nowicjusza",
+        "ES-ES": "Mesa del novato",
+        "PT-BR": "Mesa do Novato",
+        "IT-IT": "Tavolo del novizio",
+        "ZH-CN": "新手级桌子",
+        "KO-KR": "초심자의 테이블",
+        "JA-JP": "テーブル（見習い）",
+        "ZH-TW": "新手級餐桌",
+        "ID-ID": "Meja Pemula",
+        "TR-TR": "Acemi Masası",
+        "AR-SA": "طاولة المبتدئ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Contributes to Laborer happiness. Item can only be placed indoors.",
+        "DE-DE": "Erhöht Arbeiterzufriedenheit. Muss drinnen platziert werden.",
+        "FR-FR": "Contribue à la joie des travailleurs. À placer uniquement en intérieur.",
+        "RU-RU": "Повышает счастье работников. Должен стоять в доме.",
+        "PL-PL": "Wpływa na zadowolenie pracowników. Przedmiot do pomieszczenia.",
+        "ES-ES": "Mejora la felicidad de los trabajadores. Objeto exclusivo de interiores.",
+        "PT-BR": "Contribui para a felicidade do Trabalhador. Item somente para interiores.",
+        "IT-IT": "Contribuisce alla felicità dei lavoratori. L'oggetto si può posizionare solo al chiuso.",
+        "ZH-CN": "提升工人幸福指数，只能放在室内。",
+        "KO-KR": "노동자의 행복도에 기여합니다. 아이템은 실내에만 배치 가능합니다.",
+        "JA-JP": "労働者の幸福度に寄与します。アイテムは内部にのみ配置できます。",
+        "ZH-TW": "能增加工人的幸福感。此物品只能放置於室內。",
+        "ID-ID": "Berkontribusi pada kebahagiaan Pekerja. Item hanya bisa diletakkan dalam ruangan.",
+        "TR-TR": "İşçilerin Mutluluk değerine katkı sağlar. Yalnızca kapalı alanlara yerleştirilebilir.",
+        "AR-SA": "تساهم في رفع مستوى سعادة العامل. عنصر لا يمكن وضعه إلا في مكان مغلق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T2_PLANKS",
+        "primary_count": 30,
+        "secondary_resource": "T2_CLOTH",
+        "secondary_count": 30,
+        "resources": [
+          {
+            "id": "T2_PLANKS",
+            "count": 30
+          },
+          {
+            "id": "T2_CLOTH",
+            "count": 30
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 343,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T2_PLANKS",
+            "count": 30
+          },
+          {
+            "id": "T2_CLOTH",
+            "count": 30
+          }
+        ],
+        "primary_resource": "T2_PLANKS",
+        "primary_count": 30,
+        "secondary_resource": "T2_CLOTH",
+        "secondary_count": 30
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 2,
+        "weight": 5.4,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "other",
+        "shop_subcategory1": "labourers",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T2_FURNITUREITEM_TABLE",
+        "item_database_index": "3192"
+      },
+      "tier": 2,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Novice's Table",
+        "name_ar": "طاولة المبتدئ",
+        "name_de": "Tisch des Novizen",
+        "name_fr": "Table de l'apprenti",
+        "name_es": "Mesa del novato",
+        "name_ru": "Стол (новичок)"
+      },
+      "raw": {
+        "@uniquename": "T2_FURNITUREITEM_TABLE",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "labourers",
+        "@tier": "2",
+        "@labourerfurnituretype": "table",
+        "@labourersaffected": "all",
+        "@labourerhappiness": "100",
+        "@labourersperfurnitureitem": "4",
+        "@weight": "5.4",
+        "@unlockedtocraft": "true",
+        "@placeableindoors": "true",
+        "@placeableoutdoors": "false",
+        "@placeableindungeons": "false",
+        "@placeableinexpeditions": "false",
+        "@shopsubcategory2": "tables",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "343",
+          "craftresource": [
+            {
+              "@uniquename": "T2_PLANKS",
+              "@count": "30"
+            },
+            {
+              "@uniquename": "T2_CLOTH",
+              "@count": "30"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

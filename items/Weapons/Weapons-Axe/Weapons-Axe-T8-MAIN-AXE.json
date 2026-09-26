@@ -1,0 +1,3254 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Weapons",
+  "family": "Weapons_Axe",
+  "base_id": "T8_MAIN_AXE",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "T8_MAIN_AXE",
+      "index": "8427",
+      "name_en": "Elder's Battleaxe",
+      "name_ar": "فأس معركة للحكيم",
+      "name_de": "Streitaxt des Ältesten",
+      "name_fr": "Hache de guerre du sage",
+      "name_es": "Hacha de guerra del anciano",
+      "name_ru": "Боевой топор (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_AXE",
+        "description_variable": "@ITEMS_T8_MAIN_AXE_DESC"
+      },
+      "category": "Weapons_Axe",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_AXE",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "axe",
+        "attacktype": "melee",
+        "mainhandanimationtype": "axe",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "axe",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_AXES_AXE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "axe_main_axe"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Battleaxe",
+        "DE-DE": "Streitaxt des Ältesten",
+        "FR-FR": "Hache de guerre du sage",
+        "RU-RU": "Боевой топор (старейшина)",
+        "PL-PL": "Berdysz Starszego",
+        "ES-ES": "Hacha de guerra del anciano",
+        "PT-BR": "Machado de Guerra do Ancião",
+        "IT-IT": "Ascia da battaglia dell'anziano",
+        "ZH-CN": "禅师级战斧",
+        "KO-KR": "장로의 배틀액스",
+        "JA-JP": "バトルアックス（老熟）",
+        "ZH-TW": "禪師級戰斧",
+        "ID-ID": "Kapak Tempur Tetua",
+        "TR-TR": "Yüce Savaş Baltası",
+        "AR-SA": "فأس معركة للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "axe",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_AXES_AXE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "RENDINGSTRIKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXESMASH",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXEBOOST",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGSPIN",
+            "slots": 1,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXE_CHARGE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "INNERBLEEDING",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BLADE_AURA",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGCOMBO",
+            "slots": 1,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXETHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_AXE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_AXE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CHANCE_AXE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "RENDINGSTRIKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXESMASH",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXEBOOST",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGSPIN",
+            "slots": 1,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXE_CHARGE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "INNERBLEEDING",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BLADE_AURA",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGCOMBO",
+            "slots": 1,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXETHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_AXE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_AXE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CHANCE_AXE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_AXE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": 1100,
+      "effective_durability": 68344,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "axe",
+        "crafting_category": "axe",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_AXE",
+        "item_database_index": "8427"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Battleaxe",
+        "name_ar": "فأس معركة للحكيم",
+        "name_de": "Streitaxt des Ältesten",
+        "name_fr": "Hache de guerre du sage",
+        "name_es": "Hacha de guerra del anciano",
+        "name_ru": "Боевой топор (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_AXE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "axe",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "axe",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "axe",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_AXES_AXE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "axe_main_axe",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.75",
+          "@craftingfocus": "12064",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "16"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_MAIN_AXE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "153774",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "230661",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "345992",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.56",
+                "@craftingfocus": "113144",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_AXE@1",
+      "index": "8428",
+      "name_en": "Elder's Battleaxe",
+      "name_ar": "فأس معركة للحكيم",
+      "name_de": "Streitaxt des Ältesten",
+      "name_fr": "Hache de guerre du sage",
+      "name_es": "Hacha de guerra del anciano",
+      "name_ru": "Боевой топор (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_AXE",
+        "description_variable": "@ITEMS_T8_MAIN_AXE_DESC"
+      },
+      "category": "Weapons_Axe",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_AXE",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "axe",
+        "attacktype": "melee",
+        "mainhandanimationtype": "axe",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "axe",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_AXES_AXE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "axe_main_axe"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Battleaxe",
+        "DE-DE": "Streitaxt des Ältesten",
+        "FR-FR": "Hache de guerre du sage",
+        "RU-RU": "Боевой топор (старейшина)",
+        "PL-PL": "Berdysz Starszego",
+        "ES-ES": "Hacha de guerra del anciano",
+        "PT-BR": "Machado de Guerra do Ancião",
+        "IT-IT": "Ascia da battaglia dell'anziano",
+        "ZH-CN": "禅师级战斧",
+        "KO-KR": "장로의 배틀액스",
+        "JA-JP": "バトルアックス（老熟）",
+        "ZH-TW": "禪師級戰斧",
+        "ID-ID": "Kapak Tempur Tetua",
+        "TR-TR": "Yüce Savaş Baltası",
+        "AR-SA": "فأس معركة للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "axe",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_AXES_AXE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "RENDINGSTRIKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXESMASH",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXEBOOST",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGSPIN",
+            "slots": 1,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXE_CHARGE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "INNERBLEEDING",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BLADE_AURA",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGCOMBO",
+            "slots": 1,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXETHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_AXE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_AXE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CHANCE_AXE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "RENDINGSTRIKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXESMASH",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXEBOOST",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGSPIN",
+            "slots": 1,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXE_CHARGE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "INNERBLEEDING",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BLADE_AURA",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGCOMBO",
+            "slots": 1,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXETHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_AXE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_AXE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CHANCE_AXE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_AXE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 1,
+        "item_power": 1200,
+        "durability": 102516,
+        "crafting_silver": 0,
+        "crafting_time": 4.5,
+        "crafting_focus": 21111,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL1",
+            "count": 8,
+            "enchantment_level": 1
+          },
+          {
+            "id": "T8_METALBAR_LEVEL1",
+            "count": 16,
+            "enchantment_level": 1
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RUNE",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1200,
+      "effective_durability": 102516,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "axe",
+        "crafting_category": "axe",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_AXE@1",
+        "item_database_index": "8428"
+      },
+      "tier": 8,
+      "enchantment": 1,
+      "localized": {
+        "name_en": "Elder's Battleaxe",
+        "name_ar": "فأس معركة للحكيم",
+        "name_de": "Streitaxt des Ältesten",
+        "name_fr": "Hache de guerre du sage",
+        "name_es": "Hacha de guerra del anciano",
+        "name_ru": "Боевой топор (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_AXE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "axe",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "axe",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "axe",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_AXES_AXE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "axe_main_axe",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.75",
+          "@craftingfocus": "12064",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "16"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_MAIN_AXE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "153774",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "230661",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "345992",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.56",
+                "@craftingfocus": "113144",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_AXE@2",
+      "index": "8429",
+      "name_en": "Elder's Battleaxe",
+      "name_ar": "فأس معركة للحكيم",
+      "name_de": "Streitaxt des Ältesten",
+      "name_fr": "Hache de guerre du sage",
+      "name_es": "Hacha de guerra del anciano",
+      "name_ru": "Боевой топор (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_AXE",
+        "description_variable": "@ITEMS_T8_MAIN_AXE_DESC"
+      },
+      "category": "Weapons_Axe",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_AXE",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "axe",
+        "attacktype": "melee",
+        "mainhandanimationtype": "axe",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "axe",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_AXES_AXE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "axe_main_axe"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Battleaxe",
+        "DE-DE": "Streitaxt des Ältesten",
+        "FR-FR": "Hache de guerre du sage",
+        "RU-RU": "Боевой топор (старейшина)",
+        "PL-PL": "Berdysz Starszego",
+        "ES-ES": "Hacha de guerra del anciano",
+        "PT-BR": "Machado de Guerra do Ancião",
+        "IT-IT": "Ascia da battaglia dell'anziano",
+        "ZH-CN": "禅师级战斧",
+        "KO-KR": "장로의 배틀액스",
+        "JA-JP": "バトルアックス（老熟）",
+        "ZH-TW": "禪師級戰斧",
+        "ID-ID": "Kapak Tempur Tetua",
+        "TR-TR": "Yüce Savaş Baltası",
+        "AR-SA": "فأس معركة للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "axe",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_AXES_AXE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "RENDINGSTRIKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXESMASH",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXEBOOST",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGSPIN",
+            "slots": 1,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXE_CHARGE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "INNERBLEEDING",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BLADE_AURA",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGCOMBO",
+            "slots": 1,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXETHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_AXE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_AXE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CHANCE_AXE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "RENDINGSTRIKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXESMASH",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXEBOOST",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGSPIN",
+            "slots": 1,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXE_CHARGE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "INNERBLEEDING",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BLADE_AURA",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGCOMBO",
+            "slots": 1,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXETHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_AXE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_AXE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CHANCE_AXE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_AXE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 2,
+        "item_power": 1300,
+        "durability": 153774,
+        "crafting_silver": 0,
+        "crafting_time": 5.4,
+        "crafting_focus": 36945,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL2",
+            "count": 8,
+            "enchantment_level": 2
+          },
+          {
+            "id": "T8_METALBAR_LEVEL2",
+            "count": 16,
+            "enchantment_level": 2
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_SOUL",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1300,
+      "effective_durability": 153774,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "axe",
+        "crafting_category": "axe",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_AXE@2",
+        "item_database_index": "8429"
+      },
+      "tier": 8,
+      "enchantment": 2,
+      "localized": {
+        "name_en": "Elder's Battleaxe",
+        "name_ar": "فأس معركة للحكيم",
+        "name_de": "Streitaxt des Ältesten",
+        "name_fr": "Hache de guerre du sage",
+        "name_es": "Hacha de guerra del anciano",
+        "name_ru": "Боевой топор (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_AXE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "axe",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "axe",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "axe",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_AXES_AXE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "axe_main_axe",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.75",
+          "@craftingfocus": "12064",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "16"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_MAIN_AXE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "153774",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "230661",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "345992",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.56",
+                "@craftingfocus": "113144",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_AXE@3",
+      "index": "8430",
+      "name_en": "Elder's Battleaxe",
+      "name_ar": "فأس معركة للحكيم",
+      "name_de": "Streitaxt des Ältesten",
+      "name_fr": "Hache de guerre du sage",
+      "name_es": "Hacha de guerra del anciano",
+      "name_ru": "Боевой топор (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_AXE",
+        "description_variable": "@ITEMS_T8_MAIN_AXE_DESC"
+      },
+      "category": "Weapons_Axe",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_AXE",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "axe",
+        "attacktype": "melee",
+        "mainhandanimationtype": "axe",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "axe",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_AXES_AXE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "axe_main_axe"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Battleaxe",
+        "DE-DE": "Streitaxt des Ältesten",
+        "FR-FR": "Hache de guerre du sage",
+        "RU-RU": "Боевой топор (старейшина)",
+        "PL-PL": "Berdysz Starszego",
+        "ES-ES": "Hacha de guerra del anciano",
+        "PT-BR": "Machado de Guerra do Ancião",
+        "IT-IT": "Ascia da battaglia dell'anziano",
+        "ZH-CN": "禅师级战斧",
+        "KO-KR": "장로의 배틀액스",
+        "JA-JP": "バトルアックス（老熟）",
+        "ZH-TW": "禪師級戰斧",
+        "ID-ID": "Kapak Tempur Tetua",
+        "TR-TR": "Yüce Savaş Baltası",
+        "AR-SA": "فأس معركة للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "axe",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_AXES_AXE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "RENDINGSTRIKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXESMASH",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXEBOOST",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGSPIN",
+            "slots": 1,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXE_CHARGE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "INNERBLEEDING",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BLADE_AURA",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGCOMBO",
+            "slots": 1,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXETHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_AXE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_AXE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CHANCE_AXE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "RENDINGSTRIKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXESMASH",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXEBOOST",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGSPIN",
+            "slots": 1,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXE_CHARGE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "INNERBLEEDING",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BLADE_AURA",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGCOMBO",
+            "slots": 1,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXETHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_AXE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_AXE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CHANCE_AXE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_AXE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 3,
+        "item_power": 1400,
+        "durability": 230661,
+        "crafting_silver": 0,
+        "crafting_time": 6.48,
+        "crafting_focus": 64653,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL3",
+            "count": 8,
+            "enchantment_level": 3
+          },
+          {
+            "id": "T8_METALBAR_LEVEL3",
+            "count": 16,
+            "enchantment_level": 3
+          }
+        ],
+        "upgrade_resources": [
+          {
+            "id": "T8_RELIC",
+            "count": 288
+          }
+        ]
+      },
+      "effective_item_power": 1400,
+      "effective_durability": 230661,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "axe",
+        "crafting_category": "axe",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_AXE@3",
+        "item_database_index": "8430"
+      },
+      "tier": 8,
+      "enchantment": 3,
+      "localized": {
+        "name_en": "Elder's Battleaxe",
+        "name_ar": "فأس معركة للحكيم",
+        "name_de": "Streitaxt des Ältesten",
+        "name_fr": "Hache de guerre du sage",
+        "name_es": "Hacha de guerra del anciano",
+        "name_ru": "Боевой топор (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_AXE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "axe",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "axe",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "axe",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_AXES_AXE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "axe_main_axe",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.75",
+          "@craftingfocus": "12064",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "16"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_MAIN_AXE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "153774",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "230661",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "345992",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.56",
+                "@craftingfocus": "113144",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    },
+    {
+      "id": "T8_MAIN_AXE@4",
+      "index": "8431",
+      "name_en": "Elder's Battleaxe",
+      "name_ar": "فأس معركة للحكيم",
+      "name_de": "Streitaxt des Ältesten",
+      "name_fr": "Hache de guerre du sage",
+      "name_es": "Hacha de guerra del anciano",
+      "name_ru": "Боевой топор (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MAIN_AXE",
+        "description_variable": "@ITEMS_T8_MAIN_AXE_DESC"
+      },
+      "category": "Weapons_Axe",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_MAIN_AXE",
+        "maxqualitylevel": "5",
+        "abilitypower": "138",
+        "slottype": "mainhand",
+        "shopcategory": "weapons",
+        "shopsubcategory1": "axe",
+        "attacktype": "melee",
+        "mainhandanimationtype": "axe",
+        "attackdamage": "41",
+        "attackspeed": "1.1",
+        "twohanded": "false",
+        "attackrange": "3",
+        "tier": "8",
+        "weight": "25.6",
+        "activespellslots": "3",
+        "passivespellslots": "1",
+        "durability": "68344",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "hitpointsmax": "50",
+        "itempower": "1100",
+        "hitpointsregenerationbonus": "0.05",
+        "physicalspelldamagebonus": "0",
+        "magicspelldamagebonus": "0",
+        "itempowerprogressiontype": "mainhand",
+        "focusfireprotectionpenetration": "0",
+        "craftingcategory": "axe",
+        "healmodifier": "0",
+        "canbeovercharged": "true",
+        "masterymodifier": "0.2",
+        "combatspecachievement": "COMBAT_AXES_AXE",
+        "physicalattackdamagebonus": "0",
+        "magicattackdamagebonus": "0",
+        "shopsubcategory2": "axe_main_axe"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Battleaxe",
+        "DE-DE": "Streitaxt des Ältesten",
+        "FR-FR": "Hache de guerre du sage",
+        "RU-RU": "Боевой топор (старейшина)",
+        "PL-PL": "Berdysz Starszego",
+        "ES-ES": "Hacha de guerra del anciano",
+        "PT-BR": "Machado de Guerra do Ancião",
+        "IT-IT": "Ascia da battaglia dell'anziano",
+        "ZH-CN": "禅师级战斧",
+        "KO-KR": "장로의 배틀액스",
+        "JA-JP": "バトルアックス（老熟）",
+        "ZH-TW": "禪師級戰斧",
+        "ID-ID": "Kapak Tempur Tetua",
+        "TR-TR": "Yüce Savaş Baltası",
+        "AR-SA": "فأس معركة للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 3.75,
+        "crafting_focus": 12064,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_METALBAR",
+            "count": 16
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T8_METALBAR",
+        "primary_count": 16,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 41,
+        "attack_speed": 1.1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "axe",
+        "item_power": 1100,
+        "ability_power": 138,
+        "durability": 68344,
+        "max_quality_level": 5,
+        "tier_raw": 8,
+        "weight": 25.6,
+        "two_handed": false,
+        "can_be_overcharged": true,
+        "physical_attack_bonus": 0,
+        "magic_attack_bonus": 0,
+        "physical_spell_bonus": 0,
+        "magic_spell_bonus": 0,
+        "heal_modifier": 0,
+        "mastery_modifier": 0.2,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": "COMBAT_AXES_AXE",
+        "itempower_progression": "mainhand"
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "RENDINGSTRIKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXESMASH",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXEBOOST",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGSPIN",
+            "slots": 1,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXE_CHARGE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "INNERBLEEDING",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BLADE_AURA",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGCOMBO",
+            "slots": 1,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXETHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          },
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_AXE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_AXE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CHANCE_AXE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "actives": [
+          {
+            "uniquename": "RENDINGSTRIKE",
+            "slots": 1,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXESMASH",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXEBOOST",
+            "slots": 2,
+            "tag": null,
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGSPIN",
+            "slots": 1,
+            "tag": "C",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXE_CHARGE",
+            "slots": 2,
+            "tag": "D",
+            "is_passive": false
+          },
+          {
+            "uniquename": "INNERBLEEDING",
+            "slots": 2,
+            "tag": "F",
+            "is_passive": false
+          },
+          {
+            "uniquename": "BLADE_AURA",
+            "slots": 2,
+            "tag": "H",
+            "is_passive": false
+          },
+          {
+            "uniquename": "RENDINGCOMBO",
+            "slots": 1,
+            "tag": "I",
+            "is_passive": false
+          },
+          {
+            "uniquename": "AXETHROW",
+            "slots": 3,
+            "tag": "A",
+            "is_passive": false
+          }
+        ],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_BLEEDCHANCE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_HEALTHCHANCE_AXE",
+            "slots": null,
+            "tag": "B",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_ARMORCHANCE_AXE",
+            "slots": null,
+            "tag": "E",
+            "is_passive": true
+          },
+          {
+            "uniquename": "PASSIVE_SPELLPOWER_CHANCE_AXE",
+            "slots": null,
+            "tag": "G",
+            "is_passive": true
+          }
+        ],
+        "active_slots": 3,
+        "passive_slots": 1,
+        "resolved_from": "T4_MAIN_AXE"
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": 1200,
+          "durability": 102516,
+          "crafting_silver": 0,
+          "crafting_time": 4.5,
+          "crafting_focus": 21111,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL1",
+              "count": 8,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_METALBAR_LEVEL1",
+              "count": 16,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RUNE",
+              "count": 288
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": 1300,
+          "durability": 153774,
+          "crafting_silver": 0,
+          "crafting_time": 5.4,
+          "crafting_focus": 36945,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL2",
+              "count": 8,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_METALBAR_LEVEL2",
+              "count": 16,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_SOUL",
+              "count": 288
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": 1400,
+          "durability": 230661,
+          "crafting_silver": 0,
+          "crafting_time": 6.48,
+          "crafting_focus": 64653,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL3",
+              "count": 8,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_METALBAR_LEVEL3",
+              "count": 16,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T8_RELIC",
+              "count": 288
+            }
+          ]
+        },
+        "4": {
+          "level": 4,
+          "item_power": 1500,
+          "durability": 345992,
+          "crafting_silver": 0,
+          "crafting_time": 7.56,
+          "crafting_focus": 113144,
+          "crafting_resources": [
+            {
+              "id": "T8_PLANKS_LEVEL4",
+              "count": 8,
+              "enchantment_level": 4
+            },
+            {
+              "id": "T8_METALBAR_LEVEL4",
+              "count": 16,
+              "enchantment_level": 4
+            }
+          ],
+          "upgrade_resources": []
+        }
+      },
+      "enchantment_detail": {
+        "level": 4,
+        "item_power": 1500,
+        "durability": 345992,
+        "crafting_silver": 0,
+        "crafting_time": 7.56,
+        "crafting_focus": 113144,
+        "crafting_resources": [
+          {
+            "id": "T8_PLANKS_LEVEL4",
+            "count": 8,
+            "enchantment_level": 4
+          },
+          {
+            "id": "T8_METALBAR_LEVEL4",
+            "count": 16,
+            "enchantment_level": 4
+          }
+        ],
+        "upgrade_resources": []
+      },
+      "effective_item_power": 1500,
+      "effective_durability": 345992,
+      "shop": {
+        "shop_category": "weapons",
+        "shop_subcategory1": "axe",
+        "crafting_category": "axe",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MAIN_AXE@4",
+        "item_database_index": "8431"
+      },
+      "tier": 8,
+      "enchantment": 4,
+      "localized": {
+        "name_en": "Elder's Battleaxe",
+        "name_ar": "فأس معركة للحكيم",
+        "name_de": "Streitaxt des Ältesten",
+        "name_fr": "Hache de guerre du sage",
+        "name_es": "Hacha de guerra del anciano",
+        "name_ru": "Боевой топор (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_MAIN_AXE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "138",
+        "@slottype": "mainhand",
+        "@shopcategory": "weapons",
+        "@shopsubcategory1": "axe",
+        "@attacktype": "melee",
+        "@mainhandanimationtype": "axe",
+        "@attackdamage": "41",
+        "@attackspeed": "1.1",
+        "@twohanded": "false",
+        "@attackrange": "3",
+        "@tier": "8",
+        "@weight": "25.6",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@durability": "68344",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@hitpointsmax": "50",
+        "@itempower": "1100",
+        "@hitpointsregenerationbonus": "0.05",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@craftingcategory": "axe",
+        "@healmodifier": "0",
+        "@canbeovercharged": "true",
+        "@masterymodifier": "0.2",
+        "@combatspecachievement": "COMBAT_AXES_AXE",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@shopsubcategory2": "axe_main_axe",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "3.75",
+          "@craftingfocus": "12064",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "16"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "T7_MAIN_AXE"
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@itempower": "1200",
+              "@durability": "102516",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "4.5",
+                "@craftingfocus": "21111",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL1",
+                    "@enchantmentlevel": "1",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RUNE",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@itempower": "1300",
+              "@durability": "153774",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "5.4",
+                "@craftingfocus": "36945",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL2",
+                    "@enchantmentlevel": "2",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_SOUL",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@itempower": "1400",
+              "@durability": "230661",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "6.48",
+                "@craftingfocus": "64653",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL3",
+                    "@enchantmentlevel": "3",
+                    "@count": "16"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T8_RELIC",
+                  "@count": "288"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "4",
+              "@itempower": "1500",
+              "@durability": "345992",
+              "craftingrequirements": {
+                "@silver": "0",
+                "@time": "7.56",
+                "@craftingfocus": "113144",
+                "craftresource": [
+                  {
+                    "@uniquename": "T8_PLANKS_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "8"
+                  },
+                  {
+                    "@uniquename": "T8_METALBAR_LEVEL4",
+                    "@enchantmentlevel": "4",
+                    "@count": "16"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

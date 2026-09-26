@@ -1,0 +1,415 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T4_POTION_ENERGY",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_POTION_ENERGY",
+      "index": "554",
+      "name_en": "Energy Potion",
+      "name_ar": "جرعة طاقة",
+      "name_de": "Energietrank",
+      "name_fr": "Potion d'énergie",
+      "name_es": "Poción de energía",
+      "name_ru": "Эликсир энергии",
+      "descriptions": {
+        "description_en": "Fizzing potion. Increases your Cooldown Rate while restoring Energy over a short period.",
+        "description_ar": "جرعة فوارة. تزيد معدل فترات الانتظار الخاصة بك وتستعيد الطاقة لفترة قصيرة من الوقت.",
+        "description_de": "Zischender Trank. Stellt sofort wieder etwas Energie her und verbessert die Abklingzeit.",
+        "description_fr": "Potion effervescente. Augmente la vitesse de recharge tout en restaurant de l'énergie sur une courte période.",
+        "description_es": "Poción efervescente. Incrementa el ritmo de tiempo de espera mientras restaura energía durante un corto periodo.",
+        "description_ru": "Шипучее зелье. Увеличивает скорость восстановления навыков, восстанавливая энергию в течение короткого времени."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_POTION_ENERGY",
+        "description_variable": "@ITEMS_POTION_ENERGY_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_POTION_ENERGY",
+        "uisprite": "POTION_ENERGY",
+        "abilitypower": "186",
+        "slottype": "potion",
+        "consumespell": "POTION_ENERGY_P3",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "craftingcategory": "potion",
+        "tier": "4",
+        "dummyitempower": "700",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "0.3",
+        "descriptionlocatag": "@ITEMS_POTION_ENERGY_DESC",
+        "shopsubcategory2": "energy"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Energy Potion",
+        "DE-DE": "Energietrank",
+        "FR-FR": "Potion d'énergie",
+        "RU-RU": "Эликсир энергии",
+        "PL-PL": "Mikstura Energii",
+        "ES-ES": "Poción de energía",
+        "PT-BR": "Poção de Energia",
+        "IT-IT": "Pozione energetica",
+        "ZH-CN": "能量药水",
+        "KO-KR": "에너지 포션",
+        "JA-JP": "エネルギーポーション",
+        "ZH-TW": "能量藥水",
+        "ID-ID": "Ramuan Energi",
+        "TR-TR": "Enerji İksiri",
+        "AR-SA": "جرعة طاقة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Fizzing potion. Instantly restores some Energy.",
+        "DE-DE": "Zischender Trank. Stellt sofort wieder etwas Energie her.",
+        "FR-FR": "Potion pétillante. Restaure instantanément votre énergie.",
+        "RU-RU": "Шипучий эликсир. Мгновенно восстанавливает часть энергии.",
+        "PL-PL": "Musująca mikstura. Natychmiastowo przywraca część energii.",
+        "ES-ES": "Poción burbujeante. Restaura energía mientras se bebe.",
+        "PT-BR": "Poção Efervescente. Restaura a energia imediatamente.",
+        "IT-IT": "Pozione frizzante. Rigenera all'istante parte dell'energia.",
+        "ZH-CN": "咕嘟冒泡的药水，可以迅速恢复部分能量。",
+        "KO-KR": "거품이 이는 포션. 일정 정도의 에너지를 즉시 회복합니다.",
+        "JA-JP": "シュッと泡立つポーション。即座にエネルギーが少し回復します。",
+        "ZH-TW": "滋滋冒泡的藥水。使用後能立即回復一些能量。",
+        "ID-ID": "Ramuan berbuih. Seketika memulihkan sebagian Energi.",
+        "TR-TR": "Fışırdayan bir iksir. Kısa bir süreliğine Enerji yenilerken bekleme dolma hızını artırır.",
+        "AR-SA": "جرعة فوارة. تزيد معدل فترات الانتظار الخاصة بك وتستعيد الطاقة لفترة قصيرة من الوقت."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_BURDOCK",
+        "primary_count": 24,
+        "secondary_resource": "T4_MILK",
+        "secondary_count": 6,
+        "resources": [
+          {
+            "id": "T4_BURDOCK",
+            "count": 24
+          },
+          {
+            "id": "T4_MILK",
+            "count": 6
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.48,
+        "crafting_focus": 210,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_BURDOCK",
+            "count": 24
+          },
+          {
+            "id": "T4_MILK",
+            "count": 6
+          }
+        ],
+        "primary_resource": "T4_BURDOCK",
+        "primary_count": 24,
+        "secondary_resource": "T4_MILK",
+        "secondary_count": 6
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 4,
+        "weight": 0.3,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.48,
+          "crafting_focus": 277,
+          "crafting_resources": [
+            {
+              "id": "T4_BURDOCK",
+              "count": 24,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T4_MILK",
+              "count": 6,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 15,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 3
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.48,
+          "crafting_focus": 411,
+          "crafting_resources": [
+            {
+              "id": "T4_BURDOCK",
+              "count": 24,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T4_MILK",
+              "count": 6,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 15,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 3
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 0.48,
+          "crafting_focus": 811,
+          "crafting_resources": [
+            {
+              "id": "T4_BURDOCK",
+              "count": 24,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T4_MILK",
+              "count": 6,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 15,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 3
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "POTION_ENERGY"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_POTION_ENERGY",
+        "item_database_index": "554"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Energy Potion",
+        "name_ar": "جرعة طاقة",
+        "name_de": "Energietrank",
+        "name_fr": "Potion d'énergie",
+        "name_es": "Poción de energía",
+        "name_ru": "Эликсир энергии"
+      },
+      "raw": {
+        "@uniquename": "T4_POTION_ENERGY",
+        "@uisprite": "POTION_ENERGY",
+        "@abilitypower": "186",
+        "@slottype": "potion",
+        "@consumespell": "POTION_ENERGY_P3",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@craftingcategory": "potion",
+        "@tier": "4",
+        "@dummyitempower": "700",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "0.3",
+        "@descriptionlocatag": "@ITEMS_POTION_ENERGY_DESC",
+        "@shopsubcategory2": "energy",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "5",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "210",
+          "@time": "0.48",
+          "craftresource": [
+            {
+              "@uniquename": "T4_BURDOCK",
+              "@count": "24"
+            },
+            {
+              "@uniquename": "T4_MILK",
+              "@count": "6"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_ENERGY_P4",
+              "@dummyitempower": "800",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.48",
+                "@amountcrafted": "5",
+                "@craftingfocus": "277",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_ENERGY_P5",
+              "@dummyitempower": "900",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.48",
+                "@amountcrafted": "5",
+                "@craftingfocus": "411",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "3"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_ENERGY_P6",
+              "@dummyitempower": "1000",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "0.48",
+                "@amountcrafted": "5",
+                "@craftingfocus": "811",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BURDOCK",
+                    "@count": "24"
+                  },
+                  {
+                    "@uniquename": "T4_MILK",
+                    "@count": "6"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "15"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Kennel",
+  "base_id": "T6_FARM_DIREWOLF_BABY",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T6_FARM_DIREWOLF_BABY",
+      "index": "49",
+      "name_en": "Direwolf Pup",
+      "name_ar": "صغير ذئب العصر الجليدي",
+      "name_de": "Düsterwolfwelpe",
+      "name_fr": "Sombre-louveteau",
+      "name_es": "Cachorro de huargo",
+      "name_ru": "Щенок лютоволка",
+      "descriptions": {
+        "description_en": "A Direwolf Pup placed in a Kennel will grow into a Tame Direwolf, which can be trained into a Direwolf mount.",
+        "description_ar": "سينمو صغير ذئب العصر الجليدي الموجود في مرعى ليصبح ذئب عصر جليدي أليف، ويمكن تدريبه ليصبح مطية ذئب عصر جليدي.",
+        "description_de": "Ein Düsterwolfjunges wächst in einem Zwinger zu einem zahmen Düsterwolf heran, der zu einem gesattelten Düsterwolf (Reittier) abgerichtet werden kann.",
+        "description_fr": "Un Sombre-louveteau placé dans un chenil grandira pour devenir un Sombre-loup apprivoisé, qui pourra ensuite être entrainé pour devenir une monture Sombre-loup.",
+        "description_es": "Un cachorro de huargo colocado en una jaula crecerá en un huargo domado y puede ser entrenado en una montura de huargo.",
+        "description_ru": "Поместите Щенка лютоволка в питомник, чтобы вырастить из него Ручного лютоволка, который затем может стать лютоволком-скакуном."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_DIREWOLF_BABY",
+        "description_variable": "@ITEMS_T6_FARM_DIREWOLF_BABY_DESC"
+      },
+      "category": "Farming_Kennel",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_FARM_DIREWOLF_BABY",
+        "itemvalue": "1280",
+        "tier": "6",
+        "placefame": "0",
+        "pickupable": "true",
+        "destroyable": "false",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "kennel",
+        "kind": "animal",
+        "weight": "3",
+        "unlockedtocraft": "true",
+        "animationid": "breed",
+        "prefabname": "FARM_DIREWOLF_BABY_01",
+        "prefabscale": "0.8",
+        "resourcevalue": "0",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "4",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "0.06",
+        "shopsubcategory2": "babys",
+        "shopsubcategory3": "direwolf"
+      },
+      "item_stats": {
+        "itemvalue": "1280",
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Direwolf Pup",
+        "DE-DE": "Düsterwolfwelpe",
+        "FR-FR": "Sombre-louveteau",
+        "RU-RU": "Щенок лютоволка",
+        "PL-PL": "Szczenię Wilka Strasznego",
+        "ES-ES": "Cachorro de huargo",
+        "PT-BR": "Lobinho-vil",
+        "IT-IT": "Cucciolo di lupo feroce",
+        "ZH-CN": "恐狼幼崽",
+        "KO-KR": "새끼 다이어울프",
+        "JA-JP": "ダイアウルフの子",
+        "ZH-TW": "小恐狼",
+        "ID-ID": "Anak Direwolf",
+        "TR-TR": "Azılı Kurt Yavrusu",
+        "AR-SA": "صغير ذئب العصر الجليدي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A Direwolf Pup placed in a Kennel will grow into a Tame Direwolf, which can be trained into a Direwolf mount.",
+        "DE-DE": "Ein Düsterwolfjunges wächst in einem Zwinger zu einem zahmen Düsterwolf heran, der zu einem gesattelten Düsterwolf (Reittier) abgerichtet werden kann.",
+        "FR-FR": "Un Sombre-louveteau placé dans un chenil grandira pour devenir un Sombre-loup apprivoisé, qui pourra ensuite être entrainé pour devenir une monture Sombre-loup.",
+        "RU-RU": "Поместите Щенка лютоволка в питомник, чтобы вырастить из него Ручного лютоволка, который затем может стать лютоволком-скакуном.",
+        "PL-PL": "Szczenię Wilka Strasznego umieszczone z Zagrodzie wyrośnie na Oswojonego Wilka Strasznego, który może zostać wytrenowany na Osiodłanego Wilka Strasznego",
+        "ES-ES": "Un cachorro de huargo colocado en una jaula crecerá en un huargo domado y puede ser entrenado en una montura de huargo.",
+        "PT-BR": "Um Lobinho-vil em um Canil crescerá até virar um Lobo-vil Manso, que pode ser treinado para virar uma montaria Lobo-vil.",
+        "IT-IT": "Un cucciolo di lupo feroce assegnato a un allevamento crescerà fino a diventare un lupo feroce domato, che potrai addestrare come cavalcatura.",
+        "ZH-CN": "恐狼幼崽送进窝舍之后，会长成家养恐狼，然后可以驯养成为恐狼坐骑。",
+        "KO-KR": "사육장에 배치한 새끼 다이어울프는 길들인 다이어울프로 성장하며, 훈련을 거쳐 다이어울프 탈것으로 만들 수 있습니다.",
+        "JA-JP": "ダイアウルフの子はケージに配置すると、成長して飼い慣らしたダイアウルフになります。訓練を行なってダイアウルフの騎獣にすることが可能です。",
+        "ZH-TW": "您可以把小恐狼放入養殖場，讓牠長大成為馴化恐狼，再訓練成坐騎。",
+        "ID-ID": "Anak Direwolf yang diletakkan di Kandang akan tumbuh menjadi Direwolf Jinak, yang bisa dilatih menjadi Direwolf tunggangan.",
+        "TR-TR": "Azılı Kurt Yavrusu bir ağıla yerleştirilip Evcil Azılı Kurt olmak üzere yetiştirilebilir ve Azılı Kurt bineği olarak eğitilebilir.",
+        "AR-SA": "سينمو صغير ذئب العصر الجليدي الموجود في مرعى ليصبح ذئب عصر جليدي أليف، ويمكن تدريبه ليصبح مطية ذئب عصر جليدي."
+      },
+      "crafting_requirements": null,
+      "crafting_full": null,
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 6,
+        "weight": 3,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "kennel",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_DIREWOLF_BABY",
+        "item_database_index": "49"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Direwolf Pup",
+        "name_ar": "صغير ذئب العصر الجليدي",
+        "name_de": "Düsterwolfwelpe",
+        "name_fr": "Sombre-louveteau",
+        "name_es": "Cachorro de huargo",
+        "name_ru": "Щенок лютоволка"
+      },
+      "raw": {
+        "@uniquename": "T6_FARM_DIREWOLF_BABY",
+        "@itemvalue": "1280",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "kennel",
+        "@kind": "animal",
+        "@weight": "3",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_DIREWOLF_BABY_01",
+        "@prefabscale": "0.8",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "4",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.06",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "direwolf",
+        "grownitem": {
+          "@uniquename": "T6_FARM_DIREWOLF_GROWN",
+          "@growtime": "676800",
+          "@fame": "400",
+          "offspring": {
+            "@chance": "0.00",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "3312",
+            "@secondspernutrition": "52.22",
+            "@lossbeforehungry": "57",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_meat",
+            "acceptedfood": {
+              "@foodcategory": "meat"
+            }
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

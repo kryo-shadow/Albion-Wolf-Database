@@ -1,0 +1,181 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Crafting",
+  "family": "Crafting_Alchemy",
+  "base_id": "T5_ESSENCE_POTION",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T5_ESSENCE_POTION",
+      "index": "2011",
+      "name_en": "Expert's Arcane Essence",
+      "name_ar": "جوهر الساحر للأخصائي",
+      "name_de": "Arkane Essenz des Experten",
+      "name_fr": "Essence arcanique de l'expert",
+      "name_es": "Esencia Arcana del Experto",
+      "name_ru": "Мистическая эссенция (эксперт)",
+      "descriptions": {
+        "description_en": "A magical essence, used to enchant potions.",
+        "description_ar": "جوهر سحرية، يُستخدم في الجرعات السحرية.",
+        "description_de": "Eine magische Essenz, wird bei der Verzauberung von Tränken verwendet",
+        "description_fr": "Une essence magique utilisée pour enchanter des potions.",
+        "description_es": "Esencia mágica, usada para encantar pociones.",
+        "description_ru": "Волшебная эссенция, используется для зачарования зелий"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_ESSENCE_POTION",
+        "description_variable": "@ITEMS_T5_ESSENCE_POTION_DESC"
+      },
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_ESSENCE_POTION",
+        "tier": "5",
+        "weight": "0.25",
+        "maxstacksize": "999",
+        "resourcetype": "ESSENCE",
+        "shopcategory": "crafting",
+        "shopsubcategory1": "alchemy",
+        "uisprite": "FRAGMENT_BLUE_F1",
+        "unlockedtocraft": "true",
+        "itemvalue": "0.1",
+        "salvageable": "true",
+        "shopsubcategory2": "essence"
+      },
+      "item_stats": {
+        "itemvalue": "0.1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Arcane Essence",
+        "DE-DE": "Arkane Essenz des Experten",
+        "FR-FR": "Essence arcanique de l'expert",
+        "RU-RU": "Мистическая эссенция (эксперт)",
+        "PL-PL": "Tajemna Esencja Znawcy",
+        "ES-ES": "Esencia Arcana del Experto",
+        "PT-BR": "Essência Arcana do Perito",
+        "IT-IT": "Essenza arcana dell'esperto",
+        "ZH-CN": "专家级奥术精华",
+        "KO-KR": "전문가의 아케인 에센스",
+        "JA-JP": "アーケインのエッセンス（達人）",
+        "ZH-TW": "專家級祕術精華",
+        "ID-ID": "Esens Arcane Ahli",
+        "TR-TR": "Uzman Arkana Özütü",
+        "AR-SA": "جوهر الساحر للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A magical essence, used to enchant potions.",
+        "DE-DE": "Eine magische Essenz, wird bei der Verzauberung von Tränken verwendet",
+        "FR-FR": "Une essence magique utilisée pour enchanter des potions.",
+        "RU-RU": "Волшебная эссенция, используется для зачарования зелий",
+        "PL-PL": "Magiczna esencja używana do czarowania mikstur",
+        "ES-ES": "Esencia mágica, usada para encantar pociones.",
+        "PT-BR": "Essência mágica usada para encantar poções",
+        "IT-IT": "Un'essenza magica usata per incantare pozioni.",
+        "ZH-CN": "法术精华，用于给药水附魔。",
+        "KO-KR": "마법 에센스로, 포션에 마법을 부여하는 데 사용됩니다.",
+        "JA-JP": "エンチャントポーションに使える魔法のエッセンス。",
+        "ZH-TW": "一種魔法精華，可用於附魔藥水。",
+        "ID-ID": "Esens ajaib, digunakan untuk memberi enchantment pada ramuan.",
+        "TR-TR": "İksir efsunlamakta kullanılan sihirli bir Özüt.",
+        "AR-SA": "جوهر سحرية، يُستخدم في الجرعات السحرية."
+      },
+      "crafting_requirements": null,
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.01,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [],
+        "primary_resource": "",
+        "primary_count": 0,
+        "secondary_resource": "",
+        "secondary_count": 0
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 5,
+        "weight": 0.25,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "crafting",
+        "shop_subcategory1": "alchemy",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": "FRAGMENT_BLUE_F1"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_ESSENCE_POTION",
+        "item_database_index": "2011"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Arcane Essence",
+        "name_ar": "جوهر الساحر للأخصائي",
+        "name_de": "Arkane Essenz des Experten",
+        "name_fr": "Essence arcanique de l'expert",
+        "name_es": "Esencia Arcana del Experto",
+        "name_ru": "Мистическая эссенция (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_ESSENCE_POTION",
+        "@tier": "5",
+        "@weight": "0.25",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@uisprite": "FRAGMENT_BLUE_F1",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "0.1",
+        "@salvageable": "true",
+        "@shopsubcategory2": "essence",
+        "craftingrequirements": {
+          "@time": "0.01",
+          "@silver": "0",
+          "@salvageitemfactor": "0",
+          "@salvagesilverfactor": "20"
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

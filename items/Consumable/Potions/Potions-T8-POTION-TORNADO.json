@@ -1,0 +1,571 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Potions",
+  "base_id": "T8_POTION_TORNADO",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_POTION_TORNADO",
+      "index": "694",
+      "name_en": "Major Tornado in a Bottle",
+      "name_ar": "زجاجة إعصار رئيسية",
+      "name_de": "Großer Tornado in der Flasche",
+      "name_fr": "Tornade en bouteille majeure",
+      "name_es": "Tornado en botella mayor",
+      "name_ru": "Большая буря в стакане",
+      "descriptions": {
+        "description_en": "Bottled wind. Can be thrown at a ground location to create a Tornado that knocks back enemies.",
+        "description_ar": "زجاجة الرياح. يمكن إلقاؤها على موقع أرضي لإنشاء إعصار لصد الأعداء.",
+        "description_de": "Wind in einer Flasche. Wirf ihn auf den Boden, um dort einen Tornado zu erzeugen, der deine Gegner wegstößt.",
+        "description_fr": "Du vent en bouteille. Lancez-la au sol pour créer une tornade qui repousse les ennemis.",
+        "description_es": "Viento embotellado. Se lanza al suelo para crear un tornado que derriba a los enemigos.",
+        "description_ru": "Ветер, заточенный в бутылке. Бросьте ее на землю, чтобы создать бурю, отбрасывающую врагов назад."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_POTION_TORNADO",
+        "description_variable": "@ITEMS_POTION_TORNADO_DESC"
+      },
+      "category": "Consumable_Potions",
+      "slot": "Potion",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_POTION_TORNADO",
+        "slottype": "potion",
+        "weight": "1.46",
+        "consumespell": "POTION_TORNADO_P5",
+        "dummyitempower": "1100",
+        "abilitypower": "186",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "potions",
+        "tier": "8",
+        "craftingcategory": "potion",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "maxstacksize": "999",
+        "descriptionlocatag": "@ITEMS_POTION_TORNADO_DESC",
+        "shopsubcategory2": "tornado"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Major Tornado in a Bottle",
+        "DE-DE": "Großer Tornado in der Flasche",
+        "FR-FR": "Tornade en bouteille majeure",
+        "RU-RU": "Большая буря в стакане",
+        "PL-PL": "Większe Tornado w Butelce",
+        "ES-ES": "Tornado en botella mayor",
+        "PT-BR": "Tornado Engarrafado Maior",
+        "IT-IT": "Tornado in bottiglia maggiore",
+        "ZH-CN": "高级瓶中龙卷",
+        "KO-KR": "대형 병 속의 폭풍",
+        "JA-JP": "竜巻瓶（大）",
+        "ZH-TW": "頂級瓶中龍捲",
+        "ID-ID": "Tornado dalam Botol Mayor",
+        "TR-TR": "Güçlü Şişelenmiş Hortum",
+        "AR-SA": "زجاجة إعصار رئيسية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Bottled wind. Can be thrown at a ground location to create a Tornado that knocks back enemies.",
+        "DE-DE": "Wind in einer Flasche. Wirf ihn auf den Boden, um dort einen Tornado zu erzeugen, der deine Gegner wegstößt.",
+        "FR-FR": "Du vent en bouteille. Lancez-la au sol pour créer une tornade qui repousse les ennemis.",
+        "RU-RU": "Ветер, заточенный в бутылке. Бросьте ее на землю, чтобы создать бурю, отбрасывающую врагов назад.",
+        "PL-PL": "Zabutelkowany wiatr. Rzuć na ziemię, aby stworzyć Tornado odrzucające wrogów do tyłu.",
+        "ES-ES": "Viento embotellado. Se lanza al suelo para crear un tornado que derriba a los enemigos.",
+        "PT-BR": "Vento engarrafado. Jogue-o no chão para criar um Tornado que joga os inimigos para trás.",
+        "IT-IT": "Vento in bottiglia. Lanciandola sul terreno, si crea un Tornado che fa indietreggiare i nemici.",
+        "ZH-CN": "被装到小瓶中的风之元素。扔到地上后会形成一个龙卷风，击退接触到它的敌人。",
+        "KO-KR": "병 속에 담긴 바람. 바닥에 던져, 적을 뒤로 밀쳐내는 토네이도를 생성합니다.",
+        "JA-JP": "瓶詰めの風。地面に投げつけるとトルネードが発生し、敵をノックバックさせる。",
+        "ZH-TW": "被裝到小瓶中的風之元素。扔到地上後會形成一個龍捲風，擊退接觸到它的敵人。",
+        "ID-ID": "Angin yang dibotolkan. Lemparkan ke lokasi tanah untuk menciptakan Tornado yang memukul mundur musuh.",
+        "TR-TR": "Şişelenmiş rüzgâr. Düşmanları geri savuran bir hortum oluşturmak için yere fırlatılabilir.",
+        "AR-SA": "زجاجة الرياح. يمكن إلقاؤها على موقع أرضي لإنشاء إعصار لصد الأعداء."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_YARROW",
+        "primary_count": 144,
+        "secondary_resource": "T7_MULLEIN",
+        "secondary_count": 72,
+        "resources": [
+          {
+            "id": "T8_YARROW",
+            "count": 144
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 72
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "count": 72
+          },
+          {
+            "id": "T5_EGG",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCHEMY_RARE_EAGLE",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 5.903,
+        "crafting_focus": 1296,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_YARROW",
+            "count": 144
+          },
+          {
+            "id": "T7_MULLEIN",
+            "count": 72
+          },
+          {
+            "id": "T7_ALCOHOL",
+            "count": 72
+          },
+          {
+            "id": "T5_EGG",
+            "count": 36
+          },
+          {
+            "id": "T8_ALCOHOL",
+            "count": 36
+          },
+          {
+            "id": "T7_ALCHEMY_RARE_EAGLE",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T8_YARROW",
+        "primary_count": 144,
+        "secondary_resource": "T7_MULLEIN",
+        "secondary_count": 72
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 1.46,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.903,
+          "crafting_focus": 1496,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_EAGLE",
+              "count": 1,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 144,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T5_EGG",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 90,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.903,
+          "crafting_focus": 1896,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_EAGLE",
+              "count": 1,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 144,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T5_EGG",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 90,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 5.903,
+          "crafting_focus": 3097,
+          "crafting_resources": [
+            {
+              "id": "T7_ALCHEMY_RARE_EAGLE",
+              "count": 1,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_YARROW",
+              "count": 144,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_MULLEIN",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T7_ALCOHOL",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T5_EGG",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_ALCOHOL",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 90,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "potions",
+        "crafting_category": "potion",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_POTION_TORNADO",
+        "item_database_index": "694"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Major Tornado in a Bottle",
+        "name_ar": "زجاجة إعصار رئيسية",
+        "name_de": "Großer Tornado in der Flasche",
+        "name_fr": "Tornade en bouteille majeure",
+        "name_es": "Tornado en botella mayor",
+        "name_ru": "Большая буря в стакане"
+      },
+      "raw": {
+        "@uniquename": "T8_POTION_TORNADO",
+        "@slottype": "potion",
+        "@weight": "1.46",
+        "@consumespell": "POTION_TORNADO_P5",
+        "@dummyitempower": "1100",
+        "@abilitypower": "186",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "potions",
+        "@tier": "8",
+        "@craftingcategory": "potion",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@maxstacksize": "999",
+        "@descriptionlocatag": "@ITEMS_POTION_TORNADO_DESC",
+        "@shopsubcategory2": "tornado",
+        "craftingrequirements": {
+          "@time": "5.903",
+          "@amountcrafted": "10",
+          "@craftingfocus": "1296",
+          "craftresource": [
+            {
+              "@uniquename": "T7_ALCHEMY_RARE_EAGLE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T8_YARROW",
+              "@count": "144"
+            },
+            {
+              "@uniquename": "T7_MULLEIN",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T7_ALCOHOL",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T5_EGG",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T8_ALCOHOL",
+              "@count": "36"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@consumespell": "POTION_TORNADO_P6",
+              "@dummyitempower": "1200",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.903",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1496",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_EAGLE",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@consumespell": "POTION_TORNADO_P7",
+              "@dummyitempower": "1300",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.903",
+                "@amountcrafted": "10",
+                "@craftingfocus": "1896",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_EAGLE",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@consumespell": "POTION_TORNADO_P8",
+              "@dummyitempower": "1400",
+              "@abilitypower": "186",
+              "craftingrequirements": {
+                "@time": "5.903",
+                "@amountcrafted": "10",
+                "@craftingfocus": "3097",
+                "craftresource": [
+                  {
+                    "@uniquename": "T7_ALCHEMY_RARE_EAGLE",
+                    "@count": "1",
+                    "@maxreturnamount": "0"
+                  },
+                  {
+                    "@uniquename": "T8_YARROW",
+                    "@count": "144"
+                  },
+                  {
+                    "@uniquename": "T7_MULLEIN",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T7_ALCOHOL",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T5_EGG",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_ALCOHOL",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

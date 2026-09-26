@@ -1,0 +1,253 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Stone",
+  "base_id": "T8_2H_TOOL_HAMMER",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_2H_TOOL_HAMMER",
+      "index": "2958",
+      "name_en": "Elder's Stone Hammer",
+      "name_ar": "مطرقة أحجار للحكيم",
+      "name_de": "Steinhammer des Ältesten",
+      "name_fr": "Masse de pierre du sage",
+      "name_es": "Martillo de piedra del anciano",
+      "name_ru": "Кувалда (старейшина)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_TOOL_HAMMER",
+        "description_variable": "@ITEMS_T8_2H_TOOL_HAMMER_DESC"
+      },
+      "category": "Gathering_Stone",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_TOOL_HAMMER",
+        "mesh": "T8_2H_STONEHAMMER",
+        "uisprite": "2H_STONEHAMMER",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "rock",
+        "attacktype": "melee",
+        "attackdamage": "48",
+        "attackspeed": "1",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "8",
+        "weight": "8.54",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "50800",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_stonehammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "1060",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "hammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Stone Hammer",
+        "DE-DE": "Steinhammer des Ältesten",
+        "FR-FR": "Masse de pierre du sage",
+        "RU-RU": "Кувалда (старейшина)",
+        "PL-PL": "Młot do Kamienia Starszego",
+        "ES-ES": "Martillo de piedra del anciano",
+        "PT-BR": "Martelo de Pedra do Ancião",
+        "IT-IT": "Martello da cavapietre dell'anziano",
+        "ZH-CN": "禅师级石锤",
+        "KO-KR": "장로의 돌 망치",
+        "JA-JP": "ストーンハンマー（老熟）",
+        "ZH-TW": "禪師級採石鎚",
+        "ID-ID": "Palu Batu Tetua",
+        "TR-TR": "Yüce Taş Çekici",
+        "AR-SA": "مطرقة أحجار للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 1.25,
+        "crafting_focus": 4021,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T8_METALBAR",
+            "count": 2
+          }
+        ],
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T8_METALBAR",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": 48,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_stonehammer",
+        "item_power": 1060,
+        "ability_power": 100,
+        "durability": 50800,
+        "max_quality_level": 1,
+        "tier_raw": 8,
+        "weight": 8.54,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 1060,
+      "effective_durability": 50800,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "rock",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_STONEHAMMER"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_TOOL_HAMMER",
+        "item_database_index": "2958"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Stone Hammer",
+        "name_ar": "مطرقة أحجار للحكيم",
+        "name_de": "Steinhammer des Ältesten",
+        "name_fr": "Masse de pierre du sage",
+        "name_es": "Martillo de piedra del anciano",
+        "name_ru": "Кувалда (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_TOOL_HAMMER",
+        "@mesh": "T8_2H_STONEHAMMER",
+        "@uisprite": "2H_STONEHAMMER",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "rock",
+        "@attacktype": "melee",
+        "@attackdamage": "48",
+        "@attackspeed": "1",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "8",
+        "@weight": "8.54",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "50800",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_stonehammer",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "1060",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "hammer",
+        "canharvest": {
+          "@resourcetype": "ROCK"
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T8_METALBAR",
+              "@count": "2"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Other",
+  "family": "Other_Guilds",
+  "base_id": "T3_2H_TOOL_SIEGEHAMMER",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_2H_TOOL_SIEGEHAMMER",
+      "index": "3004",
+      "name_en": "Journeyman's Siege Hammer",
+      "name_ar": "مطرقة الحصار الموثوق",
+      "name_de": "Belagerungshammer des Gesellen",
+      "name_fr": "Marteau de siège du compagnon",
+      "name_es": "Martillo de asedio del obrero",
+      "name_ru": "Осадный молот (странник)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_2H_TOOL_SIEGEHAMMER",
+        "description_variable": "@ITEMS_T3_2H_TOOL_SIEGEHAMMER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T3_2H_TOOL_SIEGEHAMMER",
+        "mesh": "T3_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "40",
+        "repairbuildingdamage": "33",
+        "attackdamage": "60",
+        "attackspeed": "0.5",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "3",
+        "weight": "1.13",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "800",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "500",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "siegehammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Journeyman's Siege Hammer",
+        "DE-DE": "Belagerungshammer des Gesellen",
+        "FR-FR": "Marteau de siège du compagnon",
+        "RU-RU": "Осадный молот (странник)",
+        "PL-PL": "Młot Oblężniczy Czeladnika",
+        "ES-ES": "Martillo de asedio del obrero",
+        "PT-BR": "Martelo de Cerco do Iniciante",
+        "IT-IT": "Martello d'assedio dell'apprendista",
+        "ZH-CN": "学徒级攻城锤",
+        "KO-KR": "장인의 공성 망치",
+        "JA-JP": "シージハンマー（熟練）",
+        "ZH-TW": "學徒級攻城鎚",
+        "ID-ID": "Palu Pengepungan Pengembara",
+        "TR-TR": "Kalfa Kuşatma Çekici",
+        "AR-SA": "مطرقة الحصار الموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
+        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
+        "RU-RU": "Помогает сносить здания и ломать мебель.",
+        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
+        "ES-ES": "Herramienta para destruir edificios y muebles.",
+        "PT-BR": "Ferramenta para destruir construções e mobílias",
+        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
+        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
+        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
+        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
+        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
+        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
+        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
+        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_PLANKS",
+        "primary_count": 8,
+        "secondary_resource": "T3_STONEBLOCK",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T3_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T3_STONEBLOCK",
+            "count": 8
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.5,
+        "crafting_focus": 490,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T3_STONEBLOCK",
+            "count": 8
+          }
+        ],
+        "primary_resource": "T3_PLANKS",
+        "primary_count": 8,
+        "secondary_resource": "T3_STONEBLOCK",
+        "secondary_count": 8
+      },
+      "combat_stats": {
+        "attack_damage": 60,
+        "attack_speed": 0.5,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_siege hammer",
+        "item_power": 500,
+        "ability_power": 100,
+        "durability": 800,
+        "max_quality_level": 1,
+        "tier_raw": 3,
+        "weight": 1.13,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 500,
+      "effective_durability": 800,
+      "shop": {
+        "shop_category": "other",
+        "shop_subcategory1": "guilds",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "2H_SIEGEHAMMER"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_2H_TOOL_SIEGEHAMMER",
+        "item_database_index": "3004"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Journeyman's Siege Hammer",
+        "name_ar": "مطرقة الحصار الموثوق",
+        "name_de": "Belagerungshammer des Gesellen",
+        "name_fr": "Marteau de siège du compagnon",
+        "name_es": "Martillo de asedio del obrero",
+        "name_ru": "Осадный молот (странник)"
+      },
+      "raw": {
+        "@uniquename": "T3_2H_TOOL_SIEGEHAMMER",
+        "@mesh": "T3_2H_SIEGEHAMMER",
+        "@uisprite": "2H_SIEGEHAMMER",
+        "@attackendanimgaptime": "0.1",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@attacktype": "melee",
+        "@attackbuildingdamage": "40",
+        "@repairbuildingdamage": "33",
+        "@attackdamage": "60",
+        "@attackspeed": "0.5",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "3",
+        "@weight": "1.13",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "800",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_siege hammer",
+        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "500",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "siegehammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.5",
+          "@craftingfocus": "490",
+          "craftresource": [
+            {
+              "@uniquename": "T3_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T3_STONEBLOCK",
+              "@count": "8"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

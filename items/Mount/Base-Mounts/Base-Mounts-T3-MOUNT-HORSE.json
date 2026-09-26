@@ -1,0 +1,305 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Base_Mounts",
+  "base_id": "T3_MOUNT_HORSE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_MOUNT_HORSE",
+      "index": "3028",
+      "name_en": "Journeyman's Riding Horse",
+      "name_ar": "حصان ركوب للموثوق",
+      "name_de": "Reitpferd des Gesellen",
+      "name_fr": "Cheval de monte du compagnon",
+      "name_es": "Caballo de montar del obrero",
+      "name_ru": "Ездовая лошадь (странник)",
+      "descriptions": {
+        "description_en": "Horses are commonly used for travel throughout Albion, and provide the fastest means of getting around.",
+        "description_ar": "تُستخدم الخيول عادةً للانتقال في أنحاء Albion، وهي أسرع الوسائل للتجول.",
+        "description_de": "Pferde werden oft verwendet, um in Albion zu reisen. Sie sind der schnellste Weg, um sich in Albion fortzubewegen.",
+        "description_fr": "Les chevaux servent à se déplacer très rapidement d'un bout à l'autre d'Albion.",
+        "description_es": "Los caballos suelen usarse para viajar en Albion. Son el medio de transporte más rápido que hay.",
+        "description_ru": "На лошадях часто путешествуют по миру Альбиона. Это самое быстрое ездовое животное."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_MOUNT_HORSE",
+        "description_variable": "@ITEMS_T3_MOUNT_HORSE_DESC"
+      },
+      "category": "Mount_Base_Mounts",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_MOUNT_HORSE",
+        "mountcategory": "HORSES",
+        "maxqualitylevel": "5",
+        "itempower": "600",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "basemounts",
+        "mountedbuff": "T3_MOUNT_HORSE_MOUNTED",
+        "halfmountedbuff": "T3_MOUNT_HORSE_HALFMOUNTED",
+        "tier": "3",
+        "weight": "15.8",
+        "activespellslots": "0",
+        "passivespellslots": "1",
+        "durability": "12000",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "mounttime": "3",
+        "dismounttime": "0",
+        "mounthitpointsmax": "1064",
+        "mounthitpointsregeneration": "10.64",
+        "prefabname": "MOUNT_HORSE_01",
+        "prefabscaling": "1.44",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "0.5",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "canusetownportal": "true",
+        "shopsubcategory2": "horse",
+        "nutrition": "170",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Journeyman's Riding Horse",
+        "DE-DE": "Reitpferd des Gesellen",
+        "FR-FR": "Cheval de monte du compagnon",
+        "RU-RU": "Ездовая лошадь (странник)",
+        "PL-PL": "Koń Wierzchowy Czeladnika",
+        "ES-ES": "Caballo de montar del obrero",
+        "PT-BR": "Cavalo de Montar do Iniciante",
+        "IT-IT": "Cavallo da sella dell'apprendista",
+        "ZH-CN": "学徒级骑乘马",
+        "KO-KR": "장인의 승용마",
+        "JA-JP": "乗用馬（熟練）",
+        "ZH-TW": "學徒級騎乘馬",
+        "ID-ID": "Kuda Tunggangan Pengembara",
+        "TR-TR": "Kalfa Binek Atı",
+        "AR-SA": "حصان ركوب للموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Horses are commonly used for travel throughout Albion, and provide the fastest means of getting around.",
+        "DE-DE": "Pferde werden oft verwendet, um in Albion zu reisen. Sie sind der schnellste Weg, um sich in Albion fortzubewegen.",
+        "FR-FR": "Les chevaux servent à se déplacer très rapidement d'un bout à l'autre d'Albion.",
+        "RU-RU": "На лошадях часто путешествуют по миру Альбиона. Это самое быстрое ездовое животное.",
+        "PL-PL": "Konie są często używane do podróżowania przez Albion. To najszybszy sposób transportu.",
+        "ES-ES": "Los caballos suelen usarse para viajar en Albion. Son el medio de transporte más rápido que hay.",
+        "PT-BR": "Cavalos são montarias, usadas para deslocar-se rapidamente por Albion.",
+        "IT-IT": "I cavalli sono un mezzo di trasporto comune in tutta Albion, nonché uno dei più veloci.",
+        "ZH-CN": "成年马通常用作往返阿尔比恩的各个地方，是速度最快的交通方式。",
+        "KO-KR": "말은 알비온 전역에서 여행에 주로 쓰이고 있으며, 가장 빠른 이동 수단을 제공합니다.",
+        "JA-JP": "馬はアルビオンのあちこちで一般的に乗られており、最速の移動手段です。",
+        "ZH-TW": "馬是阿爾比恩大陸上盛行的坐騎，也是最為迅速的移動工具。",
+        "ID-ID": "Kuda sudah umum digunakan untuk perjalanan menjelajahi Albion, dan menjadi kendaraan tercepat untuk berkeliling.",
+        "TR-TR": "Atlar genelde Albion'da yolculuk yapmak için kullanılır ve etrafta dolaşmanın en hızlı yöntemidir.",
+        "AR-SA": "تُستخدم الخيول عادةً للانتقال في أنحاء Albion، وهي أسرع الوسائل للتجول."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T3_FARM_HORSE_GROWN",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T3_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T3_FARM_HORSE_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.625,
+        "crafting_focus": 613,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T3_LEATHER",
+            "count": 20
+          },
+          {
+            "id": "T3_FARM_HORSE_GROWN",
+            "count": 1
+          }
+        ],
+        "primary_resource": "T3_LEATHER",
+        "primary_count": 20,
+        "secondary_resource": "T3_FARM_HORSE_GROWN",
+        "secondary_count": 1
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 600,
+        "ability_power": 100,
+        "durability": 12000,
+        "max_quality_level": 5,
+        "tier_raw": 3,
+        "weight": 15.8,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_HORSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "actives": [],
+        "passives": [
+          {
+            "uniquename": "PASSIVE_MAXLOAD_HORSE",
+            "slots": null,
+            "tag": null,
+            "is_passive": true
+          }
+        ],
+        "active_slots": 0,
+        "passive_slots": 1,
+        "resolved_from": "UNIQUE_MOUNT_ARMORED_HORSE_KNIGHT_01_TEST"
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 600,
+      "effective_durability": 12000,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "basemounts",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_MOUNT_HORSE",
+        "item_database_index": "3028"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Journeyman's Riding Horse",
+        "name_ar": "حصان ركوب للموثوق",
+        "name_de": "Reitpferd des Gesellen",
+        "name_fr": "Cheval de monte du compagnon",
+        "name_es": "Caballo de montar del obrero",
+        "name_ru": "Ездовая лошадь (странник)"
+      },
+      "raw": {
+        "@uniquename": "T3_MOUNT_HORSE",
+        "@mountcategory": "HORSES",
+        "@maxqualitylevel": "5",
+        "@itempower": "600",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "basemounts",
+        "@mountedbuff": "T3_MOUNT_HORSE_MOUNTED",
+        "@halfmountedbuff": "T3_MOUNT_HORSE_HALFMOUNTED",
+        "@tier": "3",
+        "@weight": "15.8",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@durability": "12000",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@mounttime": "3",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "1064",
+        "@mounthitpointsregeneration": "10.64",
+        "@prefabname": "MOUNT_HORSE_01",
+        "@prefabscaling": "1.44",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_medium",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "0.5",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@canusetownportal": "true",
+        "@shopsubcategory2": "horse",
+        "@nutrition": "170",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.625",
+          "@craftingfocus": "613",
+          "craftresource": [
+            {
+              "@uniquename": "T3_FARM_HORSE_GROWN",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T3_LEATHER",
+              "@count": "20"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "@reference": "UNIQUE_MOUNT_ARMORED_HORSE_KNIGHT_01_TEST"
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

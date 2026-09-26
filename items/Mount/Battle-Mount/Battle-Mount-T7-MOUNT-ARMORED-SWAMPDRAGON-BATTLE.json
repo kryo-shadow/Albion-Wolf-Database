@@ -1,0 +1,319 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Mount",
+  "family": "Mount_Battle_Mount",
+  "base_id": "T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE",
+      "index": "3070",
+      "name_en": "Venom Basilisk",
+      "name_ar": "سم بازليسك",
+      "name_de": "Giftbasilisk",
+      "name_fr": "Basilic vénimeux",
+      "name_es": "Basilisco venenoso",
+      "name_ru": "Ядовитый василиск",
+      "descriptions": {
+        "description_en": "Battle Mount - This armored mount can lunge at enemies and poison them. Immune to displacement effects.",
+        "description_ar": "مطية معركة - يمكن للمطية المدرعة هذه الهجوم على الأعداء وتسميمهم. حصانة ضد الآثار السلبية.",
+        "description_de": "Kampfreittier - Dieses gepanzerte Reittier kann sich auf Gegner stürzen und sie vergiften. Immun gegen Relokalisierungseffekte.",
+        "description_fr": "Monture de bataille - Cette monture avec armure peut se jeter sur les ennemis et les empoisonner. Insensible aux effets altérant le déplacement.",
+        "description_es": "Montura de batalla - Esta montura blindada arremete contra los enemigos y los envenena. Inmune a efectos de desplazamiento.",
+        "description_ru": "Боевой скакун - может устремиться к врагам и отравить их. Невосприимчив к эффектам смещения."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE",
+        "description_variable": "@ITEMS_T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE_DESC"
+      },
+      "category": "Mount_Battle_Mount",
+      "slot": "Mount",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE",
+        "maxqualitylevel": "1",
+        "itempower": "1000",
+        "abilitypower": "100",
+        "slottype": "mount",
+        "shopcategory": "mounts",
+        "shopsubcategory1": "battle_mount",
+        "mountedbuff": "T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE_MOUNTED",
+        "halfmountedbuff": "T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE_HALFMOUNTED",
+        "tier": "7",
+        "weight": "79.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "91125",
+        "durabilityloss_attack": "0",
+        "durabilityloss_spelluse": "0",
+        "durabilityloss_receivedattack": "0",
+        "durabilityloss_receivedspell": "0",
+        "durabilityloss_receivedattack_mounted": "1",
+        "durabilityloss_receivedspell_mounted": "5",
+        "durabilityloss_mounting": "0",
+        "unlockedtocraft": "true",
+        "unlockedtoequip": "false",
+        "mounttime": "10",
+        "dismounttime": "0",
+        "mounthitpointsmax": "9491",
+        "mounthitpointsregeneration": "18.98",
+        "prefabname": "MOUNT_ARMORED_SWAMPDRAGON_BATTLE_01",
+        "prefabscaling": "1.4",
+        "despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "despawneffectscaling": "1",
+        "remountdistance": "2",
+        "halfmountrange": "18",
+        "forceddismountcooldown": "30",
+        "forceddismountspellcooldown": "0.5",
+        "fulldismountcooldown": "30",
+        "remounttime": "5",
+        "showinmarketplace": "true",
+        "dismountbuff": "DISMOUNTED",
+        "forceddismountbuff": "FORCE_DISMOUNTED",
+        "hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "canuseingvg": "false",
+        "canuseinfactionwarfare": "false",
+        "shopsubcategory2": "swampdragon",
+        "mountzergdisarraylevels": "5",
+        "nutrition": "18699",
+        "foodcategory": "mount"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Venom Basilisk",
+        "DE-DE": "Giftbasilisk",
+        "FR-FR": "Basilic vénimeux",
+        "RU-RU": "Ядовитый василиск",
+        "PL-PL": "Jadowity Bazyliszek",
+        "ES-ES": "Basilisco venenoso",
+        "PT-BR": "Basilisco Venenoso",
+        "IT-IT": "Basilisco velenoso",
+        "ZH-CN": "毒液蛇怪",
+        "KO-KR": "독 바실리스크",
+        "JA-JP": "ヴェノムバシリスク",
+        "ZH-TW": "劇毒蜥蜴",
+        "ID-ID": "Basilisk Racun",
+        "TR-TR": "Zehirli Basilisk",
+        "AR-SA": "سم بازليسك"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Battle Mount - This armored mount can lunge at enemies and poison them. Immune to displacement effects.",
+        "DE-DE": "Kampfreittier - Dieses gepanzerte Reittier kann sich auf Gegner stürzen und sie vergiften. Immun gegen Relokalisierungseffekte.",
+        "FR-FR": "Monture de bataille - Cette monture avec armure peut se jeter sur les ennemis et les empoisonner. Insensible aux effets altérant le déplacement.",
+        "RU-RU": "Боевой маунт - может устремиться к врагам и отравить их. Невосприимчив к эффектам смещения.",
+        "PL-PL": "Wierzchowiec bitewny - ten uzbrojony wierzchowiec potrafi doskakiwać do wrogów i ich zatruwać. Odporny na efekty przemieszczające.",
+        "ES-ES": "Montura de batalla - Esta montura blindada arremete contra los enemigos y los envenena. Inmune a efectos de desplazamiento.",
+        "PT-BR": "Montaria de Batalha - Essa montaria blindada pode estocar inimigos e envenená-los. Imune a efeitos de deslocamento.",
+        "IT-IT": "Cavalcatura da battaglia - Questa cavalcatura corazzata può balzare sui nemici e avvelenarli. Immune agli effetti che inducono uno spostamento.",
+        "ZH-CN": "战斗坐骑 - 这个重甲坐骑可以向敌人突刺使其中毒。免疫位移效果。",
+        "KO-KR": "전투 탈것 - 단단한 이 탈것은 적에게 돌격해 중독시킵니다. 이동 효과에 면역됩니다.",
+        "JA-JP": "バトル騎獣 - 装甲を施した騎獣。敵に突進して毒状態にすることが可能です。変位効果の影響を受けません。",
+        "ZH-TW": "戰爭坐騎 - 這隻身著鐵甲的坐騎可向敵人猛撲，使對方中毒。對位移效果免疫。",
+        "ID-ID": "Tunggangan Tempur - Tunggangan ini bisa menerkam musuh dan meracuni mereka. Kebal terhadap efek pemindahan.",
+        "TR-TR": "Savaş Bineği - Bu zırhlı binek, düşmanların üzerine atılarak onları zehirleyebilir. Yer değiştirme etkilerine karşı bağışıklığı vardır.",
+        "AR-SA": "مطية معركة - يمكن للمطية المدرعة هذه الهجوم على الأعداء وتسميمهم. حصانة ضد الآثار السلبية."
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_GVGTOKEN_GENERIC",
+        "primary_count": 5000,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 20,
+        "resources": [
+          {
+            "id": "UNIQUE_GVGTOKEN_GENERIC",
+            "count": 5000
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_MOUNT_SWAMPDRAGON",
+            "count": 1
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.08333,
+        "crafting_focus": 0,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "UNIQUE_GVGTOKEN_GENERIC",
+            "count": 5000
+          },
+          {
+            "id": "T7_METALBAR",
+            "count": 20
+          },
+          {
+            "id": "T7_MOUNT_SWAMPDRAGON",
+            "count": 1
+          }
+        ],
+        "primary_resource": "UNIQUE_GVGTOKEN_GENERIC",
+        "primary_count": 5000,
+        "secondary_resource": "T7_METALBAR",
+        "secondary_count": 20
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": 1000,
+        "ability_power": 100,
+        "durability": 91125,
+        "max_quality_level": 1,
+        "tier_raw": 7,
+        "weight": 79.7,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 1000,
+      "effective_durability": 91125,
+      "shop": {
+        "shop_category": "mounts",
+        "shop_subcategory1": "battle_mount",
+        "crafting_category": null,
+        "unlocked_to_craft": true,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE",
+        "item_database_index": "3070"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Venom Basilisk",
+        "name_ar": "سم بازليسك",
+        "name_de": "Giftbasilisk",
+        "name_fr": "Basilic Venimeux",
+        "name_es": "Basilisco venenoso",
+        "name_ru": "Ядовитый василиск"
+      },
+      "raw": {
+        "@uniquename": "T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE",
+        "@maxqualitylevel": "1",
+        "@itempower": "1000",
+        "@abilitypower": "100",
+        "@slottype": "mount",
+        "@shopcategory": "mounts",
+        "@shopsubcategory1": "battle_mount",
+        "@mountedbuff": "T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE_MOUNTED",
+        "@halfmountedbuff": "T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE_HALFMOUNTED",
+        "@tier": "7",
+        "@weight": "79.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "91125",
+        "@durabilityloss_attack": "0",
+        "@durabilityloss_spelluse": "0",
+        "@durabilityloss_receivedattack": "0",
+        "@durabilityloss_receivedspell": "0",
+        "@durabilityloss_receivedattack_mounted": "1",
+        "@durabilityloss_receivedspell_mounted": "5",
+        "@durabilityloss_mounting": "0",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "false",
+        "@mounttime": "10",
+        "@dismounttime": "0",
+        "@mounthitpointsmax": "9491",
+        "@mounthitpointsregeneration": "18.98",
+        "@prefabname": "MOUNT_ARMORED_SWAMPDRAGON_BATTLE_01",
+        "@prefabscaling": "1.4",
+        "@despawneffect": "FX/ClientPrefabs/demount_fx_big",
+        "@despawneffectscaling": "1",
+        "@remountdistance": "2",
+        "@halfmountrange": "18",
+        "@forceddismountcooldown": "30",
+        "@forceddismountspellcooldown": "0.5",
+        "@fulldismountcooldown": "30",
+        "@remounttime": "5",
+        "@showinmarketplace": "true",
+        "@dismountbuff": "DISMOUNTED",
+        "@forceddismountbuff": "FORCE_DISMOUNTED",
+        "@hostiledismountbuff": "DISMOUNTED_HOSTILE",
+        "@forcedhostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE",
+        "@longhostiledismountbuff": "DISMOUNTED_HOSTILE_LONG",
+        "@forcedlonghostiledismountbuff": "FORCE_DISMOUNTED_HOSTILE_LONG",
+        "@canuseingvg": "false",
+        "@canuseinfactionwarfare": "false",
+        "@shopsubcategory2": "swampdragon",
+        "@mountzergdisarraylevels": "5",
+        "@nutrition": "18699",
+        "@foodcategory": "mount",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.08333",
+          "craftresource": [
+            {
+              "@uniquename": "T7_MOUNT_SWAMPDRAGON",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            },
+            {
+              "@uniquename": "T7_METALBAR",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "5000",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "mountspelllist": {
+          "mountspell": [
+            {
+              "@uniquename": "MOUNTSPELL_POISONBOLT",
+              "@spellslot": "mainhand1"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_POISONBREATH",
+              "@spellslot": "offhandormainhand3"
+            },
+            {
+              "@uniquename": "MOUNTSPELL_SPRINT_LIZARD",
+              "@spellslot": "shoes"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

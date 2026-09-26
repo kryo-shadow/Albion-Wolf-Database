@@ -1,0 +1,499 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Consumable",
+  "family": "Consumable_Food",
+  "base_id": "T8_MEAL_SANDWICH_AVALON",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T8_MEAL_SANDWICH_AVALON",
+      "index": "904",
+      "name_en": "Avalonian Beef Sandwich",
+      "name_ar": "شطيرة لحم بقري أفالونية",
+      "name_de": "Avalonisches Rindfleischsandwich",
+      "name_fr": "Sandwich au bœuf avalonien",
+      "name_es": "Bocadillo de ternera avaloniano",
+      "name_ru": "Авалонский сэндвич с говядиной",
+      "descriptions": {
+        "description_en": "Avalonian meal that increases maximum health and CC Duration for a long period.",
+        "description_ar": "وجبة أفالونية تزيد الحد الأقصى للصحة ومدة التحكم في الحشود لفترة طويلة.",
+        "description_de": "Avalonische Speise, die für eine lange Zeit die maximale Lebensenergie und erhöht MK-Dauer.",
+        "description_fr": "Nourriture avalonienne augmentant votre maximum de santé et la durée de vos CC pendant une longue période.",
+        "description_es": "Comida avaloniana que aumenta la salud máxima y la duración de CM durante un largo período.",
+        "description_ru": "Авалонская еда, надолго увеличивающая максимальное здоровье и продолжительность контроля."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MEAL_SANDWICH_AVALON",
+        "description_variable": "@ITEMS_MEAL_SANDWICH_AVALON_DESC"
+      },
+      "category": "Consumable_Food",
+      "slot": "Food",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_MEAL_SANDWICH_AVALON",
+        "uisprite": "MEAL_SANDWICH_AVALON",
+        "abilitypower": "186",
+        "slottype": "food",
+        "consumespell": "FOOD_BUFF_MAXHP_AVALON_P5",
+        "shopcategory": "consumables",
+        "shopsubcategory1": "food",
+        "craftingcategory": "food",
+        "tier": "8",
+        "dummyitempower": "1100",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "true",
+        "weight": "7.95",
+        "nutrition": "795",
+        "descriptionlocatag": "@ITEMS_MEAL_SANDWICH_AVALON_DESC",
+        "shopsubcategory2": "sandwiches"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Avalonian Beef Sandwich",
+        "DE-DE": "Avalonisches Rindfleischsandwich",
+        "FR-FR": "Sandwich au bœuf avalonien",
+        "RU-RU": "Авалонский сэндвич с говядиной",
+        "PL-PL": "Awalońska Kanapka z Wołowiną",
+        "ES-ES": "Bocadillo de ternera avaloniano",
+        "PT-BR": "Sanduíche de Carne Avaloniano",
+        "IT-IT": "Panino con manzo di Avalon",
+        "ZH-CN": "阿瓦隆牛肉三明治",
+        "KO-KR": "아발로니안 소고기 샌드위치",
+        "JA-JP": "アバロニア人のビーフサンドイッチ",
+        "ZH-TW": "阿瓦隆牛肉三明治",
+        "ID-ID": "Roti Lapis Daging Sapi Avalonian",
+        "TR-TR": "Avalon Sığır Etli Sandviç",
+        "AR-SA": "شطيرة لحم بقري أفالونية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Avalonian meal that increases maximum health and CC Duration for a long period.",
+        "DE-DE": "Avalonische Speise, die für eine lange Zeit die maximale Lebensenergie und erhöht MK-Dauer.",
+        "FR-FR": "Nourriture avalonienne augmentant votre maximum de santé et la durée de vos CC pendant une longue période.",
+        "RU-RU": "Авалонская еда, надолго увеличивающая максимальное здоровье и сопротивление контролю.",
+        "PL-PL": "Awaloński posiłek, który zwiększa maksymalne zdrowie oraz czas kontroli tłumu przez długi okres czasu.",
+        "ES-ES": "Comida avaloniana que aumenta la salud máxima y la duración de CM durante un largo período.",
+        "PT-BR": "Refeição Avaloniana que aumenta a sua vida máxima e duração de controle de grupo por um longo período.",
+        "IT-IT": "Pietanza di Avalon che aumenta la salute massima e la durata degli effetti di controllo per un lungo periodo.",
+        "ZH-CN": "阿瓦隆特色菜肴，可以长时间提高最大生命值和群控持续时间。",
+        "KO-KR": "긴 시간 동안 최대 생명력과 CC 지속 시간을 증가시켜주는 아발로니안 식사입니다.",
+        "JA-JP": "長時間にわたり最大体力と受けるCC持続時間が増加するアバロニア人料理。",
+        "ZH-TW": "一道阿瓦隆料理，能長時間提升生命值上限和控場持續時間。",
+        "ID-ID": "Makanan Avalonian yang meningkatkan HP maksimum dan Durasi Kontrol Kerumunan untuk waktu yang lama.",
+        "TR-TR": "Uzun bir süreliğine azami sağlığı ve KK Süresi değerini artıran bir Avalon yemeği.",
+        "AR-SA": "وجبة أفالونية تزيد الحد الأقصى للصحة ومدة التحكم في الحشود لفترة طويلة."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 90,
+        "secondary_resource": "T8_MEAT",
+        "secondary_count": 72,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 90
+          },
+          {
+            "id": "T8_MEAT",
+            "count": 72
+          },
+          {
+            "id": "T4_BREAD",
+            "count": 36
+          },
+          {
+            "id": "T8_BUTTER",
+            "count": 18
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 2.65,
+        "crafting_focus": 494,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 90
+          },
+          {
+            "id": "T8_MEAT",
+            "count": 72
+          },
+          {
+            "id": "T4_BREAD",
+            "count": 36
+          },
+          {
+            "id": "T8_BUTTER",
+            "count": 18
+          }
+        ],
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 90,
+        "secondary_resource": "T8_MEAT",
+        "secondary_count": 72
+      },
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": 186,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 8,
+        "weight": 7.95,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": {
+        "1": {
+          "level": 1,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.65,
+          "crafting_focus": 694,
+          "crafting_resources": [
+            {
+              "id": "T4_BREAD",
+              "count": 36,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_MEAT",
+              "count": 72,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T8_BUTTER",
+              "count": 18,
+              "enchantment_level": 1
+            },
+            {
+              "id": "QUESTITEM_TOKEN_AVALON",
+              "count": 90,
+              "enchantment_level": 1
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 90,
+              "enchantment_level": 1
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL1",
+              "count": 9
+            }
+          ]
+        },
+        "2": {
+          "level": 2,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.65,
+          "crafting_focus": 1094,
+          "crafting_resources": [
+            {
+              "id": "T4_BREAD",
+              "count": 36,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_MEAT",
+              "count": 72,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T8_BUTTER",
+              "count": 18,
+              "enchantment_level": 2
+            },
+            {
+              "id": "QUESTITEM_TOKEN_AVALON",
+              "count": 90,
+              "enchantment_level": 2
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 90,
+              "enchantment_level": 2
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL2",
+              "count": 9
+            }
+          ]
+        },
+        "3": {
+          "level": 3,
+          "item_power": null,
+          "durability": null,
+          "crafting_silver": 0,
+          "crafting_time": 2.65,
+          "crafting_focus": 2295,
+          "crafting_resources": [
+            {
+              "id": "T4_BREAD",
+              "count": 36,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_MEAT",
+              "count": 72,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T8_BUTTER",
+              "count": 18,
+              "enchantment_level": 3
+            },
+            {
+              "id": "QUESTITEM_TOKEN_AVALON",
+              "count": 90,
+              "enchantment_level": 3
+            },
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 90,
+              "enchantment_level": 3
+            }
+          ],
+          "upgrade_resources": [
+            {
+              "id": "T1_FISHSAUCE_LEVEL3",
+              "count": 9
+            }
+          ]
+        }
+      },
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "consumables",
+        "shop_subcategory1": "food",
+        "crafting_category": "food",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": true,
+        "uisprite": "MEAL_SANDWICH_AVALON"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MEAL_SANDWICH_AVALON",
+        "item_database_index": "904"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Avalonian Beef Sandwich",
+        "name_ar": "شطيرة لحم بقري أفالونية",
+        "name_de": "Avalonisches Rindfleischsandwich",
+        "name_fr": "Sandwich au bœuf avalonien",
+        "name_es": "Bocadillo de ternera avaloniano",
+        "name_ru": "Авалонский сэндвич с говядиной"
+      },
+      "raw": {
+        "@uniquename": "T8_MEAL_SANDWICH_AVALON",
+        "@uisprite": "MEAL_SANDWICH_AVALON",
+        "@abilitypower": "186",
+        "@slottype": "food",
+        "@consumespell": "FOOD_BUFF_MAXHP_AVALON_P5",
+        "@shopcategory": "consumables",
+        "@shopsubcategory1": "food",
+        "@craftingcategory": "food",
+        "@tier": "8",
+        "@dummyitempower": "1100",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "true",
+        "@weight": "7.95",
+        "@nutrition": "795",
+        "@descriptionlocatag": "@ITEMS_MEAL_SANDWICH_AVALON_DESC",
+        "@shopsubcategory2": "sandwiches",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@amountcrafted": "10",
+          "@forcesinglecraft": "false",
+          "@craftingfocus": "494",
+          "@time": "2.65",
+          "craftresource": [
+            {
+              "@uniquename": "T4_BREAD",
+              "@count": "36"
+            },
+            {
+              "@uniquename": "T8_MEAT",
+              "@count": "72"
+            },
+            {
+              "@uniquename": "T8_BUTTER",
+              "@count": "18"
+            },
+            {
+              "@uniquename": "QUESTITEM_TOKEN_AVALON",
+              "@maxreturnamount": "0",
+              "@count": "90"
+            }
+          ]
+        },
+        "enchantments": {
+          "enchantment": [
+            {
+              "@enchantmentlevel": "1",
+              "@abilitypower": "186",
+              "@dummyitempower": "1200",
+              "@consumespell": "FOOD_BUFF_MAXHP_AVALON_P6",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "694",
+                "@time": "2.65",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_MEAT",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T8_BUTTER",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "QUESTITEM_TOKEN_AVALON",
+                    "@maxreturnamount": "0",
+                    "@count": "90"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL1",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "2",
+              "@abilitypower": "186",
+              "@dummyitempower": "1300",
+              "@consumespell": "FOOD_BUFF_MAXHP_AVALON_P7",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "1094",
+                "@time": "2.65",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_MEAT",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T8_BUTTER",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "QUESTITEM_TOKEN_AVALON",
+                    "@maxreturnamount": "0",
+                    "@count": "90"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL2",
+                  "@count": "9"
+                }
+              }
+            },
+            {
+              "@enchantmentlevel": "3",
+              "@abilitypower": "186",
+              "@dummyitempower": "1400",
+              "@consumespell": "FOOD_BUFF_MAXHP_AVALON_P8",
+              "craftingrequirements": {
+                "@amountcrafted": "10",
+                "@craftingfocus": "2295",
+                "@time": "2.65",
+                "craftresource": [
+                  {
+                    "@uniquename": "T4_BREAD",
+                    "@count": "36"
+                  },
+                  {
+                    "@uniquename": "T8_MEAT",
+                    "@count": "72"
+                  },
+                  {
+                    "@uniquename": "T8_BUTTER",
+                    "@count": "18"
+                  },
+                  {
+                    "@uniquename": "QUESTITEM_TOKEN_AVALON",
+                    "@maxreturnamount": "0",
+                    "@count": "90"
+                  },
+                  {
+                    "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                    "@count": "90"
+                  }
+                ]
+              },
+              "upgraderequirements": {
+                "upgraderesource": {
+                  "@uniquename": "T1_FISHSAUCE_LEVEL3",
+                  "@count": "9"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

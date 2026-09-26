@@ -1,0 +1,253 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Gathering_Equipment",
+  "family": "Gathering_Wood",
+  "base_id": "T4_2H_TOOL_AXE",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T4_2H_TOOL_AXE",
+      "index": "2967",
+      "name_en": "Adept's Axe",
+      "name_ar": "فأس البارع",
+      "name_de": "Axt des Adepten",
+      "name_fr": "Hache de l'adepte",
+      "name_es": "Hacha del iniciado",
+      "name_ru": "Топор (знаток)",
+      "descriptions": {
+        "description_en": "Equipment Item",
+        "description_ar": "عنصر معدات",
+        "description_de": "Ausrüstungsgegenstand",
+        "description_fr": "Pièce d'équipement",
+        "description_es": "Objeto de equipo",
+        "description_ru": "Снаряжение"
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_TOOL_AXE",
+        "description_variable": "@ITEMS_T4_2H_TOOL_AXE_DESC"
+      },
+      "category": "Gathering_Wood",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_TOOL_AXE",
+        "mesh": "T4_TOOL_AXE",
+        "uisprite": "TOOL_AXE",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "gathering",
+        "shopsubcategory1": "wood",
+        "attacktype": "melee",
+        "attackdamage": "31",
+        "attackspeed": "1",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "4",
+        "weight": "1.69",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "2800",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_axe",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "700",
+        "unequipincombat": "false",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "axes"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Axe",
+        "DE-DE": "Axt des Adepten",
+        "FR-FR": "Hache de l'adepte",
+        "RU-RU": "Топор (знаток)",
+        "PL-PL": "Siekiera Adepta",
+        "ES-ES": "Hacha del iniciado",
+        "PT-BR": "Machado do Adepto",
+        "IT-IT": "Ascia del sapiente",
+        "ZH-CN": "老手级斧头",
+        "KO-KR": "숙련자의 도끼",
+        "JA-JP": "斧（名人）",
+        "ZH-TW": "老手級斧頭",
+        "ID-ID": "Kapak Mahir",
+        "TR-TR": "Ehil Baltası",
+        "AR-SA": "فأس البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item",
+        "DE-DE": "Ausrüstungsgegenstand",
+        "FR-FR": "Pièce d'équipement",
+        "RU-RU": "Снаряжение",
+        "PL-PL": "Przedmiot do wyposażenia",
+        "ES-ES": "Objeto de equipo",
+        "PT-BR": "Item de Equipamento",
+        "IT-IT": "Oggetto d'equipaggiamento",
+        "ZH-CN": "装备物品",
+        "KO-KR": "장비 아이템",
+        "JA-JP": "装備アイテム",
+        "ZH-TW": "裝備物品",
+        "ID-ID": "Item Perlengkapan",
+        "TR-TR": "Ekipman Eşyası",
+        "AR-SA": "عنصر معدات"
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 2
+          }
+        ]
+      },
+      "crafting_full": {
+        "silver": 0,
+        "time": 0.33333,
+        "crafting_focus": 429,
+        "swap_transaction": false,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 6
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 2
+          }
+        ],
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 6,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 2
+      },
+      "combat_stats": {
+        "attack_damage": 31,
+        "attack_speed": 1,
+        "attack_range": 3,
+        "attack_type": "melee",
+        "mainhand_animation": "t_axe",
+        "item_power": 700,
+        "ability_power": 100,
+        "durability": 2800,
+        "max_quality_level": 1,
+        "tier_raw": 4,
+        "weight": 1.69,
+        "two_handed": true,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": 700,
+      "effective_durability": 2800,
+      "shop": {
+        "shop_category": "gathering",
+        "shop_subcategory1": "wood",
+        "crafting_category": "tools",
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": "TOOL_AXE"
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_TOOL_AXE",
+        "item_database_index": "2967"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Axe",
+        "name_ar": "فأس البارع",
+        "name_de": "Axt des Adepten",
+        "name_fr": "Hache de l'adepte",
+        "name_es": "Hacha del iniciado",
+        "name_ru": "Топор (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_TOOL_AXE",
+        "@mesh": "T4_TOOL_AXE",
+        "@uisprite": "TOOL_AXE",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "wood",
+        "@attacktype": "melee",
+        "@attackdamage": "31",
+        "@attackspeed": "1",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "4",
+        "@weight": "1.69",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "2800",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_axe",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "700",
+        "@unequipincombat": "false",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "axes",
+        "canharvest": {
+          "@resourcetype": "WOOD"
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.33333",
+          "@craftingfocus": "429",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "6"
+            },
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "2"
+            }
+          ]
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "local_definitions_preserved": true,
+  "collection": "Farming",
+  "family": "Farming_Pasture",
+  "base_id": "T3_FARM_CHICKEN_GROWN",
+  "item_count": 1,
+  "items": [
+    {
+      "id": "T3_FARM_CHICKEN_GROWN",
+      "index": "111",
+      "name_en": "Chicken",
+      "name_ar": "الدجاج",
+      "name_de": "Huhn",
+      "name_fr": "Poulet",
+      "name_es": "Pollo",
+      "name_ru": "Курица",
+      "descriptions": {
+        "description_en": "Chickens can be slaughtered to produce Raw Chicken, or left alive to produce Hen Eggs.",
+        "description_ar": "يمكن ذبح الدجاج لإنتاج دجاج نيء، أو تركه حيًا لإنتاج بيض الدجاج.",
+        "description_de": "Schlachte Hühner für rohes Huhn oder lass sie am Leben und erhalte Hühnereier.",
+        "description_fr": "Tuez un poulet pour obtenir du poulet cru ou gardez-le en vie pour ses œufs de poule",
+        "description_es": "Puedes sacrificar pollos para conseguir carne de pollo o dejarlos vivos y obtener huevos",
+        "description_ru": "Забейте курицу ради мяса или оставьте в живых - пусть несет яйца."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FARM_CHICKEN_GROWN",
+        "description_variable": "@ITEMS_T3_FARM_CHICKEN_GROWN_DESC"
+      },
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_FARM_CHICKEN_GROWN",
+        "tier": "3",
+        "placefame": "0",
+        "pickupable": "true",
+        "destroyable": "false",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "pasture",
+        "kind": "animal",
+        "weight": "10.83",
+        "unlockedtocraft": "false",
+        "tile": "T3_FARM_CHICKEN_BABY",
+        "prefabname": "FARM_CHICKEN_GROWN_01",
+        "prefabscale": "1.1",
+        "resourcevalue": "132",
+        "animationid": "breed",
+        "itemvalue": "720",
+        "shopsubcategory2": "animals",
+        "shopsubcategory3": "chicken"
+      },
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "132",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Chicken",
+        "DE-DE": "Huhn",
+        "FR-FR": "Poulet",
+        "RU-RU": "Курица",
+        "PL-PL": "Kura",
+        "ES-ES": "Pollo",
+        "PT-BR": "Galinha",
+        "IT-IT": "Pollo",
+        "ZH-CN": "家鸡",
+        "KO-KR": "닭",
+        "JA-JP": "鶏",
+        "ZH-TW": "雞",
+        "ID-ID": "Ayam",
+        "TR-TR": "Tavuk",
+        "AR-SA": "الدجاج"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Chickens can be slaughtered to produce Raw Chicken, or left alive to produce Hen Eggs.",
+        "DE-DE": "Schlachte Hühner für rohes Huhn oder lass sie am Leben und erhalte Hühnereier.",
+        "FR-FR": "Tuez un poulet pour obtenir du poulet cru ou gardez-le en vie pour ses œufs de poule",
+        "RU-RU": "Забейте курицу ради мяса или оставьте в живых - пусть несет яйца.",
+        "PL-PL": "Kury można zabić, aby otrzymać Surowego Kurczaka, albo pozostawić przy życiu, aby otrzymywać Kurze Jaja",
+        "ES-ES": "Puedes sacrificar pollos para conseguir carne de pollo o dejarlos vivos y obtener huevos",
+        "PT-BR": "Abata Galinhas para produzir Galinha Crua ou deixe-as vivas para produzirem Ovos de Galinha",
+        "IT-IT": "Un pollo può essere macellato per produrre carne di pollo cruda, oppure può essere lasciato in vita per ottenerne uova di gallina.",
+        "ZH-CN": "家鸡可以宰杀变成鸡肉，或者留着孵蛋。",
+        "KO-KR": "닭은 도살해서 생 닭고기를 만들거나, 살려 두면 달걀을 생산합니다.",
+        "JA-JP": "鶏は屠殺して生の鶏肉に加工できます。生かしておけば鶏の卵を産みます。",
+        "ZH-TW": "雞可經屠宰製成生雞肉，或留著持續生產雞蛋。",
+        "ID-ID": "Ayam bisa disembelih untuk menghasilkan Daging Ayam Mentah, atau dibiarkan hidup untuk menghasilkan Telur Ayam.",
+        "TR-TR": "Tavuklar, Çiğ Tavuk Eti elde etmek için kesilebilir ya da sağ bırakılarak Tavuk Yumurtaları üretmeleri sağlanabilir.",
+        "AR-SA": "يمكن ذبح الدجاج لإنتاج دجاج نيء، أو تركه حيًا لإنتاج بيض الدجاج."
+      },
+      "crafting_requirements": null,
+      "crafting_full": null,
+      "combat_stats": {
+        "attack_damage": null,
+        "attack_speed": null,
+        "attack_range": null,
+        "attack_type": null,
+        "mainhand_animation": null,
+        "item_power": null,
+        "ability_power": null,
+        "durability": null,
+        "max_quality_level": null,
+        "tier_raw": 3,
+        "weight": 10.83,
+        "two_handed": false,
+        "can_be_overcharged": false,
+        "physical_attack_bonus": null,
+        "magic_attack_bonus": null,
+        "physical_spell_bonus": null,
+        "magic_spell_bonus": null,
+        "heal_modifier": null,
+        "mastery_modifier": null,
+        "destiny_craft_fame_factor": null,
+        "combat_spec_achievement": null,
+        "itempower_progression": null
+      },
+      "spells": {
+        "all": [],
+        "actives": [],
+        "passives": [],
+        "active_slots": 0,
+        "passive_slots": 0
+      },
+      "enchantments": null,
+      "enchantment_detail": null,
+      "effective_item_power": null,
+      "effective_durability": null,
+      "shop": {
+        "shop_category": "farming",
+        "shop_subcategory1": "pasture",
+        "crafting_category": null,
+        "unlocked_to_craft": false,
+        "unlocked_to_equip": false,
+        "uisprite": null
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FARM_CHICKEN_GROWN",
+        "item_database_index": "111"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Chicken",
+        "name_ar": "الدجاج",
+        "name_de": "Huhn",
+        "name_fr": "Poulet",
+        "name_es": "Pollo",
+        "name_ru": "Курица"
+      },
+      "raw": {
+        "@uniquename": "T3_FARM_CHICKEN_GROWN",
+        "@tier": "3",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "10.83",
+        "@unlockedtocraft": "false",
+        "@tile": "T3_FARM_CHICKEN_BABY",
+        "@prefabname": "FARM_CHICKEN_GROWN_01",
+        "@prefabscale": "1.1",
+        "@resourcevalue": "132",
+        "@animationid": "breed",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "chicken",
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "91.67",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_wheat",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T3_WHEAT",
+              "@favoritebonus": "1"
+            }
+          }
+        },
+        "products": {
+          "product": {
+            "@productiontime": "79200",
+            "@actionname": "@FARMABLE_GETPRODUCT_BUTTON_EGG",
+            "@lootlist": "T3_CHICKEN_LOOT",
+            "@lootchance": "1",
+            "@fame": "100"
+          }
+        }
+      },
+      "source": "ao-bin-dumps"
+    }
+  ]
+}
